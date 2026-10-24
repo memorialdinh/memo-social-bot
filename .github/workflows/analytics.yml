@@ -1,0 +1,42 @@
+# Pulls your stats, learns best posting times, rebuilds the dashboard.
+name: Analytics
+on:
+  schedule:
+    - cron: "41 13 * * *"       # ~6:41 AM Pacific
+    - cron: "41 1 * * *"        # ~6:41 PM Pacific (catches 24h story stats)
+  workflow_dispatch:
+concurrency: { group: repo-writer, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  analytics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - name: Pull stats + learn best times
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_IG_ID: ${{ secrets.META_IG_ID }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+        run: python -m bot.analytics
+      - name: Keep TikTok key fresh
+        if: always() && hashFiles('data/.tiktok_refresh_token') != ''
+        env: { GH_TOKEN: "${{ secrets.GH_PAT }}" }
+        run: |
+          if [ -n "$GH_TOKEN" ]; then gh secret set TIKTOK_REFRESH_TOKEN < data/.tiktok_refresh_token; fi
+          rm -f data/.tiktok_refresh_token
+      - name: Re-plan upcoming posts with fresh best times
+        run: python -m bot.plan
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "memo-social-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A data docs queue
+          git diff --cached --quiet || (git commit -m "bot: analytics" && git pull --rebase && git push)

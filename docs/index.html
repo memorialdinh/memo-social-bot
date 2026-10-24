@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Social Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#101010;--card:#181817;--line:#2a2a28;--ink:#f3f1ec;--ink2:#c9c5bd;--muted:#8d8a83;--gold:#bca480;--gold-dim:#6f624d;
+--ig:#3987e5;--fb:#d95926;--li:#199e70;--tt:#c98500;--bad:#e66767;--ok:#3fae6a;--warn:#e0a106}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 16px 60px}
+h1,h2,h3{font-family:"Space Grotesk",sans-serif;margin:0;letter-spacing:-.01em}
+h1{font-size:28px}h2{font-size:18px;margin-bottom:14px}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.bar{height:4px;background:var(--gold);border-radius:2px;width:56px;margin:14px 0 22px}
+.grid{display:grid;gap:14px}.g4{grid-template-columns:repeat(4,1fr)}.g2{grid-template-columns:1fr 1fr}
+@media(max-width:860px){.g4{grid-template-columns:1fr 1fr}.g2{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.tile .k{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.tile .v{font-family:"Space Grotesk";font-size:30px;font-weight:700;margin-top:4px}
+.tile .d{font-size:13px;color:var(--ink2)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.alerts{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+.alert{border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:13px;background:var(--card)}
+.alert b{font-family:"Space Grotesk"}
+.alert.warn{border-color:var(--warn)}.alert.bad{border-color:var(--bad)}.alert.good{border-color:var(--gold-dim)}
+section{margin-top:26px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{color:var(--muted);text-align:left;font-weight:500;font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding:8px 6px;border-bottom:1px solid var(--line)}
+td{padding:9px 6px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink2)}
+td.h{color:var(--ink)}
+.scroll{overflow-x:auto}
+.chip{display:inline-block;font-size:11.5px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);margin:0 4px 4px 0;white-space:nowrap}
+.s-posted,.s-draft_sent{border-color:#2f5b3f;color:#9fd3b1}.s-failed{border-color:var(--bad);color:#f2a5a5}
+.s-retry,.s-needs_approval{border-color:var(--warn);color:#f0cf7a}.s-missed{color:var(--muted)}
+.heat{border-collapse:separate;border-spacing:2px;font-size:11px}
+.heat td{width:34px;height:26px;border:0;border-radius:4px;text-align:center;padding:0;color:#101010;cursor:default}
+.heat th{border:0;padding:2px 4px;font-size:11px;text-transform:none;letter-spacing:0}
+.tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.tabs button{background:transparent;color:var(--ink2);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font:500 13px Inter;cursor:pointer}
+.tabs button.on{border-color:var(--gold);color:var(--gold)}
+.best{font-size:13px;color:var(--ink2);margin-top:10px}
+.cap{white-space:pre-wrap;background:#121212;border:1px solid var(--line);border-radius:10px;padding:10px;font-size:13px;color:var(--ink2);margin:6px 0}
+.btn{background:var(--gold);color:#101010;border:0;border-radius:8px;padding:6px 12px;font:600 12.5px Inter;cursor:pointer}
+.empty{color:var(--muted);font-size:13.5px}
+.tip{padding:8px 0;border-bottom:1px solid var(--line);color:var(--ink2)}.tip:last-child{border:0}
+canvas{max-height:280px}
+#tt{position:fixed;pointer-events:none;background:#000;border:1px solid var(--gold-dim);color:var(--ink);padding:6px 9px;border-radius:8px;font-size:12px;display:none;z-index:9}
+</style></head><body><div class="wrap">
+<h1>Social Command Center</h1><div class="sub" id="upd"></div><div class="bar"></div>
+<div class="alerts" id="alerts"></div>
+<div class="grid g4" id="tiles"></div>
+
+<section class="grid g2">
+  <div class="card"><h2>Followers</h2><canvas id="fol"></canvas><div class="empty" id="fol-empty"></div></div>
+  <div class="card"><h2>Best time to post</h2><div class="tabs" id="htabs"></div><div class="scroll" id="heat"></div><div class="best" id="bestline"></div></div>
+</section>
+
+<section class="grid g2">
+  <div class="card"><h2>Engagement rate by topic</h2><canvas id="bytrack"></canvas><div class="empty" id="bytrack-empty"></div></div>
+  <div class="card"><h2>What the bot learned</h2><div id="tips"></div><h3 style="font-size:15px;margin:16px 0 8px">Engagement by format</h3><canvas id="bykind" style="max-height:170px"></canvas></div>
+</section>
+
+<section class="card"><h2>TikTok drafts to finish</h2><div class="sub" style="margin:-8px 0 12px">Open TikTok → Inbox → tap the draft, paste the caption, Post.</div><div id="tiktok"></div></section>
+
+<section class="card"><h2>Queue (last 2 days → next 3)</h2><div class="scroll"><table id="queue"></table></div></section>
+
+<section class="card"><h2>Top posts (by engagement rate)</h2><div class="scroll"><table id="top"></table></div></section>
+</div><div id="tt"></div>
+<script>
+const D={"updated": "Fri Oct 23, 5:19 PM", "followers": [], "fol_latest": {}, "fol_change": {}, "published_30": 0, "tracked_30": 0, "avg_rate": null, "best": {}, "insights": {}, "queue": [], "approvals": [], "failures": [], "tiktok": [], "tracks": {"market_update": "MARKET UPDATE", "buyer_education": "BUYER TIP", "seller_education": "SELLER TIP", "agent_attraction": "FOR AGENTS", "laws_and_updates": "NEW LAW ALERT", "investment": "INVESTOR MATH", "local_spotlight": "LOCAL SPOTLIGHT"}, "mix": {"post": 3, "reel": 2, "story": 5}};
+const P={instagram:["Instagram","var(--ig)","#3987e5"],facebook:["Facebook","var(--fb)","#d95926"],linkedin:["LinkedIn","var(--li)","#199e70"],tiktok:["TikTok","var(--tt)","#c98500"]};
+const $=id=>document.getElementById(id);const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pct=v=>v==null?"—":(v*100).toFixed(1)+"%";
+const DAYS=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+const hr=h=>{h=+h;return (h%12||12)+(h<12?"a":"p")};
+$("upd").textContent="Updated "+D.updated;
+Chart.defaults.color="#8d8a83";Chart.defaults.font.family="Inter";Chart.defaults.borderColor="#2a2a28";
+
+// alerts
+const al=[];
+if(D.approvals.length)al.push(`<div class="alert warn"><b>${D.approvals.length}</b> waiting for your approval → run “Approve posts” in GitHub Actions</div>`);
+if(D.failures.length)al.push(`<div class="alert bad"><b>${D.failures.length}</b> failed posts (see queue)</div>`);
+if(D.tiktok.length)al.push(`<div class="alert good"><b>${D.tiktok.length}</b> TikTok drafts ready to post</div>`);
+if((D.insights.errors||[]).length)al.push(`<div class="alert bad">Analytics: ${esc(D.insights.errors.join(" · "))}</div>`);
+$("alerts").innerHTML=al.join("")||`<div class="alert good">All clear. Bot is running.</div>`;
+
+// tiles
+const tiles=[];
+for(const p of ["instagram","facebook","tiktok"]){const v=D.fol_latest[p];const c=D.fol_change[p];
+ tiles.push(`<div class="card tile"><div class="k"><span class="dot" style="background:${P[p][1]}"></span>${P[p][0]} followers</div><div class="v">${v==null?"—":v.toLocaleString()}</div><div class="d">${c==null?"connect to start tracking":(c>=0?"+":"")+c+" in 30 days"}</div></div>`)}
+tiles.push(`<div class="card tile"><div class="k">Avg engagement · 30d</div><div class="v">${pct(D.avg_rate)}</div><div class="d">${D.published_30} published · ${D.tracked_30} tracked</div></div>`);
+$("tiles").innerHTML=tiles.join("");
+
+// followers chart
+const fp={};for(const r of D.followers){(fp[r.platform]=fp[r.platform]||[]).push(r)}
+const dates=[...new Set(D.followers.map(r=>r.date))].sort();
+if(dates.length>1){new Chart($("fol"),{type:"line",data:{labels:dates,datasets:Object.keys(fp).map(p=>({label:P[p]?.[0]||p,data:dates.map(d=>{const r=fp[p].find(x=>x.date===d);return r?+r.followers:null}),borderColor:P[p]?.[2],backgroundColor:P[p]?.[2],borderWidth:2,pointRadius:0,pointHoverRadius:5,spanGaps:true,tension:.25}))},
+ options:{interaction:{mode:"index",intersect:false},plugins:{legend:{labels:{boxWidth:10,boxHeight:10,usePointStyle:true}}},scales:{x:{grid:{display:false},ticks:{maxTicksLimit:6}},y:{grid:{color:"#222"}}}}})}
+else $("fol-empty").textContent="Follower history starts after the first analytics run.";
+
+// heatmap
+const heat=D.best.heatmap||{};const plats=Object.keys(heat).filter(p=>Object.values(heat[p]).some(row=>Object.values(row).some(v=>v>0)));
+const tt=$("tt");
+function drawHeat(p){document.querySelectorAll("#htabs button").forEach(b=>b.classList.toggle("on",b.dataset.p===p));
+ const H=heat[p];const hours=Object.keys(H["0"]).map(Number);let max=0;for(const d in H)for(const h in H[d])max=Math.max(max,H[d][h]);
+ let s=`<table class="heat"><tr><th></th>${hours.map(h=>`<th>${hr(h)}</th>`).join("")}</tr>`;
+ for(let d=0;d<7;d++){s+=`<tr><th>${DAYS[d]}</th>`;for(const h of hours){const v=max?H[d][h]/max:0;
+  const a=.08+.92*v;s+=`<td data-t="${DAYS[d]} ${hr(h)} · score ${(v*100).toFixed(0)}/100" style="background:rgba(188,164,128,${a.toFixed(2)})"></td>`}s+="</tr>"}
+ $("heat").innerHTML=s+"</table>";
+ const top=(D.best.platforms||{})[p];const n=(D.best.samples||{})[p]||0;
+ $("bestline").innerHTML=top?`Top hours today (${DAYS[(new Date().getDay()+6)%7]}): <b style="color:var(--gold)">${top[(new Date().getDay()+6)%7+""]?.slice(0,3).map(hr).join(", ")||"—"}</b> · based on ${n} posts`:`Learning… ${n} posts so far (needs ~8). Using your default hours until then.`}
+if(plats.length){$("htabs").innerHTML=plats.map(p=>`<button data-p="${p}">${P[p][0]}</button>`).join("");
+ document.querySelectorAll("#htabs button").forEach(b=>b.onclick=()=>drawHeat(b.dataset.p));drawHeat(plats[0])}
+else $("heat").innerHTML=`<div class="empty">Needs posting history. Until then the bot uses your default hours from config.yaml.</div>`;
+document.addEventListener("mousemove",e=>{const t=e.target.closest("[data-t]");if(t){tt.style.display="block";tt.textContent=t.dataset.t;tt.style.left=e.clientX+12+"px";tt.style.top=e.clientY+12+"px"}else tt.style.display="none"});
+
+// by track / kind
+const sc=(D.insights.scores)||{};
+const tr=Object.entries(sc).filter(([k])=>k.startsWith("track:")).map(([k,v])=>[k.slice(6),v]).sort((a,b)=>b[1].avg_rate-a[1].avg_rate);
+const barOpts=(fmt)=>({indexAxis:"y",plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>fmt(c.raw)}}},scales:{x:{grid:{color:"#222"},ticks:{callback:v=>(v*100).toFixed(0)+"%"}},y:{grid:{display:false}}}});
+const bar=(id,rows,lab)=>new Chart($(id),{type:"bar",data:{labels:rows.map(r=>lab(r[0])),datasets:[{data:rows.map(r=>r[1].avg_rate),backgroundColor:"#bca480",borderRadius:4,borderSkipped:"start",barThickness:16}]},options:barOpts(v=>(v*100).toFixed(1)+"% avg engagement")});
+if(tr.length)bar("bytrack",tr,k=>(D.tracks[k]||k).replace(/\b\w/g,c=>c));else $("bytrack-empty").textContent="Shows up once posts have a week of data.";
+const kd=Object.entries(sc).filter(([k])=>k.startsWith("kind:")).map(([k,v])=>[k.slice(5),v]);
+if(kd.length)bar("bykind",kd,k=>k[0].toUpperCase()+k.slice(1)+"s");else $("bykind").remove();
+$("tips").innerHTML=(D.insights.tips||[]).map(t=>`<div class="tip">${esc(t)}</div>`).join("")||`<div class="empty">Tips appear after ~2 weeks of posting.</div>`;
+
+// tiktok drafts
+$("tiktok").innerHTML=D.tiktok.length?D.tiktok.map((t,i)=>`<div style="margin-bottom:14px"><div class="sub">${esc(t.item)}</div><div class="cap" id="cap${i}">${esc(t.caption)}</div><button class="btn" onclick="navigator.clipboard.writeText(document.getElementById('cap${i}').innerText);this.textContent='Copied'">Copy caption</button></div>`).join(""):`<div class="empty">Nothing waiting.</div>`;
+
+// queue
+const st=s=>`s-${s}`;
+$("queue").innerHTML=`<tr><th>Day</th><th>Item</th><th>Content</th><th>Platforms</th></tr>`+D.queue.map(q=>`<tr><td>${esc(q.day.slice(5))}</td><td>${esc(q.id)}<br><span class="sub">${esc(q.kind)}</span></td><td class="h">${esc(q.headline)}<br><span class="sub">${esc(D.tracks[q.track]||q.track)}</span></td><td>${Object.entries(q.platforms).map(([p,v])=>`<span class="chip ${st(v.state)}" ${v.error?`data-t="${esc(v.error)}"`:""}><span class="dot" style="background:${P[p][1]};width:7px;height:7px"></span>${P[p][0]} · ${v.when?v.when.slice(11,16):"—"} · ${v.state.replace("_"," ")}</span>`).join("")}</td></tr>`).join("");
+// top posts
+const tp=(D.insights.top_posts)||[];
+$("top").innerHTML=tp.length?`<tr><th>Platform</th><th>Posted</th><th>Post</th><th>Engagement</th><th>Rate</th></tr>`+tp.map(r=>`<tr><td><span class="dot" style="background:${P[r.platform]?.[1]}"></span>${P[r.platform]?.[0]||r.platform}</td><td>${esc(r.posted_at.slice(0,10))}</td><td class="h">${r.permalink?`<a style="color:var(--ink)" href="${esc(r.permalink)}" target="_blank">${esc(r.caption||"(no caption)")}</a>`:esc(r.caption)}</td><td>${r.engagement}</td><td style="color:var(--gold)">${pct(+r.rate)}</td></tr>`).join(""):`<tr><td class="empty">Appears after the first analytics run.</td></tr>`;
+</script></body></html>

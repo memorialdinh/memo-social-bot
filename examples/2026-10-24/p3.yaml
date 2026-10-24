@@ -1,0 +1,31 @@
+id: p3
+kind: post
+track: buyer_education
+topic: Pre-qualified vs pre-approved
+approved: true
+design:
+  template: myth
+  kicker: BUYER TIP
+  headline: Pre-qualified is *not* pre-approved.
+  myth: A pre-qual letter makes my offer strong.
+  fact: 'Sellers want a full pre-approval: income, assets and credit already verified by the lender.'
+  cta: DM 'BUYER' for my first-time buyer roadmap
+captions:
+  instagram: 'This one costs buyers houses 👇
+
+
+    A pre-qual is a lender''s estimate. A pre-approval means they''ve actually verified your income, assets and credit. In a multiple-offer situation, sellers notice the difference.
+
+
+    DM me "BUYER" for my first-time buyer roadmap.
+
+
+    #FirstTimeHomeBuyer #HomeBuyingTips #GardenaCA #TorranceRealEstate'
+  facebook: 'Pre-qualified vs. pre-approved: one is a guess, the other is verified. If you''re house hunting in LA or Orange County, get the real pre-approval before you fall in love with a home. Message me for my buyer roadmap.'
+  linkedin: 'Quick buyer-education reminder: pre-qualification is an estimate; pre-approval is verified. Coaching buyers on this early saves deals later.'
+  tiktok: 'Pre-qualified ≠ pre-approved 🚫 #homebuyingtips #firsttimehomebuyer #realestate'
+media:
+  instagram: queue/2026-10-24/media/p3-instagram.jpg
+  facebook: queue/2026-10-24/media/p3-facebook.jpg
+  linkedin: queue/2026-10-24/media/p3-linkedin.jpg
+  tiktok: queue/2026-10-24/media/p3-tiktok.mp4

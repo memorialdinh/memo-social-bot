@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Connect account</title>
+<style>body{margin:0;background:#101010;color:#f3f1ec;font:16px/1.5 system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;padding:16px}
+.c{max-width:520px;width:100%;background:#181817;border:1px solid #2a2a28;border-radius:14px;padding:24px}
+h1{font-size:20px;margin:0 0 8px}code{display:block;word-break:break-all;background:#000;border:1px solid #6f624d;color:#bca480;padding:12px;border-radius:8px;margin:12px 0}
+button{background:#bca480;color:#101010;border:0;border-radius:8px;padding:10px 16px;font-weight:600;cursor:pointer}</style></head>
+<body><div class="c"><h1 id="t">Almost done</h1><div id="m">Copy this code and paste it into the setup script on your computer.</div><code id="code">—</code>
+<button onclick="navigator.clipboard.writeText(document.getElementById('code').textContent);this.textContent='Copied'">Copy code</button></div>
+<script>const q=new URLSearchParams(location.search);const c=q.get("code");const e=q.get("error_description")||q.get("error");
+if(c)document.getElementById("code").textContent=c;else{document.getElementById("t").textContent="Something went wrong";document.getElementById("m").textContent=e||"No code was returned. Try the setup script again.";}</script>
+</body></html>

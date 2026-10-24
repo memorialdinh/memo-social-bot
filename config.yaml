@@ -1,0 +1,85 @@
+# ─────────────────────────────────────────────────────────────
+#  Memo Social Bot — main settings
+#  Edit this file on GitHub (pencil icon) to change how the bot behaves.
+#  Passwords / access keys NEVER go here — they go in GitHub Secrets.
+# ─────────────────────────────────────────────────────────────
+
+timezone: America/Los_Angeles
+
+brand:
+  name: "Memo Dinh"
+  title: "Real Estate Consultant"
+  team: "Prestige Luxury Group"
+  brokerage: "Epique Realty"
+  dre: "02066757"
+  phone: "562-253-9034"
+  website: "theprestige.luxe"
+  agent_site: "joinmemo.netlify.app"      # used on agent-attraction posts
+  booking: "tidycal.com/memorialdinh"
+  colors:
+    obsidian: "#101010"
+    slate: "#545451"
+    carbon: "#d9d6d1"
+    gold: "#bca480"
+  # Added to the END of every caption automatically (unless already there).
+  compliance_footer: "Memo Dinh | DRE #02066757 | Epique Realty | Equal Housing Opportunity. Not legal, tax or lending advice."
+  agent_compliance_footer: "Memo Dinh | DRE #02066757 | Epique Realty. Revenue share & equity programs are subject to Epique's current plan terms and eligibility; no income is guaranteed."
+
+# Turn a platform off by setting enabled: false
+platforms:
+  instagram: { enabled: true }
+  facebook:  { enabled: true }
+  linkedin:  { enabled: true }
+  tiktok:    { enabled: true, mode: inbox }   # inbox = lands in your TikTok drafts, you tap Post
+
+# What gets posted where
+routing:
+  post:  [instagram, facebook, linkedin, tiktok]   # TikTok gets an animated version
+  reel:  [instagram, facebook, linkedin, tiktok]
+  story: [instagram, facebook]                      # LinkedIn/TikTok have no story API
+
+# Daily volume the content writer aims for
+daily_mix:
+  post: 3
+  reel: 2
+  story: 5
+
+# Content tracks and how often each should appear (relative weights)
+tracks:
+  market_update:      { weight: 3, label: "MARKET UPDATE" }
+  buyer_education:    { weight: 3, label: "BUYER TIP" }
+  seller_education:   { weight: 3, label: "SELLER TIP" }
+  agent_attraction:   { weight: 2, label: "FOR AGENTS" }
+  laws_and_updates:   { weight: 1, label: "NEW LAW ALERT" }
+  investment:         { weight: 2, label: "INVESTOR MATH" }
+  local_spotlight:    { weight: 1, label: "LOCAL SPOTLIGHT" }
+  community:          { weight: 0, label: "BIRTHDAY CLUB" }   # written by the engagement brain, not the daily writer
+
+# Safety: these tracks always wait for your approval before posting.
+# Everything else posts automatically once the writer marks it approved.
+require_approval_tracks: [laws_and_updates]
+# Set to true if you want to approve EVERYTHING by hand.
+require_approval_all: false
+
+schedule:
+  # Used until the analytics bot has enough data to pick times for you.
+  default_feed_hours: [8, 12, 17, 19, 10]       # posts + reels, in order of preference
+  story_hours: [7, 10, 13, 16, 20]
+  earliest_hour: 7
+  latest_hour: 21
+  min_gap_minutes: 90                          # between feed posts on the same platform
+  use_best_times: true                         # let analytics pick the hours once it has data
+  max_late_hours: 6                            # if a post is more than this late, skip it
+
+headshots:
+  # Drop PNG/JPG headshots in assets/headshots/. Each platform gets a different
+  # one each day (rotates automatically). Leave lists empty to rotate all files.
+  instagram: []
+  facebook: []
+  linkedin: []
+  tiktok: []
+
+api:
+  graph_version: "v25.0"        # Meta Graph API version
+  linkedin_version: "202609"    # LinkedIn API version (YYYYMM). Bump yearly.
+  instagram_online_followers_tz: America/Los_Angeles

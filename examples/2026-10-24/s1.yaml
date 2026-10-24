@@ -1,0 +1,11 @@
+id: s1
+kind: story
+track: buyer_education
+approved: true
+design:
+  kicker: QUICK QUIZ
+  headline: 'Pre-qual or pre-approval: which one do sellers *trust*?'
+  cta: Reply with your answer 👇
+media:
+  instagram: queue/2026-10-24/media/s1-instagram.jpg
+  facebook: queue/2026-10-24/media/s1-facebook.jpg

@@ -1,0 +1,24 @@
+# Tap "Run workflow" in the GitHub app to approve a day (or specific items).
+name: Approve posts
+on:
+  workflow_dispatch:
+    inputs:
+      day: { description: "Day to approve (YYYY-MM-DD)", required: true }
+      items: { description: "Optional: item ids, space-separated (blank = whole day)", required: false, default: "" }
+concurrency: { group: repo-writer, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  approve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python -m bot.approve "${{ inputs.day }}" ${{ inputs.items }}
+      - run: python -m bot.dashboard
+      - run: |
+          git config user.name "memo-social-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A queue docs
+          git diff --cached --quiet || (git commit -m "approve ${{ inputs.day }}" && git pull --rebase && git push)
