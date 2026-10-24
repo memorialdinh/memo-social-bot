@@ -7,85 +7,98 @@
 <style>
 :root{--bg:#101010;--card:#181817;--line:#2a2a28;--ink:#f3f1ec;--ink2:#c9c5bd;--muted:#8d8a83;--gold:#bca480;--gold-dim:#6f624d;--ok:#3fae6a;--bad:#e66767}
 *{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 Inter,system-ui,sans-serif}
-.wrap{max-width:720px;margin:0 auto;padding:28px 16px 70px}
+.wrap{max-width:720px;margin:0 auto;padding:26px 16px 70px}
 h1,h2{font-family:"Space Grotesk",sans-serif;margin:0;letter-spacing:-.01em}
 h1{font-size:26px}h2{font-size:17px;margin:0 0 10px}
 .bar{height:4px;background:var(--gold);border-radius:2px;width:56px;margin:14px 0 20px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:14px}
 .note{font-size:13px;color:var(--muted);line-height:1.55}
-label{display:block;font-size:13px;color:var(--ink2);margin-bottom:6px}
-textarea{width:100%;min-height:92px;background:#0c0c0c;border:1px solid var(--line);border-radius:10px;color:var(--ink);
- font:13px/1.5 ui-monospace,Menlo,monospace;padding:11px;resize:vertical}
-textarea:focus{outline:none;border-color:var(--gold)}
+label{display:block;font-size:13px;color:var(--ink2);margin:14px 0 6px}
+input,textarea{width:100%;background:#0c0c0c;border:1px solid var(--line);border-radius:10px;color:var(--ink);
+ font:13px/1.5 ui-monospace,Menlo,monospace;padding:11px}
+textarea{min-height:74px;resize:vertical}
+input:focus,textarea:focus{outline:none;border-color:var(--gold)}
 button{background:var(--gold);color:#101010;border:0;border-radius:9px;padding:11px 18px;font:600 14px Inter;cursor:pointer}
 button:disabled{opacity:.5;cursor:default}
 button.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold-dim);padding:7px 13px;font-size:12.5px}
-.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:16px}
 .secret{border:1px solid var(--line);border-radius:11px;padding:13px;margin-top:12px;background:#121212}
-.secret .k{font-family:"Space Grotesk";font-weight:700;color:var(--gold);font-size:13.5px;letter-spacing:.02em}
+.secret .k{font-family:"Space Grotesk";font-weight:700;color:var(--gold);font-size:13.5px}
 .secret .v{font:12.5px/1.5 ui-monospace,Menlo,monospace;color:var(--ink2);word-break:break-all;margin:7px 0 10px;
- max-height:72px;overflow:auto;background:#0b0b0b;border:1px solid var(--line);border-radius:7px;padding:8px}
-.pill{display:inline-block;font-size:11.5px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted);margin-left:7px}
+ max-height:70px;overflow:auto;background:#0b0b0b;border:1px solid var(--line);border-radius:7px;padding:8px}
+.pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);margin-left:7px;font-family:Inter;font-weight:500}
 .ok{color:var(--ok)}.bad{color:var(--bad)}
-.steps{counter-reset:s;padding:0;margin:0;list-style:none}
-.steps li{counter-increment:s;padding:7px 0 7px 34px;position:relative;color:var(--ink2);font-size:14px}
-.steps li:before{content:counter(s);position:absolute;left:0;top:7px;width:22px;height:22px;border-radius:50%;
+.steps{counter-reset:s;padding:0;margin:8px 0 0;list-style:none}
+.steps li{counter-increment:s;padding:7px 0 7px 32px;position:relative;color:var(--ink2);font-size:14px}
+.steps li:before{content:counter(s);position:absolute;left:0;top:7px;width:21px;height:21px;border-radius:50%;
  background:var(--gold);color:#101010;font:700 12px "Space Grotesk";display:grid;place-items:center}
 a{color:var(--gold)}
 #out{display:none}
-.warn{border-left:3px solid var(--gold);padding-left:12px;margin:14px 0;font-size:13px;color:var(--ink2)}
+.warn{border-left:3px solid var(--gold);padding-left:12px;margin:0 0 6px;font-size:13px;color:var(--ink2)}
+.tick{font-size:13px;color:var(--ink2);padding:3px 0}
 </style></head><body><div class="wrap">
 
 <h1>Connect Accounts</h1>
-<div class="note">Turns your Meta access token into the three values the bot needs.</div>
+<div class="note">Turns your Meta login into the three values the bot needs. One time only.</div>
 <div class="bar"></div>
 
 <div class="card">
   <div class="warn">
-    <strong>This page runs entirely in your browser.</strong> Your token is sent only to Meta's own API
-    (graph.facebook.com) to look up your Page and Instagram IDs. Nothing is stored, logged, or sent anywhere else.
-    Close the tab and it's gone.
+    <strong>Everything here happens inside this browser tab.</strong> Your app secret and token are sent
+    only to Meta's own API (graph.facebook.com) and are never stored, logged, or sent anywhere else.
+    Close the tab and nothing remains.
   </div>
-  <ol class="steps">
-    <li>In the Graph API Explorer, click <strong>Generate Access Token</strong> and approve your Page + Instagram.</li>
-    <li>Click <strong>Copy Token</strong> there.</li>
-    <li>Paste it below and press <strong>Get my values</strong>.</li>
-    <li>Copy each value into GitHub → Settings → Secrets and variables → Actions.</li>
-  </ol>
 </div>
 
 <div class="card">
-  <label for="tok">Paste your access token</label>
-  <textarea id="tok" spellcheck="false" placeholder="EAAG..."></textarea>
+  <h2>Step 1 — paste your App Secret</h2>
+  <div class="note">
+    Get it from
+    <a href="https://developers.facebook.com/apps/4528143254064247/settings/basic/" target="_blank">your app's Basic Settings</a>
+    → <em>App secret</em> → <strong>Show</strong> → copy.
+  </div>
+
+  <label for="secret">App Secret</label>
+  <input id="secret" type="password" spellcheck="false" placeholder="32-character secret" autocomplete="off">
+
+  <label for="tok">Access token <span class="note">(filled in for you if you arrived from the Explorer)</span></label>
+  <textarea id="tok" spellcheck="false" placeholder="EAA..."></textarea>
+
   <div class="row">
-    <button id="go">Get my values</button>
+    <button id="go">Get my 3 secrets</button>
     <span id="status" class="note"></span>
   </div>
 </div>
 
 <div id="out">
   <div class="card">
-    <h2>Your secrets</h2>
-    <div class="note">Add each of these in your <strong>memo-social-bot</strong> repo <em>and</em> your
-      <strong>memo-social-brain</strong> repo (same three values in both).</div>
+    <h2>Step 2 — your secrets</h2>
+    <div class="note">Add all three to <strong>both</strong> repos:
+      <em>memo-social-bot</em> and <em>memo-social-brain</em> →
+      Settings → Secrets and variables → Actions → New repository secret.</div>
     <div id="secrets"></div>
   </div>
   <div class="card">
     <h2>Checks</h2>
-    <div id="checks" class="note"></div>
+    <div id="checks"></div>
   </div>
 </div>
 
 <script>
-const V = "v25.0", G = "https://graph.facebook.com/" + V;
+const V = "v25.0", G = "https://graph.facebook.com/" + V, APP_ID = "4528143254064247";
 const $ = id => document.getElementById(id);
 const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// A token may be handed over in the URL fragment. Fragments never reach any server.
+(function () {
+  const m = /[#&]token=([^&]+)/.exec(location.hash || "");
+  if (m) { $("tok").value = decodeURIComponent(m[1]); history.replaceState(null,"",location.pathname); }
+})();
 
 async function api(path, params) {
   const u = new URL(G + path);
   Object.entries(params).forEach(([k,v]) => u.searchParams.set(k,v));
-  const r = await fetch(u);
-  const j = await r.json();
+  const j = await (await fetch(u)).json();
   if (j.error) throw new Error(j.error.message || "Meta returned an error");
   return j;
 }
@@ -94,69 +107,63 @@ function secretBox(key, val, note) {
   const id = "s_" + key;
   return `<div class="secret"><div class="k">${key}${note?`<span class="pill">${esc(note)}</span>`:""}</div>
     <div class="v" id="${id}">${esc(val)}</div>
-    <button class="ghost" onclick="copy('${id}',this)">Copy</button></div>`;
+    <button class="ghost" data-c="${id}">Copy</button></div>`;
 }
-function copy(id, btn) {
-  navigator.clipboard.writeText($(id).innerText.trim())
-    .then(()=>{btn.textContent="Copied ✓"; setTimeout(()=>btn.textContent="Copy",1600);});
-}
-
-// A token can be handed over in the URL fragment (#token=...). Fragments are never
-// sent to any server — it stays inside this browser. We clear it immediately.
-(function () {
-  const m = /[#&]token=([^&]+)/.exec(location.hash || "");
-  if (m) {
-    $("tok").value = decodeURIComponent(m[1]);
-    history.replaceState(null, "", location.pathname);
-    $("status").textContent = "Token loaded — press Get my values.";
-  }
-})();
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-c]"); if (!b) return;
+  navigator.clipboard.writeText($(b.dataset.c).innerText.trim())
+    .then(()=>{b.textContent="Copied ✓"; setTimeout(()=>b.textContent="Copy",1600);});
+});
 
 $("go").onclick = async () => {
-  const raw = $("tok").value.trim();
-  if (!raw) return;
-  $("go").disabled = true; $("status").textContent = "Talking to Meta…"; $("out").style.display = "none";
+  const secret = $("secret").value.trim(), short = $("tok").value.trim();
+  if (!secret || !short) { $("status").innerHTML = '<span class="bad">Both boxes are needed.</span>'; return; }
+  $("go").disabled = true; $("out").style.display = "none";
+  const say = t => $("status").textContent = t;
   try {
-    // 1. try to extend to a long-lived token (works when the app is the token's app)
-    let token = raw, extended = false;
-    // 2. find the Page + its Instagram account
-    const me = await api("/me/accounts", {
-      access_token: token,
-      fields: "id,name,access_token,instagram_business_account{id,username}"
+    say("Making your login permanent…");
+    const ex = await api("/oauth/access_token", {
+      grant_type: "fb_exchange_token", client_id: APP_ID, client_secret: secret, fb_exchange_token: short
     });
-    if (!me.data || !me.data.length) throw new Error("No Facebook Page found on this token. Re-generate it and make sure you tick your Page.");
-    const page = me.data.length === 1 ? me.data[0]
-      : me.data.find(p => p.instagram_business_account) || me.data[0];
+    const longTok = ex.access_token;
+
+    say("Finding your Page and Instagram…");
+    const me = await api("/me/accounts", {
+      access_token: longTok, fields: "id,name,access_token,instagram_business_account{id,username}"
+    });
+    const pages = me.data || [];
+    if (!pages.length) throw new Error("No Facebook Page on this token. Re-generate it and tick your Page.");
+    const page = pages.find(p => p.instagram_business_account) || pages[0];
     const ig = page.instagram_business_account || {};
 
-    // 3. how long does the page token last?
-    let lifetime = "never expires";
+    say("Checking how long it lasts…");
+    let life = "never expires", permanent = true;
     try {
-      const dbg = await api("/debug_token", { input_token: page.access_token, access_token: page.access_token });
+      const dbg = await api("/debug_token", { input_token: page.access_token, access_token: longTok });
       const exp = dbg.data && dbg.data.expires_at;
-      if (exp) {
-        const days = Math.round((exp*1000 - Date.now())/86400000);
-        lifetime = days > 0 ? days + " days left" : "expired";
-      }
-    } catch(e) {}
+      if (exp) { const d = Math.round((exp*1000 - Date.now())/86400000); life = d + " days left"; permanent = false; }
+    } catch (e) {}
 
-    let html = "";
-    html += secretBox("META_PAGE_ID", page.id, page.name);
-    html += secretBox("META_IG_ID", ig.id || "— no Instagram linked to this Page —", ig.username || "");
-    html += secretBox("META_PAGE_TOKEN", page.access_token, lifetime);
-    $("secrets").innerHTML = html;
+    $("secrets").innerHTML =
+      secretBox("META_PAGE_ID", page.id, page.name) +
+      secretBox("META_IG_ID", ig.id || "none linked", ig.username ? "@"+ig.username : "") +
+      secretBox("META_PAGE_TOKEN", page.access_token, life);
 
-    const pages = me.data.map(p => `${esc(p.name)}${p.instagram_business_account?` → IG @${esc(p.instagram_business_account.username)}`:" (no Instagram)"}`);
-    const warn = lifetime !== "never expires"
-      ? `<div class="bad">⚠ This page token shows "${lifetime}". For a permanent one, extend your user token first in the <a href="https://developers.facebook.com/tools/debug/accesstoken/" target="_blank">Access Token Debugger</a> (click <em>Extend Access Token</em>), then paste the extended token here instead.</div>`
-      : `<div class="ok">✓ This page token does not expire.</div>`;
-    $("checks").innerHTML = warn +
-      `<div style="margin-top:8px">Pages on this token:<br>• ${pages.join("<br>• ")}</div>` +
-      (ig.id ? "" : `<div class="bad" style="margin-top:8px">⚠ No Instagram Business account is linked to this Page. Link it in the Instagram app → Settings → Account type and tools, then re-generate the token.</div>`);
+    const rows = [];
+    rows.push(permanent
+      ? '<div class="tick ok">✓ This page token never expires — set it once and forget it.</div>'
+      : `<div class="tick bad">⚠ Token shows "${life}". Usable, but you'll need to redo this when it lapses.</div>`);
+    rows.push(ig.id
+      ? `<div class="tick ok">✓ Instagram @${esc(ig.username)} is linked and ready.</div>`
+      : '<div class="tick bad">⚠ No Instagram Business account linked to this Page.</div>');
+    rows.push(`<div class="tick">Pages found: ${pages.map(p=>esc(p.name)).join(", ")}</div>`);
+    $("checks").innerHTML = rows.join("");
 
     $("out").style.display = "block";
-    $("status").textContent = "";
+    $("secret").value = ""; $("tok").value = "";   // wipe inputs once used
+    say("");
   } catch (e) {
+    say("");
     $("status").innerHTML = `<span class="bad">${esc(e.message)}</span>`;
   } finally {
     $("go").disabled = false;
