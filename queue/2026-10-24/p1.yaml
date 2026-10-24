@@ -55,6 +55,14 @@ status:
     state: posted
     id: urn:li:share:7519872532913602560
     at: '2026-10-24T14:28:44-07:00'
+  instagram:
+    state: posted
+    id: '18000857733034223'
+    at: '2026-10-24T14:44:35-07:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1152216127805819'
+    at: '2026-10-24T14:44:38-07:00'
 media:
   linkedin: queue/2026-10-24/media/p1-linkedin.jpg
   instagram: queue/2026-10-24/media/p1-instagram.jpg
