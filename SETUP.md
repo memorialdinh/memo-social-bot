@@ -95,7 +95,7 @@ Repo → **Settings → Secrets and variables → Actions → New repository sec
 |---|---|
 | `META_PAGE_TOKEN`, `META_PAGE_ID`, `META_IG_ID` | setup_meta.py |
 | `META_APP_ID`, `META_APP_SECRET` | Meta app → Basic settings |
-| `LINKEDIN_TOKEN`, `LINKEDIN_AUTHOR_URN` | setup_linkedin.py |
+| `LINKEDIN_TOKEN` | LinkedIn Developers → your app → Auth → OAuth 2.0 tools. The author URN is looked up automatically. |
 | `LINKEDIN_CLIENT_ID`, `LINKEDIN_CLIENT_SECRET` | LinkedIn app → Auth |
 | `TIKTOK_CLIENT_KEY`, `TIKTOK_CLIENT_SECRET`, `TIKTOK_REFRESH_TOKEN` | setup_tiktok.py |
 | `GH_PAT` *(optional, recommended)* | GitHub → Settings → Developer settings → Fine-grained token → this repo only → permission **Secrets: Read and write**. Lets the bot keep the TikTok key fresh by itself. |

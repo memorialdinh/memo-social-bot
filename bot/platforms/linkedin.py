@@ -1,6 +1,7 @@
 """LinkedIn personal-profile posting via the free Posts API (w_member_social).
 
-Secrets used: LINKEDIN_TOKEN, LINKEDIN_AUTHOR_URN (urn:li:person:xxxx)
+Secrets used: LINKEDIN_TOKEN. LINKEDIN_AUTHOR_URN is optional — when it isn't
+set, the author URN is looked up once from the token and cached in data/.
 """
 from __future__ import annotations
 
@@ -9,7 +10,7 @@ import time
 from pathlib import Path
 from urllib.parse import quote
 
-from ..common import CFG, ApiError, env, http
+from ..common import CFG, DATA, ApiError, env, http
 
 API = "https://api.linkedin.com/rest"
 _RESERVED = r"\|{}@[]()<>#*_~"
@@ -29,7 +30,34 @@ def little_text(s: str) -> str:
 class LinkedIn:
     def __init__(self):
         self.token = env("LINKEDIN_TOKEN")
-        self.author = env("LINKEDIN_AUTHOR_URN")
+        self._author = env("LINKEDIN_AUTHOR_URN")
+
+    @property
+    def author(self) -> str:
+        """Who the post is published as. Looked up from the token if not set."""
+        if not self._author and self.token:
+            self._author = self._whoami()
+        return self._author
+
+    def _whoami(self) -> str:
+        """urn:li:person:<id> from /v2/userinfo. Cached so it's fetched once."""
+        cache = DATA / "linkedin_author.txt"
+        if cache.exists():
+            cached = cache.read_text().strip()
+            if cached:
+                return cached
+        try:
+            r = http("GET", "https://api.linkedin.com/v2/userinfo",
+                     headers={"Authorization": f"Bearer {self.token}"})
+            sub = (r.json() or {}).get("sub", "")
+        except Exception:
+            return ""
+        if not sub:
+            return ""
+        urn = f"urn:li:person:{sub}"
+        cache.parent.mkdir(exist_ok=True)
+        cache.write_text(urn)
+        return urn
 
     def ready(self) -> bool:
         return bool(self.token and self.author)
