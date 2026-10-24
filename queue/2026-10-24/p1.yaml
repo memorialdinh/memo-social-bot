@@ -25,7 +25,11 @@ captions:
 
 
     Thinking about selling and want a straight read on where yours should list? DM me SELLER and I''ll put a pricing breakdown together.'
-status: {}
+status:
+  linkedin:
+    state: posted
+    id: urn:li:share:7519872532913602560
+    at: '2026-10-24T14:28:44-07:00'
 media:
   linkedin: queue/2026-10-24/media/p1-linkedin.jpg
 schedule:
