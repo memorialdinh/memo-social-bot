@@ -101,6 +101,17 @@ function copy(id, btn) {
     .then(()=>{btn.textContent="Copied ✓"; setTimeout(()=>btn.textContent="Copy",1600);});
 }
 
+// A token can be handed over in the URL fragment (#token=...). Fragments are never
+// sent to any server — it stays inside this browser. We clear it immediately.
+(function () {
+  const m = /[#&]token=([^&]+)/.exec(location.hash || "");
+  if (m) {
+    $("tok").value = decodeURIComponent(m[1]);
+    history.replaceState(null, "", location.pathname);
+    $("status").textContent = "Token loaded — press Get my values.";
+  }
+})();
+
 $("go").onclick = async () => {
   const raw = $("tok").value.trim();
   if (!raw) return;
