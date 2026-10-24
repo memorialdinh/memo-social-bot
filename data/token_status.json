@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "note": "add META_APP_ID + META_APP_SECRET secrets to enable expiry checks"
+  },
+  "linkedin": {
+    "active": true,
+    "posts_as": "Memorial Dinh",
+    "urn": "urn:li:person:f5n2eM2ecy",
+    "days_left": 60,
+    "estimated": true
+  },
+  "problems": [],
+  "checked": "2026-10-24T21:25+00:00"
+}
