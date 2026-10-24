@@ -5,7 +5,6 @@ set, the author URN is looked up once from the token and cached in data/.
 """
 from __future__ import annotations
 
-import re
 import time
 from pathlib import Path
 from urllib.parse import quote
@@ -13,18 +12,18 @@ from urllib.parse import quote
 from ..common import CFG, DATA, ApiError, env, http
 
 API = "https://api.linkedin.com/rest"
-_RESERVED = r"\|{}@[]()<>#*_~"
 
 
 def little_text(s: str) -> str:
-    """LinkedIn 'little text' format: escape reserved chars, keep #hashtags clickable."""
-    out = []
-    for part in re.split(r"(#\w+)", s):
-        if re.fullmatch(r"#\w+", part):
-            out.append("{hashtag|\\#|" + part[1:] + "}")
-        else:
-            out.append("".join("\\" + ch if ch in _RESERVED else ch for ch in part))
-    return "".join(out)
+    """Caption text for the Posts API.
+
+    This used to apply LinkedIn's "little text" escaping (backslash before
+    reserved characters, {hashtag|\\#|x} for tags). A live post on 2026-10-24
+    showed the feed rendering those markers literally — the compliance footer
+    came out as "Memo Dinh \\| DRE {hashtag|\\#|02066757} \\| ...". So send the
+    caption through as plain text; LinkedIn links bare #tags on its own.
+    """
+    return s
 
 
 class LinkedIn:
