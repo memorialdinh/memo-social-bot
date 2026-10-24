@@ -47,6 +47,45 @@ def main():
                 problems.append(f"LinkedIn key expires in {left} days. Re-run tools/setup_linkedin.py.")
         except Exception as e:
             problems.append(f"LinkedIn key check failed: {e}")
+    elif lt:
+        # No client id/secret, so introspection isn't available. Ask LinkedIn who
+        # the token belongs to instead: that proves it still works, and gives the
+        # author URN the publisher needs. LinkedIn member tokens last ~60 days,
+        # so count from the day this token was first seen.
+        stamp = DATA / "linkedin_token_seen.txt"
+        try:
+            j = http("GET", "https://api.linkedin.com/v2/userinfo",
+                     headers={"Authorization": f"Bearer {lt}"}).json()
+            sub = j.get("sub", "")
+            if not sub:
+                raise RuntimeError("no member id in the response")
+            DATA.mkdir(exist_ok=True)
+            (DATA / "linkedin_author.txt").write_text(f"urn:li:person:{sub}")
+            today = datetime.now(timezone.utc).date()
+            if stamp.exists():
+                try:
+                    first = datetime.fromisoformat(stamp.read_text().strip()).date()
+                except ValueError:
+                    first = today
+            else:
+                first = today
+                stamp.write_text(first.isoformat())
+            left = 60 - (today - first).days
+            out["linkedin"] = {"active": True, "posts_as": j.get("name", ""),
+                               "urn": f"urn:li:person:{sub}", "days_left": left, "estimated": True}
+            if left < WARN_DAYS:
+                problems.append(
+                    f"LinkedIn key expires in about {left} days. Generate a new one at "
+                    "linkedin.com/developers/tools/oauth/token-generator and update the "
+                    "LINKEDIN_TOKEN secret (2 minutes)."
+                )
+        except Exception as e:
+            out["linkedin"] = {"active": False, "error": str(e)[:200]}
+            problems.append(
+                f"LinkedIn key is not working ({str(e)[:120]}). Generate a new one at "
+                "linkedin.com/developers/tools/oauth/token-generator and update LINKEDIN_TOKEN."
+            )
+            stamp.unlink(missing_ok=True)
 
     if env("TIKTOK_REFRESH_TOKEN"):
         from .platforms.tiktok import TikTok

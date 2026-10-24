@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "5 16 * * 1"        # Mondays ~9 AM Pacific
   workflow_dispatch:
-permissions: { contents: read, issues: write }
+permissions: { contents: write, issues: write }
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -25,6 +25,12 @@ jobs:
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
         run: python -m bot.token_check
+      - name: Save what the check learned (author URN, token first-seen date)
+        run: |
+          git config user.name  "memo-social-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A data/ || true
+          git diff --staged --quiet || { git commit -q -m "Key check [skip ci]"; git push -q; }
       - name: Open an issue if something needs attention
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
