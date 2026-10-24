@@ -33,8 +33,10 @@ captions:
 
     Agents: are you bringing this up in your listing consults?'
   tiktok: 'Downsizing at 55+ in California? Prop 19 is your best friend 🏡 #prop19 #californiarealestate #downsizing'
+status: {}
 media:
-  instagram: queue/2026-10-24/media/p2-instagram.jpg
-  facebook: queue/2026-10-24/media/p2-facebook.jpg
-  linkedin: queue/2026-10-24/media/p2-linkedin.jpg
-  tiktok: queue/2026-10-24/media/p2-tiktok.mp4
+  instagram: examples/2026-10-24/media/p2-instagram.jpg
+  facebook: examples/2026-10-24/media/p2-facebook.jpg
+  linkedin: examples/2026-10-24/media/p2-linkedin.jpg
+  tiktok: examples/2026-10-24/media/p2-tiktok.mp4
+schedule: {}

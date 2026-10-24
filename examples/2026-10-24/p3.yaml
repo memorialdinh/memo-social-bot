@@ -24,8 +24,10 @@ captions:
   facebook: 'Pre-qualified vs. pre-approved: one is a guess, the other is verified. If you''re house hunting in LA or Orange County, get the real pre-approval before you fall in love with a home. Message me for my buyer roadmap.'
   linkedin: 'Quick buyer-education reminder: pre-qualification is an estimate; pre-approval is verified. Coaching buyers on this early saves deals later.'
   tiktok: 'Pre-qualified ≠ pre-approved 🚫 #homebuyingtips #firsttimehomebuyer #realestate'
+status: {}
 media:
-  instagram: queue/2026-10-24/media/p3-instagram.jpg
-  facebook: queue/2026-10-24/media/p3-facebook.jpg
-  linkedin: queue/2026-10-24/media/p3-linkedin.jpg
-  tiktok: queue/2026-10-24/media/p3-tiktok.mp4
+  instagram: examples/2026-10-24/media/p3-instagram.jpg
+  facebook: examples/2026-10-24/media/p3-facebook.jpg
+  linkedin: examples/2026-10-24/media/p3-linkedin.jpg
+  tiktok: examples/2026-10-24/media/p3-tiktok.mp4
+schedule: {}

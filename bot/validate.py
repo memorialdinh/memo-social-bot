@@ -60,10 +60,38 @@ def check(item) -> tuple[list[str], list[str]]:
     return errs, warns
 
 
+def _key(it) -> str:
+    d = it.d.get("design") or {}
+    txt = (d.get("headline") or it.d.get("topic") or "").lower()
+    return " ".join(re.findall(r"[a-z0-9]+", txt))
+
+
+def duplicates() -> dict:
+    """Same headline/topic already used in the last 120 days (or twice in the queue) = duplicate."""
+    from datetime import timedelta
+    from .common import now
+    since = now().date() - timedelta(days=120)
+    seen, dups = {}, {}
+    for it in sorted(load_items(), key=lambda i: (i.day, i.id)):
+        if it.day < since or it.kind == "story":
+            continue
+        k = _key(it)
+        if not k:
+            continue
+        if k in seen:
+            dups[(it.day, it.id)] = seen[k]
+        else:
+            seen[k] = f"{it.day}/{it.id}"
+    return dups
+
+
 def main():
     bad = 0
+    dups = duplicates()
     for it in load_items(recent_days(0, 7)):
         errs, warns = check(it)
+        if (it.day, it.id) in dups and not any((it.d.get("status") or {}).get(p, {}).get("state") == "posted" for p in it.platforms()):
+            errs.append(f"duplicate of {dups[(it.day, it.id)]} — write a new angle")
         tag = f"{it.day}/{it.id}"
         for w in warns:
             print(f"⚠ {tag}: {w}")

@@ -113,7 +113,13 @@ def main():
                 err = f"{type(e).__name__}: {e}"[:400]
                 tries = int((item.d["status"].get(plat) or {}).get("tries", 0)) + 1
                 final = tries >= 3
-                item.set_status(plat, state="failed" if final else "retry", tries=tries, error=err)
+                if final and not (item.d["status"].get(plat) or {}).get("reposted"):
+                    # repost once in a fresh slot ~2 hours later instead of giving up
+                    item.d["schedule"][plat] = (t + timedelta(hours=2)).isoformat(timespec="minutes")
+                    item.set_status(plat, state="retry", tries=0, reposted=True, error=err)
+                    final = False
+                else:
+                    item.set_status(plat, state="failed" if final else "retry", tries=tries, error=err)
                 log({"at": t.isoformat(timespec="seconds"), "day": item.day, "item": item.id, "kind": item.kind,
                      "track": item.track, "platform": plat, "result": "failed" if final else "retry", "remote_id": "", "detail": err})
                 print(f"✗ {item.id} → {plat}: {err}")

@@ -43,8 +43,10 @@ captions:
   tiktok: 'Touring homes in CA? You''ll sign THIS first 👀 #realestatetips #californiahomes #firsttimehomebuyer'
 sources:
 - https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2992
+status: {}
 media:
-  instagram: queue/2026-10-24/media/p1-instagram.jpg
-  facebook: queue/2026-10-24/media/p1-facebook.jpg
-  linkedin: queue/2026-10-24/media/p1-linkedin.jpg
-  tiktok: queue/2026-10-24/media/p1-tiktok.mp4
+  instagram: examples/2026-10-24/media/p1-instagram.jpg
+  facebook: examples/2026-10-24/media/p1-facebook.jpg
+  linkedin: examples/2026-10-24/media/p1-linkedin.jpg
+  tiktok: examples/2026-10-24/media/p1-tiktok.mp4
+schedule: {}

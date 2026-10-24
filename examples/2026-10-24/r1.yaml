@@ -26,8 +26,10 @@ captions:
   facebook: Thinking about switching brokerages? Ask these 4 questions first. Message me 'MATH' and I'll help you compare your numbers, no pressure.
   linkedin: Four questions every agent should ask before changing brokerages. The answers matter more than the logo. Happy to run the numbers with anyone weighing a move.
   tiktok: 'Agents, ask THESE before switching brokerages 🧮 #realestateagent #realtortips'
+status: {}
 media:
-  instagram: queue/2026-10-24/media/r1-instagram.mp4
-  facebook: queue/2026-10-24/media/r1-facebook.mp4
-  linkedin: queue/2026-10-24/media/r1-linkedin.mp4
-  tiktok: queue/2026-10-24/media/r1-tiktok.mp4
+  instagram: examples/2026-10-24/media/r1-instagram.mp4
+  facebook: examples/2026-10-24/media/r1-facebook.mp4
+  linkedin: examples/2026-10-24/media/r1-linkedin.mp4
+  tiktok: examples/2026-10-24/media/r1-tiktok.mp4
+schedule: {}

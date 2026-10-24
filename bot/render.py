@@ -88,7 +88,7 @@ def wrap(text: str, f, max_w: int):
     return lines
 
 
-def text_layer(text, f, max_w, color=WHITE, gold=GOLD, line_gap=1.12, align="left"):
+def text_layer(text, f, max_w, color=WHITE, gold=GOLD, line_gap=1.12, align="left", hl=None, hl_fg=None):
     lines = wrap(text, f, max_w)
     asc, desc = f.getmetrics()
     lh = int((asc + desc) * line_gap)
@@ -100,10 +100,15 @@ def text_layer(text, f, max_w, color=WHITE, gold=GOLD, line_gap=1.12, align="lef
     for i, line in enumerate(lines):
         lw = sum(_wlen(f, wd) for wd in line) + space * (len(line) - 1)
         x = (w - lw) / 2 if align == "center" else 0
-        for wd in line:
+        for wi, wd in enumerate(line):
             for t, g in wd:
-                d.text((x, i * lh), t, font=f, fill=gold if g else color)
-                x += f.getlength(t)
+                tw = f.getlength(t)
+                if g and hl:
+                    nxt_gold = wi + 1 < len(line) and line[wi + 1][0][1] and t is wd[-1][0]
+                    pad = asc * 0.12
+                    d.rectangle((x - pad, i * lh + asc * 0.12, x + tw + (space if nxt_gold else pad), i * lh + asc + desc * 0.55), fill=hl)
+                d.text((x, i * lh), t, font=f, fill=(hl_fg or gold) if g and hl else gold if g else color)
+                x += tw
             x += space
     return img, len(lines)
 
@@ -134,27 +139,70 @@ def pill(text, f, fg=GOLD, outline=GOLD, fill=None, pad=(26, 12), letter=3):
     return img
 
 
+# ── themes: a different look every post, always on-brand ─────
+@dataclass
+class Theme:
+    name: str
+    bg: str          # base color
+    glow: tuple      # rgb of accent glow
+    fg: str          # headline
+    body: str        # body text
+    accent: str      # gold words, numbers, pills
+    cta_bg: str
+    cta_fg: str
+    muted: str       # microtext
+    ring: str        # headshot ring
+    hl: str | None = None   # highlight box behind accent words (for light/gold themes)
+    hl_fg: str | None = None
+
+
+THEMES = [
+    Theme("noir",     "#101010", (188, 164, 128), WHITE,     CARBON,    GOLD,      GOLD,      OBSIDIAN, SLATE,     GOLD),
+    Theme("silver",   "#0e0f11", (201, 204, 209), WHITE,     "#c9ccd1", "#c9ccd1", "#c9ccd1", OBSIDIAN, "#6b6e73", "#c9ccd1"),
+    Theme("ivory",    "#efece7", (188, 164, 128), OBSIDIAN,  "#33332f", "#7d6a48", OBSIDIAN,  GOLD,     "#6f6e69", GOLD),
+    Theme("goldrush", "#bca480", (255, 245, 225), OBSIDIAN,  "#221f1a", OBSIDIAN,  OBSIDIAN,  GOLD,     "#3d362b", OBSIDIAN,
+          hl=OBSIDIAN, hl_fg=GOLD),
+    Theme("graphite", "#1c1c1b", (188, 164, 128), WHITE,     CARBON,    GOLD,      WHITE,     OBSIDIAN, "#77766f", GOLD),
+]
+DECOS = ["glow", "stripe", "frame", "grid", "watermark", "arcs"]
+
+
+def pick_style(item: Item, platform: str) -> dict:
+    """Rotates themes/decor/layout so neighbouring posts (and each platform's
+    version of the same post) never look the same."""
+    forced = (item.d.get("design") or {}).get("theme")
+    try:
+        idx = sorted(p.stem for p in item.path.parent.glob("*.yaml")).index(item.id)
+    except ValueError:
+        idx = 0
+    pi = ["instagram", "facebook", "linkedin", "tiktok"].index(platform) if platform in PLATFORMS_ORDER else 0
+    day = item.day.toordinal()
+    ti = (day * 3 + idx + pi * 2) % len(THEMES)
+    th = next((t for t in THEMES if t.name == forced), THEMES[ti])
+    return {
+        "theme": th,
+        "deco": DECOS[(day * 5 + idx * 2 + pi) % len(DECOS)],
+        "side_right": (day + idx + pi) % 2 == 0,
+        "shape": "circle" if (day + idx * 3 + pi) % 3 else "square",
+        "center": (idx + pi + day) % 4 == 0,
+    }
+
+
+PLATFORMS_ORDER = ("instagram", "facebook", "linkedin", "tiktok")
+
+
 # ── assets ───────────────────────────────────────────────────
-def headshot_files(platform: str) -> list[Path]:
-    listed = CFG.get("headshots", {}).get(platform) or []
-    files = [ASSETS / "headshots" / x for x in listed if (ASSETS / "headshots" / x).exists()]
-    if not files:
-        files = sorted(p for p in (ASSETS / "headshots").glob("*") if p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"))
-    return files
-
-
 def pick_headshot(item: Item, platform: str) -> Path | None:
-    files = headshot_files(platform)
-    if not files:
-        return None
-    forced = (item.d.get("design") or {}).get("headshot")
-    if forced and (ASSETS / "headshots" / forced).exists():
-        return ASSETS / "headshots" / forced
-    pi = ["instagram", "facebook", "linkedin", "tiktok"].index(platform) if platform in ("instagram", "facebook", "linkedin", "tiktok") else 0
-    return files[(stable_int(item.day, item.id) + pi) % len(files)]
+    """ONE consistent headshot on everything (config: headshots.primary)."""
+    hdir = ASSETS / "headshots"
+    forced = (item.d.get("design") or {}).get("headshot") or (CFG.get("headshots") or {}).get("primary")
+    if forced and (hdir / forced).exists():
+        return hdir / forced
+    files = sorted(p for p in hdir.glob("*") if p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"))
+    return files[0] if files else None
 
 
-def headshot_circle(path: Path | None, size: int) -> Image.Image:
+def headshot_badge(path: Path | None, size: int, ring_color: str, shape: str = "circle") -> Image.Image:
     ring = 7
     out = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     inner = size - ring * 2
@@ -167,42 +215,87 @@ def headshot_circle(path: Path | None, size: int) -> Image.Image:
         f = font("head", "Bold", inner // 3)
         d.text((inner / 2, inner / 2), "MD", font=f, fill=CARBON, anchor="mm")
     mask = Image.new("L", (inner, inner), 0)
-    ImageDraw.Draw(mask).ellipse((0, 0, inner - 1, inner - 1), fill=255)
+    md = ImageDraw.Draw(mask)
     d = ImageDraw.Draw(out)
-    d.ellipse((0, 0, size - 1, size - 1), fill=GOLD)
+    if shape == "square":
+        md.rounded_rectangle((0, 0, inner - 1, inner - 1), radius=inner // 6, fill=255)
+        d.rounded_rectangle((0, 0, size - 1, size - 1), radius=size // 6, fill=ring_color)
+    else:
+        md.ellipse((0, 0, inner - 1, inner - 1), fill=255)
+        d.ellipse((0, 0, size - 1, size - 1), fill=ring_color)
     out.paste(im, (ring, ring), mask)
     return out
 
 
-def logo_layer(height: int) -> Image.Image:
-    for name in ("logo-white.png", "logo-gold.png", "logo.png"):
+def logo_layer(height: int, th: Theme) -> Image.Image:
+    light_bg = th.name in ("ivory", "goldrush")
+    names = ("logo-black.png", "logo.png") if light_bg else ("logo-white.png", "logo-gold.png", "logo.png")
+    for name in names:
         p = ASSETS / "logos" / name
         if p.exists():
             im = Image.open(p).convert("RGBA")
             w = int(im.width * height / im.height)
             return im.resize((w, height), Image.LANCZOS)  # scale only; shape untouched
     f = font("head", "Medium", int(height * 0.55))
-    return pill("EPIQUE REALTY", f, fg=CARBON, outline=(0, 0, 0, 0), pad=(0, 6), letter=6)
+    col = OBSIDIAN if light_bg else CARBON
+    return pill("EPIQUE REALTY", f, fg=col, outline=(0, 0, 0, 0), pad=(0, 6), letter=6)
 
 
-def background(w: int, h: int, variant: int) -> Image.Image:
-    # smooth radial gold glow: computed small, then upscaled (no banding)
+def _rgb(hexs: str) -> tuple:
+    hexs = hexs.lstrip("#")
+    return tuple(int(hexs[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def background(w: int, h: int, th: Theme, deco: str, variant: int) -> Image.Image:
+    base = _rgb(th.bg)
+    glow = th.glow
+    # smooth radial glow computed small then upscaled (no banding)
     sw, sh = 54, int(54 * h / w)
     cx = sw * (0.9 if variant % 2 == 0 else 0.1)
-    cy = -sh * 0.05
-    r = sw * 1.05
+    cy = -sh * 0.05 if deco != "arcs" else sh * 1.05
+    r = sw * (1.05 if deco == "glow" else 0.8)
+    strength = 0.17 if deco == "glow" else 0.09
+    if th.name in ("ivory", "goldrush"):
+        strength *= 0.7
     small = Image.new("RGBA", (sw, sh))
     px = []
-    base = (16, 16, 16)
-    gold = (188, 164, 128)
     for yy in range(sh):
         for xx in range(sw):
             dist = ((xx - cx) ** 2 + (yy - cy) ** 2) ** 0.5 / r
-            k = max(0.0, 1 - dist) ** 2 * 0.17
-            px.append(tuple(int(base[c] + (gold[c] - base[c]) * k) for c in range(3)) + (255,))
+            k = max(0.0, 1 - dist) ** 2 * strength
+            px.append(tuple(int(base[c] + (glow[c] - base[c]) * k) for c in range(3)) + (255,))
     small.putdata(px)
     bg = small.resize((w, h), Image.BICUBIC)
-    ImageDraw.Draw(bg).rectangle((0, 0, w, 8), fill=GOLD)
+    ov = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(ov)
+    acc = _rgb(th.accent if th.name != "goldrush" else OBSIDIAN)
+    if deco == "stripe":
+        off = 0 if variant % 2 == 0 else 1
+        for i, a in ((0, 70), (60, 35)):
+            x0 = w - 380 - i if not off else -200 + i
+            d.polygon([(x0, -10), (x0 + 170, -10), (x0 + 170 - 520, 520), (x0 - 520, 520)] if not off else
+                      [(x0, -10), (x0 + 170, -10), (x0 + 170 + 520, 520), (x0 + 520, 520)], fill=acc + (a,))
+    elif deco == "frame":
+        d.rectangle((34, 34, w - 35, h - 35), outline=acc + (150,), width=3)
+        L = 70
+        for (x, y, sx, sy) in ((34, 34, 1, 1), (w - 35, 34, -1, 1), (34, h - 35, 1, -1), (w - 35, h - 35, -1, -1)):
+            d.line((x, y, x + L * sx, y), fill=acc + (255,), width=7)
+            d.line((x, y, x, y + L * sy), fill=acc + (255,), width=7)
+    elif deco == "grid":
+        for x in range(0, w, 90):
+            d.line((x, 0, x, h), fill=acc + (16,), width=1)
+        for y in range(0, h, 90):
+            d.line((0, y, w, y), fill=acc + (16,), width=1)
+    elif deco == "watermark":
+        f = font("head", "Bold", int(h * 0.62))
+        d.text((w * (0.62 if variant % 2 == 0 else -0.08), h * 0.28), "E", font=f, fill=acc + (20,))
+    elif deco == "arcs":
+        cxp = w if variant % 2 == 0 else 0
+        for i, rr in enumerate(range(260, 900, 120)):
+            d.ellipse((cxp - rr, h * 0.45 - rr, cxp + rr, h * 0.45 + rr), outline=acc + (40 - i * 5,), width=2)
+    bg = Image.alpha_composite(bg, ov)
+    if deco != "frame":
+        ImageDraw.Draw(bg).rectangle((0, 0, w, 8), fill=th.accent if th.name != "goldrush" else OBSIDIAN)
     return bg
 
 
@@ -214,6 +307,7 @@ class Layer:
     y: int
     t: float = 0.0      # reveal time (seconds) in reels
     anim: str = "up"    # up | fade | pop | count
+    color: str = GOLD   # used by the count-up animation
 
 
 def layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool = False):
@@ -228,24 +322,30 @@ def layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool 
 def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool, sc: float):
     S = lambda v: max(1, int(v * sc))
     d = item.d.get("design") or {}
+    st = pick_style(item, platform)
+    th: Theme = st["theme"]
     tall = h > w * 1.4
     m = 80
     inner = w - m * 2
     layers: list[Layer] = []
     t = 0.3
+    center = st["center"]
+    align = "center" if center else "left"
+    tl = dict(color=th.fg, gold=th.accent, hl=th.hl, hl_fg=th.hl_fg)
 
-    logo = logo_layer(54)
-    layers.append(Layer(logo, m, 64, 0.0, "fade"))
+    logo = logo_layer(54, th)
+    layers.append(Layer(logo, (w - logo.width) // 2 if center else m, 64, 0.0, "fade"))
 
     track_label = CFG["tracks"].get(item.track, {}).get("label", item.track.upper())
-    k = pill(d.get("kicker") or track_label, font("body", "SemiBold", 28))
+    k = pill(d.get("kicker") or track_label, font("body", "SemiBold", 28), fg=th.accent, outline=th.accent)
     y = 64 + 54 + S(90 if tall else 60)
-    layers.append(Layer(k, m, y, t))
+    layers.append(Layer(k, (w - k.width) // 2 if center else m, y, t))
     y += k.height + S(36)
     t += 0.5
 
     headline = d.get("headline") or item.d.get("topic", "")
-    head_img = fit_text(headline, "head", "Bold", inner, 4 if tall else 3, S(104 if tall else 92), S(56), line_gap=1.08)
+    head_img = fit_text(headline, "head", "Bold", inner, 4 if tall else 3, S(104 if tall else 92), S(56),
+                        line_gap=1.08, align=align, **tl)
     layers.append(Layer(head_img, m, y, t))
     y += head_img.height + S(50 if tall else 34)
     t += 0.9
@@ -261,20 +361,24 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
             f = font("head", "Bold", fsize)
         asc, desc = f.getmetrics()
         sim = Image.new("RGBA", (inner, asc + desc), (0, 0, 0, 0))
-        ImageDraw.Draw(sim).text((0, 0), str(sv), font=f, fill=GOLD)
-        layers.append(Layer(sim, m - 6, y, t, "count" if video else "up"))
+        sx = (inner - f.getlength(str(sv))) / 2 if center else 0
+        ImageDraw.Draw(sim).text((sx, 0), str(sv), font=f, fill=th.accent)
+        layers.append(Layer(sim, m - (0 if center else 6), y, t, "count" if video and not center else "up", th.accent))
         y += sim.height + 4
         t += 1.4
         if d.get("stat_label"):
-            lim, _ = text_layer(d["stat_label"], font("body", "Medium", S(40 if tall else 34)), inner, color=CARBON)
+            lim, _ = text_layer(d["stat_label"], font("body", "Medium", S(40 if tall else 34)), inner,
+                                color=th.body, gold=th.accent, align=align)
             layers.append(Layer(lim, m, y, t - 0.6))
             y += lim.height + S(30)
 
     if template == "myth" and d.get("myth"):
-        for label, txt, col in (("MYTH", d["myth"], SLATE), ("FACT", d.get("fact", ""), GOLD)):
-            tag = pill(label, font("body", "Bold", 26), fg=OBSIDIAN if label == "FACT" else CARBON,
-                       outline=col, fill=col if label == "FACT" else None)
-            body, _ = text_layer(txt, font("body", "Medium", S(44 if tall else 38)), inner, color=WHITE if label == "FACT" else CARBON)
+        for label, txt in (("MYTH", d["myth"]), ("FACT", d.get("fact", ""))):
+            fact = label == "FACT"
+            tag = pill(label, font("body", "Bold", 26), fg=(th.cta_fg if fact else th.body),
+                       outline=(th.cta_bg if fact else th.muted), fill=th.cta_bg if fact else None)
+            body, _ = text_layer(txt, font("body", "Medium", S(44 if tall else 38)), inner,
+                                 color=th.fg if fact else th.body, gold=th.accent)
             block = Image.new("RGBA", (inner, tag.height + 18 + body.height), (0, 0, 0, 0))
             block.alpha_composite(tag, (0, 0))
             block.alpha_composite(body, (0, tag.height + 18))
@@ -286,9 +390,9 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
     pf = font("body", "Medium", S(40 if tall else 34))
     nf = font("head", "Bold", S(40 if tall else 34))
     for i, p in enumerate(points[: (5 if tall else 4)]):
-        body, _ = text_layer(p, pf, inner - 90, color=CARBON)
+        body, _ = text_layer(p, pf, inner - 90, color=th.body, gold=th.accent)
         row = Image.new("RGBA", (inner, max(body.height, 50)), (0, 0, 0, 0))
-        ImageDraw.Draw(row).text((0, 0), f"{i + 1:02d}", font=nf, fill=GOLD)
+        ImageDraw.Draw(row).text((0, 0), f"{i + 1:02d}", font=nf, fill=th.accent)
         row.alpha_composite(body, (90, 0))
         layers.append(Layer(row, m, y, t))
         y += row.height + S(28 if tall else 20)
@@ -297,8 +401,8 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
     # footer: headshot + name + CTA + microtext
     hs = 250 if tall else 200
     footer_top = h - (420 if tall else 330)
-    side_right = variant % 2 == 0
-    head = headshot_circle(pick_headshot(item, platform), hs)
+    side_right = st["side_right"]
+    head = headshot_badge(pick_headshot(item, platform), hs, th.ring, st["shape"])
     hx = w - m - hs if side_right else m
     layers.append(Layer(head, hx, footer_top, 0.2, "pop"))
 
@@ -308,19 +412,19 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
     sub = font("body", "Regular", 28 if tall else 25)
     nb = Image.new("RGBA", (name_w, 150), (0, 0, 0, 0))
     nd = ImageDraw.Draw(nb)
-    nd.text((0, 0), CFG["brand"]["name"].upper(), font=nm, fill=WHITE)
-    nd.text((0, 62), f'{CFG["brand"]["title"]} · {CFG["brand"]["brokerage"]}', font=sub, fill=CARBON)
+    nd.text((0, 0), CFG["brand"]["name"].upper(), font=nm, fill=th.fg)
+    nd.text((0, 62), f'{CFG["brand"]["title"]} · {CFG["brand"]["brokerage"]}', font=sub, fill=th.body)
     site = CFG["brand"]["agent_site"] if item.track == "agent_attraction" else CFG["brand"]["website"]
-    nd.text((0, 100), f'{CFG["brand"]["phone"]}  ·  {site}', font=sub, fill=GOLD)
+    nd.text((0, 100), f'{CFG["brand"]["phone"]}  ·  {site}', font=sub, fill=th.accent)
     layers.append(Layer(nb, name_x, footer_top + (hs - 140) // 2, 0.5, "fade"))
 
     overflow = y + S(30) > footer_top
     cta = d.get("cta")
     if cta:
         cf = font("head", "Bold", 38 if tall else 32)
-        cim, _ = text_layer(cta, cf, inner - 60, color=OBSIDIAN, gold=OBSIDIAN, align="center")
+        cim, _ = text_layer(cta, cf, inner - 60, color=th.cta_fg, gold=th.cta_fg, align="center")
         bar = Image.new("RGBA", (inner, cim.height + 44), (0, 0, 0, 0))
-        ImageDraw.Draw(bar).rounded_rectangle((0, 0, inner - 1, bar.height - 1), radius=18, fill=GOLD)
+        ImageDraw.Draw(bar).rounded_rectangle((0, 0, inner - 1, bar.height - 1), radius=18, fill=th.cta_bg)
         bar.alpha_composite(cim, (30, 22))
         cy = footer_top - bar.height - (50 if tall else 30)
         overflow = y + S(24) > cy
@@ -329,10 +433,10 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
 
     mf = font("body", "Regular", 22)
     micro = f'DRE #{CFG["brand"]["dre"]} · {CFG["brand"]["brokerage"]} · Equal Housing Opportunity'
-    mim, _ = text_layer(micro, mf, inner, color=SLATE, align="center")
+    mim, _ = text_layer(micro, mf, inner, color=th.muted, align="center")
     layers.append(Layer(mim, m, h - 70, 0.0, "fade"))
 
-    return background(w, h, variant), layers, t, overflow
+    return background(w, h, th, st["deco"], variant), layers, t, overflow
 
 
 def compose(bg: Image.Image, layers: list[Layer]) -> Image.Image:
@@ -421,7 +525,7 @@ def count_frame(L: Layer, stat: str, p: float) -> Image.Image:
         a, dsc = f.getmetrics()
         if a + dsc <= size:
             break
-    ImageDraw.Draw(img).text((0, 0), txt, font=f, fill=GOLD)
+    ImageDraw.Draw(img).text((0, 0), txt, font=f, fill=L.color)
     a = img.getchannel("A").point(lambda v: int(v * min(1, p * 3)))
     img.putalpha(a)
     return img

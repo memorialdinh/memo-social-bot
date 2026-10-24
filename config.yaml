@@ -72,12 +72,13 @@ schedule:
   max_late_hours: 6                            # if a post is more than this late, skip it
 
 headshots:
-  # Drop PNG/JPG headshots in assets/headshots/. Each platform gets a different
-  # one each day (rotates automatically). Leave lists empty to rotate all files.
-  instagram: []
-  facebook: []
-  linkedin: []
-  tiktok: []
+  # The SAME headshot goes on every post. Upload it to assets/headshots/ and put
+  # its file name here (blank = first file in the folder).
+  primary: ""
+
+# Every post gets a different look automatically (5 color themes x 6 accents x
+# layouts). To force one for a post, add  theme: noir|silver|ivory|goldrush|graphite
+# under design: in that post's file.
 
 api:
   graph_version: "v25.0"        # Meta Graph API version
