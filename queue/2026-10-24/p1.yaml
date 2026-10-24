@@ -5,6 +5,8 @@ topic: What overpricing actually costs a seller
 time: '14:00'
 platforms:
 - linkedin
+- instagram
+- facebook
 design:
   template: tip
   kicker: SELLER TIP
@@ -15,6 +17,29 @@ design:
   - Your first two weeks get the most attention you'll ever have.
   cta: DM 'SELLER' for a pricing breakdown
 captions:
+  instagram: 'Overpricing isn''t a timing problem. It''s a money problem.
+
+
+    Buyers shop by comparison. Price above the comps and your home turns into the expensive option that makes everything else look like a deal. Showings slow. The listing goes stale. Stale listings pull low offers.
+
+
+    Your first two weeks are the most attention your listing will ever get. Use them.
+
+
+    Want a straight read on your number? DM me SELLER 👇
+
+
+    #LongBeachRealEstate #SouthBayHomes #LosAngelesRealEstate #HomeSelling #ListingAgent #RealEstateTips #OrangeCountyRealEstate #SellYourHome #TorranceRealEstate #GardenaHomes'
+  facebook: 'Overpricing isn''t a timing problem — it''s a money problem.
+
+
+    Buyers shop by comparison. When your home sits above what similar homes are actually closing at, it becomes the expensive option that makes everything else look like a deal. Showings slow down, the listing goes stale, and a stale listing starts pulling offers below what you could have had in week one.
+
+
+    Your first two weeks carry the most attention your listing will ever get. Price it to compete then, not after three reductions.
+
+
+    Thinking about selling? Comment or message me SELLER and I''ll put a pricing breakdown together for your place.'
   linkedin: 'Most sellers treat overpricing as a time problem. It''s a money problem.
 
 
@@ -32,5 +57,9 @@ status:
     at: '2026-10-24T14:28:44-07:00'
 media:
   linkedin: queue/2026-10-24/media/p1-linkedin.jpg
+  instagram: queue/2026-10-24/media/p1-instagram.jpg
+  facebook: queue/2026-10-24/media/p1-facebook.jpg
 schedule:
   linkedin: 2026-10-24T14:00-07:00
+  facebook: 2026-10-24T14:00-07:00
+  instagram: 2026-10-24T14:00-07:00
