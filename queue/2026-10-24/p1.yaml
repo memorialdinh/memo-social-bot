@@ -1,0 +1,32 @@
+id: p1
+kind: post
+track: seller_education
+topic: What overpricing actually costs a seller
+time: '14:00'
+platforms:
+- linkedin
+design:
+  template: tip
+  kicker: SELLER TIP
+  headline: Overpricing costs you *more than time*.
+  points:
+  - Buyers shop by comparison. You become the expensive option.
+  - A stale listing invites lower offers, not patient ones.
+  - Your first two weeks get the most attention you'll ever have.
+  cta: DM 'SELLER' for a pricing breakdown
+captions:
+  linkedin: 'Most sellers treat overpricing as a time problem. It''s a money problem.
+
+
+    Here''s what actually happens. Buyers shop by comparison. When your home sits above what similar homes are closing at, it turns into the expensive option that makes everything else look like a deal. Showings slow down. The listing goes stale. And a stale listing doesn''t just sit there — it starts pulling offers below what you could have had in week one.
+
+
+    Your first two weeks carry the most attention your listing will ever get. Price it to compete then, not after three reductions.
+
+
+    Thinking about selling and want a straight read on where yours should list? DM me SELLER and I''ll put a pricing breakdown together.'
+status: {}
+media:
+  linkedin: queue/2026-10-24/media/p1-linkedin.jpg
+schedule:
+  linkedin: 2026-10-24T14:00-07:00
