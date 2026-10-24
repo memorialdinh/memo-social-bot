@@ -154,15 +154,20 @@ class Theme:
     ring: str        # headshot ring
     hl: str | None = None   # highlight box behind accent words (for light/gold themes)
     hl_fg: str | None = None
+    plate: str = "#2b2b29"  # backing behind a cut-out headshot
 
 
 THEMES = [
-    Theme("noir",     "#101010", (188, 164, 128), WHITE,     CARBON,    GOLD,      GOLD,      OBSIDIAN, SLATE,     GOLD),
-    Theme("silver",   "#0e0f11", (201, 204, 209), WHITE,     "#c9ccd1", "#c9ccd1", "#c9ccd1", OBSIDIAN, "#6b6e73", "#c9ccd1"),
-    Theme("ivory",    "#efece7", (188, 164, 128), OBSIDIAN,  "#33332f", "#7d6a48", OBSIDIAN,  GOLD,     "#6f6e69", GOLD),
+    Theme("noir",     "#101010", (188, 164, 128), WHITE,     CARBON,    GOLD,      GOLD,      OBSIDIAN, SLATE,     GOLD,
+          plate="#2b2b29"),
+    Theme("silver",   "#0e0f11", (201, 204, 209), WHITE,     "#c9ccd1", "#c9ccd1", "#c9ccd1", OBSIDIAN, "#6b6e73", "#c9ccd1",
+          plate="#26282b"),
+    Theme("ivory",    "#efece7", (188, 164, 128), OBSIDIAN,  "#33332f", "#7d6a48", OBSIDIAN,  GOLD,     "#6f6e69", GOLD,
+          plate="#dcd7cf"),
     Theme("goldrush", "#bca480", (255, 245, 225), OBSIDIAN,  "#221f1a", OBSIDIAN,  OBSIDIAN,  GOLD,     "#3d362b", OBSIDIAN,
-          hl=OBSIDIAN, hl_fg=GOLD),
-    Theme("graphite", "#1c1c1b", (188, 164, 128), WHITE,     CARBON,    GOLD,      WHITE,     OBSIDIAN, "#77766f", GOLD),
+          hl=OBSIDIAN, hl_fg=GOLD, plate="#a68e6c"),
+    Theme("graphite", "#1c1c1b", (188, 164, 128), WHITE,     CARBON,    GOLD,      WHITE,     OBSIDIAN, "#77766f", GOLD,
+          plate="#333331"),
 ]
 DECOS = ["glow", "stripe", "frame", "grid", "watermark", "arcs"]
 
@@ -202,14 +207,22 @@ def pick_headshot(item: Item, platform: str) -> Path | None:
     return files[0] if files else None
 
 
-def headshot_badge(path: Path | None, size: int, ring_color: str, shape: str = "circle") -> Image.Image:
+def headshot_badge(path: Path | None, size: int, ring_color: str, shape: str = "circle",
+                   backing: str = "#2a2a28") -> Image.Image:
+    """Headshot in a gold-ringed badge. Cut-out PNGs get a soft backing so the
+    subject reads on any theme; photos with their own background are used as-is."""
     ring = 7
     out = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     inner = size - ring * 2
+    plate = Image.new("RGBA", (inner, inner), backing)
     if path:
         im = Image.open(path).convert("RGBA")
-        im = ImageOps.fit(im, (inner, inner), centering=(0.5, 0.3))
-    else:  # placeholder until real headshots are added
+        cut = im.getchannel("A").getextrema()[0] < 250          # has transparency
+        im = ImageOps.fit(im, (inner, inner), centering=(0.5, 0.22 if cut else 0.3))
+        if cut:
+            plate.alpha_composite(im)
+            im = plate
+    else:  # placeholder until a headshot is added
         im = Image.new("RGBA", (inner, inner), SLATE)
         d = ImageDraw.Draw(im)
         f = font("head", "Bold", inner // 3)
@@ -402,7 +415,7 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
     hs = 250 if tall else 200
     footer_top = h - (420 if tall else 330)
     side_right = st["side_right"]
-    head = headshot_badge(pick_headshot(item, platform), hs, th.ring, st["shape"])
+    head = headshot_badge(pick_headshot(item, platform), hs, th.ring, st["shape"], th.plate)
     hx = w - m - hs if side_right else m
     layers.append(Layer(head, hx, footer_top, 0.2, "pop"))
 

@@ -74,7 +74,7 @@ schedule:
 headshots:
   # The SAME headshot goes on every post. Upload it to assets/headshots/ and put
   # its file name here (blank = first file in the folder).
-  primary: ""
+  primary: "memo.png"
 
 # Every post gets a different look automatically (5 color themes x 6 accents x
 # layouts). To force one for a post, add  theme: noir|silver|ivory|goldrush|graphite
