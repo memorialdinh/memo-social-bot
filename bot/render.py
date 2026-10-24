@@ -241,17 +241,29 @@ def headshot_badge(path: Path | None, size: int, ring_color: str, shape: str = "
 
 
 def logo_layer(height: int, th: Theme) -> Image.Image:
+    """Epique POWER mark + wordmark lockup. The mark is only ever scaled, never reshaped."""
     light_bg = th.name in ("ivory", "goldrush")
     names = ("logo-black.png", "logo.png") if light_bg else ("logo-white.png", "logo-gold.png", "logo.png")
+    ink = OBSIDIAN if light_bg else CARBON
+    mark = None
     for name in names:
         p = ASSETS / "logos" / name
         if p.exists():
             im = Image.open(p).convert("RGBA")
-            w = int(im.width * height / im.height)
-            return im.resize((w, height), Image.LANCZOS)  # scale only; shape untouched
+            mh = int(height * 1.18)                       # the square mark reads small next to caps
+            mark = im.resize((max(1, int(im.width * mh / im.height)), mh), Image.LANCZOS)
+            break
     f = font("head", "Medium", int(height * 0.55))
-    col = OBSIDIAN if light_bg else CARBON
-    return pill("EPIQUE REALTY", f, fg=col, outline=(0, 0, 0, 0), pad=(0, 6), letter=6)
+    word = pill("EPIQUE REALTY", f, fg=ink, outline=(0, 0, 0, 0), pad=(0, 6), letter=6)
+    if mark is None:
+        return word
+    gap = int(height * 0.42)
+    w = mark.width + gap + word.width
+    h = max(mark.height, word.height)
+    out = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    out.alpha_composite(mark, (0, (h - mark.height) // 2))
+    out.alpha_composite(word, (mark.width + gap, (h - word.height) // 2))
+    return out
 
 
 def _rgb(hexs: str) -> tuple:
@@ -347,11 +359,11 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
     tl = dict(color=th.fg, gold=th.accent, hl=th.hl, hl_fg=th.hl_fg)
 
     logo = logo_layer(54, th)
-    layers.append(Layer(logo, (w - logo.width) // 2 if center else m, 64, 0.0, "fade"))
+    layers.append(Layer(logo, (w - logo.width) // 2 if center else m, 58, 0.0, "fade"))
 
     track_label = CFG["tracks"].get(item.track, {}).get("label", item.track.upper())
     k = pill(d.get("kicker") or track_label, font("body", "SemiBold", 28), fg=th.accent, outline=th.accent)
-    y = 64 + 54 + S(90 if tall else 60)
+    y = 58 + logo.height + S(74 if tall else 46)
     layers.append(Layer(k, (w - k.width) // 2 if center else m, y, t))
     y += k.height + S(36)
     t += 0.5
