@@ -1,38 +1,45 @@
 {
-  "updated": "2026-10-24T12:46-07:00",
+  "updated": "2026-10-24T19:07-07:00",
   "scores": {
     "track:untagged": {
       "posts": 81,
-      "avg_rate": 0.0372,
-      "avg_eng": 6.0
-    },
-    "kind:post": {
-      "posts": 39,
-      "avg_rate": 0.0346,
-      "avg_eng": 4.8
-    },
-    "platform:instagram": {
-      "posts": 66,
-      "avg_rate": 0.0419,
-      "avg_eng": 7.4
+      "avg_rate": 0.0367,
+      "avg_eng": 6.1
     },
     "kind:reel": {
       "posts": 37,
       "avg_rate": 0.0428,
       "avg_eng": 8.2
     },
+    "platform:instagram": {
+      "posts": 67,
+      "avg_rate": 0.0413,
+      "avg_eng": 7.3
+    },
+    "kind:post": {
+      "posts": 41,
+      "avg_rate": 0.0318,
+      "avg_eng": 4.6
+    },
+    "platform:facebook": {
+      "posts": 16,
+      "avg_rate": 0.0125,
+      "avg_eng": 0.1
+    },
     "kind:story": {
       "posts": 5,
       "avg_rate": 0.0167,
       "avg_eng": 0.4
     },
-    "platform:facebook": {
-      "posts": 15,
-      "avg_rate": 0.0167,
-      "avg_eng": 0.1
+    "track:seller_education": {
+      "posts": 2,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0
     }
   },
-  "tips": [],
+  "tips": [
+    "Reels are beating static posts by 30%+. Consider turning one daily post into a reel."
+  ],
   "top_posts": [
     {
       "platform": "facebook",
@@ -41,7 +48,7 @@
       "track": "",
       "caption": "Your Zestimate isn't your sale price.  Algorithms can't see your new kitchen, your view, or the roof you just replaced. A real comparative m",
       "engagement": 1,
-      "rate": 0.25,
+      "rate": 0.2,
       "permalink": "https://www.facebook.com/1152148721145893/posts/1151153837912048"
     },
     {
