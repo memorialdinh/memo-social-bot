@@ -72,7 +72,11 @@ captions:
     #realestateinvesting #realestatetips #california #socalrealestate'
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7520174982774091776
+    at: '2026-10-25T10:30:35-07:00'
 schedule:
   facebook: 2026-10-25T17:22-07:00
   instagram: 2026-10-25T17:03-07:00

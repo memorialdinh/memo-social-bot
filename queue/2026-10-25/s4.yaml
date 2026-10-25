@@ -10,7 +10,11 @@ design:
   cta: Reply 'SELLER' for your number
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18077691050447250'
+    at: '2026-10-25T10:30:51-07:00'
 schedule:
   facebook: 2026-10-25T13:24-07:00
   instagram: 2026-10-25T10:03-07:00
