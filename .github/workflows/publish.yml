@@ -1,5 +1,8 @@
-# Posts everything that's due. Runs every 15 minutes.
-# (GitHub sometimes runs scheduled jobs a few minutes late — that's normal.)
+# Posts everything that's due.
+# We ask for every 15 minutes, but GitHub throttles scheduled workflows on free
+# runners and actually delivers one every 30-45 minutes. That is not a fault and
+# cannot be fixed from here, so bot/plan.py places posts at :02-:11 of their hour:
+# even a 45-minute delay then lands inside the hour analytics chose.
 name: Publish
 on:
   schedule:

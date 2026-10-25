@@ -51,7 +51,12 @@ def plan_day(items: list[Item]) -> int:
                 else:
                     when = None
                     for h in hours + list(range(S["earliest_hour"], S["latest_hour"] + 1)):
-                        jitter = stable_int(day, it.id, plat) % 23 + 3  # :03 .. :25
+                        # Keep posts near the TOP of the chosen hour. GitHub runs
+                        # scheduled workflows every 30-45 min in practice, not the
+                        # 15 we ask for, so a post placed late in the hour can slip
+                        # into the next one and miss the hour analytics picked.
+                        # :02-:11 survives a 45-minute delay and still lands in-hour.
+                        jitter = stable_int(day, it.id, plat) % 10 + 2  # :02 .. :11
                         cand = datetime.combine(day, time(h, jitter), TZ)
                         same_kind = [t for t, k in taken_kinds(items, plat) if (k == "story") == (kind == "story")]
                         if all(abs(cand - t) >= gap for t in same_kind):
