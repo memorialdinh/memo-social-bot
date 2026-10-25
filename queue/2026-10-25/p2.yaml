@@ -69,7 +69,11 @@ captions:
     #homebuying #firsttimehomebuyer #realestatetips #california #housingmarket'
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  linkedin:
+    state: posted
+    id: urn:li:share:7520203714238824448
+    at: '2026-10-25T12:24:44-07:00'
 schedule:
   facebook: 2026-10-25T20:06-07:00
   instagram: 2026-10-25T21:07-07:00
