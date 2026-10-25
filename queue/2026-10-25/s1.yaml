@@ -1,0 +1,15 @@
+id: s1
+kind: story
+track: market_update
+topic: Teaser for p1, mortgage rate averages
+time: auto
+approved: true
+design:
+  kicker: QUICK QUIZ
+  headline: 'True or false: everyone gets the *same* mortgage rate.'
+  cta: Tap your answer, then check the feed
+sources:
+- https://www.freddiemac.com/pmms
+status: {}
+schedule: {}
+media: {}

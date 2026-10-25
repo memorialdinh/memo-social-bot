@@ -1,0 +1,13 @@
+id: s3
+kind: story
+track: agent_attraction
+topic: Teaser for p3, cost per deal
+time: auto
+approved: true
+design:
+  kicker: FOR AGENTS
+  headline: Do you know your real *cost per deal*?
+  cta: Reply 'MATH' for a side-by-side
+status: {}
+schedule: {}
+media: {}

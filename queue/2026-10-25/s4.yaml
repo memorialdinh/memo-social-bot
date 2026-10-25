@@ -1,0 +1,15 @@
+id: s4
+kind: story
+track: seller_education
+topic: Teaser for r1, close-to-list ratio
+time: auto
+approved: true
+design:
+  kicker: THIS WEEK IN THE MARKET
+  headline: CA homes closed at *98.8%* of list price.
+  cta: Reply 'SELLER' for your number
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+schedule: {}
+media: {}

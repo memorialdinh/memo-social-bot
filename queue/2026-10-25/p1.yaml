@@ -1,0 +1,60 @@
+id: p1
+kind: post
+track: market_update
+topic: The headline mortgage rate is an average, not your rate
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: The headline rate is *not your rate*.
+  stat_value: 7.32%
+  stat_label: 30-yr fixed average, Freddie Mac PMMS, as of Oct 22, 2026. Down from 7.40% a week earlier.
+  cta: DM 'RATES' for a payment breakdown
+captions:
+  instagram: '7.32%. That is the average 30-year fixed as of October 22.
+
+
+    Down from 7.40% the week before. A year ago it was 6.19%.
+
+
+    Here is what the headline hides: that number is an average of what lenders were offering. Yours comes from your credit, your down payment, your loan size and which lender you sit down with.
+
+
+    Two people can shop the same week and land in different places.
+
+
+    DM me RATES and I will run your actual numbers 👇
+
+
+    #MortgageRates #HomeBuyingTips #LongBeachRealEstate #SouthBayHomes #FirstTimeHomeBuyer'
+  facebook: 'The 30-year fixed averaged 7.32% as of October 22, down from 7.40% the week before (Freddie Mac). A year ago that average was 6.19%.
+
+
+    Every time that number moves, somebody texts me asking if they should wait. Here is the part the headline leaves out: it is an average of what lenders were quoting that week. Your rate comes out of your credit profile, your down payment, your loan size and the lender you actually work with.
+
+
+    So the weekly number is useful for direction. It is not a quote. Two buyers shopping the same Tuesday can end up in very different places.
+
+
+    If you want to see what the payment looks like on a real purchase price instead of a headline, comment RATES and I will put it together for you.
+
+
+    What price range are you looking at?'
+  linkedin: 'The 30-year fixed averaged 7.32% as of October 22, down eight basis points from 7.40% the prior week. A year earlier it was 6.19% (Freddie Mac PMMS).
+
+
+    The weekly print is a directional signal, not a quote. PMMS is an average of rates lenders offered over a Thursday-to-Wednesday window. What a borrower is actually offered comes down to credit, down payment, loan size and lender pricing on the day they lock.
+
+
+    The practical takeaway for anyone advising clients: stop letting the headline run the conversation. Run the payment on the real purchase price, then decide.
+
+
+    How are you framing rate conversations with clients right now?'
+  tiktok: The average 30-year hit 7.32% this week. That is still not your rate.
+sources:
+- https://www.freddiemac.com/pmms
+- https://www.globenewswire.com/news-release/2026/10/22/3386709/0/en/mortgage-rates-decrease-to-7-32.html
+status: {}
+schedule: {}
+media: {}

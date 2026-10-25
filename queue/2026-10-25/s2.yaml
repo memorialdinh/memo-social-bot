@@ -1,0 +1,15 @@
+id: s2
+kind: story
+track: buyer_education
+topic: Teaser for p2, inventory and buyer leverage
+time: auto
+approved: true
+design:
+  kicker: BUYER CHECK
+  headline: Inventory is up, so I can *lowball*, right?
+  cta: Reply with your guess
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+schedule: {}
+media: {}

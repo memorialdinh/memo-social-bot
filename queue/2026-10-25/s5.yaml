@@ -1,0 +1,13 @@
+id: s5
+kind: story
+track: community
+topic: Birthday Club invite
+time: auto
+approved: true
+design:
+  kicker: BIRTHDAY CLUB
+  headline: Got a birthday coming up this month?
+  cta: DM 'BDAY' to get on the list
+status: {}
+schedule: {}
+media: {}
