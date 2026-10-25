@@ -53,6 +53,7 @@ tracks:
   laws_and_updates:   { weight: 1, label: "NEW LAW ALERT" }
   investment:         { weight: 2, label: "INVESTOR MATH" }
   local_spotlight:    { weight: 1, label: "LOCAL SPOTLIGHT" }
+  humor:              { weight: 2, label: "REAL TALK" }       # memes — see CONTENT_BRIEF
   community:          { weight: 0, label: "BIRTHDAY CLUB" }   # written by the engagement brain, not the daily writer
 
 # Safety: these tracks always wait for your approval before posting.

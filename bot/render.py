@@ -397,6 +397,27 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
             layers.append(Layer(lim, m, y, t - 0.6))
             y += lim.height + S(30)
 
+    if template == "meme" and (d.get("setup") or d.get("punch")):
+        # Setup in plain body type, then a gold rule, then the punchline big.
+        # The joke carries the graphic, so no numbered points underneath.
+        if d.get("setup"):
+            sim, _ = text_layer(d["setup"], font("body", "Medium", S(46 if tall else 40)), inner,
+                                color=th.body, gold=th.accent, align=align)
+            layers.append(Layer(sim, m, y, t))
+            y += sim.height + S(34)
+            t += 0.8
+        rule = Image.new("RGBA", (S(120), 5), _rgb(th.accent))
+        layers.append(Layer(rule, (w - rule.width) // 2 if center else m, y, t, "wipe"))
+        y += rule.height + S(34)
+        t += 0.4
+        if d.get("punch"):
+            pim = fit_text(d["punch"], "head", "Bold", inner, 3, S(86 if tall else 74), S(46),
+                           line_gap=1.08, align=align, color=th.accent, gold=th.fg,
+                           hl=th.hl, hl_fg=th.hl_fg)
+            layers.append(Layer(pim, m, y, t, "up", th.accent))
+            y += pim.height + S(40)
+            t += 1.2
+
     if template == "myth" and d.get("myth"):
         for label, txt in (("MYTH", d["myth"]), ("FACT", d.get("fact", ""))):
             fact = label == "FACT"
@@ -580,6 +601,17 @@ def render_item(item: Item, force: bool = False) -> list[str]:
             out.parent.mkdir(parents=True, exist_ok=True)
             compose(bg, layers).convert("RGB").save(out, "JPEG", quality=92, optimize=True)
         item.d["media"][plat] = str(out.relative_to(ROOT))
+        # Record which look this platform actually got, so analytics can tell
+        # Memo which designs earn saves and shares instead of guessing.
+        d = item.d.get("design") or {}
+        st = pick_style(item, plat)
+        item.d.setdefault("rendered", {})[plat] = {
+            "theme": st["theme"].name,
+            "deco": st["deco"],
+            "template": d.get("template") or ("stat" if d.get("stat_value") else
+                                              "myth" if d.get("myth") else
+                                              "meme" if d.get("punch") else "tip"),
+        }
         made.append(str(out.relative_to(ROOT)))
     if made:
         item.save()

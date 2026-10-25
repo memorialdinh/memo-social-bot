@@ -38,6 +38,8 @@ def check(item) -> tuple[list[str], list[str]]:
     design = d.get("design") or {}
     if not (design.get("headline") or d.get("topic")):
         errs.append("design.headline is required")
+    if design.get("template") == "meme" and not (design.get("setup") and design.get("punch")):
+        errs.append("meme template needs both design.setup and design.punch")
     if item.kind != "story":
         for p in item.platforms():
             cap = item.caption(p)

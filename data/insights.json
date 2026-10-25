@@ -1,95 +1,129 @@
 {
-  "updated": "2026-10-24T19:07-07:00",
+  "updated": "2026-10-25T00:00-07:00",
   "scores": {
     "track:untagged": {
       "posts": 81,
       "avg_rate": 0.0367,
-      "avg_eng": 6.1
+      "avg_eng": 6.1,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
     },
     "kind:reel": {
       "posts": 37,
       "avg_rate": 0.0428,
-      "avg_eng": 8.2
+      "avg_eng": 8.2,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
     },
     "platform:instagram": {
       "posts": 67,
       "avg_rate": 0.0413,
-      "avg_eng": 7.3
+      "avg_eng": 7.3,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
     },
     "kind:post": {
       "posts": 41,
       "avg_rate": 0.0318,
-      "avg_eng": 4.6
+      "avg_eng": 4.6,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
     },
     "platform:facebook": {
       "posts": 16,
       "avg_rate": 0.0125,
-      "avg_eng": 0.1
+      "avg_eng": 0.1,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
     },
     "kind:story": {
       "posts": 5,
       "avg_rate": 0.0167,
-      "avg_eng": 0.4
+      "avg_eng": 0.4,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
     },
     "track:seller_education": {
       "posts": 2,
       "avg_rate": 0.0,
-      "avg_eng": 0.0
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
     }
   },
-  "tips": [
-    "Reels are beating static posts by 30%+. Consider turning one daily post into a reel."
+  "directives": [
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 4.3% against 3.2% for static posts."
   ],
+  "tips": [
+    "Not enough data yet to judge: track:seller_education (fewer than 4 posts each). Keep writing them so they can be measured."
+  ],
+  "followers": {},
+  "note": "directives are mandatory for the content writer; tips are advisory",
   "top_posts": [
     {
-      "platform": "facebook",
-      "posted_at": "2026-10-23T12:02-07:00",
-      "kind": "post",
-      "track": "",
-      "caption": "Your Zestimate isn't your sale price.  Algorithms can't see your new kitchen, your view, or the roof you just replaced. A real comparative m",
-      "engagement": 1,
-      "rate": 0.2,
-      "permalink": "https://www.facebook.com/1152148721145893/posts/1151153837912048"
-    },
-    {
       "platform": "instagram",
-      "posted_at": "2026-09-25T06:54-07:00",
-      "kind": "post",
-      "track": "",
-      "caption": "These photos tell a bigger story than just where I\u2019ve been \u2014 they remind me of how much can change when you keep showing up.  Different seas",
-      "engagement": 39,
-      "rate": 0.1857,
-      "permalink": "https://www.instagram.com/p/DdtnTROm8NE/"
-    },
-    {
-      "platform": "instagram",
-      "posted_at": "2026-09-03T09:16-07:00",
+      "posted_at": "2026-08-26T11:00-07:00",
       "kind": "reel",
       "track": "",
-      "caption": "2020 \u27a1\ufe0f NOW.  Progress doesn\u2019t care where you start, when you start, or how far you have to go. What matters is that you START and keep show",
-      "engagement": 36,
-      "rate": 0.1636,
-      "permalink": "https://www.instagram.com/reel/Dc1OA7FTxa3/"
+      "template": null,
+      "theme": null,
+      "caption": "\ud83d\udea8 TO ALL AGENTS ATTENDING NAHREP IN LAS VEGAS! \ud83d\udea8  If you\u2019re attending NAHREP and would also like to join our Epique Regional Power Summit, w",
+      "saves": "0",
+      "shares": "0",
+      "rate": "0.0222",
+      "permalink": "https://www.instagram.com/reel/Dcgzi_LziWe/"
     },
     {
       "platform": "instagram",
-      "posted_at": "2026-09-09T07:35-07:00",
-      "kind": "reel",
-      "track": "",
-      "caption": "Okay\u2026 this is AI generated \ud83d\ude02\ud83e\udd16  But the real question is \u2014 what do you guys think? Am I getting closer to looking like this? \ud83d\udc40\ud83d\udcaa  This is basi",
-      "engagement": 61,
-      "rate": 0.1525,
-      "permalink": "https://www.instagram.com/reel/DdEfRvbTw7_/"
-    },
-    {
-      "platform": "instagram",
-      "posted_at": "2026-09-18T23:11-07:00",
+      "posted_at": "2026-08-26T13:37-07:00",
       "kind": "post",
       "track": "",
-      "caption": "Ending the night on the strip",
-      "engagement": 45,
-      "rate": 0.1466,
-      "permalink": "https://www.instagram.com/p/DddViCrGD0V/"
+      "template": null,
+      "theme": null,
+      "caption": "\ud83c\udf89 IN ESCROW! \ud83c\udf89  Congratulations to my buyers! We\u2019re officially one step closer to handing them the keys to their new home. \ud83d\udd11\ud83c\udfe1  Finding the r",
+      "saves": "0",
+      "shares": "0",
+      "rate": "0.037",
+      "permalink": "https://www.instagram.com/p/DchFneDjw-o/"
+    },
+    {
+      "platform": "instagram",
+      "posted_at": "2026-08-27T17:18-07:00",
+      "kind": "post",
+      "track": "",
+      "template": null,
+      "theme": null,
+      "caption": "\ud83d\udea8 WE\u2019RE HIRING REAL ESTATE AGENTS! \ud83d\udea8  Your brokerage should do more than collect a split\u2014it should help you grow, save money, serve your cli",
+      "saves": "0",
+      "shares": "0",
+      "rate": "0.0467",
+      "permalink": "https://www.instagram.com/p/DckDpc6mAoC/"
+    },
+    {
+      "platform": "instagram",
+      "posted_at": "2026-08-28T12:25-07:00",
+      "kind": "reel",
+      "track": "",
+      "template": null,
+      "theme": null,
+      "caption": "\ud83c\udfe1 1st Showing of the Day!  Out with my clients today searching for the right investment opportunity\u2014with a big focus on finding a property w",
+      "saves": "1",
+      "shares": "0",
+      "rate": "0.0346",
+      "permalink": "https://www.instagram.com/reel/DcmG22JvaxT/"
+    },
+    {
+      "platform": "instagram",
+      "posted_at": "2026-08-29T14:10-07:00",
+      "kind": "reel",
+      "track": "",
+      "template": null,
+      "theme": null,
+      "caption": "\ud83d\udd28 Fixer Upper Inspection Day! \ud83c\udfe1  Today is all about looking beyond what a property is today and understanding what it could become.  With a ",
+      "saves": "0",
+      "shares": "0",
+      "rate": "0.0083",
+      "permalink": "https://www.instagram.com/reel/Dco3sWnyQ0H/"
     }
   ],
   "errors": []

@@ -18,7 +18,8 @@ from .platforms.tiktok import TikTok
 POSTS_CSV = DATA / "posts.csv"
 FOLLOW_CSV = DATA / "followers.csv"
 FIELDS = ["platform", "remote_id", "posted_at", "kind", "track", "item", "caption",
-          "likes", "comments", "shares", "saves", "views", "reach", "engagement", "rate", "permalink"]
+          "likes", "comments", "shares", "saves", "views", "reach", "engagement", "rate", "permalink",
+          "template", "theme", "save_rate", "share_rate", "followers"]
 
 
 # ── storage ──────────────────────────────────────────────────
@@ -174,7 +175,18 @@ def upsert(rows, platform, rid, ts, kind, item, followers=None, **m):
         "caption": (m.get("caption") or "")[:140].replace("\n", " "),
         **{k: n(m.get(k)) for k in ("likes", "comments", "shares", "saves", "views", "reach")},
         "engagement": eng, "rate": round(eng / base, 4) if base else 0, "permalink": m.get("permalink") or "",
+        # what the graphic looked like, stamped at render time
+        **_design_of(item, platform),
+        # saves and shares are what push reach; score them on their own
+        "save_rate": round(n(m.get("saves")) / base, 4) if base else 0,
+        "share_rate": round(n(m.get("shares")) / base, 4) if base else 0,
+        "followers": n(followers),
     }
+
+
+def _design_of(item, platform: str) -> dict:
+    r = ((item.d.get("rendered") if item else None) or {}).get(platform) or {}
+    return {"template": r.get("template", ""), "theme": r.get("theme", "")}
 
 
 # ── learning ─────────────────────────────────────────────────
@@ -225,31 +237,105 @@ def best_times(rows: dict) -> dict:
     return out
 
 
+MIN_SAMPLE = 4          # below this a difference is noise, not a lesson
+
+
 def content_scores(rows: dict) -> dict:
-    agg = defaultdict(lambda: {"posts": 0, "rate": 0.0, "eng": 0})
+    agg = defaultdict(lambda: {"posts": 0, "rate": 0.0, "eng": 0, "save": 0.0, "share": 0.0})
     since = now() - timedelta(days=60)
-    for r in rows.values():
-        if datetime.fromisoformat(r["posted_at"]) < since:
-            continue
-        for key in (f"track:{r['track'] or 'untagged'}", f"kind:{r['kind']}", f"platform:{r['platform']}"):
+    recent = [r for r in rows.values() if datetime.fromisoformat(r["posted_at"]) >= since]
+    for r in recent:
+        keys = [f"track:{r['track'] or 'untagged'}", f"kind:{r['kind']}", f"platform:{r['platform']}"]
+        if r.get("template"):
+            keys.append(f"template:{r['template']}")
+        if r.get("theme"):
+            keys.append(f"theme:{r['theme']}")
+        for key in keys:
             a = agg[key]
             a["posts"] += 1
             a["rate"] += float(r["rate"] or 0)
             a["eng"] += n(r["engagement"])
-    res = {k: {"posts": v["posts"], "avg_rate": round(v["rate"] / v["posts"], 4), "avg_eng": round(v["eng"] / v["posts"], 1)}
+            a["save"] += float(r.get("save_rate") or 0)
+            a["share"] += float(r.get("share_rate") or 0)
+    res = {k: {"posts": v["posts"], "avg_rate": round(v["rate"] / v["posts"], 4),
+               "avg_eng": round(v["eng"] / v["posts"], 1),
+               "avg_save_rate": round(v["save"] / v["posts"], 4),
+               "avg_share_rate": round(v["share"] / v["posts"], 4)}
            for k, v in agg.items() if v["posts"]}
-    tips = []
-    tracks = sorted(((k[6:], v) for k, v in res.items() if k.startswith("track:") and v["posts"] >= 3), key=lambda kv: -kv[1]["avg_rate"])
+
+    lab = lambda k: CFG["tracks"].get(k, {}).get("label", k).replace("_", " ").title()
+
+    def ranked(prefix, metric="avg_rate", floor=MIN_SAMPLE):
+        xs = [(k[len(prefix):], v) for k, v in res.items()
+              if k.startswith(prefix) and v["posts"] >= floor]
+        return sorted(xs, key=lambda kv: -kv[1][metric])
+
+    # ── directives: what Scribe MUST change, in plain imperative ──
+    directives, tips = [], []
+
+    tracks = ranked("track:")
     if len(tracks) >= 2:
-        lab = lambda k: CFG["tracks"].get(k, {}).get("label", k).title()
-        tips.append(f"Do more {lab(tracks[0][0])} — best engagement rate over the last 60 days.")
-        tips.append(f"Rework {lab(tracks[-1][0])} — lowest engagement. Try a new hook or format.")
-    kinds = {k[5:]: v for k, v in res.items() if k.startswith("kind:")}
+        best, worst = tracks[0], tracks[-1]
+        if best[1]["avg_rate"] > worst[1]["avg_rate"] * 1.4:
+            directives.append(
+                f"Write an extra {lab(best[0])} piece and one fewer {lab(worst[0])} piece. "
+                f"{lab(best[0])} earns {best[1]['avg_rate']*100:.1f}% vs {worst[1]['avg_rate']*100:.1f}% "
+                f"over the last 60 days ({best[1]['posts']} vs {worst[1]['posts']} posts)."
+            )
+
+    kinds = {k[5:]: v for k, v in res.items() if k.startswith("kind:") and v["posts"] >= MIN_SAMPLE}
     if "reel" in kinds and "post" in kinds and kinds["reel"]["avg_rate"] > kinds["post"]["avg_rate"] * 1.3:
-        tips.append("Reels are beating static posts by 30%+. Consider turning one daily post into a reel.")
-    top = sorted(rows.values(), key=lambda r: -float(r["rate"] or 0))[:5]
-    return {"updated": now().isoformat(timespec="minutes"), "scores": res, "tips": tips,
-            "top_posts": [{k: r[k] for k in ("platform", "posted_at", "kind", "track", "caption", "engagement", "rate", "permalink")} for r in top]}
+        directives.append(
+            f"Write 3 reels and 2 posts today instead of 2 and 3. Reels are at "
+            f"{kinds['reel']['avg_rate']*100:.1f}% against {kinds['post']['avg_rate']*100:.1f}% for static posts."
+        )
+
+    # saves and shares are what actually extend reach, so they get their own call
+    savers = ranked("track:", "avg_save_rate")
+    if savers and savers[0][1]["avg_save_rate"] > 0:
+        directives.append(
+            f"{lab(savers[0][0])} gets saved the most ({savers[0][1]['avg_save_rate']*100:.2f}% of reach). "
+            "Saves and shares are what push a post to new people — write at least one piece built to be "
+            "saved: a checklist, a number worth keeping, or a comparison."
+        )
+    sharers = ranked("template:", "avg_share_rate")
+    if sharers and sharers[0][1]["avg_share_rate"] > 0:
+        directives.append(
+            f"The '{sharers[0][0]}' template gets shared most. Use it at least once today."
+        )
+
+    temps = ranked("template:")
+    if len(temps) >= 3 and temps[-1][1]["avg_rate"] < temps[0][1]["avg_rate"] * 0.6:
+        directives.append(
+            f"Stop using the '{temps[-1][0]}' template for now — it runs at "
+            f"{temps[-1][1]['avg_rate']*100:.1f}% against '{temps[0][0]}' at {temps[0][1]['avg_rate']*100:.1f}%."
+        )
+
+    themes = ranked("theme:")
+    if len(themes) >= 3:
+        tips.append(f"Best-performing look: {themes[0][0]} ({themes[0][1]['avg_rate']*100:.1f}%). "
+                    f"Weakest: {themes[-1][0]} ({themes[-1][1]['avg_rate']*100:.1f}%).")
+
+    thin = [k for k, v in res.items() if k.startswith(("track:", "template:")) and v["posts"] < MIN_SAMPLE]
+    if thin:
+        tips.append(f"Not enough data yet to judge: {', '.join(sorted(thin))} "
+                    f"(fewer than {MIN_SAMPLE} posts each). Keep writing them so they can be measured.")
+
+    # follower trend, so growth is visible and not just engagement rate
+    growth = {}
+    for plat in ("instagram", "facebook"):
+        pts = sorted(((r["posted_at"], n(r.get("followers"))) for r in rows.values()
+                      if r["platform"] == plat and n(r.get("followers"))), key=lambda x: x[0])
+        if len(pts) >= 2:
+            growth[plat] = {"first": pts[0][1], "latest": pts[-1][1], "change": pts[-1][1] - pts[0][1]}
+
+    top = sorted(recent, key=lambda r: -float(r.get("save_rate") or 0) - float(r.get("share_rate") or 0))[:5]
+    return {"updated": now().isoformat(timespec="minutes"), "scores": res,
+            "directives": directives, "tips": tips, "followers": growth,
+            "note": "directives are mandatory for the content writer; tips are advisory",
+            "top_posts": [{k: r.get(k) for k in ("platform", "posted_at", "kind", "track", "template",
+                                                 "theme", "caption", "saves", "shares", "rate", "permalink")}
+                          for r in top]}
 
 
 def main():

@@ -48,8 +48,41 @@ Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
 - Once a week, a story invites people to the Birthday Club: "DM BDAY 🎂".
 - If `queue/<date>/p0.yaml` already exists (the Birthday Club shoutout), leave it and write p1–p3 as usual.
 
+## Memes — the `humor` track
+
+Roughly one piece a day should be funny. Use `template: meme` with a `setup` line and a `punch`
+line. The joke is the graphic, so skip `points`.
+
+```yaml
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: "Every buyer consult, *eventually*."
+  setup: "Buyer: move-in ready, great location, under budget."
+  punch: "Also buyer: *and a pool.*"
+```
+
+What's funny here is the **shared experience of the process** — wish lists versus budget, the
+listing photo taken at a heroic angle, the inspection report that runs 48 pages, the buyer who
+needs to "think about it" for nine months, Zestimates, the 3pm offer deadline. Memo is usually
+the one being gently roasted, or in on the joke with the viewer.
+
+**Hard rules for memes — these matter more here than anywhere:**
+- **Original only.** Never recreate a known meme format's imagery, never a recognizable character,
+  mascot or film still, never a celebrity's face. Typography and Memo's own headshot only.
+- **Never joke about people, only about the process.** Nothing about who lives where, who can
+  afford what, or any protected class — Fair Housing applies to a joke exactly as it does to a
+  listing. No punching down at clients, other agents, or other brokerages.
+- No hype, no fake stats as a punchline, no "guaranteed". A joke still can't claim anything untrue.
+- The compliance badge and DRE footer stay on, same as every other graphic.
+- If a joke needs explaining, or you're unsure it reads as kind, write a different one.
+
 ## Research — every run
-1. Read `data/insights.json` (what's working) and `data/best_times.json`. Lean into the tracks and
+0. **`data/insights.json` has a `directives` list. Those are not suggestions — do what they say.**
+   They are generated from Memo's own last 60 days of results (saves, shares, reach, engagement by
+   track, format, design template and theme). If a directive says to write two reels instead of
+   one, or to stop using a template, follow it and say in your report which directives you applied.
+1. Read the rest of `data/insights.json` (what's working) and `data/best_times.json`. Lean into the tracks and
    formats with the best engagement; rework the weakest.
    Read `knowledge/faq-topics.md`: the real questions followers asked this week. Turn at least one into a
    post or reel each day ("You asked: …"). Never name or quote the person who asked.
