@@ -9,5 +9,9 @@ design:
   headline: Do you know your real *cost per deal*?
   cta: Reply 'MATH' for a side-by-side
 status: {}
-schedule: {}
-media: {}
+schedule:
+  facebook: 2026-10-25T12:17-07:00
+  instagram: 2026-10-25T09:10-07:00
+media:
+  instagram: queue/2026-10-25/media/s3-instagram.jpg
+  facebook: queue/2026-10-25/media/s3-facebook.jpg

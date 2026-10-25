@@ -9,5 +9,9 @@ design:
   headline: Got a birthday coming up this month?
   cta: DM 'BDAY' to get on the list
 status: {}
-schedule: {}
-media: {}
+schedule:
+  facebook: 2026-10-25T20:07-07:00
+  instagram: 2026-10-25T13:07-07:00
+media:
+  instagram: queue/2026-10-25/media/s5-instagram.jpg
+  facebook: queue/2026-10-25/media/s5-facebook.jpg

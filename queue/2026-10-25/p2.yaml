@@ -61,5 +61,13 @@ captions:
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
 status: {}
-schedule: {}
-media: {}
+schedule:
+  facebook: 2026-10-25T20:06-07:00
+  instagram: 2026-10-25T21:07-07:00
+  linkedin: 2026-10-25T12:17-07:00
+  tiktok: 2026-10-25T12:06-07:00
+media:
+  instagram: queue/2026-10-25/media/p2-instagram.jpg
+  facebook: queue/2026-10-25/media/p2-facebook.jpg
+  linkedin: queue/2026-10-25/media/p2-linkedin.jpg
+  tiktok: queue/2026-10-25/media/p2-tiktok.mp4

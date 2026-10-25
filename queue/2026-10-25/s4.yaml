@@ -11,5 +11,9 @@ design:
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
 status: {}
-schedule: {}
-media: {}
+schedule:
+  facebook: 2026-10-25T13:24-07:00
+  instagram: 2026-10-25T10:03-07:00
+media:
+  instagram: queue/2026-10-25/media/s4-instagram.jpg
+  facebook: queue/2026-10-25/media/s4-facebook.jpg

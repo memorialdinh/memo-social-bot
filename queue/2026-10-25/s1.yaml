@@ -11,5 +11,9 @@ design:
 sources:
 - https://www.freddiemac.com/pmms
 status: {}
-schedule: {}
-media: {}
+schedule:
+  facebook: 2026-10-25T07:23-07:00
+  instagram: 2026-10-25T07:06-07:00
+media:
+  instagram: queue/2026-10-25/media/s1-instagram.jpg
+  facebook: queue/2026-10-25/media/s1-facebook.jpg
