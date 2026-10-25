@@ -79,6 +79,11 @@ These are not optional and they are not footnotes. A post that breaks one doesn'
 - **No guarantees, no predictions as fact.** Not "prices will", not "rates will", not "you'll make".
 - **No superiority claims.** No "best agent", "#1", "top producer".
 - **Every number needs a dated source** in `sources:`. If it can't be verified, it doesn't appear.
+  **The as-of date belongs on the graphic too, not only in the caption.** Stories carry no caption at
+  all, so a bare figure on a story has no date anywhere. Checked Oct 25, 2026 and found two: the p2
+  graphic ("active listings rose just 0.5% in a year... Supply is 3.7 months") and the s4 story
+  ("CA homes closed at 98.8% of list price") both ran dateless. Write the period into the
+  `stat_label`, the `fact:` line or the story `headline` — "Sept 2026", "as of Oct 22" — every time.
 - **Identification** on every graphic and caption: Memo Dinh, DRE #02066757, Epique Realty, Equal
   Housing Opportunity. The renderer does this; never remove it.
 - **Agent recruiting**: no income, earnings or revenue-share promises. Revenue share and equity are
@@ -92,19 +97,31 @@ These are not optional and they are not footnotes. A post that breaks one doesn'
 
 ## 6. What actually works, from Memo's own numbers
 
-Updated by Mentor from `data/insights.json` each week. As of Oct 25, 2026:
+Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. As of Oct 25, 2026:
 
-- **Reels beat static posts** — 4.3% vs 3.2% engagement rate over 60 days.
-- **Instagram beats Facebook ~2.5×** — 4.1% vs 1.3%. Facebook is worth posting, not worth optimising.
+- **Reels beat static posts** — 4.3% vs 3.1% engagement rate over 60 days (37 reels, 41 posts).
+- **Instagram beats Facebook about 4×** — 4.3% vs 1.0%. *Corrected Oct 25: this file previously said
+  ~2.5× (4.1% vs 1.3%). The 60-day numbers say the gap is wider than that.* Facebook is worth
+  posting, not worth optimising, and not worth a second caption pass when time is short.
 - **Best hours**: Instagram ~9am and ~9pm; Facebook ~12pm and 8–9pm. Varies by weekday — the
   schedule is learned, not fixed.
+- **Reach is the binding constraint, not format.** Oct 19–25: 38 items published, 1,316 total reach,
+  28 total engagements, and **zero saves and zero shares all week** — including the two pieces built
+  to be saved (an open-house cheat sheet and a closing-costs list). Facebook that week: 15 posts, 65
+  people reached in total, 1 engagement. Keep writing one save-built piece a week, but do not read a
+  flat save count as a format failure. Nothing gets saved by people who never see it.
+- **Followers are flat, not falling** — 817 Instagram and 217 Facebook, unchanged across the
+  measured window. The account is stable and small. Growth has to come from reach and shares.
 - **His personal content outperforms everything the bot can make.** The fitness and weight-loss
   journey, showing days, escrow wins, family. ~80% skip rate on polished recruiting graphics by
   contrast. **The bot cannot produce this — it needs his camera.** Educational content is the
   reliable floor; his own footage is the ceiling. Mentor should remind him of this, specifically,
   when a week looks flat.
-- **Saves and shares matter more than likes** for reach. Build at least one piece a week to be
-  saved: a checklist, a number worth keeping, a comparison.
+- **There is no track, template or theme evidence yet, and Mentor must not invent any.** The
+  `track`, `template` and `theme` columns are empty on essentially every historical row in
+  `posts.csv` — 82 of the scored posts sit in `track:untagged`, and the only tagged track
+  (`seller_education`) has 2 posts. The bot started tagging its own output Oct 24, 2026. Until a
+  track has 4+ posts, "this track works" is not a finding. Say the data is thin instead.
 
 ## 7. Standing rules for Mentor
 
