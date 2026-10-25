@@ -70,6 +70,10 @@ status:
     state: posted
     id: urn:li:share:7520148788330528768
     at: '2026-10-25T08:46:29-07:00'
+  instagram:
+    state: posted
+    id: '18125256301969247'
+    at: '2026-10-25T09:26:31-07:00'
 schedule:
   facebook: 2026-10-25T12:16-07:00
   instagram: 2026-10-25T09:23-07:00
