@@ -78,6 +78,10 @@ status:
     state: posted
     id: '883745438682123_1153117341049031'
     at: '2026-10-25T12:24:43-07:00'
+  tiktok:
+    state: missed
+    detail: more than 6:00:00 late
+    at: '2026-10-25T14:27:22-07:00'
 schedule:
   facebook: 2026-10-25T12:16-07:00
   instagram: 2026-10-25T09:23-07:00
