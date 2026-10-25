@@ -99,6 +99,17 @@ the one being gently roasted, or in on the joke with the viewer.
 3. Save a short dated summary to `knowledge/market-notes/YYYY-MM-DD.md` (what changed, numbers with
    source + date). This is the bot's growing memory of the market. Re-read the last 7 notes before writing.
 4. Append each topic used to `knowledge/topic-log.csv` (`date,item,track,topic`).
+5. **Check every topic against what Memo has ALREADY POSTED, not just what this bot wrote.**
+   `knowledge/topic-log.csv` only covers this bot's own output, which started Oct 2026. His real
+   history — roughly 200 posts back to May 2026 from the years he posted through Metricool — is in
+   `data/posts.csv`, in the `caption` column. Read the captions from the **last 120 days** and skip
+   any topic whose hook or core idea already appeared. A rate update with a new weekly number is
+   fine to repeat; an evergreen explainer is not.
+   Already covered in Oct 2026, do not repeat: pre-qualified vs pre-approved, Zestimate accuracy,
+   ADUs, inherited/probate homes, open-house checklists, cheap pre-listing fixes, closing costs
+   first-timers forget, "as-is" and disclosures, 20%-down myth, rent-vs-own math, overpricing.
+   If `data/posts.csv` is missing or unreadable, say so in your report rather than assuming a topic
+   is fresh.
 
 ## Facts & compliance (non-negotiable)
 - Every number needs a source in the item's `sources:` list and must be current (say "as of <date>").

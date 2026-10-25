@@ -8,7 +8,10 @@ plan; the `queue/` folders are the finished work.
 follows it unless real news breaks, in which case it swaps a topic and notes the swap in its report.
 
 **Rules Scribe applies when following this:**
-- One `humor` meme most days. Never repeat a topic used in the last 21 days (`topic-log.csv`).
+- One `humor` meme most days.
+- **No topic Memo has already posted.** Check `data/posts.csv` captions (his real history, ~200
+  posts back to May 2026) for the last 120 days, not just `topic-log.csv`, which only covers this
+  bot's own output. Every topic below was checked against that history on Oct 25, 2026.
 - Thursday's market piece uses that morning's fresh Freddie Mac PMMS release.
 - `laws_and_updates` always waits for Memo's approval — that is automatic, don't change it.
 - Stories s1–s3 tease p1–p3. s4 teases a reel. s5 rotates: Birthday Club, a question, a local note.
@@ -22,7 +25,7 @@ follows it unless real news breaks, in which case it swaps a topic and notes the
 | # | kind | track | angle |
 |---|---|---|---|
 | p1 | post | laws_and_updates | LA County property tax: first installment due Nov 1, delinquent after Dec 10. Cite the county tax collector. **Needs approval.** |
-| p2 | post | buyer_education | Pre-qualified vs pre-approved — what a lender actually verifies at each step |
+| p2 | post | buyer_education | Rate locks — what a lock actually does, and what happens if rates drop after you lock |
 | p3 | post | humor | The inspection report that runs 48 pages and the one line that actually matters |
 | r1 | reel | seller_education | Seller net sheet: the costs that come out before you see a dollar |
 | r2 | reel | market_update | What a quarter-point rate move does to a real monthly payment (worked math) |
@@ -31,7 +34,7 @@ follows it unless real news breaks, in which case it swaps a topic and notes the
 | # | kind | track | angle |
 |---|---|---|---|
 | p1 | post | investment | Cap rate vs cash-on-cash, in plain English, with one worked example |
-| p2 | post | seller_education | California disclosure basics — what you're required to tell a buyer |
+| p2 | post | buyer_education | Title insurance — what it actually protects you from, and why lenders require it |
 | p3 | post | humor | Listing photo shot at the heroic angle vs what the room actually looks like |
 | r1 | reel | buyer_education | Earnest money: what it is, where it sits, and when you actually lose it |
 | r2 | reel | local_spotlight | One South Bay or Long Beach fact worth knowing, from the city's own site |
@@ -41,18 +44,18 @@ follows it unless real news breaks, in which case it swaps a topic and notes the
 |---|---|---|---|
 | p1 | post | market_update | Months of supply explained — what 3.7 months actually means for your offer |
 | p2 | post | agent_attraction | The questions to ask about a cap before you move brokerages |
-| p3 | post | buyer_education | Closing costs, line by line, on a typical local purchase |
+| p3 | post | buyer_education | HOA dues — what they cover, and the documents to read before you waive |
 | r1 | reel | humor | The buyer who needs to "think about it" for nine months |
-| r2 | reel | seller_education | Pre-listing prep that returns money vs prep that doesn't |
+| r2 | reel | seller_education | A California escrow, week by week: what actually happens in 30 days |
 
 ### Thu Oct 29
 | # | kind | track | angle |
 |---|---|---|---|
 | p1 | post | market_update | This morning's Freddie Mac release — the number and what moved it |
-| p2 | post | investment | ADU math in LA County: cost, rent, and the part people forget |
+| p2 | post | buyer_education | Buying with a partner or family member: how title gets held. "Not legal advice." |
 | p3 | post | seller_education | Price bands: how a $5,000 difference cuts you out of search filters |
 | r1 | reel | buyer_education | Credit score bands and how lenders price them |
-| r2 | reel | humor | Zestimate vs what the comps actually say |
+| r2 | reel | humor | The 3pm offer deadline and the buyer who reads it at 2:58 |
 
 ### Fri Oct 30
 | # | kind | track | angle |
@@ -68,6 +71,6 @@ follows it unless real news breaks, in which case it swaps a topic and notes the
 |---|---|---|---|
 | p1 | post | seller_education | Selling through the holidays: fewer buyers, more serious ones |
 | p2 | post | humor | The one Halloween-decorated house on every tour (kind, about the house) |
-| p3 | post | investment | Trust and probate sale basics — timelines and prep. "Not legal advice." |
-| r1 | reel | buyer_education | Three things to do before you tour anything |
+| p3 | post | investment | Mello-Roos and special assessments — the line on the tax bill people miss |
+| r1 | reel | seller_education | What a seller actually sees when your offer lands on their table |
 | r2 | reel | market_update | What to watch going into November |
