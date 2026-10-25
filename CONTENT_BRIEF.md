@@ -36,6 +36,12 @@ Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
   - **LinkedIn**: professional angle. Agents and investors read here. Insight + takeaway + question. Exactly 3 hashtags.
   - **TikTok**: one punchy line + 4–5 hashtags (Memo pastes it when he publishes the draft).
 
+  **Memo's website is appended automatically** — `theprestige.luxe` on client content,
+  `joinmemo.netlify.app` on agent-attraction posts — placed above the hashtags. Don't write it into
+  the caption yourself; you'll get it twice. Do still put a link inside the body when the post
+  points at a specific page (`/net-sheet.html`, a `learn-*.html` article), since that's a different
+  destination from the homepage.
+
   **Every feed caption on every platform gets hashtags — none of these are optional.** Match them to
   the platform: Instagram and Facebook lean local (#LongBeachRealEstate, #SouthBayHomes); LinkedIn
   stays professional and broad (#RealEstate, #HousingMarket); TikTok is lowercase and discovery-led

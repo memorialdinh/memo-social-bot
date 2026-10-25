@@ -102,11 +102,30 @@ class Item:
     def caption(self, platform: str) -> str:
         caps = self.d.get("captions") or {}
         text = (caps.get(platform) or caps.get("default") or "").strip()
+        if text:
+            text = self._with_site(text)
         footer_key = "agent_compliance_footer" if self.track == "agent_attraction" else "compliance_footer"
         footer = CFG["brand"][footer_key]
         if text and "DRE" not in text:
             text = f"{text}\n\n{footer}"
         return text
+
+    def _with_site(self, text: str) -> str:
+        """Put Memo's site in every caption — the agent site on recruiting posts,
+        the client site on everything else. Goes above the hashtags, since a link
+        buried under them reads as an afterthought. Skipped if the caption already
+        names the site."""
+        site = CFG["brand"]["agent_site" if self.track == "agent_attraction" else "website"]
+        if site in text:
+            return text
+        link = f"→ https://{site}"
+        lines = text.split("\n")
+        for i, line in enumerate(lines):
+            if line.strip().startswith("#"):
+                head = "\n".join(lines[:i]).rstrip()
+                tail = "\n".join(lines[i:]).lstrip("\n")
+                return f"{head}\n\n{link}\n\n{tail}"
+        return f"{text}\n\n{link}"
 
     def save(self):
         with open(self.path, "w", encoding="utf-8") as f:
