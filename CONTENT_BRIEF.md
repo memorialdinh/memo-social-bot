@@ -105,11 +105,19 @@ the one being gently roasted, or in on the joke with the viewer.
    `data/posts.csv`, in the `caption` column. Read the captions from the **last 120 days** and skip
    any topic whose hook or core idea already appeared. A rate update with a new weekly number is
    fine to repeat; an evergreen explainer is not.
-   Already covered in Oct 2026, do not repeat: pre-qualified vs pre-approved, Zestimate accuracy,
-   ADUs, inherited/probate homes, open-house checklists, cheap pre-listing fixes, closing costs
-   first-timers forget, "as-is" and disclosures, 20%-down myth, rent-vs-own math, overpricing.
-   If `data/posts.csv` is missing or unreadable, say so in your report rather than assuming a topic
-   is fresh.
+   **Run the checker — don't eyeball it:**
+   ```
+   python -m bot.seen "your topic here" "another topic"
+   python -m bot.seen --plan          # checks every topic in week-plan.md
+   ```
+   It prints `fresh` or `ALREADY COVERED` with the matching post and date, and exits 1 on a hit.
+   Run it on every topic BEFORE writing, and again on the week plan after you rewrite it on Sundays.
+   Already covered in Oct 2026, so you can skip proposing these at all: pre-qualified vs
+   pre-approved, Zestimate accuracy, ADUs, inherited/probate homes, open-house checklists, cheap
+   pre-listing fixes, closing costs first-timers forget, "as-is" and disclosures, the 20%-down myth,
+   rent-vs-own math, overpricing. A rate update carrying a new weekly number is fine to repeat.
+   If `data/posts.csv` is missing, `bot.seen` exits 2 and says so — report that rather than
+   assuming a topic is fresh.
 
 ## Facts & compliance (non-negotiable)
 - Every number needs a source in the item's `sources:` list and must be current (say "as of <date>").
