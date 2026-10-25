@@ -11,7 +11,11 @@ design:
 sources:
 - https://www.freddiemac.com/pmms
 - https://fred.stlouisfed.org/series/MORTGAGE30US
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18086263790709864'
+    at: '2026-10-25T07:11:41-07:00'
 schedule:
   facebook: 2026-10-25T07:23-07:00
   instagram: 2026-10-25T07:06-07:00
