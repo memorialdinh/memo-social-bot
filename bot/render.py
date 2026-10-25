@@ -154,7 +154,7 @@ class Theme:
     ring: str        # headshot ring
     hl: str | None = None   # highlight box behind accent words (for light/gold themes)
     hl_fg: str | None = None
-    plate: str = "#2b2b29"  # backing behind a cut-out headshot
+    plate: str = "#2b2b29"  # unused since Oct 2026 — the badge backs onto th.bg
 
 
 THEMES = [
@@ -218,10 +218,17 @@ def headshot_badge(path: Path | None, size: int, ring_color: str, shape: str = "
     if path:
         im = Image.open(path).convert("RGBA")
         cut = im.getchannel("A").getextrema()[0] < 250          # has transparency
-        im = ImageOps.fit(im, (inner, inner), centering=(0.5, 0.22 if cut else 0.3))
         if cut:
-            plate.alpha_composite(im)
+            # Cut-out: sit him on the card's own colour so there is no visible
+            # plate, and leave headroom so the top of his head never touches the
+            # ring. Anchored to the bottom so the shoulders meet the badge edge.
+            fitted = ImageOps.fit(im, (int(inner * 0.92), int(inner * 0.92)),
+                                  centering=(0.5, 0.30))
+            plate.alpha_composite(fitted, ((inner - fitted.width) // 2,
+                                           inner - fitted.height))
             im = plate
+        else:
+            im = ImageOps.fit(im, (inner, inner), centering=(0.5, 0.3))
     else:  # placeholder until a headshot is added
         im = Image.new("RGBA", (inner, inner), SLATE)
         d = ImageDraw.Draw(im)
@@ -470,7 +477,7 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
     hs = 250 if tall else 200
     footer_top = h - (420 if tall else 330)
     side_right = st["side_right"]
-    head = headshot_badge(pick_headshot(item, platform), hs, th.ring, st["shape"], th.plate)
+    head = headshot_badge(pick_headshot(item, platform), hs, th.ring, st["shape"], th.bg)
     hx = w - m - hs if side_right else m
     layers.append(Layer(head, hx, footer_top, 0.2, "pop"))
 
