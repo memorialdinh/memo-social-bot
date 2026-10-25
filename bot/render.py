@@ -578,12 +578,31 @@ def count_frame(L: Layer, stat: str, p: float) -> Image.Image:
 
 
 # ── per-item rendering ──────────────────────────────────────
+def _stamp(item: Item, plat: str):
+    """Record the look this platform got, so analytics can attribute results to
+    the design. Written even when the media already exists, or the first day of
+    a design would never be measured."""
+    d = item.d.get("design") or {}
+    st = pick_style(item, plat)
+    item.d.setdefault("rendered", {})[plat] = {
+        "theme": st["theme"].name,
+        "deco": st["deco"],
+        "template": d.get("template") or ("stat" if d.get("stat_value") else
+                                          "myth" if d.get("myth") else
+                                          "meme" if d.get("punch") else "tip"),
+    }
+
+
 def render_item(item: Item, force: bool = False) -> list[str]:
     made = []
+    changed = False
     mdir = item.path.parent / "media"
     for i, plat in enumerate(item.platforms()):
         existing = item.media_path(plat)
         if existing and existing.exists() and not force:
+            if plat not in (item.d.get("rendered") or {}):
+                _stamp(item, plat)
+                changed = True
             continue
         variant = (stable_int(item.day, item.id) + i) % 4
         if item.kind == "story":
@@ -601,19 +620,9 @@ def render_item(item: Item, force: bool = False) -> list[str]:
             out.parent.mkdir(parents=True, exist_ok=True)
             compose(bg, layers).convert("RGB").save(out, "JPEG", quality=92, optimize=True)
         item.d["media"][plat] = str(out.relative_to(ROOT))
-        # Record which look this platform actually got, so analytics can tell
-        # Memo which designs earn saves and shares instead of guessing.
-        d = item.d.get("design") or {}
-        st = pick_style(item, plat)
-        item.d.setdefault("rendered", {})[plat] = {
-            "theme": st["theme"].name,
-            "deco": st["deco"],
-            "template": d.get("template") or ("stat" if d.get("stat_value") else
-                                              "myth" if d.get("myth") else
-                                              "meme" if d.get("punch") else "tip"),
-        }
+        _stamp(item, plat)
         made.append(str(out.relative_to(ROOT)))
-    if made:
+    if made or changed:
         item.save()
     return made
 

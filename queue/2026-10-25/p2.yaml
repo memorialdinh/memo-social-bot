@@ -80,3 +80,20 @@ media:
   facebook: queue/2026-10-25/media/p2-facebook.jpg
   linkedin: queue/2026-10-25/media/p2-linkedin.jpg
   tiktok: queue/2026-10-25/media/p2-tiktok.mp4
+rendered:
+  instagram:
+    theme: goldrush
+    deco: frame
+    template: myth
+  facebook:
+    theme: noir
+    deco: grid
+    template: myth
+  linkedin:
+    theme: ivory
+    deco: watermark
+    template: myth
+  tiktok:
+    theme: graphite
+    deco: arcs
+    template: myth

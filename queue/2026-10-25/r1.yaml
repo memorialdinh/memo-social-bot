@@ -92,3 +92,20 @@ media:
   facebook: queue/2026-10-25/media/r1-facebook.mp4
   linkedin: queue/2026-10-25/media/r1-linkedin.mp4
   tiktok: queue/2026-10-25/media/r1-tiktok.mp4
+rendered:
+  instagram:
+    theme: noir
+    deco: glow
+    template: tip
+  facebook:
+    theme: ivory
+    deco: stripe
+    template: tip
+  linkedin:
+    theme: graphite
+    deco: frame
+    template: tip
+  tiktok:
+    theme: silver
+    deco: grid
+    template: tip

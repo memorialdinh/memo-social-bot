@@ -76,3 +76,20 @@ media:
   facebook: queue/2026-10-25/media/p1-facebook.jpg
   linkedin: queue/2026-10-25/media/p1-linkedin.jpg
   tiktok: queue/2026-10-25/media/p1-tiktok.mp4
+rendered:
+  instagram:
+    theme: ivory
+    deco: glow
+    template: stat
+  facebook:
+    theme: graphite
+    deco: stripe
+    template: stat
+  linkedin:
+    theme: silver
+    deco: frame
+    template: stat
+  tiktok:
+    theme: goldrush
+    deco: grid
+    template: stat

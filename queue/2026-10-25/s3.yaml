@@ -15,3 +15,12 @@ schedule:
 media:
   instagram: queue/2026-10-25/media/s3-instagram.jpg
   facebook: queue/2026-10-25/media/s3-facebook.jpg
+rendered:
+  instagram:
+    theme: graphite
+    deco: frame
+    template: tip
+  facebook:
+    theme: silver
+    deco: grid
+    template: tip

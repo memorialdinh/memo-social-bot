@@ -17,3 +17,12 @@ schedule:
 media:
   instagram: queue/2026-10-25/media/s4-instagram.jpg
   facebook: queue/2026-10-25/media/s4-facebook.jpg
+rendered:
+  instagram:
+    theme: noir
+    deco: watermark
+    template: tip
+  facebook:
+    theme: ivory
+    deco: arcs
+    template: tip
