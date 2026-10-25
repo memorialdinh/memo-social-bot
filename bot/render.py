@@ -368,14 +368,17 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
     y += k.height + S(36)
     t += 0.5
 
-    headline = d.get("headline") or item.d.get("topic", "")
-    head_img = fit_text(headline, "head", "Bold", inner, 4 if tall else 3, S(104 if tall else 92), S(56),
-                        line_gap=1.08, align=align, **tl)
-    layers.append(Layer(head_img, m, y, t))
-    y += head_img.height + S(50 if tall else 34)
-    t += 0.9
+    template = d.get("template") or ("stat" if d.get("stat_value") else "myth" if d.get("myth") else
+                                     "meme" if d.get("punch") else "quote" if d.get("quote") else "tip")
 
-    template = d.get("template") or ("stat" if d.get("stat_value") else "myth" if d.get("myth") else "tip")
+    # On a quote card the line IS the headline, so don't print both.
+    if not (template == "quote" and d.get("quote")):
+        headline = d.get("headline") or item.d.get("topic", "")
+        head_img = fit_text(headline, "head", "Bold", inner, 4 if tall else 3, S(104 if tall else 92), S(56),
+                            line_gap=1.08, align=align, **tl)
+        layers.append(Layer(head_img, m, y, t))
+        y += head_img.height + S(50 if tall else 34)
+        t += 0.9
 
     if template == "stat" and d.get("stat_value"):
         sv = d["stat_value"]
@@ -396,6 +399,25 @@ def _layout(item: Item, platform: str, w: int, h: int, variant: int, video: bool
                                 color=th.body, gold=th.accent, align=align)
             layers.append(Layer(lim, m, y, t - 0.6))
             y += lim.height + S(30)
+
+    if template == "quote" and d.get("quote"):
+        # Motivational / empowering card: the line carries it, so set it large,
+        # with a gold rule and a small attribution underneath.
+        qim = fit_text(d["quote"], "head", "Bold", inner, 6, S(96 if tall else 82), S(44),
+                       line_gap=1.12, align=align, color=th.fg, gold=th.accent,
+                       hl=th.hl, hl_fg=th.hl_fg)
+        layers.append(Layer(qim, m, y, t, "up", th.accent))
+        y += qim.height + S(36)
+        t += 1.2
+        rule = Image.new("RGBA", (S(90), 4), _rgb(th.accent))
+        layers.append(Layer(rule, (w - rule.width) // 2 if center else m, y, t, "wipe"))
+        y += rule.height + S(26)
+        if d.get("attribution"):
+            aim, _ = text_layer(d["attribution"], font("body", "Medium", S(36 if tall else 30)), inner,
+                                color=th.muted, gold=th.accent, align=align)
+            layers.append(Layer(aim, m, y, t + 0.3))
+            y += aim.height + S(30)
+        t += 0.5
 
     if template == "meme" and (d.get("setup") or d.get("punch")):
         # Setup in plain body type, then a gold rule, then the punchline big.
@@ -589,7 +611,8 @@ def _stamp(item: Item, plat: str):
         "deco": st["deco"],
         "template": d.get("template") or ("stat" if d.get("stat_value") else
                                           "myth" if d.get("myth") else
-                                          "meme" if d.get("punch") else "tip"),
+                                          "meme" if d.get("punch") else
+                                          "quote" if d.get("quote") else "tip"),
     }
 
 

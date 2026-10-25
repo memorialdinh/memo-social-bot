@@ -54,6 +54,7 @@ tracks:
   investment:         { weight: 2, label: "INVESTOR MATH" }
   local_spotlight:    { weight: 1, label: "LOCAL SPOTLIGHT" }
   humor:              { weight: 2, label: "REAL TALK" }       # memes — see CONTENT_BRIEF
+  motivation:         { weight: 2, label: "MONDAY" }          # inspiring / empowering, quote template
   community:          { weight: 0, label: "BIRTHDAY CLUB" }   # written by the engagement brain, not the daily writer
 
 # Safety: these tracks always wait for your approval before posting.

@@ -40,6 +40,8 @@ def check(item) -> tuple[list[str], list[str]]:
         errs.append("design.headline is required")
     if design.get("template") == "meme" and not (design.get("setup") and design.get("punch")):
         errs.append("meme template needs both design.setup and design.punch")
+    if design.get("template") == "quote" and not design.get("quote"):
+        errs.append("quote template needs design.quote")
     if item.kind != "story":
         for p in item.platforms():
             cap = item.caption(p)
