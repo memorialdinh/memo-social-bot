@@ -8,7 +8,11 @@ design:
   kicker: BIRTHDAY CLUB
   headline: Got a birthday coming up this month?
   cta: DM 'BDAY' to get on the list
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18471747559184381'
+    at: '2026-10-25T13:23:42-07:00'
 schedule:
   facebook: 2026-10-25T20:07-07:00
   instagram: 2026-10-25T13:07-07:00
