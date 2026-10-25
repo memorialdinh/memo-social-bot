@@ -10,7 +10,11 @@ design:
   cta: Reply with your guess
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17935093044144116'
+    at: '2026-10-25T08:46:49-07:00'
 schedule:
   facebook: 2026-10-25T10:14-07:00
   instagram: 2026-10-25T08:13-07:00
