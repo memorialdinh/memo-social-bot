@@ -10,6 +10,7 @@ design:
   cta: Tap your answer, then check the feed
 sources:
 - https://www.freddiemac.com/pmms
+- https://fred.stlouisfed.org/series/MORTGAGE30US
 status: {}
 schedule:
   facebook: 2026-10-25T07:23-07:00

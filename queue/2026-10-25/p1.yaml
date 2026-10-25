@@ -54,6 +54,7 @@ captions:
   tiktok: The average 30-year hit 7.32% this week. That is still not your rate.
 sources:
 - https://www.freddiemac.com/pmms
+- https://fred.stlouisfed.org/series/MORTGAGE30US
 - https://www.globenewswire.com/news-release/2026/10/22/3386709/0/en/mortgage-rates-decrease-to-7-32.html
 status: {}
 schedule:
