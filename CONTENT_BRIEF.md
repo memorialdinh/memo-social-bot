@@ -31,10 +31,15 @@ Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
 - Stories `s1`–`s3` match posts `p1`–`p3` (teaser, quiz or poll-style question for the same topic).
   `s4`–`s5` match the reels or are a quick tip / "this week in the market" stat.
 - Same topic across platforms, but **every platform gets its own caption**:
-  - **Instagram**: hook line, 2–4 short lines, a keyword CTA ("DM me 'RATES'"), 3–6 hashtags.
-  - **Facebook**: conversational, a little longer, ends with a question or comment-CTA. 0–2 hashtags.
-  - **LinkedIn**: professional angle. Agents and investors read here. Insight + takeaway + question. 0–3 hashtags.
-  - **TikTok**: one punchy line + 3–5 hashtags (Memo pastes it when he publishes the draft).
+  - **Instagram**: hook line, 2–4 short lines, a keyword CTA ("DM me 'RATES'"), 5–8 hashtags.
+  - **Facebook**: conversational, a little longer, ends with a question or comment-CTA. 2–3 hashtags.
+  - **LinkedIn**: professional angle. Agents and investors read here. Insight + takeaway + question. Exactly 3 hashtags.
+  - **TikTok**: one punchy line + 4–5 hashtags (Memo pastes it when he publishes the draft).
+
+  **Every feed caption on every platform gets hashtags — none of these are optional.** Match them to
+  the platform: Instagram and Facebook lean local (#LongBeachRealEstate, #SouthBayHomes); LinkedIn
+  stays professional and broad (#RealEstate, #HousingMarket); TikTok is lowercase and discovery-led
+  (#firsttimehomebuyer, #realestatetips). Stories carry no caption, so no hashtags there.
 - Rotate through the topic tracks in `config.yaml` using their weights. Check `knowledge/topic-log.csv`
   and don't repeat a topic used in the last 21 days.
 - Mix at least 1 agent-attraction piece per day and at least 1 buyer or seller education piece.
