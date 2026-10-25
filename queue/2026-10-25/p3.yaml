@@ -72,7 +72,11 @@ captions:
     #realestateagent #realtorlife #realestatecareer #brokerage'
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18450209269123842'
+    at: '2026-10-25T07:29:38-07:00'
 schedule:
   facebook: 2026-10-25T10:09-07:00
   instagram: 2026-10-25T07:25-07:00
