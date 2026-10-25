@@ -1,45 +1,45 @@
 {
-  "updated": "2026-10-25T00:00-07:00",
+  "updated": "2026-10-25T07:04-07:00",
   "scores": {
     "track:untagged": {
-      "posts": 81,
-      "avg_rate": 0.0367,
-      "avg_eng": 6.1,
-      "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0
+      "posts": 82,
+      "avg_rate": 0.0373,
+      "avg_eng": 6.0,
+      "avg_save_rate": 0.0004,
+      "avg_share_rate": 0.0008
     },
     "kind:reel": {
       "posts": 37,
-      "avg_rate": 0.0428,
+      "avg_rate": 0.0427,
       "avg_eng": 8.2,
-      "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0
+      "avg_save_rate": 0.0004,
+      "avg_share_rate": 0.0016
     },
     "platform:instagram": {
-      "posts": 67,
-      "avg_rate": 0.0413,
+      "posts": 68,
+      "avg_rate": 0.0425,
       "avg_eng": 7.3,
-      "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0
+      "avg_save_rate": 0.0005,
+      "avg_share_rate": 0.0009
     },
     "kind:post": {
       "posts": 41,
-      "avg_rate": 0.0318,
+      "avg_rate": 0.0315,
       "avg_eng": 4.6,
-      "avg_save_rate": 0.0,
+      "avg_save_rate": 0.0005,
       "avg_share_rate": 0.0
     },
     "platform:facebook": {
       "posts": 16,
-      "avg_rate": 0.0125,
+      "avg_rate": 0.0104,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "kind:story": {
-      "posts": 5,
-      "avg_rate": 0.0167,
-      "avg_eng": 0.4,
+      "posts": 6,
+      "avg_rate": 0.0304,
+      "avg_eng": 0.7,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
@@ -52,78 +52,90 @@
     }
   },
   "directives": [
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 4.3% against 3.2% for static posts."
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 4.3% against 3.1% for static posts.",
+    "Untagged gets saved the most (0.04% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison."
   ],
   "tips": [
     "Not enough data yet to judge: track:seller_education (fewer than 4 posts each). Keep writing them so they can be measured."
   ],
-  "followers": {},
+  "followers": {
+    "instagram": {
+      "first": 817,
+      "latest": 817,
+      "change": 0
+    },
+    "facebook": {
+      "first": 217,
+      "latest": 217,
+      "change": 0
+    }
+  },
   "note": "directives are mandatory for the content writer; tips are advisory",
   "top_posts": [
     {
       "platform": "instagram",
-      "posted_at": "2026-08-26T11:00-07:00",
+      "posted_at": "2026-09-09T07:35-07:00",
       "kind": "reel",
       "track": "",
-      "template": null,
-      "theme": null,
-      "caption": "\ud83d\udea8 TO ALL AGENTS ATTENDING NAHREP IN LAS VEGAS! \ud83d\udea8  If you\u2019re attending NAHREP and would also like to join our Epique Regional Power Summit, w",
-      "saves": "0",
-      "shares": "0",
-      "rate": "0.0222",
-      "permalink": "https://www.instagram.com/reel/Dcgzi_LziWe/"
+      "template": "",
+      "theme": "",
+      "caption": "Okay\u2026 this is AI generated \ud83d\ude02\ud83e\udd16  But the real question is \u2014 what do you guys think? Am I getting closer to looking like this? \ud83d\udc40\ud83d\udcaa  This is basi",
+      "saves": 1,
+      "shares": 12,
+      "rate": 0.1525,
+      "permalink": "https://www.instagram.com/reel/DdEfRvbTw7_/"
     },
     {
       "platform": "instagram",
-      "posted_at": "2026-08-26T13:37-07:00",
+      "posted_at": "2026-09-04T15:28-07:00",
+      "kind": "reel",
+      "track": "",
+      "template": "",
+      "theme": "",
+      "caption": "\ud83c\udfe1 TURNKEY HOME + DEVELOPMENT POTENTIAL IN INGLEWOOD! \ud83d\udd25  Looking for a move-in-ready home with future investment upside? This one checks both",
+      "saves": 0,
+      "shares": 4,
+      "rate": 0.0393,
+      "permalink": "https://www.instagram.com/reel/Dc4dR7Vhfax/"
+    },
+    {
+      "platform": "instagram",
+      "posted_at": "2026-09-23T12:52-07:00",
       "kind": "post",
       "track": "",
-      "template": null,
-      "theme": null,
-      "caption": "\ud83c\udf89 IN ESCROW! \ud83c\udf89  Congratulations to my buyers! We\u2019re officially one step closer to handing them the keys to their new home. \ud83d\udd11\ud83c\udfe1  Finding the r",
-      "saves": "0",
-      "shares": "0",
-      "rate": "0.037",
-      "permalink": "https://www.instagram.com/p/DchFneDjw-o/"
+      "template": "",
+      "theme": "",
+      "caption": "What if your brokerage did more than hold your license?  At Epique Realty, the goal is to help agents build a stronger business, keep more o",
+      "saves": 1,
+      "shares": 0,
+      "rate": 0.0633,
+      "permalink": "https://www.instagram.com/p/DdpGrqfkiEq/"
     },
     {
       "platform": "instagram",
-      "posted_at": "2026-08-27T17:18-07:00",
+      "posted_at": "2026-10-05T06:37-07:00",
+      "kind": "reel",
+      "track": "",
+      "template": "",
+      "theme": "",
+      "caption": "Happy Monday!!",
+      "saves": 1,
+      "shares": 0,
+      "rate": 0.0338,
+      "permalink": "https://www.instagram.com/reel/DeHVSfRTofo/"
+    },
+    {
+      "platform": "instagram",
+      "posted_at": "2026-09-25T06:54-07:00",
       "kind": "post",
       "track": "",
-      "template": null,
-      "theme": null,
-      "caption": "\ud83d\udea8 WE\u2019RE HIRING REAL ESTATE AGENTS! \ud83d\udea8  Your brokerage should do more than collect a split\u2014it should help you grow, save money, serve your cli",
-      "saves": "0",
-      "shares": "0",
-      "rate": "0.0467",
-      "permalink": "https://www.instagram.com/p/DckDpc6mAoC/"
-    },
-    {
-      "platform": "instagram",
-      "posted_at": "2026-08-28T12:25-07:00",
-      "kind": "reel",
-      "track": "",
-      "template": null,
-      "theme": null,
-      "caption": "\ud83c\udfe1 1st Showing of the Day!  Out with my clients today searching for the right investment opportunity\u2014with a big focus on finding a property w",
-      "saves": "1",
-      "shares": "0",
-      "rate": "0.0346",
-      "permalink": "https://www.instagram.com/reel/DcmG22JvaxT/"
-    },
-    {
-      "platform": "instagram",
-      "posted_at": "2026-08-29T14:10-07:00",
-      "kind": "reel",
-      "track": "",
-      "template": null,
-      "theme": null,
-      "caption": "\ud83d\udd28 Fixer Upper Inspection Day! \ud83c\udfe1  Today is all about looking beyond what a property is today and understanding what it could become.  With a ",
-      "saves": "0",
-      "shares": "0",
-      "rate": "0.0083",
-      "permalink": "https://www.instagram.com/reel/Dco3sWnyQ0H/"
+      "template": "",
+      "theme": "",
+      "caption": "These photos tell a bigger story than just where I\u2019ve been \u2014 they remind me of how much can change when you keep showing up.  Different seas",
+      "saves": 1,
+      "shares": 0,
+      "rate": 0.1857,
+      "permalink": "https://www.instagram.com/p/DdtnTROm8NE/"
     }
   ],
   "errors": []
