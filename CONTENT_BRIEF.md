@@ -78,7 +78,14 @@ the one being gently roasted, or in on the joke with the viewer.
 - If a joke needs explaining, or you're unsure it reads as kind, write a different one.
 
 ## Research — every run
-0. **`data/insights.json` has a `directives` list. Those are not suggestions — do what they say.**
+0. **Read `knowledge/week-plan.md` first.** It holds the topic calendar for the coming week, and
+   Memo edits it directly. Write tomorrow's row from that plan. Swap a topic only if real news
+   breaks or a planned one would duplicate something from the last 21 days — and say so in your
+   report. **Then, on the Sunday run only, rewrite the file with the next week's plan** (Mon–Sat,
+   same table format): pick topics by track weight, keep one `humor` meme most days, put the market
+   piece that needs fresh rates on Thursday, and never repeat anything from `topic-log.csv`'s last
+   21 days. Keep the file's header and rules block exactly as it is.
+0b. **`data/insights.json` has a `directives` list. Those are not suggestions — do what they say.**
    They are generated from Memo's own last 60 days of results (saves, shares, reach, engagement by
    track, format, design template and theme). If a directive says to write two reels instead of
    one, or to stop using a template, follow it and say in your report which directives you applied.
