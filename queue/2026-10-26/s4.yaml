@@ -10,7 +10,15 @@ design:
   cta: Tap your guess, then watch the reel
 sources:
 - https://www.freddiemac.com/pmms
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18200541781381480'
+    at: '2026-10-26T13:31:18-07:00'
+  facebook:
+    state: posted
+    id: '1438798447671469'
+    at: '2026-10-26T13:31:23-07:00'
 media:
   instagram: queue/2026-10-26/media/s4-instagram.jpg
   facebook: queue/2026-10-26/media/s4-facebook.jpg
