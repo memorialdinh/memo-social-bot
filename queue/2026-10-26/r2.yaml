@@ -90,7 +90,11 @@ sources:
 - https://www.freddiemac.com/pmms
 - https://fred.stlouisfed.org/series/MORTGAGE30US
 - https://finance.yahoo.com/real-estate/articles/mortgage-rates-decrease-7-32-160000610.html
-status: {}
+status:
+  facebook:
+    state: posted
+    id: '2081137565898883'
+    at: '2026-10-26T08:35:45-07:00'
 media:
   instagram: queue/2026-10-26/media/r2-instagram.mp4
   facebook: queue/2026-10-26/media/r2-facebook.mp4

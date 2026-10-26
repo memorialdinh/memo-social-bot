@@ -11,7 +11,13 @@ design:
 sources:
 - https://www.propertytax.lacounty.gov/Home/AnnualSecuredProperty
 - https://ttc.lacounty.gov/secured-property-taxes-general-information/
-status: {}
+status:
+  instagram:
+    state: needs_approval
+    at: '2026-10-26T08:35:45-07:00'
+  facebook:
+    state: needs_approval
+    at: '2026-10-26T08:35:45-07:00'
 media:
   instagram: queue/2026-10-26/media/s1-instagram.jpg
   facebook: queue/2026-10-26/media/s1-facebook.jpg
