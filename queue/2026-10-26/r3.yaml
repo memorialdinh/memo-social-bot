@@ -78,6 +78,10 @@ status:
     state: posted
     id: urn:li:ugcPost:7520536394360897536
     at: '2026-10-26T10:26:42-07:00'
+  instagram:
+    state: posted
+    id: '18123513454940626'
+    at: '2026-10-26T12:54:49-07:00'
 media:
   instagram: queue/2026-10-26/media/r3-instagram.mp4
   facebook: queue/2026-10-26/media/r3-facebook.mp4

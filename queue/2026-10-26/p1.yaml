@@ -80,6 +80,9 @@ status:
   tiktok:
     state: needs_approval
     at: '2026-10-26T08:35:07-07:00'
+  facebook:
+    state: needs_approval
+    at: '2026-10-26T12:54:09-07:00'
 media:
   instagram: queue/2026-10-26/media/p1-instagram.jpg
   facebook: queue/2026-10-26/media/p1-facebook.jpg
