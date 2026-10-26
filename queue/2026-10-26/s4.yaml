@@ -1,0 +1,12 @@
+id: s4
+kind: story
+track: market_update
+topic: Teaser for r2, what a quarter point actually costs
+time: auto
+approved: true
+design:
+  kicker: QUICK QUIZ
+  headline: Is a quarter point *really* a big deal?
+  cta: Tap your guess, then watch the reel
+sources:
+- https://www.freddiemac.com/pmms

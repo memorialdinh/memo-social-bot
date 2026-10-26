@@ -1,0 +1,92 @@
+id: r2
+kind: reel
+track: market_update
+topic: What a quarter point rate move does to a real monthly payment
+time: auto
+approved: true
+design:
+  template: myth
+  kicker: MARKET UPDATE
+  headline: A quarter point is *not* a rounding error.
+  myth: A quarter point? That is basically nothing.
+  fact: On a $600,000 loan it is about $100 a month, roughly $36,500 over 30 years. Example at 7.32% vs 7.07%, 30-yr fixed, principal and interest only. PMMS average as of Oct 22, 2026. Not a loan offer.
+  cta: DM 'RATES' for your payment math
+captions:
+  instagram: 'People hear a quarter point and shrug. Run it.
+
+
+    $600,000 loan, 30-year fixed, principal and interest only.
+
+
+    At 7.32%, the average 30-year as of October 22: $4,122 a month.
+
+    A quarter point lower, 7.07%: $4,020.
+
+
+    That is about $100 a month. Around $1,200 a year. Roughly $36,500 across a full 30-year term.
+
+
+    Same house. Same price. One line on a rate sheet.
+
+
+    This is why the lender you sit down with matters as much as the week you shop. DM me RATES and I will run it on your actual numbers 👇
+
+
+    #MortgageRates #HomeBuyingTips #FirstTimeHomeBuyer #LongBeachRealEstate #SouthBayHomes'
+  facebook: 'Whenever rates move a quarter point, somebody tells me that is basically nothing. So here is the arithmetic.
+
+
+    Take a $600,000 loan on a 30-year fixed, principal and interest only, no taxes or insurance.
+
+
+    At 7.32%, which was the average 30-year as of October 22, the payment is about $4,122 a month.
+
+
+    At 7.07%, a quarter point lower, it is about $4,020.
+
+
+    So roughly $100 a month. About $1,200 a year. Somewhere near $36,500 over the full thirty years. Same house, same purchase price, same down payment. The only thing that changed was one line on a rate sheet.
+
+
+    A couple of honest caveats. That is an example, not a quote, and the real figure depends on your loan size. On a smaller loan the gap is smaller. And the headline average is not your rate, since yours comes out of your credit, down payment, loan size and which lender you work with.
+
+
+    I am not telling you where rates are headed, because nobody knows. I am telling you the quarter point is worth caring about when it shows up.
+
+
+    Want to see it on your numbers instead of mine? Comment RATES and I will run it.
+
+
+    #MortgageRates #LongBeachRealEstate #HomeBuying'
+  linkedin: '"It is only a quarter point" is one of the more expensive things said in this business, so it is worth putting a number on it.
+
+
+    A $600,000 loan, 30-year fixed, principal and interest only:
+
+
+    At 7.32%, the Freddie Mac PMMS average as of October 22, 2026: roughly $4,122 per month.
+
+    At 7.07%, a quarter point lower: roughly $4,020.
+
+
+    A difference of about $100 per month, near $1,200 per year, and in the neighborhood of $36,500 over a full thirty-year term. Nothing about the property changed.
+
+
+    Two things worth keeping straight when this comes up with clients. The quarter point scales with loan size, so the same move is a smaller number on a $350,000 loan and a larger one above $800,000. And the weekly PMMS print is an average of what lenders were offering, not a quote, so the spread between two lenders in the same week can be worth as much as a quarter point move in the market.
+
+
+    The practical use of this is not timing. It is making the case for actually shopping the loan.
+
+
+    Example only, not a loan offer. How do you frame rate shopping with clients?
+
+
+    #RealEstate #MortgageRates #HousingMarket'
+  tiktok: 'A quarter point on a $600K loan is about $100 a month and near $36,500 over 30 years.
+
+
+    #mortgagerates #homebuying #firsttimehomebuyer #realestatetips #socalrealestate'
+sources:
+- https://www.freddiemac.com/pmms
+- https://fred.stlouisfed.org/series/MORTGAGE30US
+- https://finance.yahoo.com/real-estate/articles/mortgage-rates-decrease-7-32-160000610.html

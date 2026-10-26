@@ -1,0 +1,12 @@
+id: s3
+kind: story
+track: seller_education
+topic: Teaser for r1, seller net sheet
+time: auto
+approved: true
+design:
+  kicker: SELLER TIP
+  headline: Your sale price is *not* your check.
+  cta: Full list in today's reel
+sources:
+- https://www.lavote.gov/home/recorder/property-document-recording/documentary-transfer-taxes/general-info

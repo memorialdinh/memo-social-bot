@@ -1,0 +1,13 @@
+id: s1
+kind: story
+track: laws_and_updates
+topic: Teaser for p1, LA County property tax first installment
+time: auto
+approved: true
+design:
+  kicker: TAX DEADLINE
+  headline: Due *Nov 1*. Late after Dec 10, 2026.
+  cta: LA County homeowners, see today's post
+sources:
+- https://www.propertytax.lacounty.gov/Home/AnnualSecuredProperty
+- https://ttc.lacounty.gov/secured-property-taxes-general-information/
