@@ -68,7 +68,11 @@ captions:
 
 
     #firsttimehomebuyer #homebuyingtips #realestatetips #longbeach #socalrealestate'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18633250204047776'
+    at: '2026-10-26T09:34:23-07:00'
 media:
   instagram: queue/2026-10-26/media/p2-instagram.jpg
   facebook: queue/2026-10-26/media/p2-facebook.jpg
