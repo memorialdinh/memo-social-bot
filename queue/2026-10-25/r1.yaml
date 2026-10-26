@@ -90,6 +90,10 @@ status:
     state: posted
     id: '18316732315303200'
     at: '2026-10-25T13:23:26-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7520308400828702721
+    at: '2026-10-25T19:20:44-07:00'
 schedule:
   facebook: 2026-10-25T08:17-07:00
   instagram: 2026-10-25T13:19-07:00
