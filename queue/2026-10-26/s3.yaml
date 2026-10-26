@@ -10,7 +10,11 @@ design:
   cta: Full list in today's reel
 sources:
 - https://www.lavote.gov/home/recorder/property-document-recording/documentary-transfer-taxes/general-info
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18119043554072324'
+    at: '2026-10-26T10:26:52-07:00'
 media:
   instagram: queue/2026-10-26/media/s3-instagram.jpg
   facebook: queue/2026-10-26/media/s3-facebook.jpg
