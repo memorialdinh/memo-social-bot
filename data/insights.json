@@ -1,50 +1,134 @@
 {
-  "updated": "2026-10-25T07:04-07:00",
+  "updated": "2026-10-25T19:16-07:00",
   "scores": {
     "track:untagged": {
       "posts": 82,
-      "avg_rate": 0.0373,
+      "avg_rate": 0.0365,
       "avg_eng": 6.0,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0008
     },
+    "kind:post": {
+      "posts": 46,
+      "avg_rate": 0.0278,
+      "avg_eng": 4.1,
+      "avg_save_rate": 0.0004,
+      "avg_share_rate": 0.0
+    },
+    "platform:instagram": {
+      "posts": 75,
+      "avg_rate": 0.038,
+      "avg_eng": 6.5,
+      "avg_save_rate": 0.0004,
+      "avg_share_rate": 0.0008
+    },
     "kind:reel": {
-      "posts": 37,
-      "avg_rate": 0.0427,
-      "avg_eng": 8.2,
+      "posts": 38,
+      "avg_rate": 0.041,
+      "avg_eng": 7.9,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0016
     },
-    "platform:instagram": {
-      "posts": 68,
-      "avg_rate": 0.0425,
-      "avg_eng": 7.3,
-      "avg_save_rate": 0.0005,
-      "avg_share_rate": 0.0009
-    },
-    "kind:post": {
-      "posts": 41,
-      "avg_rate": 0.0315,
-      "avg_eng": 4.6,
-      "avg_save_rate": 0.0005,
-      "avg_share_rate": 0.0
-    },
     "platform:facebook": {
-      "posts": 16,
-      "avg_rate": 0.0104,
+      "posts": 20,
+      "avg_rate": 0.0083,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "kind:story": {
-      "posts": 6,
-      "avg_rate": 0.0304,
-      "avg_eng": 0.7,
+      "posts": 11,
+      "avg_rate": 0.0166,
+      "avg_eng": 0.4,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:seller_education": {
+      "posts": 4,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "track:investment": {
+      "posts": 1,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "template:stat": {
+      "posts": 3,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "theme:silver": {
+      "posts": 3,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "template:tip": {
+      "posts": 8,
+      "avg_rate": 0.0034,
+      "avg_eng": 0.1,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "theme:noir": {
       "posts": 2,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "track:market_update": {
+      "posts": 3,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "theme:ivory": {
+      "posts": 2,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "track:agent_attraction": {
+      "posts": 3,
+      "avg_rate": 0.009,
+      "avg_eng": 0.3,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "theme:graphite": {
+      "posts": 3,
+      "avg_rate": 0.009,
+      "avg_eng": 0.3,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "track:community": {
+      "posts": 1,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "track:buyer_education": {
+      "posts": 1,
+      "avg_rate": 0.0,
+      "avg_eng": 0.0,
+      "avg_save_rate": 0.0,
+      "avg_share_rate": 0.0
+    },
+    "theme:goldrush": {
+      "posts": 1,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -52,11 +136,12 @@
     }
   },
   "directives": [
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 4.3% against 3.1% for static posts.",
+    "Write an extra Untagged piece and one fewer Seller Tip piece. Untagged earns 3.6% vs 0.0% over the last 60 days (82 vs 4 posts).",
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 4.1% against 2.8% for static posts.",
     "Untagged gets saved the most (0.04% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison."
   ],
   "tips": [
-    "Not enough data yet to judge: track:seller_education (fewer than 4 posts each). Keep writing them so they can be measured."
+    "Not enough data yet to judge: template:stat, track:agent_attraction, track:buyer_education, track:community, track:investment, track:market_update (fewer than 4 posts each). Keep writing them so they can be measured."
   ],
   "followers": {
     "instagram": {
