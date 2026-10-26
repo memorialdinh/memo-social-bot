@@ -1,0 +1,28 @@
+# Monthly California city market data (Zillow + Redfin public data) for theprestige.luxe city pages.
+# Free: no AI, no API keys. Writes data/market/ca_cities.json.
+name: Market data
+on:
+  schedule:
+    - cron: "17 15 18 * *"      # 18th of each month ~8:17 AM Pacific (Zillow posts mid-month, Redfin early month)
+    - cron: "17 15 4 * *"       # 4th of each month (fresh Redfin month)
+  workflow_dispatch:
+concurrency: { group: repo-writer, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  market:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Build CA city market data
+        run: python tools/ca_city_market.py
+      - name: Save
+        run: |
+          git config user.name "memo-social-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/market/ca_cities.json
+          git diff --cached --quiet && { echo "no change"; exit 0; }
+          git commit -m "market data: $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && exit 0; sleep 10; done; exit 1
