@@ -93,3 +93,31 @@ captions:
     #homeselling #sellertips #netsheet #realestatetips #socalrealestate'
 sources:
 - https://www.lavote.gov/home/recorder/property-document-recording/documentary-transfer-taxes/general-info
+status: {}
+media:
+  instagram: queue/2026-10-26/media/r1-instagram.mp4
+  facebook: queue/2026-10-26/media/r1-facebook.mp4
+  linkedin: queue/2026-10-26/media/r1-linkedin.mp4
+  tiktok: queue/2026-10-26/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-10-26T10:08-07:00
+  instagram: 2026-10-26T07:05-07:00
+  linkedin: 2026-10-26T17:04-07:00
+  tiktok: 2026-10-26T17:05-07:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: grid
+    template: tip
+  facebook:
+    theme: graphite
+    deco: watermark
+    template: tip
+  linkedin:
+    theme: silver
+    deco: arcs
+    template: tip
+  tiktok:
+    theme: goldrush
+    deco: glow
+    template: tip

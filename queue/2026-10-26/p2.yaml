@@ -68,3 +68,31 @@ captions:
 
 
     #firsttimehomebuyer #homebuyingtips #realestatetips #longbeach #socalrealestate'
+status: {}
+media:
+  instagram: queue/2026-10-26/media/p2-instagram.jpg
+  facebook: queue/2026-10-26/media/p2-facebook.jpg
+  linkedin: queue/2026-10-26/media/p2-linkedin.jpg
+  tiktok: queue/2026-10-26/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-10-26T20:06-07:00
+  instagram: 2026-10-26T09:05-07:00
+  linkedin: 2026-10-26T12:08-07:00
+  tiktok: 2026-10-26T12:04-07:00
+rendered:
+  instagram:
+    theme: silver
+    deco: stripe
+    template: quote
+  facebook:
+    theme: goldrush
+    deco: frame
+    template: quote
+  linkedin:
+    theme: noir
+    deco: grid
+    template: quote
+  tiktok:
+    theme: ivory
+    deco: watermark
+    template: quote

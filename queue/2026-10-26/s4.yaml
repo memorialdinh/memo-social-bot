@@ -10,3 +10,19 @@ design:
   cta: Tap your guess, then watch the reel
 sources:
 - https://www.freddiemac.com/pmms
+status: {}
+media:
+  instagram: queue/2026-10-26/media/s4-instagram.jpg
+  facebook: queue/2026-10-26/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-10-26T13:06-07:00
+  instagram: 2026-10-26T13:04-07:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: grid
+    template: tip
+  facebook:
+    theme: noir
+    deco: watermark
+    template: tip

@@ -10,3 +10,19 @@ design:
   cta: Full list in today's reel
 sources:
 - https://www.lavote.gov/home/recorder/property-document-recording/documentary-transfer-taxes/general-info
+status: {}
+media:
+  instagram: queue/2026-10-26/media/s3-instagram.jpg
+  facebook: queue/2026-10-26/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-10-26T12:09-07:00
+  instagram: 2026-10-26T10:10-07:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: stripe
+    template: tip
+  facebook:
+    theme: graphite
+    deco: frame
+    template: tip

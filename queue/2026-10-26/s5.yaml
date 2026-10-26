@@ -8,3 +8,19 @@ design:
   kicker: REAL TALK
   headline: What did your inspection *actually* find?
   cta: Reply with the worst one
+status: {}
+media:
+  instagram: queue/2026-10-26/media/s5-instagram.jpg
+  facebook: queue/2026-10-26/media/s5-facebook.jpg
+schedule:
+  facebook: 2026-10-26T20:11-07:00
+  instagram: 2026-10-26T21:06-07:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: arcs
+    template: tip
+  facebook:
+    theme: silver
+    deco: glow
+    template: tip
