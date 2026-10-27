@@ -15,7 +15,7 @@ brand:
   phone: "562-253-9034"
   website: "theprestige.luxe"
   agent_site: "joinmemo.netlify.app"      # used on agent-attraction posts
-  booking: "tidycal.com/memorialdinh"
+  booking: "tidycal.com/memorialdinh/15-minute-call"
   colors:
     obsidian: "#101010"
     slate: "#545451"
