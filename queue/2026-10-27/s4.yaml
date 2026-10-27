@@ -1,12 +1,12 @@
 id: s4
 kind: story
 track: local_spotlight
-topic: Teaser for r2, local prices up while sales fell
+topic: Teaser for r2, share of Long Beach listings with a price cut
 time: auto
 approved: true
 design:
   kicker: LOCAL SPOTLIGHT
-  headline: Prices *up* 3%. Sales *down* 9%.
-  cta: LA Metro, Sept 2026. See today's reel
+  headline: Long Beach *37.7%*. Lakewood *21.7%*.
+  cta: Price cuts, Sept 2026. See today's reel
 sources:
-- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+- https://www.realtor.com/research/data/
