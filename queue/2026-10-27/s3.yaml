@@ -10,7 +10,11 @@ design:
   cta: Where it really goes, in today's reel
 sources:
 - https://law.justia.com/codes/california/code-civ/division-3/part-2/title-4-5/chapter-2/section-1675/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18212528845369571'
+    at: '2026-10-27T10:47:28-07:00'
 media:
   instagram: queue/2026-10-27/media/s3-instagram.jpg
   facebook: queue/2026-10-27/media/s3-facebook.jpg
