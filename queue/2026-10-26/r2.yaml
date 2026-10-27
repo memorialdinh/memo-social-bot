@@ -99,6 +99,10 @@ status:
     state: posted
     id: '18334127410279599'
     at: '2026-10-26T18:05:57-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7520673264872947712
+    at: '2026-10-26T19:30:34-07:00'
 media:
   instagram: queue/2026-10-26/media/r2-instagram.mp4
   facebook: queue/2026-10-26/media/r2-facebook.mp4
