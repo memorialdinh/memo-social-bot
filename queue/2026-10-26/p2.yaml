@@ -81,6 +81,10 @@ status:
     state: missed
     detail: more than 6:00:00 late
     at: '2026-10-26T18:05:16-07:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1154425884251510'
+    at: '2026-10-26T20:16:49-07:00'
 media:
   instagram: queue/2026-10-26/media/p2-instagram.jpg
   facebook: queue/2026-10-26/media/p2-facebook.jpg

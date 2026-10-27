@@ -8,7 +8,11 @@ design:
   kicker: REAL TALK
   headline: What did your inspection *actually* find?
   cta: Reply with the worst one
-status: {}
+status:
+  facebook:
+    state: posted
+    id: '2004801083812792'
+    at: '2026-10-26T20:16:55-07:00'
 media:
   instagram: queue/2026-10-26/media/s5-instagram.jpg
   facebook: queue/2026-10-26/media/s5-facebook.jpg
