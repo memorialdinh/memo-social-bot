@@ -10,3 +10,19 @@ design:
   cta: Example at 7.32%, Oct 2026. See the post
 sources:
 - https://www.freddiemac.com/pmms
+status: {}
+media:
+  instagram: queue/2026-10-27/media/s1-instagram.jpg
+  facebook: queue/2026-10-27/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-10-27T07:08-07:00
+  instagram: 2026-10-27T07:04-07:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: frame
+    template: tip
+  facebook:
+    theme: noir
+    deco: grid
+    template: tip

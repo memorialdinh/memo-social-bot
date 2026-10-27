@@ -9,3 +9,19 @@ design:
   headline: '*Not yet* is a real answer.'
   cta: '*I don''t know* isn''t. See today''s post'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-10-27/media/s2-instagram.jpg
+  facebook: queue/2026-10-27/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-10-27T10:05-07:00
+  instagram: 2026-10-27T09:05-07:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: watermark
+    template: tip
+  facebook:
+    theme: silver
+    deco: arcs
+    template: tip

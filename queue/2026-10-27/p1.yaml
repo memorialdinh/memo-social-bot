@@ -108,3 +108,31 @@ captions:
     #realestateinvesting #caprate #cashflow #rentalproperty #realestatetips'
 sources:
 - https://www.freddiemac.com/pmms
+status: {}
+media:
+  instagram: queue/2026-10-27/media/p1-instagram.jpg
+  facebook: queue/2026-10-27/media/p1-facebook.jpg
+  linkedin: queue/2026-10-27/media/p1-linkedin.jpg
+  tiktok: queue/2026-10-27/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-10-27T12:11-07:00
+  instagram: 2026-10-27T10:07-07:00
+  linkedin: 2026-10-27T08:06-07:00
+  tiktok: 2026-10-27T08:02-07:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: watermark
+    template: stat
+  facebook:
+    theme: noir
+    deco: arcs
+    template: stat
+  linkedin:
+    theme: ivory
+    deco: glow
+    template: stat
+  tiktok:
+    theme: graphite
+    deco: stripe
+    template: stat

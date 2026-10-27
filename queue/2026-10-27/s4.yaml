@@ -10,3 +10,19 @@ design:
   cta: Price cuts, Sept 2026. See today's reel
 sources:
 - https://www.realtor.com/research/data/
+status: {}
+media:
+  instagram: queue/2026-10-27/media/s4-instagram.jpg
+  facebook: queue/2026-10-27/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-10-27T13:03-07:00
+  instagram: 2026-10-27T13:11-07:00
+rendered:
+  instagram:
+    theme: silver
+    deco: frame
+    template: tip
+  facebook:
+    theme: goldrush
+    deco: grid
+    template: tip
