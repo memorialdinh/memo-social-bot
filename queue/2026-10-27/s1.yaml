@@ -10,7 +10,15 @@ design:
   cta: Example at 7.32%, Oct 2026. See the post
 sources:
 - https://www.freddiemac.com/pmms
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18095607425475215'
+    at: '2026-10-27T08:02:47-07:00'
+  facebook:
+    state: posted
+    id: '1440134538059129'
+    at: '2026-10-27T08:02:58-07:00'
 media:
   instagram: queue/2026-10-27/media/s1-instagram.jpg
   facebook: queue/2026-10-27/media/s1-facebook.jpg
