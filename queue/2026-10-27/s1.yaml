@@ -1,0 +1,12 @@
+id: s1
+kind: story
+track: investment
+topic: Teaser for p1, cap rate vs cash-on-cash
+time: auto
+approved: true
+design:
+  kicker: INVESTOR MATH
+  headline: One duplex. *4.4%* cap, *-6.7%* cash.
+  cta: Example at 7.32%, Oct 2026. See the post
+sources:
+- https://www.freddiemac.com/pmms

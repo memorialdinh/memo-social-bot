@@ -1,0 +1,12 @@
+id: s4
+kind: story
+track: local_spotlight
+topic: Teaser for r2, local prices up while sales fell
+time: auto
+approved: true
+design:
+  kicker: LOCAL SPOTLIGHT
+  headline: Prices *up* 3%. Sales *down* 9%.
+  cta: LA Metro, Sept 2026. See today's reel
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales

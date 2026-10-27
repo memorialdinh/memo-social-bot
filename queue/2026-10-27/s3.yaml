@@ -1,0 +1,12 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r1, earnest money and where it actually sits
+time: auto
+approved: true
+design:
+  kicker: BUYER TIP
+  headline: Who holds your deposit? *Not* the seller.
+  cta: Where it really goes, in today's reel
+sources:
+- https://law.justia.com/codes/california/code-civ/division-3/part-2/title-4-5/chapter-2/section-1675/

@@ -1,0 +1,13 @@
+id: s5
+kind: story
+track: laws_and_updates
+topic: Local note, LA County property tax first installment due Nov 1
+time: auto
+approved: true
+design:
+  kicker: LOCAL NOTE
+  headline: LA County, your 1st installment is due *Nov 1*.
+  cta: Late after Dec 10, 2026. Check your bill
+sources:
+- https://www.propertytax.lacounty.gov/Home/AnnualSecuredProperty
+- https://ttc.lacounty.gov/secured-property-taxes-general-information/

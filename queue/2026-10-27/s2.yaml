@@ -1,0 +1,11 @@
+id: s2
+kind: story
+track: motivation
+topic: Teaser for p2, waiting on purpose is still a decision
+time: auto
+approved: true
+design:
+  kicker: REAL TALK
+  headline: '*Not yet* is a real answer.'
+  cta: '*I don''t know* isn''t. See today''s post'
+sources: []
