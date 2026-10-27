@@ -9,10 +9,15 @@ jobs:
       - shell: bash {0}
         run: |
           mkdir -p probe; UA="Mozilla/5.0 (memo-social-bot market data)"
-          for u in "https://api.census.gov/data/2024/acs/acs5?get=NAME,B25077_001E&for=place:44000&in=state:06" "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25077_001E&for=place:44000&in=state:06" "https://api.census.gov/data.json"; do echo "== $u" >> probe/log.txt; curl -sS -m 90 -A "$UA" -D - -o /dev/null "$u" 2>&1 | head -15 >> probe/log.txt; done
-          curl -sSL -m 150 -A "$UA" "https://api.census.gov/data/2024/acs/acs5?get=NAME,B25077_001E,B25064_001E&for=place:*&in=state:06" -o probe/acs_2024.json -w "acsL %{http_code} %{url_effective}\n" >> probe/log.txt 2>&1
-          curl -sSL -m 150 -A "$UA" "https://www2.census.gov/geo/docs/reference/codes2020/place_by_cou/st06_ca_place_by_county2020.txt" -o probe/place_by_county.txt -w "pbc %{http_code}\n" >> probe/log.txt 2>&1
-          head -c 600 probe/acs_2024.json >> probe/log.txt; head -5 probe/place_by_county.txt >> probe/log.txt
+          B=https://www2.census.gov/programs-surveys/acs/summary_file
+          for y in 2024 2023; do curl -sS -m 60 -A "$UA" "$B/$y/table-based-SF/data/5YRData/" -o probe/dir_$y.html -w "dir $y %{http_code}\n" >> probe/log.txt; done
+          for t in b25077 b25064 b25003 b25035 b25001; do curl -sS -m 300 -A "$UA" "$B/2024/table-based-SF/data/5YRData/acsdt5y2024-$t.dat" -o probe/$t.dat -w "$t %{http_code} %{size_download}\n" >> probe/log.txt; done
+          curl -sS -m 120 -A "$UA" "$B/2024/table-based-SF/documentation/Geos20245YR.txt" -o probe/geos.txt -w "geos %{http_code} %{size_download}\n" >> probe/log.txt
+          for t in b25077 b25064 b25003 b25035 b25001; do head -2 probe/$t.dat | cut -c1-400 >> probe/log.txt; grep -E "^1600000US0644000\|" probe/$t.dat | cut -c1-300 >> probe/log.txt; done
+          head -2 probe/geos.txt | cut -c1-600 >> probe/log.txt
+          grep -o 'href="[^"]*"' probe/dir_2024.html | head -20 >> probe/log.txt
+          for t in b25077 b25064 b25003 b25035 b25001; do grep -E "^1600000US06" probe/$t.dat > probe/$t.ca.dat; rm probe/$t.dat; done
+          grep -E "1600000US06" probe/geos.txt | head -3 >> probe/log.txt; rm probe/geos.txt
           ls -la probe >> probe/log.txt
           git config user.name probe; git config user.email probe@users.noreply.github.com
           git add probe; git commit -qm "probe output"; git push -q origin probe-data
