@@ -9,12 +9,10 @@ jobs:
       - shell: bash {0}
         run: |
           mkdir -p probe; UA="Mozilla/5.0 (memo-social-bot market data)"
-          for y in 2024 2023; do curl -sS -m 150 -A "$UA" "https://api.census.gov/data/$y/acs/acs5?get=NAME,B25077_001E,B25064_001E,B25003_001E,B25003_002E,B25035_001E,B25001_001E&for=place:*&in=state:06" -o probe/acs_$y.json -w "acs $y %{http_code}\n" >> probe/log.txt || echo "acs $y fail $?" >> probe/log.txt; done
-          curl -sS -m 150 -A "$UA" "https://api.census.gov/data/2024/acs/acs5?get=NAME&for=county%20(or%20part):*&in=state:06%20place:*" -o probe/acs_place_county.json -w "pc %{http_code}\n" >> probe/log.txt || true
-          curl -sS -m 150 -A "$UA" "https://api.census.gov/data/2020/dec/pl?get=NAME&for=county%20(or%20part):*&in=state:06%20place:*" -o probe/dec_place_county.json -w "decpc %{http_code}\n" >> probe/log.txt || true
-          curl -sSL -m 150 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36" "https://www.car.org/aboutus/mediacenter/newsreleases" -o probe/car_list.html -w "carlist %{http_code}\n" >> probe/log.txt || true
-          curl -sSL -m 150 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36" "https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales" -o probe/car_sept.html -w "carsept %{http_code}\n" >> probe/log.txt || true
-          curl -sSL -m 150 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36" "https://www.car.org/marketdata/data/housingdata" -o probe/car_housingdata.html -w "carhd %{http_code}\n" >> probe/log.txt || true
+          for u in "https://api.census.gov/data/2024/acs/acs5?get=NAME,B25077_001E&for=place:44000&in=state:06" "https://api.census.gov/data/2023/acs/acs5?get=NAME,B25077_001E&for=place:44000&in=state:06" "https://api.census.gov/data.json"; do echo "== $u" >> probe/log.txt; curl -sS -m 90 -A "$UA" -D - -o /dev/null "$u" 2>&1 | head -15 >> probe/log.txt; done
+          curl -sSL -m 150 -A "$UA" "https://api.census.gov/data/2024/acs/acs5?get=NAME,B25077_001E,B25064_001E&for=place:*&in=state:06" -o probe/acs_2024.json -w "acsL %{http_code} %{url_effective}\n" >> probe/log.txt 2>&1
+          curl -sSL -m 150 -A "$UA" "https://www2.census.gov/geo/docs/reference/codes2020/place_by_cou/st06_ca_place_by_county2020.txt" -o probe/place_by_county.txt -w "pbc %{http_code}\n" >> probe/log.txt 2>&1
+          head -c 600 probe/acs_2024.json >> probe/log.txt; head -5 probe/place_by_county.txt >> probe/log.txt
           ls -la probe >> probe/log.txt
           git config user.name probe; git config user.email probe@users.noreply.github.com
           git add probe; git commit -qm "probe output"; git push -q origin probe-data
