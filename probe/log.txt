@@ -1,0 +1,59 @@
+dir 2024 200
+dir 2023 200
+b25077 200 18496426
+b25064 200 17272062
+b25003 200 26901770
+b25035 200 15421817
+b25001 200 17790069
+geos 200 90707242
+GEO_ID|B25077_E001|B25077_M001
+0100000US|332700|236
+1600000US0644000|921200|4782
+GEO_ID|B25064_E001|B25064_M001
+0100000US|1413|2
+1600000US0644000|1933|9
+GEO_ID|B25003_E001|B25003_M001|B25003_E002|B25003_M002|B25003_E003|B25003_M003
+0100000US|129227496|209365|84210142|367889|45017354|163571
+1600000US0644000|1439097|4027|518423|4594|920674|5310
+GEO_ID|B25035_E001|B25035_M001
+0100000US|1980|1
+1600000US0644000|1965|1
+GEO_ID|B25001_E001|B25001_M001
+0100000US|143775355|10234
+1600000US0644000|1554332|4168
+FILEID|STUSAB|SUMLEVEL|COMPONENT|US|REGION|DIVISION|STATE|COUNTY|COUSUB|PLACE|TRACT|BLKGRP|CONCIT|AIANHH|AIANHHFP|AIHHTLI|AITS|AITSFP|ANRC|CBSA|CSA|METDIV|MACC|MEMI|NECTA|CNECTA|NECTADIV|UA|CDCURR|SLDU|SLDL|ZCTA5|SUBMCD|SDELM|SDSEC|SDUNI|UR|PCI|PUMA5|GEO_ID|NAME|BTTR|BTBG|TL_GEO_ID
+ACSSF|US|010|00|1||||||||||||||||||||||||||||||||||||0100000US|United States|||
+href="https://www.census.gov/main/uswds/uswds-2.12.0/css/uswds.min.css"
+href="https://www.census.gov/main/.in/css/all_header_styles.css"
+href="/main/css/all_header_styles.css"
+href="https://www.census.gov/main/css/_new/bootstrap.css"
+href="https://www.census.gov/main/css/_new/base.css"
+href="https://www.census.gov/main/css/_new/extra.css"
+href="https://www.census.gov/main/css/_new/typeahead.css"
+href="https://www.census.gov/main/css/_new/header.css"
+href="https://www.census.gov/main/css/_new/search.css"
+href="https://www.census.gov"
+href="https://www.census.gov"
+href="https://www.census.gov"
+href="?C=N;O=D"
+href="?C=M;O=A"
+href="?C=S;O=A"
+href="?C=D;O=A"
+href="/programs-surveys/acs/summary_file/2024/table-based-SF/data/"
+href="5YRData.zip"
+href="acsdt5y2024-b01001.dat"
+href="acsdt5y2024-b01001a.dat"
+ACSSF|CA|160|00||||06|||00135||||||||||||||||||||||||||||||1600000US0600135|Acalanes Ridge CDP, California|||0600135
+ACSSF|CA|160|00||||06|||00156||||||||||||||||||||||||||||||1600000US0600156|Acampo CDP, California|||0600156
+ACSSF|CA|160|00||||06|||00212||||||||||||||||||||||||||||||1600000US0600212|Acton CDP, California|||0600212
+total 824
+drwxr-xr-x  2 runner runner   4096 Oct 27 02:49 .
+drwxr-xr-x 13 runner runner   4096 Oct 27 02:49 ..
+-rw-r--r--  1 runner runner  40961 Oct 27 02:49 b25001.ca.dat
+-rw-r--r--  1 runner runner  65621 Oct 27 02:49 b25003.ca.dat
+-rw-r--r--  1 runner runner  40583 Oct 27 02:49 b25035.ca.dat
+-rw-r--r--  1 runner runner  48269 Oct 27 02:49 b25064.ca.dat
+-rw-r--r--  1 runner runner  51549 Oct 27 02:49 b25077.ca.dat
+-rw-r--r--  1 runner runner 284447 Oct 27 02:49 dir_2023.html
+-rw-r--r--  1 runner runner 285572 Oct 27 02:49 dir_2024.html
+-rw-r--r--  1 runner runner   2156 Oct 27 02:49 log.txt
