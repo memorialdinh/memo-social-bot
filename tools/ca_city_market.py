@@ -15,6 +15,7 @@ import argparse, csv, datetime as dt, gzip, io, json, os, re, sys, urllib.reques
 
 ZHVI_URL = "https://files.zillowstatic.com/research/public_csvs/zhvi/City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv"
 ZORI_URL = "https://files.zillowstatic.com/research/public_csvs/zori/City_zori_uc_sfrcondomfr_sm_month.csv"
+RDC_ZIP_URL = "https://econdata.s3-us-west-2.amazonaws.com/Reports/Core/RDC_Inventory_Core_Metrics_Zip.csv"
 REDFIN_URL = "https://redfin-public-data.s3.us-west-2.amazonaws.com/redfin_market_tracker/city_market_tracker.tsv000.gz"
 
 # Whole counties (every city / community Zillow tracks in them) ...
@@ -118,19 +119,57 @@ def redfin(path, wanted_cities):
         out.setdefault(city, []).append(rec)
     return out
 
+def realtor_zip(path, wanted_cities):
+    """Realtor.com monthly inventory by ZIP, grouped by the ZIP's postal city ("long beach, ca")."""
+    out = {}
+    low = {c.lower(): c for c in wanted_cities}
+    with open(path, newline="", encoding="utf-8", errors="replace") as f:
+        rd = csv.DictReader(f)
+        for r in rd:
+            zn = (r.get("zip_name") or "").strip().lower()
+            if not zn.endswith(", ca"): continue
+            city = low.get(zn[:-4].strip())
+            if not city: continue
+            if (r.get("quality_flag") or "0").strip() not in ("0", "", "0.0"): continue
+            g = lambda k: fnum(r.get(k))
+            out.setdefault(city, []).append({
+                "zip": (r.get("postal_code") or "").zfill(5), "month": r.get("month_date_yyyymm"),
+                "median_listing_price": g("median_listing_price"), "median_listing_price_yy": g("median_listing_price_yy"),
+                "active": g("active_listing_count"), "active_yy": g("active_listing_count_yy"),
+                "median_dom": g("median_days_on_market"), "median_dom_yy": g("median_days_on_market_yy"),
+                "new": g("new_listing_count"), "price_reduced": g("price_reduced_count"), "pending": g("pending_listing_count"),
+                "ppsf": g("median_listing_price_per_square_foot"), "sqft": g("median_square_feet")})
+    res = {}
+    for city, zs in out.items():
+        zs.sort(key=lambda z: -(z["active"] or 0))
+        act = sum(z["active"] or 0 for z in zs)
+        def tot(k): return sum(z[k] or 0 for z in zs)
+        # last year's active count from each ZIP's own year-over-year change (exact sum)
+        prev = sum((z["active"] or 0) / (1 + z["active_yy"]) for z in zs if z["active"] and z["active_yy"] is not None and z["active_yy"] > -1)
+        res[city] = {"month": zs[0]["month"], "zip_count": len(zs), "active": round(act), "new": round(tot("new")),
+                     "pending": round(tot("pending")), "price_reduced": round(tot("price_reduced")),
+                     "price_reduced_share": round(tot("price_reduced") / act * 100, 1) if act else None,
+                     "active_yoy_pct": round((act / prev - 1) * 100, 1) if prev else None, "zips": zs}
+    return res
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--local"); ap.add_argument("--work", default="/tmp/ca-market")
     a = ap.parse_args()
     d = a.local or a.work; os.makedirs(d, exist_ok=True)
-    zp = os.path.join(d, "zhvi.csv"); rp = os.path.join(d, "zori.csv"); fp = os.path.join(d, "redfin.tsv.gz")
+    kp = os.path.join(d, "rdc_zip.csv"); zp = os.path.join(d, "zhvi.csv"); rp = os.path.join(d, "zori.csv"); fp = os.path.join(d, "redfin.tsv.gz")
     if not a.local:
-        fetch(ZHVI_URL, zp); fetch(ZORI_URL, rp); fetch(REDFIN_URL, fp)
+        fetch(ZHVI_URL, zp); fetch(ZORI_URL, rp); fetch(RDC_ZIP_URL, kp)
+        try: fetch(REDFIN_URL, fp)
+        except Exception as e: print("redfin download failed (optional):", e)
     zhvi = zillow(zp, "zhvi")
     zori = zillow(rp, "zori") if os.path.exists(rp) else {}
     print("zillow target places:", len(zhvi), flush=True)
     if len(zhvi) < 100: sys.exit(f"Only {len(zhvi)} places matched; Zillow file format may have changed. Not overwriting data.")
     names = {c for c, _ in zhvi}
     rf = redfin(fp, names) if os.path.exists(fp) else {}
+    rdc = realtor_zip(kp, names) if os.path.exists(kp) else {}
+    print("realtor.com cities matched:", len(rdc), flush=True)
+    today = dt.date.today()
     cities = []
     for (city, county), z in zhvi.items():
         cands = rf.get(city) or []
@@ -140,7 +179,9 @@ def main():
             hint = (z.get("metro", "") + " " + county).lower()
             r = next((x for x in cands if x.get("metro") and x["metro"].split(",")[0].split("-")[0].lower() in hint), None)
         cities.append({"name": city, "slug": slugify(city), "county": county, "metro": z.get("metro", ""),
-                       "size_rank": z.get("size_rank"), "zhvi": z, "zori": zori.get((city, county)), "redfin": r})
+                       "size_rank": z.get("size_rank"), "zhvi": z, "zori": zori.get((city, county)), "redfin": r,
+                       "realtor": rdc.get(city)})
+        if r: r["stale"] = (today - dt.date.fromisoformat(r["period_end"][:10])).days > 120
     # duplicate city names in different target counties get the county in the slug
     seen = {}
     for c in cities: seen[c["slug"]] = seen.get(c["slug"], 0) + 1
@@ -150,7 +191,9 @@ def main():
     zdate = max(c["zhvi"]["date"] for c in cities)
     rdate = max((c["redfin"]["period_end"] for c in cities if c["redfin"]), default="")
     data = {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-            "sources": {"zhvi": {"name": "Zillow Home Value Index (ZHVI), all homes, mid-tier, smoothed & seasonally adjusted", "url": "https://www.zillow.com/research/data/", "through": zdate},
+            "sources": {"realtor": {"name": "Realtor.com Residential Data, monthly inventory by ZIP code", "url": "https://www.realtor.com/research/data/",
+                                    "through": max((c["realtor"]["month"] for c in cities if c.get("realtor")), default="")},
+                        "zhvi": {"name": "Zillow Home Value Index (ZHVI), all homes, mid-tier, smoothed & seasonally adjusted", "url": "https://www.zillow.com/research/data/", "through": zdate},
                         "zori": {"name": "Zillow Observed Rent Index (ZORI), all homes", "url": "https://www.zillow.com/research/data/"},
                         "redfin": {"name": "Redfin Data Center, city market tracker (all residential)", "url": "https://www.redfin.com/news/data-center/", "through": rdate}},
             "counties": COUNTIES + sorted(set(EXTRA_CITIES.values())), "cities": cities}
