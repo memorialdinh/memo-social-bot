@@ -152,6 +152,116 @@ def realtor_zip(path, wanted_cities):
                      "active_yoy_pct": round((act / prev - 1) * 100, 1) if prev else None, "zips": zs}
     return res
 
+# ---------- U.S. Census Bureau, American Community Survey (keyless summary files on www2.census.gov) ----------
+ACS_BASE = "https://www2.census.gov/programs-surveys/acs/summary_file/{y}/table-based-SF/data/5YRData/acsdt5y{y}-{t}.dat"
+PLACE_COUNTY_URL = "https://www2.census.gov/geo/docs/reference/codes2020/place_by_cou/st06_ca_place_by_county2020.txt"
+ACS_TABLES = ["b25077", "b25064", "b25003", "b25035", "b25001"]
+
+def norm(s):
+    import unicodedata
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+def acs_places(d):
+    """{(normalized place name, county): {...}} for California places, latest ACS 5-year release available."""
+    year = None
+    for y in range(dt.date.today().year - 1, dt.date.today().year - 4, -1):
+        try:
+            fetch(ACS_BASE.format(y=y, t="b25077"), os.path.join(d, f"acs{y}-b25077.dat")); year = y; break
+        except Exception as e:
+            print(f"ACS {y} not available: {e}", flush=True)
+    if not year: return None, {}
+    vals = {}
+    for t in ACS_TABLES:
+        p = fetch(ACS_BASE.format(y=year, t=t), os.path.join(d, f"acs{year}-{t}.dat"))
+        with open(p, encoding="utf-8", errors="replace") as f:
+            head = f.readline().rstrip("\n").split("|")
+            for line in f:
+                if not line.startswith("1600000US06"): continue
+                c = line.rstrip("\n").split("|")
+                vals.setdefault(c[0], {}).update({h: c[i] for i, h in enumerate(head) if i})
+    pc = fetch(PLACE_COUNTY_URL, os.path.join(d, "place_by_county.txt"))
+    out = {}
+    with open(pc, encoding="utf-8", errors="replace") as f:
+        rd = csv.DictReader(f, delimiter="|")
+        for r in rd:
+            gid = "1600000US06" + r["PLACEFP"]
+            v = vals.get(gid)
+            if not v: continue
+            full = r["PLACENAME"]
+            short = re.sub(r"\s+(city|town|CDP)$", "", full)
+            def num(k):
+                x = fnum(v.get(k))
+                return None if x is None or x < 0 else x
+            def moe(k):
+                x = fnum(v.get(k))
+                return None if x is None or x < 0 else x
+            occ, own = num("B25003_E001"), num("B25003_E002")
+            rec = {"geo_id": gid, "name": full, "year": year, "range": f"{year - 4}-{year}",
+                   "median_value": num("B25077_E001"), "median_value_moe": moe("B25077_M001"), "median_value_topcoded": v.get("B25077_E001") == "2000001",
+                   "median_rent": num("B25064_E001"), "median_rent_moe": moe("B25064_M001"), "median_rent_topcoded": v.get("B25064_E001") == "3501",
+                   "occupied_units": occ, "owner_units": own, "renter_units": num("B25003_E003"),
+                   "owner_share": round(own / occ * 100, 1) if occ and own is not None else None,
+                   "median_year_built": num("B25035_E001"), "housing_units": num("B25001_E001")}
+            out[(norm(short), r["COUNTYNAME"])] = rec
+    print(f"ACS {year} 5-year: {len(out)} California place/county pairs", flush=True)
+    return year, out
+
+# ---------- California Association of REALTORS monthly Home Sales and Price Report (county table) ----------
+CAR_LIST = "https://www.car.org/aboutus/mediacenter/newsreleases"
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
+
+def get_html(url):
+    req = urllib.request.Request(url, headers=BROWSER_UA)
+    with urllib.request.urlopen(req, timeout=90) as r: return r.read().decode("utf-8", "replace")
+
+def car_counties(counties):
+    """Latest C.A.R. monthly report: county median sold price (existing single-family), sales change, UII, days on market."""
+    from html.parser import HTMLParser
+    class T(HTMLParser):
+        def __init__(s): super().__init__(); s.tables, s.row, s.cell, s.inrow, s.incell = [], None, "", False, False
+        def handle_starttag(s, tag, a):
+            if tag == "table": s.tables.append([])
+            elif tag == "tr" and s.tables: s.row = []
+            elif tag in ("td", "th") and s.row is not None: s.incell, s.cell = True, ""
+        def handle_endtag(s, tag):
+            if tag in ("td", "th") and s.incell: s.row.append(re.sub(r"\s+", " ", s.cell).strip()); s.incell = False
+            elif tag == "tr" and s.row is not None and s.tables: s.tables[-1].append(s.row); s.row = None
+        def handle_data(s, d):
+            if s.incell: s.cell += d
+    lst = get_html(CAR_LIST)
+    links = re.findall(r'href="([^"]*/newsreleases/20\d\dreleases/[^"]*sales[^"]*)"', lst, re.I)
+    links = [l for l in dict.fromkeys(links) if not re.search(r"forecast|qtr|hai", l, re.I)]
+    if not links: raise RuntimeError("no C.A.R. sales release link found")
+    url = links[0] if links[0].startswith("http") else "https://www.car.org" + links[0]
+    url = url.replace("/en/aboutus", "/aboutus")
+    p = T(); p.feed(get_html(url))
+    if len(p.tables) < 2: raise RuntimeError(f"C.A.R. release has {len(p.tables)} tables")
+    price, pace = p.tables[0], p.tables[1]
+    month = (price[0][0] if price and price[0] else "").strip()
+    if not re.fullmatch(r"[A-Z][a-z]+ 20\d\d", month): raise RuntimeError(f"unexpected C.A.R. table header {price[0][:2]}")
+    money = lambda x: fnum(re.sub(r"[$,]", "", x or ""))
+    pc = lambda x: fnum((x or "").replace("%", ""))
+    def find(tab, name):
+        return next((r for r in tab if r and r[0] == name and len(r) > 5 and r[1]), None)
+    out = {}
+    for county in counties:
+        short = county.replace(" County", "")
+        a, b = find(price, short), find(pace, short)
+        if not a: continue
+        rec = {"median": money(a[1]), "median_prev_month": money(a[2]), "median_year_ago": money(a[4]),
+               "price_mtm_pct": pc(a[-4]), "price_yoy_pct": pc(a[-3]), "sales_mtm_pct": pc(a[-2]), "sales_yoy_pct": pc(a[-1])}
+        if b:
+            nums = [fnum(x) for x in b[1:] if x not in ("", "r")]
+            if len(nums) >= 6:
+                rec.update({"uii": nums[0], "uii_year_ago": nums[2], "dom": nums[3], "dom_year_ago": nums[5]})
+        out[county] = rec
+    state = find(price, "Calif. Single-family home")
+    print(f"C.A.R. {month}: {len(out)} counties from {url}", flush=True)
+    return {"month": month, "url": url, "name": f"California Association of REALTORS®, {month} Home Sales and Price Report",
+            "property": "existing single-family homes", "state_median": money(state[1]) if state else None,
+            "state_yoy_pct": pc(state[-3]) if state else None, "counties": out}
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--local"); ap.add_argument("--work", default="/tmp/ca-market")
     a = ap.parse_args()
@@ -169,6 +279,19 @@ def main():
     rf = redfin(fp, names) if os.path.exists(fp) else {}
     rdc = realtor_zip(kp, names) if os.path.exists(kp) else {}
     print("realtor.com cities matched:", len(rdc), flush=True)
+    all_counties = COUNTIES + sorted(set(EXTRA_CITIES.values()))
+    prev = {}
+    try: prev = json.load(open(OUT))
+    except Exception: pass
+    try: acs_year, acs = acs_places(d)
+    except Exception as e:
+        print("::warning::Census ACS download failed; keeping last month's Census figures:", e, flush=True)
+        acs_year, acs = None, {}
+    prev_acs = {c["slug"]: c.get("acs") for c in prev.get("cities", []) if c.get("acs")}
+    try: car = car_counties(all_counties)
+    except Exception as e:
+        print("::warning::C.A.R. report not parsed; keeping the last one:", e, flush=True)
+        car = prev.get("car")
     today = dt.date.today()
     cities = []
     for (city, county), z in zhvi.items():
@@ -187,6 +310,9 @@ def main():
     for c in cities: seen[c["slug"]] = seen.get(c["slug"], 0) + 1
     for c in cities:
         if seen[c["slug"]] > 1: c["slug"] = slugify(c["name"] + " " + c["county"].replace(" County", ""))
+    for c in cities:
+        c["acs"] = acs.get((norm(c["name"]), c["county"])) if acs else prev_acs.get(c["slug"])
+    print("places with Census ACS data:", sum(1 for c in cities if c.get("acs")), flush=True)
     cities.sort(key=lambda c: (c["county"], c["name"]))
     zdate = max(c["zhvi"]["date"] for c in cities)
     rdate = max((c["redfin"]["period_end"] for c in cities if c["redfin"]), default="")
@@ -195,8 +321,11 @@ def main():
                                     "through": max((c["realtor"]["month"] for c in cities if c.get("realtor")), default="")},
                         "zhvi": {"name": "Zillow Home Value Index (ZHVI), all homes, mid-tier, smoothed & seasonally adjusted", "url": "https://www.zillow.com/research/data/", "through": zdate},
                         "zori": {"name": "Zillow Observed Rent Index (ZORI), all homes", "url": "https://www.zillow.com/research/data/"},
-                        "redfin": {"name": "Redfin Data Center, city market tracker (all residential)", "url": "https://www.redfin.com/news/data-center/", "through": rdate}},
-            "counties": COUNTIES + sorted(set(EXTRA_CITIES.values())), "cities": cities}
+                        "redfin": {"name": "Redfin Data Center, city market tracker (all residential)", "url": "https://www.redfin.com/news/data-center/", "through": rdate},
+                        "acs": {"name": "U.S. Census Bureau, American Community Survey 5-year estimates", "url": "https://data.census.gov/",
+                                "range": next((c["acs"]["range"] for c in cities if c.get("acs")), "")},
+                        "car": {"name": (car or {}).get("name", ""), "url": (car or {}).get("url", "")}},
+            "car": car, "counties": all_counties, "cities": cities}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(data, open(OUT, "w"), separators=(",", ":"))
     print(f"wrote {OUT}: {len(cities)} places, {sum(1 for c in cities if c['redfin'])} with Redfin sales data; ZHVI through {zdate}, Redfin through {rdate}")
