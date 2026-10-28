@@ -28,6 +28,73 @@ WARN = [
 ]
 
 
+TEMPLATES = ("tip", "process", "checklist", "quiz", "explainer", "compare", "cta", "spotlight",
+             "stat", "myth", "meme", "quote")
+
+
+def _n(v) -> int:
+    return len(v) if isinstance(v, (list, tuple)) else 0
+
+
+def template_errors(d: dict) -> list[str]:
+    """Each template needs its own fields, or the graphic renders half-empty."""
+    t = (d.get("template") or "").strip().lower()
+    errs = []
+    if t and t not in TEMPLATES:
+        errs.append(f"unknown design.template '{t}' (use one of: {', '.join(TEMPLATES)})")
+    if t == "tip" and _n(d.get("points")) < 2:
+        errs.append("tip template needs 2-5 design.points")
+    if t == "process" and _n(d.get("steps") or d.get("points")) < 3:
+        errs.append("process template needs 3-5 design.steps")
+    if t == "checklist" and _n(d.get("questions") or d.get("points")) < 3:
+        errs.append("checklist template needs 3-6 design.questions")
+    if t == "quiz":
+        n = _n(d.get("options"))
+        if not 2 <= n <= 4:
+            errs.append("quiz template needs 2-4 design.options")
+        if not (d.get("question") or d.get("headline")):
+            errs.append("quiz template needs design.question or design.headline")
+    if t == "explainer" and not (d.get("term") and d.get("definition")):
+        errs.append("explainer template needs design.term and design.definition")
+    if t == "compare":
+        for side in ("left", "right"):
+            v = d.get(side)
+            pts = v.get("points") if isinstance(v, dict) else v
+            if _n(pts) < 2:
+                errs.append(f"compare template needs design.{side} with a label and 2-5 points")
+    if t == "spotlight":
+        if _n(d.get("points")) < 2:
+            errs.append("spotlight template needs 2-4 design.points (what it means for the agent)")
+        if d.get("photo"):
+            from .common import ROOT
+            if not (ROOT / str(d["photo"])).exists():
+                errs.append(f"spotlight photo not found: {d['photo']} (upload it to assets/spotlights/)")
+            if not d.get("consent"):
+                errs.append("a spotlight featuring a person needs design.consent: the date they OK'd it in writing")
+    if t == "cta" and not d.get("cta"):
+        errs.append("cta template needs design.cta (the one next step)")
+    return errs
+
+
+def length_warnings(d: dict) -> list[str]:
+    """Long text shrinks on the graphic. Warn so the writer tightens it."""
+    w = []
+    words = lambda s: len(str(s).replace("*", "").split())
+    if d.get("headline") and words(d["headline"]) > 10:
+        w.append(f"headline is {words(d['headline'])} words — keep it to 9 or fewer")
+    for key, cap in (("points", 14), ("questions", 12), ("options", 8)):
+        for p in d.get(key) or []:
+            if not isinstance(p, dict) and words(p) > cap:
+                w.append(f"{key} item over {cap} words: '{str(p)[:40]}…'")
+    for s in d.get("steps") or []:
+        txt = " ".join(str(v) for v in s.values()) if isinstance(s, dict) else str(s)
+        if words(txt) > 16:
+            w.append(f"step over 16 words: '{txt[:40]}…'")
+    if d.get("cta") and words(d["cta"]) > 8:
+        w.append("cta over 8 words")
+    return w
+
+
 def check(item) -> tuple[list[str], list[str]]:
     errs, warns = [], []
     d = item.d
@@ -42,6 +109,8 @@ def check(item) -> tuple[list[str], list[str]]:
         errs.append("meme template needs both design.setup and design.punch")
     if design.get("template") == "quote" and not design.get("quote"):
         errs.append("quote template needs design.quote")
+    errs += template_errors(design)
+    warns += length_warnings(design)
     if item.kind != "story":
         for p in item.platforms():
             cap = item.caption(p)

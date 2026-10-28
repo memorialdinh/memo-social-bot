@@ -48,11 +48,82 @@ Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
   (#firsttimehomebuyer, #realestatetips). Stories carry no caption, so no hashtags there.
 - Rotate through the topic tracks in `config.yaml` using their weights. Check `knowledge/topic-log.csv`
   and don't repeat a topic used in the last 21 days.
-- Mix at least 1 agent-attraction piece per day and at least 1 buyer or seller education piece.
+- Mix at least 1 agent-attraction piece per day (a Spotlight — see below) and at least 1 buyer or seller education piece.
 - End most CTAs with a keyword the engagement bot answers automatically: RATES, BUYER, SELLER, VALUE,
   PROP 19, AGREEMENT, MATH (agents), INVEST, BDAY. Example: "Comment VALUE and I'll DM you". The bot then DMs the resource.
 - Once a week, a story invites people to the Birthday Club: "DM BDAY 🎂".
 - If `queue/<date>/p0.yaml` already exists (the Birthday Club shoutout), leave it and write p1–p3 as usual.
+
+## The mix Memo asked for — tips, education, process, questionnaires, CTA (Oct 28, 2026)
+
+Memo wants "better design, luxury type, and more tips, education, process, questionnaire and CTA".
+The renderer now has a luxury look (gold-foil type, hairline rules, his portrait medallion, a
+"Your next step" button on every graphic) and a template for each of those. Use them:
+
+**Every day, across the 10 pieces:**
+- at least **1 process** piece (`process`: how something happens, step by step, in order)
+- at least **1 questionnaire** (`checklist` or `quiz`) in the feed, and **2 of the 5 stories** are a
+  `checklist` or `quiz` people answer by DM ("Reply BUYER if you checked 3+")
+- at least **1 education** piece (`tip`, `explainer` or `compare`)
+- **every item has `design.cta`** — the gold "Your next step" button. One action, ≤ 8 words, with an
+  engagement keyword (RATES, BUYER, SELLER, VALUE, PROP 19, AGREEMENT, MATH, INVEST, BDAY) so the bot
+  can answer it. If you leave it out, the track's default from `config.yaml → default_cta` is used.
+- **once a week** (Mentor picks the day, or Wednesday if the plan doesn't say) one `cta` offer card:
+  what someone gets on a 15-minute call, `cta: Book a 15-minute call`,
+  `cta_sub: tidycal.com/memorialdinh/15-minute-call`. Captions still carry the keyword CTA too.
+- never the same template twice in a row in the feed; rotate through all of them over the week
+- `insights.json` directives still win (e.g. "stop using quote") — say which you applied
+
+**Which template for what:**
+| Template | Use it for | Saves? |
+|---|---|---|
+| `tip` | 3 things to do / avoid. 2-4 points (posts), up to 5 (stories) | yes |
+| `process` | escrow timeline, how a sale closes, probate steps, 1031 sequence. 3-4 steps with detail (posts), up to 5 (reels/stories) | yes |
+| `checklist` | "Ready to buy? Check yours." 3-5 yes/no questions + a `score` line | yes |
+| `quiz` | one question, 2-4 options, `answer`. Posts ask (answer goes in the caption's last line or the next day's story with `reveal: true`); reels reveal it on screen automatically | — |
+| `explainer` | one term in plain English: `term`, `definition`, `why`, `example` | yes |
+| `compare` | A vs B: FHA vs conventional, sell first vs buy first, cap rate vs cash-on-cash | yes |
+| `cta` | the offer card (see above) | — |
+| `spotlight` | agent attraction: one perk / tool / person per post, numbered series (see below) | yes |
+| `stat` / `myth` / `meme` / `quote` | as before | — |
+
+**Looks never repeat.** The renderer picks each graphic's look (9 luxury color themes × 11
+background accents × layout) so no platform reuses a look from its last 14 days of posts, two posts
+in a row never share a color, and the same post looks different on each platform. Don't set
+`design.theme` — forcing a theme takes that choice away. The look is saved in each item's
+`rendered:` block; leave it alone.
+
+**Agent attraction is a Spotlight series** (Memo, Oct 28, 2026: "for the agent attraction: spotlight
+each…"). Every `agent_attraction` piece is `template: spotlight`, one subject per post, numbered:
+```yaml
+track: agent_attraction
+design:
+  template: spotlight
+  kicker: EPIQUE SPOTLIGHT        # or AGENT SPOTLIGHT for a person
+  series_no: 4                    # next number in knowledge/spotlight-log.csv
+  headline: "Training that *doesn't* cost extra."
+  subhead: "One line: what it is."
+  points: ["What it means for the agent", "...", "..."]   # 2-4, concrete
+  cta: "DM 'MATH' for the full breakdown"
+  # fine_print is added automatically: "Subject to Epique's current plan terms and eligibility.
+  # No income is guaranteed." Override with fine_print: only to make it MORE specific.
+```
+Rotate subjects, one per post, no repeat within 30 days: RevShare (plan terms), stock/equity awards
+(plan terms), the cap and what counts toward it, fees after cap, Power Academy / training, Power
+Wednesday, coaching and mentorship, transaction and compliance support, tech and AI tools, lead and
+marketing programs, benefits, culture and events (Power Summit, local meetups), the Epique Asian
+Network, what joining Memo's team looks like day to day. **Every fact comes from an official Epique
+source the same day** (joinepique.com, ica.epiquerealty.com, epiquerealty.com, Epique's own press
+releases) and goes in `sources:`; if a figure can't be verified, describe the feature without it.
+No income promises, no "you'll make", no comparisons that run down another brokerage.
+**Agent spotlights (a real person)** need that agent's written OK: add `photo:
+assets/spotlights/<file>.jpg` (Memo uploads it), `name:`, `role:` and `consent: <date they said
+yes>`. The validator blocks a person spotlight without a photo file and a consent date. Never use a
+photo from the web or from another post.
+After writing, append `date,series_no,subject,source_url` to `knowledge/spotlight-log.csv`.
+
+Graphics carry SHORT text. The validator warns past these: headline 9 words, a point 14, a
+checklist question 12, a quiz option 8, a step 16, the CTA 8. The caption does the explaining.
 
 ## Memes — the `humor` track
 
@@ -147,15 +218,17 @@ track: buyer_education # see config.yaml → tracks
 topic: Pre-qualified vs pre-approved
 time: auto             # or "09:30" to force a time
 design:                # what's printed on the graphic (keep it SHORT)
-  template: tip        # tip (headline + points) | stat (big number) | myth (myth vs fact)
+  template: tip        # tip | process | checklist | quiz | explainer | compare | cta | spotlight | stat | myth | meme | quote
   kicker: BUYER TIP    # small label; defaults to the track label
   headline: "Pre-qualified is *not* pre-approved."   # *stars* = gold words. <= 9 words
+  subhead: "..."                         # optional one-line dek under the headline
   points: ["...", "..."]                 # tip: 2-4 points, <= 14 words each
   stat_value: "6.2%"                     # stat template
   stat_label: "30-yr fixed avg, Freddie Mac, Oct 23"
   myth: "..."                            # myth template
   fact: "..."
-  cta: "DM 'BUYER' for my roadmap"       # <= 8 words
+  cta: "DM 'BUYER' for my roadmap"       # <= 8 words — EVERY item gets one
+  cta_sub: "tidycal.com/memorialdinh/15-minute-call"   # optional small line under the button
 captions:              # not needed for stories
   instagram: |-
     ...
@@ -167,3 +240,69 @@ captions:              # not needed for stories
 sources: [https://...]
 ```
 No emojis on the graphic itself (captions are fine).
+
+### The new templates' fields
+```yaml
+# process — steps in order. "Title: detail" strings, or dicts with an optional when
+design:
+  template: process
+  headline: "How a home sale actually *closes*."
+  steps:
+    - {when: "Week 1", title: "Price it right", detail: "Comps, condition and today's buyers set it."}
+    - "Prep and photos: Small fixes first, then pro photos."
+    - "Escrow: Inspection, appraisal and loan approval."
+    - "Close: Docs record, funds wire, keys change hands."
+  cta: "Comment 'SELLER' for my timeline"
+
+# checklist — the questionnaire
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: "Ready to *buy*? Check yours."
+  questions: ["I know my credit score.", "I have 2 months of statements ready.", "..."]
+  score: "3 or more? You're *closer* than you think."
+  cta: "DM 'BUYER' and I'll map your next step"
+
+# quiz — reels reveal the answer; a story reveals it only with reveal: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: "Who usually pays for the home *inspection*?"
+  options: ["The seller", "The buyer", "The lender"]
+  answer: B
+  explain: "The buyer orders it during the contingency period."   # shown with the reveal
+  reveal: false
+  cta: "Comment A, B or C"
+
+# explainer — one term, plain English
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: "Say it in *plain English*."
+  term: "Contingency"
+  pos: "noun · purchase contract"          # optional
+  definition: "A condition in your offer that has to be met, or you can cancel and keep your deposit."
+  why: "It's your safety net on the inspection, appraisal and loan."
+  example: "Appraisal comes in low? That contingency lets you renegotiate or walk."
+  cta: "DM 'BUYER' for my offer checklist"
+
+# compare — A vs B
+design:
+  template: compare
+  headline: "Sell first or *buy first*?"
+  left:  {label: "Sell first", points: ["You know your exact budget", "No double payments"]}
+  right: {label: "Buy first",  points: ["Move once, on your schedule", "Two payments for a while"]}
+  verdict: "The right order comes down to your equity and how much overlap you can carry."
+  cta: "Comment 'SELLER' for my plan"
+
+# cta — the offer card, once a week
+design:
+  template: cta
+  kicker: FOR HOMEOWNERS
+  headline: "Selling in *2027*? Start with 15 minutes."
+  points: ["Your home's value range today", "What to fix, and what to skip", "A timeline that fits your next move"]
+  cta: "Book a 15-minute call"
+  cta_sub: "tidycal.com/memorialdinh/15-minute-call"
+```
+Every number still needs its dated source — on the graphic too (a `stat_label`, a step's detail,
+the `explain` line), not only in the caption.

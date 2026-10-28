@@ -57,6 +57,20 @@ tracks:
   motivation:         { weight: 2, label: "MONDAY" }          # inspiring / empowering, quote template
   community:          { weight: 0, label: "BIRTHDAY CLUB" }   # written by the engagement brain, not the daily writer
 
+# Every graphic ends with a "Your next step" button. When a post doesn't set
+# design.cta, the button uses the line for its track below.
+default_cta:
+  market_update:    "DM 'VALUE' for your home's number"
+  buyer_education:  "DM 'BUYER' for my buyer roadmap"
+  seller_education: "Comment 'SELLER' for my seller plan"
+  agent_attraction: "DM 'MATH' for the cost breakdown"
+  laws_and_updates: "DM me your question on this"
+  investment:       "DM 'INVEST' for the worksheet"
+  local_spotlight:  "DM 'BUYER' to see homes here"
+  humor:            "Follow for real talk + real numbers"
+  motivation:       "DM 'BUYER' and we'll map your numbers"
+  community:        "DM 'BDAY' to join the Birthday Club"
+
 # Safety: these tracks always wait for your approval before posting.
 # Everything else posts automatically once the writer marks it approved.
 require_approval_tracks: [laws_and_updates]
@@ -78,8 +92,10 @@ headshots:
   # its file name here (blank = first file in the folder).
   primary: "memo.png"
 
-# Every post gets a different look automatically (5 color themes x 6 accents x
-# layouts). To force one for a post, add  theme: noir|silver|ivory|goldrush|graphite
+# Every post gets a different look automatically (5 luxury color themes x 6
+# background accents x layouts), with the gold-foil type, hairline rules, the
+# headshot medallion and a "Your next step" button on every graphic.
+# To force one for a post, add  theme: noir|silver|ivory|goldrush|graphite
 # under design: in that post's file.
 
 api:

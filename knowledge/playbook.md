@@ -131,3 +131,13 @@ Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. As o
 3. Keep one meme most days and roughly two motivational pieces a week.
 4. Put anything needing fresh rates on Thursday.
 5. When the data contradicts this playbook, the data wins — and update this file to say so.
+6. **Memo's format ask (Oct 28, 2026): "more tips, education, process, questionnaire and CTA",
+   in a more luxury design.** Plan every day with at least one `process` piece, one questionnaire
+   (`checklist` or `quiz`), one education piece (`tip`, `explainer` or `compare`), and a clear
+   next step on everything. One `cta` offer card a week (the 15-minute call). Name the template in
+   the angle column when it matters (e.g. "`process`: escrow, day 1 to keys"). CONTENT_BRIEF.md has
+   the fields for each. Judge the new templates on saves and DMs, not likes, once 4+ of each exist.
+7. **Agent attraction = a Spotlight series (Memo, Oct 28, 2026).** Every `agent_attraction` piece
+   uses `template: spotlight` and spotlights ONE thing: a perk, a tool, a training, a support line,
+   a cost line, an event, or (only with their written OK) an agent. Rotate through the list in
+   CONTENT_BRIEF.md and don't repeat a subject within 30 days (`knowledge/spotlight-log.csv`).
