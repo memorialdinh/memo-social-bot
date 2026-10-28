@@ -1,0 +1,38 @@
+id: s5
+kind: story
+track: market_update
+topic: 'Story for w1: city-by-city housing market pages'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: YOUR CITY
+  headline: Where do you *live*?
+  options:
+  - LA County
+  - Orange County
+  - Inland Empire
+  answer: A
+  reveal: false
+  cta: 'Your city''s numbers: theprestige.luxe'
+sources:
+- https://theprestige.luxe/housing-market.html
+status: {}
+media:
+  instagram: queue/2026-11-06/media/s5-instagram.jpg
+  facebook: queue/2026-11-06/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: graphite
+    deco: glow
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: porcelain
+    deco: monogram
+    side: left
+    center: false
+    template: quiz

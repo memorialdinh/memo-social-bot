@@ -1,0 +1,38 @@
+id: s5
+kind: story
+track: local_spotlight
+topic: 'Story for w1: local events calendar for SoCal cities'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: THIS MONTH
+  headline: Your ideal *weekend* plan?
+  options:
+  - Farmers market
+  - Live music
+  - Holiday lights
+  answer: A
+  reveal: false
+  cta: 'Find one: theprestige.luxe/events'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-02/media/s5-instagram.jpg
+  facebook: queue/2026-11-02/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: goldrush
+    deco: beam
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: slate
+    deco: glow
+    side: right
+    center: false
+    template: quiz

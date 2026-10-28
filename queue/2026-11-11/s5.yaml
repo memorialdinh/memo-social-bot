@@ -1,0 +1,36 @@
+id: s5
+kind: story
+track: seller_education
+topic: 'Story for w1: free home value reminder before the holidays'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: tip
+  kicker: HOMEOWNERS
+  headline: Your home's value, *free*.
+  points:
+  - Real closed sales near you
+  - Comps included
+  - 24 hours
+  cta: theprestige.luxe/#value
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-11/media/s5-instagram.jpg
+  facebook: queue/2026-11-11/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: carbon
+    deco: glow
+    side: right
+    center: false
+    template: tip
+  facebook:
+    theme: porcelain
+    deco: grid
+    side: right
+    center: false
+    template: tip

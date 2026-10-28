@@ -1,0 +1,88 @@
+id: w1
+kind: post
+track: local_spotlight
+topic: 'Website campaign: local events calendar for SoCal cities'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: tip
+  kicker: LOCAL
+  headline: What's happening *near you* this month.
+  subhead: A free local events calendar, city by city.
+  points:
+  - Farmers markets, concerts, car shows, festivals
+  - Pulled from official city calendars
+  - Long Beach, the South Bay, OC and beyond
+  cta: 'See it: theprestige.luxe/events.html'
+captions:
+  instagram: 'New month, new plans. I keep a free local events calendar on my site: farmers markets, concerts, car shows, holiday lights and more, pulled from official city calendars.
+
+
+    Long Beach, the South Bay, OC and the Inland Empire.
+
+
+    https://theprestige.luxe/events.html
+
+    Tag the friend you''re going with 👇
+
+
+    #LongBeachEvents #SouthBay #ThingsToDoLA #OrangeCounty #LocalEvents #SoCalLiving'
+  facebook: 'Looking for something to do this month without scrolling five different city websites?
+
+
+    I keep a local events calendar on my site with farmers markets, concerts, car shows, holiday lights and festivals across Long Beach, the South Bay, Orange County and the Inland Empire. Everything links back to the official city or organizer page, so the details are straight from the source.
+
+
+    👉 https://theprestige.luxe/events.html
+
+
+    What''s your favorite local event this time of year?
+
+
+    #ThingsToDo #LongBeach #SoCalEvents'
+  linkedin: 'Part of knowing a market is knowing what happens in it outside of open houses.
+
+
+    I maintain a free events calendar for the cities I serve across LA, Orange, Riverside and San Bernardino counties, built from official city calendars and updated weekly. It''s useful for anyone relocating to the area, and for agents who want something better than another listing to share with their sphere.
+
+
+    https://theprestige.luxe/events.html
+
+
+    #Community #SouthernCalifornia #RealEstate'
+  tiktok: 'Free SoCal events calendar: markets, concerts, car shows, holiday lights. theprestige.luxe/events.html #thingstodo #longbeach #socal #orangecounty'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-02/media/w1-instagram.jpg
+  facebook: queue/2026-11-02/media/w1-facebook.jpg
+  linkedin: queue/2026-11-02/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-02/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: graphite
+    deco: corners
+    side: left
+    center: false
+    template: tip
+  facebook:
+    theme: porcelain
+    deco: halo
+    side: right
+    center: false
+    template: tip
+  linkedin:
+    theme: slate
+    deco: grid
+    side: left
+    center: false
+    template: tip
+  tiktok:
+    theme: goldrush
+    deco: split
+    side: left
+    center: false
+    template: tip

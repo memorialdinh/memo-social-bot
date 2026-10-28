@@ -1,0 +1,38 @@
+id: s5
+kind: story
+track: investment
+topic: 'Story for w1: investment calculator and investor deal alerts'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: INVESTORS
+  headline: What are you *investing* for?
+  options:
+  - Monthly cash flow
+  - Long-term growth
+  - A 1031 exchange
+  answer: A
+  reveal: false
+  cta: 'Free calculator: theprestige.luxe'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-10/media/s5-instagram.jpg
+  facebook: queue/2026-11-10/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: noir
+    deco: rules
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: goldrush
+    deco: glow
+    side: left
+    center: false
+    template: quiz

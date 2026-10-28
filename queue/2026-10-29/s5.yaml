@@ -1,0 +1,38 @@
+id: s5
+kind: story
+track: seller_education
+topic: 'Story for w1: free home value from real closed sales'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Should you check your *home value*?
+  questions:
+  - You've owned 5+ years.
+  - You've done updates since you bought.
+  - A 2027 move is on your mind.
+  - You're not sure what nearby homes sold for.
+  score: 2 or more? *Get your number* free.
+  cta: theprestige.luxe/#value
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-10-29/media/s5-instagram.jpg
+  facebook: queue/2026-10-29/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: slate
+    deco: glow
+    side: right
+    center: false
+    template: checklist
+  facebook:
+    theme: ivory
+    deco: rules
+    side: left
+    center: false
+    template: checklist

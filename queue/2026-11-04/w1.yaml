@@ -1,0 +1,96 @@
+id: w1
+kind: post
+track: agent_attraction
+topic: 'Website campaign: joinmemo RevShare calculator and plan comparison'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: spotlight
+  kicker: EPIQUE SPOTLIGHT
+  series_no: 2
+  headline: See RevShare with *your* numbers.
+  subhead: A free RevShare calculator on my agent site.
+  points:
+  - Enter the agents you'd bring in and their GCI
+  - See five levels at Epique's plan terms
+  - Compare four brokerages' plans side by side
+  cta: DM 'MATH' for a walkthrough
+captions:
+  instagram: 'RevShare talk is usually all slides and no math. So here''s the math tool.
+
+
+    On my agent site: enter how many agents you''d bring in and what they produce. See what Epique''s plan would pay across five levels, plus a side-by-side with three other brokerages'' published plans.
+
+
+    Illustration only. Subject to plan terms.
+
+
+    https://joinmemo.netlify.app/#rs
+
+    DM me MATH and I''ll walk you through it.
+
+
+    #RealEstateAgent #RevShare #EpiqueRealty #RealtorLife #RealEstateCareer'
+  facebook: 'Agents: if someone''s pitched you RevShare lately, you''ve probably seen big numbers on a slide. I''d rather you plug in your own.
+
+
+    My agent site has a free RevShare calculator. Enter how many agents you might bring in and their typical production, and it estimates what Epique''s plan would pay across its five levels. There''s also a comparison of four brokerages'' published plans with each one''s unlock rules applied.
+
+
+    It''s an illustration, not a promise. RevShare depends on production, vesting and each company''s current plan terms.
+
+
+    👉 https://joinmemo.netlify.app/#rs
+
+
+    What''s the first question you ask about a RevShare plan?
+
+
+    #RealEstateAgent #EpiqueRealty #RevShare'
+  linkedin: 'Revenue share plans are hard to compare because each brokerage uses different tier structures and unlock requirements.
+
+
+    I built a calculator that applies each plan''s published rules to the same hypothetical organization across four brokerages, Epique included. Agents enter their own assumptions and see the result per level and per year. Figures are illustrations based on published plan terms, which change, and are not a promise of earnings.
+
+
+    https://joinmemo.netlify.app/#rs
+
+
+    #RealEstate #RealEstateAgents #RevenueShare'
+  tiktok: 'RevShare with your own numbers, not a slide. Free calculator at joinmemo.netlify.app #realestateagent #revshare #realtorlife #epiquerealty'
+sources:
+- https://joinmemo.netlify.app
+- https://ica.epiquerealty.com
+status: {}
+media:
+  instagram: queue/2026-11-04/media/w1-instagram.jpg
+  facebook: queue/2026-11-04/media/w1-facebook.jpg
+  linkedin: queue/2026-11-04/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-04/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: noir
+    deco: split
+    side: right
+    center: false
+    template: spotlight
+  facebook:
+    theme: carbon
+    deco: frame
+    side: right
+    center: false
+    template: spotlight
+  linkedin:
+    theme: silver
+    deco: rules
+    side: left
+    center: false
+    template: spotlight
+  tiktok:
+    theme: porcelain
+    deco: rules
+    side: left
+    center: false
+    template: spotlight

@@ -1,0 +1,96 @@
+id: w1
+kind: post
+track: agent_attraction
+topic: 'Website campaign: joinmemo team comparison for team leaders'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: spotlight
+  kicker: EPIQUE SPOTLIGHT
+  series_no: 3
+  headline: Leading a team? *Compare the group*.
+  subhead: A free team calculator on my agent site.
+  points:
+  - Enter your team's production and overhead
+  - Pick Traditional, Family or Power Team
+  - See what the team keeps each year
+  cta: DM 'MATH' for the team breakdown
+captions:
+  instagram: 'Team leaders: one agent''s split math doesn''t tell you what the whole team pays.
+
+
+    My agent site has a free team calculator. Enter your team''s production, what you pay now per agent, and your overhead. Pick an Epique team type and see what the group keeps each year.
+
+
+    Estimates only. Subject to plan terms.
+
+
+    https://joinmemo.netlify.app/#teamcalc
+
+    DM me MATH and I''ll run it with you.
+
+
+    #RealEstateTeam #TeamLeader #EpiqueRealty #RealEstateAgent #RealtorLife'
+  facebook: 'If you run a team, you already know the math gets messy fast. Per-agent splits, caps, monthly fees, your own production, the overhead you carry.
+
+
+    I added a team calculator to my agent site. Enter your team''s numbers and what you pay now, choose the Epique team type that fits (Traditional, Family or Power), and it estimates what the team would keep each year by comparison.
+
+
+    It''s an estimate, not a promise, but it beats a napkin.
+
+
+    👉 https://joinmemo.netlify.app/#teamcalc
+
+
+    How many agents are on your team right now?
+
+
+    #RealEstateTeam #EpiqueRealty #TeamLeader'
+  linkedin: 'For team leaders, a brokerage comparison only makes sense at the team level: per-agent splits and caps, recurring fees, the leader''s own production and fixed overhead.
+
+
+    I published a free calculator that models a team''s current costs against Epique Realty''s team structures as described in its Independent Contractor Agreement. It''s an estimate that excludes referral fees, dues and taxes, and it is not a promise of earnings.
+
+
+    https://joinmemo.netlify.app/#teamcalc
+
+
+    #RealEstate #TeamLeadership #Brokerage'
+  tiktok: 'Team leaders: compare what your whole team pays, free. joinmemo.netlify.app #realestateteam #teamleader #realestateagent #epiquerealty'
+sources:
+- https://joinmemo.netlify.app
+- https://ica.epiquerealty.com
+status: {}
+media:
+  instagram: queue/2026-11-09/media/w1-instagram.jpg
+  facebook: queue/2026-11-09/media/w1-facebook.jpg
+  linkedin: queue/2026-11-09/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-09/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: porcelain
+    deco: monogram
+    side: right
+    center: false
+    template: spotlight
+  facebook:
+    theme: silver
+    deco: beam
+    side: left
+    center: false
+    template: spotlight
+  linkedin:
+    theme: goldrush
+    deco: corners
+    side: left
+    center: false
+    template: spotlight
+  tiktok:
+    theme: aurum
+    deco: halo
+    side: left
+    center: false
+    template: spotlight

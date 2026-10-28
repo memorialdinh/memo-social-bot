@@ -52,6 +52,10 @@ Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
 - End most CTAs with a keyword the engagement bot answers automatically: RATES, BUYER, SELLER, VALUE,
   PROP 19, AGREEMENT, MATH (agents), INVEST, BDAY. Example: "Comment VALUE and I'll DM you". The bot then DMs the resource.
 - Once a week, a story invites people to the Birthday Club: "DM BDAY 🎂".
+- **Website campaign, Oct 29 – Nov 11, 2026 (Memo asked Oct 28):** every day in that range already has
+  `w1.yaml` (a feed post driving people to theprestige.luxe or joinmemo) and `s5.yaml` (its story).
+  Leave both alone. Write p1–p3, r1–r2 and **s1–s4 only** on those days (5 stories total, as usual).
+  Don't repeat a w1 topic in p1–p3 that same week.
 - If `queue/<date>/p0.yaml` already exists (the Birthday Club shoutout), leave it and write p1–p3 as usual.
 
 ## The mix Memo asked for — tips, education, process, questionnaires, CTA (Oct 28, 2026)

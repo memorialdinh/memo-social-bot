@@ -1,0 +1,103 @@
+id: w1
+kind: post
+track: buyer_education
+topic: 'Website campaign: 16 free buyer and seller reports'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: tip
+  kicker: FREE REPORTS
+  headline: 16 short reports. *Zero* cost.
+  subhead: Pick the ones you need. Read them right away.
+  points:
+  - Your real monthly number, before you shop
+  - How offers win in Southern California
+  - Pricing right in the first two weeks
+  - 'Trust and probate sales: a family roadmap'
+  cta: 'Grab them free: theprestige.luxe/reports'
+captions:
+  instagram: 'Real estate questions you don''t want to ask out loud yet? I wrote the answers down.
+
+
+    16 free reports on my site. Buying, selling, financing, ADUs, property taxes, probate. Pick what you need and read it instantly. No call required.
+
+
+    https://theprestige.luxe/reports.html
+
+    Or comment BUYER or SELLER and I''ll DM you my top picks.
+
+
+    #FirstTimeHomeBuyer #SoCalRealEstate #LongBeachRealEstate #HomeBuyingTips #SellingTips #RealEstateEducation'
+  facebook: 'Not everyone wants to call an agent before they know the basics. Totally fair.
+
+
+    So I put 16 short, free reports on my website. A few people are grabbing most:
+
+    • Your Real Monthly Number (what a home actually costs each month in CA)
+
+    • How Offers Win in Southern California
+
+    • Pricing Right in the First Two Weeks
+
+    • Trust & Probate Sales: A Family Roadmap
+
+
+    Check the ones you want and read them right away. They come by email too, so you can come back later.
+
+
+    👉 https://theprestige.luxe/reports.html
+
+
+    Which topic should I write next?
+
+
+    #RealEstateTips #SoCalHomes #FirstTimeBuyer'
+  linkedin: 'Most buyers and sellers want to understand the process before they talk to anyone. That''s a reasonable instinct.
+
+
+    I''ve published 16 short guides covering California-specific topics: monthly ownership cost, how sellers weigh offers, disclosures, closing costs, ADU feasibility, property taxes after purchase, and trust and probate sales. Free, readable in a few minutes each.
+
+
+    If you have clients, colleagues or family heading into a transaction, feel free to pass it along.
+
+
+    https://theprestige.luxe/reports.html
+
+
+    #RealEstate #HomeBuying #California'
+  tiktok: '16 free real estate reports. Buying, selling, taxes, probate. Read them at theprestige.luxe #realestatetips #firsttimehomebuyer #socal #homebuying'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-10-31/media/w1-instagram.jpg
+  facebook: queue/2026-10-31/media/w1-facebook.jpg
+  linkedin: queue/2026-10-31/media/w1-linkedin.jpg
+  tiktok: queue/2026-10-31/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: porcelain
+    deco: split
+    side: left
+    center: false
+    template: tip
+  facebook:
+    theme: goldrush
+    deco: corners
+    side: left
+    center: false
+    template: tip
+  linkedin:
+    theme: aurum
+    deco: grid
+    side: right
+    center: false
+    template: tip
+  tiktok:
+    theme: slate
+    deco: arcs
+    side: left
+    center: false
+    template: tip

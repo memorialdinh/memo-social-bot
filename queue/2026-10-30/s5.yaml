@@ -1,0 +1,39 @@
+id: s5
+kind: story
+track: agent_attraction
+topic: 'Story for w1: joinmemo brokerage comparison calculator'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: AGENTS · POP QUIZ
+  headline: Do you know what your brokerage cost you *last year*?
+  options:
+  - Yes, to the dollar
+  - Roughly
+  - No idea
+  answer: A
+  reveal: false
+  cta: 'Check it free: joinmemo.netlify.app'
+sources:
+- https://joinmemo.netlify.app
+- https://ica.epiquerealty.com
+status: {}
+media:
+  instagram: queue/2026-10-30/media/s5-instagram.jpg
+  facebook: queue/2026-10-30/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: silver
+    deco: grid
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: goldrush
+    deco: arcs
+    side: left
+    center: false
+    template: quiz

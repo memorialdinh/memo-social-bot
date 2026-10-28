@@ -1,0 +1,39 @@
+id: s5
+kind: story
+track: agent_attraction
+topic: 'Story for w1: joinmemo RevShare calculator and plan comparison'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: AGENTS
+  headline: What matters most to you *in a brokerage*?
+  options:
+  - Keeping more per deal
+  - Income after the deal
+  - Training and support
+  answer: A
+  reveal: false
+  cta: 'See all three: joinmemo.netlify.app'
+sources:
+- https://joinmemo.netlify.app
+- https://ica.epiquerealty.com
+status: {}
+media:
+  instagram: queue/2026-11-04/media/s5-instagram.jpg
+  facebook: queue/2026-11-04/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: carbon
+    deco: rules
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: aurum
+    deco: monogram
+    side: left
+    center: false
+    template: quiz

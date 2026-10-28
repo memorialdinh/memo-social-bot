@@ -1,0 +1,104 @@
+id: w1
+kind: post
+track: seller_education
+topic: 'Website campaign: checklist, should you sell in 2027'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Thinking about selling in *2027*?
+  questions:
+  - Your home no longer fits how you live.
+  - You have real equity built up.
+  - You know where you'd move next.
+  - You'd rather plan than rush.
+  score: 3 or more? Start with *your number*.
+  cta: 'Free value: theprestige.luxe/#value'
+captions:
+  instagram: 'Selling in 2027? Check yourself:
+
+
+    ☐ Your home doesn''t fit how you live anymore
+
+    ☐ You''ve built real equity
+
+    ☐ You know where you''d go next
+
+    ☐ You''d rather plan than rush
+
+
+    3 or more? Your first step is knowing your number. Free value from real closed sales: https://theprestige.luxe/#value
+
+
+    Comment SELLER for my seller timeline.
+
+
+    #SellingAHome #LongBeachRealEstate #SouthBayHomes #OrangeCountyHomes #HomeValue #RealEstatePlanning'
+  facebook: 'If 2027 is the year you''re thinking about selling, the best time to start planning is a few months before you list, not the week of.
+
+
+    Quick gut check:
+
+    ✔ Your home doesn''t fit your life anymore
+
+    ✔ You''ve built up equity
+
+    ✔ You know roughly where you''d go
+
+    ✔ You''d rather plan than rush
+
+
+    Three or more? Start by finding out what your home is worth today, from real closed sales near you. Free, within 24 hours: https://theprestige.luxe/#value
+
+
+    What''s the biggest thing holding you back from moving?
+
+
+    #SellingAHome #SoCalRealEstate #HomeValue'
+  linkedin: 'Homeowners who sell well usually start months before they list: a current valuation, a short list of improvements worth making, and a plan for where they''re going next.
+
+
+    If a 2027 sale is on your radar, a free comparable-sales valuation is a sensible first step. It''s based on closed MLS sales within a mile, delivered in 24 hours, with no obligation.
+
+
+    https://theprestige.luxe/#value
+
+
+    #RealEstate #HomeSelling #FinancialPlanning'
+  tiktok: 'Selling in 2027? 4 questions to ask yourself first. Then get your free home value at theprestige.luxe #sellingahome #realestatetips #homevalue #socal'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-05/media/w1-instagram.jpg
+  facebook: queue/2026-11-05/media/w1-facebook.jpg
+  linkedin: queue/2026-11-05/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-05/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: slate
+    deco: rules
+    side: right
+    center: false
+    template: checklist
+  facebook:
+    theme: ivory
+    deco: split
+    side: right
+    center: false
+    template: checklist
+  linkedin:
+    theme: graphite
+    deco: grid
+    side: right
+    center: false
+    template: checklist
+  tiktok:
+    theme: aurum
+    deco: split
+    side: left
+    center: false
+    template: checklist

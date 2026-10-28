@@ -1,0 +1,90 @@
+id: w1
+kind: post
+track: buyer_education
+topic: 'Website campaign: save your home search and get matching alerts'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: process
+  kicker: BUYERS
+  headline: Let the right homes *find you*.
+  steps:
+  - title: Tell me what you want
+    detail: Area, price, beds and timeframe.
+  - title: Save it once
+    detail: Your details carry to every form on the site.
+  - title: Get matches by email
+    detail: New listings that fit, plus market updates.
+  cta: 'Save yours: theprestige.luxe'
+captions:
+  instagram: 'Tired of checking listings every night?
+
+
+    Save your search on my site once: area, price, beds, timeframe. New homes that match come to your inbox, plus your city''s market updates.
+
+
+    https://theprestige.luxe/my-home-search.html
+
+    DM me BUYER for my buyer roadmap too.
+
+
+    #HouseHunting #FirstTimeHomeBuyer #LongBeachHomes #OrangeCountyHomes #HomeSearch #SoCalRealEstate'
+  facebook: 'Sunday house hunting doesn''t need to mean refreshing three apps.
+
+
+    On my site you can save your search one time: where, price range, beds, and when you want to move. When new homes come on that match, you get them by email, along with market updates for that city. Fill it out once and the site remembers it, so you''re not retyping it on every form.
+
+
+    👉 https://theprestige.luxe/my-home-search.html
+
+
+    What''s the one must-have on your list?
+
+
+    #HouseHunting #HomeSearch #SoCalHomes'
+  linkedin: 'Search fatigue is real for buyers. Most spend weeks rechecking the same portals.
+
+
+    My site lets buyers save their criteria once (area, price, size, timeframe) and receive matching new listings and local market updates by email. The details carry over to every other request on the site, so nobody has to enter them twice.
+
+
+    https://theprestige.luxe/my-home-search.html
+
+
+    #RealEstate #HomeBuying #PropTech'
+  tiktok: 'Stop refreshing listing apps. Save your search once and let new matches come to you. theprestige.luxe #househunting #firsttimehomebuyer #homesearch #socal'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-08/media/w1-instagram.jpg
+  facebook: queue/2026-11-08/media/w1-facebook.jpg
+  linkedin: queue/2026-11-08/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-08/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: aurum
+    deco: dots
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: slate
+    deco: corners
+    side: right
+    center: false
+    template: process
+  linkedin:
+    theme: graphite
+    deco: grid
+    side: left
+    center: false
+    template: process
+  tiktok:
+    theme: porcelain
+    deco: arcs
+    side: left
+    center: false
+    template: process

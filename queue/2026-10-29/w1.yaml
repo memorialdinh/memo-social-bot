@@ -1,0 +1,102 @@
+id: w1
+kind: post
+track: seller_education
+topic: 'Website campaign: free home value from real closed sales'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: cta
+  kicker: FOR HOMEOWNERS
+  headline: What's your home *really* worth?
+  subhead: Real closed sales near you. Not an algorithm.
+  points:
+  - Closed sales within 1 mile, last 6 months
+  - The comps it's based on, with prices and sizes
+  - What's worth fixing before you list
+  cta: Get my free home value
+  cta_sub: theprestige.luxe/#value
+  offer_label: What you get
+captions:
+  instagram: 'Online estimates guess. Closed sales don''t.
+
+
+    Send me your address and I''ll pull real MLS sales within a mile of you from the last 6 months. You get the value range, the comps, and what''s worth fixing first. Free, within 24 hours.
+
+
+    No pressure to list. Just your number.
+
+
+    Get yours → https://theprestige.luxe/#value
+
+    Or comment VALUE and I''ll DM you the link.
+
+
+    #LongBeachRealEstate #SouthBayHomes #HomeValue #OrangeCountyRealEstate #LARealEstate #SellingAHome'
+  facebook: 'Quick one for homeowners: if you''ve ever typed your address into a website and gotten a number that felt way off, you''re not wrong. Those estimates are built from formulas, not from the house down the street that actually closed last month.
+
+
+    I built a free home value request on my site. You send your address, I pull real closed sales within a mile of you from the last 6 months (12 months if it''s a quiet street), and within 24 hours you get your value range plus the actual comps it''s based on. I''ll also tell you what''s worth fixing and what to skip.
+
+
+    No obligation to sell. Plenty of people just want to know where they stand.
+
+
+    👉 https://theprestige.luxe/#value
+
+
+    When''s the last time you checked what your place is worth?
+
+
+    #HomeValue #SoCalRealEstate #LongBeachHomes'
+  linkedin: 'Automated valuations are a reasonable starting point and a poor finishing point. They price the formula, not the house.
+
+
+    For homeowners in LA and Orange County I now offer a free value review built on recently closed MLS sales within one mile, with the comparable sales listed so you can see the reasoning, plus a short note on which pre-sale improvements tend to pay for themselves.
+
+
+    Turnaround is 24 hours. No obligation.
+
+
+    Useful if you''re planning a 2027 move, refinancing, or settling an estate and need a defensible number.
+
+
+    https://theprestige.luxe/#value
+
+
+    #RealEstate #HomeValuation #SouthernCalifornia'
+  tiktok: 'Your home''s value comes from real closed sales, not a website guess. Get yours free at theprestige.luxe #homevalue #socalrealestate #longbeach #realestatetips #sellingahome'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-10-29/media/w1-instagram.jpg
+  facebook: queue/2026-10-29/media/w1-facebook.jpg
+  linkedin: queue/2026-10-29/media/w1-linkedin.jpg
+  tiktok: queue/2026-10-29/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: aurum
+    deco: frame
+    side: left
+    center: false
+    template: cta
+  facebook:
+    theme: slate
+    deco: frame
+    side: left
+    center: false
+    template: cta
+  linkedin:
+    theme: silver
+    deco: halo
+    side: right
+    center: false
+    template: cta
+  tiktok:
+    theme: goldrush
+    deco: frame
+    side: left
+    center: false
+    template: cta

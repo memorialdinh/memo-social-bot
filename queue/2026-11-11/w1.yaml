@@ -1,0 +1,90 @@
+id: w1
+kind: post
+track: seller_education
+topic: 'Website campaign: free home value reminder before the holidays'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: cta
+  kicker: BEFORE THE HOLIDAYS
+  headline: Know your number *before* 2027.
+  subhead: Free value from real closed sales near you.
+  points:
+  - Your value range, in 24 hours
+  - The comps behind it
+  - A plan if you decide to move
+  cta: Get my free home value
+  cta_sub: theprestige.luxe/#value
+  offer_label: What you get
+captions:
+  instagram: 'Before the holidays take over: know your home''s number.
+
+
+    Free value from real closed sales within a mile, plus the comps, in 24 hours. Use it to plan, refinance, or just stop wondering.
+
+
+    https://theprestige.luxe/#value
+
+    Comment VALUE and I''ll DM you the link.
+
+
+    #HomeValue #LongBeachRealEstate #CypressCA #RedondoBeach #ElSegundo #SellingIn2027'
+  facebook: 'The holidays are about to eat the next six weeks. If a move is anywhere on your 2027 list, here''s a 2-minute thing you can do now.
+
+
+    Get your home''s value from real closed sales near you, free, with the comps included. It lands in 24 hours. Then you can plan over the holidays with an actual number instead of a guess.
+
+
+    👉 https://theprestige.luxe/#value
+
+
+    Is a move on your 2027 list?
+
+
+    #HomeValue #SoCalRealEstate #SellingIn2027'
+  linkedin: 'Year-end is a practical time for homeowners to review their largest asset: refinancing options, estate planning, or a 2027 move.
+
+
+    A current comparable-sales valuation is the starting point for each. I provide one free for homeowners across LA and Orange County, delivered in 24 hours with the comparables listed.
+
+
+    https://theprestige.luxe/#value
+
+
+    #RealEstate #HomeValue #FinancialPlanning'
+  tiktok: 'Know your home''s number before 2027. Free value from real sales near you at theprestige.luxe #homevalue #realestatetips #sellingahome #socalrealestate'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-11/media/w1-instagram.jpg
+  facebook: queue/2026-11-11/media/w1-facebook.jpg
+  linkedin: queue/2026-11-11/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-11/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: ivory
+    deco: split
+    side: right
+    center: false
+    template: cta
+  facebook:
+    theme: noir
+    deco: arcs
+    side: left
+    center: false
+    template: cta
+  linkedin:
+    theme: porcelain
+    deco: rules
+    side: right
+    center: false
+    template: cta
+  tiktok:
+    theme: carbon
+    deco: glow
+    side: left
+    center: false
+    template: cta

@@ -1,0 +1,37 @@
+id: s5
+kind: story
+track: seller_education
+topic: 'Story for w1: checklist, should you sell in 2027'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: checklist
+  kicker: SELLERS
+  headline: Ready to *sell*? Check yours.
+  questions:
+  - You've built equity.
+  - You know where you'd go.
+  - You'd rather plan than rush.
+  score: 2+? Get *your number* free.
+  cta: theprestige.luxe/#value
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-05/media/s5-instagram.jpg
+  facebook: queue/2026-11-05/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: noir
+    deco: corners
+    side: right
+    center: false
+    template: checklist
+  facebook:
+    theme: carbon
+    deco: rules
+    side: right
+    center: false
+    template: checklist

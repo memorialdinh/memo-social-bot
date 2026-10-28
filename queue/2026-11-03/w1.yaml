@@ -1,0 +1,104 @@
+id: w1
+kind: post
+track: seller_education
+topic: 'Website campaign: quiz on what actually sets a home''s value'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: What *sets* your home's value?
+  options:
+  - What you paid for it
+  - Your neighbor's list price
+  - Recent nearby closed sales
+  answer: C
+  explain: Appraisers and buyers lean on recent closed sales near you, adjusted for size and condition.
+  cta: Comment C, then check yours free
+captions:
+  instagram: 'Pop quiz, homeowners. What sets your home''s value?
+
+
+    A) What you paid
+
+    B) Your neighbor''s list price
+
+    C) Recent nearby closed sales
+
+
+    Drop your answer 👇
+
+
+    Answer: C. List prices are hopes. Closed sales are facts. Want yours? https://theprestige.luxe/#value
+
+
+    #HomeValue #RealEstateQuiz #LongBeachRealEstate #LakewoodCA #CerritosHomes #SellingTips'
+  facebook: 'Quick quiz for homeowners. What actually sets your home''s value?
+
+
+    A) What you paid for it
+
+    B) What your neighbor is listing theirs for
+
+    C) Recent closed sales nearby
+
+
+    Comment your answer before you peek 👀
+
+
+    Answer: C. A neighbor''s list price is just an ask, and what you paid is history. Buyers and appraisers look at what similar homes nearby actually closed for, adjusted for size and condition.
+
+
+    Want to see those sales for your street? Free here: https://theprestige.luxe/#value
+
+
+    #HomeValue #RealEstateTips #SoCalHomes'
+  linkedin: 'A useful test for any homeowner considering a sale: what drives market value?
+
+
+    Not the original purchase price, and not a neighbor''s asking price. Appraisers and buyers anchor on recent closed sales of comparable properties nearby, adjusted for size, condition and features.
+
+
+    I provide that analysis free for LA and Orange County homeowners, with each comparable sale listed so the conclusion can be checked.
+
+
+    https://theprestige.luxe/#value
+
+
+    #RealEstate #Appraisal #HomeValue'
+  tiktok: 'What sets your home''s value? A, B or C. Answer in the comments. #homevalue #realestatequiz #realestatetips #socalrealestate'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-03/media/w1-instagram.jpg
+  facebook: queue/2026-11-03/media/w1-facebook.jpg
+  linkedin: queue/2026-11-03/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-03/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: porcelain
+    deco: arcs
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: slate
+    deco: arcs
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: ivory
+    deco: monogram
+    side: right
+    center: false
+    template: quiz
+  tiktok:
+    theme: silver
+    deco: dots
+    side: left
+    center: false
+    template: quiz

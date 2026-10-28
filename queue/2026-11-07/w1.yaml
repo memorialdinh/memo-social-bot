@@ -1,0 +1,109 @@
+id: w1
+kind: post
+track: seller_education
+topic: 'Website campaign: cash offer vs listing, compare real nets'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: compare
+  kicker: SELLER OPTIONS
+  headline: Cash offer or *list it*?
+  left:
+    label: Cash offer
+    points:
+    - Fastest, most certain close
+    - No showings or repairs
+    - Usually below full market value
+  right:
+    label: List it
+    points:
+    - Full buyer exposure
+    - Often a higher net
+    - Needs prep and a bit more time
+  verdict: Compare the real nets side by side. Then pick.
+  cta: 'See your options: theprestige.luxe'
+captions:
+  instagram: 'Cash offer or list it? Depends what you need more: speed or top dollar.
+
+
+    Cash: fast, certain, no repairs. Usually less than full market value.
+
+    Listing: more exposure, often a higher net. Needs time and prep.
+
+
+    I''ll put both side by side with your real net so you can pick.
+
+
+    https://theprestige.luxe/sell-my-house.html
+
+    Comment SELLER for the comparison.
+
+
+    #SellMyHouse #CashOffer #LongBeachRealEstate #InheritedHome #SouthBayHomes #SellingTips'
+  facebook: 'Inherited a property, relocating, or just want this done? A cash offer can sound like the easy answer. Sometimes it is. Sometimes it costs you more than it should.
+
+
+    Cash offer: quick, certain, no showings, no repairs. But cash buyers usually pay less than full market value.
+
+    Listing: full exposure to buyers, often a higher net. Needs some prep and a bit more time.
+
+
+    On my site you can request both: I''ll bring cash offers and show them next to what a quick as-is listing would likely net. Then you choose.
+
+
+    👉 https://theprestige.luxe/sell-my-house.html
+
+
+    What would matter more to you: speed or price?
+
+
+    #SellMyHouse #SoCalRealEstate #CashOffer'
+  linkedin: 'For sellers facing a deadline (an estate, a relocation, deferred repairs) the decision between a cash offer and a listing deserves a side-by-side net comparison rather than a default.
+
+
+    Cash offers trade price for speed and certainty. A well-priced as-is listing marketed to both investors and owner-occupants often nets more with a modestly longer timeline.
+
+
+    I prepare both comparisons at no cost so the seller can decide with the numbers in front of them.
+
+
+    https://theprestige.luxe/sell-my-house.html
+
+
+    #RealEstate #ProbateRealEstate #HomeSelling'
+  tiktok: 'Cash offer or list it? Compare the real nets before you pick. theprestige.luxe #sellmyhouse #cashoffer #realestatetips #socalrealestate'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-07/media/w1-instagram.jpg
+  facebook: queue/2026-11-07/media/w1-facebook.jpg
+  linkedin: queue/2026-11-07/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-07/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: silver
+    deco: monogram
+    side: right
+    center: false
+    template: compare
+  facebook:
+    theme: aurum
+    deco: dots
+    side: right
+    center: false
+    template: compare
+  linkedin:
+    theme: porcelain
+    deco: arcs
+    side: right
+    center: false
+    template: compare
+  tiktok:
+    theme: ivory
+    deco: monogram
+    side: left
+    center: false
+    template: compare

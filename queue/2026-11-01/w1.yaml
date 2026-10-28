@@ -1,0 +1,109 @@
+id: w1
+kind: post
+track: seller_education
+topic: 'Website campaign: how the free home value request works, step by step'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: process
+  kicker: HOW IT WORKS
+  headline: Your home value in *24 hours*.
+  steps:
+  - title: Send your address
+    detail: Beds, baths and size help. Takes a minute.
+  - title: I pull closed sales
+    detail: Within 1 mile, last 6 months. Wider if your street is quiet.
+  - title: You get the range
+    detail: Value range plus every comp it's based on.
+  - title: Your call
+    detail: Questions? A 15-minute call. Not ready? That's fine.
+  cta: Start at theprestige.luxe/#value
+captions:
+  instagram: 'Here''s exactly what happens when you ask me what your home is worth:
+
+
+    1. You send your address (a minute, tops)
+
+    2. I pull real closed sales within a mile from the last 6 months
+
+    3. Within 24 hours you get a value range plus the comps
+
+    4. You decide what''s next. Nothing is a fine answer.
+
+
+    https://theprestige.luxe/#value
+
+    Comment VALUE and I''ll send the link.
+
+
+    #HomeValue #LongBeachHomes #TorranceRealEstate #GardenaRealEstate #SouthBayRealEstate #SellYourHome'
+  facebook: 'People ask me what happens after they request a home value. Fair question. Nobody wants to fill out a form and get 12 calls.
+
+
+    Here''s the whole process:
+
+    1. You enter your address on my site.
+
+    2. I pull MLS closed sales within a mile from the last 6 months.
+
+    3. Within 24 hours you get your range and the actual comps: address, price, size, price per foot, sale date.
+
+    4. You decide. Questions get a quick call. If you''re just curious, that''s it.
+
+
+    👉 https://theprestige.luxe/#value
+
+
+    Anything you''d want to see in a home value report that usually isn''t there?
+
+
+    #HomeValue #SoCalRealEstate #SellingAHome'
+  linkedin: 'Transparency in a valuation matters more than the number itself. If the comparable sales aren''t shown, the figure can''t be evaluated.
+
+
+    My free home value requests follow a set process: closed MLS sales within one mile over the last six months (widened to twelve where sales are thin), delivered within 24 hours with each comparable listed by address, price, size, price per square foot and sale date.
+
+
+    No obligation attached.
+
+
+    https://theprestige.luxe/#value
+
+
+    #RealEstate #HomeValuation #LosAngeles'
+  tiktok: 'What actually happens when you ask what your home is worth. 4 steps, 24 hours. theprestige.luxe #homevalue #realestatetips #sellingahome #socalrealestate'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-01/media/w1-instagram.jpg
+  facebook: queue/2026-11-01/media/w1-facebook.jpg
+  linkedin: queue/2026-11-01/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-01/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: slate
+    deco: dots
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: ivory
+    deco: beam
+    side: right
+    center: false
+    template: process
+  linkedin:
+    theme: noir
+    deco: corners
+    side: right
+    center: false
+    template: process
+  tiktok:
+    theme: carbon
+    deco: dots
+    side: left
+    center: false
+    template: process

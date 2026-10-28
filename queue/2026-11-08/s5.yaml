@@ -1,0 +1,37 @@
+id: s5
+kind: story
+track: buyer_education
+topic: 'Story for w1: save your home search and get matching alerts'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: checklist
+  kicker: BUYERS
+  headline: Still *refreshing* listing apps?
+  questions:
+  - You check listings most nights.
+  - You've missed one that sold fast.
+  - You know your area and price.
+  score: 2+? *Save your search* once.
+  cta: 'Save it: theprestige.luxe'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-08/media/s5-instagram.jpg
+  facebook: queue/2026-11-08/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: ivory
+    deco: frame
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: graphite
+    deco: corners
+    side: right
+    center: false
+    template: checklist

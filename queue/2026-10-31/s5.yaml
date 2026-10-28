@@ -1,0 +1,38 @@
+id: s5
+kind: story
+track: buyer_education
+topic: 'Story for w1: 16 free buyer and seller reports'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Which report do you need *most*?
+  options:
+  - My real monthly number
+  - How offers win
+  - Pricing my home right
+  answer: A
+  reveal: false
+  cta: 'All 16 free: theprestige.luxe/reports'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-10-31/media/s5-instagram.jpg
+  facebook: queue/2026-10-31/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: carbon
+    deco: monogram
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: aurum
+    deco: grid
+    side: left
+    center: false
+    template: quiz

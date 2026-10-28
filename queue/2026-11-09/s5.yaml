@@ -1,0 +1,39 @@
+id: s5
+kind: story
+track: agent_attraction
+topic: 'Story for w1: joinmemo team comparison for team leaders'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: TEAM LEADERS
+  headline: How big is *your team*?
+  options:
+  - Just me
+  - 2 to 5 agents
+  - 6 or more
+  answer: A
+  reveal: false
+  cta: 'Team calculator: joinmemo.netlify.app'
+sources:
+- https://joinmemo.netlify.app
+- https://ica.epiquerealty.com
+status: {}
+media:
+  instagram: queue/2026-11-09/media/s5-instagram.jpg
+  facebook: queue/2026-11-09/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: goldrush
+    deco: dots
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: silver
+    deco: rules
+    side: left
+    center: false
+    template: quiz

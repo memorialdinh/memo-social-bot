@@ -1,0 +1,39 @@
+id: s5
+kind: story
+track: seller_education
+topic: 'Story for w1: quiz on what actually sets a home''s value'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: What *sets* your home's value?
+  options:
+  - What you paid
+  - Neighbor's list price
+  - Nearby closed sales
+  answer: C
+  explain: Recent closed sales nearby. Check yours free.
+  reveal: true
+  cta: theprestige.luxe/#value
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-03/media/s5-instagram.jpg
+  facebook: queue/2026-11-03/media/s5-facebook.jpg
+schedule: {}
+rendered:
+  instagram:
+    theme: aurum
+    deco: dots
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: silver
+    deco: halo
+    side: left
+    center: false
+    template: quiz

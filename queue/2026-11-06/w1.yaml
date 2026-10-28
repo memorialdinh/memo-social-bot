@@ -1,0 +1,89 @@
+id: w1
+kind: post
+track: market_update
+topic: 'Website campaign: city-by-city housing market pages'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: tip
+  kicker: MARKET DATA
+  headline: Your city's market, *on one page*.
+  subhead: Free market pages for 250+ California cities.
+  points:
+  - Typical home values and rents
+  - How they've moved over the year
+  - Every number linked to its source
+  - Updated twice a month
+  cta: 'Find your city: theprestige.luxe'
+captions:
+  instagram: 'Want your city''s numbers without the noise?
+
+
+    I put free market pages on my site for 250+ California cities: typical values, rents and how they''ve moved, with every number sourced and dated. Updated twice a month.
+
+
+    Find yours → https://theprestige.luxe/housing-market.html
+
+    Comment VALUE if you want your own home''s number too.
+
+
+    #LongBeachRealEstate #TorranceCA #GardenaCA #OrangeCountyRealEstate #HousingMarket #SoCalRealEstate'
+  facebook: 'What''s actually happening with home prices in your city? Not the state, not the nation. Your city.
+
+
+    I built free market pages for 250+ California cities on my website. Each one shows typical home values and rents, how they''ve changed over the year, and where every number comes from. They update twice a month.
+
+
+    👉 https://theprestige.luxe/housing-market.html
+
+
+    Which city should I break down in a post next?
+
+
+    #HousingMarket #SoCalRealEstate #RealEstateData'
+  linkedin: 'Statewide housing headlines rarely describe any one city accurately.
+
+
+    I publish free city-level market pages for 250+ California cities, covering typical home values, rents and year-over-year change, with each figure sourced and dated. They refresh twice monthly and are open to anyone, including agents who want local data to share with clients.
+
+
+    https://theprestige.luxe/housing-market.html
+
+
+    #HousingMarket #RealEstate #California'
+  tiktok: 'Your city''s home values and rents on one page, 250+ CA cities. theprestige.luxe #housingmarket #socalrealestate #realestatedata #california'
+sources:
+- https://theprestige.luxe/housing-market.html
+status: {}
+media:
+  instagram: queue/2026-11-06/media/w1-instagram.jpg
+  facebook: queue/2026-11-06/media/w1-facebook.jpg
+  linkedin: queue/2026-11-06/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-06/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: ivory
+    deco: arcs
+    side: left
+    center: false
+    template: tip
+  facebook:
+    theme: graphite
+    deco: monogram
+    side: right
+    center: false
+    template: tip
+  linkedin:
+    theme: goldrush
+    deco: monogram
+    side: right
+    center: false
+    template: tip
+  tiktok:
+    theme: carbon
+    deco: beam
+    side: left
+    center: false
+    template: tip

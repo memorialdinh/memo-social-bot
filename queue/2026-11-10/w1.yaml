@@ -1,0 +1,92 @@
+id: w1
+kind: post
+track: investment
+topic: 'Website campaign: investment calculator and investor deal alerts'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: tip
+  kicker: INVESTORS
+  headline: Run the deal *before* you tour it.
+  subhead: Two free investor tools on my site.
+  points:
+  - 'Investment calculator: cash flow and 5-year view'
+  - Deal alerts filtered to your own numbers
+  - Rentals, 2-4 units and 1031 buyers
+  cta: DM 'INVEST' for the worksheet
+captions:
+  instagram: 'Investors: don''t fall for a property before the math does.
+
+
+    Two free tools on my site:
+
+    → Investment calculator: cash flow, returns, 5-year view
+
+    → Deal alerts filtered to your numbers
+
+
+    https://theprestige.luxe/investment-calculator.html
+
+    DM me INVEST and I''ll send the worksheet.
+
+
+    #RealEstateInvesting #LongBeachInvestor #RentalProperty #CashFlow #SoCalInvestor #MultiFamily'
+  facebook: 'For anyone looking at rentals or 2-4 units: the listing photos will make you want it. The numbers decide if you should.
+
+
+    I put two free tools on my site. The investment calculator runs cash flow and a 5-year view on any property. The investor deal alerts send you properties that fit the numbers you set, so you only see what''s worth a look.
+
+
+    👉 https://theprestige.luxe/investment-calculator.html
+
+
+    What''s your target: cash flow now or appreciation later?
+
+
+    #RealEstateInvesting #RentalProperty #SoCalRealEstate'
+  linkedin: 'Investment property decisions should start with underwriting, not a showing.
+
+
+    I offer two free tools for investors in Southern California: a calculator covering cash flow and a five-year projection, and deal alerts filtered to each investor''s own return criteria. Outputs are estimates and not investment advice.
+
+
+    https://theprestige.luxe/investment-calculator.html
+
+
+    #RealEstateInvesting #CommercialRealEstate #CashFlow'
+  tiktok: 'Run the numbers before you tour the property. Free investor calculator at theprestige.luxe #realestateinvesting #cashflow #rentalproperty #socal'
+sources:
+- https://theprestige.luxe
+status: {}
+media:
+  instagram: queue/2026-11-10/media/w1-instagram.jpg
+  facebook: queue/2026-11-10/media/w1-facebook.jpg
+  linkedin: queue/2026-11-10/media/w1-linkedin.jpg
+  tiktok: queue/2026-11-10/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: noir
+    deco: beam
+    side: right
+    center: false
+    template: tip
+  facebook:
+    theme: porcelain
+    deco: halo
+    side: left
+    center: false
+    template: tip
+  linkedin:
+    theme: silver
+    deco: grid
+    side: left
+    center: false
+    template: tip
+  tiktok:
+    theme: graphite
+    deco: monogram
+    side: left
+    center: false
+    template: tip

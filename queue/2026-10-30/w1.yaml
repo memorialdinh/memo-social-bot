@@ -1,0 +1,102 @@
+id: w1
+kind: post
+track: agent_attraction
+topic: 'Website campaign: joinmemo brokerage comparison calculator'
+time: auto
+approved: true
+campaign: website-push-2026-11
+design:
+  template: spotlight
+  kicker: EPIQUE SPOTLIGHT
+  series_no: 1
+  headline: Run *your* numbers, not my pitch.
+  subhead: A free brokerage comparison on my agent site.
+  points:
+  - Enter your current split, cap and fees
+  - See company dollars side by side with Epique
+  - No sign-up needed to use it
+  cta: Run it at joinmemo.netlify.app
+captions:
+  instagram: 'Agents: stop guessing what your brokerage costs you.
+
+
+    I built a calculator on my agent site. Plug in your current split, cap, monthly fees and a typical year. It shows what you pay in company dollars there vs at Epique, side by side.
+
+
+    Your numbers. Your call. No sign-up to use it.
+
+
+    https://joinmemo.netlify.app/#compare
+
+    DM me MATH if you want me to walk through it with you.
+
+
+    #RealEstateAgent #RealtorLife #RealEstateCareer #EpiqueRealty #AgentTips'
+  facebook: 'Agents, honest question: do you know exactly what your brokerage cost you last year? Split, cap, desk fees, transaction fees, all of it?
+
+
+    Most people I talk to have a rough idea. Rough ideas are how good agents overpay for years.
+
+
+    So I put a free comparison calculator on my agent site. You enter your current terms and a typical year, and it lays out what you''d pay in company dollars at your brokerage next to Epique''s published terms. No email required to use it.
+
+
+    If Epique doesn''t come out ahead for you, that''s a fine answer too. At least you''ll know.
+
+
+    👉 https://joinmemo.netlify.app/#compare
+
+
+    What''s the one fee you wish you''d asked about before you signed?
+
+
+    #RealEstateAgent #EpiqueRealty #RealtorLife'
+  linkedin: 'Brokerage decisions are often made on the headline split. The total annual cost is the better measure: split up to the cap, monthly fees, per-transaction fees and anything else on the statement.
+
+
+    I published a free calculator that compares an agent''s current brokerage terms against Epique Realty''s terms from its Independent Contractor Agreement, side by side, for the agent''s own production. It''s an estimate, not a promise of earnings, and it excludes referral fees, dues and taxes.
+
+
+    If you lead a team, there''s a version for the whole group as well.
+
+
+    https://joinmemo.netlify.app/#compare
+
+
+    #RealEstate #RealEstateAgents #Brokerage'
+  tiktok: 'Agents: plug in your split, cap and fees and see the real yearly cost side by side. joinmemo.netlify.app #realestateagent #realtorlife #realestatecareer #epiquerealty'
+sources:
+- https://joinmemo.netlify.app
+- https://ica.epiquerealty.com
+status: {}
+media:
+  instagram: queue/2026-10-30/media/w1-instagram.jpg
+  facebook: queue/2026-10-30/media/w1-facebook.jpg
+  linkedin: queue/2026-10-30/media/w1-linkedin.jpg
+  tiktok: queue/2026-10-30/media/w1-tiktok.mp4
+schedule: {}
+rendered:
+  instagram:
+    theme: ivory
+    deco: halo
+    side: left
+    center: false
+    template: spotlight
+  facebook:
+    theme: noir
+    deco: split
+    side: left
+    center: false
+    template: spotlight
+  linkedin:
+    theme: slate
+    deco: arcs
+    side: left
+    center: false
+    template: spotlight
+  tiktok:
+    theme: porcelain
+    deco: glow
+    side: left
+    center: false
+    template: spotlight
