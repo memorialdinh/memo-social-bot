@@ -119,6 +119,11 @@ def redfin(path, wanted_cities):
         out.setdefault(city, []).append(rec)
     return out
 
+# ZIPs whose USPS postal name is a neighboring city but that cover a whole city of their own
+ZIP_CITY = {"92880": "Eastvale", "92587": "Canyon Lake"}
+# Realtor.com postal names spelled differently from the Zillow place name
+ZIP_NAME_ALIAS = {"whitewater": "White Water"}
+
 def realtor_zip(path, wanted_cities):
     """Realtor.com monthly inventory by ZIP, grouped by the ZIP's postal city ("long beach, ca")."""
     out = {}
@@ -128,11 +133,15 @@ def realtor_zip(path, wanted_cities):
         for r in rd:
             zn = (r.get("zip_name") or "").strip().lower()
             if not zn.endswith(", ca"): continue
-            city = low.get(zn[:-4].strip())
+            pc = (r.get("postal_code") or "").zfill(5)
+            city = ZIP_CITY.get(pc) or ZIP_NAME_ALIAS.get(zn[:-4].strip()) or low.get(zn[:-4].strip())
+            if city not in wanted_cities: continue
             if not city: continue
-            if (r.get("quality_flag") or "0").strip() not in ("0", "", "0.0"): continue
-            g = lambda k: fnum(r.get(k))
-            out.setdefault(city, []).append({
+            # quality_flag=1: Realtor.com says this ZIP's year-over-year change is unreliable (source or method change).
+            # Keep the current-month figures, drop only the year-over-year comparisons.
+            flagged = (r.get("quality_flag") or "0").strip() not in ("0", "", "0.0")
+            g = lambda k: None if flagged and k.endswith("_yy") else fnum(r.get(k))
+            out.setdefault(city, []).append({"q": flagged,
                 "zip": (r.get("postal_code") or "").zfill(5), "month": r.get("month_date_yyyymm"),
                 "median_listing_price": g("median_listing_price"), "median_listing_price_yy": g("median_listing_price_yy"),
                 "active": g("active_listing_count"), "active_yy": g("active_listing_count_yy"),
@@ -145,11 +154,14 @@ def realtor_zip(path, wanted_cities):
         act = sum(z["active"] or 0 for z in zs)
         def tot(k): return sum(z[k] or 0 for z in zs)
         # last year's active count from each ZIP's own year-over-year change (exact sum)
-        prev = sum((z["active"] or 0) / (1 + z["active_yy"]) for z in zs if z["active"] and z["active_yy"] is not None and z["active_yy"] > -1)
+        # (only over ZIPs with a reliable comparison, so a flagged ZIP never skews the city's change)
+        cmp = [z for z in zs if z["active"] and z["active_yy"] is not None and z["active_yy"] > -1]
+        prev = sum(z["active"] / (1 + z["active_yy"]) for z in cmp)
+        act_cmp = sum(z["active"] for z in cmp)
         res[city] = {"month": zs[0]["month"], "zip_count": len(zs), "active": round(act), "new": round(tot("new")),
                      "pending": round(tot("pending")), "price_reduced": round(tot("price_reduced")),
                      "price_reduced_share": round(tot("price_reduced") / act * 100, 1) if act else None,
-                     "active_yoy_pct": round((act / prev - 1) * 100, 1) if prev else None, "zips": zs}
+                     "active_yoy_pct": round((act_cmp / prev - 1) * 100, 1) if prev and act_cmp >= act / 2 else None, "zips": zs}
     return res
 
 # ---------- U.S. Census Bureau, American Community Survey (keyless summary files on www2.census.gov) ----------
