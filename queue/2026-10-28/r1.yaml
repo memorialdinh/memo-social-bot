@@ -103,7 +103,11 @@ captions:
 
 
     #realestatehumor #homebuying #realtorlife #househunting #realestatetips'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18113315215893588'
+    at: '2026-10-28T10:04:41-07:00'
 media:
   instagram: queue/2026-10-28/media/r1-instagram.mp4
   facebook: queue/2026-10-28/media/r1-facebook.mp4

@@ -109,7 +109,15 @@ captions:
 
 
     #condobuying #hoa #firsttimehomebuyer #realestatetips #buyertips'
-status: {}
+status:
+  facebook:
+    state: posted
+    id: '2193698524855817'
+    at: '2026-10-28T10:04:46-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7521255686714916864
+    at: '2026-10-28T10:04:54-07:00'
 media:
   instagram: queue/2026-10-28/media/r3-instagram.mp4
   facebook: queue/2026-10-28/media/r3-facebook.mp4
