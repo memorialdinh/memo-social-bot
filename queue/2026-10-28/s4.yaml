@@ -8,3 +8,19 @@ design:
   kicker: BUYER TIP
   headline: The *minutes* tell you the most.
   cta: Four HOA docs to read first
+status: {}
+media:
+  instagram: queue/2026-10-28/media/s4-instagram.jpg
+  facebook: queue/2026-10-28/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-10-28T13:06-07:00
+  instagram: 2026-10-28T21:10-07:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: stripe
+    template: tip
+  facebook:
+    theme: silver
+    deco: frame
+    template: tip

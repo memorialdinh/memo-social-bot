@@ -8,3 +8,19 @@ design:
   kicker: SELLER TIP
   headline: Accepted an offer. *Now what?*
   cta: The 30 days, week by week
+status: {}
+media:
+  instagram: queue/2026-10-28/media/s3-instagram.jpg
+  facebook: queue/2026-10-28/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-10-28T12:04-07:00
+  instagram: 2026-10-28T13:09-07:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: arcs
+    template: tip
+  facebook:
+    theme: noir
+    deco: glow
+    template: tip
