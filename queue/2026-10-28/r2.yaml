@@ -103,7 +103,11 @@ captions:
 
 
     #homeselling #sellingyourhome #escrow #realestatetips #sellertips'
-status: {}
+status:
+  facebook:
+    state: posted
+    id: '1495972632353506'
+    at: '2026-10-28T08:13:07-07:00'
 media:
   instagram: queue/2026-10-28/media/r2-instagram.mp4
   facebook: queue/2026-10-28/media/r2-facebook.mp4

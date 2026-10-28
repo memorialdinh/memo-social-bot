@@ -10,7 +10,11 @@ design:
   cta: Sept 2026, C.A.R. DM 'VALUE' for yours
 sources:
 - https://www.mtdemocrat.com/home_source/california-home-sales-pull-back-in-september/article_0c82f1eb-a261-4e5b-a992-2d8b0f081120.html
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18037228334846782'
+    at: '2026-10-28T08:13:12-07:00'
 media:
   instagram: queue/2026-10-28/media/s5-instagram.jpg
   facebook: queue/2026-10-28/media/s5-facebook.jpg
