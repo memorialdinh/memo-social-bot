@@ -538,11 +538,16 @@ def medallion(path: Path | None, size: int, th: Theme) -> Image.Image:
     person = Image.new("RGBA", (S, H), (0, 0, 0, 0))
     mask = Image.new("L", (S, H), 0)
     if cut:
-        pw = int(S * 1.22)
+        pw = int(S * 1.16)
         pim = im.resize((pw, int(im.height * pw / im.width)), Image.LANCZOS)
         person.paste(pim, ((S - pw) // 2, H - pim.height), pim)
         mask.paste(cmask, (0, top))
-        ImageDraw.Draw(mask).rectangle((0, 0, S, top + int(S * 0.30)), fill=255)   # head may break the ring
+        # only the head rises above the ring: a soft-edged column over the centre,
+        # so shoulders and arms always stay inside the circle
+        col = Image.new("L", (S, H), 0)
+        ImageDraw.Draw(col).rounded_rectangle((int(S * 0.27), 0, int(S * 0.73), top + int(S * 0.22)),
+                                              radius=int(S * 0.2), fill=255)
+        mask = ImageChops.lighter(mask, col)
     else:
         inner = S - 12
         pim = ImageOps.fit(im, (inner, inner), centering=(0.5, 0.3))
@@ -551,6 +556,16 @@ def medallion(path: Path | None, size: int, th: Theme) -> Image.Image:
     pa = person.getchannel("A")
     person.putalpha(ImageChops.multiply(pa, mask))
     out.alpha_composite(person)
+    # the ring sits in FRONT of the shoulders (so it reads as a full circle) and
+    # BEHIND the head only, where the head rises over the top of it
+    ring_img = Image.new("RGBA", (S, H), (0, 0, 0, 0))
+    ring_img.alpha_composite(shape(S, S, ring), (0, top))
+    if cut:
+        head = Image.new("L", (S, H), 0)
+        head.paste(person.getchannel("A").crop((0, 0, S, top + int(S * 0.22))), (0, 0))
+        keep = ImageChops.invert(head.point(lambda v: 255 if v > 40 else 0))
+        ring_img.putalpha(ImageChops.multiply(ring_img.getchannel("A"), keep))
+    out.alpha_composite(ring_img)
     return out
 
 
