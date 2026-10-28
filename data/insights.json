@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-27T19:22-07:00",
+  "updated": "2026-10-28T07:29-07:00",
   "scores": {
     "track:untagged": {
       "posts": 89,
-      "avg_rate": 0.0331,
-      "avg_eng": 5.4,
+      "avg_rate": 0.0341,
+      "avg_eng": 5.5,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0007
     },
@@ -16,30 +16,30 @@
       "avg_share_rate": 0.0014
     },
     "platform:instagram": {
-      "posts": 93,
-      "avg_rate": 0.0324,
+      "posts": 96,
+      "avg_rate": 0.0323,
       "avg_eng": 5.2,
       "avg_save_rate": 0.0003,
-      "avg_share_rate": 0.0007
+      "avg_share_rate": 0.0006
     },
     "kind:post": {
-      "posts": 58,
-      "avg_rate": 0.0223,
-      "avg_eng": 3.3,
+      "posts": 61,
+      "avg_rate": 0.0216,
+      "avg_eng": 3.2,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0
     },
     "platform:facebook": {
-      "posts": 29,
-      "avg_rate": 0.0031,
+      "posts": 30,
+      "avg_rate": 0.003,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "kind:story": {
-      "posts": 21,
-      "avg_rate": 0.0115,
-      "avg_eng": 0.2,
+      "posts": 22,
+      "avg_rate": 0.014,
+      "avg_eng": 0.3,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
@@ -51,15 +51,15 @@
       "avg_share_rate": 0.0
     },
     "track:market_update": {
-      "posts": 5,
-      "avg_rate": 0.008,
-      "avg_eng": 0.2,
+      "posts": 7,
+      "avg_rate": 0.0055,
+      "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:tip": {
-      "posts": 18,
-      "avg_rate": 0.0044,
+      "posts": 19,
+      "avg_rate": 0.0041,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -79,9 +79,9 @@
       "avg_share_rate": 0.0
     },
     "theme:graphite": {
-      "posts": 6,
-      "avg_rate": 0.0033,
-      "avg_eng": 0.2,
+      "posts": 7,
+      "avg_rate": 0.0029,
+      "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
@@ -94,13 +94,13 @@
     },
     "theme:goldrush": {
       "posts": 7,
-      "avg_rate": 0.0087,
+      "avg_rate": 0.0085,
       "avg_eng": 0.3,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:stat": {
-      "posts": 6,
+      "posts": 7,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -114,8 +114,8 @@
       "avg_share_rate": 0.0
     },
     "theme:silver": {
-      "posts": 7,
-      "avg_rate": 0.0084,
+      "posts": 10,
+      "avg_rate": 0.0059,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -136,20 +136,20 @@
     },
     "template:myth": {
       "posts": 3,
-      "avg_rate": 0.0203,
+      "avg_rate": 0.0198,
       "avg_eng": 0.7,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:motivation": {
-      "posts": 4,
-      "avg_rate": 0.0147,
+      "posts": 6,
+      "avg_rate": 0.0098,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:quote": {
-      "posts": 2,
+      "posts": 4,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -178,24 +178,25 @@
     }
   },
   "directives": [
-    "Write an extra Untagged piece and one fewer Investor Math piece. Untagged earns 3.3% vs 0.0% over the last 60 days (89 vs 4 posts).",
+    "Write an extra Untagged piece and one fewer Investor Math piece. Untagged earns 3.4% vs 0.0% over the last 60 days (89 vs 4 posts).",
     "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 3.6% against 2.2% for static posts.",
-    "Untagged gets saved the most (0.03% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison."
+    "Untagged gets saved the most (0.03% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
+    "Stop using the 'quote' template for now \u2014 it runs at 0.0% against 'tip' at 0.4%."
   ],
   "tips": [
     "Best-performing look: goldrush (0.9%). Weakest: noir (0.0%).",
-    "Not enough data yet to judge: template:meme, template:myth, template:quote, track:agent_attraction, track:community, track:humor, track:local_spotlight (fewer than 4 posts each). Keep writing them so they can be measured."
+    "Not enough data yet to judge: template:meme, template:myth, track:agent_attraction, track:community, track:humor, track:local_spotlight (fewer than 4 posts each). Keep writing them so they can be measured."
   ],
   "followers": {
     "instagram": {
       "first": 817,
-      "latest": 816,
-      "change": -1
+      "latest": 817,
+      "change": 0
     },
     "facebook": {
       "first": 217,
-      "latest": 258,
-      "change": 41
+      "latest": 262,
+      "change": 45
     }
   },
   "note": "directives are mandatory for the content writer; tips are advisory",
