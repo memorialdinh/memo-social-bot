@@ -106,6 +106,10 @@ status:
     state: posted
     id: urn:li:share:7521227521191976960
     at: '2026-10-28T08:12:59-07:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1156191054074993'
+    at: '2026-10-28T12:45:03-07:00'
 media:
   instagram: queue/2026-10-28/media/p1-instagram.jpg
   facebook: queue/2026-10-28/media/p1-facebook.jpg

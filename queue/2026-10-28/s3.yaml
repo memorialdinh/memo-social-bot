@@ -8,7 +8,11 @@ design:
   kicker: SELLER TIP
   headline: Accepted an offer. *Now what?*
   cta: The 30 days, week by week
-status: {}
+status:
+  facebook:
+    state: posted
+    id: '2098693227434065'
+    at: '2026-10-28T12:45:40-07:00'
 media:
   instagram: queue/2026-10-28/media/s3-instagram.jpg
   facebook: queue/2026-10-28/media/s3-facebook.jpg
