@@ -1,0 +1,10 @@
+id: s4
+kind: story
+track: buyer_education
+topic: Teaser for r3, the HOA documents to read
+time: auto
+approved: true
+design:
+  kicker: BUYER TIP
+  headline: The *minutes* tell you the most.
+  cta: Four HOA docs to read first

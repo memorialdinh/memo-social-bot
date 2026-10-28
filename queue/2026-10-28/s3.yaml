@@ -1,0 +1,10 @@
+id: s3
+kind: story
+track: seller_education
+topic: Teaser for r2, the 30 day escrow week by week
+time: auto
+approved: true
+design:
+  kicker: SELLER TIP
+  headline: Accepted an offer. *Now what?*
+  cta: The 30 days, week by week

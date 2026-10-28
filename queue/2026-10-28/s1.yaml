@@ -1,0 +1,12 @@
+id: s1
+kind: story
+track: market_update
+topic: Teaser for p1, sales fell but prices did not
+time: auto
+approved: true
+design:
+  kicker: MARKET UPDATE
+  headline: SoCal sales *-9.1%*. Prices *+3.0%*.
+  cta: Sept 2026 vs 2025. Tap for why
+sources:
+- https://www.mtdemocrat.com/home_source/california-home-sales-pull-back-in-september/article_0c82f1eb-a261-4e5b-a992-2d8b0f081120.html

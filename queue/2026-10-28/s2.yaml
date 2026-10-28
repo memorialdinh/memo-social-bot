@@ -1,0 +1,10 @@
+id: s2
+kind: story
+track: agent_attraction
+topic: Teaser for p2, the three cap questions
+time: auto
+approved: true
+design:
+  kicker: FOR AGENTS
+  headline: Three questions about your *cap*.
+  cta: What counts, when it resets, what's after

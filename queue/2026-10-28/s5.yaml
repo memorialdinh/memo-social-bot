@@ -1,0 +1,12 @@
+id: s5
+kind: story
+track: market_update
+topic: Quick stat, share of California sales above one million dollars
+time: auto
+approved: true
+design:
+  kicker: MARKET UPDATE
+  headline: "*35.9%* of CA sales closed over $1M."
+  cta: Sept 2026, C.A.R. DM 'VALUE' for yours
+sources:
+- https://www.mtdemocrat.com/home_source/california-home-sales-pull-back-in-september/article_0c82f1eb-a261-4e5b-a992-2d8b0f081120.html
