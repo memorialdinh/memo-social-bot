@@ -104,18 +104,26 @@ schedule:
   tiktok: 2026-10-28T12:11-07:00
 rendered:
   instagram:
-    theme: ivory
-    deco: arcs
+    theme: porcelain
+    deco: frame
+    side: left
+    center: false
     template: myth
   facebook:
-    theme: graphite
-    deco: glow
+    theme: carbon
+    deco: beam
+    side: left
+    center: false
     template: myth
   linkedin:
-    theme: silver
-    deco: stripe
+    theme: aurum
+    deco: monogram
+    side: right
+    center: false
     template: myth
   tiktok:
-    theme: goldrush
-    deco: frame
+    theme: silver
+    deco: monogram
+    side: left
+    center: false
     template: myth

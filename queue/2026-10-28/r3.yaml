@@ -129,10 +129,6 @@ schedule:
   linkedin: 2026-10-28T10:02-07:00
   tiktok: 2026-10-28T10:04-07:00
 rendered:
-  instagram:
-    theme: noir
-    deco: arcs
-    template: tip
   facebook:
     theme: ivory
     deco: glow
@@ -141,7 +137,15 @@ rendered:
     theme: graphite
     deco: stripe
     template: tip
+  instagram:
+    theme: porcelain
+    deco: corners
+    side: left
+    center: false
+    template: tip
   tiktok:
-    theme: silver
-    deco: frame
+    theme: aurum
+    deco: grid
+    side: left
+    center: false
     template: tip

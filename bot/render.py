@@ -403,29 +403,34 @@ def _stamps_in(path: Path) -> tuple[str, dict]:
     return kind, rend
 
 
-def _history(item: Item, platform: str) -> list[dict]:
-    """Looks this platform already got in the same pool (feed or stories), oldest
-    first, in posting order: earlier days, then earlier items the same day."""
+def _history(item: Item, platform: str) -> tuple[list[dict], list[dict]]:
+    """Looks this platform already got in the same pool (feed or stories), as
+    (before, after): everything up to this item in posting order, and anything
+    later the same day that already has a look (a re-render mid-day)."""
     pool = _pool(item.kind)
-    out = []
+    before, after = [], []
     if not QUEUE.exists():
-        return out
+        return before, after
     first = item.day - timedelta(days=HISTORY_DAYS)
     for ddir in sorted(QUEUE.iterdir()):
         try:
             dd = date.fromisoformat(ddir.name)
         except ValueError:
             continue
-        if dd < first or dd > item.day:
+        if dd < first or dd > item.day + timedelta(days=1):
             continue
         for f in sorted(ddir.glob("*.yaml")):
             if f.resolve() == item.path.resolve():
                 continue
             kind, rend = _stamps_in(f)
             st = rend.get(platform)
-            if _pool(kind) == pool and isinstance(st, dict) and st.get("theme"):
-                out.append(st)
-    return out
+            if _pool(kind) != pool or not (isinstance(st, dict) and st.get("theme")):
+                continue
+            if dd < item.day or (dd == item.day and f.stem < item.path.stem):
+                before.append(st)
+            else:
+                after.append(st)
+    return before, after
 
 
 def _sig(st: dict) -> tuple:
@@ -443,24 +448,25 @@ def _choose_style(item: Item, platform: str, template: str) -> dict:
     sides = ("left",) if video else ("right", "left")
     cands = [(th.name, deco, side, ctr) for th in themes for deco in DECOS
              for side in sides for ctr in centers]
-    hist = _history(item, platform)
+    before, after = _history(item, platform)
+    hist = before + after
     last_used: dict = {}
-    for i, st in enumerate(hist):
+    for i, st in enumerate(before + after[::-1]):
         if st.get("side") is None:                 # stamp from before Oct 28: theme + accent only
             for c in cands:
                 if c[0] == st.get("theme") and c[1] == st.get("deco"):
                     last_used[c] = i
         else:
             last_used[_sig(st)] = i
-    prev_themes = [st.get("theme") for st in hist[-2:]]
-    prev_deco = hist[-1].get("deco") if hist else None
+    prev_themes = [st.get("theme") for st in before[-2:] + after[:2]]
+    near_decos = {st.get("deco") for st in before[-1:] + after[:1]}
     siblings = {st.get("theme") for p, st in (item.d.get("rendered") or {}).items()
                 if p != platform and isinstance(st, dict)}
     rules = [
-        lambda c: c not in last_used and c[0] not in prev_themes and c[0] not in siblings and c[1] != prev_deco,
-        lambda c: c not in last_used and c[0] not in prev_themes[-1:] and c[0] not in siblings,
-        lambda c: c not in last_used and c[0] not in prev_themes[-1:],
-        lambda c: c[0] not in prev_themes[-1:],
+        lambda c: c not in last_used and c[0] not in prev_themes and c[0] not in siblings and c[1] not in near_decos,
+        lambda c: c not in last_used and c[0] not in prev_themes and c[0] not in siblings,
+        lambda c: c not in last_used and c[0] not in prev_themes,
+        lambda c: c[0] not in prev_themes,
         lambda c: True,
     ]
     for rule in rules:

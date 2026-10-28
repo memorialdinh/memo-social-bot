@@ -17,10 +17,14 @@ schedule:
   instagram: 2026-10-28T21:10-07:00
 rendered:
   instagram:
-    theme: graphite
-    deco: stripe
+    theme: aurum
+    deco: arcs
+    side: right
+    center: false
     template: tip
   facebook:
-    theme: silver
-    deco: frame
+    theme: porcelain
+    deco: split
+    side: left
+    center: false
     template: tip

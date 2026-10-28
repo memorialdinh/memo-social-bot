@@ -124,14 +124,20 @@ rendered:
     deco: stripe
     template: meme
   facebook:
-    theme: noir
+    theme: graphite
     deco: frame
+    side: left
+    center: true
     template: meme
   linkedin:
-    theme: ivory
-    deco: grid
+    theme: slate
+    deco: split
+    side: left
+    center: true
     template: meme
   tiktok:
-    theme: graphite
-    deco: watermark
+    theme: noir
+    deco: corners
+    side: left
+    center: true
     template: meme

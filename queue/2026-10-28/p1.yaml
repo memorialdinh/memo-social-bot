@@ -121,15 +121,19 @@ rendered:
     theme: silver
     deco: grid
     template: stat
-  facebook:
-    theme: goldrush
-    deco: watermark
-    template: stat
   linkedin:
     theme: noir
     deco: arcs
     template: stat
+  facebook:
+    theme: slate
+    deco: monogram
+    side: right
+    center: true
+    template: stat
   tiktok:
-    theme: ivory
-    deco: glow
+    theme: graphite
+    deco: corners
+    side: left
+    center: true
     template: stat

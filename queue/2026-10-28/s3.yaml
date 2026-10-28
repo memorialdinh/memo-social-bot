@@ -18,9 +18,13 @@ schedule:
 rendered:
   instagram:
     theme: goldrush
-    deco: arcs
+    deco: halo
+    side: left
+    center: false
     template: tip
   facebook:
-    theme: noir
-    deco: glow
+    theme: slate
+    deco: corners
+    side: left
+    center: false
     template: tip

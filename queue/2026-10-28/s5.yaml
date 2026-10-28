@@ -27,6 +27,8 @@ rendered:
     deco: grid
     template: tip
   facebook:
-    theme: ivory
-    deco: watermark
+    theme: aurum
+    deco: corners
+    side: right
+    center: false
     template: tip
