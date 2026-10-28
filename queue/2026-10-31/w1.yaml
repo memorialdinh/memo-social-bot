@@ -75,7 +75,11 @@ media:
   facebook: queue/2026-10-31/media/w1-facebook.jpg
   linkedin: queue/2026-10-31/media/w1-linkedin.jpg
   tiktok: queue/2026-10-31/media/w1-tiktok.mp4
-schedule: {}
+schedule:
+  facebook: 2026-10-31T12:06-07:00
+  instagram: 2026-10-31T08:07-07:00
+  linkedin: 2026-10-31T08:08-07:00
+  tiktok: 2026-10-31T08:07-07:00
 rendered:
   instagram:
     theme: porcelain

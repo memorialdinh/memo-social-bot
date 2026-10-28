@@ -23,7 +23,9 @@ status: {}
 media:
   instagram: queue/2026-10-30/media/s5-instagram.jpg
   facebook: queue/2026-10-30/media/s5-facebook.jpg
-schedule: {}
+schedule:
+  facebook: 2026-10-30T07:09-07:00
+  instagram: 2026-10-30T07:02-07:00
 rendered:
   instagram:
     theme: silver

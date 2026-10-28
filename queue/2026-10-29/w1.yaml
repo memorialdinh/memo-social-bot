@@ -74,7 +74,11 @@ media:
   facebook: queue/2026-10-29/media/w1-facebook.jpg
   linkedin: queue/2026-10-29/media/w1-linkedin.jpg
   tiktok: queue/2026-10-29/media/w1-tiktok.mp4
-schedule: {}
+schedule:
+  facebook: 2026-10-29T12:07-07:00
+  instagram: 2026-10-29T09:07-07:00
+  linkedin: 2026-10-29T08:04-07:00
+  tiktok: 2026-10-29T08:10-07:00
 rendered:
   instagram:
     theme: aurum
