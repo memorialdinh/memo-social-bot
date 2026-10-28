@@ -8,7 +8,11 @@ design:
   kicker: BUYER TIP
   headline: The *minutes* tell you the most.
   cta: Four HOA docs to read first
-status: {}
+status:
+  facebook:
+    state: posted
+    id: '1830626671463898'
+    at: '2026-10-28T13:26:04-07:00'
 media:
   instagram: queue/2026-10-28/media/s4-instagram.jpg
   facebook: queue/2026-10-28/media/s4-facebook.jpg
