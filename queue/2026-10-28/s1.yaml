@@ -10,7 +10,15 @@ design:
   cta: Sept 2026 vs 2025. Tap for why
 sources:
 - https://www.mtdemocrat.com/home_source/california-home-sales-pull-back-in-september/article_0c82f1eb-a261-4e5b-a992-2d8b0f081120.html
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17876739597635184'
+    at: '2026-10-28T07:15:13-07:00'
+  facebook:
+    state: posted
+    id: '1222601973714011'
+    at: '2026-10-28T07:15:18-07:00'
 media:
   instagram: queue/2026-10-28/media/s1-instagram.jpg
   facebook: queue/2026-10-28/media/s1-facebook.jpg
