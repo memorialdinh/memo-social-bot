@@ -13,7 +13,15 @@ design:
   cta: DM 'RATES' to run both terms
 sources:
 - https://www.freddiemac.com/pmms
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18130587313837510'
+    at: '2026-10-29T07:26:09-07:00'
+  facebook:
+    state: posted
+    id: '1656625189408775'
+    at: '2026-10-29T07:26:14-07:00'
 media:
   instagram: queue/2026-10-29/media/s1-instagram.jpg
   facebook: queue/2026-10-29/media/s1-facebook.jpg
