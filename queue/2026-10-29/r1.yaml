@@ -119,7 +119,19 @@ captions:
     #ratelock #mortgagetips #firsttimehomebuyer #realestatetips #homebuying'
 sources:
 - https://www.consumerfinance.gov/ask-cfpb/whats-a-lock-in-or-a-rate-lock-en-143/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18128356433490643'
+    at: '2026-10-29T09:25:26-07:00'
+  facebook:
+    state: posted
+    id: '2026808681354386'
+    at: '2026-10-29T09:25:33-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7521608204779233280
+    at: '2026-10-29T09:25:41-07:00'
 media:
   instagram: queue/2026-10-29/media/r1-instagram.mp4
   facebook: queue/2026-10-29/media/r1-facebook.mp4
