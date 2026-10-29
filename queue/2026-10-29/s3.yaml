@@ -1,0 +1,13 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r1, what a rate lock actually does
+time: auto
+approved: true
+design:
+  kicker: BUYER TIP
+  headline: A rate lock is a *deadline*.
+  subhead: It holds your rate. It can also cost you a lower one.
+  cta: DM 'BUYER' for the lock questions
+sources:
+- https://www.consumerfinance.gov/ask-cfpb/whats-a-lock-in-or-a-rate-lock-en-143/

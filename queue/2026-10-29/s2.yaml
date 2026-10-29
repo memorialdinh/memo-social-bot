@@ -1,0 +1,13 @@
+id: s2
+kind: story
+track: agent_attraction
+topic: Teaser for p2, the Epique AI toolkit
+time: auto
+approved: true
+design:
+  kicker: FOR AGENTS
+  headline: An AI broker at *9pm* on a Saturday.
+  subhead: Contracts, policy, best next step. Included for agents.
+  cta: DM 'MATH' for the full breakdown
+sources:
+- https://joinepique.com

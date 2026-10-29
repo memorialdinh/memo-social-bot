@@ -1,0 +1,82 @@
+id: r3
+kind: reel
+track: buyer_education
+topic: How co-buyers hold title joint tenancy versus tenancy in common
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Two owners. One dies. Who *gets* the share?
+  options:
+  - The surviving co-owner
+  - The heirs of the one who died
+  - Depends how you took title
+  answer: C
+  explain: In joint tenancy the surviving joint tenant becomes the owner. As tenants in common, the deceased owner's undivided interest passes to their heirs or devisees, subject to probate. California State Board of Equalization, "Property Ownership and Deed Recording".
+  cta: DM 'BUYER' before you sign a deed
+captions:
+  instagram: |-
+    Buying with a partner, a sibling or a parent? This one line in the deed decides what happens later 📄
+
+    Answer: C. It depends how you took title.
+
+    Joint tenancy — if one owner dies, the surviving joint tenant becomes the owner, to the exclusion of the deceased owner's heirs. It typically doesn't become part of the estate subject to probate.
+
+    Tenants in common — there's no right of survivorship. That person's share passes to their heirs or devisees, subject to probate. Which can mean you now co-own your home with someone you've never met.
+
+    Neither one is "right." They're different outcomes, and you choose between them when you sign, not later.
+
+    This is general information, not legal advice. Talk to a real estate attorney or your title officer about your situation.
+
+    DM me BUYER before you sign and I'll tell you what to ask 👇
+
+    Source: CA State Board of Equalization, "Property Ownership and Deed Recording"; San Diego County Assessor-Recorder.
+
+    #HomeBuying #CoBuying #RealEstateTips #LongBeachRealEstate #SouthBayHomes #FirstTimeHomeBuyer
+  facebook: |-
+    Quick one that matters more than almost anything else on the paperwork, and takes about four words on a deed.
+
+    Two people buy a home together. One of them dies. Who gets their half?
+
+    The answer is: it depends how you took title. And most co-buyers never have that conversation.
+
+    Joint tenancy. The defining feature is the right of survivorship. If one joint tenant dies, the surviving joint tenant becomes the owner of the property, to the exclusion of the heirs or devisees of the person who died. The Board of Equalization puts it plainly: joint tenancy property can't be disposed of by will, isn't subject to intestate succession, and typically doesn't become part of the estate subject to probate.
+
+    Tenancy in common. No right of survivorship exists. The undivided interest of a deceased tenant in common passes to the beneficiaries of the estate, subject to probate, under their will or by intestate succession.
+
+    Read those two again, because the difference is the whole ballgame. In one, the co-owner keeps the house. In the other, the co-owner may end up sharing it with the other person's heirs.
+
+    That's not an argument for one over the other. Two friends investing together may genuinely want tenancy in common. A married couple may want something else entirely. The point is that it's a decision, and it gets made at signing, usually in a sentence nobody reads out loud.
+
+    General information only, not legal or tax advice. Ask a real estate attorney or your title officer what fits your situation. If you're buying with someone, ask before escrow closes, not after.
+
+    DM me BUYER and I'll tell you what to ask.
+
+    Sources: California State Board of Equalization, "Property Ownership and Deed Recording"; San Diego County Assessor-Recorder, "Real Estate Ownership and Title Information".
+
+    #HomeBuying #RealEstateTips #LongBeachRealEstate
+  linkedin: |-
+    A question that decides more than most of the contract, and gets about four words of attention on the deed.
+
+    Two people take title together. One dies. Whose asset is it?
+
+    It depends on the vesting, and the two common forms produce opposite results.
+
+    Joint tenancy carries a right of survivorship. Per the California State Board of Equalization, if one joint tenant dies, the surviving joint tenant becomes the owner to the exclusion of the heirs or devisees of the deceased — and joint tenancy property typically does not become part of the estate subject to probate.
+
+    Tenancy in common carries no right of survivorship. The undivided interest of a deceased tenant in common passes to the beneficiaries of the estate, subject to probate.
+
+    For co-investors, business partners buying a property together, and family members pooling capital, this is not a formality. It determines whether a death triggers a change of control, a probate timeline, or a co-ownership relationship with parties who were never part of the original deal.
+
+    Worth raising at the term-sheet stage rather than at signing, and worth a conversation with counsel. General information only, not legal advice.
+
+    #RealEstate #Investing #EstatePlanning
+  tiktok: |-
+    Two owners, one dies, who gets the share? Depends how you took title. Joint tenancy goes to the survivor. Tenants in common goes to heirs.
+
+    #realestatetips #homebuying #cobuying #firsttimehomebuyer #titletips
+sources:
+- https://www.boe.ca.gov/proptaxes/pdf/Ownership_DeedRecording.pdf
+- https://www.sdarcc.gov/content/arcc/home/divisions/assessor/realty-ownership-title.html
+- https://selfhelp.courts.ca.gov/probate/simple-transfer

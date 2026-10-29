@@ -1,0 +1,101 @@
+id: p1
+kind: post
+track: market_update
+topic: 30-year versus 15-year fixed and the gap between the two rates
+time: auto
+approved: true
+design:
+  template: compare
+  kicker: MARKET UPDATE
+  headline: '30-year or *15-year*: the real trade.'
+  left:
+    label: 30-year at 7.32%
+    points:
+    - Lower monthly payment, more room in the budget.
+    - More total interest across the life of the loan.
+    - A lower payment means a lower debt-to-income ratio.
+  right:
+    label: 15-year at 6.68%
+    points:
+    - A lower rate, 0.64 points under the 30-year.
+    - A much higher payment on the same loan amount.
+    - Far less total interest, and equity builds faster.
+  verdict: Survey averages for the week ending Oct 22, 2026 (Freddie Mac PMMS). The 15-year costs less in interest and more every month.
+  cta: DM 'RATES' to run both terms
+captions:
+  instagram: 'The 15-year is cheaper. It''s also harder 📊
+
+
+    Week ending Oct 22, 2026: the 30-year fixed averaged 7.32%. The 15-year averaged 6.68%. That''s a 0.64-point gap, and it''s not a rounding error.
+
+
+    The 30-year: lower payment, more breathing room, and more total interest paid over the life of the loan.
+
+
+    The 15-year: lower rate, far less interest overall, equity builds much faster — and a payment that is meaningfully higher on the same loan amount.
+
+
+    Neither is the smart one. The question is which pressure you''d rather carry: a tighter monthly budget, or more interest over time.
+
+
+    What I''d actually do: have a lender run both on your real numbers before you decide. The gap is big enough this year to be worth the conversation.
+
+
+    DM me RATES and I''ll point you to someone who''ll run both 👇
+
+
+    Source: Freddie Mac PMMS, week ending Oct 22, 2026. Not a loan offer.
+
+
+    #MortgageRates #FirstTimeHomeBuyer #HomeBuying #LongBeachRealEstate #SouthBayHomes #SoCalRealEstate'
+  facebook: 'Most buyers never actually compare the two, and this year the gap is wide enough that it''s worth ten minutes.
+
+
+    For the week ending Oct 22, 2026, the 30-year fixed averaged 7.32% and the 15-year averaged 6.68%. That''s 0.64 points of difference between two loans on the same house.
+
+
+    The 30-year case. Lower monthly payment, which means more room in your budget and a lower debt-to-income ratio when you qualify. The cost is time: you pay interest for twice as long, and the total interest over the life of the loan is substantially higher.
+
+
+    The 15-year case. You get the lower rate, you pay far less interest overall, and your equity builds much faster because more of each payment goes to principal from day one. The cost is the payment itself, which is meaningfully higher on the same loan amount — not a little higher.
+
+
+    There isn''t a correct answer here, and anyone who tells you there is doesn''t know your situation. A 15-year that leaves you with no cash reserves is a worse decision than a 30-year with a cushion. A 30-year that you could comfortably have shortened is money left on the table.
+
+
+    What I''d suggest: ask a lender to run both terms on your actual numbers, side by side, before you pick. Some people also split the difference — take the 30-year for the flexibility and pay it like a shorter loan when the year goes well. That keeps the option open instead of locking the payment in.
+
+
+    Source: Freddie Mac PMMS, week ending Oct 22, 2026. General information, not a loan offer.
+
+
+    Which one are you on, and would you choose it again?
+
+
+    #MortgageRates #HomeBuying #LongBeachRealEstate'
+  linkedin: 'The spread between the 30-year and 15-year fixed is wide enough this year to deserve more attention than it usually gets.
+
+
+    For the week ending Oct 22, 2026, the 30-year fixed averaged 7.32% and the 15-year averaged 6.68% — a 0.64-point differential on the same collateral and the same borrower.
+
+
+    The trade is straightforward and often framed badly. The 30-year buys payment flexibility and a lower debt-to-income ratio at the cost of significantly more total interest. The 15-year buys a lower rate, materially less total interest and faster principal amortisation at the cost of a substantially higher required payment.
+
+
+    The framing that holds up: the shorter term is not a better deal, it is a less flexible one. A borrower who takes a 15-year and depletes reserves has purchased a lower rate with liquidity, which is rarely a good trade. A borrower who can carry the shorter payment comfortably and takes the 30-year by default has left real interest expense on the table.
+
+
+    The practical step is to have both terms modelled on actual figures before the term is selected — and to note that a 30-year prepaid aggressively preserves optionality that a 15-year does not.
+
+
+    Source: Freddie Mac PMMS, week ending Oct 22, 2026. General information, not lending advice.
+
+
+    #MortgageRates #HousingMarket #RealEstate'
+  tiktok: '30-year averaged 7.32%, 15-year 6.68%, week ending Oct 22, 2026. The short one costs less in interest and more every single month.
+
+
+    #mortgagerates #firsttimehomebuyer #homebuying #realestatetips #mortgagetips'
+sources:
+- https://www.freddiemac.com/pmms
+status: {}

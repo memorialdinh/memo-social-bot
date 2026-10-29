@@ -1,0 +1,15 @@
+id: s1
+kind: story
+track: market_update
+topic: Teaser for p1, the gap between the 30-year and the 15-year
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: The short loan is *0.64* points cheaper.
+  stat_value: 7.32% / 6.68%
+  stat_label: 30-year and 15-year fixed survey averages, Freddie Mac PMMS, week ending Oct 22, 2026.
+  cta: DM 'RATES' to run both terms
+sources:
+- https://www.freddiemac.com/pmms

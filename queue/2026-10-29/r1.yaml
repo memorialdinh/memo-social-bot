@@ -1,0 +1,122 @@
+id: r1
+kind: reel
+track: buyer_education
+topic: How a mortgage rate lock works start to finish
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: What a rate lock *actually* does.
+  steps:
+  - when: Step 1
+    title: Before you lock
+    detail: Unlocked, your rate can change at any time.
+  - when: Step 2
+    title: You lock
+    detail: Typically 30, 45 or 60 days. Sometimes longer.
+  - when: Step 3
+    title: Rates rise
+    detail: Your rate holds, if you close inside the window.
+  - when: Step 4
+    title: Rates fall
+    detail: A lock can lock you out of the lower rate.
+  - when: Step 5
+    title: Closing slips
+    detail: Extending can be expensive. Ask the cost early.
+  cta: DM 'BUYER' for the lock questions
+captions:
+  instagram: 'A rate lock isn''t a promise. It''s a deadline 🔒
+
+
+    Here''s the whole thing, start to finish.
+
+
+    Before you lock, your rate can change at any time.
+
+
+    When you lock, your rate won''t change between the offer and closing — as long as you close inside the window and nothing on your application changes. Locks usually run 30, 45 or 60 days, sometimes longer.
+
+
+    If rates rise, that''s the win. You''re protected.
+
+
+    If rates fall, a lock can lock you out of the lower rate. That''s the trade.
+
+
+    And if closing slips past the window, extending can be expensive.
+
+
+    So the questions to ask your lender: how long is the lock, what happens if rates drop after I lock, and what does an extension cost?
+
+
+    DM me BUYER and I''ll send you the list 👇
+
+
+    Source: CFPB, "What''s a lock-in or a rate lock on a mortgage?" General information, not a loan offer.
+
+
+    #RateLock #MortgageTips #FirstTimeHomeBuyer #LongBeachRealEstate #SouthBayHomes #HomeBuying'
+  facebook: 'Rate locks get explained badly, usually as "we locked your rate" and nothing else. Here''s what''s actually happening, in order.
+
+
+    Before you lock, nothing is held. Your rate can change at any time, for any reason the market decides.
+
+
+    When you lock, your interest rate won''t change between the offer and closing — as long as you close within the specified time frame and there are no changes to your application. That last clause does real work. If your loan amount changes, or your credit score moves, or your verified income changes, a locked rate can still change. Appraisal results can affect it too.
+
+
+    Lock periods are typically 30, 45 or 60 days, and sometimes longer.
+
+
+    Now the two directions.
+
+
+    Rates rise after you lock: that''s exactly what the lock is for. You keep your number.
+
+
+    Rates fall after you lock: a lock may lock you out of the lower rate. Some lenders offer a way to adjust, some don''t. Lock policies vary by lender, which is why this is a question, not an assumption.
+
+
+    And the one that catches people: if your closing is delayed and the lock expires, extending it may be expensive. Your Loan Estimate won''t tell you what an extension costs, so you have to ask.
+
+
+    Three questions, before you lock: how long is the window, what happens if rates go down, and what does an extension cost?
+
+
+    DM me BUYER and I''ll send you the full list.
+
+
+    Anyone had a lock expire on them? How did your lender handle it?
+
+
+    Source: CFPB, "What''s a lock-in or a rate lock on a mortgage?" General information, not a loan offer.
+
+
+    #MortgageTips #HomeBuying #LongBeachRealEstate'
+  linkedin: 'Rate locks are frequently misunderstood as a fixed assurance of outcome. They are better understood as a hedge with a deadline attached.
+
+
+    The mechanics, per the CFPB: a lock means the interest rate will not change between the offer and closing, provided the borrower closes within the specified time frame and there are no changes to the application. Lock periods typically run 30, 45 or 60 days, sometimes longer.
+
+
+    The asymmetry is the part worth naming. If rates rise, the lock performs. If rates fall, a lock may lock a borrower out of the lower rate. Lock policies vary by lender, so this is a term to diligence rather than assume.
+
+
+    The operational risk is expiry. A delayed closing can push a transaction past the lock window, and extending may be expensive. Notably, the Loan Estimate does not disclose the cost of extending a lock, so the figure has to be requested directly.
+
+
+    Three questions worth asking before locking: the length of the window, the lender''s treatment of a rate decline, and the cost of an extension.
+
+
+    General information, not lending advice.
+
+
+    #Mortgage #HomeBuying #RealEstate'
+  tiktok: 'A rate lock holds your rate if you close in the window. If rates drop, it can lock you out. Extensions cost money. Ask all three.
+
+
+    #ratelock #mortgagetips #firsttimehomebuyer #realestatetips #homebuying'
+sources:
+- https://www.consumerfinance.gov/ask-cfpb/whats-a-lock-in-or-a-rate-lock-en-143/
+status: {}

@@ -1,0 +1,19 @@
+id: s4
+kind: story
+track: buyer_education
+topic: Teaser for r3, quiz on how co-buyers hold title
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Two owners. One dies. Who *gets* the share?
+  options:
+  - The surviving co-owner
+  - The heirs of the one who died
+  - Depends how you took title
+  answer: C
+  reveal: false
+  cta: DM 'BUYER' with your answer
+sources:
+- https://www.boe.ca.gov/proptaxes/pdf/Ownership_DeedRecording.pdf
