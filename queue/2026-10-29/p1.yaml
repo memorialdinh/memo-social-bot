@@ -99,3 +99,38 @@ captions:
 sources:
 - https://www.freddiemac.com/pmms
 status: {}
+media:
+  instagram: queue/2026-10-29/media/p1-instagram.jpg
+  facebook: queue/2026-10-29/media/p1-facebook.jpg
+  linkedin: queue/2026-10-29/media/p1-linkedin.jpg
+  tiktok: queue/2026-10-29/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-10-29T21:02-07:00
+  instagram: 2026-10-29T21:05-07:00
+  linkedin: 2026-10-29T12:07-07:00
+  tiktok: 2026-10-29T12:09-07:00
+rendered:
+  instagram:
+    theme: slate
+    deco: arcs
+    side: left
+    center: false
+    template: compare
+  facebook:
+    theme: porcelain
+    deco: halo
+    side: left
+    center: false
+    template: compare
+  linkedin:
+    theme: noir
+    deco: frame
+    side: left
+    center: false
+    template: compare
+  tiktok:
+    theme: ivory
+    deco: corners
+    side: left
+    center: false
+    template: compare

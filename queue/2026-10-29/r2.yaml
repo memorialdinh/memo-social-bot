@@ -90,3 +90,38 @@ captions:
     #sellertips #homeselling #pricingstrategy #realestatetips #socalrealestate'
 sources: []
 status: {}
+media:
+  instagram: queue/2026-10-29/media/r2-instagram.mp4
+  facebook: queue/2026-10-29/media/r2-facebook.mp4
+  linkedin: queue/2026-10-29/media/r2-linkedin.mp4
+  tiktok: queue/2026-10-29/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-10-29T08:05-07:00
+  instagram: 2026-10-29T12:05-07:00
+  linkedin: 2026-10-29T10:08-07:00
+  tiktok: 2026-10-29T10:06-07:00
+rendered:
+  instagram:
+    theme: noir
+    deco: dots
+    side: left
+    center: false
+    template: tip
+  facebook:
+    theme: goldrush
+    deco: beam
+    side: left
+    center: false
+    template: tip
+  linkedin:
+    theme: aurum
+    deco: glow
+    side: left
+    center: false
+    template: tip
+  tiktok:
+    theme: slate
+    deco: split
+    side: left
+    center: false
+    template: tip

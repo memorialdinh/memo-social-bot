@@ -13,3 +13,23 @@ design:
   cta: DM 'RATES' to run both terms
 sources:
 - https://www.freddiemac.com/pmms
+status: {}
+media:
+  instagram: queue/2026-10-29/media/s1-instagram.jpg
+  facebook: queue/2026-10-29/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-10-29T10:04-07:00
+  instagram: 2026-10-29T09:09-07:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: monogram
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: noir
+    deco: split
+    side: left
+    center: false
+    template: stat

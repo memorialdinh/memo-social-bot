@@ -17,3 +17,23 @@ design:
   cta: DM 'BUYER' with your answer
 sources:
 - https://www.boe.ca.gov/proptaxes/pdf/Ownership_DeedRecording.pdf
+status: {}
+media:
+  instagram: queue/2026-10-29/media/s4-instagram.jpg
+  facebook: queue/2026-10-29/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-10-29T21:06-07:00
+  instagram: 2026-10-29T21:10-07:00
+rendered:
+  instagram:
+    theme: noir
+    deco: rules
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: porcelain
+    deco: arcs
+    side: left
+    center: false
+    template: quiz

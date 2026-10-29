@@ -91,3 +91,38 @@ captions:
 sources:
 - https://joinepique.com
 status: {}
+media:
+  instagram: queue/2026-10-29/media/p2-instagram.jpg
+  facebook: queue/2026-10-29/media/p2-facebook.jpg
+  linkedin: queue/2026-10-29/media/p2-linkedin.jpg
+  tiktok: queue/2026-10-29/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-10-29T19:09-07:00
+  instagram: 2026-10-29T07:05-07:00
+  linkedin: 2026-10-29T17:06-07:00
+  tiktok: 2026-10-29T17:11-07:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: glow
+    side: right
+    center: false
+    template: spotlight
+  facebook:
+    theme: silver
+    deco: split
+    side: right
+    center: false
+    template: spotlight
+  linkedin:
+    theme: porcelain
+    deco: rules
+    side: right
+    center: false
+    template: spotlight
+  tiktok:
+    theme: graphite
+    deco: grid
+    side: left
+    center: false
+    template: spotlight

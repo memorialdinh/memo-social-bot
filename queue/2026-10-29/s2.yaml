@@ -11,3 +11,23 @@ design:
   cta: DM 'MATH' for the full breakdown
 sources:
 - https://joinepique.com
+status: {}
+media:
+  instagram: queue/2026-10-29/media/s2-instagram.jpg
+  facebook: queue/2026-10-29/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-10-29T12:10-07:00
+  instagram: 2026-10-29T10:05-07:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: rules
+    side: right
+    center: false
+    template: tip
+  facebook:
+    theme: graphite
+    deco: corners
+    side: right
+    center: false
+    template: tip
