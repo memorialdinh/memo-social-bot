@@ -22,8 +22,8 @@ media:
   instagram: queue/2026-10-29/media/s4-instagram.jpg
   facebook: queue/2026-10-29/media/s4-facebook.jpg
 schedule:
-  facebook: 2026-10-29T21:06-07:00
-  instagram: 2026-10-29T21:10-07:00
+  facebook: 2026-10-29T19:06-07:00
+  instagram: 2026-10-29T19:10-07:00
 rendered:
   instagram:
     theme: noir

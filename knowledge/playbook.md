@@ -103,8 +103,22 @@ Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. As o
 - **Instagram beats Facebook about 4×** — 4.3% vs 1.0%. *Corrected Oct 25: this file previously said
   ~2.5× (4.1% vs 1.3%). The 60-day numbers say the gap is wider than that.* Facebook is worth
   posting, not worth optimising, and not worth a second caption pass when time is short.
-- **Best hours**: Instagram ~9am and ~9pm; Facebook ~12pm and 8–9pm. Varies by weekday — the
-  schedule is learned, not fixed.
+- **Best hours — rewritten Oct 28, 2026 after a full timing audit** (`knowledge/timing-notes.md`;
+  98 Instagram posts, May–Oct). *This file previously said "Instagram ~9am and ~9pm; Facebook ~12pm
+  and 8–9pm." The Facebook half was noise on a near-zero base and is withdrawn.*
+  - **1–5pm is Instagram's worst window: 3.5 engagements/post against 6.3–8.3 everywhere else**, on
+    the lowest reach and views too. `avoid_hours` in config.yaml now keeps everything out of it.
+  - **Reels peak 9am–12pm** (8.4 eng/post). **Static posts peak 6–11pm** (13.6, n=5 — directional)
+    and are at their *worst* 9am–12pm (2.5). The two formats want different hours; config.yaml has
+    `reel_hours` and `post_hours` for this.
+  - **Facebook has no best hour.** Median reach 2 across 119 posts. Don't optimise its timing.
+  - **LinkedIn and TikTok timing is unmeasured** — 0 analytics rows each. They inherit Instagram's
+    windows as a guess. Don't claim a finding for them.
+  - **Instagram's own online-followers curve peaks 1–7pm, i.e. at the worst window.** "Post when
+    your audience is online" is wrong for this account; it used to be wired into `best_times()` and
+    was pulling posts into the afternoon. Removed.
+  - **Posts land ~28 minutes late on median, up to 91** (GitHub Actions cron). Treat the schedule as
+    hour-level precision at best.
 - **Reach is the binding constraint, not format.** Oct 19–25: 38 items published, 1,316 total reach,
   28 total engagements, and **zero saves and zero shares all week** — including the two pieces built
   to be saved (an open-house cheat sheet and a closing-costs list). Facebook that week: 15 posts, 65
@@ -129,7 +143,9 @@ Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. As o
    May 2026 in `data/posts.csv`, which predates this bot.
 2. Balance the week across audiences in section 3 — not five buyer posts in a row.
 3. Keep one meme most days and roughly two motivational pieces a week.
-4. Put anything needing fresh rates on Thursday.
+4. Put anything needing fresh rates on Thursday. **Correction, Oct 28 2026:** Scribe writes the
+   night before and Freddie Mac PMMS publishes Thursday at noon ET, so a Thursday "this morning's
+   release" row is unwritable. Put the fresh-rate piece on **Friday** instead.
 5. When the data contradicts this playbook, the data wins — and update this file to say so.
 6. **Memo's format ask (Oct 28, 2026): "more tips, education, process, questionnaire and CTA",
    in a more luxury design.** Plan every day with at least one `process` piece, one questionnaire

@@ -16,8 +16,8 @@ media:
   instagram: queue/2026-10-29/media/s3-instagram.jpg
   facebook: queue/2026-10-29/media/s3-facebook.jpg
 schedule:
-  facebook: 2026-10-29T13:08-07:00
-  instagram: 2026-10-29T13:08-07:00
+  facebook: 2026-10-29T12:08-07:00
+  instagram: 2026-10-29T12:08-07:00
 rendered:
   instagram:
     theme: ivory

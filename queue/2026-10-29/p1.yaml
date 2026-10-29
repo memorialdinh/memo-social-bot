@@ -105,10 +105,10 @@ media:
   linkedin: queue/2026-10-29/media/p1-linkedin.jpg
   tiktok: queue/2026-10-29/media/p1-tiktok.mp4
 schedule:
-  facebook: 2026-10-29T21:02-07:00
-  instagram: 2026-10-29T21:05-07:00
-  linkedin: 2026-10-29T12:07-07:00
-  tiktok: 2026-10-29T12:09-07:00
+  facebook: 2026-10-29T19:02-07:00
+  instagram: 2026-10-29T19:05-07:00
+  linkedin: 2026-10-29T19:07-07:00
+  tiktok: 2026-10-29T19:09-07:00
 rendered:
   instagram:
     theme: slate

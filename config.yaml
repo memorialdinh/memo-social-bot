@@ -79,11 +79,36 @@ require_approval_all: false
 
 schedule:
   # Used until the analytics bot has enough data to pick times for you.
-  default_feed_hours: [8, 12, 17, 19, 10]       # posts + reels, in order of preference
-  story_hours: [7, 10, 13, 16, 20]
+  default_feed_hours: [8, 19, 9, 20, 7, 21]     # posts + reels, in order of preference
+  # Reels and static posts peak in DIFFERENT windows on this account. From 98
+  # Instagram posts, May-Oct 2026 (full numbers in knowledge/timing-notes.md):
+  #   reels    9am-12pm  8.4 engagements/post (n=20)  <- best
+  #            6-11pm    5.3/post, but the highest reach of any window (241)
+  #            5-8am     5.9/post (n=21)
+  #   static   6-11pm   13.6/post (n=5 - thin, treat as directional)
+  #            5-8am     7.5/post (n=11)
+  #            9am-12pm  2.5/post (n=11)  <- worst for static
+  reel_hours: [9, 10, 11, 7, 12, 8, 21]
+  post_hours: [19, 20, 21, 7, 8, 18]
+  story_hours: [7, 10, 12, 19, 20]
+  # 1-5pm averaged 3.5 engagements/post against 6.3-8.3 in every other window,
+  # on the lowest reach and views too. Instagram's online-followers curve peaks
+  # in exactly this window, which is why "post when your audience is online"
+  # reads as wrong here. Dropped last, after the preferred hours; plan_day still
+  # falls back to the full day if a crowded day leaves nothing else.
+  avoid_hours: [13, 14, 15, 16, 17]
   earliest_hour: 7
   latest_hour: 21
-  min_gap_minutes: 90                          # between feed posts on the same platform
+  # Between feed posts on the same platform. Dropped 90 -> 60 on Oct 28 2026:
+  # with 6 feed items a day (5 + the campaign w1), a 90-minute gap left only
+  # five seats in the strong windows and pushed the sixth into 1-5pm, which
+  # costs about half its engagement. 60 opens the adjacent hours so all six
+  # land in 7am-12pm or 6-9pm. 50 rather than 60 because posts carry a :02-:11
+  # jitter, so two consecutive hours can sit only 51 minutes apart (11:11 then
+  # 12:02) - at 60 the planner rejected the next hour and fell through to the
+  # afternoon anyway. If the daily feed count ever drops back to 3-4, put this
+  # back to 90.
+  min_gap_minutes: 50
   use_best_times: true                         # let analytics pick the hours once it has data
   max_late_hours: 6                            # if a post is more than this late, skip it
 

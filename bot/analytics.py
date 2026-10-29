@@ -191,52 +191,138 @@ def _design_of(item, platform: str) -> dict:
 
 # ── learning ─────────────────────────────────────────────────
 def best_times(rows: dict) -> dict:
-    """Score each weekday×hour slot by engagement rate, shrunk toward the
-    platform average so one lucky post doesn't skew everything."""
-    K = 3
-    out = {"updated": now().isoformat(timespec="minutes"), "platforms": {}, "heatmap": {}, "samples": {}}
+    """Score each weekday x hour slot by how many people a post actually reaches
+    and how many of them engage, shrunk toward the platform average so one lucky
+    post doesn't skew everything.
+
+    Rewritten 2026-10-28 after a timing audit of 98 pre-bot Instagram posts and
+    119 Facebook posts (May-Oct 2026). Three things the old version got wrong:
+
+    1. It ranked on engagement RATE alone. Rate is engagement/reach, so an hour
+       that reaches almost nobody can top the ranking. Reach is this account's
+       binding constraint, so hours are now scored on reach per post AND
+       engagement per post, weighted 40/60.
+    1b. It resolved to the individual hour, which this volume of posting cannot
+       support - most hours hold 1-6 posts, so one good afternoon post put 2pm
+       near the top of the ranking. Scores are now driven mainly by the four
+       daypart BANDS (early/morning/afternoon/evening), which hold 14-32 posts
+       each and are the finest cut the data actually supports. The hour's own
+       number only orders hours inside a band.
+    2. It ranked every platform with 8+ posts. Facebook averaged ~2 people
+       reached across 119 posts, so its hour ranking was noise on a near-zero
+       base. A platform now needs MIN_MEDIAN_REACH before it gets a ranking at
+       all; below that, plan.py falls back to the config hours.
+    3. It blended the Instagram online-followers curve into the score (weight
+       0.2-0.5). That curve peaks 1-7pm, which measured out as this account's
+       WEAKEST window - 3.5 engagements per post against 6.3-8.3 everywhere
+       else. The blend was actively pulling posts into the worst hours. The
+       curve is still written to the payload for reference, but it no longer
+       moves the ranking.
+    """
+    K = 8                    # shrinkage toward the prior; high, because most
+                             # single hours hold only a handful of posts
+    W_ENG, W_REACH = 0.6, 0.4
+    W_BAND = 0.75            # the daypart band carries the score; the hour only
+                             # breaks ties within it
+    out = {"updated": now().isoformat(timespec="minutes"), "platforms": {}, "heatmap": {},
+           "samples": {}, "excluded": {}}
     online = read_json(DATA / "ig_online_followers.json", {}).get("hours", {})
     by_plat = defaultdict(list)
     for r in rows.values():
         if r["kind"] == "story":
             continue
         t = datetime.fromisoformat(r["posted_at"])
-        by_plat[r["platform"]].append((t.weekday(), t.hour, float(r["rate"] or 0)))
+        by_plat[r["platform"]].append((t.weekday(), t.hour, _f(r.get("engagement")), _f(r.get("reach"))))
     lo, hi = CFG["schedule"]["earliest_hour"], CFG["schedule"]["latest_hour"]
     for plat in ("instagram", "facebook", "linkedin", "tiktok"):
         data = by_plat.get(plat, [])
         out["samples"][plat] = len(data)
-        mean = sum(x[2] for x in data) / len(data) if data else 0
-        cells = defaultdict(list)
-        hours_all = defaultdict(list)
-        for wd, h, rate in data:
-            cells[(wd, h)].append(rate)
-            hours_all[h].append(rate)
-        heat = {}
-        ranked = {}
-        on_max = max((int(v) for v in online.values()), default=0) if plat == "instagram" else 0
+        if not data:
+            out["heatmap"][plat] = {str(wd): {h: 0 for h in range(lo, hi + 1)} for wd in range(7)}
+            continue
+        med_reach = median(sorted(x[3] for x in data))
+        mean_eng = sum(x[2] for x in data) / len(data)
+        mean_reach = sum(x[3] for x in data) / len(data) or 1.0
+
+        def rel(cell_vals, hour_vals, mean):
+            """Shrink an hour's mean toward the same-hour-any-day mean, then the
+            platform mean, and express it relative to the platform mean."""
+            prior = ((sum(hour_vals) + K * mean) / (len(hour_vals) + K)) if hour_vals else mean * 0.92
+            val = (sum(cell_vals) + K * prior) / (len(cell_vals) + K)
+            return (val / mean) if mean else 0.0
+
+        cells_e, cells_r = defaultdict(list), defaultdict(list)
+        hours_e, hours_r = defaultdict(list), defaultdict(list)
+        bands_e, bands_r = defaultdict(list), defaultdict(list)
+        for wd, h, e, rc in data:
+            cells_e[(wd, h)].append(e); cells_r[(wd, h)].append(rc)
+            hours_e[h].append(e); hours_r[h].append(rc)
+            bands_e[band_of(h)].append(e); bands_r[band_of(h)].append(rc)
+        band_score = {}
+        for b in set(band_of(h) for h in range(0, 24)):
+            be, br = bands_e.get(b, []), bands_r.get(b, [])
+            if not be:
+                band_score[b] = 0.92
+                continue
+            e_rel = (sum(be) / len(be)) / mean_eng if mean_eng else 0.0
+            r_rel = (sum(br) / len(br)) / mean_reach
+            band_score[b] = W_ENG * e_rel + W_REACH * r_rel
+        heat, ranked = {}, {}
         for wd in range(7):
             scores = {}
             for h in range(lo, hi + 1):
-                c = cells.get((wd, h), [])
-                hall = hours_all.get(h, [])
-                # same weekday+hour first, then same hour any day, then the overall mean
-                prior = (sum(hall) + K * mean) / (len(hall) + K) if hall else mean * 0.92  # untested hours sit just below average
-                score = (sum(c) + K * prior) / (len(c) + K) if (c or prior) else 0
-                if on_max:
-                    w = 0.5 if len(data) < 30 else 0.2
-                    norm = int(online.get(str(h), online.get(h, 0)) or 0) / on_max
-                    score = (1 - w) * (score / mean if mean else 0) + w * norm if mean else norm
-                scores[h] = round(score, 5)
+                e_rel = rel(cells_e.get((wd, h), []), hours_e.get(h, []), mean_eng)
+                r_rel = rel(cells_r.get((wd, h), []), hours_r.get(h, []), mean_reach)
+                hour_rel = W_ENG * e_rel + W_REACH * r_rel
+                scores[h] = round(W_BAND * band_score[band_of(h)] + (1 - W_BAND) * hour_rel, 5)
             heat[str(wd)] = scores
-            if len(data) >= 8 or on_max:
+            if len(data) >= 8 and med_reach >= MIN_MEDIAN_REACH:
                 ranked[str(wd)] = [h for h, _ in sorted(scores.items(), key=lambda kv: -kv[1])][:6]
         out["heatmap"][plat] = heat
         if ranked:
             out["platforms"][plat] = ranked
+        else:
+            out["excluded"][plat] = (
+                f"not ranked: {len(data)} posts, median reach {med_reach:.0f} "
+                f"(needs 8+ posts and median reach >= {MIN_MEDIAN_REACH}). "
+                "plan.py falls back to the config hours for this platform."
+            )
+    if online:
+        out["ig_online_followers"] = {
+            "hours": online,
+            "note": "reference only - NOT used in the ranking. This curve peaks 1-7pm, "
+                    "which measured as the weakest window for this account.",
+        }
     return out
 
 
+def _f(v) -> float:
+    try:
+        return float(v or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def median(xs: list) -> float:
+    if not xs:
+        return 0.0
+    n = len(xs)
+    return xs[n // 2] if n % 2 else (xs[n // 2 - 1] + xs[n // 2]) / 2
+
+
+MIN_MEDIAN_REACH = 10   # below this a platform's hour ranking is noise, not a lesson
+
+
+def band_of(h: int) -> str:
+    """Dayparts. These are the finest cut this posting volume supports: each
+    holds 14-32 posts in the May-Oct 2026 window, where single hours hold 1-6."""
+    if h < 9:
+        return "early"
+    if h < 13:
+        return "morning"
+    if h < 18:
+        return "afternoon"
+    return "evening"
 MIN_SAMPLE = 4          # below this a difference is noise, not a lesson
 
 

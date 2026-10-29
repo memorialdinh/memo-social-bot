@@ -14,20 +14,40 @@ S = CFG["schedule"]
 
 
 def ranked_hours(platform: str, weekday: int, kind: str) -> list[int]:
+    """Preferred hours for one platform/weekday/kind, best first.
+
+    Reels and static posts peak in different windows for this account (see the
+    Oct 28 2026 timing audit in knowledge/timing-notes.md), so each kind can
+    carry its own hour list in config.yaml. `avoid_hours` is dropped last;
+    plan_day() still has its own full-day fallback if nothing else fits, so a
+    crowded day degrades into an avoided hour rather than into no post at all.
+    """
     if kind == "story":
         base = list(S["story_hours"])
     else:
-        base = list(S["default_feed_hours"])
+        per_kind = S.get("reel_hours") if kind == "reel" else S.get("post_hours")
+        base = list(per_kind or S["default_feed_hours"])
     if S.get("use_best_times", True):
         bt = read_json(DATA / "best_times.json", {})
         learned = ((bt.get("platforms") or {}).get(platform) or {}).get(str(weekday))
-        if learned and kind != "story":
+        if learned and kind == "story":
+            # stories: spread across the day, nudged toward strong hours. Needs
+            # enough distinct hours to seat all 5 at the 45-minute story gap.
+            base = sorted(set(base[:4] + learned[:2]))
+        elif learned and per_kind:
+            # A per-kind list encodes the reels-vs-static finding, which the
+            # learned ranking cannot see (best_times pools both kinds). So the
+            # per-kind order wins, and the learned ranking only orders the
+            # hours it names that the list didn't. Delete reel_hours/post_hours
+            # from config.yaml to hand the ordering back to the learned data.
+            base = base + [h for h in learned if h not in base]
+        elif learned:
             base = learned + [h for h in base if h not in learned]
-        elif learned and kind == "story":
-            # stories: spread across the day, nudged toward strong hours
-            base = sorted(set(base[:3] + learned[:2]))
     lo, hi = S["earliest_hour"], S["latest_hour"]
-    return [h for h in base if lo <= h <= hi]
+    hours = [h for h in base if lo <= h <= hi]
+    avoid = set(S.get("avoid_hours") or [])
+    kept = [h for h in hours if h not in avoid]
+    return kept or hours
 
 
 def plan_day(items: list[Item]) -> int:

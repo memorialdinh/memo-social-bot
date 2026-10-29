@@ -97,10 +97,10 @@ media:
   linkedin: queue/2026-10-29/media/p2-linkedin.jpg
   tiktok: queue/2026-10-29/media/p2-tiktok.mp4
 schedule:
-  facebook: 2026-10-29T19:09-07:00
-  instagram: 2026-10-29T07:05-07:00
-  linkedin: 2026-10-29T17:06-07:00
-  tiktok: 2026-10-29T17:11-07:00
+  facebook: 2026-10-29T20:09-07:00
+  instagram: 2026-10-29T20:05-07:00
+  linkedin: 2026-10-29T20:06-07:00
+  tiktok: 2026-10-29T20:11-07:00
 rendered:
   instagram:
     theme: goldrush

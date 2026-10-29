@@ -18,8 +18,8 @@ media:
   instagram: queue/2026-10-29/media/s1-instagram.jpg
   facebook: queue/2026-10-29/media/s1-facebook.jpg
 schedule:
-  facebook: 2026-10-29T10:04-07:00
-  instagram: 2026-10-29T09:09-07:00
+  facebook: 2026-10-29T07:04-07:00
+  instagram: 2026-10-29T07:09-07:00
 rendered:
   instagram:
     theme: porcelain
