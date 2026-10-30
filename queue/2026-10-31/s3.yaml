@@ -1,0 +1,16 @@
+id: s3
+kind: story
+track: investment
+topic: Teaser for r1, special assessments are not based on value
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: The tax line that *ignores* your value.
+  term: Special assessment
+  definition: 'CA Department of Real Estate: "These assessments are not based on the value of the property."'
+  why: So it doesn't shrink when values do. Run it as a fixed monthly line.
+  cta: DM 'INVEST' for the worksheet
+sources:
+- https://www.dre.ca.gov/files/pdf/refbook/ref16.pdf

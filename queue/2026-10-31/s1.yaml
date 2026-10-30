@@ -1,0 +1,19 @@
+id: s1
+kind: story
+track: seller_education
+topic: Teaser for p1, holiday listing readiness checklist
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Listing through the holidays? *Check* yours.
+  questions:
+  - I know my net proceeds, not just my price.
+  - My photos were shot in daylight, not at 5pm.
+  - I know where I go if it sells fast.
+  - I've decided how showings work around my own plans.
+  score: 3 or more? *DM me* and we'll map the timing.
+  cta: DM 'SELLER' if you checked 3+
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales

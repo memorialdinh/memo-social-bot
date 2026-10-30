@@ -1,0 +1,115 @@
+id: r2
+kind: reel
+track: buyer_education
+topic: What a seller actually sees when your offer lands on the table
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: What a seller *actually* sees.
+  steps:
+  - when: First
+    title: Price and terms
+    detail: Your number, sitting next to every other offer.
+  - when: Then
+    title: Proof you can close
+    detail: Pre-approval, deposit size, down payment, which lender.
+  - when: Then
+    title: Contingencies and days
+    detail: How long you need, and what you'll remove.
+  - when: Last
+    title: What it nets them
+    detail: Credits you asked for come off their bottom line.
+  cta: DM 'BUYER' for my offer checklist
+captions:
+  instagram: 'Your offer is not read the way you wrote it 📄
+
+
+    You wrote a price. The seller reads four things, roughly in this order:
+
+
+    1. Price and terms — your number, next to everyone else''s.
+
+    2. Proof you can close — pre-approval, deposit, down payment, which lender.
+
+    3. Contingencies and days — how long you need, what you''ll remove.
+
+    4. What it nets them — every credit you asked for comes off their side.
+
+
+    That last one is why two offers at the same price are not the same offer.
+
+
+    Context: California homes closed at 98.8% of list price in Sept 2026, with a median 29 days on market (C.A.R., released Oct 19, 2026).
+
+
+    DM me BUYER and I''ll send you my offer checklist 👇
+
+
+    #FirstTimeHomeBuyer #HomeBuyingTips #LongBeachRealEstate #SouthBayHomes #SoCalRealEstate #RealEstateTips'
+  facebook: 'Most buyers write an offer thinking about the price. Sellers don''t read it that way.
+
+
+    Here''s the order it actually gets read in, from the other side of the table.
+
+
+    First, price and terms. Not in isolation — next to whatever else came in. Your number only means something relative to the others on the table that day.
+
+
+    Second, proof you can close. The pre-approval letter, the deposit amount, the down payment, and which lender you''re using. This is the seller asking one question: is this going to fall apart in three weeks?
+
+
+    Third, contingencies and timeline. How many days you''re asking for, and which contingencies you''re willing to remove and when. Every extra day is time the seller carries risk.
+
+
+    Fourth, what it nets them. This is the one buyers forget. Every credit you ask for — closing costs, a repair credit, a rate buydown — comes off the seller''s bottom line. A $750,000 offer asking for $15,000 in credits reads as $735,000 to them.
+
+
+    Which is exactly why two offers at the same price are not the same offer, and why the higher one doesn''t always win.
+
+
+    For context on the current market rather than a prediction: statewide, homes closed at 98.8% of list price in September 2026 with a median 29 days on market, per the California Association of REALTORS® release of Oct 19, 2026.
+
+
+    DM me BUYER and I''ll send you the checklist I walk clients through before we write.
+
+
+    What surprised you most about your own offer process?
+
+
+    #HomeBuying #FirstTimeBuyer #SoCalRealEstate'
+  linkedin: 'Buyers optimize the number. Sellers read the structure.
+
+
+    The order an offer actually gets evaluated in:
+
+
+    Price and terms, relative to the other offers on the table that day rather than in isolation.
+
+
+    Proof of ability to close — pre-approval, deposit, down payment, lender. The underlying question is execution risk, not generosity.
+
+
+    Contingencies and timeline. Days requested and contingencies removable are a direct measure of how long the seller carries risk.
+
+
+    Net to seller. Requested credits reduce the effective offer. An offer at list asking for a five-figure credit does not read as an offer at list.
+
+
+    The practical implication: at equivalent price, structure decides it. And a slightly lower offer with clean financing and a short contingency period routinely beats a higher one that reads as fragile.
+
+
+    Context, not forecast: the California Association of REALTORS® reported homes closing at 98.8% of list price statewide with a median 29 days on market in September 2026 (released Oct 19, 2026).
+
+
+    Agents and lenders — what''s the structural element you see undervalued most often?
+
+
+    #RealEstate #HomeBuying #Negotiation'
+  tiktok: 'Sellers read four things: your price, your proof you can close, your contingencies, and what it nets them after credits.
+
+
+    #firsttimehomebuyer #homebuyingtips #realestatetips #offers #socal'
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales

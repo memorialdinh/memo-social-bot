@@ -1,0 +1,14 @@
+id: s2
+kind: story
+track: humor
+topic: Teaser for p2, the fully committed Halloween house on tour
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: Every tour has *this* house.
+  setup: 'Houses one through three: a pumpkin, a wreath.'
+  punch: 'House four: *fog machine and an animatronic butler.*'
+  cta: DM 'SELLER' for my curb appeal list
+sources: []

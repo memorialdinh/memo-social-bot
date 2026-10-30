@@ -1,0 +1,19 @@
+id: s4
+kind: story
+track: buyer_education
+topic: Teaser for r2, quiz on what a seller weighs besides price
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: What does a seller weigh *besides* price?
+  options:
+  - Proof you can close
+  - Your contingencies
+  - Both of those
+  answer: C
+  reveal: false
+  cta: Reply 'BUYER' with your answer
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
