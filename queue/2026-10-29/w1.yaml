@@ -68,7 +68,19 @@ captions:
   tiktok: 'Your home''s value comes from real closed sales, not a website guess. Get yours free at theprestige.luxe #homevalue #socalrealestate #longbeach #realestatetips #sellingahome'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18098986301110856'
+    at: '2026-10-29T21:19:06-07:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1157549510605814'
+    at: '2026-10-29T21:19:12-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7521787772555145216
+    at: '2026-10-29T21:19:13-07:00'
 media:
   instagram: queue/2026-10-29/media/w1-instagram.jpg
   facebook: queue/2026-10-29/media/w1-facebook.jpg
