@@ -18,3 +18,23 @@ design:
 sources:
 - https://joinepique.com
 - https://ica.epiquerealty.com
+status: {}
+media:
+  instagram: queue/2026-10-31/media/s2-instagram.jpg
+  facebook: queue/2026-10-31/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-10-31T12:08-07:00
+  instagram: 2026-10-31T10:06-07:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: halo
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: porcelain
+    deco: monogram
+    side: left
+    center: false
+    template: checklist

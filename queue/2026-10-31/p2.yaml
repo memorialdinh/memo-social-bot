@@ -125,3 +125,39 @@ captions:
 sources:
 - https://joinepique.com
 - https://ica.epiquerealty.com
+status: {}
+media:
+  instagram: queue/2026-10-31/media/p2-instagram.jpg
+  facebook: queue/2026-10-31/media/p2-facebook.jpg
+  linkedin: queue/2026-10-31/media/p2-linkedin.jpg
+  tiktok: queue/2026-10-31/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-10-31T20:10-07:00
+  instagram: 2026-10-31T20:09-07:00
+  linkedin: 2026-10-31T20:07-07:00
+  tiktok: 2026-10-31T20:11-07:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: arcs
+    side: right
+    center: false
+    template: spotlight
+  facebook:
+    theme: silver
+    deco: halo
+    side: left
+    center: false
+    template: spotlight
+  linkedin:
+    theme: aurum
+    deco: corners
+    side: right
+    center: false
+    template: spotlight
+  tiktok:
+    theme: carbon
+    deco: rules
+    side: left
+    center: false
+    template: spotlight
