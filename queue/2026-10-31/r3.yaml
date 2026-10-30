@@ -83,3 +83,39 @@ sources:
 - https://ttc.lacounty.gov/secured-property-taxes-general-information/
 - https://www.propertytax.lacounty.gov/Home/AnnualSecuredProperty
 - https://www.freddiemac.com/pmms
+status: {}
+media:
+  instagram: queue/2026-10-31/media/r3-instagram.mp4
+  facebook: queue/2026-10-31/media/r3-facebook.mp4
+  linkedin: queue/2026-10-31/media/r3-linkedin.mp4
+  tiktok: queue/2026-10-31/media/r3-tiktok.mp4
+schedule:
+  facebook: 2026-10-31T11:08-07:00
+  instagram: 2026-10-31T11:03-07:00
+  linkedin: 2026-10-31T11:09-07:00
+  tiktok: 2026-10-31T11:09-07:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: corners
+    side: left
+    center: false
+    template: tip
+  facebook:
+    theme: graphite
+    deco: rules
+    side: left
+    center: false
+    template: tip
+  linkedin:
+    theme: silver
+    deco: split
+    side: left
+    center: false
+    template: tip
+  tiktok:
+    theme: aurum
+    deco: halo
+    side: left
+    center: false
+    template: tip

@@ -97,3 +97,39 @@ captions:
     #realestatetips #homeselling #sellingmyhome #socal #realestate'
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+media:
+  instagram: queue/2026-10-31/media/p1-instagram.jpg
+  facebook: queue/2026-10-31/media/p1-facebook.jpg
+  linkedin: queue/2026-10-31/media/p1-linkedin.jpg
+  tiktok: queue/2026-10-31/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-10-31T19:03-07:00
+  instagram: 2026-10-31T19:10-07:00
+  linkedin: 2026-10-31T19:04-07:00
+  tiktok: 2026-10-31T19:05-07:00
+rendered:
+  instagram:
+    theme: noir
+    deco: corners
+    side: right
+    center: false
+    template: checklist
+  facebook:
+    theme: carbon
+    deco: rules
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: porcelain
+    deco: frame
+    side: left
+    center: false
+    template: checklist
+  tiktok:
+    theme: ivory
+    deco: frame
+    side: left
+    center: false
+    template: checklist

@@ -12,3 +12,23 @@ design:
   punch: 'House four: *fog machine and an animatronic butler.*'
   cta: DM 'SELLER' for my curb appeal list
 sources: []
+status: {}
+media:
+  instagram: queue/2026-10-31/media/s2-instagram.jpg
+  facebook: queue/2026-10-31/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-10-31T12:08-07:00
+  instagram: 2026-10-31T10:06-07:00
+rendered:
+  instagram:
+    theme: noir
+    deco: dots
+    side: left
+    center: true
+    template: meme
+  facebook:
+    theme: carbon
+    deco: glow
+    side: left
+    center: true
+    template: meme

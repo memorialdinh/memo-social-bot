@@ -17,3 +17,23 @@ design:
   cta: Reply 'BUYER' with your answer
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+media:
+  instagram: queue/2026-10-31/media/s4-instagram.jpg
+  facebook: queue/2026-10-31/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-10-31T20:06-07:00
+  instagram: 2026-10-31T19:04-07:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: rules
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: silver
+    deco: split
+    side: right
+    center: false
+    template: quiz

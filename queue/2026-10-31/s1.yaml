@@ -17,3 +17,23 @@ design:
   cta: DM 'SELLER' if you checked 3+
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+media:
+  instagram: queue/2026-10-31/media/s1-instagram.jpg
+  facebook: queue/2026-10-31/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-10-31T10:09-07:00
+  instagram: 2026-10-31T08:09-07:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: beam
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: slate
+    deco: beam
+    side: left
+    center: false
+    template: checklist

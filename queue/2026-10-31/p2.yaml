@@ -80,3 +80,39 @@ captions:
 
     #realestatehumor #realtorlife #halloween #curbappeal #socal'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-10-31/media/p2-instagram.jpg
+  facebook: queue/2026-10-31/media/p2-facebook.jpg
+  linkedin: queue/2026-10-31/media/p2-linkedin.jpg
+  tiktok: queue/2026-10-31/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-10-31T20:10-07:00
+  instagram: 2026-10-31T20:09-07:00
+  linkedin: 2026-10-31T20:07-07:00
+  tiktok: 2026-10-31T20:11-07:00
+rendered:
+  instagram:
+    theme: silver
+    deco: beam
+    side: left
+    center: true
+    template: meme
+  facebook:
+    theme: graphite
+    deco: dots
+    side: right
+    center: false
+    template: meme
+  linkedin:
+    theme: carbon
+    deco: glow
+    side: right
+    center: false
+    template: meme
+  tiktok:
+    theme: aurum
+    deco: glow
+    side: left
+    center: false
+    template: meme

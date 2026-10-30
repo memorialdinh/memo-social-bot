@@ -112,3 +112,39 @@ captions:
     #realestateinvesting #propertytax #investormath #realestatetips #socal'
 sources:
 - https://www.dre.ca.gov/files/pdf/refbook/ref16.pdf
+status: {}
+media:
+  instagram: queue/2026-10-31/media/r1-instagram.mp4
+  facebook: queue/2026-10-31/media/r1-facebook.mp4
+  linkedin: queue/2026-10-31/media/r1-linkedin.mp4
+  tiktok: queue/2026-10-31/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-10-31T09:06-07:00
+  instagram: 2026-10-31T09:06-07:00
+  linkedin: 2026-10-31T09:11-07:00
+  tiktok: 2026-10-31T09:07-07:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: glow
+    side: left
+    center: false
+    template: explainer
+  facebook:
+    theme: porcelain
+    deco: beam
+    side: left
+    center: false
+    template: explainer
+  linkedin:
+    theme: slate
+    deco: monogram
+    side: left
+    center: false
+    template: explainer
+  tiktok:
+    theme: graphite
+    deco: beam
+    side: left
+    center: false
+    template: explainer

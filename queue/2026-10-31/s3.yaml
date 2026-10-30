@@ -14,3 +14,23 @@ design:
   cta: DM 'INVEST' for the worksheet
 sources:
 - https://www.dre.ca.gov/files/pdf/refbook/ref16.pdf
+status: {}
+media:
+  instagram: queue/2026-10-31/media/s3-instagram.jpg
+  facebook: queue/2026-10-31/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-10-31T19:08-07:00
+  instagram: 2026-10-31T12:11-07:00
+rendered:
+  instagram:
+    theme: silver
+    deco: beam
+    side: right
+    center: false
+    template: explainer
+  facebook:
+    theme: ivory
+    deco: rules
+    side: right
+    center: false
+    template: explainer
