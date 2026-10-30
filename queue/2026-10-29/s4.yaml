@@ -17,7 +17,15 @@ design:
   cta: DM 'BUYER' with your answer
 sources:
 - https://www.boe.ca.gov/proptaxes/pdf/Ownership_DeedRecording.pdf
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17913947175501952'
+    at: '2026-10-29T19:28:35-07:00'
+  facebook:
+    state: posted
+    id: '2165876110808418'
+    at: '2026-10-29T19:28:41-07:00'
 media:
   instagram: queue/2026-10-29/media/s4-instagram.jpg
   facebook: queue/2026-10-29/media/s4-facebook.jpg

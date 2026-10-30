@@ -98,7 +98,19 @@ captions:
     #mortgagerates #firsttimehomebuyer #homebuying #realestatetips #mortgagetips'
 sources:
 - https://www.freddiemac.com/pmms
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18112450613236708'
+    at: '2026-10-29T19:28:22-07:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1157474507279981'
+    at: '2026-10-29T19:28:26-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7521759900406996992
+    at: '2026-10-29T19:28:28-07:00'
 media:
   instagram: queue/2026-10-29/media/p1-instagram.jpg
   facebook: queue/2026-10-29/media/p1-facebook.jpg
