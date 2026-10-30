@@ -19,7 +19,15 @@ design:
 sources:
 - https://joinmemo.netlify.app
 - https://ica.epiquerealty.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18073963967744131'
+    at: '2026-10-30T07:53:49-07:00'
+  facebook:
+    state: posted
+    id: '2674493999677167'
+    at: '2026-10-30T07:53:53-07:00'
 media:
   instagram: queue/2026-10-30/media/s5-instagram.jpg
   facebook: queue/2026-10-30/media/s5-facebook.jpg
