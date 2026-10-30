@@ -60,7 +60,11 @@ media:
   facebook: queue/2026-11-02/media/w1-facebook.jpg
   linkedin: queue/2026-11-02/media/w1-linkedin.jpg
   tiktok: queue/2026-11-02/media/w1-tiktok.mp4
-schedule: {}
+schedule:
+  facebook: 2026-11-02T19:04-08:00
+  instagram: 2026-11-02T19:05-08:00
+  linkedin: 2026-11-02T19:06-08:00
+  tiktok: 2026-11-02T19:02-08:00
 rendered:
   instagram:
     theme: graphite
