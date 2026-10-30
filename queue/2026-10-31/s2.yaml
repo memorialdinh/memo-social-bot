@@ -1,34 +1,20 @@
 id: s2
 kind: story
-track: humor
-topic: Teaser for p2, the fully committed Halloween house on tour
+track: agent_attraction
+topic: Teaser for p2 Spotlight 5 what is in the Epique marketing stack
 time: auto
 approved: true
 design:
-  template: meme
-  kicker: REAL TALK
-  headline: Every tour has *this* house.
-  setup: 'Houses one through three: a pumpkin, a wreath.'
-  punch: 'House four: *fog machine and an animatronic butler.*'
-  cta: DM 'SELLER' for my curb appeal list
-sources: []
-status: {}
-media:
-  instagram: queue/2026-10-31/media/s2-instagram.jpg
-  facebook: queue/2026-10-31/media/s2-facebook.jpg
-schedule:
-  facebook: 2026-10-31T12:08-07:00
-  instagram: 2026-10-31T10:06-07:00
-rendered:
-  instagram:
-    theme: noir
-    deco: dots
-    side: left
-    center: true
-    template: meme
-  facebook:
-    theme: carbon
-    deco: glow
-    side: left
-    center: true
-    template: meme
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Before you move brokerages, *ask* these.
+  questions:
+  - What is the monthly technology fee?
+  - Which perks are my market only?
+  - What do leases, lots and land exclude?
+  - Who pays the ad spend?
+  score: Can't answer all four? *Ask* before you sign.
+  cta: DM 'MATH' for the full breakdown
+sources:
+- https://joinepique.com
+- https://ica.epiquerealty.com
