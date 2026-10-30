@@ -90,7 +90,19 @@ captions:
     #realestateagent #agenttools #epiquerealty #realestatetech #agentlife'
 sources:
 - https://joinepique.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18122179009957411'
+    at: '2026-10-29T20:19:49-07:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1157509543943144'
+    at: '2026-10-29T20:19:52-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7521772843039129600
+    at: '2026-10-29T20:19:54-07:00'
 media:
   instagram: queue/2026-10-29/media/p2-instagram.jpg
   facebook: queue/2026-10-29/media/p2-facebook.jpg
