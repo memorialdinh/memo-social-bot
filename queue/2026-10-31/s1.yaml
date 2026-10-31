@@ -17,7 +17,11 @@ design:
   cta: DM 'SELLER' if you checked 3+
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18127118845869836'
+    at: '2026-10-31T08:49:34-07:00'
 media:
   instagram: queue/2026-10-31/media/s1-instagram.jpg
   facebook: queue/2026-10-31/media/s1-facebook.jpg
