@@ -1,0 +1,81 @@
+id: p1
+kind: post
+track: buyer_education
+topic: Paying discount points to buy the rate down versus keeping the cash
+time: auto
+approved: true
+design:
+  template: compare
+  kicker: BUYER TIP
+  headline: Buy the rate down, or *keep* the cash?
+  subhead: 30-yr fixed averaged 7.24%, week ending Oct 29, 2026 (Freddie Mac).
+  left:
+    label: Pay points
+    points:
+    - One point is 1% of the loan amount
+    - Lower rate, more cash due at closing
+    - Worth more the longer you keep the loan
+  right:
+    label: Keep the cash
+    points:
+    - Reserves stay intact after closing
+    - Nothing sunk if you move or refinance
+    - Rate cut per point varies by lender
+  verdict: 'The CFPB''s own advice: have your lender price it both ways, then pick the timeline you would actually keep the loan.'
+  cta: DM 'BUYER' for the points math
+captions:
+  instagram: 'Two buyers. Same loan. Same day. One pays points, one keeps the cash.
+
+
+    A point is 1% of the loan amount. On $600,000 that''s $6,000 at closing to buy the rate down.
+
+
+    The CFPB puts it plainly: points can be a good choice if you plan to keep your loan a long time. If you don''t know how long, that $6,000 may do more sitting in your reserves.
+
+
+    For scale, the 30-year average was 7.24% the week ending Oct 29, 2026 (Freddie Mac). Ask your lender to price it both ways before you decide.
+
+
+    DM me ''BUYER'' and we''ll run your numbers.
+
+
+    #LongBeachRealEstate #SouthBayHomes #FirstTimeHomeBuyer #MortgageTips #TorranceHomes #LakewoodCA'
+  facebook: '"Should I pay points?" came up three times this week, so here''s the short version.
+
+
+    A point is 1% of your loan amount. Pay it at closing and your interest rate comes down. On a $600,000 loan, one point is $6,000 out of pocket.
+
+
+    The trade is simple to say and hard to feel: more cash now, less interest later. The CFPB''s guidance is that points can be a good choice if you plan to keep the loan a long time, and that if you don''t know how long you''ll stay, you may not want to pay them at all. How much the rate drops per point isn''t fixed either. It depends on the lender, the loan and the market that week.
+
+
+    For context, the 30-year fixed averaged 7.24% for the week ending Oct 29, 2026, down from 7.32% the week before (Freddie Mac).
+
+
+    What I''d actually do: ask your loan officer to show you the same loan with points and without, and total both over the shortest, longest and most likely time you''d keep it. The paper usually answers it for you.
+
+
+    Would you rather have the lower payment or the bigger cushion after closing?
+
+
+    #MortgageTips #SoCalRealEstate'
+  linkedin: 'The points question is rarely a rate question. It''s a holding-period question.
+
+
+    One discount point costs 1% of the loan amount and buys a lower interest rate. How much lower is not standardized: the CFPB notes the reduction depends on the lender, the loan type and the mortgage market. So the decision can''t be made from the rate sheet alone.
+
+
+    The useful exercise is the one the CFPB recommends: price the loan with points and without, then total the cost of each over the shortest, longest and most likely period you''d hold it. If the breakeven lands past your realistic horizon, the cash belongs in reserves.
+
+
+    Context: the 30-year fixed averaged 7.24% for the week ending Oct 29, 2026, down from 7.32% a week earlier (Freddie Mac PMMS).
+
+
+    Buyers I talk to underestimate how often they''ll move or refinance. How do you frame holding period with your clients?
+
+
+    #RealEstate #Mortgage #HomeBuying'
+  tiktok: 'A point costs 1% of your loan. On $600k that''s $6,000 to buy the rate down. Worth it only if you keep the loan. #firsttimehomebuyer #mortgagetips #realestatetips #socalrealestate #homebuying'
+sources:
+- https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/
+- https://www.freddiemac.com/pmms

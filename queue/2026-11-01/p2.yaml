@@ -1,0 +1,69 @@
+id: p2
+kind: post
+track: market_update
+topic: The 30-year average posted its lowest level this month and is still about a point above a year ago
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Lowest 30-year average *this month*.
+  stat_value: 7.24%
+  stat_label: 30-yr fixed average, Freddie Mac PMMS, week ending Oct 29, 2026
+  points:
+  - Down from 7.32% the week before
+  - A year earlier it averaged 6.17%
+  - 15-year fixed averaged 6.60%
+  cta: DM 'RATES' for this week's numbers
+captions:
+  instagram: '7.24%.
+
+
+    That''s the 30-year fixed average for the week ending Oct 29, 2026, down from 7.32% the week before. Freddie Mac calls it the lowest level this month.
+
+
+    The part people skip: a year ago that same average was 6.17%. Lower than last week is not the same as cheap.
+
+
+    15-year fixed came in at 6.60%.
+
+
+    DM ''RATES'' and I''ll send what this means for a payment at your price point.
+
+
+    #MortgageRates #LongBeachRealEstate #SouthBayHomes #HousingMarket #TorranceRealEstate #SoCalHomes'
+  facebook: 'The 30-year fixed averaged 7.24% for the week ending Oct 29, down from 7.32% the week before (Freddie Mac). The 15-year averaged 6.60%.
+
+
+    Freddie Mac''s own write-up describes it as the lowest level this month and says it modestly boosts purchasing power for buyers.
+
+
+    Two things worth holding onto. First, a year ago the same survey read 6.17%, so down-from-last-week and inexpensive are different claims. Second, this is a national average of rates offered, not a quote. Your number comes from your credit, your down payment, your loan type and the day you lock.
+
+
+    I''m not going to tell you where this goes next, because nobody knows. What I can tell you is what 7.24% does to a payment on a Lakewood or Torrance price point, and whether it changes your plan at all.
+
+
+    Has the last few weeks moved your timeline, or are you sitting tight?
+
+
+    #MortgageRates #SoCalRealEstate #HousingMarket'
+  linkedin: 'The 30-year fixed-rate mortgage averaged 7.24% for the week ending October 29, 2026, down from 7.32% the prior week. The 15-year averaged 6.60%. A year earlier those readings were 6.17% and 5.41% (Freddie Mac PMMS).
+
+
+    Two observations for anyone advising buyers or underwriting deals.
+
+
+    The weekly PMMS figure is an average of rates offered, released Thursdays at noon ET. It is a trend instrument, not a quote, and the spread between it and an individual borrower''s rate is where most of the conversation actually lives.
+
+
+    And the year-over-year comparison matters more than the week-over-week one. A third consecutive weekly decline still leaves the average roughly a point above where it sat last October. Affordability math built on the recent direction rather than the level tends to disappoint.
+
+
+    How are you framing rate direction with clients right now without making a forecast?
+
+
+    #MortgageRates #HousingMarket #RealEstate'
+  tiktok: '30-year fixed: 7.24% week ending Oct 29. Lowest this month. Still a point above last year. #mortgagerates #housingmarket #realestatetips #socalrealestate'
+sources:
+- https://www.freddiemac.com/pmms

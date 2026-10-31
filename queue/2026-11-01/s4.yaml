@@ -1,0 +1,13 @@
+id: s4
+kind: story
+track: seller_education
+topic: Teaser for r2, sell first is not the only order
+time: auto
+approved: true
+design:
+  template: myth
+  kicker: SELLER TIP
+  headline: Sell first isn't the *only* order.
+  myth: I have to sell before I can buy.
+  fact: Sale contingency. Rent-back after closing. Carrying both a while. Each costs something different.
+  cta: Reply 'SELLER' for the order

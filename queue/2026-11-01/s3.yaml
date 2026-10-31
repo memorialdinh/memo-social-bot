@@ -1,0 +1,18 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r1, checklist on claiming the Homeowners' Exemption
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: New owner? *Check* these three.
+  questions:
+  - I live here as my principal residence.
+  - I filed form BOE-266 with my assessor.
+  - I know the February 15 deadline.
+  score: Missed one? That's *$7,000* off assessed value (CA BOE Pub 800-6, 6-23).
+  cta: Reply 'VALUE' if you checked 3
+sources:
+- https://www.boe.ca.gov/pdf/pub800-6.pdf

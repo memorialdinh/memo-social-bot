@@ -1,0 +1,15 @@
+id: s2
+kind: story
+track: market_update
+topic: Teaser for p2, this week's 30-year fixed average
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: This week's 30-year *average*.
+  stat_value: 7.24%
+  stat_label: 30-yr fixed average, Freddie Mac PMMS, week ending Oct 29, 2026
+  cta: DM 'RATES' for the full read
+sources:
+- https://www.freddiemac.com/pmms
