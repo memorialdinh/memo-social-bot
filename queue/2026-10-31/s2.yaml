@@ -18,7 +18,11 @@ design:
 sources:
 - https://joinepique.com
 - https://ica.epiquerealty.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18641485852054573'
+    at: '2026-10-31T10:16:03-07:00'
 media:
   instagram: queue/2026-10-31/media/s2-instagram.jpg
   facebook: queue/2026-10-31/media/s2-facebook.jpg

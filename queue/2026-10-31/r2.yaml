@@ -113,7 +113,19 @@ captions:
     #firsttimehomebuyer #homebuyingtips #realestatetips #offers #socal'
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18102821693644937'
+    at: '2026-10-31T10:15:31-07:00'
+  facebook:
+    state: posted
+    id: '1679651926899250'
+    at: '2026-10-31T10:15:38-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7522345581537677312
+    at: '2026-10-31T10:15:45-07:00'
 media:
   instagram: queue/2026-10-31/media/r2-instagram.mp4
   facebook: queue/2026-10-31/media/r2-facebook.mp4
