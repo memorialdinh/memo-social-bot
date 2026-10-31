@@ -14,7 +14,11 @@ design:
   cta: DM 'INVEST' for the worksheet
 sources:
 - https://www.dre.ca.gov/files/pdf/refbook/ref16.pdf
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17975299995139673'
+    at: '2026-10-31T12:24:25-07:00'
 media:
   instagram: queue/2026-10-31/media/s3-instagram.jpg
   facebook: queue/2026-10-31/media/s3-facebook.jpg
