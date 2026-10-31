@@ -83,3 +83,39 @@ captions:
 sources:
 - https://www.boe.ca.gov/pdf/pub800-6.pdf
 - https://www.boe.ca.gov/proptaxes/homeexem.htm
+status: {}
+media:
+  instagram: queue/2026-11-01/media/r1-instagram.mp4
+  facebook: queue/2026-11-01/media/r1-facebook.mp4
+  linkedin: queue/2026-11-01/media/r1-linkedin.mp4
+  tiktok: queue/2026-11-01/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-11-01T09:09-08:00
+  instagram: 2026-11-01T09:04-08:00
+  linkedin: 2026-11-01T09:07-08:00
+  tiktok: 2026-11-01T09:10-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: monogram
+    side: left
+    center: false
+    template: explainer
+  facebook:
+    theme: aurum
+    deco: glow
+    side: left
+    center: false
+    template: explainer
+  linkedin:
+    theme: porcelain
+    deco: halo
+    side: left
+    center: false
+    template: explainer
+  tiktok:
+    theme: silver
+    deco: rules
+    side: left
+    center: false
+    template: explainer

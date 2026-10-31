@@ -91,3 +91,39 @@ captions:
   tiktok: 'Five numbers before you offer on a rental: real rents, 12 months of expenses, tax at YOUR price, written insurance quote, deferred maintenance. #realestateinvesting #rentalproperty #investortips #cashflow #realestatetips'
 sources:
 - https://www.dre.ca.gov/files/pdf/refbook/ref16.pdf
+status: {}
+media:
+  instagram: queue/2026-11-01/media/r3-instagram.mp4
+  facebook: queue/2026-11-01/media/r3-facebook.mp4
+  linkedin: queue/2026-11-01/media/r3-linkedin.mp4
+  tiktok: queue/2026-11-01/media/r3-tiktok.mp4
+schedule:
+  facebook: 2026-11-01T11:07-08:00
+  instagram: 2026-11-01T11:10-08:00
+  linkedin: 2026-11-01T11:05-08:00
+  tiktok: 2026-11-01T11:07-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: grid
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: noir
+    deco: dots
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: goldrush
+    deco: rules
+    side: left
+    center: false
+    template: checklist
+  tiktok:
+    theme: porcelain
+    deco: beam
+    side: left
+    center: false
+    template: checklist

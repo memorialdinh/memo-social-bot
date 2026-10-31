@@ -13,3 +13,23 @@ design:
   cta: DM 'RATES' for the full read
 sources:
 - https://www.freddiemac.com/pmms
+status: {}
+media:
+  instagram: queue/2026-11-01/media/s2-instagram.jpg
+  facebook: queue/2026-11-01/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-01T12:07-08:00
+  instagram: 2026-11-01T10:03-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: dots
+    side: right
+    center: true
+    template: stat
+  facebook:
+    theme: graphite
+    deco: rules
+    side: left
+    center: false
+    template: stat
