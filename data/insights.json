@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-30T19:27-07:00",
+  "updated": "2026-10-31T07:17-07:00",
   "scores": {
     "track:untagged": {
-      "posts": 98,
-      "avg_rate": 0.0337,
-      "avg_eng": 5.1,
+      "posts": 97,
+      "avg_rate": 0.0326,
+      "avg_eng": 5.0,
       "avg_save_rate": 0.0005,
       "avg_share_rate": 0.0006
     },
     "kind:reel": {
-      "posts": 49,
-      "avg_rate": 0.0363,
+      "posts": 48,
+      "avg_rate": 0.0358,
       "avg_eng": 6.1,
       "avg_save_rate": 0.0005,
-      "avg_share_rate": 0.0012
+      "avg_share_rate": 0.0011
     },
     "platform:instagram": {
-      "posts": 120,
-      "avg_rate": 0.028,
-      "avg_eng": 4.2,
+      "posts": 119,
+      "avg_rate": 0.027,
+      "avg_eng": 4.1,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0005
     },
     "kind:post": {
       "posts": 78,
-      "avg_rate": 0.0163,
+      "avg_rate": 0.0164,
       "avg_eng": 2.5,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0
@@ -38,7 +38,7 @@
     },
     "kind:story": {
       "posts": 35,
-      "avg_rate": 0.0112,
+      "avg_rate": 0.0088,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -52,7 +52,7 @@
     },
     "track:market_update": {
       "posts": 12,
-      "avg_rate": 0.0026,
+      "avg_rate": 0.0025,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -80,7 +80,7 @@
     },
     "theme:graphite": {
       "posts": 7,
-      "avg_rate": 0.0025,
+      "avg_rate": 0.0024,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -94,7 +94,7 @@
     },
     "theme:goldrush": {
       "posts": 10,
-      "avg_rate": 0.0049,
+      "avg_rate": 0.0048,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -136,7 +136,7 @@
     },
     "template:myth": {
       "posts": 5,
-      "avg_rate": 0.0098,
+      "avg_rate": 0.0096,
       "avg_eng": 0.4,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -248,13 +248,13 @@
     }
   },
   "directives": [
-    "Write an extra Untagged piece and one fewer Real Talk piece. Untagged earns 3.4% vs 0.0% over the last 60 days (98 vs 4 posts).",
+    "Write an extra Untagged piece and one fewer Real Talk piece. Untagged earns 3.3% vs 0.0% over the last 60 days (97 vs 4 posts).",
     "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 3.6% against 1.6% for static posts.",
     "Untagged gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "Stop using the 'spotlight' template for now \u2014 it runs at 0.0% against 'myth' at 1.0%."
   ],
   "tips": [
-    "Best-performing look: goldrush (0.5%). Weakest: porcelain (0.0%).",
+    "Best-performing look: silver (0.5%). Weakest: porcelain (0.0%).",
     "Not enough data yet to judge: template:checklist, template:compare, template:cta, template:meme, template:process, template:quiz, track:community, track:local_spotlight (fewer than 4 posts each). Keep writing them so they can be measured."
   ],
   "followers": {
@@ -294,7 +294,7 @@
       "caption": "",
       "saves": 1,
       "shares": 0,
-      "rate": 0.1333,
+      "rate": 0.129,
       "permalink": "https://www.instagram.com/reel/DfC04UITo6C/"
     },
     {
