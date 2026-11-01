@@ -162,3 +162,8 @@ at,day,item,kind,track,platform,result,remote_id,detail
 2026-11-01T09:07:58-08:00,2026-11-01,r1,reel,buyer_education,instagram,posted,18071732756504452,
 2026-11-01T09:07:58-08:00,2026-11-01,r1,reel,buyer_education,linkedin,posted,urn:li:ugcPost:7522706205807452160,
 2026-11-01T09:47:08-08:00,2026-11-01,r1,reel,buyer_education,facebook,posted,1097820476210660,
+2026-11-01T10:38:12-08:00,2026-11-01,r2,reel,seller_education,instagram,posted,18098509985397839,
+2026-11-01T10:38:12-08:00,2026-11-01,r2,reel,seller_education,facebook,posted,1668963981253851,
+2026-11-01T10:38:12-08:00,2026-11-01,r2,reel,seller_education,linkedin,posted,urn:li:ugcPost:7522728929619582976,
+2026-11-01T10:38:12-08:00,2026-11-01,s1,story,buyer_education,facebook,posted,1106873258914066,
+2026-11-01T10:38:12-08:00,2026-11-01,s2,story,market_update,instagram,retry,,"ApiError: POST https://graph.facebook.com/v25.0/17841401014813251/media_publish failed: 400 {""error"":{""message"":""The requested resource does not exist"",""type"":""OAuthException"",""code"":24,""error_subcode"":2207006,""is_transient"":false,""error_user_title"":""Media Not Found"",""error_user_msg"":""The media with 18,636,166,462,033,828 cannot be found."",""fbtrace_id"":""AWm9PeMQMRKGSB098ky-3qi""}}"

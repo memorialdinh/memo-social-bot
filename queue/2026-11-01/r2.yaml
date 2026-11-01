@@ -79,7 +79,19 @@ captions:
 
     #RealEstate #HomeSelling #RealEstateAdvice'
   tiktok: 'You don''t have to sell before you buy. Sale contingency, rent-back, or carry both. Each has a price. #sellingyourhome #realestatetips #moveupbuyer #socalrealestate'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18098509985397839'
+    at: '2026-11-01T10:38:46-08:00'
+  facebook:
+    state: posted
+    id: '1668963981253851'
+    at: '2026-11-01T10:38:55-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7522728929619582976
+    at: '2026-11-01T10:39:02-08:00'
 media:
   instagram: queue/2026-11-01/media/r2-instagram.mp4
   facebook: queue/2026-11-01/media/r2-facebook.mp4
