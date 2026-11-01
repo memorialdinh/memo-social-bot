@@ -18,7 +18,11 @@ design:
   cta: Reply 'BUYER' with your answer
 sources:
 - https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17966522271213343'
+    at: '2026-11-01T08:18:25-08:00'
 media:
   instagram: queue/2026-11-01/media/s1-instagram.jpg
   facebook: queue/2026-11-01/media/s1-facebook.jpg
