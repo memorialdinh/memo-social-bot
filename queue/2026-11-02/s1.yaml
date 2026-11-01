@@ -1,0 +1,21 @@
+id: s1
+kind: story
+track: agent_attraction
+topic: Teaser for p1, quiz on what the Epique Power Award combines
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: What does the *Power Award* combine?
+  options:
+  - Stock awards plus RevShare
+  - Leads plus coaching
+  - Training plus events
+  answer: A
+  explain: Epique describes it as stock awards plus RevShare combined (joinepique.com, Nov 1, 2026). Subject
+    to plan terms.
+  reveal: false
+  cta: Reply 'MATH' for the plan terms
+sources:
+- https://joinepique.com

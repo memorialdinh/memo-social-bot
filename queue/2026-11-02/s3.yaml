@@ -1,0 +1,16 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r1, checklist on what a lender will ask you for
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Ready for the *lender*? Check these.
+  questions:
+  - I can pull my recent pay stubs.
+  - I can pull my recent bank statements.
+  - I know every monthly debt payment I owe.
+  score: All three? You're *ready* to talk to a loan officer.
+  cta: Reply 'BUYER' if you checked 3

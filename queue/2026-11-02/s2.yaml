@@ -1,0 +1,13 @@
+id: s2
+kind: story
+track: humor
+topic: Teaser for p2, the 10:47pm quick question
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: The *10:47pm* question.
+  setup: '"Quick question, no rush."'
+  punch: 'Me, two minutes later: *four paragraphs.*'
+  cta: Reply 'BUYER' with yours

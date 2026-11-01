@@ -1,0 +1,14 @@
+id: s4
+kind: story
+track: seller_education
+topic: Teaser for r3, why a nearby sale may not be a comp
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: Your neighbor's sale may not *count*.
+  term: Comparable sale
+  definition: A recent, similar, nearby sale used to estimate value today.
+  why: Wrong comps set the wrong price. An estimate, not an appraisal.
+  cta: Reply 'VALUE' for your comp set
