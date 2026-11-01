@@ -125,7 +125,19 @@ captions:
 sources:
 - https://joinepique.com
 - https://ica.epiquerealty.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18154126615548942'
+    at: '2026-10-31T20:48:26-07:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1159631123730986'
+    at: '2026-10-31T20:48:30-07:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7522504823569776640
+    at: '2026-10-31T20:48:31-07:00'
 media:
   instagram: queue/2026-10-31/media/p2-instagram.jpg
   facebook: queue/2026-10-31/media/p2-facebook.jpg
