@@ -16,7 +16,15 @@ design:
   cta: theprestige.luxe/#value
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18651365875056679'
+    at: '2026-11-01T07:32:27-08:00'
+  facebook:
+    state: posted
+    id: '1383808243589995'
+    at: '2026-11-01T07:32:32-08:00'
 media:
   instagram: queue/2026-11-01/media/s5-instagram.jpg
   facebook: queue/2026-11-01/media/s5-facebook.jpg
