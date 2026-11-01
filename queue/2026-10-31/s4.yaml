@@ -17,7 +17,11 @@ design:
   cta: Reply 'BUYER' with your answer
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18414986686088526'
+    at: '2026-10-31T19:50:32-07:00'
 media:
   instagram: queue/2026-10-31/media/s4-instagram.jpg
   facebook: queue/2026-10-31/media/s4-facebook.jpg
