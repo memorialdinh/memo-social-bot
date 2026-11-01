@@ -15,10 +15,11 @@ sources:
 - https://www.freddiemac.com/pmms
 status:
   instagram:
-    state: retry
+    state: posted
     tries: 1
     error: 'ApiError: POST https://graph.facebook.com/v25.0/17841401014813251/media_publish failed: 400 {"error":{"message":"The requested resource does not exist","type":"OAuthException","code":24,"error_subcode":2207006,"is_transient":false,"error_user_title":"Media Not Found","error_user_msg":"The media with 18,636,166,462,033,828 cannot be found.","fbtrace_id":"AWm9PeMQMRKGSB098ky-3qi"}}'
-    at: '2026-11-01T10:39:16-08:00'
+    at: '2026-11-01T11:25:18-08:00'
+    id: '17964677187217700'
 media:
   instagram: queue/2026-11-01/media/s2-instagram.jpg
   facebook: queue/2026-11-01/media/s2-facebook.jpg
