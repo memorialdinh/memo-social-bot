@@ -20,13 +20,10 @@ captions:
   instagram: 'Agents: ask what you own, not just what you keep.
 
 
-    Epique lists its wealth side in its own words. Stock awards, described as "earn equity in the company
-    you helped build." A Double Stock Award that doubles the stock award you earn. A Power Award it calls
-    "stock awards plus RevShare combined." Declining caps and a 401(k) sit next to those.
+    Epique lists its wealth side in its own words. Stock awards, described as "earn equity in the company you helped build." A Double Stock Award that doubles the stock award you earn. A Power Award it calls "stock awards plus RevShare combined." Declining caps and a 401(k) sit next to those.
 
 
-    One honest caveat: the page publishes no eligibility. No threshold, no share count, no vesting schedule.
-    So ask for the plan documents before you do any math on it.
+    One honest caveat: the page publishes no eligibility. No threshold, no share count, no vesting schedule. So ask for the plan documents before you do any math on it.
 
 
     All of it is subject to Epique''s current plan terms and eligibility.
@@ -39,50 +36,68 @@ captions:
   facebook: 'Most agents comparing brokerages compare the split. Fewer ask what they end up owning.
 
 
-    Here''s what Epique puts on its own page, in its own words. There are stock awards, which it describes
-    as a way to "earn equity in the company you helped build." There''s a Double Stock Award, which doubles
-    the stock award you earn. There''s a Power Award, which it calls "stock awards plus RevShare combined."
-    And it lists declining caps and a 401(k) alongside them.
+    Here''s what Epique puts on its own page, in its own words. There are stock awards, which it describes as a way to "earn equity in the company you helped build." There''s a Double Stock Award, which doubles the stock award you earn. There''s a Power Award, which it calls "stock awards plus RevShare combined." And it lists declining caps and a 401(k) alongside them.
 
 
-    Now the part a recruiting post usually leaves out: that page does not publish eligibility. It doesn''t
-    state a production threshold, a share count, or a vesting schedule, and where it says "qualifying
-    agents" it never defines qualifying. So I''m not going to put a number in front of you, because I''d
-    be making it up. Everything above is subject to Epique''s current plan terms and eligibility, and
-    the plan documents are what actually govern it.
+    Now the part a recruiting post usually leaves out: that page does not publish eligibility. It doesn''t state a production threshold, a share count, or a vesting schedule, and where it says "qualifying agents" it never defines qualifying. So I''m not going to put a number in front of you, because I''d be making it up. Everything above is subject to Epique''s current plan terms and eligibility, and the plan documents are what actually govern it.
 
 
-    That''s still a real question worth asking wherever you hang your license: when I close a deal here,
-    do I build anything that keeps paying after I stop?
+    That''s still a real question worth asking wherever you hang your license: when I close a deal here, do I build anything that keeps paying after I stop?
 
 
-    If you''re weighing a move, what''s the one thing you''d want answered before you''d even take the
-    call?
+    If you''re weighing a move, what''s the one thing you''d want answered before you''d even take the call?
 
 
     #RealEstateAgents #RealEstateCareer'
-  linkedin: 'Agents evaluating a brokerage tend to model the commission split and stop there. The split
-    is a cash-flow question. Equity is a balance-sheet question, and they are not the same decision.
+  linkedin: 'Agents evaluating a brokerage tend to model the commission split and stop there. The split is a cash-flow question. Equity is a balance-sheet question, and they are not the same decision.
 
 
-    Epique publishes its wealth and equity programs on joinepique.com: stock awards ("earn equity in the
-    company you helped build"), a Double Stock Award that doubles the stock award earned, a Power Award
-    described as "stock awards plus RevShare combined," plus declining caps and a 401(k).
+    Epique publishes its wealth and equity programs on joinepique.com: stock awards ("earn equity in the company you helped build"), a Double Stock Award that doubles the stock award earned, a Power Award described as "stock awards plus RevShare combined," plus declining caps and a 401(k).
 
 
-    The useful discipline is in what the page does not say. It states no eligibility criteria: no production
-    threshold, no share count, no vesting schedule, and "qualifying agents" is left undefined. That is
-    not a reason to dismiss the programs. It is a reason to read the plan documents before assigning them
-    any value, and to treat every figure quoted to you verbally as unverified. All of it is subject to
-    Epique''s current plan terms and eligibility.
+    The useful discipline is in what the page does not say. It states no eligibility criteria: no production threshold, no share count, no vesting schedule, and "qualifying agents" is left undefined. That is not a reason to dismiss the programs. It is a reason to read the plan documents before assigning them any value, and to treat every figure quoted to you verbally as unverified. All of it is subject to Epique''s current plan terms and eligibility.
 
 
-    For those who have changed brokerages: did equity actually factor into your decision, or did the split
-    decide it?
+    For those who have changed brokerages: did equity actually factor into your decision, or did the split decide it?
 
 
     #RealEstate #RealEstateCareer #Brokerage'
-  tiktok: 'Ask what you own, not just what you keep. Stock awards, Double Stock Award, Power Award, all
-    subject to plan terms. #realestateagents #realestatecareer #agentlife #brokerage #epique'
+  tiktok: 'Ask what you own, not just what you keep. Stock awards, Double Stock Award, Power Award, all subject to plan terms. #realestateagents #realestatecareer #agentlife #brokerage #epique'
 sources:
 - https://joinepique.com
+status: {}
+media:
+  instagram: queue/2026-11-02/media/p1-instagram.jpg
+  facebook: queue/2026-11-02/media/p1-facebook.jpg
+  linkedin: queue/2026-11-02/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-02/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-02T20:10-08:00
+  instagram: 2026-11-02T20:03-08:00
+  linkedin: 2026-11-02T20:09-08:00
+  tiktok: 2026-11-02T20:09-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: halo
+    side: right
+    center: false
+    template: spotlight
+  facebook:
+    theme: silver
+    deco: glow
+    side: left
+    center: false
+    template: spotlight
+  linkedin:
+    theme: porcelain
+    deco: rules
+    side: left
+    center: false
+    template: spotlight
+  tiktok:
+    theme: graphite
+    deco: rules
+    side: left
+    center: false
+    template: spotlight

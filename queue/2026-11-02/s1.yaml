@@ -13,9 +13,28 @@ design:
   - Leads plus coaching
   - Training plus events
   answer: A
-  explain: Epique describes it as stock awards plus RevShare combined (joinepique.com, Nov 1, 2026). Subject
-    to plan terms.
+  explain: Epique describes it as stock awards plus RevShare combined (joinepique.com, Nov 1, 2026). Subject to plan terms.
   reveal: false
   cta: Reply 'MATH' for the plan terms
 sources:
 - https://joinepique.com
+status: {}
+media:
+  instagram: queue/2026-11-02/media/s1-instagram.jpg
+  facebook: queue/2026-11-02/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-02T10:10-08:00
+  instagram: 2026-11-02T08:08-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: glow
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: ivory
+    deco: split
+    side: left
+    center: false
+    template: quiz

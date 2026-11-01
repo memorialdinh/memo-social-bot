@@ -31,14 +31,10 @@ captions:
     Reader, there is always a rush. And the question is never quick.
 
 
-    But here''s my confession: I''m the problem. I could wait until morning. I could send back one line.
-    Instead I''m up at 10:49pm writing four paragraphs about contingency timelines to someone who is already
-    asleep.
+    But here''s my confession: I''m the problem. I could wait until morning. I could send back one line. Instead I''m up at 10:49pm writing four paragraphs about contingency timelines to someone who is already asleep.
 
 
-    In my defense, the questions that come in late are usually the ones people have been sitting on all
-    day, turning over, not wanting to bother anyone about. Those are the good ones. That''s the question
-    someone actually needs answered.
+    In my defense, the questions that come in late are usually the ones people have been sitting on all day, turning over, not wanting to bother anyone about. Those are the good ones. That''s the question someone actually needs answered.
 
 
     So keep sending them. I''ll keep over-answering them.
@@ -51,23 +47,53 @@ captions:
   linkedin: 'A small observation about client service that took me too long to notice.
 
 
-    The questions that arrive late at night are rarely trivial. They''re the ones someone has been carrying
-    around all day, deciding whether it''s worth bothering anyone about. By the time it gets typed out
-    as "quick question, no rush," it has usually already been thought about for hours.
+    The questions that arrive late at night are rarely trivial. They''re the ones someone has been carrying around all day, deciding whether it''s worth bothering anyone about. By the time it gets typed out as "quick question, no rush," it has usually already been thought about for hours.
 
 
-    Which means the response time matters less than people assume, but the thoroughness matters more.
-    The instinct to fire back one line and go to bed is usually wrong. The instinct to over-explain at
-    10:49pm is, embarrassingly, usually right.
+    Which means the response time matters less than people assume, but the thoroughness matters more. The instinct to fire back one line and go to bed is usually wrong. The instinct to over-explain at 10:49pm is, embarrassingly, usually right.
 
 
-    I''d rather be the person who sends four paragraphs than the person who makes someone feel like they
-    interrupted.
+    I''d rather be the person who sends four paragraphs than the person who makes someone feel like they interrupted.
 
 
     What''s your rule on after-hours client messages?
 
 
     #RealEstate #ClientService #RealTalk'
-  tiktok: 'No one has ever sent a quick question. And I have never once answered one briefly. #realestatelife
-    #realtalk #agentlife #realestatetips #socalrealestate'
+  tiktok: 'No one has ever sent a quick question. And I have never once answered one briefly. #realestatelife #realtalk #agentlife #realestatetips #socalrealestate'
+status: {}
+media:
+  instagram: queue/2026-11-02/media/p2-instagram.jpg
+  facebook: queue/2026-11-02/media/p2-facebook.jpg
+  linkedin: queue/2026-11-02/media/p2-linkedin.jpg
+  tiktok: queue/2026-11-02/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-11-02T21:07-08:00
+  instagram: 2026-11-02T21:09-08:00
+  linkedin: 2026-11-02T21:09-08:00
+  tiktok: 2026-11-02T21:08-08:00
+rendered:
+  instagram:
+    theme: noir
+    deco: dots
+    side: left
+    center: true
+    template: meme
+  facebook:
+    theme: aurum
+    deco: frame
+    side: left
+    center: true
+    template: meme
+  linkedin:
+    theme: carbon
+    deco: monogram
+    side: left
+    center: true
+    template: meme
+  tiktok:
+    theme: porcelain
+    deco: beam
+    side: left
+    center: true
+    template: meme

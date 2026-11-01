@@ -14,3 +14,23 @@ design:
   - I know every monthly debt payment I owe.
   score: All three? You're *ready* to talk to a loan officer.
   cta: Reply 'BUYER' if you checked 3
+status: {}
+media:
+  instagram: queue/2026-11-02/media/s3-instagram.jpg
+  facebook: queue/2026-11-02/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-02T19:10-08:00
+  instagram: 2026-11-02T12:02-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: dots
+    side: right
+    center: false
+    template: checklist
+  facebook:
+    theme: aurum
+    deco: frame
+    side: right
+    center: false
+    template: checklist

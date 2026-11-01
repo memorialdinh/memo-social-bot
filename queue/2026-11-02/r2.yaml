@@ -20,8 +20,7 @@ captions:
   instagram: 'Buyers ask all five of these. Usually in the first week.
 
 
-    How old is the roof. When was the HVAC last serviced. Are there permits. What do the dues cover. Which
-    appliances stay.
+    How old is the roof. When was the HVAC last serviced. Are there permits. What do the dues cover. Which appliances stay.
 
 
     You don''t need perfect answers. You need to not be guessing on the spot.
@@ -31,8 +30,7 @@ captions:
 
 
     #SellingYourHome #LongBeachRealEstate #SouthBayHomes #HomeSelling #SellerTips #SoCalRealEstate'
-  facebook: 'Five questions. If you''re thinking about selling, see how many you can answer without looking
-    anything up.
+  facebook: 'Five questions. If you''re thinking about selling, see how many you can answer without looking anything up.
 
 
     1. Roughly how old is the roof?
@@ -46,26 +44,20 @@ captions:
     5. Which appliances stay with the house?
 
 
-    Every one of these comes up, usually in the first week, and usually from a buyer who is deciding whether
-    to trust the rest of what they''re told. "I''m not sure" on all five reads very differently than "I''m
-    not sure" on one.
+    Every one of these comes up, usually in the first week, and usually from a buyer who is deciding whether to trust the rest of what they''re told. "I''m not sure" on all five reads very differently than "I''m not sure" on one.
 
 
-    The good news is that this is a weekend of digging through a drawer, not a renovation. Receipts, service
-    records, the permit history, the HOA packet. Pull them before you list and the whole process gets
-    quieter.
+    The good news is that this is a weekend of digging through a drawer, not a renovation. Receipts, service records, the permit history, the HOA packet. Pull them before you list and the whole process gets quieter.
 
 
-    And if you genuinely don''t know something, say so. "I don''t know, the previous owner did it" is
-    a fine answer. Guessing is not.
+    And if you genuinely don''t know something, say so. "I don''t know, the previous owner did it" is a fine answer. Guessing is not.
 
 
     Which one of the five stumped you?
 
 
     #HomeSelling #SellerTips'
-  linkedin: 'A short diagnostic for anyone considering a sale in the next year. Five questions, answered
-    from memory:
+  linkedin: 'A short diagnostic for anyone considering a sale in the next year. Five questions, answered from memory:
 
 
     1. Roughly how old is the roof?
@@ -79,20 +71,50 @@ captions:
     5. Which appliances convey?
 
 
-    Each of these surfaces in early buyer conversations. The insight is not that sellers should know the
-    answers, it''s what the pattern of answers signals. Uncertainty on one item reads as normal. Uncertainty
-    across all five reads as a property that hasn''t been tracked, and it changes how a buyer weighs everything
-    else they''re told, including the things that are documented.
+    Each of these surfaces in early buyer conversations. The insight is not that sellers should know the answers, it''s what the pattern of answers signals. Uncertainty on one item reads as normal. Uncertainty across all five reads as a property that hasn''t been tracked, and it changes how a buyer weighs everything else they''re told, including the things that are documented.
 
 
-    The takeaway: this is a records exercise, not a capital improvement. Service history, permit records
-    and the HOA packet assembled before listing cost a weekend and remove a category of friction from
-    the transaction. "I don''t know, that predates us" is a credible answer. An improvised one is not.
+    The takeaway: this is a records exercise, not a capital improvement. Service history, permit records and the HOA packet assembled before listing cost a weekend and remove a category of friction from the transaction. "I don''t know, that predates us" is a credible answer. An improvised one is not.
 
 
     What pre-listing preparation do you find returns the most, relative to what it costs?
 
 
     #RealEstate #HomeSelling #SellerTips'
-  tiktok: 'Roof age, HVAC service, permits, HOA dues, which appliances stay. Buyers ask all five in week
-    one. #sellingyourhome #sellertips #realestatetips #homeselling #socalrealestate'
+  tiktok: 'Roof age, HVAC service, permits, HOA dues, which appliances stay. Buyers ask all five in week one. #sellingyourhome #sellertips #realestatetips #homeselling #socalrealestate'
+status: {}
+media:
+  instagram: queue/2026-11-02/media/r2-instagram.mp4
+  facebook: queue/2026-11-02/media/r2-facebook.mp4
+  linkedin: queue/2026-11-02/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-02/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-02T10:08-08:00
+  instagram: 2026-11-02T10:10-08:00
+  linkedin: 2026-11-02T10:11-08:00
+  tiktok: 2026-11-02T10:11-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: grid
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: silver
+    deco: corners
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: aurum
+    deco: frame
+    side: left
+    center: false
+    template: checklist
+  tiktok:
+    theme: graphite
+    deco: dots
+    side: left
+    center: false
+    template: checklist

@@ -27,8 +27,7 @@ captions:
     Five things go in it, roughly in this order:
 
 
-    Income, and whether it holds up. Assets, and how long they''ve been where they are. Debts, all of
-    them. Credit, pulled by the lender. Then the property itself, once you''re in contract.
+    Income, and whether it holds up. Assets, and how long they''ve been where they are. Debts, all of them. Credit, pulled by the lender. Then the property itself, once you''re in contract.
 
 
     The last one surprises people. The house gets underwritten too.
@@ -38,36 +37,28 @@ captions:
 
 
     #FirstTimeHomeBuyer #MortgageTips #LongBeachRealEstate #SouthBayHomes #HomeBuying #SoCalRealEstate'
-  facebook: '"What do they actually look at?" I get this one constantly, and the answer is less mysterious
-    than people expect.
+  facebook: '"What do they actually look at?" I get this one constantly, and the answer is less mysterious than people expect.
 
 
     A lender is assembling a file with five parts.
 
 
-    Income. Pay stubs, W-2s, or returns if you''re self-employed. They care as much about how steady it
-    is as how big it is.
+    Income. Pay stubs, W-2s, or returns if you''re self-employed. They care as much about how steady it is as how big it is.
 
 
-    Assets. Where the down payment and your cushion are sitting, and how long they''ve been sitting there.
-    Money that showed up last week gets questions.
+    Assets. Where the down payment and your cushion are sitting, and how long they''ve been sitting there. Money that showed up last week gets questions.
 
 
-    Debts. Every monthly payment on your credit report. Not the ones you think are significant, all of
-    them.
+    Debts. Every monthly payment on your credit report. Not the ones you think are significant, all of them.
 
 
-    Credit. The lender pulls its own report. The number in your banking app is a useful ballpark and it
-    is not the number they''ll use.
+    Credit. The lender pulls its own report. The number in your banking app is a useful ballpark and it is not the number they''ll use.
 
 
-    And then the property. People forget this one. Once you''re in contract, the house gets an appraisal
-    and a title search. You can be perfectly approved and still have the deal turn on what the appraiser
-    or the title company finds.
+    And then the property. People forget this one. Once you''re in contract, the house gets an appraisal and a title search. You can be perfectly approved and still have the deal turn on what the appraiser or the title company finds.
 
 
-    None of this is a test you pass by being impressive. It''s paperwork that either lines up or doesn''t,
-    and most of the "doesn''t" is fixable if you find it early.
+    None of this is a test you pass by being impressive. It''s paperwork that either lines up or doesn''t, and most of the "doesn''t" is fixable if you find it early.
 
 
     General information, not lending advice, and your loan officer is the one who can speak to your file.
@@ -77,8 +68,7 @@ captions:
 
 
     #MortgageTips #FirstTimeHomeBuyer'
-  linkedin: 'Buyers consistently misread the underwriting process as an evaluation of them. It is closer
-    to document reconciliation.
+  linkedin: 'Buyers consistently misread the underwriting process as an evaluation of them. It is closer to document reconciliation.
 
 
     Five components, in rough sequence:
@@ -86,23 +76,19 @@ captions:
 
     1. Income. Pay stubs, W-2s or tax returns, assessed for stability as much as amount.
 
-    2. Assets. The source and seasoning of the down payment and reserves. Recently deposited funds invite
-    documentation requests.
+    2. Assets. The source and seasoning of the down payment and reserves. Recently deposited funds invite documentation requests.
 
     3. Debts. Every recurring obligation on the credit report, not a self-reported subset.
 
-    4. Credit. A report the lender pulls directly. Consumer app scores are directional, not the figure
-    used in the decision.
+    4. Credit. A report the lender pulls directly. Consumer app scores are directional, not the figure used in the decision.
 
     5. The property. Appraisal and title work, after the contract is signed.
 
 
-    The fifth is where otherwise-clean approvals come apart, and it is the one buyers are least prepared
-    for, because it has nothing to do with their file at all.
+    The fifth is where otherwise-clean approvals come apart, and it is the one buyers are least prepared for, because it has nothing to do with their file at all.
 
 
-    The practical takeaway for anyone advising buyers: surface items 1 through 3 before the offer, not
-    after. Most problems there are solvable with time, and time is what an active contract removes.
+    The practical takeaway for anyone advising buyers: surface items 1 through 3 before the offer, not after. Most problems there are solvable with time, and time is what an active contract removes.
 
 
     General information, not lending advice.
@@ -112,5 +98,40 @@ captions:
 
 
     #RealEstate #Mortgage #HomeBuying'
-  tiktok: 'Income, assets, debts, credit, then the house itself. That last one gets underwritten too.
-    #firsttimehomebuyer #mortgagetips #realestatetips #homebuying #socalrealestate'
+  tiktok: 'Income, assets, debts, credit, then the house itself. That last one gets underwritten too. #firsttimehomebuyer #mortgagetips #realestatetips #homebuying #socalrealestate'
+status: {}
+media:
+  instagram: queue/2026-11-02/media/r1-instagram.mp4
+  facebook: queue/2026-11-02/media/r1-facebook.mp4
+  linkedin: queue/2026-11-02/media/r1-linkedin.mp4
+  tiktok: queue/2026-11-02/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-11-02T09:02-08:00
+  instagram: 2026-11-02T09:10-08:00
+  linkedin: 2026-11-02T09:10-08:00
+  tiktok: 2026-11-02T09:03-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: monogram
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: ivory
+    deco: beam
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: graphite
+    deco: split
+    side: left
+    center: false
+    template: process
+  tiktok:
+    theme: aurum
+    deco: monogram
+    side: left
+    center: false
+    template: process

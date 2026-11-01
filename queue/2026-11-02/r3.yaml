@@ -18,41 +18,32 @@ captions:
   instagram: '"My neighbor got X" is not a price. It might not even be a comp.
 
 
-    A comp has to be three things at once: recent, similar, and nearby. Drop any one of them and it stops
-    being useful.
+    A comp has to be three things at once: recent, similar, and nearby. Drop any one of them and it stops being useful.
 
 
-    Bigger house? Not similar. Sold two years ago? Not recent. Different side of the boulevard? Maybe
-    not nearby.
+    Bigger house? Not similar. Sold two years ago? Not recent. Different side of the boulevard? Maybe not nearby.
 
 
     It''s an estimate, not an appraisal. DM me ''VALUE'' and I''ll pull your actual comp set.
 
 
     #HomeValue #LongBeachRealEstate #SouthBayHomes #SellingYourHome #SellerTips #SoCalRealEstate'
-  facebook: 'Every seller has a number in their head, and most of the time it came from one neighbor''s
-    sale.
+  facebook: 'Every seller has a number in their head, and most of the time it came from one neighbor''s sale.
 
 
-    Here''s the problem with that. A comparable sale has to clear three tests at the same time: recent,
-    similar, nearby. Miss one and it isn''t telling you what you think it''s telling you.
+    Here''s the problem with that. A comparable sale has to clear three tests at the same time: recent, similar, nearby. Miss one and it isn''t telling you what you think it''s telling you.
 
 
     Recent, because the market you''re selling into is this month''s, not the one from two years ago.
 
 
-    Similar, because square footage, bed and bath count, lot, condition and upgrades all move the number.
-    A house with 600 more square feet is not your comp, it''s a different product.
+    Similar, because square footage, bed and bath count, lot, condition and upgrades all move the number. A house with 600 more square feet is not your comp, it''s a different product.
 
 
-    Nearby, and nearby is smaller than people assume. A few blocks can cross into a different school boundary,
-    a different tax area, or just a street people perceive differently. Appraisers take that seriously
-    and so should you.
+    Nearby, and nearby is smaller than people assume. A few blocks can cross into a different school boundary, a different tax area, or just a street people perceive differently. Appraisers take that seriously and so should you.
 
 
-    This is also why the comp set matters beyond your list price. When your buyer''s lender sends an appraiser,
-    that appraiser builds a value from comps too. If your price only works against one generous outlier,
-    that''s the conversation you''ll be having three weeks into escrow instead of before you list.
+    This is also why the comp set matters beyond your list price. When your buyer''s lender sends an appraiser, that appraiser builds a value from comps too. If your price only works against one generous outlier, that''s the conversation you''ll be having three weeks into escrow instead of before you list.
 
 
     Any number I give you is an estimate, not an appraisal.
@@ -62,27 +53,20 @@ captions:
 
 
     #HomeValue #SellerTips'
-  linkedin: 'Pricing conversations usually open with a single data point: a neighbor''s recent sale. It
-    is worth being precise about when that data point qualifies as a comparable.
+  linkedin: 'Pricing conversations usually open with a single data point: a neighbor''s recent sale. It is worth being precise about when that data point qualifies as a comparable.
 
 
-    A comp must satisfy three conditions simultaneously: recency, similarity and proximity. Failing any
-    one disqualifies it.
+    A comp must satisfy three conditions simultaneously: recency, similarity and proximity. Failing any one disqualifies it.
 
 
     Recency, because the relevant market is the current one.
 
-    Similarity, because square footage, configuration, lot, condition and upgrades each move value independently.
-    A materially larger home is a different product, not a comparable.
+    Similarity, because square footage, configuration, lot, condition and upgrades each move value independently. A materially larger home is a different product, not a comparable.
 
-    Proximity, and the useful radius is narrower than most sellers assume. Boundaries that appear arbitrary
-    on a map can carry real pricing differences.
+    Proximity, and the useful radius is narrower than most sellers assume. Boundaries that appear arbitrary on a map can carry real pricing differences.
 
 
-    The reason this matters past the list price: the buyer''s appraiser constructs an opinion of value
-    from comps as well. A price that only clears against a single favourable outlier tends to be re-litigated
-    during escrow, when the seller has the least leverage and the fewest options. Testing the price against
-    the full comp set before listing is the cheaper version of that conversation.
+    The reason this matters past the list price: the buyer''s appraiser constructs an opinion of value from comps as well. A price that only clears against a single favourable outlier tends to be re-litigated during escrow, when the seller has the least leverage and the fewest options. Testing the price against the full comp set before listing is the cheaper version of that conversation.
 
 
     Any resulting figure is an estimate, not an appraisal.
@@ -92,5 +76,40 @@ captions:
 
 
     #RealEstate #HomeValue #SellerTips'
-  tiktok: 'A comp has to be recent, similar AND nearby. Miss one and it''s not a comp. #homevalue #sellertips
-    #realestatetips #sellingyourhome #socalrealestate'
+  tiktok: 'A comp has to be recent, similar AND nearby. Miss one and it''s not a comp. #homevalue #sellertips #realestatetips #sellingyourhome #socalrealestate'
+status: {}
+media:
+  instagram: queue/2026-11-02/media/r3-instagram.mp4
+  facebook: queue/2026-11-02/media/r3-facebook.mp4
+  linkedin: queue/2026-11-02/media/r3-linkedin.mp4
+  tiktok: queue/2026-11-02/media/r3-tiktok.mp4
+schedule:
+  facebook: 2026-11-02T11:09-08:00
+  instagram: 2026-11-02T11:11-08:00
+  linkedin: 2026-11-02T11:10-08:00
+  tiktok: 2026-11-02T11:06-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: split
+    side: left
+    center: false
+    template: explainer
+  facebook:
+    theme: graphite
+    deco: glow
+    side: left
+    center: false
+    template: explainer
+  linkedin:
+    theme: porcelain
+    deco: beam
+    side: left
+    center: false
+    template: explainer
+  tiktok:
+    theme: ivory
+    deco: monogram
+    side: left
+    center: false
+    template: explainer
