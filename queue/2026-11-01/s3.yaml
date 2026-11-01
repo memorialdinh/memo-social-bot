@@ -16,7 +16,11 @@ design:
   cta: Reply 'VALUE' if you checked 3
 sources:
 - https://www.boe.ca.gov/pdf/pub800-6.pdf
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17988937304881822'
+    at: '2026-11-01T12:51:30-08:00'
 media:
   instagram: queue/2026-11-01/media/s3-instagram.jpg
   facebook: queue/2026-11-01/media/s3-facebook.jpg
