@@ -18,7 +18,15 @@ design:
   cta: 'Find one: theprestige.luxe/events'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18118205932800628'
+    at: '2026-11-02T07:58:10-08:00'
+  facebook:
+    state: posted
+    id: '3100059753686789'
+    at: '2026-11-02T07:58:16-08:00'
 media:
   instagram: queue/2026-11-02/media/s5-instagram.jpg
   facebook: queue/2026-11-02/media/s5-facebook.jpg
