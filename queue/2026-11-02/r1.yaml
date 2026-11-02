@@ -99,7 +99,19 @@ captions:
 
     #RealEstate #Mortgage #HomeBuying'
   tiktok: 'Income, assets, debts, credit, then the house itself. That last one gets underwritten too. #firsttimehomebuyer #mortgagetips #realestatetips #homebuying #socalrealestate'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18109116542180918'
+    at: '2026-11-02T10:07:06-08:00'
+  facebook:
+    state: posted
+    id: '1146118724536355'
+    at: '2026-11-02T10:07:14-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7523083344696500225
+    at: '2026-11-02T10:07:22-08:00'
 media:
   instagram: queue/2026-11-02/media/r1-instagram.mp4
   facebook: queue/2026-11-02/media/r1-facebook.mp4
