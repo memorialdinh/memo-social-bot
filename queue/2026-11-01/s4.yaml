@@ -11,7 +11,11 @@ design:
   myth: I have to sell before I can buy.
   fact: Sale contingency. Rent-back after closing. Carrying both a while. Each costs something different.
   cta: Reply 'SELLER' for the order
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18109202273363802'
+    at: '2026-11-01T19:52:52-08:00'
 media:
   instagram: queue/2026-11-01/media/s4-instagram.jpg
   facebook: queue/2026-11-01/media/s4-facebook.jpg
