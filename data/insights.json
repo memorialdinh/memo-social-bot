@@ -1,71 +1,71 @@
 {
-  "updated": "2026-11-01T06:17-08:00",
+  "updated": "2026-11-01T18:30-08:00",
   "scores": {
     "track:untagged": {
-      "posts": 98,
-      "avg_rate": 0.0316,
-      "avg_eng": 5.0,
+      "posts": 101,
+      "avg_rate": 0.0306,
+      "avg_eng": 4.8,
       "avg_save_rate": 0.0004,
-      "avg_share_rate": 0.0006
+      "avg_share_rate": 0.0005
     },
     "kind:reel": {
-      "posts": 49,
-      "avg_rate": 0.0348,
-      "avg_eng": 5.9,
+      "posts": 52,
+      "avg_rate": 0.0327,
+      "avg_eng": 5.6,
       "avg_save_rate": 0.0005,
-      "avg_share_rate": 0.0011
+      "avg_share_rate": 0.001
     },
     "platform:instagram": {
-      "posts": 128,
-      "avg_rate": 0.025,
-      "avg_eng": 3.8,
+      "posts": 135,
+      "avg_rate": 0.0237,
+      "avg_eng": 3.6,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0004
     },
     "kind:post": {
-      "posts": 87,
-      "avg_rate": 0.0146,
-      "avg_eng": 2.3,
+      "posts": 90,
+      "avg_rate": 0.0141,
+      "avg_eng": 2.2,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0
     },
     "platform:facebook": {
-      "posts": 48,
-      "avg_rate": 0.0017,
+      "posts": 51,
+      "avg_rate": 0.0016,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "kind:story": {
-      "posts": 40,
-      "avg_rate": 0.0077,
+      "posts": 44,
+      "avg_rate": 0.007,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:seller_education": {
-      "posts": 15,
-      "avg_rate": 0.001,
+      "posts": 17,
+      "avg_rate": 0.0009,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:market_update": {
-      "posts": 13,
-      "avg_rate": 0.0022,
+      "posts": 14,
+      "avg_rate": 0.002,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:tip": {
-      "posts": 31,
-      "avg_rate": 0.0024,
+      "posts": 32,
+      "avg_rate": 0.0023,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:ivory": {
-      "posts": 8,
+      "posts": 9,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -86,36 +86,36 @@
       "avg_share_rate": 0.0
     },
     "track:buyer_education": {
-      "posts": 16,
-      "avg_rate": 0.0026,
+      "posts": 19,
+      "avg_rate": 0.002,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:goldrush": {
-      "posts": 12,
-      "avg_rate": 0.0062,
+      "posts": 13,
+      "avg_rate": 0.0056,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:stat": {
-      "posts": 9,
+      "posts": 10,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:noir": {
-      "posts": 12,
-      "avg_rate": 0.0021,
+      "posts": 13,
+      "avg_rate": 0.0017,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:silver": {
-      "posts": 14,
-      "avg_rate": 0.0042,
+      "posts": 15,
+      "avg_rate": 0.0039,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -128,16 +128,16 @@
       "avg_share_rate": 0.0
     },
     "track:investment": {
-      "posts": 6,
+      "posts": 7,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:myth": {
-      "posts": 5,
-      "avg_rate": 0.0092,
-      "avg_eng": 0.4,
+      "posts": 6,
+      "avg_rate": 0.0075,
+      "avg_eng": 0.3,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
@@ -184,21 +184,21 @@
       "avg_share_rate": 0.0
     },
     "theme:slate": {
-      "posts": 5,
+      "posts": 6,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:porcelain": {
-      "posts": 8,
+      "posts": 9,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:aurum": {
-      "posts": 5,
+      "posts": 6,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -206,13 +206,13 @@
     },
     "template:process": {
       "posts": 2,
-      "avg_rate": 0.0125,
+      "avg_rate": 0.0111,
       "avg_eng": 0.5,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:quiz": {
-      "posts": 5,
+      "posts": 6,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -233,7 +233,7 @@
       "avg_share_rate": 0.0
     },
     "template:checklist": {
-      "posts": 5,
+      "posts": 7,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -247,7 +247,7 @@
       "avg_share_rate": 0.0
     },
     "template:explainer": {
-      "posts": 2,
+      "posts": 3,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -255,10 +255,10 @@
     }
   },
   "directives": [
-    "Write an extra Untagged piece and one fewer Investor Math piece. Untagged earns 3.2% vs 0.0% over the last 60 days (98 vs 6 posts).",
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 3.5% against 1.5% for static posts.",
+    "Write an extra Untagged piece and one fewer Investor Math piece. Untagged earns 3.1% vs 0.0% over the last 60 days (101 vs 7 posts).",
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 3.3% against 1.4% for static posts.",
     "Untagged gets saved the most (0.04% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
-    "Stop using the 'checklist' template for now \u2014 it runs at 0.0% against 'myth' at 0.9%."
+    "Stop using the 'checklist' template for now \u2014 it runs at 0.0% against 'myth' at 0.8%."
   ],
   "tips": [
     "Best-performing look: goldrush (0.6%). Weakest: aurum (0.0%).",
@@ -267,13 +267,13 @@
   "followers": {
     "instagram": {
       "first": 817,
-      "latest": 815,
-      "change": -2
+      "latest": 816,
+      "change": -1
     },
     "facebook": {
       "first": 217,
-      "latest": 288,
-      "change": 71
+      "latest": 287,
+      "change": 70
     }
   },
   "note": "directives are mandatory for the content writer; tips are advisory",
