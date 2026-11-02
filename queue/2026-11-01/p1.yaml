@@ -79,7 +79,19 @@ captions:
 sources:
 - https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/
 - https://www.freddiemac.com/pmms
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18143960890524230'
+    at: '2026-11-01T20:57:07-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1160696010291164'
+    at: '2026-11-01T20:57:11-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7522884494035709952
+    at: '2026-11-01T20:57:12-08:00'
 media:
   instagram: queue/2026-11-01/media/p1-instagram.jpg
   facebook: queue/2026-11-01/media/p1-facebook.jpg
