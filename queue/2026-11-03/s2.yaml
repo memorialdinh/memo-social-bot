@@ -11,3 +11,23 @@ design:
   setup: '"All five rooms this weekend."'
   punch: 'Sunday night: *one accent wall.*'
   cta: Reply 'SELLER' before you paint
+status: {}
+media:
+  instagram: queue/2026-11-03/media/s2-instagram.jpg
+  facebook: queue/2026-11-03/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-03T12:02-08:00
+  instagram: 2026-11-03T10:03-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: grid
+    side: right
+    center: false
+    template: meme
+  facebook:
+    theme: goldrush
+    deco: arcs
+    side: right
+    center: true
+    template: meme

@@ -76,3 +76,39 @@ captions:
 
     #RealEstate #HomeSelling #ListingStrategy'
   tiktok: 'You can''t really reset days on market. Price cuts don''t, failed escrows don''t, relisting mostly doesn''t. #homeselling #listingstrategy #realestatetips #socalrealestate'
+status: {}
+media:
+  instagram: queue/2026-11-03/media/r2-instagram.mp4
+  facebook: queue/2026-11-03/media/r2-facebook.mp4
+  linkedin: queue/2026-11-03/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-03/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-03T10:07-08:00
+  instagram: 2026-11-03T10:02-08:00
+  linkedin: 2026-11-03T10:09-08:00
+  tiktok: 2026-11-03T10:03-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: frame
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: porcelain
+    deco: glow
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: carbon
+    deco: frame
+    side: left
+    center: false
+    template: process
+  tiktok:
+    theme: ivory
+    deco: halo
+    side: left
+    center: false
+    template: process

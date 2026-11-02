@@ -75,3 +75,39 @@ captions:
 
     #RealEstate #HomeBuying #Negotiation'
   tiktok: 'Escalation clause or just offer more? One hides your ceiling, one reveals it. #homebuying #multipleoffers #firsttimehomebuyer #realestatetips'
+status: {}
+media:
+  instagram: queue/2026-11-03/media/r3-instagram.mp4
+  facebook: queue/2026-11-03/media/r3-facebook.mp4
+  linkedin: queue/2026-11-03/media/r3-linkedin.mp4
+  tiktok: queue/2026-11-03/media/r3-tiktok.mp4
+schedule:
+  facebook: 2026-11-03T11:02-08:00
+  instagram: 2026-11-03T11:03-08:00
+  linkedin: 2026-11-03T11:10-08:00
+  tiktok: 2026-11-03T11:06-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: halo
+    side: left
+    center: false
+    template: compare
+  facebook:
+    theme: ivory
+    deco: halo
+    side: left
+    center: false
+    template: compare
+  linkedin:
+    theme: slate
+    deco: dots
+    side: left
+    center: false
+    template: compare
+  tiktok:
+    theme: noir
+    deco: arcs
+    side: left
+    center: false
+    template: compare

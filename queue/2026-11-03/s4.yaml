@@ -15,3 +15,23 @@ design:
   explain: The count keeps running. Rules vary by MLS.
   reveal: false
   cta: Reply 'SELLER' with A or B
+status: {}
+media:
+  instagram: queue/2026-11-03/media/s4-instagram.jpg
+  facebook: queue/2026-11-03/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-11-03T20:04-08:00
+  instagram: 2026-11-03T19:11-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: halo
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: porcelain
+    deco: corners
+    side: left
+    center: false
+    template: quiz

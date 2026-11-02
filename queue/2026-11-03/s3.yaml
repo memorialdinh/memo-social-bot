@@ -15,3 +15,23 @@ design:
   explain: The lender's covers the loan. Yours covers your ownership.
   reveal: false
   cta: Reply 'BUYER' with A or B
+status: {}
+media:
+  instagram: queue/2026-11-03/media/s3-instagram.jpg
+  facebook: queue/2026-11-03/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-03T19:08-08:00
+  instagram: 2026-11-03T12:05-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: corners
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: carbon
+    deco: split
+    side: right
+    center: false
+    template: quiz
