@@ -1,0 +1,11 @@
+id: s1
+kind: story
+track: motivation
+topic: Teaser for p1 the real number beats a bigger budget
+time: auto
+approved: true
+design:
+  template: quote
+  kicker: CLARITY
+  quote: You don't need a bigger budget. You need the real number.
+  cta: Reply 'BUYER' to run yours

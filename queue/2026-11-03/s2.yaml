@@ -1,0 +1,13 @@
+id: s2
+kind: story
+track: humor
+topic: Teaser for p2 the five rooms and one accent wall
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: We'll just *paint it* ourselves.
+  setup: '"All five rooms this weekend."'
+  punch: 'Sunday night: *one accent wall.*'
+  cta: Reply 'SELLER' before you paint

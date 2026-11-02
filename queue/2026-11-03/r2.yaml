@@ -1,0 +1,78 @@
+id: r2
+kind: reel
+track: seller_education
+topic: What resets days on market and what does not
+time: auto
+approved: true
+design:
+  template: process
+  kicker: SELLER TIP
+  headline: What actually *resets* days on market.
+  steps:
+  - when: Price change
+    title: Does not reset
+    detail: The count keeps running. Only the price changes.
+  - when: Back on market
+    title: Does not reset
+    detail: A fallen-through escrow returns the listing with its history.
+  - when: Cancel and relist
+    title: Looks new, isn't
+    detail: Most MLSs keep the prior listing visible to agents.
+  - when: Ask first
+    title: Rules vary by MLS
+    detail: Your agent can tell you what yours does.
+  cta: Comment 'SELLER' for my pricing plan
+captions:
+  instagram: 'Sellers ask how to reset days on market. Usually, you can''t.
+
+
+    Drop the price: the count keeps running.
+
+    Deal falls out of escrow: it comes back with its history.
+
+    Cancel and relist as new: most MLSs still show agents the prior listing.
+
+
+    Which is fine. A high day count isn''t a verdict. What buyers read is the price-change pattern sitting next to it.
+
+
+    Comment ''SELLER'' and I''ll show you how it reads from the buyer''s side.
+
+
+    #HomeSelling #ListingStrategy #LongBeachRealEstate #SouthBayHomes #LakewoodCA #RealEstateTips'
+  facebook: 'One of the most common seller questions: can we reset days on market?
+
+
+    Short answer, usually no.
+
+
+    A price change doesn''t reset it. The count keeps running and the listing simply shows a new price. Coming back after a failed escrow doesn''t reset it either, the listing returns carrying its history. And cancelling in order to relist as a brand new listing is the one people really ask about. In most MLSs the prior listing stays visible to agents, so the buyer''s agent sees it even when the public portals look fresh.
+
+
+    The rules do vary by MLS, so your agent can tell you exactly what yours does.
+
+
+    Here''s the part I''d rather talk about. A long day count on its own doesn''t scare an experienced buyer''s agent. What they read is the pattern next to it: how the price moved, how often, and how the listing was presented at each step. That''s the story, not the number.
+
+
+    If you''ve sold before, did anyone explain how your days on market would be tracked?
+
+
+    #HomeSelling #RealEstateTips'
+  linkedin: 'Days on market is one of the most misread figures on a listing, by sellers and sometimes by agents.
+
+
+    What doesn''t reset it: a price reduction, which leaves the count running. A return from a cancelled escrow, which comes back with its history attached. A cancel-and-relist, which looks new on the public portals while most MLSs keep the prior listing visible to cooperating agents. Specific rules vary by MLS.
+
+
+    What the figure actually communicates is less about duration than about pattern. A listing that sat because it opened above the comparable sales and then corrected in two steps reads differently from one that sat with no change at all. Experienced buyer agents read the price history, not the headline number.
+
+
+    The practical takeaway for sellers is that the first price does most of the work, because it''s the one decision you can''t take back cleanly.
+
+
+    How much weight do you give days on market when advising on an offer?
+
+
+    #RealEstate #HomeSelling #ListingStrategy'
+  tiktok: 'You can''t really reset days on market. Price cuts don''t, failed escrows don''t, relisting mostly doesn''t. #homeselling #listingstrategy #realestatetips #socalrealestate'

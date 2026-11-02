@@ -1,0 +1,17 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r1 quiz on which title policy protects your equity
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Which title policy protects *your* equity?
+  options:
+  - The lender's policy
+  - The owner's policy
+  answer: B
+  explain: The lender's covers the loan. Yours covers your ownership.
+  reveal: false
+  cta: Reply 'BUYER' with A or B

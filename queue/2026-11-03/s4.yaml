@@ -1,0 +1,17 @@
+id: s4
+kind: story
+track: seller_education
+topic: Teaser for r2 quiz on whether a price cut resets days on market
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Does a price cut *reset* days on market?
+  options:
+  - Yes, it starts over
+  - No, the count continues
+  answer: B
+  explain: The count keeps running. Rules vary by MLS.
+  reveal: false
+  cta: Reply 'SELLER' with A or B
