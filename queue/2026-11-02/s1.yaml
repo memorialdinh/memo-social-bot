@@ -18,7 +18,11 @@ design:
   cta: Reply 'MATH' for the plan terms
 sources:
 - https://joinepique.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18279802576306419'
+    at: '2026-11-02T09:01:55-08:00'
 media:
   instagram: queue/2026-11-02/media/s1-instagram.jpg
   facebook: queue/2026-11-02/media/s1-facebook.jpg
