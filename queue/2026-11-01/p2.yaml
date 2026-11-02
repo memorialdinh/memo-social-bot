@@ -67,7 +67,19 @@ captions:
   tiktok: '30-year fixed: 7.24% week ending Oct 29. Lowest this month. Still a point above last year. #mortgagerates #housingmarket #realestatetips #socalrealestate'
 sources:
 - https://www.freddiemac.com/pmms
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18040345019839119'
+    at: '2026-11-01T21:59:37-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1160733303620768'
+    at: '2026-11-01T21:59:42-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7522900230049243137
+    at: '2026-11-01T21:59:43-08:00'
 media:
   instagram: queue/2026-11-01/media/p2-instagram.jpg
   facebook: queue/2026-11-01/media/p2-facebook.jpg
