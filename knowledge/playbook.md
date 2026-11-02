@@ -97,45 +97,52 @@ These are not optional and they are not footnotes. A post that breaks one doesn'
 
 ## 6. What actually works, from Memo's own numbers
 
-Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. As of Oct 25, 2026:
+Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. **As of Nov 1, 2026.**
 
-- **Reels beat static posts** — 4.3% vs 3.1% engagement rate over 60 days (37 reels, 41 posts).
-- **Instagram beats Facebook about 4×** — 4.3% vs 1.0%. *Corrected Oct 25: this file previously said
-  ~2.5× (4.1% vs 1.3%). The 60-day numbers say the gap is wider than that.* Facebook is worth
-  posting, not worth optimising, and not worth a second caption pass when time is short.
-- **Best hours — rewritten Oct 28, 2026 after a full timing audit** (`knowledge/timing-notes.md`;
-  98 Instagram posts, May–Oct). *This file previously said "Instagram ~9am and ~9pm; Facebook ~12pm
-  and 8–9pm." The Facebook half was noise on a near-zero base and is withdrawn.*
-  - **1–5pm is Instagram's worst window: 3.5 engagements/post against 6.3–8.3 everywhere else**, on
-    the lowest reach and views too. `avoid_hours` in config.yaml now keeps everything out of it.
-  - **Reels peak 9am–12pm** (8.4 eng/post). **Static posts peak 6–11pm** (13.6, n=5 — directional)
-    and are at their *worst* 9am–12pm (2.5). The two formats want different hours; config.yaml has
-    `reel_hours` and `post_hours` for this.
-  - **Facebook has no best hour.** Median reach 2 across 119 posts. Don't optimise its timing.
-  - **LinkedIn and TikTok timing is unmeasured** — 0 analytics rows each. They inherit Instagram's
-    windows as a guess. Don't claim a finding for them.
-  - **Instagram's own online-followers curve peaks 1–7pm, i.e. at the worst window.** "Post when
-    your audience is online" is wrong for this account; it used to be wired into `best_times()` and
-    was pulling posts into the afternoon. Removed.
-  - **Posts land ~28 minutes late on median, up to 91** (GitHub Actions cron). Treat the schedule as
-    hour-level precision at best.
-- **Reach is the binding constraint, not format.** Oct 19–25: 38 items published, 1,316 total reach,
-  28 total engagements, and **zero saves and zero shares all week** — including the two pieces built
-  to be saved (an open-house cheat sheet and a closing-costs list). Facebook that week: 15 posts, 65
-  people reached in total, 1 engagement. Keep writing one save-built piece a week, but do not read a
-  flat save count as a format failure. Nothing gets saved by people who never see it.
-- **Followers are flat, not falling** — 817 Instagram and 217 Facebook, unchanged across the
-  measured window. The account is stable and small. Growth has to come from reach and shares.
-- **His personal content outperforms everything the bot can make.** The fitness and weight-loss
-  journey, showing days, escrow wins, family. ~80% skip rate on polished recruiting graphics by
-  contrast. **The bot cannot produce this — it needs his camera.** Educational content is the
-  reliable floor; his own footage is the ceiling. Mentor should remind him of this, specifically,
-  when a week looks flat.
-- **There is no track, template or theme evidence yet, and Mentor must not invent any.** The
-  `track`, `template` and `theme` columns are empty on essentially every historical row in
-  `posts.csv` — 82 of the scored posts sit in `track:untagged`, and the only tagged track
-  (`seller_education`) has 2 posts. The bot started tagging its own output Oct 24, 2026. Until a
-  track has 4+ posts, "this track works" is not a finding. Say the data is thin instead.
+- **The whole account is reach-starved, and that is the finding that explains every other one.**
+  Oct 26–Nov 1: 87 published rows, **2,101 total reach, 39 engagements, 1 save, 0 shares** across
+  both platforms for the entire week. Treat almost every per-template and per-track 0.0% in
+  `insights.json` as a reach reading, not a content reading.
+- **Memo's own camera content is not competing with the bot — it is in a different league.**
+  Same week: his **24 untagged rows took 35 of the week's 39 engagements**; the bot's **63 tagged
+  rows took 4.** His top two were a no-caption post (11 engagements, 105 reach, 10.5%) and a family
+  reel (9 engagements). The fitness journey, showing days, escrow wins, family. **The bot cannot
+  make this — it needs his camera.** Educational content is the reliable floor; his footage is the
+  ceiling. Say so when a week looks flat.
+- **Reels beat posts beat stories, confirmed again.** Oct 26–Nov 1 engagements per item:
+  reels **1.39**, posts **0.28**, stories **0.10**. Over 60 days `kind:reel` is 3.5% against 1.5%
+  for static posts. The 3-reels-2-posts directive has evidence behind it; apply it.
+- **Facebook is finished as a reach channel.** Oct 26–Nov 1: **27 posts, 8 total reach, 0
+  engagements** — down from the 15-posts/65-reach week recorded Oct 25. `best_times.json` won't
+  even rank it (median reach 2 over 133 posts). Keep posting, never optimise, never spend a second
+  caption pass on it.
+- **Follower counts are not the signal here.** Instagram 817 → 815 across the week. Facebook
+  217 → **288 (+71)** while Facebook reach stayed at ~0 — recorded as a fact, not explained, and
+  **not to be cited as growth** in any content or report.
+- **`quote` is not a reach problem, and the directive that banned it was reading noise.** Last
+  week's two `quote` posts took the **highest and eighth-highest reach of all 51 bot items** (66
+  and 47) on zero engagement. On an account where almost nothing earns an engagement, a 0.0%
+  engagement rate cannot distinguish templates. *Changed Nov 1: the motivational register is
+  restored to the plan at two `quote` pieces a week.*
+- **The queue is written TWO days ahead of publication, not one.** Three commits confirm it:
+  Oct 29 eve → Oct 31, Oct 30 eve → Nov 1, Oct 31 eve → Nov 2. This has two consequences, and
+  both are now in the plan: a Mon–Sat plan starves Scribe of a row on two nights a week (extend it
+  through Sunday), and **the fresh-rate piece belongs on Saturday** — see §7 rule 4.
+- **One fetch per day, and give it to the item that has a same-day rule.** Four consecutive Scribe
+  runs got exactly **one** successful web fetch — the first of the run — then `PROVENANCE_REQUIRED`
+  on every later domain, because an unattended run has nobody to answer the permission prompt.
+  Plan at most one source-dependent item a day and make everything else evergreen. **This is an
+  operator fix** — pre-approving the brief's named source domains would end it — and it has now
+  cost two Spotlights and three topics outright.
+- **The dateless-figure defect has not recurred.** Every graphic published Oct 26–Nov 1 that
+  carried a market figure carried its period on the graphic. The Oct 25 failure (a p2 graphic and
+  an s4 story with bare numbers) is fixed. Keep the sweep in every run.
+- **There is still no track, template or theme finding, and Mentor must not invent one.** 99
+  historical rows sit in `track:untagged` with an empty `track` column; the tagged tracks all read
+  at or near 0.0% on 1–16 posts. Until a track has 4+ posts *and* the account has reach worth
+  measuring, "this track works" is not a finding. Say the data is thin instead. The recurring
+  "write an extra Untagged piece" directive is an artifact of this bucket, not an instruction that
+  can be followed — it needs the analytics job to exclude `track:untagged`.
 
 ## 7. Standing rules for Mentor
 
@@ -143,9 +150,12 @@ Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. As o
    May 2026 in `data/posts.csv`, which predates this bot.
 2. Balance the week across audiences in section 3 — not five buyer posts in a row.
 3. Keep one meme most days and roughly two motivational pieces a week.
-4. Put anything needing fresh rates on Thursday. **Correction, Oct 28 2026:** Scribe writes the
-   night before and Freddie Mac PMMS publishes Thursday at noon ET, so a Thursday "this morning's
-   release" row is unwritable. Put the fresh-rate piece on **Friday** instead.
+4. **The fresh-rate piece goes on SATURDAY.** PMMS publishes Thursdays at noon ET. The Oct 28
+   correction moved the rate row off Thursday to Friday on the belief that Scribe writes the night
+   before; **measured Nov 1, it writes two days before** (§6), so Friday's queue is written
+   Wednesday evening — still ahead of the print. Saturday's queue is written Thursday evening,
+   after it. If the print hasn't advanced, don't rerun last week's number: the brief only permits
+   repeating a rate update that "carries a new weekly number." Swap in a banked topic instead.
 5. When the data contradicts this playbook, the data wins — and update this file to say so.
 6. **Memo's format ask (Oct 28, 2026): "more tips, education, process, questionnaire and CTA",
    in a more luxury design.** Plan every day with at least one `process` piece, one questionnaire
@@ -153,6 +163,13 @@ Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. As o
    next step on everything. One `cta` offer card a week (the 15-minute call). Name the template in
    the angle column when it matters (e.g. "`process`: escrow, day 1 to keys"). CONTENT_BRIEF.md has
    the fields for each. Judge the new templates on saves and DMs, not likes, once 4+ of each exist.
+   **Nov 1, 2026:** when a directive tells Scribe to stop using `checklist`, meet the daily
+   questionnaire with a `quiz` instead. That satisfies Memo's ask and the directive at once, and it
+   costs nothing — last week `quiz` and `checklist` both earned zero engagements, on 118 and 82
+   reach respectively. Never drop the questionnaire itself to satisfy a template directive.
+8. **Plan one source-dependent item a day, maximum**, and give that slot to whatever has a hard
+   same-day rule — the Spotlight, or the rate piece. Mark it in the plan. Everything else should be
+   writable with the fetch wall up. See §6.
 7. **Agent attraction = a Spotlight series (Memo, Oct 28, 2026).** Every `agent_attraction` piece
    uses `template: spotlight` and spotlights ONE thing: a perk, a tool, a training, a support line,
    a cost line, an event, or (only with their written OK) an agent. Rotate through the list in
