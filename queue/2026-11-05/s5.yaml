@@ -21,7 +21,9 @@ status: {}
 media:
   instagram: queue/2026-11-05/media/s5-instagram.jpg
   facebook: queue/2026-11-05/media/s5-facebook.jpg
-schedule: {}
+schedule:
+  facebook: 2026-11-05T07:04-08:00
+  instagram: 2026-11-05T07:04-08:00
 rendered:
   instagram:
     theme: noir
