@@ -82,7 +82,19 @@ captions:
 
     #RealEstate #HomeSelling #SellerTips'
   tiktok: 'Roof age, HVAC service, permits, HOA dues, which appliances stay. Buyers ask all five in week one. #sellingyourhome #sellertips #realestatetips #homeselling #socalrealestate'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18359843026173857'
+    at: '2026-11-02T11:13:22-08:00'
+  facebook:
+    state: posted
+    id: '1061342103619317'
+    at: '2026-11-02T11:13:30-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7523100020116733952
+    at: '2026-11-02T11:13:37-08:00'
 media:
   instagram: queue/2026-11-02/media/r2-instagram.mp4
   facebook: queue/2026-11-02/media/r2-facebook.mp4

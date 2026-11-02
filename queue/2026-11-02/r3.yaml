@@ -77,7 +77,19 @@ captions:
 
     #RealEstate #HomeValue #SellerTips'
   tiktok: 'A comp has to be recent, similar AND nearby. Miss one and it''s not a comp. #homevalue #sellertips #realestatetips #sellingyourhome #socalrealestate'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18104208989561107'
+    at: '2026-11-02T11:14:09-08:00'
+  facebook:
+    state: posted
+    id: '1324890806341177'
+    at: '2026-11-02T11:14:16-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7523100214707073024
+    at: '2026-11-02T11:14:24-08:00'
 media:
   instagram: queue/2026-11-02/media/r3-instagram.mp4
   facebook: queue/2026-11-02/media/r3-facebook.mp4
