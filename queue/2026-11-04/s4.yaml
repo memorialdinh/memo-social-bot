@@ -1,0 +1,17 @@
+id: s4
+kind: story
+track: market_update
+topic: Teaser for r2 three things a county median cannot tell you
+time: auto
+approved: true
+design:
+  template: tip
+  kicker: MARKET UPDATE
+  headline: What a county median *can't* tell you.
+  points:
+  - Your street. Medians cover whole counties.
+  - Your condition. Repairs and updates aren't in it.
+  - Your timing. It reports September 2026, not today.
+  cta: DM 'VALUE' for your home's number
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales

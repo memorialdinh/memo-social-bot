@@ -1,0 +1,16 @@
+id: s1
+kind: story
+track: seller_education
+topic: Teaser for p1 checklist on whether you are ready to talk about selling in 2027
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Selling in *2027*? Check yours.
+  questions:
+  - I know roughly what my home is worth.
+  - I know what I'd fix before listing.
+  - I know where I'm going next.
+  score: Two or fewer? That's what 15 minutes is for.
+  cta: Reply 'SELLER' with your number

@@ -1,0 +1,13 @@
+id: s3
+kind: story
+track: humor
+topic: Teaser for p3 photo 23 of 40 is the garage
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: Photo 23 of *40*.
+  setup: 'Kitchen. Yard. Hallway. Kitchen again.'
+  punch: '*A corner of the garage.*'
+  cta: Follow for real talk
