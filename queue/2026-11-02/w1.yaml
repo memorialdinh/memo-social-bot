@@ -54,7 +54,19 @@ captions:
   tiktok: 'Free SoCal events calendar: markets, concerts, car shows, holiday lights. theprestige.luxe/events.html #thingstodo #longbeach #socal #orangecounty'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18100744577417768'
+    at: '2026-11-02T19:50:12-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1161656086861823'
+    at: '2026-11-02T19:50:17-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7523230048670097409
+    at: '2026-11-02T19:50:18-08:00'
 media:
   instagram: queue/2026-11-02/media/w1-instagram.jpg
   facebook: queue/2026-11-02/media/w1-facebook.jpg

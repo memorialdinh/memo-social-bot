@@ -12,7 +12,11 @@ design:
   definition: A recent, similar, nearby sale used to estimate value today.
   why: Wrong comps set the wrong price. An estimate, not an appraisal.
   cta: Reply 'VALUE' for your comp set
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18376580443211984'
+    at: '2026-11-02T19:49:58-08:00'
 media:
   instagram: queue/2026-11-02/media/s4-instagram.jpg
   facebook: queue/2026-11-02/media/s4-facebook.jpg
