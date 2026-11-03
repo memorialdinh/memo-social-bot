@@ -64,7 +64,19 @@ captions:
 
     #RealEstate #HomeBuying #TitleInsurance'
   tiktok: 'Two title policies at closing. Only one protects you, and it''s the optional one. #firsttimehomebuyer #titleinsurance #homebuying #realestate101'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18102490679356501'
+    at: '2026-11-03T09:27:39-08:00'
+  facebook:
+    state: posted
+    id: '1958869088412136'
+    at: '2026-11-03T09:27:51-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7523435822138880000
+    at: '2026-11-03T09:27:59-08:00'
 media:
   instagram: queue/2026-11-03/media/r1-instagram.mp4
   facebook: queue/2026-11-03/media/r1-facebook.mp4
