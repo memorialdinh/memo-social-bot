@@ -103,14 +103,18 @@ class Item:
         caps = self.d.get("captions") or {}
         text = (caps.get(platform) or caps.get("default") or "").strip()
         if text:
-            text = self._with_site(text)
+            text = self._with_site(text, platform)
         footer_key = "agent_compliance_footer" if self.track == "agent_attraction" else "compliance_footer"
         footer = CFG["brand"][footer_key]
         if text and "DRE" not in text:
             text = f"{text}\n\n{footer}"
         return text
 
-    def _with_site(self, text: str) -> str:
+    # Short tracked links (Nov 3 2026, Memo: see which platform sends visitors). theprestige.luxe/fb etc.
+    # redirect to the homepage with utm tags (netlify _redirects on both sites).
+    SHORT = {"facebook": "fb", "instagram": "ig", "linkedin": "li", "tiktok": "tt"}
+
+    def _with_site(self, text: str, platform: str = "") -> str:
         """Put Memo's site in every caption — the agent site on recruiting posts,
         the client site on everything else. Goes above the hashtags, since a link
         buried under them reads as an afterthought. Skipped if the caption already
@@ -118,7 +122,8 @@ class Item:
         site = CFG["brand"]["agent_site" if self.track == "agent_attraction" else "website"]
         if site in text:
             return text
-        link = f"→ https://{site}"
+        code = self.SHORT.get(platform)
+        link = f"→ https://{site}/{code}" if code else f"→ https://{site}"
         lines = text.split("\n")
         for i, line in enumerate(lines):
             if line.strip().startswith("#"):
