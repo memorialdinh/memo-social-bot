@@ -61,7 +61,19 @@ captions:
 
     #RealEstate #ClientService #RealTalk'
   tiktok: 'No one has ever sent a quick question. And I have never once answered one briefly. #realestatelife #realtalk #agentlife #realestatetips #socalrealestate'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18135392605675374'
+    at: '2026-11-02T21:52:14-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1161731363520962'
+    at: '2026-11-02T21:52:19-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7523260757279473664
+    at: '2026-11-02T21:52:20-08:00'
 media:
   instagram: queue/2026-11-02/media/p2-instagram.jpg
   facebook: queue/2026-11-02/media/p2-facebook.jpg
