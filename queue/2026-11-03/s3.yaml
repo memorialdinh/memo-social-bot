@@ -15,7 +15,11 @@ design:
   explain: The lender's covers the loan. Yours covers your ownership.
   reveal: false
   cta: Reply 'BUYER' with A or B
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17943641442376284'
+    at: '2026-11-03T12:25:16-08:00'
 media:
   instagram: queue/2026-11-03/media/s3-instagram.jpg
   facebook: queue/2026-11-03/media/s3-facebook.jpg
