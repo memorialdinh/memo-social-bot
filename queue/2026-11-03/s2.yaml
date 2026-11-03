@@ -11,7 +11,11 @@ design:
   setup: '"All five rooms this weekend."'
   punch: 'Sunday night: *one accent wall.*'
   cta: Reply 'SELLER' before you paint
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18127112687291086'
+    at: '2026-11-03T10:20:21-08:00'
 media:
   instagram: queue/2026-11-03/media/s2-instagram.jpg
   facebook: queue/2026-11-03/media/s2-facebook.jpg
