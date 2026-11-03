@@ -9,7 +9,11 @@ design:
   kicker: CLARITY
   quote: You don't need a bigger budget. You need the real number.
   cta: Reply 'BUYER' to run yours
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18641986927041869'
+    at: '2026-11-03T08:29:06-08:00'
 media:
   instagram: queue/2026-11-03/media/s1-instagram.jpg
   facebook: queue/2026-11-03/media/s1-facebook.jpg
