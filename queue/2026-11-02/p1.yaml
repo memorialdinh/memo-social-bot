@@ -65,7 +65,19 @@ captions:
   tiktok: 'Ask what you own, not just what you keep. Stock awards, Double Stock Award, Power Award, all subject to plan terms. #realestateagents #realestatecareer #agentlife #brokerage #epique'
 sources:
 - https://joinepique.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17867830917676062'
+    at: '2026-11-02T20:51:28-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1161693570191408'
+    at: '2026-11-02T20:51:31-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7523245459390353410
+    at: '2026-11-02T20:51:33-08:00'
 media:
   instagram: queue/2026-11-02/media/p1-instagram.jpg
   facebook: queue/2026-11-02/media/p1-facebook.jpg
