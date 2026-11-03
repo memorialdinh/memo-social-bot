@@ -13,44 +13,93 @@ design:
   subhead: Riverside County slipped 0.6% over the same year.
   cta: DM 'VALUE' for your home's number
 captions:
-  instagram: |-
-    Two counties that share a border. One year. Opposite directions.
+  instagram: 'Two counties that share a border. One year. Opposite directions.
 
-    San Bernardino County's median for existing single-family homes was $531,090 in September 2026, up 6.2% from $500,030 a year earlier. Riverside County came in at $620,000, down 0.6% from $624,000.
+
+    San Bernardino County''s median for existing single-family homes was $531,090 in September 2026, up 6.2% from $500,030 a year earlier. Riverside County came in at $620,000, down 0.6% from $624,000.
+
 
     Same state, same year, same rates. So when someone tells you "the market" did something, ask which market.
 
+
     Figures: California Association of REALTORS®, September 2026 Home Sales and Price Report, as of September 2026.
 
-    DM me 'VALUE' for a range on your own place.
 
-    #SoCalRealEstate #RiversideCounty #SanBernardinoCounty #HousingMarket #MarketUpdate #RealEstateData
-  facebook: |-
-    Here's a good argument against reading one headline number and calling it "the market."
+    DM me ''VALUE'' for a range on your own place.
 
-    Riverside and San Bernardino counties share a border. In September 2026, San Bernardino's median price for existing single-family homes was $531,090 — up 6.2% from $500,030 the year before. Riverside's was $620,000, down 0.6% from $624,000.
+
+    #SoCalRealEstate #RiversideCounty #SanBernardinoCounty #HousingMarket #MarketUpdate #RealEstateData'
+  facebook: 'Here''s a good argument against reading one headline number and calling it "the market."
+
+
+    Riverside and San Bernardino counties share a border. In September 2026, San Bernardino''s median price for existing single-family homes was $531,090 — up 6.2% from $500,030 the year before. Riverside''s was $620,000, down 0.6% from $624,000.
+
 
     Same state, same twelve months, same mortgage rates, and the two moved in opposite directions. Zoom in further and the spread inside a single city is wider still.
 
-    Which is the practical point: a county median is a useful backdrop and a terrible pricing tool. It doesn't know your street, your condition, or what sold two doors down.
+
+    Which is the practical point: a county median is a useful backdrop and a terrible pricing tool. It doesn''t know your street, your condition, or what sold two doors down.
+
 
     Figures from the California Association of REALTORS®, September 2026 Home Sales and Price Report, as of September 2026.
 
+
     Comment VALUE if you want a range on yours.
 
-    #HousingMarket #SoCalRealEstate
-  linkedin: |-
-    A useful reminder that "the market" is not a single number.
 
-    From the California Association of REALTORS® September 2026 report: San Bernardino County's median price for existing single-family homes was $531,090, up 6.2% year over year from $500,030. Neighbouring Riverside County was $620,000, down 0.6% from $624,000.
+    #HousingMarket #SoCalRealEstate'
+  linkedin: 'A useful reminder that "the market" is not a single number.
+
+
+    From the California Association of REALTORS® September 2026 report: San Bernardino County''s median price for existing single-family homes was $531,090, up 6.2% year over year from $500,030. Neighbouring Riverside County was $620,000, down 0.6% from $624,000.
+
 
     Two adjacent counties, the same twelve months, the same rate environment, and a seven-point spread in direction. Aggregate medians are composition-sensitive — what sold, in what price band, in what condition — which is exactly why they describe a backdrop rather than value an asset.
 
+
     For anyone pricing or underwriting in the Inland Empire, the sub-market is the unit of analysis, not the county.
+
 
     Source: C.A.R. September 2026 Home Sales and Price Report, as of September 2026.
 
-    #RealEstate #HousingMarket #MarketAnalysis
-  tiktok: Two counties side by side. One up 6.2%, one down 0.6%. Sept 2026, C.A.R. #housingmarket #socalrealestate #realestatedata #inlandempire #marketupdate
+
+    #RealEstate #HousingMarket #MarketAnalysis'
+  tiktok: Two counties side by side. One up 6.2%, one down 0.6%. Sept 2026, C.A.R.
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+media:
+  instagram: queue/2026-11-04/media/r2-instagram.mp4
+  facebook: queue/2026-11-04/media/r2-facebook.mp4
+  linkedin: queue/2026-11-04/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-04/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-04T10:10-08:00
+  instagram: 2026-11-04T10:07-08:00
+  linkedin: 2026-11-04T10:05-08:00
+  tiktok: 2026-11-04T10:03-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: beam
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: noir
+    deco: monogram
+    side: left
+    center: false
+    template: stat
+  linkedin:
+    theme: aurum
+    deco: arcs
+    side: left
+    center: true
+    template: stat
+  tiktok:
+    theme: carbon
+    deco: beam
+    side: left
+    center: true
+    template: stat

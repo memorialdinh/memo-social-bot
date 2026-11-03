@@ -10,8 +10,28 @@ design:
   headline: Seller counters. Is your offer *still alive*?
   options:
   - Yes, they can still accept it
-  - 'No, the counter replaced it'
+  - No, the counter replaced it
   answer: B
   explain: The counter ends your original offer. Details live in your contract.
   reveal: false
   cta: Reply 'BUYER' with A or B
+status: {}
+media:
+  instagram: queue/2026-11-04/media/s2-instagram.jpg
+  facebook: queue/2026-11-04/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-04T12:02-08:00
+  instagram: 2026-11-04T10:02-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: dots
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: slate
+    deco: grid
+    side: left
+    center: false
+    template: quiz

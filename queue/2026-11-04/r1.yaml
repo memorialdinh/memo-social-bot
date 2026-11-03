@@ -17,34 +17,79 @@ design:
   reveal: true
   cta: DM 'BDAY' to get on the list
 captions:
-  instagram: |-
-    I keep a Birthday Club. People keep assuming it's a funnel.
+  instagram: 'I keep a Birthday Club. People keep assuming it''s a funnel.
 
-    It isn't. You get a happy birthday from a human being who remembered. No listing presentation, no "just checking in on your home's value," no call.
 
-    That's the whole thing. I like knowing when it's your day.
+    It isn''t. You get a happy birthday from a human being who remembered. No listing presentation, no "just checking in on your home''s value," no call.
 
-    DM me 'BDAY' and I'll add you.
 
-    #BirthdayClub #Community #LongBeachRealEstate #SouthBayHomes #LakewoodCA #RealTalk
-  facebook: |-
-    Every so often someone asks what the catch is with the Birthday Club. Fair question. The honest answer is that there isn't one.
+    That''s the whole thing. I like knowing when it''s your day.
 
-    You get a happy birthday from me on your day. That's it. No listing presentation hiding behind it, no "while I have you, have you thought about your home's value," no call you didn't ask for.
 
-    I started it because I like remembering. Real estate is a business where people only hear from you when you want something, and I'd rather not be that.
+    DM me ''BDAY'' and I''ll add you.
 
-    Comment or message me BDAY and I'll get you on the list. Which month are you?
 
-    #Community #BirthdayClub
-  linkedin: |-
-    A small practice I'd recommend to anyone in a referral business: remember people's birthdays, and attach nothing to it.
+    #BirthdayClub #Community #LongBeachRealEstate #SouthBayHomes #LakewoodCA #RealTalk'
+  facebook: 'Every so often someone asks what the catch is with the Birthday Club. Fair question. The honest answer is that there isn''t one.
 
-    I keep a Birthday Club. The most common reaction is suspicion, which tells you something about how the industry usually handles a list. There's no presentation behind it and no follow-up sequence. It's a happy birthday on the day.
 
-    The reason it works isn't clever. People can tell the difference between being remembered and being marketed to, and the second one costs you the first.
+    You get a happy birthday from me on your day. That''s it. No listing presentation hiding behind it, no "while I have you, have you thought about your home''s value," no call you didn''t ask for.
 
-    Message me BDAY if you'd like to be on it.
 
-    #RealEstate #ClientExperience #Community
-  tiktok: The Birthday Club has no catch. That's the whole post. #birthdayclub #realtalk #community #longbeach #realestate
+    I started it because I like remembering. Real estate is a business where people only hear from you when you want something, and I''d rather not be that.
+
+
+    Comment or message me BDAY and I''ll get you on the list. Which month are you?
+
+
+    #Community #BirthdayClub'
+  linkedin: 'A small practice I''d recommend to anyone in a referral business: remember people''s birthdays, and attach nothing to it.
+
+
+    I keep a Birthday Club. The most common reaction is suspicion, which tells you something about how the industry usually handles a list. There''s no presentation behind it and no follow-up sequence. It''s a happy birthday on the day.
+
+
+    The reason it works isn''t clever. People can tell the difference between being remembered and being marketed to, and the second one costs you the first.
+
+
+    Message me BDAY if you''d like to be on it.
+
+
+    #RealEstate #ClientExperience #Community'
+  tiktok: The Birthday Club has no catch. That's the whole post.
+status: {}
+media:
+  instagram: queue/2026-11-04/media/r1-instagram.mp4
+  facebook: queue/2026-11-04/media/r1-facebook.mp4
+  linkedin: queue/2026-11-04/media/r1-linkedin.mp4
+  tiktok: queue/2026-11-04/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-11-04T09:02-08:00
+  instagram: 2026-11-04T09:08-08:00
+  linkedin: 2026-11-04T09:07-08:00
+  tiktok: 2026-11-04T09:07-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: monogram
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: aurum
+    deco: grid
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: porcelain
+    deco: split
+    side: left
+    center: false
+    template: quiz
+  tiktok:
+    theme: graphite
+    deco: glow
+    side: left
+    center: false
+    template: quiz

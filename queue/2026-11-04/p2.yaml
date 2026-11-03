@@ -24,40 +24,88 @@ design:
     detail: Nothing binds until both sides sign and deliver.
   cta: DM 'BUYER' for my offer roadmap
 captions:
-  instagram: |-
-    A counter-offer is not a negotiation step. It's a reset.
+  instagram: 'A counter-offer is not a negotiation step. It''s a reset.
 
-    The moment the seller counters, your original offer is gone. You can't go back and say "fine, we'll take our first one." You're now responding to theirs.
 
-    Which is why the order matters: offer in, counter back, and nothing is binding until both sides sign and it's delivered. A verbal yes is not a yes.
+    The moment the seller counters, your original offer is gone. You can''t go back and say "fine, we''ll take our first one." You''re now responding to theirs.
+
+
+    Which is why the order matters: offer in, counter back, and nothing is binding until both sides sign and it''s delivered. A verbal yes is not a yes.
+
 
     Your own contract controls the details, so read it with your agent.
 
-    DM me 'BUYER' and I'll send my offer roadmap.
 
-    #FirstTimeHomeBuyer #HomeBuying #LongBeachRealEstate #SouthBayHomes #BuyerTips #TorranceHomes
-  facebook: |-
-    Something buyers find out at the worst possible moment: a counter-offer kills the offer you sent.
+    DM me ''BUYER'' and I''ll send my offer roadmap.
 
-    People picture it as a conversation where both numbers stay on the table. It isn't. Once the seller counters, your original offer no longer exists. You can accept theirs, counter back, or walk, but you can't reach back for the first one.
 
-    The other half people miss is the signing. Nothing is binding until both sides have signed and that signature has actually been delivered. "They said yes" and "we're in contract" are not the same sentence, and the gap between them is where a lot of disappointment lives.
+    #FirstTimeHomeBuyer #HomeBuying #LongBeachRealEstate #SouthBayHomes #BuyerTips #TorranceHomes'
+  facebook: 'Something buyers find out at the worst possible moment: a counter-offer kills the offer you sent.
+
+
+    People picture it as a conversation where both numbers stay on the table. It isn''t. Once the seller counters, your original offer no longer exists. You can accept theirs, counter back, or walk, but you can''t reach back for the first one.
+
+
+    The other half people miss is the signing. Nothing is binding until both sides have signed and that signature has actually been delivered. "They said yes" and "we''re in contract" are not the same sentence, and the gap between them is where a lot of disappointment lives.
+
 
     Your purchase contract is what controls the specifics, so go through it with your agent rather than going off a post.
 
+
     Has a counter-offer ever caught you off guard?
 
-    #HomeBuying #BuyerTips
-  linkedin: |-
-    One of the more consequential things a first-time buyer doesn't know: a counter-offer extinguishes the original offer.
 
-    The sequence is worth internalising. The offer goes in with price, terms and timelines in writing. The seller counters, and at that moment the buyer's original offer ceases to exist as something the seller can later accept. The buyer then accepts, counters back, or exits. And nothing is binding on anyone until both sides have signed and delivery has happened.
+    #HomeBuying #BuyerTips'
+  linkedin: 'One of the more consequential things a first-time buyer doesn''t know: a counter-offer extinguishes the original offer.
+
+
+    The sequence is worth internalising. The offer goes in with price, terms and timelines in writing. The seller counters, and at that moment the buyer''s original offer ceases to exist as something the seller can later accept. The buyer then accepts, counters back, or exits. And nothing is binding on anyone until both sides have signed and delivery has happened.
+
 
     The practical consequence is that each round is a decision, not a drift. Buyers who understand that negotiate differently, and they stop treating a verbal acceptance as a deal.
 
+
     Specific terms live in the purchase contract, which is where this conversation should actually happen.
 
-    Agents and investors: what's the misconception you find yourself correcting most often at this stage?
 
-    #RealEstate #HomeBuying #Negotiation
-  tiktok: A counter-offer doesn't add to your offer. It replaces it. #firsttimehomebuyer #homebuying #realestatetips #buyertips #socalrealestate
+    Agents and investors: what''s the misconception you find yourself correcting most often at this stage?
+
+
+    #RealEstate #HomeBuying #Negotiation'
+  tiktok: A counter-offer doesn't add to your offer. It replaces it.
+status: {}
+media:
+  instagram: queue/2026-11-04/media/p2-instagram.jpg
+  facebook: queue/2026-11-04/media/p2-facebook.jpg
+  linkedin: queue/2026-11-04/media/p2-linkedin.jpg
+  tiktok: queue/2026-11-04/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-11-04T21:06-08:00
+  instagram: 2026-11-04T21:03-08:00
+  linkedin: 2026-11-04T21:11-08:00
+  tiktok: 2026-11-04T21:07-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: arcs
+    side: right
+    center: false
+    template: process
+  facebook:
+    theme: graphite
+    deco: monogram
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: slate
+    deco: halo
+    side: right
+    center: false
+    template: process
+  tiktok:
+    theme: noir
+    deco: monogram
+    side: left
+    center: false
+    template: process

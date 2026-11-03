@@ -12,32 +12,76 @@ design:
   punch: 'Photo 23: *a corner of the garage.*'
   cta: Follow for real talk and real numbers
 captions:
-  instagram: |-
-    Forty photos in the listing. Six of them are the same kitchen angle. One is a corner of the garage with a bike in it.
+  instagram: 'Forty photos in the listing. Six of them are the same kitchen angle. One is a corner of the garage with a bike in it.
 
-    Then you get there and the one room you actually wanted to see wasn't photographed at all.
 
-    If you're the seller: fewer, better photos. If you're the buyer: go see it.
+    Then you get there and the one room you actually wanted to see wasn''t photographed at all.
 
-    #RealEstateHumor #HomeBuying #LongBeachRealEstate #SouthBayHomes #RealTalk #HouseHunting
-  facebook: |-
-    Forty photos in the listing. Six near-identical kitchen angles, two of the same hallway, and one mystery shot of a garage corner with a bike leaning in it.
+
+    If you''re the seller: fewer, better photos. If you''re the buyer: go see it.
+
+
+    #RealEstateHumor #HomeBuying #LongBeachRealEstate #SouthBayHomes #RealTalk #HouseHunting'
+  facebook: 'Forty photos in the listing. Six near-identical kitchen angles, two of the same hallway, and one mystery shot of a garage corner with a bike leaning in it.
+
 
     And then somehow not a single photo of the second bathroom, which is the one thing you wanted to see.
 
-    I say this with love, because I've been on both sides of it. Fewer photos, better photos, and shoot the rooms people are actually going to ask about.
 
-    What's the strangest photo you've seen in a listing?
+    I say this with love, because I''ve been on both sides of it. Fewer photos, better photos, and shoot the rooms people are actually going to ask about.
 
-    #RealEstateHumor #HouseHunting
-  linkedin: |-
-    A small, fixable thing I see constantly: listings with forty photos and no editorial judgement.
 
-    Six variations of one kitchen angle, a hallway shot, a corner of the garage. Meanwhile the second bathroom, the yard's actual dimensions and the layout of the primary suite go unphotographed, which are the three things buyers ask about first.
+    What''s the strangest photo you''ve seen in a listing?
 
-    More images isn't more information. A tight set that answers the predictable questions does more work than a long one that doesn't.
 
-    What's the shot you wish every listing included?
+    #RealEstateHumor #HouseHunting'
+  linkedin: 'A small, fixable thing I see constantly: listings with forty photos and no editorial judgement.
 
-    #RealEstate #RealEstateMarketing #HomeSelling
-  tiktok: Forty photos and one of them is the garage. #realestatehumor #househunting #realtorlife #homebuying #realtalk
+
+    Six variations of one kitchen angle, a hallway shot, a corner of the garage. Meanwhile the second bathroom, the yard''s actual dimensions and the layout of the primary suite go unphotographed, which are the three things buyers ask about first.
+
+
+    More images isn''t more information. A tight set that answers the predictable questions does more work than a long one that doesn''t.
+
+
+    What''s the shot you wish every listing included?
+
+
+    #RealEstate #RealEstateMarketing #HomeSelling'
+  tiktok: Forty photos and one of them is the garage.
+status: {}
+media:
+  instagram: queue/2026-11-04/media/p3-instagram.jpg
+  facebook: queue/2026-11-04/media/p3-facebook.jpg
+  linkedin: queue/2026-11-04/media/p3-linkedin.jpg
+  tiktok: queue/2026-11-04/media/p3-tiktok.mp4
+schedule:
+  facebook: 2026-11-04T07:10-08:00
+  instagram: 2026-11-04T07:11-08:00
+  linkedin: 2026-11-04T07:09-08:00
+  tiktok: 2026-11-04T07:10-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: beam
+    side: left
+    center: false
+    template: meme
+  facebook:
+    theme: silver
+    deco: corners
+    side: left
+    center: true
+    template: meme
+  linkedin:
+    theme: carbon
+    deco: frame
+    side: right
+    center: false
+    template: meme
+  tiktok:
+    theme: slate
+    deco: corners
+    side: left
+    center: true
+    template: meme

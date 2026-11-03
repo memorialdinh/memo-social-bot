@@ -8,6 +8,26 @@ design:
   template: meme
   kicker: REAL TALK
   headline: Photo 23 of *40*.
-  setup: 'Kitchen. Yard. Hallway. Kitchen again.'
+  setup: Kitchen. Yard. Hallway. Kitchen again.
   punch: '*A corner of the garage.*'
   cta: Follow for real talk
+status: {}
+media:
+  instagram: queue/2026-11-04/media/s3-instagram.jpg
+  facebook: queue/2026-11-04/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-04T19:10-08:00
+  instagram: 2026-11-04T12:04-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: glow
+    side: right
+    center: true
+    template: meme
+  facebook:
+    theme: noir
+    deco: frame
+    side: left
+    center: true
+    template: meme
