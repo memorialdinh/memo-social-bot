@@ -15,6 +15,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }   # queued runs start from the newest commit, not the one that triggered them
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Build CA city market data
