@@ -11,7 +11,11 @@ design:
   setup: Kitchen. Yard. Hallway. Kitchen again.
   punch: '*A corner of the garage.*'
   cta: Follow for real talk
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18086211611333905'
+    at: '2026-11-04T12:50:09-08:00'
 media:
   instagram: queue/2026-11-04/media/s3-instagram.jpg
   facebook: queue/2026-11-04/media/s3-facebook.jpg
