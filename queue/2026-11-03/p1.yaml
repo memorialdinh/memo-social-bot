@@ -59,7 +59,19 @@ captions:
 
     #RealEstate #HomeBuying #FinancialLiteracy'
   tiktok: 'You probably don''t need a bigger budget. You need the real number. #firsttimehomebuyer #homebuying #realestatetips #socalrealestate'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18105853865634559'
+    at: '2026-11-03T20:28:43-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1162712473422851'
+    at: '2026-11-03T20:28:47-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7523602123687723008
+    at: '2026-11-03T20:28:49-08:00'
 media:
   instagram: queue/2026-11-03/media/p1-instagram.jpg
   facebook: queue/2026-11-03/media/p1-facebook.jpg
