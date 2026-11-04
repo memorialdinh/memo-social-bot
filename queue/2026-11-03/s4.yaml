@@ -15,7 +15,11 @@ design:
   explain: The count keeps running. Rules vary by MLS.
   reveal: false
   cta: Reply 'SELLER' with A or B
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18124895050881116'
+    at: '2026-11-03T19:22:35-08:00'
 media:
   instagram: queue/2026-11-03/media/s4-instagram.jpg
   facebook: queue/2026-11-03/media/s4-facebook.jpg
