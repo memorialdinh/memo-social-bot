@@ -64,7 +64,19 @@ captions:
 
     #RealEstate #HomeSelling #ListingPrep'
   tiktok: 'Five rooms on Friday. One accent wall by Sunday. Every single time. #realtalk #homeselling #listingprep #realestatetips'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18102239414384140'
+    at: '2026-11-03T21:30:58-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1162751933418905'
+    at: '2026-11-03T21:31:04-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7523617797516615680
+    at: '2026-11-03T21:31:05-08:00'
 media:
   instagram: queue/2026-11-03/media/p2-instagram.jpg
   facebook: queue/2026-11-03/media/p2-facebook.jpg
