@@ -16,3 +16,23 @@ design:
   reveal: false
   cta: Reply 'SELLER' with A or B
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-05/media/s2-instagram.jpg
+  facebook: queue/2026-11-05/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-05T12:05-08:00
+  instagram: 2026-11-05T10:06-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: dots
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: silver
+    deco: split
+    side: left
+    center: false
+    template: quiz

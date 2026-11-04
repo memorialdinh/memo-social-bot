@@ -15,41 +15,89 @@ design:
   example: Cash to close is often the harder number to find.
   cta: Comment 'SELLER' for my pricing plan
 captions:
-  instagram: |-
-    Your buyer asks for $10,000. You can take it off the price or put it toward their closing costs.
+  instagram: 'Your buyer asks for $10,000. You can take it off the price or put it toward their closing costs.
+
 
     Costs you the same. Lands completely differently.
 
+
     A price cut spreads across 360 monthly payments, so the buyer barely feels it. A credit shows up in the one number that actually stops deals: cash to close.
+
 
     Which one to offer depends on your buyer, your loan type and your contract. There are caps on credits by loan program, so your agent and their lender need to be in the conversation.
 
-    Comment 'SELLER' and I'll send you my pricing plan.
 
-    #SellingAHome #HomeSelling #SellerTips #LongBeachRealEstate #SouthBayHomes #RealEstateTips
-  facebook: |-
-    Here's a negotiation detail that costs sellers money because it sounds like a technicality.
+    Comment ''SELLER'' and I''ll send you my pricing plan.
 
-    A buyer comes back and asks for $10,000. You have two ways to give it: drop the price by $10,000, or credit $10,000 toward their closing costs. Out of your pocket, it's the same money.
+
+    #SellingAHome #HomeSelling #SellerTips #LongBeachRealEstate #SouthBayHomes #RealEstateTips'
+  facebook: 'Here''s a negotiation detail that costs sellers money because it sounds like a technicality.
+
+
+    A buyer comes back and asks for $10,000. You have two ways to give it: drop the price by $10,000, or credit $10,000 toward their closing costs. Out of your pocket, it''s the same money.
+
 
     For the buyer, it is not remotely the same. A price reduction gets financed, so it spreads across hundreds of monthly payments and changes their life almost not at all. A credit goes straight to cash to close, which is the number most buyers are actually short on. Same ten thousand dollars, far more likely to hold the deal together.
 
+
     The caveat that matters: loan programs cap how much of a credit a buyer can accept, and the right move depends on your contract, their financing and where you are in the process. This is the conversation to have with your agent and their lender, not to decide off a post.
+
 
     Sellers, has a buyer ever asked you for a credit instead of a price cut?
 
-    #HomeSelling #SellerTips
-  linkedin: |-
-    A pricing distinction that is worth understanding before you are in the middle of a negotiation.
 
-    When a buyer asks for a $10,000 concession, a seller can deliver it as a price reduction or as a credit toward the buyer's closing costs. The seller's net is materially the same. The effect on the buyer is not.
+    #HomeSelling #SellerTips'
+  linkedin: 'A pricing distinction that is worth understanding before you are in the middle of a negotiation.
 
-    A price reduction is financed, so it is amortised over the life of the loan and changes the buyer's monthly obligation only slightly. A credit is applied to cash required at closing, which is the binding constraint for a large share of buyers. The same concession, directed at the constraint that is actually blocking the transaction, is simply more efficient.
+
+    When a buyer asks for a $10,000 concession, a seller can deliver it as a price reduction or as a credit toward the buyer''s closing costs. The seller''s net is materially the same. The effect on the buyer is not.
+
+
+    A price reduction is financed, so it is amortised over the life of the loan and changes the buyer''s monthly obligation only slightly. A credit is applied to cash required at closing, which is the binding constraint for a large share of buyers. The same concession, directed at the constraint that is actually blocking the transaction, is simply more efficient.
+
 
     Two caveats. Loan programs limit how much seller credit a buyer may accept, and the appraisal and contract terms shape what is available. Neither decision should be made without the agent and the lender in the room.
 
+
     For agents and lenders here: how often do you find the concession is pointed at the wrong constraint?
 
-    #RealEstate #HomeSelling #Negotiation
-  tiktok: Ten grand off the price or ten grand toward their closing costs. Not the same thing. #sellingahome #realestatetips #homeselling #sellertips #realtor
+
+    #RealEstate #HomeSelling #Negotiation'
+  tiktok: Ten grand off the price or ten grand toward their closing costs. Not the same thing.
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-05/media/p2-instagram.jpg
+  facebook: queue/2026-11-05/media/p2-facebook.jpg
+  linkedin: queue/2026-11-05/media/p2-linkedin.jpg
+  tiktok: queue/2026-11-05/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-11-05T21:03-08:00
+  instagram: 2026-11-05T21:07-08:00
+  linkedin: 2026-11-05T21:09-08:00
+  tiktok: 2026-11-05T21:02-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: split
+    side: left
+    center: false
+    template: explainer
+  facebook:
+    theme: aurum
+    deco: frame
+    side: right
+    center: false
+    template: explainer
+  linkedin:
+    theme: ivory
+    deco: frame
+    side: right
+    center: false
+    template: explainer
+  tiktok:
+    theme: noir
+    deco: frame
+    side: left
+    center: false
+    template: explainer

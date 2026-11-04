@@ -16,3 +16,23 @@ design:
   reveal: false
   cta: DM 'AGREEMENT' for the plain version
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-05/media/s3-instagram.jpg
+  facebook: queue/2026-11-05/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-05T19:07-08:00
+  instagram: 2026-11-05T12:02-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: rules
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: aurum
+    deco: halo
+    side: left
+    center: false
+    template: quiz

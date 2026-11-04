@@ -16,47 +16,99 @@ design:
   explain: It names who represents you, for how long, and how they get paid.
   cta: DM 'AGREEMENT' for the plain version
 captions:
-  instagram: |-
-    Most buyers sign this without reading it. Then they're surprised by what's in it.
+  instagram: 'Most buyers sign this without reading it. Then they''re surprised by what''s in it.
 
-    A buyer representation agreement is not a promise to buy anything. It's three things: who represents you, for how long, and how that agent gets compensated.
+
+    A buyer representation agreement is not a promise to buy anything. It''s three things: who represents you, for how long, and how that agent gets compensated.
+
 
     Answer: B.
 
-    The part worth your attention is the term. It has an end date. Read it, and ask what happens if it isn't working out.
 
-    DM me 'AGREEMENT' and I'll send the plain-English walkthrough.
+    The part worth your attention is the term. It has an end date. Read it, and ask what happens if it isn''t working out.
 
-    #FirstTimeHomeBuyer #HomeBuying #BuyerTips #RealEstateTips #LongBeachRealEstate #SouthBayHomes
-  facebook: |-
-    Quick quiz. When you sign a buyer representation agreement, what are you actually agreeing to?
 
-    A) You're promising to buy a home
+    DM me ''AGREEMENT'' and I''ll send the plain-English walkthrough.
+
+
+    #FirstTimeHomeBuyer #HomeBuying #BuyerTips #RealEstateTips #LongBeachRealEstate #SouthBayHomes'
+  facebook: 'Quick quiz. When you sign a buyer representation agreement, what are you actually agreeing to?
+
+
+    A) You''re promising to buy a home
+
     B) Who represents you, for how long, and how they get paid
+
     C) Nothing, until you write an offer
 
-    It's B. And that middle part is the one people skip.
 
-    The agreement doesn't commit you to buying anything. It sets up the working relationship: the agent's duties to you, a term with an end date, and how compensation is handled. None of that is a trap, but all of it is negotiable in the sense that you should understand it before you sign, and you should ask what happens if the relationship isn't working.
+    It''s B. And that middle part is the one people skip.
+
+
+    The agreement doesn''t commit you to buying anything. It sets up the working relationship: the agent''s duties to you, a term with an end date, and how compensation is handled. None of that is a trap, but all of it is negotiable in the sense that you should understand it before you sign, and you should ask what happens if the relationship isn''t working.
+
 
     General information, not legal advice. Your own agreement is the one that governs, so read that one with your agent.
 
+
     Did anyone walk you through yours line by line?
 
-    #HomeBuying #BuyerTips
-  linkedin: |-
-    A question I'd put to anyone buying a home this year: do you know what your buyer representation agreement says?
+
+    #HomeBuying #BuyerTips'
+  linkedin: 'A question I''d put to anyone buying a home this year: do you know what your buyer representation agreement says?
+
 
     Three things sit in it. Who represents you. For how long. And how that representation is compensated.
 
+
     What it is not is a commitment to purchase. The confusion between those two is common, and it leads buyers either to avoid signing anything or to sign without reading, both of which work against them.
+
 
     The practical advice is narrow: find the term, find the compensation language, and ask what the exit looks like before you need one. A professional relationship you understand is a better one.
 
+
     This is general information rather than legal advice, and the governing document is always the agreement in front of you.
 
-    Agents: what's the question clients should ask here and almost never do?
 
-    #RealEstate #HomeBuying #ConsumerProtection
-  tiktok: A buyer agreement isn't a promise to buy. It's three things, and one of them has a deadline. #firsttimehomebuyer #realestatetips #homebuying #buyertips
+    Agents: what''s the question clients should ask here and almost never do?
+
+
+    #RealEstate #HomeBuying #ConsumerProtection'
+  tiktok: A buyer agreement isn't a promise to buy. It's three things, and one of them has a deadline.
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-05/media/r1-instagram.mp4
+  facebook: queue/2026-11-05/media/r1-facebook.mp4
+  linkedin: queue/2026-11-05/media/r1-linkedin.mp4
+  tiktok: queue/2026-11-05/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-11-05T09:02-08:00
+  instagram: 2026-11-05T09:02-08:00
+  linkedin: 2026-11-05T09:02-08:00
+  tiktok: 2026-11-05T09:05-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: beam
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: silver
+    deco: rules
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: carbon
+    deco: monogram
+    side: left
+    center: false
+    template: quiz
+  tiktok:
+    theme: ivory
+    deco: glow
+    side: left
+    center: false
+    template: quiz

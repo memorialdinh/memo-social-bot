@@ -17,45 +17,96 @@ design:
   - 'Team models: Family, Traditional and Power Teams.'
   cta: DM 'MATH' for the cost breakdown
 captions:
-  instagram: |-
-    Every agent hits a wall. The real question is who picks up when you call.
+  instagram: 'Every agent hits a wall. The real question is who picks up when you call.
+
 
     Spotlight 7 is the part of a brokerage nobody puts on a billboard: coaching and mentorship.
 
+
     · Power Coaching — described as 1:1 coaching on your business
+
     · Forever Mentorship — on-call access to a personal mentor
+
     · Daily live classes, fundamentals through niche
+
     · Team models: Family, Traditional and Power Teams
 
-    Programs and eligibility sit in Epique's current plan terms, so read them before you weigh any of it.
 
-    DM me 'MATH' and I'll walk you through what a year actually costs.
+    Programs and eligibility sit in Epique''s current plan terms, so read them before you weigh any of it.
 
-    #RealEstateAgents #EpiqueRealty #RealEstateCareer #AgentLife #LongBeachRealEstate #SouthBayHomes
-  facebook: |-
-    Agents shop brokerages on splits and tech. Then the first hard transaction shows up and what matters is whether anyone answers the phone.
 
-    So this spotlight is the support side. From Epique's own agent page: Power Coaching is described as 1:1 coaching on your business. Forever Mentorship is described as on-call access to a personal mentor. There are daily live classes running from fundamentals through niche topics. And there are a few team structures to join or build under, including Family, Traditional and Power Teams.
+    DM me ''MATH'' and I''ll walk you through what a year actually costs.
 
-    I'm deliberately not putting numbers on any of this. The programs, the caps and who qualifies live in Epique's current plan terms and eligibility, and those are the pages to read rather than a post.
+
+    #RealEstateAgents #EpiqueRealty #RealEstateCareer #AgentLife #LongBeachRealEstate #SouthBayHomes'
+  facebook: 'Agents shop brokerages on splits and tech. Then the first hard transaction shows up and what matters is whether anyone answers the phone.
+
+
+    So this spotlight is the support side. From Epique''s own agent page: Power Coaching is described as 1:1 coaching on your business. Forever Mentorship is described as on-call access to a personal mentor. There are daily live classes running from fundamentals through niche topics. And there are a few team structures to join or build under, including Family, Traditional and Power Teams.
+
+
+    I''m deliberately not putting numbers on any of this. The programs, the caps and who qualifies live in Epique''s current plan terms and eligibility, and those are the pages to read rather than a post.
+
 
     What I will do is open my own books with you.
 
+
     Which one actually changes your week more — the tools, or having someone to call?
 
-    #RealEstateAgents #EpiqueRealty
-  linkedin: |-
-    When agents evaluate a brokerage move, the comparison usually runs on splits, caps and technology. Those are easy to tabulate. Support is not, which is why it tends to get left out of the spreadsheet and then decides how the first difficult year goes.
 
-    From Epique's agent-facing materials: Power Coaching is described as 1:1 coaching on the agent's own business, Forever Mentorship as on-call access to a personal mentor, alongside daily live classes spanning fundamentals to niche topics, and several team structures including Family, Traditional and Power Teams.
+    #RealEstateAgents #EpiqueRealty'
+  linkedin: 'When agents evaluate a brokerage move, the comparison usually runs on splits, caps and technology. Those are easy to tabulate. Support is not, which is why it tends to get left out of the spreadsheet and then decides how the first difficult year goes.
 
-    The specifics, including eligibility, are governed by Epique's current plan terms, and anyone considering a move should read those directly rather than any recruiter's summary of them.
+
+    From Epique''s agent-facing materials: Power Coaching is described as 1:1 coaching on the agent''s own business, Forever Mentorship as on-call access to a personal mentor, alongside daily live classes spanning fundamentals to niche topics, and several team structures including Family, Traditional and Power Teams.
+
+
+    The specifics, including eligibility, are governed by Epique''s current plan terms, and anyone considering a move should read those directly rather than any recruiter''s summary of them.
+
 
     The takeaway for anyone weighing a change: ask what happens on the day a transaction goes sideways, and ask who specifically picks up.
 
+
     For agents who have moved brokerages: what do you wish you had asked before you signed?
 
-    #RealEstate #RealEstateAgents #CareerDevelopment
-  tiktok: Splits and tech are easy to compare. Support isn't. Spotlight 7. #realestateagent #realtorlife #realestatecareer #brokerage #agenttips
+
+    #RealEstate #RealEstateAgents #CareerDevelopment'
+  tiktok: Splits and tech are easy to compare. Support isn't. Spotlight 7.
 sources:
 - https://joinepique.com
+status: {}
+media:
+  instagram: queue/2026-11-05/media/p1-instagram.jpg
+  facebook: queue/2026-11-05/media/p1-facebook.jpg
+  linkedin: queue/2026-11-05/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-05/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-05T20:05-08:00
+  instagram: 2026-11-05T20:10-08:00
+  linkedin: 2026-11-05T20:11-08:00
+  tiktok: 2026-11-05T20:11-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: beam
+    side: right
+    center: false
+    template: spotlight
+  facebook:
+    theme: porcelain
+    deco: glow
+    side: right
+    center: false
+    template: spotlight
+  linkedin:
+    theme: noir
+    deco: halo
+    side: right
+    center: false
+    template: spotlight
+  tiktok:
+    theme: goldrush
+    deco: corners
+    side: left
+    center: false
+    template: spotlight

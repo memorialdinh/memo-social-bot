@@ -8,53 +8,104 @@ design:
   template: stat
   kicker: MARKET UPDATE
   headline: Fewer sales. *Higher* median.
-  stat_value: '-10.9%'
+  stat_value: -10.9%
   stat_label: LA County closed sales, Sept 2026 vs Sept 2025 (C.A.R.)
   subhead: The median still rose 1.2% over the same twelve months.
   cta: DM 'VALUE' for your home's number
 captions:
-  instagram: |-
-    "Sales are down" and "prices are down" are two different sentences.
+  instagram: '"Sales are down" and "prices are down" are two different sentences.
+
 
     Los Angeles County, September 2026: closed sales of existing single-family homes were 10.9% lower than a year earlier. Over the same twelve months the median price went from $983,230 to $994,670, up 1.2%.
 
+
     Fewer homes changed hands. The ones that did sold for a little more.
+
 
     Volume and price are not the same signal, and a slow market is not automatically a cheap one.
 
+
     Figures: California Association of REALTORS®, September 2026 Home Sales and Price Report, as of September 2026.
 
-    DM me 'VALUE' for a range on your own place.
 
-    #LosAngelesRealEstate #HousingMarket #MarketUpdate #LongBeachRealEstate #SouthBayHomes #RealEstateData
-  facebook: |-
-    This is the stat I'd hand to anyone who says the market is crashing, and also to anyone who says it's booming.
+    DM me ''VALUE'' for a range on your own place.
+
+
+    #LosAngelesRealEstate #HousingMarket #MarketUpdate #LongBeachRealEstate #SouthBayHomes #RealEstateData'
+  facebook: 'This is the stat I''d hand to anyone who says the market is crashing, and also to anyone who says it''s booming.
+
 
     Los Angeles County, September 2026. Closed sales of existing single-family homes were down 10.9% from September 2025. The median price over that same year went from $983,230 to $994,670 — up 1.2%.
 
+
     So fewer homes sold, and the ones that sold went for slightly more than a year ago. Both things at once.
+
 
     Volume tells you how many people are willing and able to transact. Price tells you what the homes that did trade were worth. They move for different reasons, and reading one as proof of the other is how people end up making a decision on a headline.
 
-    None of which says anything about where either one goes next. I don't know that and neither does anyone posting a prediction.
+
+    None of which says anything about where either one goes next. I don''t know that and neither does anyone posting a prediction.
+
 
     Figures from the California Association of REALTORS®, September 2026 Home Sales and Price Report, as of September 2026.
 
+
     Comment VALUE if you want a range on yours.
 
-    #HousingMarket #LosAngelesRealEstate
-  linkedin: |-
-    A useful corrective to the habit of reading transaction volume as a price signal.
+
+    #HousingMarket #LosAngelesRealEstate'
+  linkedin: 'A useful corrective to the habit of reading transaction volume as a price signal.
+
 
     California Association of REALTORS®, September 2026: closed sales of existing single-family homes in Los Angeles County were 10.9% below September 2025. The county median over the same period rose from $983,230 to $994,670, an increase of 1.2%.
 
+
     Volume and price answer different questions. Volume reflects how many participants can clear current financing costs and find acceptable inventory. Median price reflects the composition and value of what actually closed, and is sensitive to which price bands transacted. A year of thinner volume alongside a modestly higher median is a coherent outcome, not a contradiction.
+
 
     For anyone underwriting or advising on this market, the implication is to resist treating a single aggregate as a market verdict, and to work at the sub-market level.
 
+
     Source: C.A.R. September 2026 Home Sales and Price Report, as of September 2026.
 
-    #RealEstate #HousingMarket #MarketAnalysis
-  tiktok: LA County, Sept 2026 — sales down 10.9%, median up 1.2%. Both at once. C.A.R. #housingmarket #losangeles #realestate #marketupdate #realestatedata
+
+    #RealEstate #HousingMarket #MarketAnalysis'
+  tiktok: LA County, Sept 2026 — sales down 10.9%, median up 1.2%. Both at once. C.A.R.
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+media:
+  instagram: queue/2026-11-05/media/r2-instagram.mp4
+  facebook: queue/2026-11-05/media/r2-facebook.mp4
+  linkedin: queue/2026-11-05/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-05/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-05T10:10-08:00
+  instagram: 2026-11-05T10:09-08:00
+  linkedin: 2026-11-05T10:08-08:00
+  tiktok: 2026-11-05T10:09-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: dots
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: slate
+    deco: beam
+    side: left
+    center: true
+    template: stat
+  linkedin:
+    theme: noir
+    deco: halo
+    side: left
+    center: true
+    template: stat
+  tiktok:
+    theme: goldrush
+    deco: halo
+    side: left
+    center: true
+    template: stat

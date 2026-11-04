@@ -15,3 +15,23 @@ design:
   - 'Keys: possession follows what your contract says.'
   cta: DM 'BUYER' for my closing checklist
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-05/media/s4-instagram.jpg
+  facebook: queue/2026-11-05/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-11-05T20:11-08:00
+  instagram: 2026-11-05T19:05-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: monogram
+    side: right
+    center: false
+    template: process
+  facebook:
+    theme: goldrush
+    deco: corners
+    side: left
+    center: false
+    template: process
