@@ -13,6 +13,7 @@ largest deal ~$2.6M, 35+ agents mentored.
 - Service areas: Lakewood, Long Beach, Gardena, Torrance, Redondo Beach, El Segundo, Cypress,
   Cerritos, all of LA, Orange, Riverside and San Bernardino counties.
 - Buyer/seller CTAs point to theprestige.luxe or DMs. Agent CTAs point to joinmemo.netlify.app or DMs.
+- Agent-attraction content speaks to ALL licensed agents, not only Southern California agents (Memo, Nov 3 2026): Epique sponsorship works wherever an agent is licensed. Don't write "SoCal agents" in agent posts.
 
 ## Voice
 Direct, relatable, strategic, slightly punchy, educational. Professional but approachable and
