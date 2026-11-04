@@ -22,7 +22,9 @@ status: {}
 media:
   instagram: queue/2026-11-07/media/s5-instagram.jpg
   facebook: queue/2026-11-07/media/s5-facebook.jpg
-schedule: {}
+schedule:
+  facebook: 2026-11-07T07:04-08:00
+  instagram: 2026-11-07T07:06-08:00
 rendered:
   instagram:
     theme: aurum
