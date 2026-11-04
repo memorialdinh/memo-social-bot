@@ -118,7 +118,20 @@ Wednesday, coaching and mentorship, transaction and compliance support, tech and
 marketing programs, benefits, culture and events (Power Summit, local meetups), the Epique Asian
 Network, what joining Memo's team looks like day to day. **Every fact comes from an official Epique
 source the same day** (joinepique.com, ica.epiquerealty.com, epiquerealty.com, Epique's own press
-releases) and goes in `sources:`; if a figure can't be verified, describe the feature without it.
+releases, and the **current Independent Contractor Agreement** — see below) and goes in `sources:`;
+if a figure can't be verified, describe the feature without it.
+
+**The current ICA (Memo confirmed Nov 4, 2026).** The agreement published at
+<https://docs.google.com/document/u/2/d/e/2PACX-1vTLyZL7y9zSbhwftfi6sBLK7brUGTC8RQ7vIQSe8LLTbyBGSsYhQ7g9VX1D0Vz16J95cr5yFXgidMUe/pub>
+is marked **"Updated 02/26/2026"** and **supersedes the copy on ica.epiquerealty.com**, which is
+marked "Updated 04/27/2025". Cite the newer one for contract terms; where the two disagree, the
+newer one wins and the older one is not quoted alongside it. Two cautions that do not go away just
+because the source is approved: (1) it is a **contract**, not marketing copy — joinepique.com's
+description of a program and the agreement's definition of it can differ, so say which one you are
+quoting; (2) its caps, fees, equity, Power Award and revenue-share figures are still bound by every
+rule above — **no income promises, "subject to plan terms"** — and "the cap and fees after cap" is
+already a burned Spotlight subject. Prefer the agreement for *what a thing is*, not for *what an
+agent would earn*.
 No income promises, no "you'll make", no comparisons that run down another brokerage.
 **Agent spotlights (a real person)** need that agent's written OK: add `photo:
 assets/spotlights/<file>.jpg` (Memo uploads it), `name:`, `role:` and `consent: <date they said
