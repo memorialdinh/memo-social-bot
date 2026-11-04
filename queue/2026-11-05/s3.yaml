@@ -1,0 +1,18 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r1 quiz on whether a buyer agreement locks you in
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Does a buyer agreement lock you in *forever*?
+  options:
+  - Yes, until you buy
+  - No, it runs for a term
+  answer: B
+  explain: It has an end date. Yours spells out how long and how pay works.
+  reveal: false
+  cta: DM 'AGREEMENT' for the plain version
+sources: []

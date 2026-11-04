@@ -1,0 +1,17 @@
+id: s4
+kind: story
+track: buyer_education
+topic: What actually happens on closing day signing funding recording and keys
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: Closing day, in *order*.
+  steps:
+  - 'Sign: you sign at escrow or with a notary.'
+  - 'Fund: your lender wires the loan money in.'
+  - 'Record: the county records the deed in your name.'
+  - 'Keys: possession follows what your contract says.'
+  cta: DM 'BUYER' for my closing checklist
+sources: []

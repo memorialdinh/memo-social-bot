@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: seller_education
+topic: Teaser for p2 quiz on a seller credit versus a price cut
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Buyer wants $10k. Which *helps them* more?
+  options:
+  - A closing-cost credit
+  - A price reduction
+  answer: A
+  explain: A credit hits cash to close. A price cut spreads over 360 payments.
+  reveal: false
+  cta: Reply 'SELLER' with A or B
+sources: []

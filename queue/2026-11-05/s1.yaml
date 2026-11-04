@@ -1,0 +1,18 @@
+id: s1
+kind: story
+track: agent_attraction
+topic: Teaser for p1 the coaching and mentorship side of Spotlight 7
+time: auto
+approved: true
+design:
+  template: tip
+  kicker: EPIQUE SPOTLIGHT
+  headline: Spotlight 7. The *support* side.
+  points:
+  - 'Power Coaching: 1:1 on your business.'
+  - 'Forever Mentorship: an on-call mentor.'
+  - Daily live classes, all week.
+  - 'Teams: Family, Traditional, Power.'
+  cta: DM 'MATH' for the cost breakdown
+sources:
+- https://joinepique.com
