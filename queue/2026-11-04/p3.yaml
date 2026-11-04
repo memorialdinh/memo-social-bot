@@ -49,7 +49,19 @@ captions:
 
     #RealEstate #RealEstateMarketing #HomeSelling'
   tiktok: Forty photos and one of them is the garage.
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18034953731674001'
+    at: '2026-11-04T07:53:23-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1163222863371812'
+    at: '2026-11-04T07:53:26-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7523774424735461377
+    at: '2026-11-04T07:53:28-08:00'
 media:
   instagram: queue/2026-11-04/media/p3-instagram.jpg
   facebook: queue/2026-11-04/media/p3-facebook.jpg
