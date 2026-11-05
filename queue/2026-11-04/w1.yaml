@@ -62,7 +62,19 @@ captions:
 sources:
 - https://joinmemo.netlify.app
 - https://ica.epiquerealty.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18177083917397933'
+    at: '2026-11-04T19:37:44-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1163697536657678'
+    at: '2026-11-04T19:37:47-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7523951680694980609
+    at: '2026-11-04T19:37:49-08:00'
 media:
   instagram: queue/2026-11-04/media/w1-instagram.jpg
   facebook: queue/2026-11-04/media/w1-facebook.jpg
