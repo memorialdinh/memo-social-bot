@@ -76,7 +76,19 @@ captions:
     #RealEstate #HomeBuying #ConsumerProtection'
   tiktok: A buyer agreement isn't a promise to buy. It's three things, and one of them has a deadline.
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18358433875173706'
+    at: '2026-11-05T09:14:39-08:00'
+  facebook:
+    state: posted
+    id: '1154829223797139'
+    at: '2026-11-05T09:14:46-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7524157303839821824
+    at: '2026-11-05T09:14:53-08:00'
 media:
   instagram: queue/2026-11-05/media/r1-instagram.mp4
   facebook: queue/2026-11-05/media/r1-facebook.mp4

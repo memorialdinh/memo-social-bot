@@ -16,7 +16,11 @@ design:
   cta: DM 'MATH' for the cost breakdown
 sources:
 - https://joinepique.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18113338016145266'
+    at: '2026-11-05T09:15:02-08:00'
 media:
   instagram: queue/2026-11-05/media/s1-instagram.jpg
   facebook: queue/2026-11-05/media/s1-facebook.jpg
