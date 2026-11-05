@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: seller_education
+topic: Teaser for p1 quiz on whether a parent's property tax base follows an inherited home
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Inherit a parent's home. Does the *tax base* follow?
+  options:
+  - Always
+  - Only if you live there
+  - Never
+  answer: B
+  explain: Prop 19 needs it to become your own principal residence (California BOE).
+  reveal: false
+  cta: DM 'PROP 19' for the steps
+sources:
+- https://www.boe.ca.gov/prop19/

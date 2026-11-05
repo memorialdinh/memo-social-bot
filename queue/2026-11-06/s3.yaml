@@ -1,0 +1,16 @@
+id: s3
+kind: story
+track: market_update
+topic: Teaser for r2 median days on market in Orange County 30 days September 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Orange County, *September 2026*.
+  stat_value: 30 days
+  stat_label: Median days on market, Orange County, Sept 2026 (C.A.R.)
+  subhead: It was 33 days in September 2025.
+  cta: DM 'VALUE' for your home's number
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales

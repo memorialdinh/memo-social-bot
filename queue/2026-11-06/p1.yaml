@@ -1,0 +1,73 @@
+id: p1
+kind: post
+track: seller_education
+topic: Proposition 19 parent to child how the property tax base is handled on a family home
+time: auto
+approved: true
+design:
+  template: process
+  kicker: PROP 19
+  headline: A parent's home, and what happens to the *tax base*.
+  subhead: California BOE rules, operative Feb 16, 2021.
+  steps:
+  - {when: "Step 1", title: "Check the date", detail: "Parent-to-child rules are operative Feb 16, 2021."}
+  - {when: "Step 2", title: "Residence, both ways", detail: "The parent's principal residence, and it becomes the child's."}
+  - {when: "Step 3", title: "File within one year", detail: "Claim the homeowners' or disabled veterans' exemption."}
+  - {when: "Step 4", title: "The value cap", detail: "Factored base year value plus $1,044,586 (to Feb 15, 2027)."}
+  cta: DM 'PROP 19' for the steps
+captions:
+  instagram: |-
+    A parent leaves you the house. Does the property tax bill stay where it was?
+
+    Sometimes. California's Prop 19 does not hand you their tax base automatically. It sets conditions.
+
+    The home has to have been your parent's principal residence, and it has to become yours. You claim the homeowners' or disabled veterans' exemption within one year of the transfer, and file form BOE-19-P within three years or before the home goes to a third party.
+
+    Then there is a cap. The value limit is the home's factored base year value plus $1,044,586 for transfers from Feb 16, 2025 through Feb 15, 2027. Anything above the limit gets added to the base year value. (California BOE, Letter to Assessors 2025/009, as of Nov 5, 2026.)
+
+    Keep it as a rental instead of living in it? The BOE says a rental home is not eligible.
+
+    General information, not legal or tax advice. Your county assessor and your own attorney or CPA are the ones who should read your actual situation.
+
+    DM me 'PROP 19' and I'll send you the steps.
+
+    #Prop19 #CaliforniaRealEstate #PropertyTax #LongBeachRealEstate #SouthBayHomes #EstatePlanning
+  facebook: |-
+    One of the quietest, most expensive surprises in real estate: a family inherits a home and finds out the property tax bill is not the one their parents were paying.
+
+    Here is the structure, straight from the Board of Equalization.
+
+    Since Feb 16, 2021, California's Prop 19 governs parent-to-child transfers. The exclusion covers a family home that was the parent's principal residence and becomes the child's principal residence. A rental does not qualify. At least one eligible child has to actually live there.
+
+    Two filings, two clocks. The homeowners' or disabled veterans' exemption goes in within one year of the transfer. Form BOE-19-P goes in within three years, or before the home is transferred to a third party, whichever comes first.
+
+    And there is a ceiling on it. The value limit is the factored base year value plus $1,044,586 for transfers occurring Feb 16, 2025 through Feb 15, 2027. Value above that limit is added to the base year value, so a home worth far more than the old assessment gets partly reassessed. The BOE adjusts that dollar amount every other year, and says the next adjustment comes in February 2027.
+
+    Source: California State Board of Equalization, Prop 19 page and Letter to Assessors No. 2025/009 dated March 7, 2025, read Nov 5, 2026.
+
+    This is general information and not legal or tax advice. Every one of these situations turns on facts I cannot see from a post, so your county assessor and your own attorney or CPA are the right people to read yours.
+
+    Has your family talked about this before it was urgent? That conversation is a lot cheaper early.
+
+    #Prop19 #CaliforniaRealEstate
+  linkedin: |-
+    A procedural point worth knowing before it becomes urgent, for anyone advising families on California property.
+
+    Since February 16, 2021, Proposition 19 governs parent-to-child transfers of a family home. The exclusion is conditional, not automatic. The property must have been the transferor's principal residence and must become the transferee's principal residence; a rental is not eligible. The homeowners' or disabled veterans' exemption must be claimed within one year of the transfer, and form BOE-19-P filed within three years or before transfer to a third party.
+
+    The exclusion is also capped. The value limit is the factored base year value plus $1,044,586 for transfers occurring February 16, 2025 through February 15, 2027, with value above the limit added to the base year value. The Board adjusts the dollar figure biennially and states the next adjustment occurs in February 2027.
+
+    The takeaway for advisors: the planning window closes at the transfer, and two separate filing deadlines run from it. Families who learn the conditions afterward often learn them too late to meet the one-year exemption clock.
+
+    Source: California State Board of Equalization, Prop 19 page and Letter to Assessors No. 2025/009, March 7, 2025, read November 5, 2026. General information, not legal or tax advice.
+
+    For the estate and tax professionals here: how early in the process do you raise the residency condition with a client?
+
+    #RealEstate #PropertyTax #EstatePlanning
+  tiktok: |-
+    Inheriting a parent's house in California does not automatically mean inheriting their property tax base. Prop 19 has conditions.
+
+    #prop19 #californiarealestate #propertytax #realestatetips #estateplanning
+sources:
+- https://www.boe.ca.gov/prop19/
+- https://www.boe.ca.gov/proptaxes/pdf/lta25009.pdf

@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: buyer_education
+topic: Teaser for p2 quiz on whether a contingent listing can come back on the market
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Contingent listing. Can it come *back*?
+  options:
+  - Yes, conditions can still fail
+  - No, it is sold
+  answer: A
+  explain: Contingent means conditions are open. Pending usually means they cleared.
+  reveal: false
+  cta: DM 'BUYER' for my offer checklist
+sources: []

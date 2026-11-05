@@ -1,0 +1,17 @@
+id: s4
+kind: story
+track: buyer_education
+topic: Three things that stall a loan in the last ten days before closing
+time: auto
+approved: true
+design:
+  template: tip
+  kicker: BUYER TIP
+  headline: Three ways a loan stalls at the *end*.
+  points:
+  - 'New credit: a card or car loan reopens underwriting.'
+  - Changing jobs or pay structure right before funding.
+  - Large deposits landing with no paper trail.
+  - Leaving a lender condition unanswered twice.
+  cta: DM 'BUYER' for my closing checklist
+sources: []

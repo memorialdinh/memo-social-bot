@@ -1,0 +1,65 @@
+id: r1
+kind: reel
+track: investment
+topic: Which line is not an operating expense when you underwrite a rental and why NOI sits before debt service
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: INVESTOR MATH
+  headline: Which one is *not* an operating expense?
+  options:
+  - Property taxes
+  - Insurance
+  - Your mortgage payment
+  answer: C
+  explain: Operating expenses stop before debt service. NOI is figured without your loan.
+  cta: DM 'INVEST' for the worksheet
+captions:
+  instagram: |-
+    Most rental math goes wrong in the same place.
+
+    Property taxes, insurance, management, maintenance, vacancy, utilities you cover: those are operating expenses. Subtract them from gross income and you get net operating income.
+
+    Your mortgage payment is not one of them. Debt service sits below NOI, on purpose.
+
+    Why it matters: cap rate is NOI divided by price, so it describes the property. Put your loan inside it and you are no longer measuring the building, you are measuring your financing. Two investors with different loans would get different cap rates on the same house, which tells you the number is broken.
+
+    Run the property first. Then run your loan against it.
+
+    DM me 'INVEST' and I'll send you the worksheet.
+
+    #RealEstateInvesting #RentalProperty #CapRate #InvestorTips #LongBeachRealEstate #SouthBayHomes
+  facebook: |-
+    If you are looking at your first rental, this is the one that trips people up.
+
+    Operating expenses are what it costs to run the building: property taxes, insurance, property management, repairs and maintenance, a vacancy allowance, any utilities you pay, HOA dues if there are any. Gross income minus those is net operating income.
+
+    Your mortgage payment is not an operating expense. Debt service goes below the NOI line.
+
+    That is not bookkeeping pedantry, it is the whole point. Cap rate is NOI divided by purchase price, and it is meant to describe the property on its own. The moment you fold your loan into it, two people could look at the identical house, put 20% down versus 50% down, and come away with different cap rates. A number that changes based on who is buying is not telling you anything about the building.
+
+    So do it in two passes. First, does the property work? Then, does your financing work on top of it? Cash-on-cash return is where the loan belongs.
+
+    And every line in there is an estimate until you see real numbers. Ask for the actual tax bill, the actual insurance quote, and the actual rent roll rather than a seller's pro forma.
+
+    Investors, which expense line do you see understated most often?
+
+    #RealEstateInvesting #RentalProperty
+  linkedin: |-
+    A modeling error that shows up constantly in first-time rental underwriting.
+
+    Operating expenses are the costs of running the asset: property taxes, insurance, management, repairs and maintenance, a vacancy allowance, owner-paid utilities and HOA dues. Gross income less those expenses is net operating income. Debt service is not among them.
+
+    The reason is that NOI is designed to describe the property independent of its capital structure. Cap rate is NOI over price. Fold a mortgage payment into NOI and the resulting cap rate becomes a function of the buyer's loan rather than the building, so the same asset yields different cap rates for different purchasers. The metric stops being comparable, which is the only thing it was for.
+
+    The takeaway is sequencing. Underwrite the asset first on NOI and cap rate, then layer financing and measure it with cash-on-cash return and debt coverage. And treat every expense line as an estimate until you have the actual tax bill, insurance quote and rent roll rather than a seller's pro forma.
+
+    For the investors and analysts here: which expense line do you find most consistently understated in a seller's numbers?
+
+    #RealEstate #Investing #RealEstateInvesting
+  tiktok: |-
+    Your mortgage payment is not an operating expense. NOI sits above debt service, and that is why cap rate describes the property and not your loan.
+
+    #realestateinvesting #rentalproperty #caprate #investortips #realestatetips
+sources: []
