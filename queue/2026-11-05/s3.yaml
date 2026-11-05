@@ -16,7 +16,11 @@ design:
   reveal: false
   cta: DM 'AGREEMENT' for the plain version
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18042630317836352'
+    at: '2026-11-05T12:09:39-08:00'
 media:
   instagram: queue/2026-11-05/media/s3-instagram.jpg
   facebook: queue/2026-11-05/media/s3-facebook.jpg
