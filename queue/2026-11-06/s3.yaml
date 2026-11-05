@@ -14,3 +14,23 @@ design:
   cta: DM 'VALUE' for your home's number
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+media:
+  instagram: queue/2026-11-06/media/s3-instagram.jpg
+  facebook: queue/2026-11-06/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-06T19:05-08:00
+  instagram: 2026-11-06T12:05-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: grid
+    side: right
+    center: true
+    template: stat
+  facebook:
+    theme: slate
+    deco: corners
+    side: right
+    center: true
+    template: stat

@@ -16,3 +16,23 @@ design:
   reveal: false
   cta: DM 'BUYER' for my offer checklist
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-06/media/s2-instagram.jpg
+  facebook: queue/2026-11-06/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-06T12:06-08:00
+  instagram: 2026-11-06T10:07-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: corners
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: goldrush
+    deco: rules
+    side: left
+    center: false
+    template: quiz

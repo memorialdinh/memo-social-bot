@@ -13,55 +13,108 @@ design:
   subhead: Homes took 30 days to sell, down from 33 a year earlier.
   cta: DM 'VALUE' for your home's number
 captions:
-  instagram: |-
-    Orange County, September 2026. Two numbers worth sitting with.
+  instagram: 'Orange County, September 2026. Two numbers worth sitting with.
+
 
     The median price of an existing single-family home was $1,480,000, up 5.6% from $1,401,250 a year earlier.
 
+
     Homes took a median 30 days to sell, down from 33 days in September 2025. Unsold inventory held at 3.0 months, the same as a year ago.
+
 
     So prices firmed up and homes moved slightly faster, on supply that did not budge. Closed sales were 2.0% lower than a year ago.
 
+
     Figures: California Association of REALTORS, September 2026 Home Sales and Price Report, as of September 2026.
+
 
     None of that says where any of it goes next. It says what happened.
 
-    DM me 'VALUE' for a range on your own place.
 
-    #OrangeCountyRealEstate #HousingMarket #MarketUpdate #LongBeachRealEstate #SouthBayHomes #RealEstateData
-  facebook: |-
-    Orange County in September 2026, by the numbers that actually got reported.
+    DM me ''VALUE'' for a range on your own place.
+
+
+    #OrangeCountyRealEstate #HousingMarket #MarketUpdate #LongBeachRealEstate #SouthBayHomes #RealEstateData'
+  facebook: 'Orange County in September 2026, by the numbers that actually got reported.
+
 
     The median price for an existing single-family home came in at $1,480,000. A year earlier it was $1,401,250, so that is up 5.6%.
 
+
     Homes sold in a median 30 days, three days faster than September 2025. Unsold inventory sat at 3.0 months, identical to a year ago. Closed sales ran 2.0% below last September.
+
 
     Put together: a market where prices nudged up and homes moved a touch quicker, with supply flat and slightly fewer transactions. That is a tighter picture than Riverside or San Bernardino County looked in the same month, and it is a reminder that "Southern California" is not one market. Your city, your price band and your property type can all read differently from the county headline.
 
+
     Figures from the California Association of REALTORS, September 2026 Home Sales and Price Report, as of September 2026.
+
 
     I am not going to tell you what happens next, because I do not know and neither does anyone posting a forecast. This is what the month did.
 
+
     Comment VALUE if you want a range on your own place.
 
-    #HousingMarket #OrangeCountyRealEstate
-  linkedin: |-
-    Orange County, September 2026, from the C.A.R. monthly release.
+
+    #HousingMarket #OrangeCountyRealEstate'
+  linkedin: 'Orange County, September 2026, from the C.A.R. monthly release.
+
 
     The median price of an existing single-family home was $1,480,000, a 5.6% increase over the $1,401,250 median of September 2025. Median days on market was 30, against 33 a year earlier. The unsold inventory index held at 3.0 months, unchanged year over year, while closed sales were 2.0% below September 2025.
 
+
     What makes this set interesting is the combination: firmer pricing and marginally faster absorption on flat supply and slightly thinner volume. It is a materially different reading from the inland counties in the same month, which is the practical argument against treating a regional aggregate as a market signal. Composition matters too, since a median reflects which price bands transacted.
+
 
     For anyone underwriting or advising in this market, the useful unit of analysis remains the submarket and the price band, not the county.
 
+
     Source: California Association of REALTORS, September 2026 Home Sales and Price Report, as of September 2026.
+
 
     How far down do you drill before a comparable-market read is useful to you?
 
-    #RealEstate #HousingMarket #MarketAnalysis
-  tiktok: |-
-    Orange County, September 2026: median $1,480,000, up 5.6% in a year, and homes sold in 30 days. Source C.A.R.
 
-    #orangecounty #housingmarket #realestatedata #marketupdate #socalrealestate
+    #RealEstate #HousingMarket #MarketAnalysis'
+  tiktok: 'Orange County, September 2026: median $1,480,000, up 5.6% in a year, and homes sold in 30 days. Source C.A.R.
+
+
+    #orangecounty #housingmarket #realestatedata #marketupdate #socalrealestate'
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}
+media:
+  instagram: queue/2026-11-06/media/r2-instagram.mp4
+  facebook: queue/2026-11-06/media/r2-facebook.mp4
+  linkedin: queue/2026-11-06/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-06/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-06T10:05-08:00
+  instagram: 2026-11-06T10:08-08:00
+  linkedin: 2026-11-06T10:04-08:00
+  tiktok: 2026-11-06T10:06-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: halo
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: slate
+    deco: grid
+    side: left
+    center: true
+    template: stat
+  linkedin:
+    theme: silver
+    deco: rules
+    side: left
+    center: true
+    template: stat
+  tiktok:
+    theme: aurum
+    deco: glow
+    side: left
+    center: true
+    template: stat

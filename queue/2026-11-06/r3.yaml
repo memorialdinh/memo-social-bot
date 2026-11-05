@@ -12,46 +12,95 @@ design:
   punch: 'Buyer, 2:58pm: *quick question.*'
   cta: DM 'BUYER' if this was you
 captions:
-  instagram: |-
-    Every offer deadline. Every single time.
+  instagram: 'Every offer deadline. Every single time.
+
 
     The deadline goes out at nine in the morning. Phone is quiet all day. Then at 2:58 the texts land, all at once, from everybody.
 
+
     I am not even mad. I have become the 2:58 person in other parts of my life. I just wish it were 2:20.
+
 
     If you are watching a home right now and the deadline is coming, the fix is boring: get the questions answered the day before, not during the last four minutes.
 
-    DM me 'BUYER' if this was you.
 
-    #RealTalk #HomeBuying #RealEstateHumor #FirstTimeHomeBuyer #LongBeachRealEstate #SouthBayHomes
-  facebook: |-
-    Offer deadlines follow a law of nature and I have stopped fighting it.
+    DM me ''BUYER'' if this was you.
+
+
+    #RealTalk #HomeBuying #RealEstateHumor #FirstTimeHomeBuyer #LongBeachRealEstate #SouthBayHomes'
+  facebook: 'Offer deadlines follow a law of nature and I have stopped fighting it.
+
 
     Nine in the morning, the email goes out: offers due at three. Nothing happens. Lunch comes and goes. Still nothing.
 
+
     2:58pm, my phone turns into a slot machine. Three buyers, two agents, one lender, all with a quick question that is not quick.
+
 
     And honestly, I get it. Deciding to spend that kind of money is the sort of thing a person puts off until the deadline makes them do it. I am the same way about plenty of things. It just makes for a very loud four minutes.
 
+
     The real reason I am posting this: if you are circling a home with a deadline on it, ask your questions the day before. The answers are better when nobody is typing them with one hand while on the phone, and your offer gets written properly instead of fast.
+
 
     Agents, buyers, sellers, what time does your phone go off? Mine has settled on 2:58.
 
-    #RealEstateHumor #HomeBuying
-  linkedin: |-
-    An observation on deadlines, from a week of them.
+
+    #RealEstateHumor #HomeBuying'
+  linkedin: 'An observation on deadlines, from a week of them.
+
 
     Set an offer deadline for 3pm and almost nothing arrives before 2:50. Then everything arrives at once: the buyers, the co-op agents, the lender, each with a question that needed twenty minutes and now has four.
 
+
     It is easy to read that as disorganization. I do not think it is. A deadline is what converts an open-ended decision into a decision, and people reliably use the whole runway they are given. The behaviour is predictable, so it should be planned for rather than complained about.
+
 
     What has actually helped on my side: push the disclosure package and the answers out early and in writing, and tell everyone the questions close at noon. The deadline stays at three. The scramble moves to a time when it can be handled properly, and the offers that arrive are better written.
 
+
     For anyone who runs deadlines in their own work, where do you build the buffer?
 
-    #RealEstate #Negotiation #RealEstateHumor
-  tiktok: |-
-    Offers due at 3. Phone silent all day. 2:58pm: quick question.
 
-    #realestatehumor #realtorlife #homebuying #firsttimehomebuyer #realtalk
+    #RealEstate #Negotiation #RealEstateHumor'
+  tiktok: 'Offers due at 3. Phone silent all day. 2:58pm: quick question.
+
+
+    #realestatehumor #realtorlife #homebuying #firsttimehomebuyer #realtalk'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-06/media/r3-instagram.mp4
+  facebook: queue/2026-11-06/media/r3-facebook.mp4
+  linkedin: queue/2026-11-06/media/r3-linkedin.mp4
+  tiktok: queue/2026-11-06/media/r3-tiktok.mp4
+schedule:
+  facebook: 2026-11-06T11:04-08:00
+  instagram: 2026-11-06T11:11-08:00
+  linkedin: 2026-11-06T11:09-08:00
+  tiktok: 2026-11-06T11:04-08:00
+rendered:
+  instagram:
+    theme: noir
+    deco: corners
+    side: left
+    center: true
+    template: meme
+  facebook:
+    theme: ivory
+    deco: rules
+    side: left
+    center: true
+    template: meme
+  linkedin:
+    theme: slate
+    deco: arcs
+    side: left
+    center: true
+    template: meme
+  tiktok:
+    theme: porcelain
+    deco: frame
+    side: left
+    center: false
+    template: meme
