@@ -16,7 +16,11 @@ design:
   reveal: false
   cta: Reply 'SELLER' with A or B
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17909681745333728'
+    at: '2026-11-05T11:15:59-08:00'
 media:
   instagram: queue/2026-11-05/media/s2-instagram.jpg
   facebook: queue/2026-11-05/media/s2-facebook.jpg
