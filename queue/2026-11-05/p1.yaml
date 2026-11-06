@@ -74,7 +74,19 @@ captions:
   tiktok: Splits and tech are easy to compare. Support isn't. Spotlight 7.
 sources:
 - https://joinepique.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18120713861048912'
+    at: '2026-11-05T20:54:58-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1164808763213222'
+    at: '2026-11-05T20:55:03-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7524333512737505280
+    at: '2026-11-05T20:55:05-08:00'
 media:
   instagram: queue/2026-11-05/media/p1-instagram.jpg
   facebook: queue/2026-11-05/media/p1-facebook.jpg
