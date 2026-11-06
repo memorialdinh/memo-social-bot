@@ -18,7 +18,15 @@ design:
   cta: 'Your city''s numbers: theprestige.luxe'
 sources:
 - https://theprestige.luxe/housing-market.html
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17917464564521037'
+    at: '2026-11-06T07:47:13-08:00'
+  facebook:
+    state: posted
+    id: '1933379224298542'
+    at: '2026-11-06T07:47:17-08:00'
 media:
   instagram: queue/2026-11-06/media/s5-instagram.jpg
   facebook: queue/2026-11-06/media/s5-facebook.jpg
