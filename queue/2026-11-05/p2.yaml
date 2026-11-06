@@ -65,7 +65,19 @@ captions:
     #RealEstate #HomeSelling #Negotiation'
   tiktok: Ten grand off the price or ten grand toward their closing costs. Not the same thing.
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18114964877335693'
+    at: '2026-11-05T21:55:45-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1164849956542436'
+    at: '2026-11-05T21:55:49-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7524348803353673728
+    at: '2026-11-05T21:55:50-08:00'
 media:
   instagram: queue/2026-11-05/media/p2-instagram.jpg
   facebook: queue/2026-11-05/media/p2-facebook.jpg
