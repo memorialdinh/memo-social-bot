@@ -1,0 +1,15 @@
+id: s2
+kind: story
+track: humor
+topic: Teaser for p2 the one box labelled misc
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: Forty labeled boxes. One *misc*.
+  setup: Every room, color-coded and stacked.
+  punch: Box 41 has the chargers. *Obviously.*
+  cta: Reply BUYER if this is your move
+sources: []
+status: {}

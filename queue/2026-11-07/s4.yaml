@@ -1,0 +1,20 @@
+id: s4
+kind: story
+track: buyer_education
+topic: Teaser for r2 the five parts of a monthly housing payment
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: Your payment has *five* parts.
+  steps:
+  - 'Principal: pays the balance down.'
+  - 'Interest: 7.18% 30-yr avg, Freddie Mac, Nov 5, 2026.'
+  - 'Taxes: usually collected monthly with the payment.'
+  - 'Insurance: hazard, plus mortgage insurance sometimes.'
+  - 'HOA: billed apart, still counts in qualifying.'
+  cta: Reply BUYER for the payment worksheet
+sources:
+- https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-decline-third-consecutive-week-718
+status: {}

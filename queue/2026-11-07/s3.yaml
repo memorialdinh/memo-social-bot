@@ -1,0 +1,19 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r1 checklist on how much of a California closing statement you can actually name
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: 'Closing costs: can you *name* yours?'
+  questions:
+  - I know who pays the escrow fee.
+  - I know what a transfer tax is.
+  - I know if my lender collects taxes monthly.
+  - I have a written cost estimate already.
+  score: Fewer than 3? That's *normal*, and fixable.
+  cta: Reply BUYER if you checked under 3
+sources: []
+status: {}

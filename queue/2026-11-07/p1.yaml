@@ -1,0 +1,76 @@
+id: p1
+kind: post
+track: market_update
+topic: Freddie Mac 30-year average 7.18 percent as of Nov 5 2026 and what the week over week move is worth on an example loan
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Rates eased a *third* straight week.
+  subhead: Down from 7.24% the week before.
+  stat_value: 7.18%
+  stat_label: 30-yr fixed average, Freddie Mac, as of Nov 5, 2026
+  cta: DM 'RATES' for your real numbers
+captions:
+  instagram: 'Rates came down again. Third week in a row.
+
+
+    The 30-year fixed averaged 7.18% as of Nov 5, down from 7.24% the week before. The 15-year averaged 6.57%, down from 6.60%. (Freddie Mac)
+
+
+    What that move is actually worth: on a $600,000 loan, principal and interest only, 7.24% ran about $4,089 a month. At 7.18%, about $4,065. So $24 a month, roughly $293 a year.
+
+
+    Small on its own. Worth knowing if you''re shopping right now, because your pre-approval is priced off today, not off last month.
+
+
+    Example only, not a loan offer. Your number depends on credit, down payment and the loan itself.
+
+
+    DM me ''RATES'' and I''ll run yours.
+
+
+    #MortgageRates #FirstTimeHomeBuyer #LongBeachRealEstate #SouthBayHomes #SoCalRealEstate #RealEstateTips'
+  facebook: 'Third straight week of small declines, according to Freddie Mac.
+
+
+    The 30-year fixed averaged 7.18% as of Nov 5, down from 7.24% a week earlier. A year ago at this time it averaged 6.22%. The 15-year averaged 6.57%, down from 6.60%.
+
+
+    Here is the part most people actually want. On a $600,000 loan, principal and interest only, 7.24% worked out to roughly $4,089 a month. At 7.18%, roughly $4,065. That is about $24 a month, or $293 a year. Across a full 30-year term it is a little under $8,800.
+
+
+    So a six-hundredths move is not the thing that makes a house affordable. But it does tell you something: the number you were quoted six weeks ago is not the number today, and if you have been sitting on an old pre-approval, it is worth a fresh one. It costs nothing to know.
+
+
+    That example is principal and interest only. No taxes, no insurance, no HOA, no mortgage insurance, and it is not a loan offer. Your rate depends on your credit, your down payment and the loan you choose.
+
+
+    If you are shopping right now, what rate are you actually being quoted? I am curious how much spread people are seeing between lenders.
+
+
+    #MortgageRates #SoCalRealEstate'
+  linkedin: 'Freddie Mac''s weekly survey put the 30-year fixed at 7.18% as of Nov 5, down from 7.24% the prior week and the third consecutive weekly decline. The 15-year averaged 6.57%.
+
+
+    The useful exercise is translating a rate move into a payment rather than reacting to the headline. On a $600,000 loan, principal and interest only, the move from 7.24% to 7.18% is about $24 a month, roughly $293 a year, a little under $8,800 over a full 30-year term.
+
+
+    The takeaway for anyone advising buyers: six basis points does not change affordability, but it does change the accuracy of a stale pre-approval. A buyer carrying a quote from September is working off a different payment than the one available to them now, and that gap is worth closing before they write an offer.
+
+
+    Illustrative example, principal and interest only, not a loan offer.
+
+
+    For the lenders and agents here: how wide is the spread you are seeing between lender quotes on the same borrower profile right now?
+
+
+    #MortgageRates #RealEstate #HousingMarket'
+  tiktok: '30-year fixed averaged 7.18% as of Nov 5, third week down. On a $600K loan that''s about $24 a month. Example only, not a loan offer.
+
+
+    #mortgagerates #firsttimehomebuyer #realestatetips #socalrealestate #homebuying'
+sources:
+- https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-decline-third-consecutive-week-718
+status: {}

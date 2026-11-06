@@ -1,0 +1,88 @@
+id: r3
+kind: reel
+track: market_update
+topic: Which Southern California county carried the most months of supply in September 2026
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: MARKET UPDATE
+  headline: Which county had the most *months of supply*?
+  subhead: Existing single-family homes, September 2026 (C.A.R.)
+  options:
+  - Los Angeles
+  - Orange
+  - Riverside
+  - San Bernardino
+  answer: D
+  explain: San Bernardino, 5.3 months. Orange was lowest at 3.0. Sept 2026, C.A.R.
+  reveal: true
+  cta: DM 'VALUE' for your area's numbers
+captions:
+  instagram: 'Months of supply is the number I watch before the median price. It tells you how long the standing inventory would take to sell at the current pace.
+
+
+    September 2026, existing single-family homes (C.A.R.):
+
+
+    San Bernardino 5.3 months
+
+    Riverside 4.4
+
+    Los Angeles 4.0
+
+    Orange 3.0
+
+
+    Same region, meaningfully different conditions. More supply usually means more room to negotiate. Less usually means less. That is not a forecast, it is just what the inventory looks like.
+
+
+    Which is why "the market" is the wrong unit. Your county, your price band and your street all behave differently.
+
+
+    DM me ''VALUE'' and I''ll pull the numbers for your area.
+
+
+    #HousingMarket #SoCalRealEstate #LongBeachRealEstate #SouthBayHomes #RealEstateTips #MarketUpdate'
+  facebook: 'Quick quiz. Of Los Angeles, Orange, Riverside and San Bernardino, which county had the most months of supply in September 2026?
+
+
+    It was San Bernardino, at 5.3 months. Then Riverside at 4.4, Los Angeles at 4.0, and Orange County lowest at 3.0. Existing single-family homes, from the California Association of REALTORS September 2026 report.
+
+
+    Months of supply, or the unsold inventory index, answers one question: at the current sales pace, how long would it take to sell everything currently on the market? It is a cleaner read on conditions than the median price, because the median moves around with which homes happened to sell that month.
+
+
+    What it means in practice: where supply is higher, buyers generally have more room on price and terms, and sellers need sharper pricing and prep. Where it is tighter, the opposite. Four neighboring counties, and the spread between them is nearly two months.
+
+
+    This is the reason I push back when someone asks what "the market" is doing. The market is not a single thing. Your county, your price band and sometimes your street are all different conversations.
+
+
+    Which county are you watching?
+
+
+    #HousingMarket #SoCalRealEstate'
+  linkedin: 'Of Los Angeles, Orange, Riverside and San Bernardino, which carried the most months of supply in September 2026?
+
+
+    San Bernardino, at 5.3 months. Riverside 4.4, Los Angeles 4.0, Orange 3.0. Existing single-family homes, C.A.R. September 2026 Home Sales and Price Report.
+
+
+    Months of supply is a more useful read on conditions than the median sale price, because the median reflects the composition of what sold that month while the inventory index reflects the balance between standing supply and the current absorption rate.
+
+
+    The takeaway for anyone pricing or advising in Southern California: four adjacent counties span nearly two months of supply. A pricing strategy calibrated to Orange County''s 3.0 does not transfer to San Bernardino''s 5.3, and regional commentary that treats the four as one market will mislead a seller about how much pricing precision their situation demands.
+
+
+    How far down do you drill before you price, county, city, or submarket?
+
+
+    #RealEstate #HousingMarket #MarketAnalysis'
+  tiktok: 'Four SoCal counties, almost two months of supply between them. San Bernardino 5.3, Orange 3.0. Sept 2026, C.A.R.
+
+
+    #housingmarket #socalrealestate #realestatetips #marketupdate #homebuying'
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
+status: {}

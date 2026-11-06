@@ -1,0 +1,100 @@
+id: r2
+kind: reel
+track: buyer_education
+topic: How a monthly housing payment is built principal interest taxes insurance and HOA
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: How your payment is actually *built*.
+  steps:
+  - when: '1'
+    title: Principal
+    detail: The slice that pays your loan balance down.
+  - when: '2'
+    title: Interest
+    detail: 30-yr fixed averaged 7.18%, Freddie Mac, Nov 5, 2026.
+  - when: '3'
+    title: Taxes
+    detail: Property taxes, usually collected monthly into escrow.
+  - when: '4'
+    title: Insurance
+    detail: Hazard coverage, plus mortgage insurance on a low down payment.
+  - when: '5'
+    title: HOA
+    detail: Billed separately, but it still counts against your qualifying.
+  cta: DM 'BUYER' for the payment worksheet
+captions:
+  instagram: 'The rate is one of five things in your payment. People shop the rate and get surprised by the rest.
+
+
+    1. Principal. Pays the balance down.
+
+    2. Interest. The 30-year fixed averaged 7.18% as of Nov 5 (Freddie Mac).
+
+    3. Taxes. Property taxes, usually collected monthly with your payment.
+
+    4. Insurance. Hazard coverage, plus mortgage insurance if your down payment is small.
+
+    5. HOA. Billed separately, but your lender still counts it when you qualify.
+
+
+    Save this before your next lender call. Then ask for all five, not just the rate.
+
+
+    DM me ''BUYER'' and I''ll send you the worksheet.
+
+
+    #FirstTimeHomeBuyer #HomeBuyingTips #MortgageTips #LongBeachRealEstate #SouthBayHomes #RealEstateTips'
+  facebook: 'Most people shop the interest rate. Then the real payment shows up and it is several hundred dollars higher than the number in their head.
+
+
+    Here is everything that is actually in it.
+
+
+    Principal. The part that reduces what you owe. Early on this is the smaller slice.
+
+
+    Interest. The lender''s charge on the balance. Freddie Mac put the 30-year fixed average at 7.18% as of Nov 5, down from 7.24% the week before.
+
+
+    Taxes. Property taxes, usually collected monthly along with your payment and held until the bill is due.
+
+
+    Insurance. Hazard insurance on the home, and mortgage insurance on top of that if your down payment is on the smaller side. Flood or earthquake coverage if you choose it.
+
+
+    HOA. If the property has dues, they are billed separately from your loan, but the lender still counts them when deciding what you qualify for. This is the one that catches people on condos.
+
+
+    The move here is simple. On your next lender call, do not ask "what''s my rate." Ask for the full monthly payment with taxes, insurance, mortgage insurance and HOA included, in writing. That is the number you actually live with.
+
+
+    Homeowners, which of the five surprised you most when you bought?
+
+
+    #HomeBuyingTips #MortgageTips'
+  linkedin: 'A recurring gap in buyer readiness: clients shop the interest rate and budget against principal and interest, then meet the full payment late in the process.
+
+
+    The payment has five components. Principal reduces the balance. Interest is the lender''s charge on it, and Freddie Mac put the 30-year fixed average at 7.18% as of Nov 5, down from 7.24% the prior week. Property taxes are typically collected monthly and held until the bill comes due. Insurance means hazard coverage, plus mortgage insurance where the down payment is small. HOA dues are billed outside the loan but still count in qualifying, which is what catches condo buyers.
+
+
+    The takeaway is procedural rather than clever: ask the lender for the full monthly obligation in writing, with taxes, insurance, mortgage insurance and HOA included, before the buyer anchors on a number. A client who budgets against principal and interest alone has not been given a usable figure.
+
+
+    Rate figure is a weekly national average, not a quote.
+
+
+    For the agents here: at what point in your process do you walk a buyer through all five?
+
+
+    #RealEstate #HomeBuying #MortgageTips'
+  tiktok: 'Your payment has five parts, not one. Principal, interest, taxes, insurance, HOA. Ask your lender for all five.
+
+
+    #firsttimehomebuyer #mortgagetips #realestatetips #homebuying #pit'
+sources:
+- https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-decline-third-consecutive-week-718
+status: {}
