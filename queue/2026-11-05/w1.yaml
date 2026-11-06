@@ -70,7 +70,19 @@ captions:
   tiktok: 'Selling in 2027? 4 questions to ask yourself first. Then get your free home value at theprestige.luxe #sellingahome #realestatetips #homevalue #socal'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18447041083130245'
+    at: '2026-11-05T19:50:49-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1164763336551098'
+    at: '2026-11-05T19:50:52-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7524317360581853186
+    at: '2026-11-05T19:50:54-08:00'
 media:
   instagram: queue/2026-11-05/media/w1-instagram.jpg
   facebook: queue/2026-11-05/media/w1-facebook.jpg

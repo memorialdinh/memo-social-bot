@@ -15,7 +15,11 @@ design:
   - 'Keys: possession follows what your contract says.'
   cta: DM 'BUYER' for my closing checklist
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18121389812063649'
+    at: '2026-11-05T19:50:34-08:00'
 media:
   instagram: queue/2026-11-05/media/s4-instagram.jpg
   facebook: queue/2026-11-05/media/s4-facebook.jpg
