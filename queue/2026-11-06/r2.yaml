@@ -82,7 +82,19 @@ captions:
     #orangecounty #housingmarket #realestatedata #marketupdate #socalrealestate'
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18043626296847777'
+    at: '2026-11-06T10:49:15-08:00'
+  facebook:
+    state: posted
+    id: '1334218015399855'
+    at: '2026-11-06T10:49:22-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7524543497786556416
+    at: '2026-11-06T10:49:29-08:00'
 media:
   instagram: queue/2026-11-06/media/r2-instagram.mp4
   facebook: queue/2026-11-06/media/r2-facebook.mp4

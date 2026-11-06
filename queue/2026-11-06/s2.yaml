@@ -16,7 +16,11 @@ design:
   reveal: false
   cta: DM 'BUYER' for my offer checklist
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18106851209007902'
+    at: '2026-11-06T10:49:42-08:00'
 media:
   instagram: queue/2026-11-06/media/s2-instagram.jpg
   facebook: queue/2026-11-06/media/s2-facebook.jpg
