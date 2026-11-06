@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T18:33-08:00",
+  "updated": "2026-11-06T06:34-08:00",
   "scores": {
     "track:untagged": {
       "posts": 112,
@@ -10,42 +10,42 @@
     },
     "kind:reel": {
       "posts": 61,
-      "avg_rate": 0.0268,
+      "avg_rate": 0.0267,
       "avg_eng": 4.1,
       "avg_save_rate": 0.0006,
       "avg_share_rate": 0.0006
     },
     "platform:instagram": {
-      "posts": 179,
-      "avg_rate": 0.0188,
-      "avg_eng": 2.6,
+      "posts": 183,
+      "avg_rate": 0.0184,
+      "avg_eng": 2.5,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0002
     },
     "kind:post": {
-      "posts": 127,
-      "avg_rate": 0.0183,
-      "avg_eng": 1.6,
+      "posts": 133,
+      "avg_rate": 0.0175,
+      "avg_eng": 1.5,
       "avg_save_rate": 0.0003,
-      "avg_share_rate": 0.0079
+      "avg_share_rate": 0.0075
     },
     "platform:facebook": {
-      "posts": 75,
-      "avg_rate": 0.0144,
+      "posts": 78,
+      "avg_rate": 0.0139,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0133
+      "avg_share_rate": 0.0128
     },
     "kind:story": {
-      "posts": 66,
-      "avg_rate": 0.0074,
+      "posts": 67,
+      "avg_rate": 0.0073,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:seller_education": {
-      "posts": 33,
-      "avg_rate": 0.0025,
+      "posts": 37,
+      "avg_rate": 0.0022,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -65,15 +65,15 @@
       "avg_share_rate": 0.0
     },
     "theme:ivory": {
-      "posts": 16,
-      "avg_rate": 0.003,
+      "posts": 17,
+      "avg_rate": 0.0028,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:agent_attraction": {
-      "posts": 22,
-      "avg_rate": 0.0026,
+      "posts": 24,
+      "avg_rate": 0.0024,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -86,8 +86,8 @@
       "avg_share_rate": 0.0625
     },
     "track:buyer_education": {
-      "posts": 31,
-      "avg_rate": 0.0018,
+      "posts": 32,
+      "avg_rate": 0.0017,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -157,14 +157,14 @@
     },
     "track:humor": {
       "posts": 14,
-      "avg_rate": 0.0077,
+      "avg_rate": 0.0073,
       "avg_eng": 0.3,
       "avg_save_rate": 0.0013,
       "avg_share_rate": 0.0
     },
     "template:meme": {
       "posts": 13,
-      "avg_rate": 0.0083,
+      "avg_rate": 0.0078,
       "avg_eng": 0.3,
       "avg_save_rate": 0.0014,
       "avg_share_rate": 0.0
@@ -177,36 +177,36 @@
       "avg_share_rate": 0.0
     },
     "theme:carbon": {
-      "posts": 12,
-      "avg_rate": 0.0073,
+      "posts": 13,
+      "avg_rate": 0.0063,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:slate": {
-      "posts": 12,
+      "posts": 13,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:porcelain": {
-      "posts": 16,
+      "posts": 17,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:aurum": {
-      "posts": 12,
+      "posts": 15,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:process": {
-      "posts": 8,
-      "avg_rate": 0.0067,
+      "posts": 9,
+      "avg_rate": 0.0058,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -226,14 +226,14 @@
       "avg_share_rate": 0.0
     },
     "template:spotlight": {
-      "posts": 10,
+      "posts": 12,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:checklist": {
-      "posts": 11,
+      "posts": 13,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -247,9 +247,9 @@
       "avg_share_rate": 0.0
     },
     "template:explainer": {
-      "posts": 6,
-      "avg_rate": 0.0056,
-      "avg_eng": 0.2,
+      "posts": 8,
+      "avg_rate": 0.0042,
+      "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     }
@@ -268,8 +268,8 @@
   "followers": {
     "instagram": {
       "first": 817,
-      "latest": 816,
-      "change": -1
+      "latest": 817,
+      "change": 0
     },
     "facebook": {
       "first": 217,
