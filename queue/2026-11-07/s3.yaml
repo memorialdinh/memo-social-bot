@@ -17,3 +17,22 @@ design:
   cta: Reply BUYER if you checked under 3
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-07/media/s3-instagram.jpg
+  facebook: queue/2026-11-07/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-07T19:03-08:00
+  instagram: 2026-11-07T12:06-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: arcs
+    side: right
+    center: false
+    template: checklist
+  facebook:
+    theme: goldrush
+    deco: monogram
+    side: right
+    center: false
+    template: checklist

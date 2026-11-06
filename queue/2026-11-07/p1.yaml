@@ -74,3 +74,38 @@ captions:
 sources:
 - https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-decline-third-consecutive-week-718
 status: {}
+media:
+  instagram: queue/2026-11-07/media/p1-instagram.jpg
+  facebook: queue/2026-11-07/media/p1-facebook.jpg
+  linkedin: queue/2026-11-07/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-07/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-07T20:07-08:00
+  instagram: 2026-11-07T20:06-08:00
+  linkedin: 2026-11-07T20:11-08:00
+  tiktok: 2026-11-07T20:11-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: dots
+    side: left
+    center: false
+    template: stat
+  facebook:
+    theme: noir
+    deco: frame
+    side: right
+    center: false
+    template: stat
+  linkedin:
+    theme: ivory
+    deco: grid
+    side: right
+    center: false
+    template: stat
+  tiktok:
+    theme: aurum
+    deco: arcs
+    side: left
+    center: true
+    template: stat

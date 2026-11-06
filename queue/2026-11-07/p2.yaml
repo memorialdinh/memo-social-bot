@@ -69,3 +69,38 @@ captions:
     #movingday #realtalk #homebuying #realestatetips #firsttimehomebuyer'
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-07/media/p2-instagram.jpg
+  facebook: queue/2026-11-07/media/p2-facebook.jpg
+  linkedin: queue/2026-11-07/media/p2-linkedin.jpg
+  tiktok: queue/2026-11-07/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-11-07T21:05-08:00
+  instagram: 2026-11-07T21:05-08:00
+  linkedin: 2026-11-07T21:04-08:00
+  tiktok: 2026-11-07T21:05-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: grid
+    side: left
+    center: true
+    template: meme
+  facebook:
+    theme: porcelain
+    deco: split
+    side: left
+    center: true
+    template: meme
+  linkedin:
+    theme: aurum
+    deco: beam
+    side: left
+    center: true
+    template: meme
+  tiktok:
+    theme: slate
+    deco: beam
+    side: left
+    center: true
+    template: meme

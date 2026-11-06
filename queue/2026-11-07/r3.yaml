@@ -86,3 +86,38 @@ captions:
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/sept2026sales
 status: {}
+media:
+  instagram: queue/2026-11-07/media/r3-instagram.mp4
+  facebook: queue/2026-11-07/media/r3-facebook.mp4
+  linkedin: queue/2026-11-07/media/r3-linkedin.mp4
+  tiktok: queue/2026-11-07/media/r3-tiktok.mp4
+schedule:
+  facebook: 2026-11-07T11:05-08:00
+  instagram: 2026-11-07T11:02-08:00
+  linkedin: 2026-11-07T11:11-08:00
+  tiktok: 2026-11-07T11:02-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: halo
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: porcelain
+    deco: grid
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: carbon
+    deco: rules
+    side: left
+    center: false
+    template: quiz
+  tiktok:
+    theme: noir
+    deco: split
+    side: left
+    center: false
+    template: quiz

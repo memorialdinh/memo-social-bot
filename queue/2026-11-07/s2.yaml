@@ -13,3 +13,22 @@ design:
   cta: Reply BUYER if this is your move
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-07/media/s2-instagram.jpg
+  facebook: queue/2026-11-07/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-07T12:08-08:00
+  instagram: 2026-11-07T10:05-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: grid
+    side: right
+    center: true
+    template: meme
+  facebook:
+    theme: carbon
+    deco: beam
+    side: right
+    center: true
+    template: meme
