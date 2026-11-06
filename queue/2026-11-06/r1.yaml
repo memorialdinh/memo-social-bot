@@ -78,7 +78,19 @@ captions:
 
     #realestateinvesting #rentalproperty #caprate #investortips #realestatetips'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18089272049291411'
+    at: '2026-11-06T09:46:54-08:00'
+  facebook:
+    state: posted
+    id: '1120400220586935'
+    at: '2026-11-06T09:47:02-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7524527811512991745
+    at: '2026-11-06T09:47:10-08:00'
 media:
   instagram: queue/2026-11-06/media/r1-instagram.mp4
   facebook: queue/2026-11-06/media/r1-facebook.mp4
