@@ -12,7 +12,11 @@ design:
   punch: Box 41 has the chargers. *Obviously.*
   cta: Reply BUYER if this is your move
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17996789130107599'
+    at: '2026-11-07T10:18:19-08:00'
 media:
   instagram: queue/2026-11-07/media/s2-instagram.jpg
   facebook: queue/2026-11-07/media/s2-facebook.jpg

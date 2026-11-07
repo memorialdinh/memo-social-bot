@@ -97,7 +97,19 @@ captions:
     #firsttimehomebuyer #mortgagetips #realestatetips #homebuying #pit'
 sources:
 - https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-decline-third-consecutive-week-718
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18124872961939208'
+    at: '2026-11-07T10:17:49-08:00'
+  facebook:
+    state: posted
+    id: '1131932946233131'
+    at: '2026-11-07T10:17:58-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7524897984422207488
+    at: '2026-11-07T10:18:06-08:00'
 media:
   instagram: queue/2026-11-07/media/r2-instagram.mp4
   facebook: queue/2026-11-07/media/r2-facebook.mp4
