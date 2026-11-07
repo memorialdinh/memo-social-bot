@@ -97,7 +97,20 @@ captions:
 sources:
 - https://www.boe.ca.gov/prop19/
 - https://www.boe.ca.gov/proptaxes/pdf/lta25009.pdf
-status: {}
+status:
+  instagram:
+    state: retry
+    tries: 1
+    error: 'ApiError: POST https://graph.facebook.com/v25.0/17841401014813251/media_publish failed: 400 {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"Cannot Publish","error_user_msg":"The media is not ready for publishing, please wait for a moment","fbtrace_id":"AOOU6KIAFmv6oTStEk4Ev9m"}}'
+    at: '2026-11-06T20:23:09-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1165872999773465'
+    at: '2026-11-06T20:23:14-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7524687891696943106
+    at: '2026-11-06T20:23:16-08:00'
 media:
   instagram: queue/2026-11-06/media/p1-instagram.jpg
   facebook: queue/2026-11-06/media/p1-facebook.jpg

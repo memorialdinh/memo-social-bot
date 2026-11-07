@@ -318,3 +318,7 @@ at,day,item,kind,track,platform,result,remote_id,detail
 2026-11-06T19:24:47-08:00,2026-11-06,w1,post,market_update,instagram,posted,18118145681048551,
 2026-11-06T19:24:47-08:00,2026-11-06,w1,post,market_update,facebook,posted,883745438682123_1165821819778583,
 2026-11-06T19:24:47-08:00,2026-11-06,w1,post,market_update,linkedin,posted,urn:li:share:7524673298568511489,
+2026-11-06T20:23:03-08:00,2026-11-06,p1,post,seller_education,instagram,retry,,"ApiError: POST https://graph.facebook.com/v25.0/17841401014813251/media_publish failed: 400 {""error"":{""message"":""Media ID is not available"",""type"":""OAuthException"",""code"":9007,""error_subcode"":2207027,""is_transient"":false,""error_user_title"":""Cannot Publish"",""error_user_msg"":""The media is not ready for publishing, please wait for a moment"",""fbtrace_id"":""AOOU6KIAFmv6oTStEk4Ev9m""}}"
+2026-11-06T20:23:03-08:00,2026-11-06,p1,post,seller_education,facebook,posted,883745438682123_1165872999773465,
+2026-11-06T20:23:03-08:00,2026-11-06,p1,post,seller_education,linkedin,posted,urn:li:share:7524687891696943106,
+2026-11-06T20:23:03-08:00,2026-11-06,s4,story,buyer_education,facebook,posted,1639174367262821,
