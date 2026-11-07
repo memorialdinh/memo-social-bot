@@ -18,3 +18,22 @@ design:
 sources:
 - https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/
 status: {}
+media:
+  instagram: queue/2026-11-08/media/s1-instagram.jpg
+  facebook: queue/2026-11-08/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-08T10:05-08:00
+  instagram: 2026-11-08T08:07-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: dots
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: aurum
+    deco: rules
+    side: left
+    center: false
+    template: quiz

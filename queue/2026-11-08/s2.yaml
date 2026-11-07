@@ -13,3 +13,22 @@ design:
   cta: Follow for real talk and real numbers
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-08/media/s2-instagram.jpg
+  facebook: queue/2026-11-08/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-08T12:07-08:00
+  instagram: 2026-11-08T10:11-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: halo
+    side: right
+    center: true
+    template: meme
+  facebook:
+    theme: goldrush
+    deco: split
+    side: right
+    center: true
+    template: meme

@@ -17,3 +17,22 @@ design:
   cta: Reply SELLER for the full timeline
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-08/media/s3-instagram.jpg
+  facebook: queue/2026-11-08/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-08T19:08-08:00
+  instagram: 2026-11-08T12:11-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: rules
+    side: right
+    center: false
+    template: checklist
+  facebook:
+    theme: porcelain
+    deco: glow
+    side: left
+    center: false
+    template: checklist

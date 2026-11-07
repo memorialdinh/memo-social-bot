@@ -12,58 +12,45 @@ design:
   punch: 'Lockbox: *nope.*'
   cta: Follow for real talk and real numbers
 captions:
-  instagram: 'Appointment confirmed Thursday. Code confirmed Friday. Forty minutes of freeway on Saturday
-    morning.
+  instagram: 'Appointment confirmed Thursday. Code confirmed Friday. Forty minutes of freeway on Saturday morning.
 
 
     Lockbox: no.
 
 
-    I have stood on a porch typing four digits with increasing confidence that the problem was my thumbs.
-    It never is. Somebody changed the code and told nobody.
+    I have stood on a porch typing four digits with increasing confidence that the problem was my thumbs. It never is. Somebody changed the code and told nobody.
 
 
-    So now I confirm it the morning of, and I ask for a second contact. Both habits came from that exact
-    porch.
+    So now I confirm it the morning of, and I ask for a second contact. Both habits came from that exact porch.
 
 
     #RealTalk #RealEstateLife #LongBeachRealEstate #SouthBayHomes #ShowingDay #SoCalRealEstate'
-  facebook: 'Saturday morning showing. Appointment confirmed Thursday. Lockbox code confirmed Friday.
-    Forty minutes of freeway with a coffee and a buyer who is genuinely excited.
+  facebook: 'Saturday morning showing. Appointment confirmed Thursday. Lockbox code confirmed Friday. Forty minutes of freeway with a coffee and a buyer who is genuinely excited.
 
 
     Lockbox: nope.
 
 
-    So you try it again, slower, as if the box is going to respect the effort. Then you try it with the
-    other hand. Then you call the listing agent, who is at a soccer game, and the backup number rings
-    out, and your buyer is being very polite about standing in a driveway.
+    So you try it again, slower, as if the box is going to respect the effort. Then you try it with the other hand. Then you call the listing agent, who is at a soccer game, and the backup number rings out, and your buyer is being very polite about standing in a driveway.
 
 
-    Almost every time, the code got changed and the showing instructions did not. It is nobody''s fault
-    and it is deeply annoying.
+    Almost every time, the code got changed and the showing instructions did not. It is nobody''s fault and it is deeply annoying.
 
 
-    What I do now: confirm the code the morning of, not the day before, and get a second contact on the
-    listing. Two minutes, and it has saved me a lot of driveway time.
+    What I do now: confirm the code the morning of, not the day before, and get a second contact on the listing. Two minutes, and it has saved me a lot of driveway time.
 
 
     Agents, what is your lockbox story? I know you have one.
 
 
     #RealTalk #RealEstateLife'
-  linkedin: 'Appointment confirmed Thursday. Lockbox code confirmed Friday. Forty-minute drive Saturday
-    morning. Code does not work.
+  linkedin: 'Appointment confirmed Thursday. Lockbox code confirmed Friday. Forty-minute drive Saturday morning. Code does not work.
 
 
-    The failure is never the lockbox. It is that the code changed and the showing instructions did not,
-    and the two places holding that detail do not talk to each other.
+    The failure is never the lockbox. It is that the code changed and the showing instructions did not, and the two places holding that detail do not talk to each other.
 
 
-    There is a small operational lesson in it that travels well past real estate. Any detail that lives
-    in two systems will eventually disagree, and it will disagree at the least convenient moment. The
-    fix is not better intentions. It is confirming the perishable detail as late as possible, and having
-    a second contact who can actually answer.
+    There is a small operational lesson in it that travels well past real estate. Any detail that lives in two systems will eventually disagree, and it will disagree at the least convenient moment. The fix is not better intentions. It is confirming the perishable detail as late as possible, and having a second contact who can actually answer.
 
 
     I confirm codes the morning of now. It costs two minutes.
@@ -79,3 +66,38 @@ captions:
     #realtalk #realestatelife #realtorlife #showingday #socalrealestate'
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-08/media/p2-instagram.jpg
+  facebook: queue/2026-11-08/media/p2-facebook.jpg
+  linkedin: queue/2026-11-08/media/p2-linkedin.jpg
+  tiktok: queue/2026-11-08/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-11-08T21:07-08:00
+  instagram: 2026-11-08T21:08-08:00
+  linkedin: 2026-11-08T21:08-08:00
+  tiktok: 2026-11-08T21:11-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: corners
+    side: left
+    center: true
+    template: meme
+  facebook:
+    theme: noir
+    deco: halo
+    side: right
+    center: false
+    template: meme
+  linkedin:
+    theme: silver
+    deco: rules
+    side: right
+    center: false
+    template: meme
+  tiktok:
+    theme: carbon
+    deco: corners
+    side: left
+    center: false
+    template: meme

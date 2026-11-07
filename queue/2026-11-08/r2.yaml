@@ -16,16 +16,13 @@ captions:
   instagram: 'Two years. Seven tenths of a percent.
 
 
-    Long Beach''s typical home value was $846,231 at the end of September 2024. A year later it was $832,264,
-    down 1.7%. This September it was $852,391, up 2.4% from the year before.
+    Long Beach''s typical home value was $846,231 at the end of September 2024. A year later it was $832,264, down 1.7%. This September it was $852,391, up 2.4% from the year before.
 
 
     Net across the two years: +0.7%.
 
 
-    That is Zillow''s home value index, a smoothed estimate of typical values, not an appraisal of any
-    one house. But the shape is the useful part. Values dipped, then came back. If you have been telling
-    yourself you missed the window, the index says the window moved about two thirds of a percent.
+    That is Zillow''s home value index, a smoothed estimate of typical values, not an appraisal of any one house. But the shape is the useful part. Values dipped, then came back. If you have been telling yourself you missed the window, the index says the window moved about two thirds of a percent.
 
 
     DM me ''VALUE'' and I''ll pull the range for your actual address.
@@ -45,64 +42,86 @@ captions:
     September 2026: $852,391
 
 
-    So the year to September 2025 was down 1.7%. The year to September 2026 was up 2.4%. Put the two together
-    and the typical Long Beach home value moved about 0.7% across two full years.
+    So the year to September 2025 was down 1.7%. The year to September 2026 was up 2.4%. Put the two together and the typical Long Beach home value moved about 0.7% across two full years.
 
 
     Two years of headlines, both directions, and the net is under one percent.
 
 
-    Worth being clear about what this is. The index is a smoothed, seasonally adjusted estimate of typical
-    value across the whole city. It is not an appraisal, it is not your house, and a condo downtown and
-    a three bedroom in Bixby Knolls are both inside that one number.
+    Worth being clear about what this is. The index is a smoothed, seasonally adjusted estimate of typical value across the whole city. It is not an appraisal, it is not your house, and a condo downtown and a three bedroom in Bixby Knolls are both inside that one number.
 
 
-    But it is a good answer to two questions I hear constantly. "Did I miss it?" Not by much. "Should
-    I have waited?" The waiting cost about the same as the buying.
+    But it is a good answer to two questions I hear constantly. "Did I miss it?" Not by much. "Should I have waited?" The waiting cost about the same as the buying.
 
 
     What it does not tell you is what happens next, and I am not going to pretend otherwise.
 
 
-    If you want the actual range on your own place rather than the city average, comment or message me
-    VALUE and I''ll run it.
+    If you want the actual range on your own place rather than the city average, comment or message me VALUE and I''ll run it.
 
 
     #HomeValues #SoCalRealEstate'
   linkedin: 'A two-year read on one city, because the monthly prints are noisier than the trend.
 
 
-    Zillow''s home value index for Long Beach, end of September each year: $846,231 in 2024, $832,264
-    in 2025, $852,391 in 2026. That is −1.7% in the first year, +2.4% in the second, and roughly +0.7%
-    across the pair.
+    Zillow''s home value index for Long Beach, end of September each year: $846,231 in 2024, $832,264 in 2025, $852,391 in 2026. That is −1.7% in the first year, +2.4% in the second, and roughly +0.7% across the pair.
 
 
     Two observations worth separating.
 
 
-    First, for anyone running the "should we have transacted last year" conversation: on this index, the
-    answer is that timing bought you very little either way. The dip and the recovery mostly cancelled.
+    First, for anyone running the "should we have transacted last year" conversation: on this index, the answer is that timing bought you very little either way. The dip and the recovery mostly cancelled.
 
 
-    Second, on using the number honestly. ZHVI is a smoothed, seasonally adjusted estimate of typical
-    value across an entire city. It is not a valuation of a specific property, and city-level aggregates
-    hide real divergence between segments and submarkets. It describes what happened; it says nothing
-    about what comes next.
+    Second, on using the number honestly. ZHVI is a smoothed, seasonally adjusted estimate of typical value across an entire city. It is not a valuation of a specific property, and city-level aggregates hide real divergence between segments and submarkets. It describes what happened; it says nothing about what comes next.
 
 
-    For advisors: a two-year window is often a better framing device with clients than a twelve-month
-    one, precisely because it survives one bad month in either direction.
+    For advisors: a two-year window is often a better framing device with clients than a twelve-month one, precisely because it survives one bad month in either direction.
 
 
     Which window do you find lands best with clients right now?
 
 
     #RealEstate #HousingMarket #MarketData'
-  tiktok: 'Long Beach typical home value: down 1.7% to Sept 2025, up 2.4% to Sept 2026. Net two-year move,
-    0.7%. Zillow index, not an appraisal.
+  tiktok: 'Long Beach typical home value: down 1.7% to Sept 2025, up 2.4% to Sept 2026. Net two-year move, 0.7%. Zillow index, not an appraisal.
 
 
     #longbeach #homevalues #housingmarket #realestatetips #socalrealestate'
 sources:
 - https://www.zillow.com/research/data/
 status: {}
+media:
+  instagram: queue/2026-11-08/media/r2-instagram.mp4
+  facebook: queue/2026-11-08/media/r2-facebook.mp4
+  linkedin: queue/2026-11-08/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-08/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-08T10:02-08:00
+  instagram: 2026-11-08T10:03-08:00
+  linkedin: 2026-11-08T10:04-08:00
+  tiktok: 2026-11-08T10:11-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: monogram
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: goldrush
+    deco: split
+    side: left
+    center: true
+    template: stat
+  linkedin:
+    theme: aurum
+    deco: halo
+    side: left
+    center: false
+    template: stat
+  tiktok:
+    theme: slate
+    deco: dots
+    side: left
+    center: true
+    template: stat

@@ -15,3 +15,22 @@ design:
 sources:
 - https://www.zillow.com/research/data/
 status: {}
+media:
+  instagram: queue/2026-11-08/media/s4-instagram.jpg
+  facebook: queue/2026-11-08/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-11-08T20:11-08:00
+  instagram: 2026-11-08T19:11-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: glow
+    side: right
+    center: false
+    template: stat
+  facebook:
+    theme: ivory
+    deco: halo
+    side: right
+    center: true
+    template: stat

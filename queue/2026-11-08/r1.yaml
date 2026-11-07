@@ -27,8 +27,7 @@ design:
     detail: Syndication, showings, and first real feedback.
   cta: Comment 'SELLER' for your own timeline
 captions:
-  instagram: 'From "I''m thinking about selling" to live on the MLS is usually two to three weeks. Here
-    is what fills them.
+  instagram: 'From "I''m thinking about selling" to live on the MLS is usually two to three weeks. Here is what fills them.
 
 
     Walk and price. Comps, condition, and what buyers are paying right now.
@@ -49,66 +48,85 @@ captions:
 
 
     #SellingYourHome #ListingPrep #LongBeachRealEstate #SouthBayHomes #HomeSelling #SoCalRealEstate'
-  facebook: '"How long until it''s actually on the market?" I get this on almost every first call, and
-    the honest answer is usually two to three weeks. Here is where that time goes.
+  facebook: '"How long until it''s actually on the market?" I get this on almost every first call, and the honest answer is usually two to three weeks. Here is where that time goes.
 
 
-    Week one, we walk it and price it. Comps, the condition of your specific house, and what buyers are
-    paying right now, which is not always what the neighbor got in spring.
+    Week one, we walk it and price it. Comps, the condition of your specific house, and what buyers are paying right now, which is not always what the neighbor got in spring.
 
 
-    Week one into two, prep. Small repairs first, then declutter, then the deep clean. That order matters,
-    because cleaning around clutter is wasted work.
+    Week one into two, prep. Small repairs first, then declutter, then the deep clean. That order matters, because cleaning around clutter is wasted work.
 
 
-    Week two, photos and copy. Professional photos, a floor plan, and the listing written properly. This
-    is the step people want to rush and the one that costs the most when it is rushed, because the photos
-    are the showing for most buyers.
+    Week two, photos and copy. Professional photos, a floor plan, and the listing written properly. This is the step people want to rush and the one that costs the most when it is rushed, because the photos are the showing for most buyers.
 
 
-    Week two into three, paperwork. Disclosures, title order, the listing agreement. Not glamorous, holds
-    everything up if it waits.
+    Week two into three, paperwork. Disclosures, title order, the listing agreement. Not glamorous, holds everything up if it waits.
 
 
-    Then live. MLS, syndication out to the portals, showings booked, and the first feedback that is actually
-    worth something.
+    Then live. MLS, syndication out to the portals, showings booked, and the first feedback that is actually worth something.
 
 
-    It can go faster. It can also take six weeks if the house needs real work, and that is fine as long
-    as nobody is surprised by it.
+    It can go faster. It can also take six weeks if the house needs real work, and that is fine as long as nobody is surprised by it.
 
 
-    If you are thinking spring, this is the part to start now. What is the one thing in your house you
-    already know needs doing first?
+    If you are thinking spring, this is the part to start now. What is the one thing in your house you already know needs doing first?
 
 
     #HomeSelling #SoCalRealEstate'
-  linkedin: 'The gap between "I''m thinking about selling" and a live MLS listing is usually two to three
-    weeks. Sellers consistently underestimate it, and the underestimate is where the friction starts.
+  linkedin: 'The gap between "I''m thinking about selling" and a live MLS listing is usually two to three weeks. Sellers consistently underestimate it, and the underestimate is where the friction starts.
 
 
-    The sequence: price the home against comps and its real condition; prep in order, repairs then declutter
-    then clean; photos, floor plan and written copy; disclosures, title order and the listing agreement;
-    then live, with syndication and showings.
+    The sequence: price the home against comps and its real condition; prep in order, repairs then declutter then clean; photos, floor plan and written copy; disclosures, title order and the listing agreement; then live, with syndication and showings.
 
 
-    The step that gets compressed is almost always photos and copy, because it sits late and feels cosmetic.
-    It is not cosmetic. For most buyers the photos are the showing, and a listing that goes live with
-    rushed images spends its best week of attention underselling itself.
+    The step that gets compressed is almost always photos and copy, because it sits late and feels cosmetic. It is not cosmetic. For most buyers the photos are the showing, and a listing that goes live with rushed images spends its best week of attention underselling itself.
 
 
-    The takeaway for anyone advising sellers: protect the prep window by starting the conversation earlier,
-    not by shortening the work.
+    The takeaway for anyone advising sellers: protect the prep window by starting the conversation earlier, not by shortening the work.
 
 
     What step do your sellers push back on most?
 
 
     #RealEstate #HomeSelling #ListingStrategy'
-  tiktok: 'Thinking about selling? Price it, prep it, shoot it, sign it, then go live. Usually two to
-    three weeks.
+  tiktok: 'Thinking about selling? Price it, prep it, shoot it, sign it, then go live. Usually two to three weeks.
 
 
     #homeselling #sellerstips #realestatetips #listingprep #socalrealestate'
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-08/media/r1-instagram.mp4
+  facebook: queue/2026-11-08/media/r1-facebook.mp4
+  linkedin: queue/2026-11-08/media/r1-linkedin.mp4
+  tiktok: queue/2026-11-08/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-11-08T09:03-08:00
+  instagram: 2026-11-08T09:09-08:00
+  linkedin: 2026-11-08T09:04-08:00
+  tiktok: 2026-11-08T09:07-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: rules
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: ivory
+    deco: dots
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: carbon
+    deco: corners
+    side: left
+    center: false
+    template: process
+  tiktok:
+    theme: noir
+    deco: glow
+    side: left
+    center: false
+    template: process
