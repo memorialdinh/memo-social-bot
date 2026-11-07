@@ -1,0 +1,109 @@
+id: r3
+kind: reel
+track: market_update
+topic: What a seasonally adjusted annual rate means when you read a home sales headline
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: MARKET UPDATE
+  headline: What does *seasonally adjusted annual rate* mean?
+  options:
+  - Homes sold last month
+  - Last month's pace, stretched over a year
+  - Homes for sale right now
+  answer: B
+  explain: It annualizes one month's pace and smooths normal seasonal swings.
+  cta: Comment 'VALUE' for your area's numbers
+captions:
+  instagram: 'A sales headline says homes sold at a "seasonally adjusted annual rate." That is not how
+    many sold last month.
+
+
+    The answer is B. It takes one month''s pace, stretches it over a full year, and adjusts for the fact
+    that some months are naturally busier than others.
+
+
+    Two things that makes possible. You can compare September to March without the spring market making
+    March look like a boom. And you can hold one month against a year of activity instead of just against
+    the month before.
+
+
+    Two things it hides. It is a pace, not a count. And a small revision to one month can move the annualized
+    figure a lot.
+
+
+    So when a headline says sales plunged, check whether the number is a count or a rate before you react
+    to it.
+
+
+    Comment ''VALUE'' and I''ll send your area''s actual numbers.
+
+
+    #HousingMarket #RealEstateTips #MarketUpdate #LongBeachRealEstate #SoCalRealEstate #HomeBuying'
+  facebook: 'Quick one, because this phrase shows up in every housing headline and almost nobody explains
+    it.
+
+
+    "Home sales fell to a seasonally adjusted annual rate of..." — that number is not how many homes sold
+    last month. Not even close.
+
+
+    It is answer B: last month''s pace, stretched over a full year, and adjusted for the fact that some
+    months are naturally busier than others.
+
+
+    Why bother? Because without the adjustment, every spring looks like a boom and every December looks
+    like a crash, and you can never tell what is the market and what is just the calendar. The annualizing
+    part lets you hold one month against a year of activity instead of only against the month before it.
+
+
+    What it hides is worth knowing too. It is a pace, not a count, so nobody actually sold that many homes.
+    And because it is one month multiplied out, a small revision to that month can swing the annualized
+    figure by a surprising amount. This is why you sometimes see a scary headline quietly corrected two
+    weeks later.
+
+
+    The practical version: when a headline says sales plunged or surged, check whether you are looking
+    at a count or a rate first. It changes how much the number deserves your attention.
+
+
+    Did you know what that phrase meant before today? Honest answers welcome, I had to look it up once
+    too.
+
+
+    #HousingMarket #RealEstateTips'
+  linkedin: '"Seasonally adjusted annual rate" appears in nearly every housing headline and is widely
+    misread as a volume figure.
+
+
+    It is not a count. It takes a single month''s transaction pace, annualizes it, and adjusts for predictable
+    seasonal variation.
+
+
+    What that buys you: comparability. Without the seasonal adjustment, spring always reads as strength
+    and December always reads as collapse, and the calendar drowns out the signal. Annualizing lets a
+    single month be held against a year of activity rather than only against the prior month.
+
+
+    What it costs you, and what gets skipped in the coverage: it is a pace, not a volume, so the headline
+    number never happened. And because it extrapolates one month, a modest revision to that month can
+    move the annualized figure materially — which is why alarming prints are sometimes quietly restated
+    later.
+
+
+    The discipline is simple. Before reacting to a sales headline, establish whether the figure is a count
+    or a rate, and whether the prior month has been revised.
+
+
+    What other housing metric do you see misread most often?
+
+
+    #RealEstate #HousingMarket #MarketData'
+  tiktok: '"Seasonally adjusted annual rate" isn''t how many homes sold. It''s one month''s pace stretched
+    over a year.
+
+
+    #housingmarket #realestatetips #realestate101 #homebuying #socalrealestate'
+sources: []
+status: {}

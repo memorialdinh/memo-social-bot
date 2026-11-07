@@ -1,0 +1,17 @@
+id: s4
+kind: story
+track: market_update
+topic: Teaser for r2 the two year move in Long Beach typical home value September 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Two years. *0.7%*.
+  subhead: Down 1.7%, then up 2.4%.
+  stat_value: +0.7%
+  stat_label: Long Beach typical home value, 2-yr change to Sept 2026 (Zillow ZHVI)
+  cta: Reply VALUE for your home's number
+sources:
+- https://www.zillow.com/research/data/
+status: {}

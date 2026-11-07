@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: buyer_education
+topic: Teaser for p1 quiz on the first move when an appraisal lands under your offer
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: BUYER TIP
+  headline: Appraisal lands *under* your offer. First move?
+  options:
+  - Pay the difference
+  - Ask for a price cut
+  - Walk away
+  answer: B
+  reveal: false
+  cta: Reply BUYER for the full breakdown
+sources:
+- https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/
+status: {}

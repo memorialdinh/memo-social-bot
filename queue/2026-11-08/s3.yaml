@@ -1,0 +1,19 @@
+id: s3
+kind: story
+track: seller_education
+topic: Teaser for r1 checklist on whether you are ready to start the listing timeline
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: SELLER TIP
+  headline: Thinking about *listing*? Check yours.
+  questions:
+  - I know roughly what my home is worth.
+  - I know what I would fix first.
+  - I know where I am moving next.
+  - I know the month I want to be out.
+  score: Two or fewer? *Start there*, not with a sign.
+  cta: Reply SELLER for the full timeline
+sources: []
+status: {}

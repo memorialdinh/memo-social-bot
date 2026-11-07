@@ -1,0 +1,15 @@
+id: s2
+kind: story
+track: humor
+topic: Teaser for p2 the lockbox code confirmed twice that still does not work
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: Confirmed twice. *Still* wrong.
+  setup: Appointment confirmed. Code confirmed. Forty-minute drive.
+  punch: 'Lockbox: *nope.*'
+  cta: Follow for real talk and real numbers
+sources: []
+status: {}
