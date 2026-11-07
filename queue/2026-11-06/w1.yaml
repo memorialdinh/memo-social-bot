@@ -55,7 +55,19 @@ captions:
   tiktok: 'Your city''s home values and rents on one page, 250+ CA cities. theprestige.luxe #housingmarket #socalrealestate #realestatedata #california'
 sources:
 - https://theprestige.luxe/housing-market.html
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18118145681048551'
+    at: '2026-11-06T19:25:11-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1165821819778583'
+    at: '2026-11-06T19:25:15-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7524673298568511489
+    at: '2026-11-06T19:25:16-08:00'
 media:
   instagram: queue/2026-11-06/media/w1-instagram.jpg
   facebook: queue/2026-11-06/media/w1-facebook.jpg
