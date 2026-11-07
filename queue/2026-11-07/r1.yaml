@@ -78,7 +78,19 @@ captions:
 
     #closingcosts #firsttimehomebuyer #realestatetips #homebuying #buyeragent'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17977661985159619'
+    at: '2026-11-07T09:32:59-08:00'
+  facebook:
+    state: posted
+    id: '1437843618506343'
+    at: '2026-11-07T09:33:06-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7524886690797359104
+    at: '2026-11-07T09:33:13-08:00'
 media:
   instagram: queue/2026-11-07/media/r1-instagram.mp4
   facebook: queue/2026-11-07/media/r1-facebook.mp4
