@@ -12,7 +12,11 @@ design:
   punch: 'Lockbox: *nope.*'
   cta: Follow for real talk and real numbers
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18120250153797936'
+    at: '2026-11-08T10:19:02-08:00'
 media:
   instagram: queue/2026-11-08/media/s2-instagram.jpg
   facebook: queue/2026-11-08/media/s2-facebook.jpg
