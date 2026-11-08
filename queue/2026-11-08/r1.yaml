@@ -94,7 +94,19 @@ captions:
 
     #homeselling #sellerstips #realestatetips #listingprep #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17906641899603363'
+    at: '2026-11-08T09:32:14-08:00'
+  facebook:
+    state: posted
+    id: '1552422269975455'
+    at: '2026-11-08T09:32:21-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7525248893694152704
+    at: '2026-11-08T09:32:29-08:00'
 media:
   instagram: queue/2026-11-08/media/r1-instagram.mp4
   facebook: queue/2026-11-08/media/r1-facebook.mp4
