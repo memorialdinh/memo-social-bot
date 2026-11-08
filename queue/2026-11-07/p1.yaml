@@ -73,7 +73,19 @@ captions:
     #mortgagerates #firsttimehomebuyer #realestatetips #socalrealestate #homebuying'
 sources:
 - https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-decline-third-consecutive-week-718
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18470874421186391'
+    at: '2026-11-07T20:50:08-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1167036246323807'
+    at: '2026-11-07T20:50:11-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7525057063400407040
+    at: '2026-11-07T20:50:13-08:00'
 media:
   instagram: queue/2026-11-07/media/p1-instagram.jpg
   facebook: queue/2026-11-07/media/p1-facebook.jpg
