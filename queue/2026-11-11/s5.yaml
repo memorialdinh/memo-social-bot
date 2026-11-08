@@ -20,7 +20,9 @@ status: {}
 media:
   instagram: queue/2026-11-11/media/s5-instagram.jpg
   facebook: queue/2026-11-11/media/s5-facebook.jpg
-schedule: {}
+schedule:
+  facebook: 2026-11-11T07:11-08:00
+  instagram: 2026-11-11T07:06-08:00
 rendered:
   instagram:
     theme: carbon
