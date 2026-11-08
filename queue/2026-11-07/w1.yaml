@@ -75,7 +75,19 @@ captions:
   tiktok: 'Cash offer or list it? Compare the real nets before you pick. theprestige.luxe #sellmyhouse #cashoffer #realestatetips #socalrealestate'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18129705668311638'
+    at: '2026-11-07T19:51:04-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1166990276328404'
+    at: '2026-11-07T19:51:10-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7525042210082598913
+    at: '2026-11-07T19:51:11-08:00'
 media:
   instagram: queue/2026-11-07/media/w1-instagram.jpg
   facebook: queue/2026-11-07/media/w1-facebook.jpg

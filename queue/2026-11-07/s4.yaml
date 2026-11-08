@@ -17,7 +17,11 @@ design:
   cta: Reply BUYER for the payment worksheet
 sources:
 - https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-decline-third-consecutive-week-718
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18003092940012066'
+    at: '2026-11-07T19:50:48-08:00'
 media:
   instagram: queue/2026-11-07/media/s4-instagram.jpg
   facebook: queue/2026-11-07/media/s4-facebook.jpg
