@@ -16,7 +16,11 @@ design:
   score: Two or fewer? *Start there*, not with a sign.
   cta: Reply SELLER for the full timeline
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18377374648209912'
+    at: '2026-11-08T12:11:47-08:00'
 media:
   instagram: queue/2026-11-08/media/s3-instagram.jpg
   facebook: queue/2026-11-08/media/s3-facebook.jpg
