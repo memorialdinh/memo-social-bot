@@ -68,7 +68,19 @@ captions:
 
     #movingday #realtalk #homebuying #realestatetips #firsttimehomebuyer'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18120391165962764'
+    at: '2026-11-07T21:47:28-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1167075896319842'
+    at: '2026-11-07T21:47:33-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7525071497455992832
+    at: '2026-11-07T21:47:34-08:00'
 media:
   instagram: queue/2026-11-07/media/p2-instagram.jpg
   facebook: queue/2026-11-07/media/p2-facebook.jpg
