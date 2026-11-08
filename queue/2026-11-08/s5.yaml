@@ -17,7 +17,15 @@ design:
   cta: 'Save it: theprestige.luxe'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18038850629846843'
+    at: '2026-11-08T07:19:19-08:00'
+  facebook:
+    state: posted
+    id: '2713940959024617'
+    at: '2026-11-08T07:19:25-08:00'
 media:
   instagram: queue/2026-11-08/media/s5-instagram.jpg
   facebook: queue/2026-11-08/media/s5-facebook.jpg
