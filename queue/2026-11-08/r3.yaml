@@ -81,7 +81,19 @@ captions:
 
     #housingmarket #realestatetips #realestate101 #homebuying #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18055907756592260'
+    at: '2026-11-08T11:18:46-08:00'
+  facebook:
+    state: posted
+    id: '1152296237250339'
+    at: '2026-11-08T11:18:55-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7525275710119141376
+    at: '2026-11-08T11:19:02-08:00'
 media:
   instagram: queue/2026-11-08/media/r3-instagram.mp4
   facebook: queue/2026-11-08/media/r3-facebook.mp4
