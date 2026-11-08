@@ -17,7 +17,11 @@ design:
   cta: Reply BUYER for the full breakdown
 sources:
 - https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17914447029508953'
+    at: '2026-11-08T08:08:35-08:00'
 media:
   instagram: queue/2026-11-08/media/s1-instagram.jpg
   facebook: queue/2026-11-08/media/s1-facebook.jpg
