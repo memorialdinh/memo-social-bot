@@ -68,3 +68,39 @@ captions:
 
     #realestatehumor #homepricing #sellerstips #realestatetips #socalrealestate'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-10/media/p1-instagram.jpg
+  facebook: queue/2026-11-10/media/p1-facebook.jpg
+  linkedin: queue/2026-11-10/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-10/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-10T20:04-08:00
+  instagram: 2026-11-10T20:11-08:00
+  linkedin: 2026-11-10T20:03-08:00
+  tiktok: 2026-11-10T20:02-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: glow
+    side: right
+    center: false
+    template: meme
+  facebook:
+    theme: goldrush
+    deco: rules
+    side: right
+    center: true
+    template: meme
+  linkedin:
+    theme: noir
+    deco: monogram
+    side: left
+    center: true
+    template: meme
+  tiktok:
+    theme: ivory
+    deco: arcs
+    side: left
+    center: false
+    template: meme

@@ -92,3 +92,39 @@ captions:
     #socalrealestate #homevalues #housingmarket #realestatetips #longbeach'
 sources:
 - https://www.zillow.com/research/data/
+status: {}
+media:
+  instagram: queue/2026-11-10/media/r3-instagram.mp4
+  facebook: queue/2026-11-10/media/r3-facebook.mp4
+  linkedin: queue/2026-11-10/media/r3-linkedin.mp4
+  tiktok: queue/2026-11-10/media/r3-tiktok.mp4
+schedule:
+  facebook: 2026-11-10T11:05-08:00
+  instagram: 2026-11-10T11:07-08:00
+  linkedin: 2026-11-10T11:08-08:00
+  tiktok: 2026-11-10T11:06-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: arcs
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: goldrush
+    deco: rules
+    side: left
+    center: false
+    template: stat
+  linkedin:
+    theme: graphite
+    deco: frame
+    side: left
+    center: true
+    template: stat
+  tiktok:
+    theme: aurum
+    deco: glow
+    side: left
+    center: false
+    template: stat

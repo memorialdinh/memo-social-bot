@@ -12,3 +12,23 @@ design:
   punch: '*One of them is doing all the talking.*'
   cta: Reply SELLER for real comps
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-10/media/s1-instagram.jpg
+  facebook: queue/2026-11-10/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-10T10:03-08:00
+  instagram: 2026-11-10T08:11-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: halo
+    side: left
+    center: false
+    template: meme
+  facebook:
+    theme: aurum
+    deco: frame
+    side: left
+    center: true
+    template: meme

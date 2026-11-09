@@ -90,3 +90,39 @@ captions:
 
     #firsttimehomebuyer #homebuying101 #realestatetips #appraisal #socalrealestate'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-10/media/r2-instagram.mp4
+  facebook: queue/2026-11-10/media/r2-facebook.mp4
+  linkedin: queue/2026-11-10/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-10/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-10T10:08-08:00
+  instagram: 2026-11-10T10:11-08:00
+  linkedin: 2026-11-10T10:02-08:00
+  tiktok: 2026-11-10T10:05-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: rules
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: aurum
+    deco: dots
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: slate
+    deco: halo
+    side: left
+    center: false
+    template: quiz
+  tiktok:
+    theme: goldrush
+    deco: beam
+    side: left
+    center: false
+    template: quiz

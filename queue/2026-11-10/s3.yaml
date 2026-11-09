@@ -16,3 +16,23 @@ design:
   - 'The county: taxes owed, and the recorded deed.'
   cta: Reply SELLER for the full order
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-10/media/s3-instagram.jpg
+  facebook: queue/2026-11-10/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-10T19:10-08:00
+  instagram: 2026-11-10T12:02-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: frame
+    side: right
+    center: false
+    template: tip
+  facebook:
+    theme: noir
+    deco: rules
+    side: left
+    center: false
+    template: tip
