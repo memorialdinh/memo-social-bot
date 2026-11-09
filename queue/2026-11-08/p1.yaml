@@ -96,7 +96,19 @@ captions:
     #homeappraisal #firsttimehomebuyer #realestatetips #homebuying #socalrealestate'
 sources:
 - https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17916495117537096'
+    at: '2026-11-08T20:15:08-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1168138522880246'
+    at: '2026-11-08T20:15:13-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7525410647208271872
+    at: '2026-11-08T20:15:14-08:00'
 media:
   instagram: queue/2026-11-08/media/p1-instagram.jpg
   facebook: queue/2026-11-08/media/p1-facebook.jpg

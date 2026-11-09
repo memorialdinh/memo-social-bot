@@ -56,7 +56,15 @@ captions:
   tiktok: 'Stop refreshing listing apps. Save your search once and let new matches come to you. theprestige.luxe #househunting #firsttimehomebuyer #homesearch #socal'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17912512023569863'
+    at: '2026-11-08T20:15:57-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1168139536213478'
+    at: '2026-11-08T20:16:02-08:00'
 media:
   instagram: queue/2026-11-08/media/w1-instagram.jpg
   facebook: queue/2026-11-08/media/w1-facebook.jpg
