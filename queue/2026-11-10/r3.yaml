@@ -1,0 +1,94 @@
+id: r3
+kind: reel
+track: market_update
+topic: Two year change in typical home value across Memo service cities Cerritos up 6.5 percent Gardena down 0.3 percent September 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: '"The market" is the *wrong unit*.'
+  subhead: Seven cities, same two years.
+  stat_value: 6.8 pts
+  stat_label: 'Gap, Cerritos +6.5% to Gardena -0.3%: typical home value, Sept 2024 to Sept 2026 (Zillow ZHVI)'
+  points:
+  - Cerritos +6.5%. Cypress +4.6%. El Segundo +4.2%.
+  - Redondo Beach +2.8%. Torrance +2.1%. Lakewood +1.6%.
+  - Gardena -0.3%.
+  cta: DM 'VALUE' for your home's number
+captions:
+  instagram: 'Same two years. Seven cities. A 6.8 point spread.
+
+
+    Typical home value, Sept 2024 to Sept 2026: Cerritos +6.5%, Cypress +4.6%, El Segundo +4.2%, Redondo Beach +2.8%, Torrance +2.1%, Lakewood +1.6%, Gardena -0.3%.
+
+
+    Cerritos went from about $1.02M to $1.09M. Gardena sat roughly flat, around $782k to $780k. Both of those are "the Southern California market."
+
+
+    That''s Zillow''s home value index as of September 30, 2026 — a smoothed estimate of typical values, not an appraisal of any one house.
+
+
+    DM me ''VALUE'' and I''ll pull the range for your actual address.
+
+
+    #SoCalRealEstate #HomeValues #LongBeachRealEstate #SouthBayHomes #HousingMarket #RealEstateTips'
+  facebook: 'Whenever someone asks me what "the market" did, this is the number I want to show them.
+
+
+    Seven cities I work in. The same two years, September 2024 through September 2026. Change in typical home value:
+
+
+    Cerritos +6.5%
+
+    Cypress +4.6%
+
+    El Segundo +4.2%
+
+    Redondo Beach +2.8%
+
+    Torrance +2.1%
+
+    Lakewood +1.6%
+
+    Gardena -0.3%
+
+
+    That''s a 6.8 percentage point spread between the top and the bottom. In dollars, Cerritos moved from about $1.02 million to about $1.09 million. Gardena went from roughly $782,000 to $780,000 — essentially flat across two years.
+
+
+    Same region. Same interest rates. Same headlines. Completely different two years.
+
+
+    This is Zillow''s home value index as of September 30, 2026. It''s a smoothed estimate of typical values for a city, which makes it useful for direction and useless for pricing one specific house. Your house has a lot number, a condition and a street, and none of those are in this chart.
+
+
+    So when you read that values are up or down, the honest follow-up question is: up or down where?
+
+
+    Which of these would have surprised you most?
+
+
+    #SoCalRealEstate #HomeValues'
+  linkedin: 'A useful corrective to regional housing headlines. Seven Southern California cities, the same two-year window of September 2024 to September 2026, change in typical home value:
+
+
+    Cerritos +6.5%, Cypress +4.6%, El Segundo +4.2%, Redondo Beach +2.8%, Torrance +2.1%, Lakewood +1.6%, Gardena -0.3%.
+
+
+    A 6.8 percentage point spread, under identical rate conditions and identical coverage. Cerritos moved from roughly $1.02M to $1.09M; Gardena was essentially flat at about $780k.
+
+
+    The takeaway for anyone underwriting, advising or reporting on this region: "the market" is not an analytical unit at the metro level. Source is Zillow''s home value index as of September 30, 2026 — a smoothed index of typical values, an estimate rather than an appraisal, and appropriate for direction rather than for valuing a specific property.
+
+
+    Where do you draw the line on geographic granularity in your own analysis?
+
+
+    #RealEstate #HousingMarket #MarketData'
+  tiktok: 'Same two years, seven cities: Cerritos +6.5%, Gardena -0.3%. Same market, different outcome.
+
+
+    #socalrealestate #homevalues #housingmarket #realestatetips #longbeach'
+sources:
+- https://www.zillow.com/research/data/

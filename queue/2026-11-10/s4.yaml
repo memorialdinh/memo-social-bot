@@ -1,0 +1,20 @@
+id: s4
+kind: story
+track: buyer_education
+topic: Teaser for r2 quiz on what an appraisal contingency protects
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: What does an appraisal contingency *protect*?
+  subhead: Not legal or lending advice.
+  options:
+  - Your deposit if value comes in low
+  - Your interest rate until closing
+  - Your right to a second appraisal
+  answer: A
+  explain: Your deposit. Not legal or lending advice.
+  reveal: false
+  cta: Reply BUYER with A, B or C
+sources: []

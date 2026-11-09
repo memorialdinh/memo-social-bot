@@ -1,0 +1,14 @@
+id: s1
+kind: story
+track: humor
+topic: Teaser for p1 the six comps and the one that does all the talking
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: Pricing day, *every time*.
+  setup: Six comps on the table.
+  punch: '*One of them is doing all the talking.*'
+  cta: Reply SELLER for real comps
+sources: []

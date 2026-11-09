@@ -1,0 +1,12 @@
+id: s2
+kind: story
+track: motivation
+topic: Teaser for p2 the basic question is the one that saves you money
+time: auto
+approved: true
+design:
+  template: quote
+  kicker: NO DUMB QUESTIONS
+  quote: Nobody is born knowing how escrow works.
+  cta: Reply BUYER and ask me one
+sources: []

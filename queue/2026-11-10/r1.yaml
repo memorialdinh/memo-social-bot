@@ -1,0 +1,97 @@
+id: r1
+kind: reel
+track: seller_education
+topic: The four calls to make when you inherit a house and the order to make them
+time: auto
+approved: true
+design:
+  template: process
+  kicker: SELLER TIP
+  headline: Four calls, in *this* order.
+  subhead: General information, not legal or tax advice.
+  steps:
+  - when: Call 1
+    title: The estate's attorney
+    detail: How the home is held decides who can sign.
+  - when: Call 2
+    title: The insurance carrier
+    detail: An empty house is often not covered the same way.
+  - when: Call 3
+    title: A CPA or tax advisor
+    detail: Ask about cost basis before anyone talks price.
+  - when: Call 4
+    title: The county
+    detail: Tax collector for what's owed, recorder for the deed.
+  cta: Comment 'SELLER' for the full order
+captions:
+  instagram: 'You just inherited a house. Four calls, and the order matters.
+
+
+    1. The estate''s attorney. How the property is held — trust, probate, joint — decides who can legally sign anything.
+
+    2. The insurance carrier. A house nobody lives in is often not covered the way it was. Tell them before it sits empty.
+
+    3. A CPA or tax advisor. Ask about cost basis while you still have every option.
+
+    4. The county. Tax collector for what''s owed, recorder for the deed as it stands today.
+
+
+    An agent is the fifth call, not the first. Anyone asking you to sign before call one is doing you no favors.
+
+
+    Comment ''SELLER'' and I''ll send the order you can hand to the family.
+
+
+    #InheritedProperty #EstateSale #SellingYourHome #LongBeachRealEstate #SouthBayHomes #SoCalRealEstate'
+  facebook: 'If a house just became your responsibility, the hardest part is that everything feels urgent at once. Almost none of it is. But the order of the first four calls genuinely matters, and getting it wrong costs money.
+
+
+    Call one is the attorney handling the estate. Whether the home sat in a trust, is going through probate, or was held jointly changes who has the authority to sign — and until that''s settled, nobody should be signing anything, including a listing agreement.
+
+
+    Call two is the insurance carrier, and this is the one people miss. A home with nobody living in it is often treated differently by a policy than an occupied one. Make the call before the house sits empty, not after something happens in it.
+
+
+    Call three is a CPA or tax advisor, and the word to ask about is basis. Ask it early, while every option is still open, because some of them close once decisions get made.
+
+
+    Call four is the county. The tax collector tells you what''s actually owed on it. The recorder tells you what the deed says today, which is not always what everyone remembers it saying.
+
+
+    An agent — me or anyone else — is call five. Value and options are a real conversation, and it''s a better one after the first four.
+
+
+    This is general information and not legal or tax advice; your attorney and CPA are the ones who know your situation.
+
+
+    Has anyone in your family been through this? What caught you off guard?
+
+
+    #InheritedProperty #SoCalRealEstate'
+  linkedin: 'When a property passes to a family, every task feels simultaneously urgent. Sequencing the first four calls is what prevents avoidable cost.
+
+
+    First, the attorney handling the estate: whether title sat in a trust, is moving through probate, or was held jointly determines who holds signing authority. Nothing should be executed before that is established — a listing agreement included.
+
+
+    Second, the insurance carrier. An unoccupied property is frequently treated differently under a policy than an occupied one. This is the most commonly missed call and the one with the largest tail risk.
+
+
+    Third, a CPA. The question is cost basis, and it should be asked while the full set of options remains open.
+
+
+    Fourth, the county: the tax collector for amounts outstanding, the recorder for the deed as it currently reads, which is not always as remembered.
+
+
+    A real estate professional is the fifth call, not the first. Anyone requesting a signature ahead of the first call is not serving the family. General information only, not legal or tax advice.
+
+
+    For those who advise families through this: which call do people skip most?
+
+
+    #RealEstate #EstatePlanning #ProbateRealEstate'
+  tiktok: 'Inherited a house? Attorney, insurance, CPA, county. Agent is call five, not call one.
+
+
+    #inheritedproperty #estatesale #realestatetips #probate #socalrealestate'
+sources: []
