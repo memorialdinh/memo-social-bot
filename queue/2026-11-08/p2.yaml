@@ -65,7 +65,19 @@ captions:
 
     #realtalk #realestatelife #realtorlife #showingday #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18203971402385627'
+    at: '2026-11-08T21:28:20-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1168190076208424'
+    at: '2026-11-08T21:28:24-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7525429068092112896
+    at: '2026-11-08T21:28:26-08:00'
 media:
   instagram: queue/2026-11-08/media/p2-instagram.jpg
   facebook: queue/2026-11-08/media/p2-facebook.jpg
