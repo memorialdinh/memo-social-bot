@@ -78,6 +78,10 @@ status:
     state: posted
     id: urn:li:share:7525429068092112896
     at: '2026-11-08T21:28:26-08:00'
+  tiktok:
+    state: missed
+    detail: more than 6:00:00 late
+    at: '2026-11-09T03:25:37-08:00'
 media:
   instagram: queue/2026-11-08/media/p2-instagram.jpg
   facebook: queue/2026-11-08/media/p2-facebook.jpg
