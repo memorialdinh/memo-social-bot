@@ -1,0 +1,95 @@
+id: r3
+kind: reel
+track: investment
+topic: Rent and typical home value moved together in Long Beach and apart in Lakewood year to September 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: INVESTOR MATH
+  headline: Rent and value don't move *together*.
+  subhead: Long Beach and Lakewood, same twelve months.
+  stat_value: 3.1 pts
+  stat_label: 'Lakewood gap: rent +5.7% vs value +2.6%, year to Sept 2026 (Zillow ZORI and ZHVI)'
+  points:
+  - 'Long Beach: rent +2.4%, value +2.4%. In step.'
+  - 'Lakewood: rent +5.7%, value +2.6%. Apart.'
+  - Smoothed indexes of typical values. Estimates, not appraisals.
+  cta: DM 'INVEST' for the worksheet
+captions:
+  instagram: 'Two cities, four miles apart, same twelve months.
+
+
+    Long Beach: rent +2.4%, typical home value +2.4%. Moving in step.
+
+
+    Lakewood: rent +5.7%, typical home value +2.6%. A 3.1 point gap.
+
+
+    Why an investor should care: when rent outruns value, the yield on a purchase today is better than it was a year ago, on the same money. When they move together, your return is riding on the value, not the rent.
+
+
+    Neither is good or bad. They''re just different jobs for the same dollar, and the city you buy in decides which one you''re doing.
+
+
+    Year to September 30, 2026, from Zillow''s rent and home value indexes — smoothed indexes of typical values, estimates rather than appraisals of any one property.
+
+
+    DM ''INVEST'' and I''ll send you the worksheet I run before an offer.
+
+
+    #RealEstateInvesting #RentalProperty #LongBeachRealEstate #LakewoodCA #CashFlow #InvestorTips'
+  facebook: 'Here''s a comparison I keep coming back to, because it explains something that headlines never do.
+
+
+    Long Beach and Lakewood sit next to each other. Over the twelve months ending September 30, 2026:
+
+
+    Long Beach — rent up 2.4%, typical home value up 2.4%.
+
+    Lakewood — rent up 5.7%, typical home value up 2.6%.
+
+
+    Long Beach moved in step. Lakewood''s rent outran its values by 3.1 percentage points.
+
+
+    For anyone running numbers on a rental, that gap is the whole conversation. When rent grows faster than price, the same purchase today pencils better than it did a year ago, because you''re paying for the asset on last year''s terms and collecting on this year''s. When rent and value climb together, your return depends on the value holding, which is a different kind of bet and should be sized differently.
+
+
+    I''m not telling you one of those is right. A landlord who wants monthly income and an owner who wants a long-horizon asset should honestly be shopping in different places, and most people never get told that.
+
+
+    The figures are Zillow''s rent index and home value index as of September 30, 2026. Both are smoothed indexes of typical values for a city — useful for direction, not a substitute for an appraisal or a rent survey on a specific unit.
+
+
+    If you own a rental in either city: has your rent kept pace?
+
+
+    #RealEstateInvesting #SoCalRealEstate'
+  linkedin: 'Rent growth and value growth are routinely discussed as one trend. Two adjacent Southern California cities, over the twelve months to September 30, 2026, show why that is a mistake.
+
+
+    Long Beach: rent +2.4%, typical home value +2.4% — effectively in step.
+
+    Lakewood: rent +5.7%, typical home value +2.6% — a 3.1 percentage point divergence.
+
+
+    The analytical point: those two patterns reward different capital. Where rent growth leads value growth, current yield on an acquisition improves relative to the prior year at the same basis. Where the two move together, the return is weighted toward appreciation and should be underwritten and sized as such. The same purchase price in two neighbouring cities is therefore not the same investment.
+
+
+    The takeaway for anyone underwriting small residential: pull the rent series and the value series separately, and let the divergence inform the hold assumption rather than the headline.
+
+
+    Source is Zillow''s observed rent index and home value index as of September 30, 2026 — smoothed indexes of typical values, estimates rather than property-level appraisals.
+
+
+    Where are you seeing rent and value diverge most in your own market?
+
+
+    #RealEstate #RealEstateInvesting #MarketData'
+  tiktok: 'Long Beach: rent and value both +2.4%. Lakewood: rent +5.7%, value +2.6%. Same year, different investment.
+
+
+    #realestateinvesting #rentalproperty #cashflow #longbeach #investortips'
+sources:
+- https://www.zillow.com/research/data/

@@ -1,0 +1,14 @@
+id: s1
+kind: story
+track: humor
+topic: Teaser for p1 forty pages of inspection report and the one page everyone reads
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: Forty pages. One *roof*.
+  setup: 'The report: 40-plus pages, every system.'
+  punch: 'The part you read: *the roof.*'
+  cta: Reply BUYER for the three pages
+sources: []

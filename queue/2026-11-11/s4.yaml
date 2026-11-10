@@ -1,0 +1,20 @@
+id: s4
+kind: story
+track: seller_education
+topic: Teaser for r2 quiz on who pays for the termite report in California
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Who pays for the *termite report*?
+  subhead: Not legal advice.
+  options:
+  - The seller, always
+  - The buyer, always
+  - Whoever the contract says
+  answer: C
+  explain: It's negotiated, and local custom varies. Not legal advice.
+  reveal: false
+  cta: Reply SELLER with A, B or C
+sources: []

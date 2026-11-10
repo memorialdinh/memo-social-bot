@@ -1,0 +1,19 @@
+id: s2
+kind: story
+track: agent_attraction
+topic: Teaser for p2 spotlight eight CliqueOffers cash offer request routes to the agent
+time: auto
+approved: true
+design:
+  template: spotlight
+  kicker: EPIQUE SPOTLIGHT
+  series_no: 8
+  headline: A cash-offer request, *as your lead*.
+  subhead: CliqueOffers, per Epique's Aug 3, 2026 release.
+  points:
+  - Your landing page collects the request
+  - Instant cash, buy-then-sell or sale-leaseback
+  - Routed into Epique's Lofty CRM as your lead
+  cta: Reply MATH for the breakdown
+sources:
+- https://joinepique.com/news/epique-realty-expands-cliqueoffers-benefit-launching-powerful-b2c-cash-offer-mar

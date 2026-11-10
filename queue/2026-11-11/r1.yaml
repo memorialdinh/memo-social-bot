@@ -1,0 +1,93 @@
+id: r1
+kind: reel
+track: buyer_education
+topic: The first 72 hours after an offer is accepted escrow deposit disclosures inspections
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: Offer accepted. The first *72 hours*.
+  steps:
+  - when: Hour 1
+    title: Escrow opens
+    detail: The signed contract goes to the escrow company.
+  - when: Day 1
+    title: Your deposit
+    detail: Earnest money is wired to escrow, not the seller.
+  - when: Day 1-2
+    title: Disclosures land
+    detail: The seller's packet starts your review clock.
+  - when: Day 2-3
+    title: Inspections booked
+    detail: General first, then any specialist it calls for.
+  cta: DM 'BUYER' for my 72-hour list
+captions:
+  instagram: 'Your offer got accepted. Here''s what the first 72 hours actually looks like.
+
+
+    Hour 1 — escrow opens. The signed contract goes to the escrow company, and you get an escrow number.
+
+
+    Day 1 — your deposit. Earnest money is wired to escrow. Not to the seller, not to your agent. Escrow.
+
+
+    Day 1-2 — disclosures land. The seller''s packet arrives and your review clock starts. Read it the week it shows up, not the week it''s due.
+
+
+    Day 2-3 — inspections booked. General inspection first. If it points at the roof, sewer or foundation, you bring in that specialist.
+
+
+    Nothing here is optional and all of it is on a clock. The buyers who feel calm in escrow are the ones who did these four things in the first three days.
+
+
+    DM me ''BUYER'' and I''ll send you the 72-hour list.
+
+
+    #FirstTimeHomeBuyer #EscrowProcess #HomeBuyingTips #LongBeachRealEstate #SouthBayHomes #RealEstateTips'
+  facebook: 'The strangest part of buying a house is the day after your offer gets accepted. You expect to feel finished. Instead the actual work starts, and most of it has a deadline on it.
+
+
+    Here''s the first 72 hours, in order.
+
+
+    Hour one: escrow opens. Your agent sends the fully signed contract to the escrow company, and escrow issues a number that every document from here forward refers to.
+
+
+    Day one: your deposit. Your earnest money is wired to escrow — not to the seller, not to an agent. If anyone gives you different wiring instructions by email, call the escrow officer at a number you looked up yourself and confirm it out loud. This is the single most expensive mistake available to you in the whole transaction.
+
+
+    Day one to two: disclosures. The seller''s packet arrives, and your review clock starts when it does. This is the part people put off because it''s long and boring, and it''s the part that tells you what you actually bought. Read it the week it arrives.
+
+
+    Day two to three: inspections. The general inspection goes first. It''s the one that tells you which specialists you need — roof, sewer line, foundation, pest. Booking it early is what keeps you from begging for an extension later.
+
+
+    Do those four and escrow feels manageable. Skip one and you spend the next month catching up to a calendar you didn''t set.
+
+
+    What surprised you most in your first escrow?
+
+
+    #HomeBuyingTips #SoCalRealEstate'
+  linkedin: 'The 72 hours after mutual acceptance set the tone for the entire escrow, and they are the least-explained part of a residential transaction.
+
+
+    The sequence: escrow opens on receipt of the fully signed contract. The earnest money deposit is wired to escrow — not to the seller or an agent, and verified by voice against an independently sourced phone number. The seller''s disclosure packet arrives and the buyer''s review period begins on delivery. The general inspection is ordered, which in turn determines which specialist inspections are warranted.
+
+
+    The takeaway: every one of those four items runs on a contractual clock that started without the buyer''s involvement. A client who understands the sequence in advance spends escrow making decisions. A client who doesn''t spends it requesting extensions, and extensions are negotiated from a weaker position every time.
+
+
+    General information, not legal or lending advice.
+
+
+    For the agents and lenders here: which of the four do clients underestimate most?
+
+
+    #RealEstate #HomeBuying #Escrow'
+  tiktok: 'Offer accepted? First 72 hours: escrow opens, deposit wires, disclosures land, inspections booked.
+
+
+    #firsttimehomebuyer #escrow #homebuyingtips #realestatetips #socalrealestate'
+sources: []

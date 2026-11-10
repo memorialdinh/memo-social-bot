@@ -1,0 +1,19 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r1 checklist on the first 72 hours after an offer is accepted
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Offer accepted. Do you *know these*?
+  subhead: General information, not legal advice.
+  questions:
+  - I know where my deposit gets wired.
+  - I know when disclosures arrive.
+  - I know who books the inspection.
+  - I know my first escrow deadline.
+  score: Under 3? Start with *the list*.
+  cta: Reply BUYER if you checked 3+
+sources: []
