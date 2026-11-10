@@ -17,3 +17,23 @@ design:
   score: Under 3? Start with *the list*.
   cta: Reply BUYER if you checked 3+
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-11/media/s3-instagram.jpg
+  facebook: queue/2026-11-11/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-11T19:02-08:00
+  instagram: 2026-11-11T12:10-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: frame
+    side: right
+    center: false
+    template: checklist
+  facebook:
+    theme: graphite
+    deco: beam
+    side: right
+    center: false
+    template: checklist

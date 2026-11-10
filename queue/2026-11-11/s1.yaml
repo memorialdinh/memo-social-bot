@@ -12,3 +12,23 @@ design:
   punch: 'The part you read: *the roof.*'
   cta: Reply BUYER for the three pages
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-11/media/s1-instagram.jpg
+  facebook: queue/2026-11-11/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-11T10:05-08:00
+  instagram: 2026-11-11T08:11-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: corners
+    side: left
+    center: true
+    template: meme
+  facebook:
+    theme: silver
+    deco: corners
+    side: right
+    center: true
+    template: meme

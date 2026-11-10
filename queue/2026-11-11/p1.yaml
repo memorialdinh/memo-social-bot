@@ -71,3 +71,39 @@ captions:
 
     #homeinspection #firsttimehomebuyer #realestatetips #realestatehumor #socalrealestate'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-11/media/p1-instagram.jpg
+  facebook: queue/2026-11-11/media/p1-facebook.jpg
+  linkedin: queue/2026-11-11/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-11/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-11T20:09-08:00
+  instagram: 2026-11-11T20:07-08:00
+  linkedin: 2026-11-11T20:07-08:00
+  tiktok: 2026-11-11T20:05-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: arcs
+    side: right
+    center: true
+    template: meme
+  facebook:
+    theme: graphite
+    deco: beam
+    side: right
+    center: true
+    template: meme
+  linkedin:
+    theme: noir
+    deco: corners
+    side: right
+    center: true
+    template: meme
+  tiktok:
+    theme: slate
+    deco: split
+    side: left
+    center: true
+    template: meme
