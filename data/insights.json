@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-09T06:35-08:00",
+  "updated": "2026-11-09T18:32-08:00",
   "scores": {
     "track:untagged": {
       "posts": 125,
-      "avg_rate": 0.0238,
+      "avg_rate": 0.024,
       "avg_eng": 3.1,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0001
     },
     "kind:reel": {
       "posts": 71,
-      "avg_rate": 0.0212,
+      "avg_rate": 0.0216,
       "avg_eng": 2.7,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0001
     },
     "platform:instagram": {
-      "posts": 220,
+      "posts": 221,
       "avg_rate": 0.0152,
       "avg_eng": 1.8,
       "avg_save_rate": 0.0003,
@@ -24,7 +24,7 @@
     },
     "kind:post": {
       "posts": 161,
-      "avg_rate": 0.0147,
+      "avg_rate": 0.0146,
       "avg_eng": 1.3,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0062
@@ -37,7 +37,7 @@
       "avg_share_rate": 0.0104
     },
     "kind:story": {
-      "posts": 84,
+      "posts": 85,
       "avg_rate": 0.0065,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
@@ -52,7 +52,7 @@
     },
     "track:market_update": {
       "posts": 31,
-      "avg_rate": 0.036,
+      "avg_rate": 0.0359,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0323
@@ -72,8 +72,8 @@
       "avg_share_rate": 0.0
     },
     "track:agent_attraction": {
-      "posts": 24,
-      "avg_rate": 0.0024,
+      "posts": 25,
+      "avg_rate": 0.0023,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -87,14 +87,14 @@
     },
     "track:buyer_education": {
       "posts": 46,
-      "avg_rate": 0.0012,
+      "avg_rate": 0.0011,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:goldrush": {
-      "posts": 23,
-      "avg_rate": 0.0029,
+      "posts": 24,
+      "avg_rate": 0.0028,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -115,7 +115,7 @@
     },
     "theme:silver": {
       "posts": 23,
-      "avg_rate": 0.0034,
+      "avg_rate": 0.0033,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -212,15 +212,15 @@
       "avg_share_rate": 0.0
     },
     "template:quiz": {
-      "posts": 28,
-      "avg_rate": 0.0025,
+      "posts": 29,
+      "avg_rate": 0.0024,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:compare": {
       "posts": 9,
-      "avg_rate": 0.0021,
+      "avg_rate": 0.002,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -256,7 +256,7 @@
   },
   "directives": [
     "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 3.6% vs 0.0% over the last 60 days (31 vs 5 posts).",
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 2.1% against 1.5% for static posts.",
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 2.2% against 1.5% for static posts.",
     "Real Talk gets saved the most (0.08% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
     "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 5.0%."
@@ -273,8 +273,8 @@
     },
     "facebook": {
       "first": 217,
-      "latest": 288,
-      "change": 71
+      "latest": 289,
+      "change": 72
     }
   },
   "note": "directives are mandatory for the content writer; tips are advisory",
@@ -341,7 +341,7 @@
       "caption": "Daily routine",
       "saves": 1,
       "shares": 0,
-      "rate": 0.0588,
+      "rate": 0.0583,
       "permalink": "https://www.instagram.com/reel/DfFYiDmzWjj/"
     }
   ],
