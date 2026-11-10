@@ -95,7 +95,15 @@ captions:
 
     #inheritedproperty #estatesale #realestatetips #probate #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18230663764332144'
+    at: '2026-11-10T09:08:20-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7525967625127022592
+    at: '2026-11-10T09:08:28-08:00'
 media:
   instagram: queue/2026-11-10/media/r1-instagram.mp4
   facebook: queue/2026-11-10/media/r1-facebook.mp4

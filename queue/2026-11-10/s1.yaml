@@ -12,7 +12,11 @@ design:
   punch: '*One of them is doing all the talking.*'
   cta: Reply SELLER for real comps
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18142489573544597'
+    at: '2026-11-10T09:08:35-08:00'
 media:
   instagram: queue/2026-11-10/media/s1-instagram.jpg
   facebook: queue/2026-11-10/media/s1-facebook.jpg
