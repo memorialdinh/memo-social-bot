@@ -18,7 +18,15 @@ design:
   cta: 'Free calculator: theprestige.luxe'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18080061005739197'
+    at: '2026-11-10T08:03:46-08:00'
+  facebook:
+    state: posted
+    id: '1020352984444197'
+    at: '2026-11-10T08:03:54-08:00'
 media:
   instagram: queue/2026-11-10/media/s5-instagram.jpg
   facebook: queue/2026-11-10/media/s5-facebook.jpg
