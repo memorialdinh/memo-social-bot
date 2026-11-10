@@ -10,7 +10,11 @@ design:
   quote: Nobody is born knowing how escrow works.
   cta: Reply BUYER and ask me one
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18092613203264945'
+    at: '2026-11-10T10:51:55-08:00'
 media:
   instagram: queue/2026-11-10/media/s2-instagram.jpg
   facebook: queue/2026-11-10/media/s2-facebook.jpg
