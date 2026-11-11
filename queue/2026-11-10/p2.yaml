@@ -66,7 +66,19 @@ captions:
 
     #firsttimehomebuyer #realestatetips #homebuying #askanagent #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18102138800421913'
+    at: '2026-11-10T21:57:18-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1170388175988614'
+    at: '2026-11-10T21:57:23-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7526161138628263936
+    at: '2026-11-10T21:57:25-08:00'
 media:
   instagram: queue/2026-11-10/media/p2-instagram.jpg
   facebook: queue/2026-11-10/media/p2-facebook.jpg
