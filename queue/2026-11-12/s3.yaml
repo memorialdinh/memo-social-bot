@@ -1,0 +1,19 @@
+id: s3
+kind: story
+track: buyer_education
+topic: Teaser for r2 checklist on documenting gift funds for a down payment
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Using *gift money*? Check these.
+  subhead: General information, not lending advice.
+  questions:
+  - I know who the gift is coming from.
+  - I have a signed gift letter.
+  - It is a gift, with nothing to repay.
+  - I can show where the money came from.
+  score: All four? You're *ready to document it*.
+  cta: Reply BUYER if you checked 3+
+sources: []

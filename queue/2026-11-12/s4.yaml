@@ -1,0 +1,26 @@
+id: s4
+kind: story
+track: buyer_education
+topic: What happens at the final walkthrough and what is actually fixable at that point
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: The final walkthrough, *in order*.
+  subhead: General information, not legal advice.
+  steps:
+  - when: Before
+    title: Bring the contract
+    detail: The repairs you negotiated are the list.
+  - when: Inside
+    title: Run everything
+    detail: Taps, outlets, heat, oven, garage opener.
+  - when: Look again
+    title: Check what moved
+    detail: Walls behind furniture, floor under rugs.
+  - when: Same day
+    title: Raise it now
+    detail: Before close is while it is still fixable.
+  cta: DM 'BUYER' for my walkthrough list
+sources: []

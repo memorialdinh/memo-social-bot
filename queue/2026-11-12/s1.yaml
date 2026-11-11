@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: seller_education
+topic: Teaser for p1 quiz on what a rent-back after closing actually is
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: What is a *rent-back*?
+  subhead: General information, not legal advice.
+  options:
+  - The seller rents after closing
+  - The buyer moves in early
+  - A lease with an option to buy
+  answer: A
+  explain: The seller stays on as a tenant after close, by written agreement. Not legal advice.
+  reveal: false
+  cta: Reply SELLER with A, B or C
+sources: []

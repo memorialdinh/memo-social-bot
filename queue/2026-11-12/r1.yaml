@@ -1,0 +1,69 @@
+id: r1
+kind: reel
+track: market_update
+topic: Median days on market across eleven Long Beach ZIP codes September 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Eleven ZIPs. *One city*.
+  subhead: Long Beach, September 2026.
+  stat_value: 42-73
+  stat_label: Median days on market, 11 Long Beach ZIPs, Realtor.com, Sept 2026
+  points:
+  - Fastest ZIP, 90808, at 42 days in Sept 2026
+  - Slowest ZIP, 90815, at 73 days in Sept 2026
+  - Same city, same month, 31 days apart
+  cta: DM 'VALUE' for your ZIP's number
+captions:
+  instagram: |-
+    "How's the Long Beach market?" is eleven different answers.
+
+    Across the city's eleven ZIP codes in September 2026, the median days on market ran from 42 days at the fast end to 73 at the slow end. Same city. Same month.
+
+    That's a 31-day spread. If you price off a citywide number, you're pricing off an average that describes none of these ZIPs.
+
+    "The market" is the wrong unit. Your ZIP, your price band, your condition — that's the unit.
+
+    DM me 'VALUE' and I'll pull the number for your ZIP.
+
+    Realtor.com monthly ZIP inventory, September 2026.
+
+    #LongBeachRealEstate #LongBeachHomes #SouthBayHomes #SoCalRealEstate #MarketUpdate #HomeValues
+  facebook: |-
+    Every week someone asks me how the Long Beach market is doing, and the honest answer is that Long Beach isn't one market.
+
+    In September 2026, median days on market across the city's eleven ZIP codes ran from 42 days to 73 days. Same city, same month, a 31-day spread between the quickest and the slowest.
+
+    That matters for one very practical reason. Days on market is the number sellers use to set expectations — how long until we're in escrow, when do we drop the price, should we have listed sooner. If you anchor that expectation to a citywide figure, you're using a number that doesn't describe any actual ZIP code in the city.
+
+    It cuts both ways. A seller in a slower ZIP who expected 42 days starts panicking in week four for no reason. A seller in a faster ZIP who budgeted 73 days leaves money on the table by pricing for patience they didn't need.
+
+    None of this says anything about where the market goes next. It's one month, and it's a measurement, not a forecast.
+
+    Figures: Realtor.com monthly ZIP-level inventory, September 2026.
+
+    Want to know what your ZIP actually did? Comment VALUE and I'll look it up.
+
+    #LongBeachRealEstate #MarketUpdate
+  linkedin: |-
+    A useful illustration of why citywide housing statistics mislead at the decision level.
+
+    In September 2026, median days on market across the eleven ZIP codes inside Long Beach ranged from 42 days to 73 days — a 31-day spread within a single city in a single month. Source: Realtor.com monthly ZIP-level inventory, September 2026.
+
+    Days on market is not a trivia statistic. It is the figure that sets a seller's expectations for time to contract, price-adjustment timing, and whether a listing is underperforming. Anchored to a citywide median, that expectation is wrong in both directions: a seller in a slower submarket reads normal absorption as failure, and a seller in a faster one prices for patience the market did not require.
+
+    The takeaway: the smallest geography with a credible sample is the right unit of analysis. For most of this city, that is the ZIP, and often the price band inside it.
+
+    One month's measurement, not a forecast.
+
+    For the analysts and agents here — what's the smallest geography you'll still trust a median from?
+
+    #RealEstate #HousingMarket #MarketAnalysis
+  tiktok: |-
+    Long Beach, Sept 2026: days on market ran 42 in one ZIP to 73 in another. Same city.
+
+    #longbeach #realestatetips #housingmarket #marketupdate #socalrealestate
+sources:
+- https://www.realtor.com/research/data/

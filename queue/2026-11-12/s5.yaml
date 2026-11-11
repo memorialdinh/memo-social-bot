@@ -1,0 +1,18 @@
+id: s5
+kind: story
+track: buyer_education
+topic: What a conforming loan limit is and what makes a loan jumbo
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: Conforming, or *jumbo*?
+  subhead: General information, not lending advice.
+  term: Conforming loan limit
+  pos: noun - mortgage
+  definition: The largest loan amount Fannie Mae and Freddie Mac will buy, set each year and by county.
+  why: Above that line your loan is a jumbo, with its own guidelines.
+  example: FHFA sets the next year's limits in late November. 2027's are not announced yet.
+  cta: DM 'RATES' and I'll explain yours
+sources: []

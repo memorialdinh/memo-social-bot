@@ -1,0 +1,14 @@
+id: s2
+kind: story
+track: humor
+topic: Teaser for p2 the buyer who saw it in person and still wants more photos
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: Had to see it *in person*.
+  setup: "Saturday: four showings, because photos don't do it justice."
+  punch: "Monday: *any more photos of the second one?*"
+  cta: DM 'BUYER' for my showing list
+sources: []
