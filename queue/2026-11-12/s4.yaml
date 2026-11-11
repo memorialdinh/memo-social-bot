@@ -24,3 +24,23 @@ design:
     detail: Before close is while it is still fixable.
   cta: DM 'BUYER' for my walkthrough list
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-12/media/s4-instagram.jpg
+  facebook: queue/2026-11-12/media/s4-facebook.jpg
+schedule:
+  facebook: 2026-11-12T19:05-08:00
+  instagram: 2026-11-12T12:10-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: split
+    side: right
+    center: false
+    template: process
+  facebook:
+    theme: slate
+    deco: corners
+    side: right
+    center: false
+    template: process

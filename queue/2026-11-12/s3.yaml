@@ -17,3 +17,23 @@ design:
   score: All four? You're *ready to document it*.
   cta: Reply BUYER if you checked 3+
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-12/media/s3-instagram.jpg
+  facebook: queue/2026-11-12/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-12T12:06-08:00
+  instagram: 2026-11-12T10:07-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: rules
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: noir
+    deco: dots
+    side: right
+    center: false
+    template: checklist

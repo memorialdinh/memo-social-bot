@@ -16,3 +16,23 @@ design:
   example: FHFA sets the next year's limits in late November. 2027's are not announced yet.
   cta: DM 'RATES' and I'll explain yours
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-12/media/s5-instagram.jpg
+  facebook: queue/2026-11-12/media/s5-facebook.jpg
+schedule:
+  facebook: 2026-11-12T20:11-08:00
+  instagram: 2026-11-12T19:07-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: halo
+    side: right
+    center: false
+    template: explainer
+  facebook:
+    theme: aurum
+    deco: split
+    side: right
+    center: false
+    template: explainer

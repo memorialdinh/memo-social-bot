@@ -8,7 +8,27 @@ design:
   template: meme
   kicker: REAL TALK
   headline: Had to see it *in person*.
-  setup: "Saturday: four showings, because photos don't do it justice."
-  punch: "Monday: *any more photos of the second one?*"
+  setup: 'Saturday: four showings, because photos don''t do it justice.'
+  punch: 'Monday: *any more photos of the second one?*'
   cta: DM 'BUYER' for my showing list
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-12/media/s2-instagram.jpg
+  facebook: queue/2026-11-12/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-12T10:11-08:00
+  instagram: 2026-11-12T08:05-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: arcs
+    side: right
+    center: false
+    template: meme
+  facebook:
+    theme: graphite
+    deco: beam
+    side: left
+    center: false
+    template: meme

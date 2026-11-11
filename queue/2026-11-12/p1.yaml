@@ -24,50 +24,101 @@ design:
   verdict: The order isn't the question. Which cost you'd rather carry is.
   cta: Comment 'SELLER' for my timing plan
 captions:
-  instagram: |-
-    You sold. You haven't bought yet. Now what?
+  instagram: 'You sold. You haven''t bought yet. Now what?
+
 
     Option one: rent your home back from your buyer for a few weeks after closing. One move, and you leave when your next place is actually ready.
 
+
     Option two: move twice. Close, put things in storage, rent something short-term, move again later.
 
-    A rent-back isn't automatic. Your buyer has to agree, in writing, and their lender may have something to say about how long.
+
+    A rent-back isn''t automatic. Your buyer has to agree, in writing, and their lender may have something to say about how long.
+
 
     Neither one is the smart move. The one that fits your equity and your calendar is.
 
-    Comment 'SELLER' and I'll map the timing with you.
 
-    #LongBeachRealEstate #SouthBayHomes #HomeSellingTips #LakewoodHomes #SoCalRealEstate #SellerTips
-  facebook: |-
-    Here's the gap nobody plans for: you sold your house, and you haven't closed on the next one.
+    Comment ''SELLER'' and I''ll map the timing with you.
+
+
+    #LongBeachRealEstate #SouthBayHomes #HomeSellingTips #LakewoodHomes #SoCalRealEstate #SellerTips'
+  facebook: 'Here''s the gap nobody plans for: you sold your house, and you haven''t closed on the next one.
+
 
     There are two honest ways through it.
 
-    The first is a rent-back. You close on the sale, the money lands, and you rent your own house back from the person who just bought it for an agreed number of days. You move once, and you move when your next place is ready. The catch is that it's a negotiation, not a right. Your buyer has to agree to it in writing, and if they're financing, their loan program may cap how long a seller can stay. It gets negotiated before you're in escrow, not after.
 
-    The second is moving twice. Close, store what you own, rent something month-to-month, then move again when you buy. Two sets of movers, a lease you don't want, and a few months of living out of boxes. The trade is that nobody else gets a vote in your timeline.
+    The first is a rent-back. You close on the sale, the money lands, and you rent your own house back from the person who just bought it for an agreed number of days. You move once, and you move when your next place is ready. The catch is that it''s a negotiation, not a right. Your buyer has to agree to it in writing, and if they''re financing, their loan program may cap how long a seller can stay. It gets negotiated before you''re in escrow, not after.
 
-    What I'd actually ask you first: how much overlap can you carry, and how firm is your next closing date? Those two answers usually pick the path for you.
 
-    Which one would you rather deal with — a lease you don't want, or asking your buyer for a favor?
+    The second is moving twice. Close, store what you own, rent something month-to-month, then move again when you buy. Two sets of movers, a lease you don''t want, and a few months of living out of boxes. The trade is that nobody else gets a vote in your timeline.
 
-    #HomeSellingTips #SoCalRealEstate
-  linkedin: |-
-    A seller who closes before they buy has two options, and the one that gets chosen is usually the one that was negotiated earlier.
+
+    What I''d actually ask you first: how much overlap can you carry, and how firm is your next closing date? Those two answers usually pick the path for you.
+
+
+    Which one would you rather deal with — a lease you don''t want, or asking your buyer for a favor?
+
+
+    #HomeSellingTips #SoCalRealEstate'
+  linkedin: 'A seller who closes before they buy has two options, and the one that gets chosen is usually the one that was negotiated earlier.
+
 
     A rent-back lets the seller close, collect proceeds, and remain in the property for an agreed period as a tenant. It consolidates the move into one event and aligns it with the purchase. It is also entirely dependent on the buyer agreeing to it in writing, and where the buyer is financing, the occupancy terms of their loan program can limit the length.
 
+
     Moving twice removes that dependency. The seller closes, stores, occupies interim housing and moves again. The cost is two moves and a short-term lease; the benefit is a timeline nobody else controls.
+
 
     The takeaway for anyone advising sellers: this is a pre-listing conversation, not an escrow conversation. A rent-back asked for after a buyer is already in contract is a concession request. The same terms written into the listing strategy are just terms.
 
+
     General information, not legal or lending advice.
+
 
     For the agents here — how early do you raise the post-closing possession question with a seller?
 
-    #RealEstate #HomeSelling #RealEstateAdvice
-  tiktok: |-
-    Sold but haven't bought? It's rent-back or move twice. Pick the cost you'd rather carry.
 
-    #homesellingtips #realestatetips #socalrealestate #sellerstips #longbeach
+    #RealEstate #HomeSelling #RealEstateAdvice'
+  tiktok: 'Sold but haven''t bought? It''s rent-back or move twice. Pick the cost you''d rather carry.
+
+
+    #homesellingtips #realestatetips #socalrealestate #sellerstips #longbeach'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-12/media/p1-instagram.jpg
+  facebook: queue/2026-11-12/media/p1-facebook.jpg
+  linkedin: queue/2026-11-12/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-12/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-12T19:11-08:00
+  instagram: 2026-11-12T19:05-08:00
+  linkedin: 2026-11-12T19:04-08:00
+  tiktok: 2026-11-12T19:02-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: corners
+    side: right
+    center: false
+    template: compare
+  facebook:
+    theme: porcelain
+    deco: dots
+    side: right
+    center: false
+    template: compare
+  linkedin:
+    theme: aurum
+    deco: dots
+    side: right
+    center: false
+    template: compare
+  tiktok:
+    theme: ivory
+    deco: dots
+    side: left
+    center: false
+    template: compare

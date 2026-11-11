@@ -8,54 +8,105 @@ design:
   template: meme
   kicker: REAL TALK
   headline: Every showing day, *eventually*.
-  setup: "Buyer: photos never do it justice, I have to see it in person."
-  punch: "Also buyer, Monday: *can you send more photos?*"
+  setup: 'Buyer: photos never do it justice, I have to see it in person.'
+  punch: 'Also buyer, Monday: *can you send more photos?*'
   cta: DM 'BUYER' for my showing list
 captions:
-  instagram: |-
-    Saturday: four houses, in person, because photos never do it justice.
+  instagram: 'Saturday: four houses, in person, because photos never do it justice.
+
 
     Monday: "could you send me more photos of the second one?"
 
+
     I say this with love. I have also done this. The house you remember on Monday is never quite the house you walked through on Saturday.
 
-    Here's the actual fix, though: take your own photos while you're there. Phone, every room, the view out the window, the thing you'd have to replace. Yours, not the listing's.
 
-    DM me 'BUYER' and I'll send you my showing list — what to photograph and what to check while you're standing in it.
+    Here''s the actual fix, though: take your own photos while you''re there. Phone, every room, the view out the window, the thing you''d have to replace. Yours, not the listing''s.
 
-    #RealTalk #HomeBuyingTips #FirstTimeHomeBuyer #LongBeachRealEstate #SouthBayHomes #HouseHunting
-  facebook: |-
-    A real pattern from a real weekend.
+
+    DM me ''BUYER'' and I''ll send you my showing list — what to photograph and what to check while you''re standing in it.
+
+
+    #RealTalk #HomeBuyingTips #FirstTimeHomeBuyer #LongBeachRealEstate #SouthBayHomes #HouseHunting'
+  facebook: 'A real pattern from a real weekend.
+
 
     Saturday morning, the buyer tells me photos never do a house justice. Agreed. We see four of them in person.
 
+
     Monday morning, the text comes in: "can you send me more photos of the second one?"
 
-    I'm not roasting anyone here — I've done exactly this. Four houses in one morning turns into one blurry composite house in your head by Monday, and the one detail you actually need to decide on is the one nobody photographed.
 
-    So here's the unglamorous fix. While you're in the house, take your own photos. Every room, the ceiling, the electrical panel, the view out the back window, the thing you'd have to replace in year one. Listing photos are marketing. Your photos are notes.
+    I''m not roasting anyone here — I''ve done exactly this. Four houses in one morning turns into one blurry composite house in your head by Monday, and the one detail you actually need to decide on is the one nobody photographed.
 
-    The buyers who decide fastest aren't the ones who saw the most houses. They're the ones who can still remember what they saw.
 
-    What's your trick for keeping four showings straight?
+    So here''s the unglamorous fix. While you''re in the house, take your own photos. Every room, the ceiling, the electrical panel, the view out the back window, the thing you''d have to replace in year one. Listing photos are marketing. Your photos are notes.
 
-    #HomeBuyingTips #RealTalk
-  linkedin: |-
-    A small thing I've watched play out dozens of times, which turns out not to be a small thing.
+
+    The buyers who decide fastest aren''t the ones who saw the most houses. They''re the ones who can still remember what they saw.
+
+
+    What''s your trick for keeping four showings straight?
+
+
+    #HomeBuyingTips #RealTalk'
+  linkedin: 'A small thing I''ve watched play out dozens of times, which turns out not to be a small thing.
+
 
     A buyer insists on seeing homes in person, correctly, because photography flattens a house. We tour four. Within 48 hours, the request comes back: more photos, please.
 
-    This isn't indecision. It's memory. Four properties in one morning compress into a single approximate house, and the detail the decision actually turns on is almost never in the listing set — because listing photography exists to generate interest, not to support a comparison.
+
+    This isn''t indecision. It''s memory. Four properties in one morning compress into a single approximate house, and the detail the decision actually turns on is almost never in the listing set — because listing photography exists to generate interest, not to support a comparison.
+
 
     The takeaway, for agents and for buyers: build your own record during the showing. Phone photos of every room, the mechanicals, the sight lines, and specifically the things you would have to spend money on. Then the follow-up conversation is about a house rather than about a feeling.
 
+
     The best buyer consultations I have are the ones where the client brings their own camera roll.
+
 
     What do you have your clients capture during a tour?
 
-    #RealEstate #HomeBuying #ClientExperience
-  tiktok: |-
-    Saturday: photos don't do it justice. Monday: send me more photos. Take your own, every room.
 
-    #homebuyingtips #firsttimehomebuyer #realestatetips #househunting #realtorlife
+    #RealEstate #HomeBuying #ClientExperience'
+  tiktok: 'Saturday: photos don''t do it justice. Monday: send me more photos. Take your own, every room.
+
+
+    #homebuyingtips #firsttimehomebuyer #realestatetips #househunting #realtorlife'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-12/media/p2-instagram.jpg
+  facebook: queue/2026-11-12/media/p2-facebook.jpg
+  linkedin: queue/2026-11-12/media/p2-linkedin.jpg
+  tiktok: queue/2026-11-12/media/p2-tiktok.mp4
+schedule:
+  facebook: 2026-11-12T20:05-08:00
+  instagram: 2026-11-12T20:09-08:00
+  linkedin: 2026-11-12T20:02-08:00
+  tiktok: 2026-11-12T20:04-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: halo
+    side: right
+    center: true
+    template: meme
+  facebook:
+    theme: slate
+    deco: halo
+    side: right
+    center: true
+    template: meme
+  linkedin:
+    theme: noir
+    deco: beam
+    side: right
+    center: true
+    template: meme
+  tiktok:
+    theme: porcelain
+    deco: split
+    side: left
+    center: false
+    template: meme

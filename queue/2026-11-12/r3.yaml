@@ -17,57 +17,111 @@ design:
   - A smoothed index of typical asking rent. An estimate.
   cta: DM 'INVEST' for the rent worksheet
 captions:
-  instagram: |-
-    Two LA County cities, twenty minutes apart. About $1,067 a month between them.
+  instagram: 'Two LA County cities, twenty minutes apart. About $1,067 a month between them.
 
-    September 2026, Zillow's rent index: Lakewood at the top of my service cities around $3,401, Gardena at the bottom around $2,334.
 
-    Why it matters if you're buying: rent is the number you're comparing a mortgage payment against. Use the wrong city's rent and the whole comparison is off.
+    September 2026, Zillow''s rent index: Lakewood at the top of my service cities around $3,401, Gardena at the bottom around $2,334.
 
-    Why it matters if you're investing: rent and price don't move together, and they don't move together everywhere.
+
+    Why it matters if you''re buying: rent is the number you''re comparing a mortgage payment against. Use the wrong city''s rent and the whole comparison is off.
+
+
+    Why it matters if you''re investing: rent and price don''t move together, and they don''t move together everywhere.
+
 
     These are smoothed index values for typical asking rent — estimates, not appraisals, and not a quote on any specific unit.
 
-    DM me 'INVEST' and I'll send the worksheet I use to run it.
+
+    DM me ''INVEST'' and I''ll send the worksheet I use to run it.
+
 
     Zillow Observed Rent Index, September 2026.
 
-    #SoCalRealEstate #LakewoodHomes #GardenaCA #LongBeachRealEstate #RealEstateInvesting #MarketUpdate
-  facebook: |-
-    Here's a number that surprises people who've lived here their whole lives.
 
-    In September 2026, typical asking rent across the cities I work ran from about $2,334 at the low end, in Gardena, to about $3,401 at the high end, in Lakewood. Both are Los Angeles County. They're a short drive apart. That's roughly $1,067 a month of difference.
+    #SoCalRealEstate #LakewoodHomes #GardenaCA #LongBeachRealEstate #RealEstateInvesting #MarketUpdate'
+  facebook: 'Here''s a number that surprises people who''ve lived here their whole lives.
 
-    Two reasons that's worth knowing.
 
-    If you're thinking about buying, rent is your baseline. Every "should I buy or keep renting" conversation is really a comparison between a rent number and a total monthly housing payment. People almost always run that math against a countywide rent figure, or against what they personally happen to pay, and both of those produce an answer about a city they don't live in.
+    In September 2026, typical asking rent across the cities I work ran from about $2,334 at the low end, in Gardena, to about $3,401 at the high end, in Lakewood. Both are Los Angeles County. They''re a short drive apart. That''s roughly $1,067 a month of difference.
 
-    If you're looking at a small rental property, this is the reminder that rent and purchase price are two separate markets. They don't rise and fall in lockstep, and the relationship between them is different in each city. A property that pencils in one of these cities doesn't automatically pencil ten minutes away.
 
-    About the numbers: these are Zillow's Observed Rent Index, a smoothed index of typical asking rent for September 2026. They're estimates of a typical figure, not appraisals, and not a quote on any particular unit. Nothing here says where rents go next.
+    Two reasons that''s worth knowing.
+
+
+    If you''re thinking about buying, rent is your baseline. Every "should I buy or keep renting" conversation is really a comparison between a rent number and a total monthly housing payment. People almost always run that math against a countywide rent figure, or against what they personally happen to pay, and both of those produce an answer about a city they don''t live in.
+
+
+    If you''re looking at a small rental property, this is the reminder that rent and purchase price are two separate markets. They don''t rise and fall in lockstep, and the relationship between them is different in each city. A property that pencils in one of these cities doesn''t automatically pencil ten minutes away.
+
+
+    About the numbers: these are Zillow''s Observed Rent Index, a smoothed index of typical asking rent for September 2026. They''re estimates of a typical figure, not appraisals, and not a quote on any particular unit. Nothing here says where rents go next.
+
 
     Curious which city surprises you most on that list?
 
-    #SoCalRealEstate #RealEstateInvesting
-  linkedin: |-
-    A reminder that "the rental market" is not a unit of analysis.
+
+    #SoCalRealEstate #RealEstateInvesting'
+  linkedin: 'A reminder that "the rental market" is not a unit of analysis.
+
 
     Across the cities I work in Los Angeles County, typical asking rent in September 2026 ranged from approximately $2,334 to approximately $3,401 — roughly $1,067 a month of spread between two cities a short drive apart. Source: Zillow Observed Rent Index, September 2026, a smoothed index of typical asking rent.
 
+
     Two decisions turn on getting this right.
+
 
     For a prospective owner-occupant, rent is the comparison baseline in any rent-versus-own analysis. Substituting a countywide rent figure for a submarket figure can move that comparison by more than a thousand dollars a month, which is usually larger than the difference the analysis was trying to detect.
 
+
     For a small-scale investor, it is evidence that rents and values are distinct series with distinct local behavior. Gross yield is therefore a city-level question before it is a property-level one, and a model calibrated in one submarket does not transfer to the next one over.
+
 
     These are index estimates of a typical figure, not appraisals, and not a projection of where rents go next.
 
+
     For the investors here — at what geography do you calibrate your rent assumptions?
 
-    #RealEstate #RealEstateInvesting #HousingMarket
-  tiktok: |-
-    Same county, short drive apart: typical asking rent ran $2,334 to $3,401 in Sept 2026.
 
-    #realestateinvesting #socalrealestate #rentvsbuy #marketupdate #realestatetips
+    #RealEstate #RealEstateInvesting #HousingMarket'
+  tiktok: 'Same county, short drive apart: typical asking rent ran $2,334 to $3,401 in Sept 2026.
+
+
+    #realestateinvesting #socalrealestate #rentvsbuy #marketupdate #realestatetips'
 sources:
 - https://www.zillow.com/research/data/
+status: {}
+media:
+  instagram: queue/2026-11-12/media/r3-instagram.mp4
+  facebook: queue/2026-11-12/media/r3-facebook.mp4
+  linkedin: queue/2026-11-12/media/r3-linkedin.mp4
+  tiktok: queue/2026-11-12/media/r3-tiktok.mp4
+schedule:
+  facebook: 2026-11-12T11:08-08:00
+  instagram: 2026-11-12T11:03-08:00
+  linkedin: 2026-11-12T11:08-08:00
+  tiktok: 2026-11-12T11:04-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: halo
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: porcelain
+    deco: rules
+    side: left
+    center: true
+    template: stat
+  linkedin:
+    theme: carbon
+    deco: dots
+    side: left
+    center: true
+    template: stat
+  tiktok:
+    theme: ivory
+    deco: rules
+    side: left
+    center: true
+    template: stat
