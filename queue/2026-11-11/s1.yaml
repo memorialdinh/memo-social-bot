@@ -12,7 +12,11 @@ design:
   punch: 'The part you read: *the roof.*'
   cta: Reply BUYER for the three pages
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17989505565105320'
+    at: '2026-11-11T08:52:57-08:00'
 media:
   instagram: queue/2026-11-11/media/s1-instagram.jpg
   facebook: queue/2026-11-11/media/s1-facebook.jpg
