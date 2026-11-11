@@ -58,7 +58,19 @@ captions:
   tiktok: 'Run the numbers before you tour the property. Free investor calculator at theprestige.luxe #realestateinvesting #cashflow #rentalproperty #socal'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18149868802566201'
+    at: '2026-11-10T19:52:30-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1170299809330784'
+    at: '2026-11-10T19:52:34-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7526129726239932416
+    at: '2026-11-10T19:52:35-08:00'
 media:
   instagram: queue/2026-11-10/media/w1-instagram.jpg
   facebook: queue/2026-11-10/media/w1-facebook.jpg
