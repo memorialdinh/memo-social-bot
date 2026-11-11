@@ -93,7 +93,19 @@ captions:
     #realestateinvesting #rentalproperty #cashflow #longbeach #investortips'
 sources:
 - https://www.zillow.com/research/data/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18093882995219485'
+    at: '2026-11-11T11:56:34-08:00'
+  facebook:
+    state: posted
+    id: '39897406426573263'
+    at: '2026-11-11T11:56:43-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7526372386246508545
+    at: '2026-11-11T11:56:50-08:00'
 media:
   instagram: queue/2026-11-11/media/r3-instagram.mp4
   facebook: queue/2026-11-11/media/r3-facebook.mp4
