@@ -17,7 +17,11 @@ design:
   score: Under 3? Start with *the list*.
   cta: Reply BUYER if you checked 3+
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18510465706103254'
+    at: '2026-11-11T13:32:22-08:00'
 media:
   instagram: queue/2026-11-11/media/s3-instagram.jpg
   facebook: queue/2026-11-11/media/s3-facebook.jpg
