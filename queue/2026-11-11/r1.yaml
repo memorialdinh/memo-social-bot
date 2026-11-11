@@ -91,7 +91,19 @@ captions:
 
     #firsttimehomebuyer #escrow #homebuyingtips #realestatetips #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17967656235238759'
+    at: '2026-11-11T09:53:37-08:00'
+  facebook:
+    state: posted
+    id: '1680615293598649'
+    at: '2026-11-11T09:53:45-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7526341439241453568
+    at: '2026-11-11T09:53:52-08:00'
 media:
   instagram: queue/2026-11-11/media/r1-instagram.mp4
   facebook: queue/2026-11-11/media/r1-facebook.mp4
