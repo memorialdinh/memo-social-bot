@@ -76,7 +76,19 @@ captions:
     #realestateagents #epiquerealty #realtorlife #agenttools #realestatecareer'
 sources:
 - https://joinepique.com/news/epique-realty-expands-cliqueoffers-benefit-launching-powerful-b2c-cash-offer-mar
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18107649724994519'
+    at: '2026-11-11T21:59:46-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1171520905875341'
+    at: '2026-11-11T21:59:51-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7526524144138727424
+    at: '2026-11-11T21:59:52-08:00'
 media:
   instagram: queue/2026-11-11/media/p2-instagram.jpg
   facebook: queue/2026-11-11/media/p2-facebook.jpg
