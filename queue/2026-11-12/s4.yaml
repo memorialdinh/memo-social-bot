@@ -24,7 +24,11 @@ design:
     detail: Before close is while it is still fixable.
   cta: DM 'BUYER' for my walkthrough list
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17991591675114363'
+    at: '2026-11-12T12:25:44-08:00'
 media:
   instagram: queue/2026-11-12/media/s4-instagram.jpg
   facebook: queue/2026-11-12/media/s4-facebook.jpg

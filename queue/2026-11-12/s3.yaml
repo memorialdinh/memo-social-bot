@@ -22,6 +22,10 @@ status:
     state: posted
     id: '17915559315520363'
     at: '2026-11-12T10:22:20-08:00'
+  facebook:
+    state: posted
+    id: '1854333982576577'
+    at: '2026-11-12T12:25:37-08:00'
 media:
   instagram: queue/2026-11-12/media/s3-instagram.jpg
   facebook: queue/2026-11-12/media/s3-facebook.jpg
