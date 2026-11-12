@@ -56,7 +56,19 @@ captions:
   tiktok: 'Know your home''s number before 2027. Free value from real sales near you at theprestige.luxe #homevalue #realestatetips #sellingahome #socalrealestate'
 sources:
 - https://theprestige.luxe
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17990066495882139'
+    at: '2026-11-11T19:53:08-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1171427839217981'
+    at: '2026-11-11T19:53:13-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7526492276676612096
+    at: '2026-11-11T19:53:14-08:00'
 media:
   instagram: queue/2026-11-11/media/w1-instagram.jpg
   facebook: queue/2026-11-11/media/w1-facebook.jpg
