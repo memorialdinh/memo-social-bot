@@ -1,0 +1,14 @@
+id: s4
+kind: story
+track: humor
+topic: Teaser for r2 the November showing confirmed twice and moved with eight minutes to go
+time: auto
+approved: true
+design:
+  template: meme
+  kicker: REAL TALK
+  headline: Confirmed. *Twice*.
+  setup: 'Tuesday 10am: showing. Confirmed Monday.'
+  punch: 'Tuesday 9:52am: *next week instead?*'
+  cta: Comment 'SELLER' for my November plan
+sources: []

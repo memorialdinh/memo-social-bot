@@ -1,0 +1,77 @@
+id: r1
+kind: reel
+track: market_update
+topic: Active listings a year apart across service cities Cypress up 19.1 percent Redondo Beach down 9.0 percent September 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Supply moved *both ways*.
+  subhead: Active listings, year over year, Sept 2026.
+  stat_value: +19.1% to -9.0%
+  stat_label: Active listings, year over year, Realtor.com, Sept 2026
+  points:
+  - Cypress up 19.1 percent, Realtor.com, Sept 2026
+  - Gardena up 11.0 percent, Realtor.com, Sept 2026
+  - Redondo Beach down 9.0 percent, Realtor.com, Sept 2026
+  cta: DM 'VALUE' for your city's number
+captions:
+  instagram: |-
+    "Is there more inventory now?" Depends which city you're asking about.
+
+    Active listings, September 2026 against September 2025:
+
+    Cypress up 19.1%. Gardena up 11.0%. Redondo Beach down 9.0%.
+
+    Same region. Same month. Opposite directions.
+
+    More listings in your city usually means more room to ask for something — a repair, a credit, a closing date that works for you. Fewer means less. That's it. It isn't a forecast.
+
+    Realtor.com monthly ZIP inventory, September 2026.
+
+    DM me 'VALUE' and I'll pull your city's number.
+
+    #SoCalRealEstate #CypressCA #RedondoBeach #LongBeachRealEstate #MarketUpdate #HomeValues
+  facebook: |-
+    Here's why I don't answer "how's the market?" with one number anymore.
+
+    Active listings in September 2026, measured against the same month a year earlier, across cities I work in:
+
+    Cypress, up 19.1%. Gardena, up 11.0%. Redondo Beach, down 9.0%.
+
+    That's a 28-point spread between the top and the bottom, in one region, in one month.
+
+    What it means in a real conversation: inventory is the rough measure of how much choice a buyer has, and therefore how much leverage. Where listings are up meaningfully, a buyer has more to compare and usually more room to ask — for a repair, a credit, a longer escrow. Where listings are down, that room is thinner, and a seller can hold a line more comfortably.
+
+    What it does not mean: anything about where this goes next. It's one month against one month. A year-over-year change describes what happened, not what's coming, and anyone telling you otherwise is guessing.
+
+    The practical version: ask about your city, and really about your price band inside your city. A regional average is a number that describes nowhere.
+
+    Figures: Realtor.com monthly ZIP-level inventory, September 2026.
+
+    Comment VALUE and I'll look up where your city landed.
+
+    #SoCalRealEstate #MarketUpdate
+  linkedin: |-
+    A clean illustration of why regional inventory averages fail at the decision level.
+
+    Active listing counts for September 2026, against September 2025, across several Los Angeles and Orange County submarkets: Cypress +19.1%, Gardena +11.0%, Redondo Beach -9.0%. Source: Realtor.com monthly ZIP-level inventory, September 2026.
+
+    A 28-point spread inside one region in one month.
+
+    Inventory is the closest available proxy for buyer choice, and therefore for negotiating room. Rising active counts generally widen a buyer's comparison set and the concessions they can reasonably request; falling counts narrow both. That inference is about the present condition of a submarket, not its direction.
+
+    The methodological point is the one that matters: a figure aggregated above the level at which the decision is made can be directionally wrong for the specific case. For these cities, the useful unit is the city, and often the price band within it.
+
+    One month measured against one month. Not a forecast.
+
+    For the analysts here — where do you draw the line between a submarket signal and noise?
+
+    #RealEstate #HousingMarket #MarketAnalysis
+  tiktok: |-
+    Sept 2026 active listings: Cypress up 19.1%, Gardena up 11.0%, Redondo Beach down 9.0%. Same region.
+
+    #socalrealestate #housingmarket #marketupdate #realestatetips #cypressca
+sources:
+- https://www.realtor.com/research/data/

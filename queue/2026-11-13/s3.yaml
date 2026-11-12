@@ -1,0 +1,18 @@
+id: s3
+kind: story
+track: buyer_education
+topic: What a lender credit is and how it trades against your interest rate
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: What is a *lender credit*?
+  subhead: General information, not lending advice.
+  term: Lender credit
+  pos: noun - mortgage
+  definition: Money your lender puts toward your closing costs, in exchange for a higher interest rate.
+  why: It lowers the cash you bring to closing and raises the monthly payment.
+  example: Less cash now, more interest over time. Not a loan offer.
+  cta: DM 'RATES' and I'll explain yours
+sources: []

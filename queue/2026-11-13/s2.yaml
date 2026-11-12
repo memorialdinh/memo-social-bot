@@ -1,0 +1,19 @@
+id: s2
+kind: story
+track: buyer_education
+topic: Teaser for p2 checklist on what to confirm before removing contingencies
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Removing *contingencies*? Check these.
+  subhead: General information, not lending advice.
+  questions:
+  - I have a hazard insurance quote in writing.
+  - My lender said final approval, not pre-approval.
+  - My inspection questions all have answers.
+  - I have walked the home one more time.
+  score: Four yes? You're *ready to sign*.
+  cta: Reply BUYER if you checked 3+
+sources: []

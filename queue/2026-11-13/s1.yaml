@@ -1,0 +1,21 @@
+id: s1
+kind: story
+track: seller_education
+topic: Teaser for p1 quiz on who confirms a California probate home sale
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Who confirms a *probate* home sale?
+  subhead: General information, not legal advice.
+  options:
+  - The trustee
+  - The court
+  - The escrow officer
+  answer: B
+  explain: The court confirms it, on Judicial Council form DE-265. Not legal advice; ask your own attorney.
+  reveal: false
+  cta: Reply SELLER with A, B or C
+sources:
+- https://selfhelp.courts.ca.gov/jcc-form/DE-265

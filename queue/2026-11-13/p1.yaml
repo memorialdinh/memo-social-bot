@@ -1,0 +1,82 @@
+id: p1
+kind: post
+track: seller_education
+topic: What a successor trustee or executor can sign before a court signs off on a trust or probate sale
+time: auto
+approved: true
+design:
+  template: process
+  kicker: SELLER TIP
+  headline: Who signs, and *when a court does*.
+  subhead: General information, not legal advice.
+  steps:
+  - when: First
+    title: Find your authority
+    detail: A trustee's powers come from the trust document.
+  - when: Trust sale
+    title: Powers as written
+    detail: Unless they conflict with California law or a court order.
+  - when: Probate sale
+    title: Report it to the court
+    detail: Form DE-260 reports the sale and asks for confirmation.
+  - when: Then
+    title: The court answers
+    detail: Form DE-265 states whether the sale is confirmed.
+  cta: Comment 'SELLER' for the order
+captions:
+  instagram: |-
+    Signing an offer and closing a sale are two different moments. On an inherited home they can be weeks apart.
+
+    Where your authority comes from decides everything. A trustee's powers come from the trust document itself — California's courts put it plainly: a trustee has the powers listed in the trust, unless they conflict with California law or a court order says otherwise.
+
+    A probate sale runs on a different track. The personal representative reports the sale to the court on Judicial Council form DE-260 and asks the court to confirm it. The court's answer comes back on form DE-265.
+
+    So the honest answer to "can I sign?" is: read the document you were handed, then ask which track you're on.
+
+    General information, not legal advice. Your own attorney and the court govern your situation.
+
+    Comment 'SELLER' and I'll walk you through the order.
+
+    #LongBeachRealEstate #SouthBayHomes #TrustSale #ProbateSale #HomeSellingTips #SoCalRealEstate
+  facebook: |-
+    If you've just been named a successor trustee or an executor, the first question is almost always the same: am I allowed to sign this?
+
+    Here's the general shape of the answer, and why it depends on which track you're on.
+
+    If the home is held in a trust, your powers come from the trust document. California's own court self-help material says it directly: a trustee has the powers listed in the trust document, unless those powers conflict with California law — or unless a court order says otherwise. So the document in your hands is the first thing to read, not the last.
+
+    If the home is going through probate, the court is part of the transaction. The personal representative reports the sale to the court on Judicial Council form DE-260, which both reports the sale of real property in the estate and asks the court to confirm it. The court's decision comes back on form DE-265, which states whether the sale is confirmed.
+
+    Why this matters practically: on a probate sale, an accepted offer is a step, not the finish line. Buyers need to understand that, and so does anyone planning a move around the closing date.
+
+    What I'd do first, in this order: read the trust or the letters you were issued, call the attorney handling the estate, and only then start talking to agents about price and timing. Doing it in that order saves weeks.
+
+    This is general information, not legal or tax advice — your attorney and the court handling the estate are the authority on your situation.
+
+    If you're sitting on this right now, what's the part nobody has explained to you yet?
+
+    #HomeSellingTips #SoCalRealEstate
+  linkedin: |-
+    A recurring source of confusion on inherited-property transactions, and it costs real time when it goes unaddressed early.
+
+    The seller's authority to sign is not a single rule. It depends on the instrument.
+
+    Where title is held in trust, the trustee's powers are defined by the trust document. California court self-help guidance states that a trustee has the powers listed in the trust document unless they conflict with California law, or unless a court order provides otherwise.
+
+    Where the property passes through probate, the court is a party to the timeline. The personal representative reports the sale on Judicial Council form DE-260 — the Report of Sale and Petition for Order Confirming Sale of Real Property — and the court's determination is entered on form DE-265, the Order Confirming Sale of Real Property.
+
+    The practical takeaway for anyone representing or advising on these files: establish which track the property is on before you discuss price, marketing or a closing date. An accepted offer on a probate sale is a milestone in a court process, and a buyer who was never told that is a buyer who walks.
+
+    General information, not legal advice; the estate's counsel and the court govern.
+
+    For the agents and fiduciaries here — how early do you confirm the authority question on an estate file?
+
+    #RealEstate #EstatePlanning #RealEstateAdvice
+  tiktok: |-
+    Inherited a house? Your authority comes from the trust document, or from the court. Read it first.
+
+    #probatesale #trustsale #homesellingtips #realestatetips #socalrealestate
+sources:
+- https://selfhelp.courts.ca.gov/jcc-form/DE-260
+- https://selfhelp.courts.ca.gov/jcc-form/DE-265
+- https://santaclara.courts.ca.gov/self-help/self-help-probate/probate-property-transfers/probate-trusts
