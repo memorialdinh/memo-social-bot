@@ -172,7 +172,15 @@ Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. **As
    May 2026 in `data/posts.csv`, which predates this bot. Run `--plan` clean before pushing.
 2. Balance the week across audiences in section 3 — not five buyer posts in a row. Inheritors and
    investors each got one piece in the Nov 2–8 week; give them two.
-3. Keep one meme most days and exactly two motivational `quote` pieces a week.
+3. ~~Keep one meme most days and exactly two motivational `quote` pieces a week.~~
+   **Superseded Nov 12 2026 by the volume cut — Scribe's note, Mentor to ratify Sunday.** At 3
+   feed items a day this rule cannot coexist with the daily questionnaire, the process/education
+   piece and the directive `stat`. CONTENT_BRIEF.md now says: **humor gets one feed slot a week
+   (Saturday) plus stories as available; `quote` is one a week and rides a story.** `quote` was
+   demoted first because §6 records it earning the highest reach-per-item of any template on zero
+   engagements — reach without conversion is the cheapest thing to move off the feed. Humor kept a
+   feed slot on its save rate. Rewrite or overrule this rule when you replan the week; it is
+   editorial judgment and it is yours, not Scribe's.
 4. **The fresh-rate piece goes on SATURDAY.** PMMS publishes Thursdays at noon ET and Scribe writes
    **two days** ahead (§6), so Saturday's queue is written Thursday evening, after the print.
    Thursday's and Friday's are written before it. If the print hasn't advanced, don't rerun last

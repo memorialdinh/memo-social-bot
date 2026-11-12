@@ -104,18 +104,34 @@ The renderer now has a luxury look (gold-foil type, hairline rules, his portrait
 - **every item has `design.cta`** — the gold "Your next step" button. One action, ≤ 8 words, with an
   engagement keyword (RATES, BUYER, SELLER, VALUE, PROP 19, AGREEMENT, MATH, INVEST, BDAY) so the bot
   can answer it. If you leave it out, the track's default from `config.yaml → default_cta` is used.
-- **once a week** (Mentor picks the day, or Wednesday if the plan doesn't say) one `cta` offer card:
-  what someone gets on a 15-minute call, `cta: Book a 15-minute call`,
-  `cta_sub: tidycal.com/memorialdinh/15-minute-call`. Captions still carry the keyword CTA too.
+- **The weekly 15-minute-call offer rides an existing piece — it no longer gets a slot of its own.**
+  Changed Nov 12 2026. **Thursday**, on the day's client-facing feed piece: keep that piece's own
+  keyword CTA and add `cta_sub: tidycal.com/memorialdinh/15-minute-call` underneath. Thursday so it
+  misses the Wed/Sun Spotlight and Saturday humor. Why not a dedicated `cta` card any more: the
+  standing directive bans the `cta` template (lowest reach-per-item of any template, playbook §6),
+  the `w1` campaign post that hosted the offer Oct 29 – Nov 11 has ended, and at 3 feed items a day
+  there is no spare slot. **Never drop the offer itself to satisfy the template directive** — that
+  is the rule playbook §6 sets out, and `cta_sub` is how it's met at this volume.
 - never the same template twice in a row in the feed; rotate through all of them over the week
-- **What now competes for 3 slots.** Before the Nov 12 cut these all fit in a 5-item feed: a
-  `process`, a feed questionnaire, an education piece, the daily meme, the week's two `quote`
-  pieces, a `stat`, and a Spotlight. They no longer do. The order of precedence when they
-  collide: (1) the day's questionnaire, (2) the `process` or education piece, (3) the `stat` a
-  directive asks for, (4) humor, (5) the weekly `quote`. **A requirement that loses its feed slot
-  rides a story where it can** (playbook §6) — and when it can't fit at all, drop it and name it
-  in the report. Mentor should rebalance the week plan to 3 feed rows a day and decide what the
-  weekly humor and `quote` cadence becomes; until then Scribe follows this precedence.
+- **Humor: one feed slot a week, on Saturday, plus stories whenever a story slot is free.**
+  **`quote`: one a week, and it rides a story, not the feed.** Both changed Nov 12 2026 with the
+  volume cut, down from "a meme most days and two `quote` pieces a week". The reasoning, because
+  it decides the next close call too: **the three feed slots belong to what Memo actually asked
+  for on Oct 28 — "more tips, education, process, questionnaire and CTA".** Humor and `quote` were
+  never on that list. `quote` loses its feed slot first because it is the one template with reach
+  but no conversion — playbook §6 has it at the highest reach-per-item of any template on *zero*
+  engagements, so a feed slot spent on it is a slot that cannot produce a DM. Humor keeps one feed
+  slot because it has the best save rate of any track (`insights.json`) and saves are what carry a
+  post to new people, but one a week, not six. Both registers stay in the mix per playbook §2 —
+  they just stop outbidding the educational floor.
+- **What competes for 3 slots, in order.** Before the Nov 12 cut all of these fit in a 5-item
+  feed: a `process`, a feed questionnaire, an education piece, the daily meme, two `quote` pieces,
+  a `stat`, and a Spotlight. They no longer do. Precedence when they collide: (1) the day's
+  questionnaire, (2) the `process` or education piece, (3) the `stat` a directive asks for,
+  (4) the Wednesday/Sunday Spotlight, (5) Saturday humor, (6) the weekly `quote`.
+  **A requirement that loses its feed slot rides a story where it can** (playbook §6) — and when
+  it can't fit at all, drop it and name it in the report. Mentor still needs to rebalance the week
+  plan to 3 feed rows a day; this cadence is what Scribe follows until then.
 - `insights.json` directives still win (e.g. "stop using quote") — say which you applied
 
 **Which template for what:**

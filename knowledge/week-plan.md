@@ -38,6 +38,12 @@ under the new cadence is **Sun Nov 15**, and the Nov 15 row below needs a Spotli
 it is replanned. **Facebook no longer gets its own caption** — `captions.default` serves Instagram
 and Facebook, so plan three captions a piece, not four.
 
+**Humor and `quote` cadence changed too** (Memo, Nov 12: "Let's go with your recommendation"):
+humor gets **one feed slot a week, Saturday**, plus stories when a story slot is free; `quote` is
+**one a week on a story**, not two in the feed. This supersedes playbook rule 3, which is struck
+through with a note — **ratify or overrule it when you replan**, it's your editorial call. The
+three feed slots are reserved for Memo's Oct 28 ask: tips, education, process, questionnaire, CTA.
+
 `queue/2026-11-13/` was written at 10 items earlier tonight and trimmed to 5 on Memo's
 instruction — see the commit.
 
