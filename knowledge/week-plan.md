@@ -32,8 +32,11 @@ precedence order Scribe applies when the day's requirements collide.
 Scribe will take the top 3 by the brief's precedence order and say which rows it dropped.
 **Mentor: replan the rest of this week and next to 3 feed rows a day**, and decide what the
 weekly cadence for humor and the two `quote` pieces becomes now that they compete for 3 slots
-instead of 5. Agent-attraction moved from daily to **at least 2 Spotlights a week** in the brief
-(Memo to confirm); the series is at #8, next is #9.
+instead of 5. Agent-attraction is now **two Spotlights a week, Wednesday and Sunday, taking a reel
+slot** (Memo, Nov 12: "You tell me what's best"). Series is at #8, next is #9 — so the first one
+under the new cadence is **Sun Nov 15**, and the Nov 15 row below needs a Spotlight reel added as
+it is replanned. **Facebook no longer gets its own caption** — `captions.default` serves Instagram
+and Facebook, so plan three captions a piece, not four.
 
 `queue/2026-11-13/` was written at 10 items earlier tonight and trimmed to 5 on Memo's
 instruction — see the commit.

@@ -42,11 +42,22 @@ report rather than going over.
 - Stories: `s1` teases a feed item (teaser, quiz or poll-style question for the same topic);
   `s2` carries whatever the feed had no room for — the day's education piece, or a quick tip /
   "this week in the market" stat.
-- Same topic across platforms, but **every platform gets its own caption**:
-  - **Instagram**: hook line, 2–4 short lines, a keyword CTA ("DM me 'RATES'"), 5–8 hashtags.
-  - **Facebook**: conversational, a little longer, ends with a question or comment-CTA. 2–3 hashtags.
-  - **LinkedIn**: professional angle. Agents and investors read here. Insight + takeaway + question. Exactly 3 hashtags.
-  - **TikTok**: one punchy line + 4–5 hashtags (Memo pastes it when he publishes the draft).
+- Same topic across platforms, **three captions, not four** (changed Nov 12 2026 — see the
+  Facebook note below):
+  - **`captions.default`** — the Instagram caption, and **Facebook reads this same text**. Hook
+    line, 2–4 short lines, a keyword CTA ("DM me 'RATES'"), 5–8 local hashtags.
+  - **`captions.linkedin`**: professional angle. Agents and investors read here. Insight + takeaway + question. Exactly 3 hashtags.
+  - **`captions.tiktok`**: one punchy line + 4–5 hashtags (Memo pastes it when he publishes the draft).
+  - Write `captions.instagram` **only** when a piece genuinely needs to read differently on
+    Instagram than on Facebook. Normally it should not exist, and `default` does both.
+
+  **No separate Facebook caption. Decided Nov 12 2026.** Facebook stays switched on — the page
+  should look alive to a past client who looks Memo up — but it stops earning its own writing
+  pass. Nov 2–8: **36 Facebook rows, 5 total reach, 0 engagements**, and `best_times.json` ranks
+  Instagram only. Playbook §6 has said "never spend a second caption pass on it" for weeks; this
+  is the brief finally matching it. `bot/common.py → caption()` falls back to `captions.default`,
+  so Facebook gets the Instagram text with its own `/fb` tracked link. If Facebook reach ever
+  recovers, bring the bespoke caption back.
 
   **Memo's website is appended automatically** as a short tracked link (theprestige.luxe/ig, /fb, /li, /tt, or the same on joinmemo.netlify.app) so analytics shows which platform sent each visitor; — `theprestige.luxe` on client content,
   `joinmemo.netlify.app` on agent-attraction posts — placed above the hashtags. Don't write it into
@@ -54,17 +65,21 @@ report rather than going over.
   points at a specific page (`/net-sheet.html`, a `learn-*.html` article), since that's a different
   destination from the homepage.
 
-  **Every feed caption on every platform gets hashtags — none of these are optional.** Match them to
-  the platform: Instagram and Facebook lean local (#LongBeachRealEstate, #SouthBayHomes); LinkedIn
+  **Every feed caption gets hashtags — none of these are optional.** Match them to the platform:
+  `default` (Instagram and Facebook) leans local (#LongBeachRealEstate, #SouthBayHomes); LinkedIn
   stays professional and broad (#RealEstate, #HousingMarket); TikTok is lowercase and discovery-led
   (#firsttimehomebuyer, #realestatetips). Stories carry no caption, so no hashtags there.
 - Rotate through the topic tracks in `config.yaml` using their weights. Check `knowledge/topic-log.csv`
   and don't repeat a topic used in the last 21 days.
-- **At least 2 agent-attraction Spotlights a week** (see below), not one a day. Changed Nov 12 2026
-  with the volume cut: at 3 feed items a day, a daily Spotlight would be a third of everything Memo
-  publishes. The numbered series continues at the same pace per piece, just spread over the week.
-  **Memo to confirm** he's happy with twice a week rather than daily. Plus at least 1 buyer or
-  seller education piece a day.
+- **Two agent-attraction Spotlights a week — Wednesday and Sunday — and they take a reel slot.**
+  Decided Nov 12 2026 with the volume cut (Memo: "You tell me what's best"). Not one a day: at 3
+  feed items, a daily Spotlight would be a third of everything Memo publishes, aimed at one of the
+  six audiences in playbook §3. Fixed days so the series is plannable and doesn't get dropped as
+  the row no directive protects. A reel slot rather than the single post slot, because reels
+  out-earn static posts and the post slot is wanted for the day's process or education piece.
+  Spotlights are also the most fetch-dependent content in the brief — every fact needs a same-day
+  official Epique source — so two a week also means two runs a week that can be blocked by the
+  fetch wall instead of seven. Plus at least 1 buyer or seller education piece a day.
 - End most CTAs with a keyword the engagement bot answers automatically: RATES, BUYER, SELLER, VALUE,
   PROP 19, AGREEMENT, MATH (agents), INVEST, BDAY. Example: "Comment VALUE and I'll DM you". The bot then DMs the resource.
 - Once a week, a story invites people to the Birthday Club: "DM BDAY 🎂".
@@ -272,9 +287,7 @@ design:                # what's printed on the graphic (keep it SHORT)
   cta: "DM 'BUYER' for my roadmap"       # <= 8 words — EVERY item gets one
   cta_sub: "tidycal.com/memorialdinh/15-minute-call"   # optional small line under the button
 captions:              # not needed for stories
-  instagram: |-
-    ...
-  facebook: |-
+  default: |-          # Instagram AND Facebook read this one
     ...
   linkedin: |-
     ...

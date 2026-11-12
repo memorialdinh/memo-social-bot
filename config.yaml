@@ -28,6 +28,9 @@ brand:
 # Turn a platform off by setting enabled: false
 platforms:
   instagram: { enabled: true }
+  # Stays ON so the page looks alive to anyone who looks Memo up, but as of
+  # Nov 12 2026 it no longer gets its own caption - it reads captions.default
+  # (the Instagram text). Nov 2-8: 36 rows, 5 total reach, 0 engagements.
   facebook:  { enabled: true }
   linkedin:  { enabled: true }
   tiktok:    { enabled: true, mode: inbox }   # inbox = lands in your TikTok drafts, you tap Post
