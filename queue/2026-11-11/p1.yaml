@@ -71,7 +71,19 @@ captions:
 
     #homeinspection #firsttimehomebuyer #realestatetips #realestatehumor #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17893718154454903'
+    at: '2026-11-11T20:57:10-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1171473895880042'
+    at: '2026-11-11T20:57:13-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7526508384825561088
+    at: '2026-11-11T20:57:15-08:00'
 media:
   instagram: queue/2026-11-11/media/p1-instagram.jpg
   facebook: queue/2026-11-11/media/p1-facebook.jpg
