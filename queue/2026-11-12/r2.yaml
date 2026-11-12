@@ -103,7 +103,19 @@ captions:
 
     #firsttimehomebuyer #downpayment #homebuyingtips #realestatetips #mortgagetips'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17988900581920959'
+    at: '2026-11-12T10:21:46-08:00'
+  facebook:
+    state: posted
+    id: '1920638528682426'
+    at: '2026-11-12T10:21:54-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7526710911340974080
+    at: '2026-11-12T10:22:01-08:00'
 media:
   instagram: queue/2026-11-12/media/r2-instagram.mp4
   facebook: queue/2026-11-12/media/r2-facebook.mp4
