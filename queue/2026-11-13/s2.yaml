@@ -17,3 +17,22 @@ design:
   cta: DM 'RATES' and I'll explain yours
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-13/media/s2-instagram.jpg
+  facebook: queue/2026-11-13/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-13T10:02-08:00
+  instagram: 2026-11-13T08:11-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: monogram
+    side: left
+    center: false
+    template: explainer
+  facebook:
+    theme: slate
+    deco: dots
+    side: left
+    center: false
+    template: explainer
