@@ -19,6 +19,27 @@ follows it unless real news breaks, in which case it swaps a topic and notes the
 
 ---
 
+## ⚠ VOLUME CUT — Memo, Nov 12 2026
+
+> "Slow down on posting on my social media, I think 3 a day is good."
+
+**The day is now 3 feed items + 2 stories, down from 5 + 5.** `config.yaml → daily_mix` is
+1 post / 2 reels / 2 stories, reel-weighted because static posts are the weakest format on this
+account. CONTENT_BRIEF.md carries the cap, the new "cap beats directive volume" rule and the
+precedence order Scribe applies when the day's requirements collide.
+
+**The Nov 14 and Nov 15 rows below still have 5 feed items each and are now over the cap.**
+Scribe will take the top 3 by the brief's precedence order and say which rows it dropped.
+**Mentor: replan the rest of this week and next to 3 feed rows a day**, and decide what the
+weekly cadence for humor and the two `quote` pieces becomes now that they compete for 3 slots
+instead of 5. Agent-attraction moved from daily to **at least 2 Spotlights a week** in the brief
+(Memo to confirm); the series is at #8, next is #9.
+
+`queue/2026-11-13/` was written at 10 items earlier tonight and trimmed to 5 on Memo's
+instruction — see the commit.
+
+---
+
 ## Week of Tuesday, November 10 – Sunday, November 15, 2026
 
 Written by Mentor on Sunday Nov 9, 2026. Every `p`/`r` angle below was checked with

@@ -1,112 +1,125 @@
 id: r2
 kind: reel
-track: humor
-topic: The agent calendar in November is mostly reschedule requests
+track: buyer_education
+topic: Before you remove your contingency the insurance quote the final loan approval and the walkthrough
 time: auto
 approved: true
 design:
-  template: meme
-  kicker: REAL TALK
-  headline: November, on the *calendar*.
-  setup: 'Tuesday 10am: showing. Confirmed twice.'
-  punch: 'Tuesday 9:52am: *can we do next week?*'
-  cta: Comment 'SELLER' for my November plan
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Before you *remove* contingencies.
+  subhead: General information, not lending advice.
+  questions:
+  - I have a hazard insurance quote in writing.
+  - My lender said final approval, not pre-approval.
+  - My inspection questions all have answers.
+  - I have walked the home one more time.
+  score: Four yes? You're *ready to sign*.
+  cta: DM 'BUYER' before you remove them
 captions:
-  instagram: 'My November calendar is less a schedule and more a group draft.
+  instagram: 'Removing a contingency is the moment your deposit stops being refundable. Four things I
+    want answered first.
 
 
-    Confirmed Monday. Re-confirmed Tuesday morning. Moved by Tuesday at 9:52.
+    An insurance quote, in writing. Not "it should be fine." A number, for this address, from a carrier
+    who has seen it.
 
 
-    I''m not mad about it. Everybody''s got family coming in, a kid''s thing, a flight, a work deadline that ate the week. November does that.
+    Final loan approval. Pre-approval was the beginning. Underwriting signing off on this property, this
+    appraisal, this file is the thing.
 
 
-    Here''s the part worth knowing though: the buyers still out there in November are the ones who didn''t reschedule. Fewer people looking, and the ones looking are serious. That cuts both ways, and it''s why "wait until spring" isn''t automatically the right call.
+    Your inspection questions, answered. Not resolved in your favor necessarily — answered. You know what
+    it is and what it costs.
 
 
-    Comment ''SELLER'' and I''ll show you what a November timeline actually looks like.
+    One more walk through the house. Before you remove, not after.
 
 
-    #RealTalk #RealtorLife #HomeSellingTips #LongBeachRealEstate #SouthBayHomes #SoCalRealEstate'
-  facebook: 'An honest picture of my November.
+    Three of four isn''t four. The gap is usually the insurance quote.
 
 
-    A showing gets confirmed on Monday. Re-confirmed Tuesday morning. And then at 9:52, eight minutes out, the text lands: any chance we do this next week?
+    DM me ''BUYER'' and I''ll send the list before you sign anything.
 
 
-    I say this with zero attitude. I''ve sent that text. November is family flying in, a school performance nobody mentioned, a work thing that swallowed the whole week, and a hundred small obligations that all arrive at once.
+    #FirstTimeHomeBuyer #HomeBuyingTips #LongBeachRealEstate #SouthBayHomes #RealEstateTips #HouseHunting'
+  facebook: 'There''s one signature in a California purchase that changes your risk more than any other,
+    and it isn''t the offer. It''s the contingency removal.
 
 
-    But there''s something real underneath the joke, and it''s the reason I bring it up every year.
+    Up to that point you have outs. After it, your deposit is generally on the line. So here are the four
+    things I want a buyer to be able to say yes to before that form gets signed.
 
 
-    The people who don''t reschedule in November are the serious ones. Fewer buyers are out looking, and the ones who are out have a reason they can''t push. If you''re selling, that means less traffic and a better-qualified version of it. If you''re buying, it means less company at the door.
+    One: you have a hazard insurance quote in writing, for that specific address. This is the one people
+    leave for later, and it''s the one that bites. Roof age, wiring, prior claims, wildfire scoring —
+    any of those can move a premium by hundreds a month or send you shopping for a carrier. A monthly
+    payment you budgeted without a real quote is an estimate, not a payment.
 
 
-    So "let''s just wait until spring" deserves an actual conversation rather than a reflex. Spring brings more buyers and more competing listings. Sometimes that''s the right trade for you. Sometimes it isn''t, and the answer depends on your equity, your timeline and what you''re buying next.
+    Two: your lender has said final approval, not pre-approval. Pre-approval looked at you. Final approval
+    looked at you, this house, this appraisal and this title. They are not the same sentence.
 
 
-    What''s the most last-minute reschedule you''ve ever pulled off? Mine was eleven minutes.
+    Three: every question your inspection raised has an answer. Not necessarily an answer you love. An
+    answer — what it is, what it costs, who''s handling it.
 
 
-    #RealtorLife #RealTalk'
-  linkedin: 'A seasonal pattern that shows up in my calendar before it shows up in any dataset.
+    Four: you''ve been back in the house one more time, recently, with the contract in your hand.
 
 
-    In November, confirmed appointments stop being commitments. A showing is confirmed Monday, re-confirmed Tuesday morning, and rescheduled with eight minutes to go. This is not a client problem — it is what the month does to everyone''s week.
+    Three out of four is not four. If one is missing, the honest move is usually to ask for a short extension
+    rather than to sign and hope.
 
 
-    The useful inference sits underneath it. The buyers who do not reschedule in November are self-selecting for intent. Traffic falls, and the composition of the remaining traffic improves. For a seller, that is fewer showings and a higher proportion of qualified ones. For a buyer, it is less competition at the door.
+    General information, not lending advice — your loan officer''s and insurer''s terms are the ones that
+    govern.
 
 
-    Which is why "wait for spring" should be a decision rather than a default. Spring delivers more buyers and more competing inventory simultaneously, and which side of that trade favors a given seller depends on their equity position and their next purchase, not on the season.
+    Which of those four would have caught you off guard?
 
 
-    The takeaway for anyone advising sellers right now: run the comparison explicitly instead of conceding the month.
+    #FirstTimeHomeBuyer #HomeBuyingTips'
+  linkedin: 'Contingency removal is the highest-consequence signature in a residential purchase, and it
+    is routinely treated as administrative.
 
 
-    For the agents here — how do you handle the November reschedule season?
+    Four conditions worth confirming before it is executed:
 
 
-    #RealEstate #RealEstateAdvice #HomeSelling'
-  tiktok: 'Confirmed Monday, re-confirmed Tuesday, moved at 9:52. November, every year.
+    A written hazard insurance quote for the subject property. Not a general estimate. Roof age, electrical,
+    claims history and wildfire scoring are property-specific inputs, and a premium surprise after removal
+    is a budget problem with no contractual remedy.
 
 
-    #realtorlife #realestatetips #realtalk #homesellingtips #socalrealestate'
+    Final loan approval rather than pre-approval. Pre-approval evaluates the borrower; final approval
+    evaluates the borrower, the property, the appraisal and the title. The distinction is frequently lost
+    on buyers, and occasionally on the people advising them.
+
+
+    A resolved position on every inspection finding — identified, priced and assigned. Resolution is not
+    the same as a favorable outcome.
+
+
+    A recent re-entry into the property with the contract in hand.
+
+
+    The pattern I see most often is three of the four, with insurance as the gap, because it is the only
+    item on the list that requires a third party the buyer has not yet engaged. Where one condition is
+    outstanding, a short extension request is a cheaper instrument than an optimistic signature.
+
+
+    General information, not lending advice.
+
+
+    For the agents and lenders here — when do you have buyers start the insurance conversation?
+
+
+    #RealEstate #HomeBuying #Mortgage'
+  tiktok: 'Before you remove contingencies: insurance quote in writing, final approval, inspection answers,
+    one more walkthrough.
+
+
+    #firsttimehomebuyer #homebuyingtips #realestatetips #escrow #househunting'
 sources: []
 status: {}
-media:
-  instagram: queue/2026-11-13/media/r2-instagram.mp4
-  facebook: queue/2026-11-13/media/r2-facebook.mp4
-  linkedin: queue/2026-11-13/media/r2-linkedin.mp4
-  tiktok: queue/2026-11-13/media/r2-tiktok.mp4
-schedule:
-  facebook: 2026-11-13T10:05-08:00
-  instagram: 2026-11-13T10:02-08:00
-  linkedin: 2026-11-13T10:11-08:00
-  tiktok: 2026-11-13T10:06-08:00
-rendered:
-  instagram:
-    theme: carbon
-    deco: halo
-    side: left
-    center: true
-    template: meme
-  facebook:
-    theme: graphite
-    deco: monogram
-    side: left
-    center: true
-    template: meme
-  linkedin:
-    theme: noir
-    deco: dots
-    side: left
-    center: true
-    template: meme
-  tiktok:
-    theme: ivory
-    deco: beam
-    side: left
-    center: true
-    template: meme

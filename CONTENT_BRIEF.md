@@ -25,12 +25,23 @@ Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
 
 | Item | Count | Platforms |
 |---|---|---|
-| Feed posts `p1`–`p3` | 3 | Instagram, Facebook, LinkedIn, TikTok (animated) |
+| Feed post `p1` | 1 | Instagram, Facebook, LinkedIn, TikTok (animated) |
 | Reels `r1`–`r2` | 2 | Instagram, Facebook, LinkedIn, TikTok |
-| Stories `s1`–`s5` | 5 | Instagram, Facebook |
+| Stories `s1`–`s2` | 2 | Instagram, Facebook |
 
-- Stories `s1`–`s3` match posts `p1`–`p3` (teaser, quiz or poll-style question for the same topic).
-  `s4`–`s5` match the reels or are a quick tip / "this week in the market" stat.
+**Memo cut the volume on Nov 12, 2026:** "Slow down on posting on my social media, I
+think 3 a day is good." So the day is **3 feed items + 2 stories**, down from 10 pieces.
+The feed is reel-weighted on purpose — reels out-earn static posts by a wide margin on
+this account, and static posts are the weakest format Memo publishes (playbook §6).
+**This cap is a hard ceiling. It beats the `insights.json` directives on VOLUME** — a
+directive that says "write 3 reels and 2 posts" now means *weight the 3 feed slots toward
+reels*, not write 5. Directives still govern the mix, the templates and the tracks inside
+the cap. If a directive cannot be honoured without exceeding 3 feed items, say so in the
+report rather than going over.
+
+- Stories: `s1` teases a feed item (teaser, quiz or poll-style question for the same topic);
+  `s2` carries whatever the feed had no room for — the day's education piece, or a quick tip /
+  "this week in the market" stat.
 - Same topic across platforms, but **every platform gets its own caption**:
   - **Instagram**: hook line, 2–4 short lines, a keyword CTA ("DM me 'RATES'"), 5–8 hashtags.
   - **Facebook**: conversational, a little longer, ends with a question or comment-CTA. 2–3 hashtags.
@@ -49,7 +60,11 @@ Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
   (#firsttimehomebuyer, #realestatetips). Stories carry no caption, so no hashtags there.
 - Rotate through the topic tracks in `config.yaml` using their weights. Check `knowledge/topic-log.csv`
   and don't repeat a topic used in the last 21 days.
-- Mix at least 1 agent-attraction piece per day (a Spotlight — see below) and at least 1 buyer or seller education piece.
+- **At least 2 agent-attraction Spotlights a week** (see below), not one a day. Changed Nov 12 2026
+  with the volume cut: at 3 feed items a day, a daily Spotlight would be a third of everything Memo
+  publishes. The numbered series continues at the same pace per piece, just spread over the week.
+  **Memo to confirm** he's happy with twice a week rather than daily. Plus at least 1 buyer or
+  seller education piece a day.
 - End most CTAs with a keyword the engagement bot answers automatically: RATES, BUYER, SELLER, VALUE,
   PROP 19, AGREEMENT, MATH (agents), INVEST, BDAY. Example: "Comment VALUE and I'll DM you". The bot then DMs the resource.
 - Once a week, a story invites people to the Birthday Club: "DM BDAY 🎂".
@@ -65,10 +80,11 @@ Memo wants "better design, luxury type, and more tips, education, process, quest
 The renderer now has a luxury look (gold-foil type, hairline rules, his portrait medallion, a
 "Your next step" button on every graphic) and a template for each of those. Use them:
 
-**Every day, across the 10 pieces:**
+**Every day, across the 5 pieces:**
 - at least **1 process** piece (`process`: how something happens, step by step, in order)
-- at least **1 questionnaire** (`checklist` or `quiz`) in the feed, and **2 of the 5 stories** are a
-  `checklist` or `quiz` people answer by DM ("Reply BUYER if you checked 3+")
+- at least **1 questionnaire** (`checklist` or `quiz`) in the feed, and **1 of the 2 stories** is a
+  `checklist` or `quiz` people answer by DM ("Reply BUYER if you checked 3+") — scaled down from
+  "2 of 5" with the Nov 12 volume cut, same proportion
 - at least **1 education** piece (`tip`, `explainer` or `compare`)
 - **every item has `design.cta`** — the gold "Your next step" button. One action, ≤ 8 words, with an
   engagement keyword (RATES, BUYER, SELLER, VALUE, PROP 19, AGREEMENT, MATH, INVEST, BDAY) so the bot
@@ -77,6 +93,14 @@ The renderer now has a luxury look (gold-foil type, hairline rules, his portrait
   what someone gets on a 15-minute call, `cta: Book a 15-minute call`,
   `cta_sub: tidycal.com/memorialdinh/15-minute-call`. Captions still carry the keyword CTA too.
 - never the same template twice in a row in the feed; rotate through all of them over the week
+- **What now competes for 3 slots.** Before the Nov 12 cut these all fit in a 5-item feed: a
+  `process`, a feed questionnaire, an education piece, the daily meme, the week's two `quote`
+  pieces, a `stat`, and a Spotlight. They no longer do. The order of precedence when they
+  collide: (1) the day's questionnaire, (2) the `process` or education piece, (3) the `stat` a
+  directive asks for, (4) humor, (5) the weekly `quote`. **A requirement that loses its feed slot
+  rides a story where it can** (playbook §6) — and when it can't fit at all, drop it and name it
+  in the report. Mentor should rebalance the week plan to 3 feed rows a day and decide what the
+  weekly humor and `quote` cadence becomes; until then Scribe follows this precedence.
 - `insights.json` directives still win (e.g. "stop using quote") — say which you applied
 
 **Which template for what:**

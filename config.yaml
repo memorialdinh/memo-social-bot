@@ -38,11 +38,15 @@ routing:
   reel:  [instagram, facebook, linkedin, tiktok]
   story: [instagram, facebook]                      # LinkedIn/TikTok have no story API
 
-# Daily volume the content writer aims for
+# Daily volume the content writer aims for.
+# Cut from 3 posts / 2 reels / 5 stories on Memo's instruction, Nov 12 2026:
+# "Slow down on posting on my social media, I think 3 a day is good."
+# 3 feed items a day, reel-weighted because reels out-earn static posts by a
+# wide margin on this account (playbook section 6), plus 2 stories.
 daily_mix:
-  post: 3
+  post: 1
   reel: 2
-  story: 5
+  story: 2
 
 # Content tracks and how often each should appear (relative weights)
 tracks:
@@ -108,7 +112,10 @@ schedule:
   # 12:02) - at 60 the planner rejected the next hour and fell through to the
   # afternoon anyway. If the daily feed count ever drops back to 3-4, put this
   # back to 90.
-  min_gap_minutes: 50
+  # Back to 90 on Nov 12 2026, as the comment above always said to do: the feed
+  # is 3 items a day now, not 6, so a 90-minute gap fits them all in the strong
+  # windows without falling through to 1-5pm.
+  min_gap_minutes: 90
   use_best_times: true                         # let analytics pick the hours once it has data
   max_late_hours: 6                            # if a post is more than this late, skip it
 

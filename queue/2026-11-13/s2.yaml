@@ -1,39 +1,19 @@
 id: s2
 kind: story
 track: buyer_education
-topic: Teaser for p2 checklist on what to confirm before removing contingencies
+topic: What a lender credit is and how it trades against your interest rate
 time: auto
 approved: true
 design:
-  template: checklist
-  kicker: QUICK CHECK
-  headline: Removing *contingencies*? Check these.
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: What is a *lender credit*?
   subhead: General information, not lending advice.
-  questions:
-  - I have a hazard insurance quote in writing.
-  - My lender said final approval, not pre-approval.
-  - My inspection questions all have answers.
-  - I have walked the home one more time.
-  score: Four yes? You're *ready to sign*.
-  cta: Reply BUYER if you checked 3+
+  term: Lender credit
+  pos: noun - mortgage
+  definition: Money your lender puts toward your closing costs, in exchange for a higher interest rate.
+  why: It lowers the cash you bring to closing and raises the monthly payment.
+  example: Less cash now, more interest over time. Not a loan offer.
+  cta: DM 'RATES' and I'll explain yours
 sources: []
 status: {}
-media:
-  instagram: queue/2026-11-13/media/s2-instagram.jpg
-  facebook: queue/2026-11-13/media/s2-facebook.jpg
-schedule:
-  facebook: 2026-11-13T10:02-08:00
-  instagram: 2026-11-13T08:11-08:00
-rendered:
-  instagram:
-    theme: graphite
-    deco: monogram
-    side: left
-    center: false
-    template: checklist
-  facebook:
-    theme: slate
-    deco: dots
-    side: left
-    center: false
-    template: checklist
