@@ -19,3 +19,23 @@ design:
   cta: Reply SELLER with A, B or C
 sources:
 - https://selfhelp.courts.ca.gov/jcc-form/DE-265
+status: {}
+media:
+  instagram: queue/2026-11-13/media/s1-instagram.jpg
+  facebook: queue/2026-11-13/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-13T07:07-08:00
+  instagram: 2026-11-13T07:11-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: frame
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: silver
+    deco: halo
+    side: right
+    center: false
+    template: quiz

@@ -19,3 +19,23 @@ design:
   cta: DM 'VALUE' for your city's number
 sources:
 - https://www.zillow.com/research/data/
+status: {}
+media:
+  instagram: queue/2026-11-13/media/s5-instagram.jpg
+  facebook: queue/2026-11-13/media/s5-facebook.jpg
+schedule:
+  facebook: 2026-11-13T20:06-08:00
+  instagram: 2026-11-13T19:10-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: corners
+    side: left
+    center: false
+    template: stat
+  facebook:
+    theme: porcelain
+    deco: dots
+    side: right
+    center: true
+    template: stat

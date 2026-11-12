@@ -17,3 +17,23 @@ design:
   score: Four yes? You're *ready to sign*.
   cta: Reply BUYER if you checked 3+
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-13/media/s2-instagram.jpg
+  facebook: queue/2026-11-13/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-13T10:02-08:00
+  instagram: 2026-11-13T08:11-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: monogram
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: slate
+    deco: dots
+    side: left
+    center: false
+    template: checklist

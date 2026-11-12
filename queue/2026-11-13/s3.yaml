@@ -16,3 +16,23 @@ design:
   example: Less cash now, more interest over time. Not a loan offer.
   cta: DM 'RATES' and I'll explain yours
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-13/media/s3-instagram.jpg
+  facebook: queue/2026-11-13/media/s3-facebook.jpg
+schedule:
+  facebook: 2026-11-13T12:06-08:00
+  instagram: 2026-11-13T10:11-08:00
+rendered:
+  instagram:
+    theme: noir
+    deco: beam
+    side: right
+    center: false
+    template: explainer
+  facebook:
+    theme: ivory
+    deco: split
+    side: right
+    center: false
+    template: explainer
