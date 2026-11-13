@@ -74,7 +74,19 @@ captions:
 
     #homebuyingtips #firsttimehomebuyer #realestatetips #househunting #realtorlife'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18027058451927835'
+    at: '2026-11-12T20:30:29-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1172612899099475'
+    at: '2026-11-12T20:30:33-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7526864060575928320
+    at: '2026-11-12T20:30:35-08:00'
 media:
   instagram: queue/2026-11-12/media/p2-instagram.jpg
   facebook: queue/2026-11-12/media/p2-facebook.jpg
