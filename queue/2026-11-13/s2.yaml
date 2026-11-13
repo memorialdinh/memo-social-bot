@@ -16,7 +16,11 @@ design:
   example: Less cash now, more interest over time. Not a loan offer.
   cta: DM 'RATES' and I'll explain yours
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18130917871913641'
+    at: '2026-11-13T08:51:36-08:00'
 media:
   instagram: queue/2026-11-13/media/s2-instagram.jpg
   facebook: queue/2026-11-13/media/s2-facebook.jpg
