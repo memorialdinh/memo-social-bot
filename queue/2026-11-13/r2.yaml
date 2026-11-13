@@ -17,20 +17,16 @@ design:
   score: Four yes? You're *ready to sign*.
   cta: DM 'BUYER' before you remove them
 captions:
-  default: 'Removing a contingency is the moment your deposit stops being refundable. Four things I want
-    answered first.
+  default: 'Removing a contingency is the moment your deposit stops being refundable. Four things I want answered first.
 
 
-    An insurance quote, in writing. Not "it should be fine." A number, for this address, from a carrier
-    who has seen it.
+    An insurance quote, in writing. Not "it should be fine." A number, for this address, from a carrier who has seen it.
 
 
-    Final loan approval. Pre-approval was the beginning. Underwriting signing off on this property, this
-    appraisal, this file is the thing.
+    Final loan approval. Pre-approval was the beginning. Underwriting signing off on this property, this appraisal, this file is the thing.
 
 
-    Your inspection questions, answered. Not resolved in your favor necessarily — answered. You know what
-    it is and what it costs.
+    Your inspection questions, answered. Not resolved in your favor necessarily — answered. You know what it is and what it costs.
 
 
     One more walk through the house. Before you remove, not after.
@@ -43,33 +39,25 @@ captions:
 
 
     #FirstTimeHomeBuyer #HomeBuyingTips #LongBeachRealEstate #SouthBayHomes #RealEstateTips #HouseHunting'
-  linkedin: 'Contingency removal is the highest-consequence signature in a residential purchase, and it
-    is routinely treated as administrative.
+  linkedin: 'Contingency removal is the highest-consequence signature in a residential purchase, and it is routinely treated as administrative.
 
 
     Four conditions worth confirming before it is executed:
 
 
-    A written hazard insurance quote for the subject property. Not a general estimate. Roof age, electrical,
-    claims history and wildfire scoring are property-specific inputs, and a premium surprise after removal
-    is a budget problem with no contractual remedy.
+    A written hazard insurance quote for the subject property. Not a general estimate. Roof age, electrical, claims history and wildfire scoring are property-specific inputs, and a premium surprise after removal is a budget problem with no contractual remedy.
 
 
-    Final loan approval rather than pre-approval. Pre-approval evaluates the borrower; final approval
-    evaluates the borrower, the property, the appraisal and the title. The distinction is frequently lost
-    on buyers, and occasionally on the people advising them.
+    Final loan approval rather than pre-approval. Pre-approval evaluates the borrower; final approval evaluates the borrower, the property, the appraisal and the title. The distinction is frequently lost on buyers, and occasionally on the people advising them.
 
 
-    A resolved position on every inspection finding — identified, priced and assigned. Resolution is not
-    the same as a favorable outcome.
+    A resolved position on every inspection finding — identified, priced and assigned. Resolution is not the same as a favorable outcome.
 
 
     A recent re-entry into the property with the contract in hand.
 
 
-    The pattern I see most often is three of the four, with insurance as the gap, because it is the only
-    item on the list that requires a third party the buyer has not yet engaged. Where one condition is
-    outstanding, a short extension request is a cheaper instrument than an optimistic signature.
+    The pattern I see most often is three of the four, with insurance as the gap, because it is the only item on the list that requires a third party the buyer has not yet engaged. Where one condition is outstanding, a short extension request is a cheaper instrument than an optimistic signature.
 
 
     General information, not lending advice.
@@ -79,13 +67,24 @@ captions:
 
 
     #RealEstate #HomeBuying #Mortgage'
-  tiktok: 'Before you remove contingencies: insurance quote in writing, final approval, inspection answers,
-    one more walkthrough.
+  tiktok: 'Before you remove contingencies: insurance quote in writing, final approval, inspection answers, one more walkthrough.
 
 
     #firsttimehomebuyer #homebuyingtips #realestatetips #escrow #househunting'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17912843448483189'
+    at: '2026-11-13T11:52:28-08:00'
+  facebook:
+    state: posted
+    id: '1541421284704112'
+    at: '2026-11-13T11:52:39-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7527096143411826688
+    at: '2026-11-13T11:52:47-08:00'
 media:
   instagram: queue/2026-11-13/media/r2-instagram.mp4
   facebook: queue/2026-11-13/media/r2-facebook.mp4
