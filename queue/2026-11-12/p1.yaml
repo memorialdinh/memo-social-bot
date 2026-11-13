@@ -86,7 +86,19 @@ captions:
 
     #homesellingtips #realestatetips #socalrealestate #sellerstips #longbeach'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18142871509728866'
+    at: '2026-11-12T19:22:40-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1172562989104466'
+    at: '2026-11-12T19:22:43-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7526846991587299329
+    at: '2026-11-12T19:22:45-08:00'
 media:
   instagram: queue/2026-11-12/media/p1-instagram.jpg
   facebook: queue/2026-11-12/media/p1-facebook.jpg
