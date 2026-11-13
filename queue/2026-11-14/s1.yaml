@@ -18,3 +18,22 @@ design:
   cta: Reply RATES if you checked two or fewer
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-14/media/s1-instagram.jpg
+  facebook: queue/2026-11-14/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-14T07:09-08:00
+  instagram: 2026-11-14T07:02-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: split
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: ivory
+    deco: split
+    side: right
+    center: false
+    template: checklist

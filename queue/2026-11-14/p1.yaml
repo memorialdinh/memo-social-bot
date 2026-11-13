@@ -1,8 +1,7 @@
 id: p1
 kind: post
 track: market_update
-topic: Freddie Mac 30-year fixed averaged 7.11 percent as of November 12 2026 and what the weekly move does to an
-  example payment
+topic: Freddie Mac 30-year fixed averaged 7.11 percent as of November 12 2026 and what the weekly move does to an example payment
 time: auto
 approved: true
 design:
@@ -22,20 +21,16 @@ captions:
   default: '7.11%.
 
 
-    That''s the 30-year fixed average as of Nov 12, 2026 - down from 7.18% the week before. Fourth weekly decline
-    in a row. A year ago it was 6.24%.
+    That''s the 30-year fixed average as of Nov 12, 2026 - down from 7.18% the week before. Fourth weekly decline in a row. A year ago it was 6.24%.
 
 
-    Here''s what 0.07 is actually worth. On a $600,000 loan amount, 30-year fixed, principal and interest only:
-    $4,064.61 a month at 7.18%, $4,036.24 at 7.11%. About $28 a month. Roughly $340 a year.
+    Here''s what 0.07 is actually worth. On a $600,000 loan amount, 30-year fixed, principal and interest only: $4,064.61 a month at 7.18%, $4,036.24 at 7.11%. About $28 a month. Roughly $340 a year.
 
 
-    That''s an example with its assumptions on the table - no taxes, insurance, HOA or mortgage insurance - and
-    it isn''t a loan offer. Your number moves with your loan amount, your credit and your lender.
+    That''s an example with its assumptions on the table - no taxes, insurance, HOA or mortgage insurance - and it isn''t a loan offer. Your number moves with your loan amount, your credit and your lender.
 
 
-    Four small moves in four weeks add up to a different payment than a month ago. That''s all this says. What happens
-    next week is not mine to tell you.
+    Four small moves in four weeks add up to a different payment than a month ago. That''s all this says. What happens next week is not mine to tell you.
 
 
     Source: Freddie Mac Primary Mortgage Market Survey, as of Nov 12, 2026.
@@ -45,31 +40,22 @@ captions:
 
 
     #LongBeachRealEstate #SouthBayHomes #LakewoodCA #MortgageRates #HomeBuying #SoCalRealEstate'
-  linkedin: 'The 30-year fixed-rate mortgage averaged 7.11% as of November 12, 2026, per Freddie Mac''s Primary
-    Mortgage Market Survey. That is down from 7.18% the prior week, the fourth consecutive weekly decline, and against
-    6.24% a year ago.
+  linkedin: 'The 30-year fixed-rate mortgage averaged 7.11% as of November 12, 2026, per Freddie Mac''s Primary Mortgage Market Survey. That is down from 7.18% the prior week, the fourth consecutive weekly decline, and against 6.24% a year ago.
 
 
-    The more useful question is what a seven-basis-point week is worth at the payment line, because that is where
-    a buyer makes a decision.
+    The more useful question is what a seven-basis-point week is worth at the payment line, because that is where a buyer makes a decision.
 
 
-    A labelled illustration: a $600,000 loan amount, 30-year fixed, principal and interest only, no taxes, insurance,
-    HOA or mortgage insurance. At 7.18% the monthly payment is $4,064.61. At 7.11% it is $4,036.24. A difference
-    of roughly $28 a month, or about $340 a year. Not a loan offer, and not anyone''s quote.
+    A labelled illustration: a $600,000 loan amount, 30-year fixed, principal and interest only, no taxes, insurance, HOA or mortgage insurance. At 7.18% the monthly payment is $4,064.61. At 7.11% it is $4,036.24. A difference of roughly $28 a month, or about $340 a year. Not a loan offer, and not anyone''s quote.
 
 
-    Two things follow. First, a single week rarely changes a decision on its own; a month of weeks can. Second,
-    the year-over-year comparison is the one doing real work here - 6.24% to 7.11% is a materially different payment
-    on the same loan amount, and it is why affordability conversations in 2026 keep landing on the loan size rather
-    than the rate.
+    Two things follow. First, a single week rarely changes a decision on its own; a month of weeks can. Second, the year-over-year comparison is the one doing real work here - 6.24% to 7.11% is a materially different payment on the same loan amount, and it is why affordability conversations in 2026 keep landing on the loan size rather than the rate.
 
 
     I state what printed and stop there. Direction is not a fact.
 
 
-    For the lenders and analysts here - at what point does a cumulative move start changing your clients'' behaviour
-    rather than just their spreadsheets?
+    For the lenders and analysts here - at what point does a cumulative move start changing your clients'' behaviour rather than just their spreadsheets?
 
 
     #RealEstate #MortgageRates #HousingMarket'
@@ -80,3 +66,38 @@ captions:
 sources:
 - https://www.globenewswire.com/news-release/2026/11/12/3402013/0/en/mortgage-rates-decline-for-fourth-consecutive-week-to-7-11.html
 status: {}
+media:
+  instagram: queue/2026-11-14/media/p1-instagram.jpg
+  facebook: queue/2026-11-14/media/p1-facebook.jpg
+  linkedin: queue/2026-11-14/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-14/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-14T19:02-08:00
+  instagram: 2026-11-14T19:02-08:00
+  linkedin: 2026-11-14T19:05-08:00
+  tiktok: 2026-11-14T19:11-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: corners
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: porcelain
+    deco: beam
+    side: left
+    center: true
+    template: stat
+  linkedin:
+    theme: noir
+    deco: arcs
+    side: left
+    center: true
+    template: stat
+  tiktok:
+    theme: slate
+    deco: halo
+    side: left
+    center: true
+    template: stat

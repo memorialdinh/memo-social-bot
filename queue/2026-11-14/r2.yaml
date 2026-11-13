@@ -36,43 +36,32 @@ captions:
 
     3. If the first deal cancels, the seller delivers notice and your offer moves into first position.
 
-    4. That''s when your clocks start. Deposit, disclosures, inspections, contingencies - from that day, not from
-    the day you signed.
+    4. That''s when your clocks start. Deposit, disclosures, inspections, contingencies - from that day, not from the day you signed.
 
 
-    Why it''s worth doing: a meaningful share of deals fall out over financing or inspections, and the backup is
-    already written when it happens.
+    Why it''s worth doing: a meaningful share of deals fall out over financing or inspections, and the backup is already written when it happens.
 
 
-    Why to read it carefully: you''re committed while you wait, so know how to get out before you sign. Your agent
-    walks you through that part.
+    Why to read it carefully: you''re committed while you wait, so know how to get out before you sign. Your agent walks you through that part.
 
 
     DM me ''BUYER'' and I''ll send you the backup-offer steps.
 
 
     #LongBeachRealEstate #SouthBayHomes #FirstTimeHomeBuyer #HomeBuyingTips #SoCalRealEstate #CerritosCA'
-  linkedin: 'Buyers routinely walk away from a property the moment it goes pending, and a backup offer is the instrument
-    most of them have never had explained to them.
+  linkedin: 'Buyers routinely walk away from a property the moment it goes pending, and a backup offer is the instrument most of them have never had explained to them.
 
 
     The sequence, in order:
 
 
-    The offer is written and signed as a backup, with the position stated in the contract. Nothing opens on signing
-    - no escrow, no deposit, no inspection period. If the primary transaction cancels, the seller delivers notice
-    and the backup moves into first position. The buyer''s timelines then begin from that date: deposit, disclosures,
-    inspections and contingency periods all run from the move-up, not from the signature.
+    The offer is written and signed as a backup, with the position stated in the contract. Nothing opens on signing - no escrow, no deposit, no inspection period. If the primary transaction cancels, the seller delivers notice and the backup moves into first position. The buyer''s timelines then begin from that date: deposit, disclosures, inspections and contingency periods all run from the move-up, not from the signature.
 
 
-    Two things worth being precise about with a client. The upside is real, because deals do fall out over financing
-    and inspections, and a written backup is already in place when that happens. The constraint is also real, because
-    the buyer is committed while waiting, which makes the cancellation mechanics the part to read before signing
-    rather than after.
+    Two things worth being precise about with a client. The upside is real, because deals do fall out over financing and inspections, and a written backup is already in place when that happens. The constraint is also real, because the buyer is committed while waiting, which makes the cancellation mechanics the part to read before signing rather than after.
 
 
-    The practical takeaway: a pending status is a position in a queue, not a closed door - but only if the paperwork
-    reflects that.
+    The practical takeaway: a pending status is a position in a queue, not a closed door - but only if the paperwork reflects that.
 
 
     General information, not legal advice.
@@ -88,3 +77,38 @@ captions:
     #firsttimehomebuyer #homebuyingtips #realestatetips #socalrealestate #backupoffer'
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-14/media/r2-instagram.mp4
+  facebook: queue/2026-11-14/media/r2-facebook.mp4
+  linkedin: queue/2026-11-14/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-14/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-14T11:09-08:00
+  instagram: 2026-11-14T11:05-08:00
+  linkedin: 2026-11-14T11:09-08:00
+  tiktok: 2026-11-14T11:02-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: beam
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: noir
+    deco: split
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: silver
+    deco: halo
+    side: left
+    center: false
+    template: process
+  tiktok:
+    theme: porcelain
+    deco: glow
+    side: left
+    center: false
+    template: process
