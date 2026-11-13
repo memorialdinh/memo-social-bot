@@ -1,8 +1,7 @@
 id: r1
 kind: reel
 track: market_update
-topic: Active listings a year apart across service cities Cypress up 19.1 percent Redondo Beach down 9.0
-  percent September 2026
+topic: Active listings a year apart across service cities Cypress up 19.1 percent Redondo Beach down 9.0 percent September 2026
 time: auto
 approved: true
 design:
@@ -30,8 +29,7 @@ captions:
     Same region. Same month. Opposite directions.
 
 
-    More listings in your city usually means more room to ask for something — a repair, a credit, a closing
-    date that works for you. Fewer means less. That''s it. It isn''t a forecast.
+    More listings in your city usually means more room to ask for something — a repair, a credit, a closing date that works for you. Fewer means less. That''s it. It isn''t a forecast.
 
 
     Realtor.com monthly ZIP inventory, September 2026.
@@ -44,23 +42,16 @@ captions:
   linkedin: 'A clean illustration of why regional inventory averages fail at the decision level.
 
 
-    Active listing counts for September 2026, against September 2025, across several Los Angeles and Orange
-    County submarkets: Cypress +19.1%, Gardena +11.0%, Redondo Beach -9.0%. Source: Realtor.com monthly
-    ZIP-level inventory, September 2026.
+    Active listing counts for September 2026, against September 2025, across several Los Angeles and Orange County submarkets: Cypress +19.1%, Gardena +11.0%, Redondo Beach -9.0%. Source: Realtor.com monthly ZIP-level inventory, September 2026.
 
 
     A 28-point spread inside one region in one month.
 
 
-    Inventory is the closest available proxy for buyer choice, and therefore for negotiating room. Rising
-    active counts generally widen a buyer''s comparison set and the concessions they can reasonably request;
-    falling counts narrow both. That inference is about the present condition of a submarket, not its
-    direction.
+    Inventory is the closest available proxy for buyer choice, and therefore for negotiating room. Rising active counts generally widen a buyer''s comparison set and the concessions they can reasonably request; falling counts narrow both. That inference is about the present condition of a submarket, not its direction.
 
 
-    The methodological point is the one that matters: a figure aggregated above the level at which the
-    decision is made can be directionally wrong for the specific case. For these cities, the useful unit
-    is the city, and often the price band within it.
+    The methodological point is the one that matters: a figure aggregated above the level at which the decision is made can be directionally wrong for the specific case. For these cities, the useful unit is the city, and often the price band within it.
 
 
     One month measured against one month. Not a forecast.
@@ -70,14 +61,25 @@ captions:
 
 
     #RealEstate #HousingMarket #MarketAnalysis'
-  tiktok: 'Sept 2026 active listings: Cypress up 19.1%, Gardena up 11.0%, Redondo Beach down 9.0%. Same
-    region.
+  tiktok: 'Sept 2026 active listings: Cypress up 19.1%, Gardena up 11.0%, Redondo Beach down 9.0%. Same region.
 
 
     #socalrealestate #housingmarket #marketupdate #realestatetips #cypressca'
 sources:
 - https://www.realtor.com/research/data/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18093050996227256'
+    at: '2026-11-13T09:48:00-08:00'
+  facebook:
+    state: posted
+    id: '1492513642764713'
+    at: '2026-11-13T09:48:08-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7527064803673264128
+    at: '2026-11-13T09:48:15-08:00'
 media:
   instagram: queue/2026-11-13/media/r1-instagram.mp4
   facebook: queue/2026-11-13/media/r1-facebook.mp4
