@@ -1,0 +1,68 @@
+id: r1
+kind: reel
+track: seller_education
+topic: Why two agents price the same home differently and the one question to ask about the gap
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Two agents. Two prices. *Why*?
+  options:
+  - One of them is wrong
+  - They picked different comps
+  - The market moved overnight
+  answer: B
+  explain: Different comparable sales, adjusted differently. Ask each one which three sales they used, and why.
+  cta: Comment 'SELLER' with A, B or C
+captions:
+  default: 'You interview two agents. One says $880,000. One says $935,000. Same house, same week.
+
+
+    Neither of them is lying to you. They chose different comparable sales, and they adjusted them differently -
+    for condition, for lot, for the month it closed.
+
+
+    So the question isn''t "who''s right". It''s this: which three sales did you use, and what did you add or subtract
+    for each one?
+
+
+    An agent who can answer that in plain language is showing you their work. An agent who can''t is showing you
+    something too.
+
+
+    Ask both. Then you''re pricing your home instead of picking a number.
+
+
+    Comment ''SELLER'' with A, B or C and I''ll send you the three questions I''d ask.
+
+
+    #LongBeachRealEstate #SouthBayHomes #HomeSellingTips #ListingPrice #SoCalRealEstate #TorranceCA'
+  linkedin: 'A seller interviews two agents and receives two different recommended list prices on the same property
+    in the same week. The usual reaction is to assume one is padding the number to win the listing.
+
+
+    Sometimes that happens. More often the gap is methodological: a different set of comparable sales, and different
+    adjustments applied to them for condition, lot, and recency of close.
+
+
+    That makes the useful diligence question a procedural one rather than a judgement call. Which three closed sales
+    did you rely on, and what did you add or subtract for each? An agent who can walk through the adjustments has
+    shown their reasoning and can be evaluated. An agent who cannot has given an opinion with no audit trail.
+
+
+    The takeaway for anyone advising a seller: price is an output of a method, so interrogate the method, not the
+    number. The number is easy to argue about and tells you very little.
+
+
+    For the agents and appraisers here - which adjustment do you find sellers most often disagree with once it is
+    explained?
+
+
+    #RealEstate #HomeSelling #RealEstateAdvice'
+  tiktok: 'Two agents, two prices, same house. Ask which three comps they used and what they adjusted.
+
+
+    #homesellingtips #realestatetips #listingprice #socalrealestate #sellingmyhome'
+sources: []
+status: {}

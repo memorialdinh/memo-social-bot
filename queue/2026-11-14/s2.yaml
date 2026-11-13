@@ -1,0 +1,19 @@
+id: s2
+kind: story
+track: buyer_education
+topic: What a preliminary title report tells you and the three things worth reading on it
+time: auto
+approved: true
+design:
+  template: tip
+  kicker: REAL ESTATE 101
+  headline: 'Your *prelim*: three lines that matter.'
+  subhead: General information, not legal advice.
+  points:
+  - 'Vesting: who the record says owns it today.'
+  - 'Liens: loans, tax liens and judgments still attached.'
+  - 'Easements: who else has a right to cross.'
+  - Read it early. Questions go to your title officer.
+  cta: DM 'BUYER' and I'll walk your prelim
+sources: []
+status: {}

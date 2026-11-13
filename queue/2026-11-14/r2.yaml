@@ -1,0 +1,90 @@
+id: r2
+kind: reel
+track: buyer_education
+topic: How a backup offer works and what happens if the first offer falls out
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: How a *backup offer* works.
+  subhead: Second in line, in writing.
+  steps:
+  - when: Step 1
+    title: Write it as a backup
+    detail: Your contract states you're in second position.
+  - when: Step 2
+    title: Sign, then wait
+    detail: Both sides sign. Nothing opens yet.
+  - when: Step 3
+    title: First deal cancels
+    detail: Seller delivers notice. Your offer moves up.
+  - when: Step 4
+    title: Your clocks start
+    detail: Deposit, disclosures and contingencies begin then.
+  cta: DM 'BUYER' for the backup steps
+captions:
+  default: 'The house went pending and you''re still thinking about it. You''re not out. You''re just not first.
+
+
+    How a backup offer actually works:
+
+
+    1. You write it as a backup. The contract says, in writing, that you''re in second position.
+
+    2. Both sides sign it. Nothing opens - no escrow, no deposit, no inspections.
+
+    3. If the first deal cancels, the seller delivers notice and your offer moves into first position.
+
+    4. That''s when your clocks start. Deposit, disclosures, inspections, contingencies - from that day, not from
+    the day you signed.
+
+
+    Why it''s worth doing: a meaningful share of deals fall out over financing or inspections, and the backup is
+    already written when it happens.
+
+
+    Why to read it carefully: you''re committed while you wait, so know how to get out before you sign. Your agent
+    walks you through that part.
+
+
+    DM me ''BUYER'' and I''ll send you the backup-offer steps.
+
+
+    #LongBeachRealEstate #SouthBayHomes #FirstTimeHomeBuyer #HomeBuyingTips #SoCalRealEstate #CerritosCA'
+  linkedin: 'Buyers routinely walk away from a property the moment it goes pending, and a backup offer is the instrument
+    most of them have never had explained to them.
+
+
+    The sequence, in order:
+
+
+    The offer is written and signed as a backup, with the position stated in the contract. Nothing opens on signing
+    - no escrow, no deposit, no inspection period. If the primary transaction cancels, the seller delivers notice
+    and the backup moves into first position. The buyer''s timelines then begin from that date: deposit, disclosures,
+    inspections and contingency periods all run from the move-up, not from the signature.
+
+
+    Two things worth being precise about with a client. The upside is real, because deals do fall out over financing
+    and inspections, and a written backup is already in place when that happens. The constraint is also real, because
+    the buyer is committed while waiting, which makes the cancellation mechanics the part to read before signing
+    rather than after.
+
+
+    The practical takeaway: a pending status is a position in a queue, not a closed door - but only if the paperwork
+    reflects that.
+
+
+    General information, not legal advice.
+
+
+    For the agents here - how often do your backups actually move up?
+
+
+    #RealEstate #HomeBuying #RealEstateAdvice'
+  tiktok: 'It went pending and you still want it? Write a backup. Your clocks only start if it moves up.
+
+
+    #firsttimehomebuyer #homebuyingtips #realestatetips #socalrealestate #backupoffer'
+sources: []
+status: {}

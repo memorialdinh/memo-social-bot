@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: buyer_education
+topic: Teaser for p1 checklist on whether you know your own payment number at today's rate
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: Do you know *your* number?
+  subhead: General information, not lending advice. Not a loan offer.
+  questions:
+  - I know the loan amount I would actually borrow.
+  - I have seen a payment estimate at today's rate.
+  - I know what a quarter point does to my payment.
+  - I have compared more than one lender.
+  score: Two or fewer? That's the gap *worth closing* first.
+  cta: Reply RATES if you checked two or fewer
+sources: []
+status: {}
