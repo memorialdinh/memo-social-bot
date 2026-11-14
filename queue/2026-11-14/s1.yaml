@@ -17,7 +17,15 @@ design:
   score: Two or fewer? That's the gap *worth closing* first.
   cta: Reply RATES if you checked two or fewer
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18112865243461022'
+    at: '2026-11-14T07:23:04-08:00'
+  facebook:
+    state: posted
+    id: '1909262370426396'
+    at: '2026-11-14T07:23:12-08:00'
 media:
   instagram: queue/2026-11-14/media/s1-instagram.jpg
   facebook: queue/2026-11-14/media/s1-facebook.jpg
