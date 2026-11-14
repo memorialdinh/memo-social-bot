@@ -82,3 +82,39 @@ captions:
     #socalrealestate #housingmarket #realestatetips #pricecut #longbeach'
 sources:
 - https://www.realtor.com/research/data/
+status: {}
+media:
+  instagram: queue/2026-11-15/media/p1-instagram.jpg
+  facebook: queue/2026-11-15/media/p1-facebook.jpg
+  linkedin: queue/2026-11-15/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-15/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-15T19:11-08:00
+  instagram: 2026-11-15T19:03-08:00
+  linkedin: 2026-11-15T19:09-08:00
+  tiktok: 2026-11-15T19:08-08:00
+rendered:
+  instagram:
+    theme: noir
+    deco: grid
+    side: right
+    center: false
+    template: stat
+  facebook:
+    theme: silver
+    deco: arcs
+    side: left
+    center: false
+    template: stat
+  linkedin:
+    theme: ivory
+    deco: dots
+    side: right
+    center: false
+    template: stat
+  tiktok:
+    theme: goldrush
+    deco: arcs
+    side: left
+    center: true
+    template: stat
