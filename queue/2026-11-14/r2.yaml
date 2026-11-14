@@ -76,7 +76,19 @@ captions:
 
     #firsttimehomebuyer #homebuyingtips #realestatetips #socalrealestate #backupoffer'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17916100839508379'
+    at: '2026-11-14T11:19:50-08:00'
+  facebook:
+    state: posted
+    id: '2797003377362127'
+    at: '2026-11-14T11:19:59-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7527450305718865920
+    at: '2026-11-14T11:20:06-08:00'
 media:
   instagram: queue/2026-11-14/media/r2-instagram.mp4
   facebook: queue/2026-11-14/media/r2-facebook.mp4
