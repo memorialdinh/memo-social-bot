@@ -1,61 +1,61 @@
 {
-  "updated": "2026-11-13T06:33-08:00",
+  "updated": "2026-11-13T18:28-08:00",
   "scores": {
     "track:untagged": {
-      "posts": 140,
-      "avg_rate": 0.0238,
+      "posts": 142,
+      "avg_rate": 0.024,
       "avg_eng": 3.0,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0001
     },
     "kind:reel": {
-      "posts": 82,
-      "avg_rate": 0.0202,
+      "posts": 84,
+      "avg_rate": 0.0197,
       "avg_eng": 2.6,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0001
     },
     "platform:instagram": {
-      "posts": 260,
-      "avg_rate": 0.0147,
+      "posts": 264,
+      "avg_rate": 0.0148,
       "avg_eng": 1.7,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0
     },
     "kind:post": {
-      "posts": 188,
-      "avg_rate": 0.0125,
+      "posts": 190,
+      "avg_rate": 0.0124,
       "avg_eng": 1.1,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0053
     },
     "platform:facebook": {
-      "posts": 114,
-      "avg_rate": 0.0095,
+      "posts": 116,
+      "avg_rate": 0.0093,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0088
+      "avg_share_rate": 0.0086
     },
     "kind:story": {
-      "posts": 104,
-      "avg_rate": 0.0087,
+      "posts": 106,
+      "avg_rate": 0.0093,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:seller_education": {
-      "posts": 55,
+      "posts": 56,
       "avg_rate": 0.0022,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:market_update": {
-      "posts": 34,
-      "avg_rate": 0.0327,
+      "posts": 35,
+      "avg_rate": 0.0318,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0294
+      "avg_share_rate": 0.0286
     },
     "template:tip": {
       "posts": 44,
@@ -79,15 +79,15 @@
       "avg_share_rate": 0.0
     },
     "theme:graphite": {
-      "posts": 29,
-      "avg_rate": 0.0396,
+      "posts": 31,
+      "avg_rate": 0.037,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0345
+      "avg_share_rate": 0.0323
     },
     "track:buyer_education": {
-      "posts": 54,
-      "avg_rate": 0.001,
+      "posts": 56,
+      "avg_rate": 0.0009,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -100,17 +100,17 @@
       "avg_share_rate": 0.0
     },
     "template:stat": {
-      "posts": 24,
-      "avg_rate": 0.0417,
+      "posts": 25,
+      "avg_rate": 0.04,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0417
+      "avg_share_rate": 0.04
     },
     "theme:noir": {
-      "posts": 25,
-      "avg_rate": 0.003,
+      "posts": 26,
+      "avg_rate": 0.0029,
       "avg_eng": 0.2,
-      "avg_save_rate": 0.0007,
+      "avg_save_rate": 0.0006,
       "avg_share_rate": 0.0
     },
     "theme:silver": {
@@ -184,7 +184,7 @@
       "avg_share_rate": 0.0
     },
     "theme:slate": {
-      "posts": 22,
+      "posts": 23,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -212,7 +212,7 @@
       "avg_share_rate": 0.0
     },
     "template:quiz": {
-      "posts": 35,
+      "posts": 36,
       "avg_rate": 0.0026,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
@@ -233,7 +233,7 @@
       "avg_share_rate": 0.0
     },
     "template:checklist": {
-      "posts": 19,
+      "posts": 20,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -247,22 +247,22 @@
       "avg_share_rate": 0.0
     },
     "template:explainer": {
-      "posts": 11,
-      "avg_rate": 0.003,
+      "posts": 12,
+      "avg_rate": 0.0028,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     }
   },
   "directives": [
-    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 3.3% vs 0.0% over the last 60 days (34 vs 5 posts).",
+    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 3.2% vs 0.0% over the last 60 days (35 vs 5 posts).",
     "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 2.0% against 1.2% for static posts.",
     "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
-    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 4.2%."
+    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 4.0%."
   ],
   "tips": [
-    "Best-performing look: graphite (4.0%). Weakest: aurum (0.0%).",
+    "Best-performing look: graphite (3.7%). Weakest: aurum (0.0%).",
     "Not enough data yet to judge: track:community (fewer than 4 posts each). Keep writing them so they can be measured."
   ],
   "followers": {
