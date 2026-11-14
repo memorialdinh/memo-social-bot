@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T18:28-08:00",
+  "updated": "2026-11-14T06:23-08:00",
   "scores": {
     "track:untagged": {
       "posts": 142,
@@ -16,25 +16,25 @@
       "avg_share_rate": 0.0001
     },
     "platform:instagram": {
-      "posts": 264,
-      "avg_rate": 0.0148,
+      "posts": 265,
+      "avg_rate": 0.0147,
       "avg_eng": 1.7,
-      "avg_save_rate": 0.0003,
+      "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0
     },
     "kind:post": {
-      "posts": 190,
-      "avg_rate": 0.0124,
+      "posts": 192,
+      "avg_rate": 0.0122,
       "avg_eng": 1.1,
       "avg_save_rate": 0.0002,
-      "avg_share_rate": 0.0053
+      "avg_share_rate": 0.0052
     },
     "platform:facebook": {
-      "posts": 116,
+      "posts": 117,
       "avg_rate": 0.0093,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0086
+      "avg_share_rate": 0.0085
     },
     "kind:story": {
       "posts": 106,
@@ -44,8 +44,8 @@
       "avg_share_rate": 0.0
     },
     "track:seller_education": {
-      "posts": 56,
-      "avg_rate": 0.0022,
+      "posts": 58,
+      "avg_rate": 0.0021,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -65,7 +65,7 @@
       "avg_share_rate": 0.0
     },
     "theme:ivory": {
-      "posts": 26,
+      "posts": 27,
       "avg_rate": 0.0018,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
@@ -157,7 +157,7 @@
     },
     "track:humor": {
       "posts": 30,
-      "avg_rate": 0.0039,
+      "avg_rate": 0.0038,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0005,
       "avg_share_rate": 0.0
@@ -177,8 +177,8 @@
       "avg_share_rate": 0.0
     },
     "theme:carbon": {
-      "posts": 23,
-      "avg_rate": 0.003,
+      "posts": 24,
+      "avg_rate": 0.0028,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -205,15 +205,15 @@
       "avg_share_rate": 0.0
     },
     "template:process": {
-      "posts": 19,
-      "avg_rate": 0.0025,
+      "posts": 21,
+      "avg_rate": 0.0023,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:quiz": {
       "posts": 36,
-      "avg_rate": 0.0026,
+      "avg_rate": 0.0025,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -268,8 +268,8 @@
   "followers": {
     "instagram": {
       "first": 817,
-      "latest": 818,
-      "change": 1
+      "latest": 815,
+      "change": -2
     },
     "facebook": {
       "first": 217,
