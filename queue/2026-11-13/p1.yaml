@@ -24,22 +24,16 @@ design:
     detail: Form DE-265 states whether the sale is confirmed.
   cta: Comment 'SELLER' for the order
 captions:
-  default: 'Signing an offer and closing a sale are two different moments. On an inherited home they can
-    be weeks apart.
+  default: 'Signing an offer and closing a sale are two different moments. On an inherited home they can be weeks apart.
 
 
-    Where your authority comes from decides everything. A trustee''s powers come from the trust document
-    itself — California''s courts put it plainly: a trustee has the powers listed in the trust, unless
-    they conflict with California law or a court order says otherwise.
+    Where your authority comes from decides everything. A trustee''s powers come from the trust document itself — California''s courts put it plainly: a trustee has the powers listed in the trust, unless they conflict with California law or a court order says otherwise.
 
 
-    A probate sale runs on a different track. The personal representative reports the sale to the court
-    on Judicial Council form DE-260 and asks the court to confirm it. The court''s answer comes back on
-    form DE-265.
+    A probate sale runs on a different track. The personal representative reports the sale to the court on Judicial Council form DE-260 and asks the court to confirm it. The court''s answer comes back on form DE-265.
 
 
-    So the honest answer to "can I sign?" is: read the document you were handed, then ask which track
-    you''re on.
+    So the honest answer to "can I sign?" is: read the document you were handed, then ask which track you''re on.
 
 
     General information, not legal advice. Your own attorney and the court govern your situation.
@@ -49,39 +43,29 @@ captions:
 
 
     #LongBeachRealEstate #SouthBayHomes #TrustSale #ProbateSale #HomeSellingTips #SoCalRealEstate'
-  linkedin: 'A recurring source of confusion on inherited-property transactions, and it costs real time
-    when it goes unaddressed early.
+  linkedin: 'A recurring source of confusion on inherited-property transactions, and it costs real time when it goes unaddressed early.
 
 
     The seller''s authority to sign is not a single rule. It depends on the instrument.
 
 
-    Where title is held in trust, the trustee''s powers are defined by the trust document. California
-    court self-help guidance states that a trustee has the powers listed in the trust document unless
-    they conflict with California law, or unless a court order provides otherwise.
+    Where title is held in trust, the trustee''s powers are defined by the trust document. California court self-help guidance states that a trustee has the powers listed in the trust document unless they conflict with California law, or unless a court order provides otherwise.
 
 
-    Where the property passes through probate, the court is a party to the timeline. The personal representative
-    reports the sale on Judicial Council form DE-260 — the Report of Sale and Petition for Order Confirming
-    Sale of Real Property — and the court''s determination is entered on form DE-265, the Order Confirming
-    Sale of Real Property.
+    Where the property passes through probate, the court is a party to the timeline. The personal representative reports the sale on Judicial Council form DE-260 — the Report of Sale and Petition for Order Confirming Sale of Real Property — and the court''s determination is entered on form DE-265, the Order Confirming Sale of Real Property.
 
 
-    The practical takeaway for anyone representing or advising on these files: establish which track the
-    property is on before you discuss price, marketing or a closing date. An accepted offer on a probate
-    sale is a milestone in a court process, and a buyer who was never told that is a buyer who walks.
+    The practical takeaway for anyone representing or advising on these files: establish which track the property is on before you discuss price, marketing or a closing date. An accepted offer on a probate sale is a milestone in a court process, and a buyer who was never told that is a buyer who walks.
 
 
     General information, not legal advice; the estate''s counsel and the court govern.
 
 
-    For the agents and fiduciaries here — how early do you confirm the authority question on an estate
-    file?
+    For the agents and fiduciaries here — how early do you confirm the authority question on an estate file?
 
 
     #RealEstate #EstatePlanning #RealEstateAdvice'
-  tiktok: 'Inherited a house? Your authority comes from the trust document, or from the court. Read it
-    first.
+  tiktok: 'Inherited a house? Your authority comes from the trust document, or from the court. Read it first.
 
 
     #probatesale #trustsale #homesellingtips #realestatetips #socalrealestate'
@@ -89,7 +73,19 @@ sources:
 - https://selfhelp.courts.ca.gov/jcc-form/DE-260
 - https://selfhelp.courts.ca.gov/jcc-form/DE-265
 - https://santaclara.courts.ca.gov/self-help/self-help-probate/probate-property-transfers/probate-trusts
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18354058537248018'
+    at: '2026-11-13T19:20:51-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1173698728990892'
+    at: '2026-11-13T19:20:56-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7527208929722990592
+    at: '2026-11-13T19:20:58-08:00'
 media:
   instagram: queue/2026-11-13/media/p1-instagram.jpg
   facebook: queue/2026-11-13/media/p1-facebook.jpg
