@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: community
+topic: Three things Memo will do for a past client any time with no transaction needed
+time: auto
+approved: true
+design:
+  template: tip
+  kicker: BIRTHDAY CLUB
+  headline: Still your agent. *No* transaction needed.
+  subhead: Past clients, any time. Just ask.
+  points:
+  - Pull your home's current value range, any time you ask.
+  - Read a contractor bid or a tax notice with you.
+  - Refer a plumber, roofer or lender I would use myself.
+  - Add you to the Birthday Club. Cake, not a pitch.
+  cta: DM 'BDAY' to join the Birthday Club
+sources: []

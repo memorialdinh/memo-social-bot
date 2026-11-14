@@ -1,0 +1,84 @@
+id: p1
+kind: post
+track: market_update
+topic: Share of active listings that took a price cut across service cities September 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Price cuts aren't *everywhere*.
+  subhead: Share of active listings with a price cut, Sept 2026.
+  stat_value: 52.0%
+  stat_label: Cypress active listings with a price cut, Sept 2026, Realtor.com
+  points:
+  - Cypress 52.0%, the highest of my cities, Sept 2026
+  - Redondo Beach 42.5%, Torrance 32.0%, Sept 2026
+  - Lakewood 23.9%, the lowest of the eight, Sept 2026
+  - Realtor.com ZIP inventory, Sept 2026. Not a forecast.
+  cta: DM 'VALUE' for your city's number
+captions:
+  default: '52.0% of active listings in Cypress had taken a price cut in September 2026. In Lakewood it was 23.9%.
+
+
+    Same month. Same region. More than double the share.
+
+
+    Across my service cities, September 2026 (Realtor.com ZIP inventory):
+
+
+    Cypress 52.0%
+
+    Redondo Beach 42.5%
+
+    Cerritos 33.3%
+
+    Torrance 32.0%
+
+    Lakewood 23.9%
+
+
+    What a price cut actually tells you: the asking price and the buyers didn''t agree, and the seller moved first. A high share usually means more room to negotiate. A low share usually means less.
+
+
+    What it doesn''t tell you: anything about next month. I''m telling you what September measured, and stopping there.
+
+
+    So "is the market soft right now" is the wrong question. The right one is whether it''s soft on your street, in your price band, for your kind of home.
+
+
+    Source: Realtor.com Residential Data, monthly inventory by ZIP code, September 2026.
+
+
+    DM me ''VALUE'' and I''ll pull your city''s number and your home''s range.
+
+
+    #LongBeachRealEstate #SouthBayHomes #LakewoodCA #CypressCA #TorranceCA #SoCalRealEstate'
+  linkedin: 'In September 2026, 52.0% of active listings in Cypress carried a price reduction. In Lakewood the figure was 23.9%. Both are in the same regional market, in the same month.
+
+
+    Across the cities I work, September 2026, per Realtor.com''s monthly ZIP-level inventory data: Cypress 52.0%, Redondo Beach 42.5%, Cerritos 33.3%, Torrance 32.0%, Lakewood 23.9%.
+
+
+    A price-reduction share is a useful measure precisely because it records a decision rather than a sentiment. It is the proportion of sellers whose asking price and whose buyer pool did not agree, and who moved first. A higher share generally indicates more negotiating room; a lower one, less.
+
+
+    Two caveats worth stating plainly. The measure is backward-looking - it describes September, not November, and not what comes next. And a city-level figure averages across price bands and property types that behave differently, which is why "the market" is a weaker unit of analysis than a submarket.
+
+
+    The practical implication for anyone pricing a home or writing an offer this quarter: the relevant comparison set is the street and the price band, not the region.
+
+
+    Source: Realtor.com Residential Data, monthly inventory by ZIP code, September 2026.
+
+
+    For the agents and analysts here - which submarket in your area is furthest from its own city average right now?
+
+
+    #RealEstate #HousingMarket #DataAnalysis'
+  tiktok: 'Cypress: 52.0% of listings cut price in Sept 2026. Lakewood: 23.9%. Twenty miles apart.
+
+
+    #socalrealestate #housingmarket #realestatetips #pricecut #longbeach'
+sources:
+- https://www.realtor.com/research/data/

@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: seller_education
+topic: Teaser for r1 quiz on whether a commission can still be owed after a listing agreement ends
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Your listing *ended*. Still owed?
+  subhead: General information, not legal advice. Your agreement governs.
+  options:
+  - Never, the term is over
+  - Only if the agreement says so
+  - Always, for a year
+  answer: B
+  explain: Some agreements keep a commission owed on a buyer the agent already brought. Read yours.
+  reveal: false
+  cta: Reply SELLER with A, B or C
+sources: []

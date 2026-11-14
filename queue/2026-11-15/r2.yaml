@@ -1,0 +1,78 @@
+id: r2
+kind: reel
+track: buyer_education
+topic: What a self-employed or 1099 buyer hands a lender and the order a lender wants it in
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: Self-employed? Start with your *returns*.
+  subhead: General information, not lending advice. Not a loan offer.
+  steps:
+  - when: Step 1
+    title: Tax returns first
+    detail: Personal and business, signed, every schedule.
+  - when: Step 2
+    title: Year to date
+    detail: Profit and loss, plus business bank statements.
+  - when: Step 3
+    title: Prove it exists
+    detail: Business license, CPA letter or client 1099s.
+  - when: Step 4
+    title: Then the letter
+    detail: A lender averages the income, then writes it.
+  cta: DM 'BUYER' for my 1099 list
+captions:
+  default: 'Self-employed buyers rarely get turned down for being self-employed. They get slowed down by paperwork that shows up in the wrong order.
+
+
+    The order it wants it in:
+
+
+    1. Tax returns. Personal and business, signed, with every schedule attached. How many years depends on your loan program and your lender - ask that question first.
+
+    2. Year to date. A profit and loss statement for this year so far, plus business bank statements behind it.
+
+    3. Proof the business is real and active. A business license, a CPA letter, or 1099s from the clients who pay you.
+
+    4. Then the pre-approval letter. A lender averages the income it can document and writes the letter off that number - not off your gross receipts.
+
+
+    The part that catches people: write-offs that lower your taxable income also lower the income a lender can use. That''s a conversation to have with your lender and your CPA before you file, not after you''ve found the house.
+
+
+    General information, not lending or tax advice. Not a loan offer.
+
+
+    DM me ''BUYER'' and I''ll send you the 1099 borrower list.
+
+
+    #LongBeachRealEstate #SouthBayHomes #FirstTimeHomeBuyer #SelfEmployed #HomeBuyingTips #SoCalRealEstate'
+  linkedin: 'Self-employed and 1099 borrowers are the group most often surprised by a mortgage file, and the surprise is almost always sequencing rather than eligibility.
+
+
+    The order a lender works in:
+
+
+    Signed personal and business federal returns with all schedules. A year-to-date profit and loss statement, supported by business bank statements. Independent verification that the business exists and is currently operating - a licence, a CPA letter, or 1099s from paying clients. Only then the pre-approval, written against the income the file can document.
+
+
+    The structural point worth making to anyone in this position: the deductions that minimise taxable income also reduce the qualifying income a lender can use. Those two objectives pull against each other, and the time to reconcile them is before a return is filed, with the lender and the CPA in the same conversation.
+
+
+    How many years of returns are required varies by loan programme and lender, so that is the first question to ask rather than an assumption to carry in.
+
+
+    General information, not lending or tax advice. Not a loan offer.
+
+
+    For the lenders here - what is the documentation gap you see most often on a self-employed file?
+
+
+    #RealEstate #Mortgage #SmallBusiness'
+  tiktok: '1099 or self-employed? Returns, then YTD P&L, then proof the business is active, then the letter.
+
+
+    #selfemployed #firsttimehomebuyer #homebuyingtips #realestatetips #1099'
+sources: []
