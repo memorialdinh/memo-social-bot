@@ -56,7 +56,19 @@ captions:
 
     #homesellingtips #realestatetips #listingprice #socalrealestate #sellingmyhome'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18098213153150778'
+    at: '2026-11-14T09:36:40-08:00'
+  facebook:
+    state: posted
+    id: '1403742801842161'
+    at: '2026-11-14T09:36:49-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7527424341802795008
+    at: '2026-11-14T09:36:56-08:00'
 media:
   instagram: queue/2026-11-14/media/r1-instagram.mp4
   facebook: queue/2026-11-14/media/r1-facebook.mp4
