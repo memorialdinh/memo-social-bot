@@ -76,7 +76,19 @@ captions:
 
     #selfemployed #firsttimehomebuyer #homebuyingtips #realestatetips #1099'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18073994534495806'
+    at: '2026-11-15T11:21:09-08:00'
+  facebook:
+    state: posted
+    id: '1132879896328194'
+    at: '2026-11-15T11:21:15-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7527813011340894208
+    at: '2026-11-15T11:21:22-08:00'
 media:
   instagram: queue/2026-11-15/media/r2-instagram.mp4
   facebook: queue/2026-11-15/media/r2-facebook.mp4
