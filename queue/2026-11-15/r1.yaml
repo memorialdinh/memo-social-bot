@@ -66,7 +66,19 @@ captions:
 
     #homesellingtips #listingagreement #realestatetips #socalrealestate #sellingmyhome'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17946899040361432'
+    at: '2026-11-15T09:38:46-08:00'
+  facebook:
+    state: posted
+    id: '1077841788605424'
+    at: '2026-11-15T09:38:52-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7527787247371407361
+    at: '2026-11-15T09:39:00-08:00'
 media:
   instagram: queue/2026-11-15/media/r1-instagram.mp4
   facebook: queue/2026-11-15/media/r1-facebook.mp4
