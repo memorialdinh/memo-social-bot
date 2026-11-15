@@ -1,0 +1,19 @@
+id: s2
+kind: story
+track: buyer_education
+topic: Why a listing square footage and the tax record square footage disagree
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: Your square footage *disagrees* with the county.
+  subhead: Two records, one house. Verify before you price off it.
+  term: Square footage
+  pos: noun - listing vs. tax record
+  definition: The living area of a home, measured on different days by an assessor, an appraiser and an agent.
+  why: Permits, conversions and remeasures all change which number sits on file.
+  example: A permitted addition can show in the listing years before the tax record catches up.
+  cta: DM 'BUYER' before you trust a number
+sources: []
+status: {}

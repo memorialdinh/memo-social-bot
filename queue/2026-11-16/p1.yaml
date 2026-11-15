@@ -1,0 +1,80 @@
+id: p1
+kind: post
+track: market_update
+topic: C.A.R. third quarter 2026 housing affordability index Los Angeles metro 18 percent Inland Empire 26 percent California 19 percent
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Affordability improved *slightly*. Yes, really.
+  subhead: C.A.R. Traditional Housing Affordability Index, 3Q 2026.
+  stat_value: 18%
+  stat_label: LA metro households able to afford the median-priced home, C.A.R., 3Q 2026
+  points:
+  - LA metro area 18%, up from 16% in 3Q 2025
+  - Inland Empire 26%, up from 23% a year earlier
+  - California 19%, flat on 2Q 2026 and 3Q 2025
+  - C.A.R. index, 3Q 2026. A measurement, not a forecast.
+  cta: DM 'BUYER' to run your own number
+captions:
+  default: '18% of households in the Los Angeles metro area could afford the median-priced home in the third quarter of 2026. A year earlier it was 16%.
+
+
+    That''s not a boom. It''s two points, and it''s still fewer than one in five.
+
+
+    C.A.R.''s third-quarter 2026 affordability index, released Oct 30, 2026:
+
+
+    LA metro area - 18%, up from 16% in 3Q 2025
+
+    Inland Empire - 26%, up from 23%
+
+    California - 19%, unchanged from 2Q 2026 and 3Q 2025
+
+    United States - 39%
+
+
+    What the index measures: the share of households earning enough to buy the median-priced existing single-family home, at a payment covering principal, interest, taxes and insurance. Statewide that was $5,700 a month on an $894,630 home, assuming an effective 30-year fixed rate of 6.80% - up from 6.54% in the second quarter.
+
+
+    So the rate assumption got worse and the regional numbers still moved up a little. C.A.R.''s own headline says affordability held steady "as lower home prices offset higher mortgage rates."
+
+
+    One more number worth keeping: 31% of California households could afford the $640,000 median-priced condo or townhome, up from 30%. Same state, different door.
+
+
+    Source: California Association of REALTORS, 3rd Quarter 2026 Housing Affordability, released Oct 30, 2026.
+
+
+    DM me ''BUYER'' and we''ll run your number instead of the median.
+
+
+    #LongBeachRealEstate #SouthBayHomes #LakewoodCA #TorranceCA #CerritosCA #SoCalRealEstate'
+  linkedin: 'California''s housing affordability index was flat in the third quarter of 2026 - 19% of households could afford the median-priced existing single-family home, unchanged from both the prior quarter and a year earlier. The regional picture underneath it moved.
+
+
+    C.A.R.''s 3Q 2026 release, dated Oct 30, 2026: Los Angeles metro area 18%, up from 16% in 3Q 2025. Inland Empire 26%, up from 23%. United States 39%. Statewide, the index assumes a $5,700 monthly payment including taxes and insurance on an $894,630 median price, at an effective 30-year fixed rate of 6.80% - up from 6.54% in 2Q 2026.
+
+
+    That combination is the part worth sitting with. The rate assumption rose and two Southern California regions still improved, which C.A.R. attributes to lower home prices offsetting higher borrowing costs. Affordability is a ratio, and the denominator has been doing more work than the headline rate.
+
+
+    The practical takeaway for anyone advising buyers or sellers: a statewide index describes a median household buying a median home, and almost nobody is both. It is useful as a direction, not as a qualification.
+
+
+    Source: California Association of REALTORS, 3rd Quarter 2026 Housing Affordability, Oct 30, 2026.
+
+
+    For those tracking this quarterly - which input are you watching more closely into 2027, price or rate?
+
+
+    #RealEstate #HousingMarket #Affordability'
+  tiktok: 'LA metro: 18% of households could afford the median home in 3Q 2026. A year ago, 16%.
+
+
+    #socalrealestate #housingmarket #realestatetips #firsttimehomebuyer #longbeach'
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/3qtr2026HAI
+status: {}

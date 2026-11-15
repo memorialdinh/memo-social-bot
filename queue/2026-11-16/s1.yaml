@@ -1,0 +1,22 @@
+id: s1
+kind: story
+track: market_update
+topic: Teaser for p1 quiz on the share of California households who could afford the median priced home in third quarter 2026
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: 'California, 3Q 2026: what *share* could buy?'
+  subhead: C.A.R. Traditional Housing Affordability Index, 3Q 2026.
+  options:
+  - About 9%
+  - About 19%
+  - About 29%
+  answer: B
+  explain: 19% could afford the $894,630 median-priced home, C.A.R., 3Q 2026.
+  reveal: false
+  cta: Reply BUYER with A, B or C
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/3qtr2026HAI
+status: {}

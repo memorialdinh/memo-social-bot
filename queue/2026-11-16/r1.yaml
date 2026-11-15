@@ -1,0 +1,76 @@
+id: r1
+kind: reel
+track: investment
+topic: How to price a lease renewal in order market rent turnover cost the increase and the notice rules
+time: auto
+approved: true
+design:
+  template: process
+  kicker: INVESTOR MATH
+  headline: Before you renew that *lease*.
+  subhead: General information, not legal advice. Rules vary by property.
+  steps:
+  - when: Step 1
+    title: Pull market rent
+    detail: Three comparable units, same beds, same condition, listed now.
+  - when: Step 2
+    title: Price the turnover
+    detail: Weeks vacant, make-ready, leasing fee. That's the real downside.
+  - when: Step 3
+    title: Set the number
+    detail: Compare the increase against what a turnover would cost.
+  - when: Step 4
+    title: Check the rules
+    detail: Notice period and any increase limit for your property.
+  cta: DM 'INVEST' for my renewal worksheet
+captions:
+  default: 'January leases get decided in November. Here''s the order I''d run it in.
+
+
+    Most owners compare the renewal rent to last year''s rent. The comparison that decides it is the renewal rent against what a turnover actually costs you.
+
+
+    1. Pull market rent. Three comparable units - same bedroom count, same condition, listed right now, not last spring.
+
+
+    2. Price the turnover. Weeks vacant, make-ready and cleaning, leasing fee, new photos. Add it up once and you''ll never guess at it again.
+
+
+    3. Set the number. Now you can see it plainly: an increase a good tenant walks over can cost more than the increase was worth.
+
+
+    4. Check the rules before you send anything. Notice periods and increase limits depend on the property, the city and which law applies to it. Confirm yours, or ask someone who will.
+
+
+    None of this says keep the rent flat. It says know what you''re risking before you pick a number.
+
+
+    DM me ''INVEST'' and I''ll send the renewal worksheet I use.
+
+
+    #LongBeachRealEstate #LakewoodCA #SouthBayHomes #TorranceCA #SoCalRealEstate #RealEstateInvesting'
+  linkedin: 'Lease renewals for January get decided in November, and most get decided against the wrong benchmark.
+
+
+    The common approach compares the renewal rent to the current rent. The more useful comparison is the renewal rent against the fully loaded cost of a turnover: weeks of vacancy, make-ready and cleaning, a leasing fee, new marketing. Once that figure is written down, the decision usually stops being about the increase and starts being about the spread.
+
+
+    A workable sequence: pull three current comparable listings matched on bedroom count and condition; cost the turnover line by line; compare the proposed increase against that cost; then confirm the notice period and any applicable increase limit for that property before anything is sent.
+
+
+    The point is not that rents should hold flat. It is that an increase a reliable tenant declines can be more expensive than the increase was worth, and that is knowable in advance.
+
+
+    General information, not legal advice - notice and increase rules vary by property, city and statute.
+
+
+    What do you use as your turnover cost assumption?
+
+
+    #RealEstate #RealEstateInvesting #PropertyManagement'
+  tiktok: 'Renewal math: compare the increase to what a turnover costs you, not to last year''s rent.
+
+
+    #realestateinvesting #landlordtips #rentalproperty #realestatetips #socalrealestate'
+sources: []
+status: {}
