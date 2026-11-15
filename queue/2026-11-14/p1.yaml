@@ -65,7 +65,15 @@ captions:
     #mortgagerates #firsttimehomebuyer #realestatetips #socalrealestate #homebuying'
 sources:
 - https://www.globenewswire.com/news-release/2026/11/12/3402013/0/en/mortgage-rates-decline-for-fourth-consecutive-week-to-7-11.html
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18113865473620489'
+    at: '2026-11-14T19:02:34-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1174824175545014'
+    at: '2026-11-14T19:02:38-08:00'
 media:
   instagram: queue/2026-11-14/media/p1-instagram.jpg
   facebook: queue/2026-11-14/media/p1-facebook.jpg
