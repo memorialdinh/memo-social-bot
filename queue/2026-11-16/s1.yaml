@@ -20,3 +20,22 @@ design:
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/3qtr2026HAI
 status: {}
+media:
+  instagram: queue/2026-11-16/media/s1-instagram.jpg
+  facebook: queue/2026-11-16/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-16T07:05-08:00
+  instagram: 2026-11-16T07:04-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: frame
+    side: right
+    center: false
+    template: quiz
+  facebook:
+    theme: carbon
+    deco: rules
+    side: left
+    center: false
+    template: quiz

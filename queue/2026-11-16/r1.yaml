@@ -74,3 +74,38 @@ captions:
     #realestateinvesting #landlordtips #rentalproperty #realestatetips #socalrealestate'
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-16/media/r1-instagram.mp4
+  facebook: queue/2026-11-16/media/r1-facebook.mp4
+  linkedin: queue/2026-11-16/media/r1-linkedin.mp4
+  tiktok: queue/2026-11-16/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-11-16T09:04-08:00
+  instagram: 2026-11-16T09:10-08:00
+  linkedin: 2026-11-16T09:06-08:00
+  tiktok: 2026-11-16T09:02-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: split
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: ivory
+    deco: rules
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: goldrush
+    deco: dots
+    side: left
+    center: false
+    template: process
+  tiktok:
+    theme: carbon
+    deco: dots
+    side: left
+    center: false
+    template: process

@@ -17,3 +17,22 @@ design:
   cta: DM 'BUYER' before you trust a number
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-16/media/s2-instagram.jpg
+  facebook: queue/2026-11-16/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-16T10:07-08:00
+  instagram: 2026-11-16T08:05-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: monogram
+    side: left
+    center: false
+    template: explainer
+  facebook:
+    theme: silver
+    deco: frame
+    side: left
+    center: false
+    template: explainer

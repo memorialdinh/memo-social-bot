@@ -64,3 +64,38 @@ captions:
     #homeselling #realestatetips #sellerstips #escrow #socalrealestate'
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-16/media/r2-instagram.mp4
+  facebook: queue/2026-11-16/media/r2-facebook.mp4
+  linkedin: queue/2026-11-16/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-16/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-16T11:10-08:00
+  instagram: 2026-11-16T11:04-08:00
+  linkedin: 2026-11-16T11:03-08:00
+  tiktok: 2026-11-16T11:08-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: grid
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: aurum
+    deco: arcs
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: carbon
+    deco: split
+    side: left
+    center: false
+    template: checklist
+  tiktok:
+    theme: slate
+    deco: frame
+    side: left
+    center: false
+    template: checklist

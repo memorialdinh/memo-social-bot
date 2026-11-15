@@ -78,3 +78,38 @@ captions:
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/3qtr2026HAI
 status: {}
+media:
+  instagram: queue/2026-11-16/media/p1-instagram.jpg
+  facebook: queue/2026-11-16/media/p1-facebook.jpg
+  linkedin: queue/2026-11-16/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-16/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-16T19:11-08:00
+  instagram: 2026-11-16T19:10-08:00
+  linkedin: 2026-11-16T19:07-08:00
+  tiktok: 2026-11-16T19:03-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: monogram
+    side: right
+    center: false
+    template: stat
+  facebook:
+    theme: porcelain
+    deco: halo
+    side: left
+    center: true
+    template: stat
+  linkedin:
+    theme: slate
+    deco: corners
+    side: left
+    center: false
+    template: stat
+  tiktok:
+    theme: goldrush
+    deco: frame
+    side: left
+    center: false
+    template: stat
