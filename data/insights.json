@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T18:29-08:00",
+  "updated": "2026-11-15T06:25-08:00",
   "scores": {
     "track:untagged": {
       "posts": 146,
@@ -10,31 +10,31 @@
     },
     "kind:reel": {
       "posts": 87,
-      "avg_rate": 0.0195,
-      "avg_eng": 2.5,
+      "avg_rate": 0.0199,
+      "avg_eng": 2.6,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0001
     },
     "platform:instagram": {
-      "posts": 271,
-      "avg_rate": 0.0145,
+      "posts": 272,
+      "avg_rate": 0.0146,
       "avg_eng": 1.6,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0
     },
     "kind:post": {
-      "posts": 194,
-      "avg_rate": 0.0121,
+      "posts": 196,
+      "avg_rate": 0.012,
       "avg_eng": 1.0,
       "avg_save_rate": 0.0002,
-      "avg_share_rate": 0.0052
+      "avg_share_rate": 0.0051
     },
     "platform:facebook": {
-      "posts": 119,
-      "avg_rate": 0.0091,
+      "posts": 120,
+      "avg_rate": 0.009,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0084
+      "avg_share_rate": 0.0083
     },
     "kind:story": {
       "posts": 109,
@@ -51,11 +51,11 @@
       "avg_share_rate": 0.0
     },
     "track:market_update": {
-      "posts": 35,
-      "avg_rate": 0.0318,
+      "posts": 37,
+      "avg_rate": 0.0301,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0286
+      "avg_share_rate": 0.027
     },
     "template:tip": {
       "posts": 45,
@@ -100,15 +100,15 @@
       "avg_share_rate": 0.0
     },
     "template:stat": {
-      "posts": 25,
-      "avg_rate": 0.04,
+      "posts": 27,
+      "avg_rate": 0.037,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.04
+      "avg_share_rate": 0.037
     },
     "theme:noir": {
       "posts": 26,
-      "avg_rate": 0.0029,
+      "avg_rate": 0.0039,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0006,
       "avg_share_rate": 0.0
@@ -157,14 +157,14 @@
     },
     "track:humor": {
       "posts": 30,
-      "avg_rate": 0.0038,
+      "avg_rate": 0.0047,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0005,
       "avg_share_rate": 0.0
     },
     "template:meme": {
       "posts": 29,
-      "avg_rate": 0.004,
+      "avg_rate": 0.0049,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0006,
       "avg_share_rate": 0.0
@@ -177,8 +177,8 @@
       "avg_share_rate": 0.0
     },
     "theme:carbon": {
-      "posts": 24,
-      "avg_rate": 0.0028,
+      "posts": 25,
+      "avg_rate": 0.0027,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -191,7 +191,7 @@
       "avg_share_rate": 0.0
     },
     "theme:porcelain": {
-      "posts": 28,
+      "posts": 29,
       "avg_rate": 0.0016,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -255,11 +255,11 @@
     }
   },
   "directives": [
-    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 3.2% vs 0.0% over the last 60 days (35 vs 5 posts).",
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.9% against 1.2% for static posts.",
+    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 3.0% vs 0.0% over the last 60 days (37 vs 5 posts).",
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 2.0% against 1.2% for static posts.",
     "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
-    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 4.0%."
+    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.7%."
   ],
   "tips": [
     "Best-performing look: graphite (3.7%). Weakest: aurum (0.0%).",
@@ -268,8 +268,8 @@
   "followers": {
     "instagram": {
       "first": 817,
-      "latest": 815,
-      "change": -2
+      "latest": 816,
+      "change": -1
     },
     "facebook": {
       "first": 217,
