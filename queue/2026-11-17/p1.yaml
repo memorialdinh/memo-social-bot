@@ -1,0 +1,80 @@
+id: p1
+kind: post
+track: market_update
+topic: Median year built of homes across service cities Lakewood 1957 Long Beach 1959 Cerritos 1974 Census ACS 2020-2024
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: The typical Lakewood home was built in *1957*.
+  subhead: Census ACS 2020-2024, five-year estimates.
+  stat_value: '1957'
+  stat_label: Median year built, Lakewood. Census ACS 2020-2024
+  points:
+  - Lakewood 1957, Long Beach 1959, Gardena and Torrance 1964
+  - Cypress 1971, Redondo Beach 1973, Cerritos 1974
+  - 'Older stock, longer inspection list: sewer, panel, roof, pipe'
+  - Census ACS 2020-2024. Housing stock, not people.
+  cta: DM 'SELLER' for my pre-listing list
+captions:
+  default: 'The typical home in Lakewood was built in 1957.
+
+
+    That isn''t a knock on the house. It''s a scope note.
+
+
+    Median year built across the cities I work in, Census ACS 2020-2024 five-year estimates:
+
+
+    Lakewood - 1957
+
+    Long Beach - 1959
+
+    Gardena - 1964
+
+    Torrance - 1964
+
+    Cypress - 1971
+
+    Redondo Beach - 1973
+
+    Cerritos - 1974
+
+
+    A house that age can be in great shape and still have a sewer line near the end of its life, an electrical panel that no longer matches how we use power, or galvanized supply pipe behind a remodeled wall. None of that shows up in listing photos.
+
+
+    So two things change. The inspection list gets longer - sewer camera, panel, roof age, water heater. And the insurance quote comes earlier in the process, because roof age and plumbing material move it.
+
+
+    This is a note about housing stock, not about anyone who lives in these cities. Older just means there''s more to verify.
+
+
+    Source: U.S. Census Bureau, American Community Survey 5-year estimates, 2020-2024.
+
+
+    DM me ''SELLER'' and I''ll send the pre-listing list I actually work from.'
+  linkedin: 'Median year built, Census ACS 2020-2024 five-year estimates: Lakewood 1957, Long Beach 1959, Gardena 1964, Torrance 1964, Cypress 1971, Redondo Beach 1973, Cerritos 1974.
+
+
+    Most of the South Bay and Gateway Cities housing stock is roughly 50 to 70 years old. That single fact changes two line items on a transaction.
+
+
+    Due diligence scope: sewer lateral, electrical panel capacity, roof age and plumbing material are not optional add-ons on a 1960s house, they are the inspection. Buyers who budget for a general inspection alone tend to find the rest during the contingency period, when there is less time to price it.
+
+
+    Insurance timing: roof age and plumbing material drive both the premium and whether a carrier writes the policy at all. On older stock that quote belongs early in escrow, not the week before closing.
+
+
+    For sellers, the same fact is an argument for doing the work first. Age is a documented condition, so the inspection report is going to say it either way.
+
+
+    Source: U.S. Census Bureau, American Community Survey 5-year estimates, 2020-2024.
+
+
+    For those working this inventory - what are you seeing quoted first, the roof or the plumbing?'
+  tiktok: 'Median year built: Lakewood 1957, Long Beach 1959, Cerritos 1974. Census ACS 2020-2024. Budget the inspection for it.'
+sources:
+- https://data.census.gov/
+status: {}

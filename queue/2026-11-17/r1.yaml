@@ -1,0 +1,57 @@
+id: r1
+kind: reel
+track: buyer_education
+topic: Interest rate versus APR which number tells you what the loan actually costs
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: 'Rate or *APR*: which is the real cost?'
+  subhead: Two numbers, one loan. Only one includes the fees.
+  options:
+  - The interest rate
+  - The APR
+  - They're the same number
+  answer: B
+  explain: APR folds in lender fees and points, so it reads higher.
+  cta: Comment 'BUYER' with A, B or C
+captions:
+  default: 'Two numbers show up on the same loan. Only one of them is the cost.
+
+
+    The rate sets your monthly interest. The APR takes that rate, adds the lender''s fees and points, and spreads them across the term - so on the same loan it reads higher.
+
+
+    Example only, not a loan offer: a 6.5% rate with $6,000 of lender fees prices out closer to a 6.7% APR. Same monthly payment either way. Different total cost.
+
+
+    Where that''s useful: two lenders quote you the same rate. The APR shows which one is charging more to get you there. Compare APR to APR, same loan amount, same term.
+
+
+    Where it misleads: APR assumes you keep the loan for the full term. Most people don''t, which is why a low APR built on big upfront points can cost you more if you refinance or sell in five years.
+
+
+    So you read both. The rate tells you the payment. The APR tells you what the payment costs you.
+
+
+    A, B or C - what''s your answer? Comment ''BUYER'' and I''ll send my loan comparison sheet.'
+  linkedin: 'Buyers compare rates. Lenders compete on rates. The number that actually ranks two offers is the APR.
+
+
+    The rate sets monthly interest. The APR adds lender fees and points and amortises them over the term, which is why it sits above the rate on the same loan. Example only, not a loan offer: a 6.5% note rate carrying $6,000 in lender fees prices near a 6.7% APR. The payment is identical, the cost is not.
+
+
+    The practical use is narrow and real: when two lenders quote the same rate, the APR spread is the fee difference, and it is only comparable at the same loan amount and term.
+
+
+    The limitation matters just as much. APR assumes the loan is held to maturity. For a buyer who expects to refinance or sell inside five years, a low APR built on heavy upfront points can be the more expensive option - the fees are paid in full and the discount never finishes earning them back.
+
+
+    Read both numbers. One is the payment, the other is the price of the payment.
+
+
+    Which one do your clients ask about first?'
+  tiktok: The rate is your payment. The APR is what that payment costs you. Compare APR to APR.
+sources: []
+status: {}

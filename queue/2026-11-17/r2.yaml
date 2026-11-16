@@ -1,0 +1,64 @@
+id: r2
+kind: reel
+track: seller_education
+topic: What is in a California seller disclosure package and the order to work through it
+time: auto
+approved: true
+design:
+  template: process
+  kicker: SELLER TIP
+  headline: What a California seller actually *discloses*.
+  subhead: General information, not legal advice. Your set of forms may differ.
+  steps:
+  - when: Step 1
+    title: Start with the TDS
+    detail: 'Transfer Disclosure Statement: what you know about the condition.'
+  - when: Step 2
+    title: Add the natural hazards
+    detail: Ordered through escrow or title. You review it.
+  - when: Step 3
+    title: Then the property forms
+    detail: Lead paint, HOA documents, permits, repairs, pest work.
+  - when: Step 4
+    title: Write down what you know
+    detail: Unsure? Disclose anyway. Silence is the expensive option.
+  cta: Comment 'SELLER' for my prep timeline
+captions:
+  default: 'Selling in California means writing down what you know about the house. Here''s the order that keeps it calm instead of frantic.
+
+
+    1. Start with the TDS. The Transfer Disclosure Statement is where you report what you actually know about the property''s condition. Not what you suspect a buyer might think. What you know.
+
+
+    2. Add the natural hazard report. Flood, fire, seismic - that one gets ordered through escrow or title. You don''t write it, you review it.
+
+
+    3. Then the property-specific forms. Lead paint on older homes. HOA documents if there''s an association. Permits, past repairs, pest work, anything you had done.
+
+
+    4. Write down what you know. If you''re unsure whether something belongs in there, put it in. Silence is the expensive option, because disclosure problems surface after closing, which is exactly when they cost the most.
+
+
+    One more thing worth saying plainly: doing this well protects you, not the buyer. A buyer who knew about the thing before closing has a much harder time coming back about it after.
+
+
+    Which forms apply depends on the property and the transaction, and your broker and your own attorney are the ones to confirm your set. General information, not legal advice.
+
+
+    Comment ''SELLER'' and I''ll send you the prep timeline I work from.'
+  linkedin: 'Seller disclosure is treated as paperwork at the end of a listing. Handled in the right order, it is risk management at the start of one.
+
+
+    A workable sequence. First the Transfer Disclosure Statement, which records what the seller actually knows about the property''s condition - knowledge, not speculation. Then the natural hazard report, which is ordered through escrow or title and reviewed rather than authored. Then the property-specific items: lead paint on older homes, HOA documentation where an association exists, permits, completed repairs and pest work. Last, the judgement calls, and the default on those is to disclose.
+
+
+    The reason to front-load it is economic. A buyer who received the information before closing is in a materially different position than a buyer who discovers it after, and post-closing disclosure disputes are the most expensive way to find out which one you are dealing with.
+
+
+    Which forms apply depends on the property and the transaction; the broker and the seller''s own counsel confirm the set. General information, not legal advice.
+
+
+    What is the most common item you see sellers hesitate to disclose?'
+  tiktok: 'California sellers: TDS first, hazard report second, property forms third. Unsure about something? Disclose it.'
+sources: []
+status: {}

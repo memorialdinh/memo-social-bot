@@ -1,0 +1,19 @@
+id: s2
+kind: story
+track: buyer_education
+topic: What an escrow impound account is and why the mortgage payment changes after the first year
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: Your payment *changed* and the rate didn't.
+  subhead: General information, not lending advice.
+  term: Impound account
+  pos: noun - also called escrow account
+  definition: A lender-held account that collects property taxes and insurance along with your monthly payment.
+  why: Your servicer estimates it at closing, then trues it up once a year.
+  example: Taxes or the insurance premium rise, and the impound portion rises with them.
+  cta: DM 'BUYER' and we'll read yours
+sources: []
+status: {}

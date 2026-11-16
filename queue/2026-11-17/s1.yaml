@@ -1,0 +1,21 @@
+id: s1
+kind: story
+track: buyer_education
+topic: Teaser for r1 quiz on which number includes the lender fees the rate or the APR
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Which number includes the lender's *fees*?
+  subhead: Same loan, two numbers.
+  options:
+  - The interest rate
+  - The APR
+  - Both the same
+  answer: B
+  explain: The APR adds lender fees and points to the rate. General information, not lending advice.
+  reveal: false
+  cta: Reply BUYER with A, B or C
+sources: []
+status: {}
