@@ -82,7 +82,19 @@ captions:
     #socalrealestate #housingmarket #realestatetips #pricecut #longbeach'
 sources:
 - https://www.realtor.com/research/data/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18050648018822242'
+    at: '2026-11-15T19:48:37-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1176098765417555'
+    at: '2026-11-15T19:48:43-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7527940694926131200
+    at: '2026-11-15T19:48:44-08:00'
 media:
   instagram: queue/2026-11-15/media/p1-instagram.jpg
   facebook: queue/2026-11-15/media/p1-facebook.jpg
