@@ -19,7 +19,15 @@ design:
   cta: Reply BUYER with A, B or C
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/3qtr2026HAI
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18198818140402709'
+    at: '2026-11-16T08:17:44-08:00'
+  facebook:
+    state: posted
+    id: '1783249039452198'
+    at: '2026-11-16T08:17:50-08:00'
 media:
   instagram: queue/2026-11-16/media/s1-instagram.jpg
   facebook: queue/2026-11-16/media/s1-facebook.jpg

@@ -16,7 +16,11 @@ design:
   example: A permitted addition can show in the listing years before the tax record catches up.
   cta: DM 'BUYER' before you trust a number
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18084071306370418'
+    at: '2026-11-16T08:18:07-08:00'
 media:
   instagram: queue/2026-11-16/media/s2-instagram.jpg
   facebook: queue/2026-11-16/media/s2-facebook.jpg
