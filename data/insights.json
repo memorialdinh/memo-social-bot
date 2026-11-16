@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-15T18:41-08:00",
+  "updated": "2026-11-16T08:02-08:00",
   "scores": {
     "track:untagged": {
       "posts": 149,
-      "avg_rate": 0.0231,
-      "avg_eng": 2.9,
+      "avg_rate": 0.0225,
+      "avg_eng": 2.8,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0001
     },
     "kind:post": {
-      "posts": 199,
-      "avg_rate": 0.0123,
-      "avg_eng": 1.1,
+      "posts": 200,
+      "avg_rate": 0.0113,
+      "avg_eng": 1.0,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.005
     },
     "platform:instagram": {
-      "posts": 277,
-      "avg_rate": 0.0143,
+      "posts": 278,
+      "avg_rate": 0.0139,
       "avg_eng": 1.6,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0
@@ -30,15 +30,15 @@
       "avg_share_rate": 0.0001
     },
     "platform:facebook": {
-      "posts": 122,
-      "avg_rate": 0.0089,
+      "posts": 123,
+      "avg_rate": 0.0088,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0082
+      "avg_share_rate": 0.0081
     },
     "kind:story": {
-      "posts": 112,
-      "avg_rate": 0.0088,
+      "posts": 113,
+      "avg_rate": 0.0095,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -51,11 +51,11 @@
       "avg_share_rate": 0.0
     },
     "track:market_update": {
-      "posts": 37,
-      "avg_rate": 0.0301,
+      "posts": 39,
+      "avg_rate": 0.0285,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.027
+      "avg_share_rate": 0.0256
     },
     "template:tip": {
       "posts": 46,
@@ -100,22 +100,22 @@
       "avg_share_rate": 0.0
     },
     "template:stat": {
-      "posts": 27,
-      "avg_rate": 0.037,
+      "posts": 29,
+      "avg_rate": 0.0345,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.037
+      "avg_share_rate": 0.0345
     },
     "theme:noir": {
-      "posts": 26,
-      "avg_rate": 0.0039,
+      "posts": 27,
+      "avg_rate": 0.0037,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0006,
       "avg_share_rate": 0.0
     },
     "theme:silver": {
-      "posts": 28,
-      "avg_rate": 0.0042,
+      "posts": 29,
+      "avg_rate": 0.004,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -164,7 +164,7 @@
     },
     "template:meme": {
       "posts": 29,
-      "avg_rate": 0.0049,
+      "avg_rate": 0.0048,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0006,
       "avg_share_rate": 0.0
@@ -255,11 +255,11 @@
     }
   },
   "directives": [
-    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 3.0% vs 0.0% over the last 60 days (37 vs 5 posts).",
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.8% against 1.2% for static posts.",
+    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 2.9% vs 0.0% over the last 60 days (39 vs 5 posts).",
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.8% against 1.1% for static posts.",
     "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
-    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.7%."
+    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.5%."
   ],
   "tips": [
     "Best-performing look: graphite (3.6%). Weakest: aurum (0.0%).",
@@ -268,8 +268,8 @@
   "followers": {
     "instagram": {
       "first": 817,
-      "latest": 817,
-      "change": 0
+      "latest": 816,
+      "change": -1
     },
     "facebook": {
       "first": 217,
@@ -339,9 +339,9 @@
       "template": "",
       "theme": "",
       "caption": "Daily routine",
-      "saves": 1,
-      "shares": 0,
-      "rate": 0.0583,
+      "saves": "1",
+      "shares": "0",
+      "rate": "0.0583",
       "permalink": "https://www.instagram.com/reel/DfFYiDmzWjj/"
     }
   ],
