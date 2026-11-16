@@ -101,116 +101,112 @@ These are not optional and they are not footnotes. A post that breaks one doesn'
 
 ## 6. What actually works, from Memo's own numbers
 
-Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. **As of Nov 9, 2026.**
+Updated by Mentor from `data/insights.json` and `data/posts.csv` each week. **As of Nov 16, 2026.**
 
-- **The account is still reach-starved, and that is the finding that explains every other one.**
-  Nov 2–8: 108 published rows, **2,194 total reach, 34 engagements, 1 save, 0 shares** across both
-  platforms for the entire week — effectively flat on the 2,101/39/1/0 recorded a week earlier.
-  Treat almost every per-template and per-track 0.0% in `insights.json` as a reach reading, not a
-  content reading.
-- **Memo's own camera content is not competing with the bot — it is in a different league.**
-  Nov 2–8: his **23 untagged rows took 26 of the week's 34 engagements** on 364 reach; the bot's
-  **85 tagged rows took 8** on 1,830 reach. One gym reel he shot on Nov 4 did **18 engagements on
-  139 reach (13.0%)** — more than half the week's total engagement from a single piece. Second
-  week running that this holds. The fitness journey, showing days, escrow wins, family. **The bot
-  cannot make this — it needs his camera.** Educational content is the reliable floor; his footage
-  is the ceiling. Say so when a week looks flat.
-- **Reels beat posts, confirmed a third time, and now stories beat posts too.** Nov 2–8
-  engagements per item: reels **1.35**, stories **0.15**, posts **0.04**. The 3-reels-2-posts
-  directive has evidence behind it; apply it.
-- **Facebook is finished as a reach channel, and got worse.** Nov 2–8: **36 rows, 5 total reach,
-  0 engagements**, down from 27 rows/8 reach. `best_times.json` ranks Instagram only. Keep posting,
-  never optimise, never spend a second caption pass on it.
-- **Follower counts are not the signal.** Instagram 817 → 816; Facebook sat at **288 all week** —
-  the +71 jump recorded Nov 1 has stopped and never came with reach. A fact, not growth, and
-  **not to be cited as growth** anywhere.
-- **`quote` stays restored; the directive that banned it was reading noise.** Nov 2–8: 3 `quote`
-  rows, 84 reach, **the highest reach-per-item of any template (28.0)** on zero engagements — same
-  shape as last week. A 0.0% engagement rate cannot distinguish templates on this account. Two
-  `quote` pieces a week.
-- **`cta` is the one template with real evidence against it — and the fix costs nothing.**
-  Nov 2–8: 2 `cta` rows, **35 reach, 0 engagements, the lowest reach-per-item of any template
-  (17.5)**. *Changed Nov 9:* the standing "stop using the `cta` template" directive is now
-  supported, **and it does not require dropping Memo's weekly offer card** — a pre-written campaign
-  `w1` can be the `cta` card (Nov 11 is one), or the offer rides a `tip` with
-  `cta_sub: tidycal.com/memorialdinh/15-minute-call`. Never drop the offer itself to satisfy the
-  template directive — same principle as the `checklist`/`quiz` swap below.
-- **⚠ NEW FAILURE MODE: the writer stopped producing, two nights running.** The last queue-write
-  commit is `e874fcf` (Nov 6 eve → Nov 8). The Nov 7 and Nov 8 evening runs committed
-  `bot: prepare content` and then **no `bot: queue <date>` commit and no market note**. So
-  `queue/2026-11-09/` and `queue/2026-11-10/` hold only the pre-written campaign `w1`/`s5` —
-  **2 items published Nov 9 instead of 11.** This is distinct from the fetch wall and is the single
-  biggest thing costing output right now. **Check for it every run**: compare the latest
-  `bot: queue` commit against today's date, and if a day is bare, say so in the first line of the
-  report.
-- **The fetch wall may be lifting.** Six runs got exactly one fetch each (the first), then
-  `PROVENANCE_REQUIRED`; the **Nov 8 run read `consumerfinance.gov` and `joinepique.com` in full**
-  — first clean run in seven. A fact, not a fix: keep planning one source-dependent item a day.
-  **The press-release host `freddiemac.gcs-web.com` loads when `www.freddiemac.com` does not.**
-  Pre-approving the brief's named source domains would still end this.
-- **The dateless-figure defect has not recurred — second clean week.** All 11 graphics published
-  Nov 2–8 that carried a market figure carried its period. (The only flag was a `$10k` example on
-  the Nov 5 `s2` quiz, which is an illustration, not a dated statistic.) Keep the sweep every run.
-- **⚠ NEW DEFECT, now written into §5: a legal/tax/lending story has nowhere to put the advice
-  disclaimer.** The footer is appended to captions only and `fine_print` renders on `spotlight`
-  only, so the Nov 6 `s1` Prop 19 quiz went out with a BOE cite and no disclaimer. Same shape as
-  the dateless-figure defect; same fix (the `explain` line) until the renderer draws `fine_print`
-  for every template. Nothing is still live — stories expire in 24h. Sweep stories every run.
-- **When a directive forces an extra row, the cut piece is always the one no directive protects.**
-  Nov 2–8 lost the second `quote` (Nov 5 r1), the `community` sphere tip (Nov 8 p2, dropped twice
-  now) and the only `investment` reel (Nov 3 r1, to the fetch wall). *Fix in §7 rule 9.*
-- **There is still no track, template or theme finding, and Mentor must not invent one.** 120
-  historical rows sit in `track:untagged` with an empty `track` column; the tagged tracks all read
-  at or near 0.0% on 1–43 posts. Until a track has 4+ posts *and* the account has reach worth
-  measuring, "this track works" is not a finding. Say the data is thin instead. The recurring
-  "write an extra Untagged piece" directive is an artifact of this bucket, not an instruction that
-  can be followed — it needs the analytics job to exclude `track:untagged`.
+- **Still reach-starved, and this was the first zero-save zero-share week.** Nov 9–15: 78 rows,
+  **2,288 reach, 59 engagements, 0 saves, 0 shares** across both platforms, down from 1 save the
+  week before. Read almost every 0.0% in `insights.json` as a reach reading, not a content one.
+- **Memo's own camera content is out-earning the bot about twenty to one.** Nov 9–15 on Instagram:
+  his **10 untagged rows took 55 of the week's 59 engagements** on 945 reach (5.8%); the bot's **44
+  tagged rows took 4** on 1,341 reach (0.3%). One reel he shot Nov 10 did **22 engagements on 214
+  reach** — a third of the week in one piece. **Third week running.** The fitness journey, showing
+  days, escrow wins, family. **The bot cannot make this — it needs his camera.** Education is the
+  floor; his footage is the ceiling. Say it when a week looks flat.
+- **Static posts earned nothing at all.** Nov 9–15 engagements per item: reels **2.61**, stories
+  **0.48**, posts **0.00** — the bot's 11 Instagram posts took **0 engagements on 410 reach**. The
+  1-post/2-reel feed is right and the cut to 3 items made it righter.
+- **⚠ NEW: every static post lands 7–10pm, the hours `best_times.json` ranks worst** (all 11 at
+  19:02–21:59; the IG heatmap reads 0.66–0.78 there against 1.63–1.74 at 7am). `post_hours` in
+  `config.yaml` is deliberate but was set on **n=5** posts marked "thin, directional", and **n=11 at
+  zero outweighs that.** With posts at 0 in *every* window the hour can't be shown to be the cause,
+  so **not yet a reason to move it** — only to stop spending that slot on anything load-bearing.
+- **Facebook got worse again:** **24 rows, 2 total reach, 0 engagements**, down from 36 rows/5
+  reach. `best_times.json` still ranks Instagram only, and the Nov 12 one-caption change is right.
+  Keep posting, never optimise, never spend a pass on it.
+- **Follower counts are not the signal.** Instagram 817 → 816 (815 on Nov 14); Facebook 288 → 291,
+  and `insights.json` shows Facebook +74 over 60 days against **2 reach for the week**. A fact, not
+  growth, and **not to be cited as growth** anywhere.
+- **The writer failure mode has not recurred — two clean weeks.** Every night Nov 12–15 committed
+  its `bot: queue <date>` and market note two days ahead, and the volume cut landed: 5 items a day
+  from Nov 13. Keep checking every run.
+- **⚠ The cut's real cost was the two rows nobody protected, exactly as rule 9 predicted.** The
+  **Sun Nov 15 Spotlight was never written** (the replan the Nov 12 note asked for didn't happen;
+  the series is **still stuck at #8**) and the **Sat Nov 14 meme** went the same way: both days still
+  listed 5 feed rows, so Scribe took the top 3 by the brief's precedence order, where humor is 5th
+  and the Spotlight 4th. *Fix, applied Nov 16:* the plan now carries **exactly 3 feed rows a day**,
+  names the yielding requirement per day, and says the Wed/Sun Spotlight never yields.
+- **Both §5 defects are now clean, and the fixes work.** Dateless figures: **third clean week** —
+  every Nov 9–15 graphic with a market figure carried its period (the only sweep flags were court
+  form numbers DE-260/DE-265 and a "REAL ESTATE 101" kicker). Story disclaimers: the Nov 13 `s1`
+  probate quiz — the same shape of piece that went out bare on Nov 6 — carried "Not legal advice;
+  ask your own attorney." in its `explain` line, and no legal, tax or lending story published bare.
+  **Keep both sweeps every run**; they are cheap and they caught real problems twice.
+- **`quote` is now a story and `cta` stayed out — but only one of those has evidence.** Nov 9–15
+  reach-per-item: `process` 46.2, `compare` 40.0, `stat` 37.7, **`cta` 32.0**, `meme` 30.8, `quote`
+  29.5, `spotlight` 28.0, `quiz` 27.9, `tip` 25.8, `checklist` 20.8, `explainer` 13.0 — all on 0–1
+  engagements. **This week does NOT reproduce the anti-`cta` finding**: the one `cta` card sat
+  mid-pack among posts (26–54 reach). That directive stands because `insights.json` carries it and
+  3 feed items leave no spare slot, **not** because the data showed it again. `quote` lost its slot
+  for the reason that holds: reach with zero engagements is the cheapest thing to move off the feed.
+  **Never drop the weekly offer to satisfy the template directive** — Thursday's `cta_sub` meets it.
+- **The fetch wall is unpredictable, and there is one real workaround.** Nov 12: all three Freddie
+  Mac hosts returned `PROVENANCE_REQUIRED`. Nov 14: **`globenewswire.com` carries Freddie Mac's own
+  PMMS release and loaded first try** — try it before `freddiemac.com` on every rate run. Another
+  Nov 14 run got zero fetches; a third read `car.org` in full. **C.A.R. still has no October 2026
+  sales report** (four runs) and **FHFA still hasn't announced the 2027 conforming limits** (five
+  runs) — a lender's own limit is not the conforming limit. One ⚠ item a day, fallback named.
+- **`ca_cities.json` has an ACS table nobody had used** — Census ACS 2020–2024 median year built,
+  value, rent and units for all 265 cities. Weeks of `stat` rows with no fetch; first use Tue Nov 17.
+  **Never build a row on the owner/renter split** — tenure edges toward who lives where, and §5 wins.
+- **There is still no track, template or theme finding, and Mentor must not invent one.** 146 rows
+  sit in `track:untagged`; the tagged tracks read at or near 0.0%. Until a track has 4+ posts *and*
+  the account has reach worth measuring, "this track works" is not a finding — say the data is thin.
+  The recurring "write an extra Untagged piece" directive is an artifact of that bucket.
 
 ## 7. Standing rules for Mentor
 
 1. Never plan a topic without running `python -m bot.seen`. His real history is ~200 posts back to
    May 2026 in `data/posts.csv`, which predates this bot. Run `--plan` clean before pushing.
-2. Balance the week across audiences in section 3 — not five buyer posts in a row. Inheritors and
-   investors each got one piece in the Nov 2–8 week; give them two.
-3. ~~Keep one meme most days and exactly two motivational `quote` pieces a week.~~
-   **Superseded Nov 12 2026 by the volume cut — Scribe's note, Mentor to ratify Sunday.** At 3
-   feed items a day this rule cannot coexist with the daily questionnaire, the process/education
-   piece and the directive `stat`. CONTENT_BRIEF.md now says: **humor gets one feed slot a week
-   (Saturday) plus stories as available; `quote` is one a week and rides a story.** `quote` was
-   demoted first because §6 records it earning the highest reach-per-item of any template on zero
-   engagements — reach without conversion is the cheapest thing to move off the feed. Humor kept a
-   feed slot on its save rate. Rewrite or overrule this rule when you replan the week; it is
-   editorial judgment and it is yours, not Scribe's.
+2. Balance the week across the audiences in section 3 — not five buyer posts in a row. Inheritors,
+   investors and the sphere are the three that keep getting one slot; give them two or more.
+3. **Ratified Nov 16, 2026 — this replaces the old "a meme most days and two `quote` pieces".**
+   At 3 feed items a day: **humor gets one feed slot a week, Saturday**, plus a story when one is
+   free; **`quote` is one a week and rides a story.** Both registers stay in the mix per §2 — they
+   stop outbidding the educational floor. The three feed slots belong to Memo's Oct 28 ask (tips,
+   education, process, questionnaire, CTA). Humor keeps a feed slot on its save rate; `quote` lost
+   its because it earns reach and no engagements. Rewrite this when the data changes — it is
+   editorial judgment and it is Mentor's, not Scribe's.
 4. **The fresh-rate piece goes on SATURDAY.** PMMS publishes Thursdays at noon ET and Scribe writes
-   **two days** ahead (§6), so Saturday's queue is written Thursday evening, after the print.
-   Thursday's and Friday's are written before it. If the print hasn't advanced, don't rerun last
-   week's number — the brief only permits repeating a rate update that "carries a new weekly
-   number." Swap in a banked topic. Point Scribe at `freddiemac.gcs-web.com` first.
+   **two days** ahead, so Saturday's queue is written Thursday evening, after the print. If the
+   print hasn't advanced, don't rerun last week's number — the brief only permits repeating a rate
+   update that "carries a new weekly number." Swap in a banked topic. **Point Scribe at
+   `globenewswire.com` first** (§6), then `freddiemac.gcs-web.com`, then `www.freddiemac.com`.
 5. When the data contradicts this playbook, the data wins — and update this file to say so.
-6. **Memo's format ask (Oct 28, 2026): "more tips, education, process, questionnaire and CTA",
-   in a more luxury design.** Plan every day with at least one `process` piece, one questionnaire
-   (`checklist` or `quiz`), one education piece (`tip`, `explainer` or `compare`), and a clear
-   next step on everything. One offer of the 15-minute call a week. Name the template in the angle
-   column when it matters. CONTENT_BRIEF.md has the fields for each. Judge the new templates on
-   saves and DMs, not likes, once 4+ of each exist. **The daily `process` and education piece may
-   ride a story** — the brief requires only the questionnaire in the feed — but mark which story,
-   or it gets dropped. **When a directive bans a template, meet the underlying ask another way**
-   (`quiz` for a banned `checklist`; a campaign `cta` card or a `tip` with the tidycal `cta_sub`
-   for a banned `cta`). Never drop the requirement itself.
-7. **Agent attraction = a Spotlight series (Memo, Oct 28, 2026).** Every `agent_attraction` piece
-   uses `template: spotlight` and spotlights ONE thing: a perk, a tool, a training, a support line,
-   a cost line, an event, or (only with their written OK) an agent. Rotate through the list in
-   CONTENT_BRIEF.md and don't repeat a subject within 30 days (`knowledge/spotlight-log.csv`).
-8. **Plan one source-dependent item a day, maximum**, and give that slot to whatever has a hard
-   same-day rule — the Spotlight, or the rate piece. Mark it ⚠ in the plan. Everything else should
-   be writable with the fetch wall up. `data/market/ca_cities.json` (C.A.R. Sept 2026 counties,
-   Zillow ZHVI and ZORI, Realtor.com ZIP inventory) sources a `stat` row with no fetch at all —
-   use it for the daily `stat` the directives ask for.
-9. **Name the yielding row yourself (new Nov 9, 2026).** The directives reliably force an extra
-   `market_update`/`stat` row, and Scribe then cuts whichever planned piece no directive protects —
-   which has now cost the sphere tip twice, the second weekly `quote` once and the only
-   `investment` reel once. So plan the directive-satisfying `stat` row **in the table**, and when a
-   piece exists only because an audience needs it, say in the row that it must not be dropped.
-10. **Check that Scribe actually ran.** Compare the latest `bot: queue <date>` commit and the
-   newest `knowledge/market-notes/` file against today's date. A missing night means a near-empty
+6. **Memo's format ask (Oct 28, 2026): "more tips, education, process, questionnaire and CTA", in a
+   more luxury design.** Every day: at least one `process`, one questionnaire (`checklist`/`quiz`),
+   one education piece (`tip`/`explainer`/`compare`), a clear next step on everything, and the weekly
+   15-minute-call offer on Thursday as `cta_sub` on that day's client-facing feed piece. Name the
+   template in the angle column. **`process` and the education piece may ride a story** — only the
+   questionnaire must be in the feed — but mark which story or it gets dropped. **When a directive
+   bans a template, meet the ask another way** (`quiz` for `checklist`, `cta_sub` for `cta`); never
+   drop the requirement. Judge templates on saves and DMs, not likes.
+7. **Agent attraction = a Spotlight series (Memo, Oct 28, 2026),** `template: spotlight`, one
+   subject per post — a perk, tool, training, support line, cost line, event, or (only with written
+   OK, a photo file and a consent date) an agent. **Two a week, Wednesday and Sunday, in a reel
+   slot.** Rotate CONTENT_BRIEF's list, no repeat within 30 days (`spotlight-log.csv`), every fact
+   from an official Epique source read the same day.
+8. **One source-dependent item a day, maximum.** Give that slot to whatever has a hard same-day rule
+   (the Spotlight, or the rate piece), mark it ⚠, and **name the no-fetch fallback in the row.**
+   Everything else must be writable with the wall up — `ca_cities.json` sources a `stat` with no
+   fetch (Realtor.com ZIP inventory, Zillow ZHVI/ZORI, C.A.R. Sept 2026 counties, ACS 2020–2024).
+9. **Name the yielding row yourself, in the day heading.** The directives force an extra `stat` row
+   and the five daily requirements don't fit five pieces on a Spotlight day. If Mentor doesn't
+   choose, Scribe applies the brief's precedence list, which cuts humor (5th) and the Spotlight
+   (4th) — that lost the Sun Nov 15 Spotlight and the Sat Nov 14 meme. **Plan the `stat` in the
+   table, say which requirement yields, and say the Wed/Sun Spotlight never does.** When a piece
+   exists only because an audience needs it, say in the row that it must not be cut.
+10. **Check that Scribe actually ran.** Compare the latest `bot: queue <date>` commit and the newest
+   `knowledge/market-notes/` file against today's date. A missing night means a near-empty
    publishing day, and it belongs in the first line of the report.
+11. **Plan Tue–Sun, not Mon–Sat.** Scribe's 7:47pm PT run writes the queue for **two days later**,
+   so a Mon–Sat plan starves it two nights a week and Monday is already written by Sunday's run.
