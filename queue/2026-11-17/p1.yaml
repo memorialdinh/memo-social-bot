@@ -78,3 +78,38 @@ captions:
 sources:
 - https://data.census.gov/
 status: {}
+media:
+  instagram: queue/2026-11-17/media/p1-instagram.jpg
+  facebook: queue/2026-11-17/media/p1-facebook.jpg
+  linkedin: queue/2026-11-17/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-17/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-17T19:05-08:00
+  instagram: 2026-11-17T19:10-08:00
+  linkedin: 2026-11-17T19:09-08:00
+  tiktok: 2026-11-17T19:05-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: glow
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: porcelain
+    deco: grid
+    side: right
+    center: true
+    template: stat
+  linkedin:
+    theme: graphite
+    deco: rules
+    side: right
+    center: false
+    template: stat
+  tiktok:
+    theme: aurum
+    deco: rules
+    side: left
+    center: true
+    template: stat

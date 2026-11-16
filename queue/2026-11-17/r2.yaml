@@ -62,3 +62,38 @@ captions:
   tiktok: 'California sellers: TDS first, hazard report second, property forms third. Unsure about something? Disclose it.'
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-17/media/r2-instagram.mp4
+  facebook: queue/2026-11-17/media/r2-facebook.mp4
+  linkedin: queue/2026-11-17/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-17/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-17T11:08-08:00
+  instagram: 2026-11-17T11:02-08:00
+  linkedin: 2026-11-17T11:10-08:00
+  tiktok: 2026-11-17T11:09-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: rules
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: graphite
+    deco: glow
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: slate
+    deco: arcs
+    side: left
+    center: false
+    template: process
+  tiktok:
+    theme: goldrush
+    deco: dots
+    side: left
+    center: false
+    template: process

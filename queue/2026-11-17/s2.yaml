@@ -17,3 +17,22 @@ design:
   cta: DM 'BUYER' and we'll read yours
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-17/media/s2-instagram.jpg
+  facebook: queue/2026-11-17/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-17T10:09-08:00
+  instagram: 2026-11-17T08:07-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: grid
+    side: right
+    center: false
+    template: explainer
+  facebook:
+    theme: goldrush
+    deco: split
+    side: left
+    center: false
+    template: explainer

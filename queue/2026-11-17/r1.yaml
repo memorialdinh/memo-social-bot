@@ -55,3 +55,38 @@ captions:
   tiktok: The rate is your payment. The APR is what that payment costs you. Compare APR to APR.
 sources: []
 status: {}
+media:
+  instagram: queue/2026-11-17/media/r1-instagram.mp4
+  facebook: queue/2026-11-17/media/r1-facebook.mp4
+  linkedin: queue/2026-11-17/media/r1-linkedin.mp4
+  tiktok: queue/2026-11-17/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-11-17T09:09-08:00
+  instagram: 2026-11-17T09:06-08:00
+  linkedin: 2026-11-17T09:04-08:00
+  tiktok: 2026-11-17T09:05-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: monogram
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: carbon
+    deco: halo
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: silver
+    deco: frame
+    side: left
+    center: false
+    template: quiz
+  tiktok:
+    theme: graphite
+    deco: grid
+    side: left
+    center: false
+    template: quiz
