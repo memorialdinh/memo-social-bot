@@ -86,6 +86,10 @@ status:
     state: posted
     id: urn:li:ugcPost:7528150442430738432
     at: '2026-11-16T09:42:12-08:00'
+  tiktok:
+    state: missed
+    detail: more than 6:00:00 late
+    at: '2026-11-16T15:26:53-08:00'
 media:
   instagram: queue/2026-11-16/media/r1-instagram.mp4
   facebook: queue/2026-11-16/media/r1-facebook.mp4
