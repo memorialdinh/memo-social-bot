@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-16T18:35-08:00",
+  "updated": "2026-11-17T06:38-08:00",
   "scores": {
     "track:untagged": {
       "posts": 151,
-      "avg_rate": 0.0229,
+      "avg_rate": 0.0227,
       "avg_eng": 2.8,
-      "avg_save_rate": 0.0005,
+      "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0001
     },
     "kind:post": {
-      "posts": 202,
-      "avg_rate": 0.0115,
+      "posts": 204,
+      "avg_rate": 0.0113,
       "avg_eng": 1.0,
       "avg_save_rate": 0.0003,
-      "avg_share_rate": 0.005
+      "avg_share_rate": 0.0049
     },
     "platform:instagram": {
-      "posts": 282,
-      "avg_rate": 0.0141,
+      "posts": 283,
+      "avg_rate": 0.014,
       "avg_eng": 1.6,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0
@@ -30,15 +30,15 @@
       "avg_share_rate": 0.0001
     },
     "platform:facebook": {
-      "posts": 125,
-      "avg_rate": 0.0087,
+      "posts": 126,
+      "avg_rate": 0.0086,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.008
+      "avg_share_rate": 0.0079
     },
     "kind:story": {
       "posts": 115,
-      "avg_rate": 0.0097,
+      "avg_rate": 0.0096,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -51,11 +51,11 @@
       "avg_share_rate": 0.0
     },
     "track:market_update": {
-      "posts": 40,
-      "avg_rate": 0.0278,
+      "posts": 42,
+      "avg_rate": 0.0265,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.025
+      "avg_share_rate": 0.0238
     },
     "template:tip": {
       "posts": 46,
@@ -100,11 +100,11 @@
       "avg_share_rate": 0.0
     },
     "template:stat": {
-      "posts": 29,
-      "avg_rate": 0.0345,
+      "posts": 31,
+      "avg_rate": 0.0323,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0345
+      "avg_share_rate": 0.0323
     },
     "theme:noir": {
       "posts": 27,
@@ -177,8 +177,8 @@
       "avg_share_rate": 0.0
     },
     "theme:carbon": {
-      "posts": 25,
-      "avg_rate": 0.0027,
+      "posts": 26,
+      "avg_rate": 0.0026,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -191,7 +191,7 @@
       "avg_share_rate": 0.0
     },
     "theme:porcelain": {
-      "posts": 30,
+      "posts": 31,
       "avg_rate": 0.0015,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -255,11 +255,11 @@
     }
   },
   "directives": [
-    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 2.8% vs 0.0% over the last 60 days (40 vs 5 posts).",
+    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 2.6% vs 0.0% over the last 60 days (42 vs 5 posts).",
     "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.8% against 1.1% for static posts.",
-    "Untagged gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
+    "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
-    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.5%."
+    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.2%."
   ],
   "tips": [
     "Best-performing look: graphite (3.6%). Weakest: aurum (0.0%).",
@@ -268,8 +268,8 @@
   "followers": {
     "instagram": {
       "first": 817,
-      "latest": 815,
-      "change": -2
+      "latest": 816,
+      "change": -1
     },
     "facebook": {
       "first": 217,
@@ -307,19 +307,6 @@
     },
     {
       "platform": "instagram",
-      "posted_at": "2026-11-16T07:46-08:00",
-      "kind": "post",
-      "track": "",
-      "template": "",
-      "theme": "",
-      "caption": "Some of the best moments aren\u2019t about business. They\u2019re about the people, the friendships, and the memories we create along the way. \u2764\ufe0f\ud83d\ude4c  An",
-      "saves": 1,
-      "shares": 0,
-      "rate": 0.0571,
-      "permalink": "https://www.instagram.com/p/DfztbcQG4ZP/"
-    },
-    {
-      "platform": "instagram",
       "posted_at": "2026-10-28T09:08-07:00",
       "kind": "reel",
       "track": "",
@@ -343,6 +330,19 @@
       "shares": "0",
       "rate": "0.0633",
       "permalink": "https://www.instagram.com/p/DdpGrqfkiEq/"
+    },
+    {
+      "platform": "instagram",
+      "posted_at": "2026-11-16T07:46-08:00",
+      "kind": "post",
+      "track": "",
+      "template": "",
+      "theme": "",
+      "caption": "Some of the best moments aren\u2019t about business. They\u2019re about the people, the friendships, and the memories we create along the way. \u2764\ufe0f\ud83d\ude4c  An",
+      "saves": 1,
+      "shares": 0,
+      "rate": 0.0471,
+      "permalink": "https://www.instagram.com/p/DfztbcQG4ZP/"
     }
   ],
   "errors": []
