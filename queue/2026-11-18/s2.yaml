@@ -1,0 +1,20 @@
+id: s2
+kind: story
+track: market_update
+topic: Pending listings as a share of active listings across service cities Cerritos 66.7 percent Gardena 59.7 percent Long Beach 37.0 percent September 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: 'Cerritos: two under contract per three *for sale*.'
+  subhead: Pending as a share of active listings, Sept 2026.
+  stat_value: 66.7%
+  stat_label: Cerritos pending vs active listings, Sept 2026 (Realtor.com)
+  points:
+  - Cerritos 66.7%, Gardena 59.7%, Long Beach 37.0%
+  - Pending divided by active, September 2026. Realtor.com
+  - A higher share means less sitting inventory to pick from
+  cta: DM 'VALUE' for your home's number
+sources:
+- https://www.realtor.com/research/data/

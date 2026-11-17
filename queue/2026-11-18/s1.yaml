@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: buyer_education
+topic: Teaser for r2 quiz on which escrow mistake actually kills a loan
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Which one actually *kills* the loan?
+  subhead: Same escrow, two decisions.
+  options:
+  - A new car loan
+  - A large deposit you can't document
+  - Both of them
+  answer: C
+  explain: Both get caught before funding. General information, not lending advice.
+  reveal: false
+  cta: Reply BUYER with A, B or C
+sources: []

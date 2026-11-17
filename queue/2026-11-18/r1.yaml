@@ -1,0 +1,84 @@
+id: r1
+kind: reel
+track: seller_education
+topic: How a seller answers a buyer request for repairs after the home inspection in order
+time: auto
+approved: true
+design:
+  template: process
+  kicker: SELLER TIP
+  headline: How to answer a *request for repairs*.
+  subhead: General information, not legal advice. Your contract controls the timing.
+  steps:
+  - when: Step 1
+    title: Read the report, not the request
+    detail: The ask interprets findings. Go to the findings.
+  - when: Step 2
+    title: Price it before you answer
+    detail: One contractor number. A guess becomes a credit.
+  - when: Step 3
+    title: Pick your lane
+    detail: Repair, credit, price change or decline. Each hits your net differently.
+  - when: Step 4
+    title: Answer in writing, on time
+    detail: Your contract sets the window. Silence is an answer.
+  cta: Comment 'SELLER' for my repair checklist
+captions:
+  default: 'The inspection came back and the buyer sent a list. This is the part where sellers panic and overpay.
+
+
+    Here''s the order that keeps it calm.
+
+
+    1. Read the report before you read the request. The ask is someone''s interpretation of the findings. Go to the findings. Half the time the scary line item is a cheap fix described in alarming language.
+
+
+    2. Price it before you answer. One contractor number on the two or three real items. Sellers who negotiate off a feeling hand over a credit that''s double what the work costs, and they never find out.
+
+
+    3. Pick your lane. You can repair it, credit it, reduce the price, or decline. Those are four different things and they land differently — on your net, on the buyer''s loan, and on how much of escrow you spend coordinating trades. A credit is usually cleaner than a repair you have to schedule around a closing date.
+
+
+    4. Answer in writing, inside the window your contract gives you. That window is real. Not answering is still an answer, it''s just one you didn''t pick.
+
+
+    The thing nobody says out loud: a repair request is not a renegotiation of the price. It''s a response to information. Treat it that way and it stays small.
+
+
+    Which forms and timelines apply depends on your contract — your broker and your own attorney confirm that. General information, not legal advice.
+
+
+    Comment ''SELLER'' and I''ll send the checklist I actually work from.
+
+
+    #LongBeachRealEstate #LakewoodHomes #SouthBayHomes #TorranceRealEstate #CerritosHomes #HomeSelling #ListingAgent'
+  linkedin: 'The request for repairs is where a calm listing turns expensive, and almost always for the same reason: the seller negotiates off the request instead of off the report.
+
+
+    A workable sequence.
+
+
+    Read the findings first. The request is an interpretation of the inspection, not the inspection. Separating the two usually shrinks the list.
+
+
+    Price the real items before responding. A seller without a contractor number is negotiating against an unknown, and the credit that results is routinely larger than the cost of the work.
+
+
+    Then choose the instrument deliberately. Repair, credit, price reduction and decline are four different outcomes with different effects on net proceeds, on the buyer''s financing, and on how much of escrow gets spent coordinating trades around a closing date. A credit is frequently the cleaner path; it is not automatically the cheaper one.
+
+
+    Respond in writing inside the contractual window. Non-response is a position, and not usually the intended one.
+
+
+    The framing that holds all of it together: a repair request is a response to information, not a reopening of price. Sellers who hold that line concede less and close on time more often.
+
+
+    Which forms and timelines apply depends on the contract, and that is a question for the broker and the seller''s own counsel. General information, not legal advice.
+
+
+    What is the most common item you see sellers overpay to resolve?
+
+
+    #RealEstate #HomeSelling #Negotiation'
+  tiktok: 'read the report, not the request. price it, then answer in writing before your window closes. #homeselling #realestatetips #homeinspection #escrow #sellertips'
+sources: []
