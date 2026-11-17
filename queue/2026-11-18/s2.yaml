@@ -18,3 +18,23 @@ design:
   cta: DM 'VALUE' for your home's number
 sources:
 - https://www.realtor.com/research/data/
+status: {}
+media:
+  instagram: queue/2026-11-18/media/s2-instagram.jpg
+  facebook: queue/2026-11-18/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-18T10:02-08:00
+  instagram: 2026-11-18T08:08-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: corners
+    side: left
+    center: false
+    template: stat
+  facebook:
+    theme: noir
+    deco: beam
+    side: left
+    center: true
+    template: stat

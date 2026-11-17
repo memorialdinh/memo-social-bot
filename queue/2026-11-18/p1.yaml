@@ -68,3 +68,39 @@ captions:
     #RealEstate #Homeownership #ClientService'
   tiktok: 'keep the closing disclosure, the deed, the title policy, and every improvement receipt. scan it once. #homeowner #firsttimehomebuyer #realestatetips #longbeach #escrow'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-18/media/p1-instagram.jpg
+  facebook: queue/2026-11-18/media/p1-facebook.jpg
+  linkedin: queue/2026-11-18/media/p1-linkedin.jpg
+  tiktok: queue/2026-11-18/media/p1-tiktok.mp4
+schedule:
+  facebook: 2026-11-18T19:10-08:00
+  instagram: 2026-11-18T19:02-08:00
+  linkedin: 2026-11-18T19:06-08:00
+  tiktok: 2026-11-18T19:08-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: halo
+    side: right
+    center: false
+    template: tip
+  facebook:
+    theme: goldrush
+    deco: monogram
+    side: right
+    center: false
+    template: tip
+  linkedin:
+    theme: ivory
+    deco: halo
+    side: right
+    center: false
+    template: tip
+  tiktok:
+    theme: slate
+    deco: corners
+    side: left
+    center: false
+    template: tip

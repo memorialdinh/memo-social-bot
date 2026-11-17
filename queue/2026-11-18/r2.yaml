@@ -82,3 +82,39 @@ captions:
     #RealEstate #Mortgage #HomeBuying'
   tiktok: 'approved is not funded. no new credit, no job change, no unsourced deposits, no insurance lapse, no co-signing. #firsttimehomebuyer #mortgagetips #escrow #realestatetips #homebuying'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-18/media/r2-instagram.mp4
+  facebook: queue/2026-11-18/media/r2-facebook.mp4
+  linkedin: queue/2026-11-18/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-18/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-18T11:02-08:00
+  instagram: 2026-11-18T11:08-08:00
+  linkedin: 2026-11-18T11:09-08:00
+  tiktok: 2026-11-18T11:05-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: frame
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: silver
+    deco: grid
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: porcelain
+    deco: grid
+    side: left
+    center: false
+    template: checklist
+  tiktok:
+    theme: ivory
+    deco: frame
+    side: left
+    center: false
+    template: checklist
