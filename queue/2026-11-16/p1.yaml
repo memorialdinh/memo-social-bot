@@ -77,7 +77,19 @@ captions:
     #socalrealestate #housingmarket #realestatetips #firsttimehomebuyer #longbeach'
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/3qtr2026HAI
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18134563729764545'
+    at: '2026-11-16T19:52:25-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1177305155296916'
+    at: '2026-11-16T19:52:28-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7528304027906768896
+    at: '2026-11-16T19:52:30-08:00'
 media:
   instagram: queue/2026-11-16/media/p1-instagram.jpg
   facebook: queue/2026-11-16/media/p1-facebook.jpg
