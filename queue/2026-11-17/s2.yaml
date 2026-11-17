@@ -16,7 +16,11 @@ design:
   example: Taxes or the insurance premium rise, and the impound portion rises with them.
   cta: DM 'BUYER' and we'll read yours
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17911726584595585'
+    at: '2026-11-17T08:32:18-08:00'
 media:
   instagram: queue/2026-11-17/media/s2-instagram.jpg
   facebook: queue/2026-11-17/media/s2-facebook.jpg
