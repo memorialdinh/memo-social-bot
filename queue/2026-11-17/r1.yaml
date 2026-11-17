@@ -54,7 +54,19 @@ captions:
     Which one do your clients ask about first?'
   tiktok: The rate is your payment. The APR is what that payment costs you. Compare APR to APR.
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18223768546351686'
+    at: '2026-11-17T09:46:03-08:00'
+  facebook:
+    state: posted
+    id: '2236332317305161'
+    at: '2026-11-17T09:46:10-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7528513857313619968
+    at: '2026-11-17T09:46:17-08:00'
 media:
   instagram: queue/2026-11-17/media/r1-instagram.mp4
   facebook: queue/2026-11-17/media/r1-facebook.mp4
