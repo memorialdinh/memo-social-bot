@@ -18,7 +18,11 @@ design:
   cta: DM 'VALUE' for your home's number
 sources:
 - https://www.realtor.com/research/data/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18105655664565730'
+    at: '2026-11-18T09:06:44-08:00'
 media:
   instagram: queue/2026-11-18/media/s2-instagram.jpg
   facebook: queue/2026-11-18/media/s2-facebook.jpg

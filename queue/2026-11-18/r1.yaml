@@ -82,7 +82,11 @@ captions:
     #RealEstate #HomeSelling #Negotiation'
   tiktok: 'read the report, not the request. price it, then answer in writing before your window closes. #homeselling #realestatetips #homeinspection #escrow #sellertips'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18123932663515671'
+    at: '2026-11-18T09:06:36-08:00'
 media:
   instagram: queue/2026-11-18/media/r1-instagram.mp4
   facebook: queue/2026-11-18/media/r1-facebook.mp4
