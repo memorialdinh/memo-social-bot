@@ -4,6 +4,7 @@ Secrets used: META_PAGE_TOKEN, META_PAGE_ID, META_IG_ID
 """
 from __future__ import annotations
 
+import json
 import time
 from pathlib import Path
 
@@ -48,6 +49,20 @@ class Meta:
                           files={"source": (img.name, f, "image/jpeg")})
         return j.get("post_id") or j["id"]
 
+    def fb_album(self, imgs: list[Path], caption: str) -> str:
+        """Multi-photo Page post: upload each photo unpublished, then one feed post."""
+        ids = []
+        for img in imgs:
+            with open(img, "rb") as f:
+                ph = self.post(f"{self.page_id}/photos", data={"published": "false"},
+                               files={"source": (img.name, f, "image/jpeg")})
+            ids.append(ph["id"])
+        data = {"message": caption}
+        for i, pid in enumerate(ids):
+            data[f"attached_media[{i}]"] = json.dumps({"media_fbid": pid})
+        j = self.post(f"{self.page_id}/feed", data=data)
+        return j.get("id", "posted")
+
     def fb_story_photo(self, img: Path) -> str:
         with open(img, "rb") as f:
             ph = self.post(f"{self.page_id}/photos", data={"published": "false"},
@@ -90,6 +105,17 @@ class Meta:
         else:
             data["caption"] = caption
         c = self.post(f"{self.ig_id}/media", data=data)["id"]
+        return self._ig_publish(c)
+
+    def ig_carousel(self, image_urls: list[str], caption: str) -> str:
+        """2-10 JPEG slides, fetched by Instagram from public URLs."""
+        children = []
+        for url in image_urls[:10]:
+            c = self.post(f"{self.ig_id}/media", data={"image_url": url, "is_carousel_item": "true"})["id"]
+            self._ig_wait(c)
+            children.append(c)
+        c = self.post(f"{self.ig_id}/media", data={
+            "media_type": "CAROUSEL", "children": ",".join(children), "caption": caption})["id"]
         return self._ig_publish(c)
 
     def ig_reel(self, video: Path, caption: str) -> str:

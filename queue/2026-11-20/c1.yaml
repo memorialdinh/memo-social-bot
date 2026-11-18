@@ -1,0 +1,48 @@
+# Canva carousel Memo approved on Nov 18 2026. Takes the day's post slot (see CONTENT_BRIEF).
+id: c1
+kind: post
+carousel: true
+track: buyer_education
+topic: 'Buying in the South Bay: three moves before touring (pre-approval, must-haves, game plan)'
+time: auto
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Buying in the South Bay? Start Here.
+  template_note: Canva carousel, 4 slides
+  canva_link: https://www.canva.com/d/Geth0F_A8AAgESK
+captions:
+  default: 'Thinking about buying in the South Bay? Don''t start with Zillow. Start with these 3 moves. 👉
+
+
+    Comment BUYER and I''ll send you my step-by-step buyer checklist.
+
+
+    #SouthBayHomes #TorranceRealEstate #RedondoBeach #ManhattanBeach #ElSegundo #FirstTimeHomeBuyer #SouthBayRealEstate'
+  linkedin: 'The buyers who win offers usually did their homework before the first showing: a solid pre-approval, a clear list of must-haves and a game plan with their agent. Preparation beats speed.
+
+
+    Agents and lenders, what''s the #1 thing you wish buyers did earlier?
+
+
+    #RealEstate #HomeBuying #SouthBay'
+media_src:
+- https://export-download.canva.com/zVaJM/DAHbTWzVaJM/-1/0/0001-9112430545488765846.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261118T003201Z&X-Amz-Expires=79176&X-Amz-Signature=de7af712236232c5115a6d768ead6586b1f028c2914752e1982799b563095579&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2018%20Nov%202026%2022%3A31%3A37%20GMT
+- https://export-download.canva.com/zVaJM/DAHbTWzVaJM/-1/0/0002-9112430545488765846.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261118T035133Z&X-Amz-Expires=67424&X-Amz-Signature=3acaa820e226d755ffb801e2f8984d8fbbb13fdb5d81d799fa4f03fd41a27f3b&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2018%20Nov%202026%2022%3A35%3A17%20GMT
+- https://export-download.canva.com/zVaJM/DAHbTWzVaJM/-1/0/0003-9112430545488765846.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261118T015924Z&X-Amz-Expires=74977&X-Amz-Signature=346b903f9e8f4d82c1e01063b0b7c91773fae07a63d8bb476ac908a9854f1070&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2018%20Nov%202026%2022%3A49%3A01%20GMT
+- https://export-download.canva.com/zVaJM/DAHbTWzVaJM/-1/0/0004-9112430545488765846.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261117T230602Z&X-Amz-Expires=84726&X-Amz-Signature=b1b817329c14840e3b00618cb5d0740f1c0ae95e79b8fed3f03e18e2494ca9d6&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2018%20Nov%202026%2022%3A38%3A08%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva

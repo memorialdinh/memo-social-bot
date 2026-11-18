@@ -1559,6 +1559,8 @@ def _stamp(item: Item, plat: str):
 
 
 def render_item(item: Item, force: bool = False) -> list[str]:
+    if item.is_carousel:
+        return []  # slides come finished from Canva (tools/fetch_media.py downloads them)
     made = []
     changed = False
     mdir = item.path.parent / "media"

@@ -38,7 +38,31 @@ def log(row: dict):
         w.writerow(row)
 
 
+def post_carousel(item: Item, plat: str, clients: dict) -> tuple[str, str]:
+    slides = item.media_paths(plat)
+    if len(slides) < 2 or not all(p.exists() for p in slides):
+        raise RuntimeError("carousel slides missing — tools/fetch_media.py hasn't downloaded them")
+    cap = item.caption(plat)
+    title = (item.d.get("design") or {}).get("headline", "").replace("*", "")
+    m, li = clients["meta"], clients["linkedin"]
+    if plat == "instagram":
+        if not m.ready_ig():
+            return "waiting", "instagram keys not set"
+        return "posted", m.ig_carousel([public_url(str(p.relative_to(ROOT))) for p in slides], cap)
+    if plat == "facebook":
+        if not m.ready_fb():
+            return "waiting", "facebook keys not set"
+        return "posted", m.fb_album(slides, cap)
+    if plat == "linkedin":
+        if not li.ready():
+            return "waiting", "linkedin keys not set"
+        return "posted", li.post_multi(slides, cap, title)
+    return "skipped", f"carousels not supported on {plat}"
+
+
 def post_one(item: Item, plat: str, clients: dict) -> tuple[str, str]:
+    if item.is_carousel:
+        return post_carousel(item, plat, clients)
     media = item.media_path(plat)
     if not media or not media.exists():
         raise RuntimeError("media missing — render step hasn't run")

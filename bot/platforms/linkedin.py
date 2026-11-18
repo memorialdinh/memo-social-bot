@@ -102,6 +102,21 @@ class LinkedIn:
             time.sleep(5)
         return urn
 
+    def post_multi(self, imgs: list[Path], text: str, alt: str = "") -> str:
+        """Multi-image post (2-20 images) — how a carousel shows on LinkedIn."""
+        images = [{"id": self._upload_image(p), "altText": (alt or "Memo Dinh")[:120]} for p in imgs[:20]]
+        body = {
+            "author": self.author,
+            "commentary": little_text(text),
+            "visibility": "PUBLIC",
+            "distribution": {"feedDistribution": "MAIN_FEED", "targetEntities": [], "thirdPartyDistributionChannels": []},
+            "content": {"multiImage": {"images": images}},
+            "lifecycleState": "PUBLISHED",
+            "isReshareDisabledByAuthor": False,
+        }
+        r = http("POST", f"{API}/posts", headers=self._h(), json=body)
+        return r.headers.get("x-restli-id") or r.headers.get("x-linkedin-id") or "posted"
+
     def post(self, media: Path, text: str, title: str = "") -> str:
         urn = self._upload_video(media) if media.suffix == ".mp4" else self._upload_image(media)
         body = {

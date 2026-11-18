@@ -82,9 +82,22 @@ class Item:
             return False
         return self.d.get("approved") is False
 
-    def media_path(self, platform: str) -> Path | None:
+    @property
+    def is_carousel(self) -> bool:
+        """A multi-slide post (Nov 18 2026: Canva carousels Memo designs and approves).
+        Its media entries are lists of slide images, already made — never rendered."""
+        return bool(self.d.get("carousel"))
+
+    def media_paths(self, platform: str) -> list[Path]:
         rel = self.d["media"].get(platform)
-        return (ROOT / rel) if rel else None
+        if not rel:
+            return []
+        rels = rel if isinstance(rel, list) else [rel]
+        return [ROOT / r for r in rels]
+
+    def media_path(self, platform: str) -> Path | None:
+        paths = self.media_paths(platform)
+        return paths[0] if paths else None
 
     def scheduled_at(self, platform: str) -> datetime | None:
         s = self.d["schedule"].get(platform)

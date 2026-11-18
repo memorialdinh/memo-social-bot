@@ -1,0 +1,48 @@
+# Canva carousel Memo approved on Nov 18 2026. Takes the day's post slot (see CONTENT_BRIEF).
+id: c1
+kind: post
+carousel: true
+track: seller_education
+topic: 'Thinking of selling: what buyers notice first (curb appeal, light and space, right price)'
+time: auto
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Thinking of Selling? What Buyers See First
+  template_note: Canva carousel, 4 slides
+  canva_link: https://www.canva.com/d/QPnCDXpkCExduEN
+captions:
+  default: 'Buyers make up their minds in seconds. Here''s what they notice first, and how to make it count. 👉
+
+
+    DM me VALUE for your home''s number.
+
+
+    #LakewoodHomes #CerritosHomes #LongBeachRealEstate #SellingYourHome #HomeSellerTips #SoCalRealEstate #CypressCA'
+  linkedin: 'Curb appeal, light and pricing. None of these are new ideas, but sellers still skip them. A fresh coat of paint on the front door and an accurate list price often do more than a big renovation.
+
+
+    What''s the most cost-effective pre-listing fix you''ve seen work?
+
+
+    #RealEstate #HomeSelling #HousingMarket'
+media_src:
+- https://export-download.canva.com/guGSk/DAHbTbguGSk/-1/0/0001-4949978592602072550.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261117T213627Z&X-Amz-Expires=91472&X-Amz-Signature=b43635c2a2e422f6000575dd42cce23378fff470f66838771bc568bf7f3a36a3&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2018%20Nov%202026%2023%3A00%3A59%20GMT
+- https://export-download.canva.com/guGSk/DAHbTbguGSk/-1/0/0002-4949978592602072550.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261118T140726Z&X-Amz-Expires=32420&X-Amz-Signature=1d971b43ba25a5c67e9ccddd309da9570b59c8fe44748e7223010d01b7401e6c&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2018%20Nov%202026%2023%3A07%3A46%20GMT
+- https://export-download.canva.com/guGSk/DAHbTbguGSk/-1/0/0003-4949978592602072550.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261118T082037Z&X-Amz-Expires=54134&X-Amz-Signature=5d3310f3526fc3b1cb0e362b30df66e2984a5157f7a823c9a4e273b58a6557ea&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2018%20Nov%202026%2023%3A22%3A51%20GMT
+- https://export-download.canva.com/guGSk/DAHbTbguGSk/-1/0/0004-4949978592602072550.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261118T063227Z&X-Amz-Expires=58262&X-Amz-Signature=891c2fdcaffbba5b23f30c69d833d87b96ec2742f5a424295cd9f434df2c1d50&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2018%20Nov%202026%2022%3A43%3A29%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva

@@ -88,6 +88,12 @@ report rather than going over.
   Leave both alone. Write p1–p3, r1–r2 and **s1–s4 only** on those days (5 stories total, as usual).
   Don't repeat a w1 topic in p1–p3 that same week.
 - If `queue/<date>/p0.yaml` already exists (the Birthday Club shoutout), leave it and write p1–p3 as usual.
+- **Canva carousels (Memo, Nov 18 2026: "add this into my social media daily post").** If
+  `queue/<date>/c1.yaml` exists, it is a 4-slide carousel Memo designed in Canva and approved. It
+  **is that day's post slot**: leave it alone, write **no p1**, and fill the rest of the day with
+  r1–r2 and s1–s2 as usual, so the day stays at 3 feed items. Don't repeat its topic in the reels,
+  and let `s1` tease it ("Swipe through today's post 👉"). Carousels post to Instagram, Facebook and
+  LinkedIn only; TikTok gets nothing from a carousel day beyond the reels.
 
 ## The mix Memo asked for — tips, education, process, questionnaires, CTA (Oct 28, 2026)
 
