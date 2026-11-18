@@ -87,6 +87,14 @@ status:
     state: posted
     id: '18123932663515671'
     at: '2026-11-18T09:06:36-08:00'
+  facebook:
+    state: posted
+    id: '1807915680423883'
+    at: '2026-11-18T10:05:05-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7528881008662843394
+    at: '2026-11-18T10:05:13-08:00'
 media:
   instagram: queue/2026-11-18/media/r1-instagram.mp4
   facebook: queue/2026-11-18/media/r1-facebook.mp4
