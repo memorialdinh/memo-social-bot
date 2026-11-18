@@ -16,3 +16,23 @@ design:
   example: It ignores expenses completely. Taxes, insurance, vacancy and repairs never enter it, so two buildings with the same GRM can net very different amounts.
   cta: DM 'INVEST' for the worksheet
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-19/media/s2-instagram.jpg
+  facebook: queue/2026-11-19/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-19T10:09-08:00
+  instagram: 2026-11-19T08:02-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: glow
+    side: left
+    center: false
+    template: explainer
+  facebook:
+    theme: goldrush
+    deco: arcs
+    side: left
+    center: false
+    template: explainer

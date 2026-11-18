@@ -79,3 +79,39 @@ captions:
     #RealEstateInvesting #PropertyManagement #RealEstate'
   tiktok: 'lost rent, the turn, the re-listing, and the gap before they actually pay. one empty month is four costs. #realestateinvesting #rentalproperty #landlord #investing101 #realestatetips'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-19/media/r2-instagram.mp4
+  facebook: queue/2026-11-19/media/r2-facebook.mp4
+  linkedin: queue/2026-11-19/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-19/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-19T11:06-08:00
+  instagram: 2026-11-19T11:06-08:00
+  linkedin: 2026-11-19T11:11-08:00
+  tiktok: 2026-11-19T11:02-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: split
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: noir
+    deco: rules
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: silver
+    deco: corners
+    side: left
+    center: false
+    template: process
+  tiktok:
+    theme: ivory
+    deco: halo
+    side: left
+    center: false
+    template: process
