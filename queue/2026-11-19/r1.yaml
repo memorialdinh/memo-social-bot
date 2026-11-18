@@ -1,0 +1,65 @@
+id: r1
+kind: reel
+track: investment
+topic: Rent roll versus a T-12 which document shows what an investment property actually earned
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Which one shows what it *actually earned*?
+  subhead: Two documents. Only one looks backwards.
+  options:
+  - The rent roll
+  - The T-12
+  - Both say the same
+  answer: B
+  explain: The rent roll is today's snapshot of who is in which unit and at what rent. The T-12 is twelve months of what was actually collected and actually spent.
+  cta: DM 'INVEST' for my rent-roll checklist
+captions:
+  default: 'Every small-multifamily deal comes with both of these. Only one of them tells you what happened.
+
+
+    The rent roll is a snapshot. Who''s in which unit, what they pay, when their lease ends. It''s today, on paper.
+
+
+    The T-12 is a trailing twelve-month statement. What actually came in, what actually went out, month by month, for a year.
+
+
+    Why the difference matters: a rent roll can show a building fully leased at strong rents and say nothing about the two months it sat empty last spring, the roof repair, or the tenant who paid late six times.
+
+
+    The rent roll tells you the plan. The T-12 tells you the year.
+
+
+    When they disagree, the T-12 usually wins, and the gap between them is the most interesting thing in the whole package. Ask what happened in the months that look thin.
+
+
+    Answer: B.
+
+
+    DM me ''INVEST'' and I''ll send the checklist I run on a rent roll before I believe it.
+
+
+    #LongBeachRealEstate #SouthBayHomes #RealEstateInvesting #LongBeachInvestor #RentalProperty #MultiFamily #LakewoodHomes'
+  linkedin: 'A question I''d ask any investor reviewing their first small-multifamily package: which of these two documents are you actually underwriting from?
+
+
+    The rent roll is a point-in-time snapshot. Unit, tenant, rent, lease expiry. It describes the building as it is presented today.
+
+
+    The T-12 is a trailing twelve-month operating statement. Collected income and paid expenses, month by month, across a full year.
+
+
+    They answer different questions, and the common error is treating the first as evidence for the second. A rent roll can show full occupancy at strong asking rents while the T-12 shows two vacant months, a capital repair and a pattern of late payment. Nothing in the rent roll is false. It simply isn''t a record of performance.
+
+
+    The practical discipline: underwrite from the T-12, use the rent roll to explain it, and treat any month that looks unusually thin as a question rather than an anomaly.
+
+
+    For the investors and brokers here: when the two disagree, what''s your first call?
+
+
+    #RealEstateInvesting #MultifamilyInvesting #RealEstate'
+  tiktok: 'the rent roll is the plan. the t-12 is the year. underwrite from the one that already happened. #realestateinvesting #rentalproperty #multifamily #investing101 #realestatetips'
+sources: []

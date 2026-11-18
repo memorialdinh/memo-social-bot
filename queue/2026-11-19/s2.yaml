@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: investment
+topic: Gross rent multiplier what it is and the one thing it leaves out entirely
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: INVESTOR MATH
+  headline: The fastest number, and its *blind spot*.
+  subhead: General information, not investment or tax advice.
+  term: Gross rent multiplier
+  pos: noun · investor shorthand
+  definition: Price divided by a year's gross rent. A one-line way to line two buildings up next to each other.
+  why: It is quick, it needs two inputs, and it is the first filter most investors run.
+  example: It ignores expenses completely. Taxes, insurance, vacancy and repairs never enter it, so two buildings with the same GRM can net very different amounts.
+  cta: DM 'INVEST' for the worksheet
+sources: []

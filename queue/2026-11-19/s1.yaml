@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: investment
+topic: Teaser for r1 quiz on whether the rent roll or the T-12 shows what a building actually earned
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Rent roll or *T-12*?
+  subhead: One is today. One is twelve months of it. General information, not investment advice.
+  options:
+  - The rent roll
+  - The T-12
+  - Both say the same
+  answer: B
+  explain: The T-12 is twelve months of what was actually collected and spent. General information, not investment advice.
+  reveal: false
+  cta: Reply INVEST with A, B or C
+sources: []

@@ -8,7 +8,7 @@ design:
   template: quiz
   kicker: POP QUIZ
   headline: Which one actually *kills* the loan?
-  subhead: Same escrow, two decisions.
+  subhead: Same escrow, two decisions. General information, not lending advice.
   options:
   - A new car loan
   - A large deposit you can't document

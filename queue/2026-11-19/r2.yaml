@@ -1,0 +1,81 @@
+id: r2
+kind: reel
+track: investment
+topic: What one vacant month actually costs a landlord the lost rent the turn the re-listing and the gap before a new tenant pays
+time: auto
+approved: true
+design:
+  template: process
+  kicker: INVESTOR MATH
+  headline: What one *empty month* really costs.
+  subhead: Four line items, in the order they hit.
+  steps:
+  - when: Day 1
+    title: The rent stops
+    detail: One vacant month is a twelfth of the year's income, gone.
+  - when: Week 1
+    title: The turn starts
+    detail: Clean, paint and repairs the last deposit may not cover.
+  - when: Week 2
+    title: You market it
+    detail: Photos, listing fees, showings and screening all cost time.
+  - when: Week 4+
+    title: The gap keeps running
+    detail: Rent restarts when they pay, not when they sign.
+  cta: DM 'INVEST' for the vacancy worksheet
+captions:
+  default: '"It''s only one month." It is almost never only one month.
+
+
+    Here''s the order it actually happens in:
+
+
+    1. The rent stops. One vacant month is a twelfth of that unit''s annual income, and it''s gone whether or not you fill it quickly.
+
+
+    2. The turn starts. Clean, paint, the carpet, the fixes the last tenant''s deposit doesn''t fully cover. This is the part people forget to price.
+
+
+    3. You market it. Photos, listing fees, showings, applications, screening. Mostly your time, which is still a cost.
+
+
+    4. The gap keeps running. A signed lease is not money. Rent restarts the day they pay, and that''s often weeks after the handshake.
+
+
+    Stack those four and a "one month" vacancy routinely runs longer and costs more than the rent you lost. Which is why holding a good tenant at slightly under market is sometimes the better financial decision, not the softer one.
+
+
+    I''m not going to put a dollar figure on this, because yours depends on your unit, your market and your turn. DM me ''INVEST'' and I''ll send the worksheet to run your own.
+
+
+    #LongBeachRealEstate #RealEstateInvesting #RentalProperty #LandlordLife #LongBeachInvestor #SouthBayHomes #LakewoodHomes'
+  linkedin: 'Vacancy is the line item investors most often underprice, and the reason is that it gets modelled as lost rent alone.
+
+
+    In sequence, one vacant month carries four costs:
+
+
+    Lost rent. A twelfth of that unit''s annual income, unrecoverable regardless of how fast it refills.
+
+
+    Turn cost. Cleaning, paint, flooring and deferred repairs, less whatever the departing deposit actually covers, which is usually less than expected.
+
+
+    Re-letting cost. Photography, listing fees, showing time, application processing and screening. Largely time rather than cash, and time is the cost most spreadsheets omit.
+
+
+    The lease-to-payment gap. Execution is not collection. Rent restarts on the first payment, not on signature, and that gap is frequently measured in weeks.
+
+
+    The implication is a pricing decision rather than an operational one. Renewing a reliable tenant marginally below market often outperforms a turn at full market rent once all four lines are counted. That is arithmetic, not sentiment.
+
+
+    Any dollar figure here would be specific to the unit and the market, so I''ve deliberately left them out.
+
+
+    Investors and property managers: how do you carry vacancy in your underwriting?
+
+
+    #RealEstateInvesting #PropertyManagement #RealEstate'
+  tiktok: 'lost rent, the turn, the re-listing, and the gap before they actually pay. one empty month is four costs. #realestateinvesting #rentalproperty #landlord #investing101 #realestatetips'
+sources: []
