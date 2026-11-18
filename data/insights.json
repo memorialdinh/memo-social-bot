@@ -1,26 +1,12 @@
 {
-  "updated": "2026-11-17T18:37-08:00",
+  "updated": "2026-11-18T06:32-08:00",
   "scores": {
     "track:untagged": {
-      "posts": 155,
-      "avg_rate": 0.0229,
-      "avg_eng": 2.8,
+      "posts": 154,
+      "avg_rate": 0.0221,
+      "avg_eng": 2.6,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0001
-    },
-    "kind:post": {
-      "posts": 206,
-      "avg_rate": 0.0116,
-      "avg_eng": 1.1,
-      "avg_save_rate": 0.0002,
-      "avg_share_rate": 0.0049
-    },
-    "platform:instagram": {
-      "posts": 289,
-      "avg_rate": 0.0141,
-      "avg_eng": 1.6,
-      "avg_save_rate": 0.0003,
-      "avg_share_rate": 0.0
     },
     "kind:reel": {
       "posts": 92,
@@ -29,9 +15,23 @@
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0001
     },
+    "platform:instagram": {
+      "posts": 289,
+      "avg_rate": 0.0137,
+      "avg_eng": 1.5,
+      "avg_save_rate": 0.0003,
+      "avg_share_rate": 0.0
+    },
+    "kind:post": {
+      "posts": 207,
+      "avg_rate": 0.0111,
+      "avg_eng": 0.9,
+      "avg_save_rate": 0.0002,
+      "avg_share_rate": 0.0048
+    },
     "platform:facebook": {
-      "posts": 128,
-      "avg_rate": 0.0085,
+      "posts": 129,
+      "avg_rate": 0.0084,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0078
@@ -51,11 +51,11 @@
       "avg_share_rate": 0.0
     },
     "track:market_update": {
-      "posts": 42,
-      "avg_rate": 0.0265,
+      "posts": 44,
+      "avg_rate": 0.026,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0238
+      "avg_share_rate": 0.0227
     },
     "template:tip": {
       "posts": 46,
@@ -93,18 +93,18 @@
       "avg_share_rate": 0.0
     },
     "theme:goldrush": {
-      "posts": 30,
-      "avg_rate": 0.0022,
+      "posts": 31,
+      "avg_rate": 0.0032,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:stat": {
-      "posts": 31,
-      "avg_rate": 0.0323,
-      "avg_eng": 0.0,
+      "posts": 33,
+      "avg_rate": 0.0313,
+      "avg_eng": 0.1,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0323
+      "avg_share_rate": 0.0303
     },
     "theme:noir": {
       "posts": 27,
@@ -191,8 +191,8 @@
       "avg_share_rate": 0.0
     },
     "theme:porcelain": {
-      "posts": 31,
-      "avg_rate": 0.0015,
+      "posts": 32,
+      "avg_rate": 0.0014,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -255,11 +255,11 @@
     }
   },
   "directives": [
-    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 2.6% vs 0.0% over the last 60 days (42 vs 5 posts).",
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.8% against 1.2% for static posts.",
+    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 2.6% vs 0.0% over the last 60 days (44 vs 5 posts).",
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.8% against 1.1% for static posts.",
     "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
-    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.2%."
+    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.1%."
   ],
   "tips": [
     "Best-performing look: graphite (3.6%). Weakest: aurum (0.0%).",
@@ -333,16 +333,16 @@
     },
     {
       "platform": "instagram",
-      "posted_at": "2026-11-16T07:46-08:00",
-      "kind": "post",
+      "posted_at": "2026-10-29T09:02-07:00",
+      "kind": "reel",
       "track": "",
       "template": "",
       "theme": "",
-      "caption": "Some of the best moments aren\u2019t about business. They\u2019re about the people, the friendships, and the memories we create along the way. \u2764\ufe0f\ud83d\ude4c  An",
-      "saves": 1,
-      "shares": 0,
-      "rate": 0.0412,
-      "permalink": "https://www.instagram.com/p/DfztbcQG4ZP/"
+      "caption": "Daily routine",
+      "saves": "1",
+      "shares": "0",
+      "rate": "0.0583",
+      "permalink": "https://www.instagram.com/reel/DfFYiDmzWjj/"
     }
   ],
   "errors": []
