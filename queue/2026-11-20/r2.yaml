@@ -18,44 +18,96 @@ design:
   - Realtor.com ZIP inventory, Oct 2026. Not a forecast.
   cta: DM 'VALUE' for your city's number
 captions:
-  default: |-
-    In Gardena in October 2026, 32 homes came on the market and 36 went under contract. More left the shelf than arrived on it.
+  default: 'In Gardena in October 2026, 32 homes came on the market and 36 went under contract. More left the shelf than arrived on it.
+
 
     A few cities over, the balance ran the other way.
 
+
     New listings against pending, October 2026 (Realtor.com ZIP inventory):
 
+
     Gardena 32 new / 36 pending
+
     Long Beach 236 new / 175 pending
+
     Torrance 88 new / 76 pending
+
 
     What this measures: supply arriving versus supply getting absorbed, in one month, in one city.
 
-    What it doesn't measure: anything about November, or what your house is worth. I'm telling you what October counted and stopping there.
 
-    Why it matters anyway. If you're selling in a city where more is going under contract than coming on, you have less competition on the shelf beside you. If you're buying there, you're looking at a thinner list.
+    What it doesn''t measure: anything about November, or what your house is worth. I''m telling you what October counted and stopping there.
 
-    This is also why "how's the market" has no single answer across eight cities. It had three different answers in one month.
+
+    Why it matters anyway. If you''re selling in a city where more is going under contract than coming on, you have less competition on the shelf beside you. If you''re buying there, you''re looking at a thinner list.
+
+
+    This is also why "how''s the market" has no single answer across eight cities. It had three different answers in one month.
+
 
     Source: Realtor.com Residential Data, monthly inventory by ZIP code, October 2026.
 
-    DM me 'VALUE' and I'll pull your city's October numbers and your home's range.
 
-    #LongBeachRealEstate #SouthBayHomes #GardenaCA #TorranceCA #SoCalRealEstate #LakewoodCA
-  linkedin: |-
-    One month, three cities, three different balances between supply arriving and supply being absorbed.
+    DM me ''VALUE'' and I''ll pull your city''s October numbers and your home''s range.
 
-    New listings against pending sales, October 2026, from Realtor.com's monthly ZIP-level inventory data: Gardena 32 new and 36 pending; Long Beach 236 new and 175 pending; Torrance 88 new and 76 pending.
+
+    #LongBeachRealEstate #SouthBayHomes #GardenaCA #TorranceCA #SoCalRealEstate #LakewoodCA'
+  linkedin: 'One month, three cities, three different balances between supply arriving and supply being absorbed.
+
+
+    New listings against pending sales, October 2026, from Realtor.com''s monthly ZIP-level inventory data: Gardena 32 new and 36 pending; Long Beach 236 new and 175 pending; Torrance 88 new and 76 pending.
+
 
     Gardena is the one worth sitting with. Fewer homes came on than went under contract, which means the active list got shorter over the month rather than longer. Long Beach and Torrance ran the other direction.
 
+
     Two cautions on reading this. It is one month of counts, not a trend, and it says nothing about where any of these markets go next. And it is city-level, which still averages over very different streets and price bands inside each city.
 
-    What it is useful for is calibration. A seller's competition and a buyer's option set are local in a way that regional commentary flattens out.
+
+    What it is useful for is calibration. A seller''s competition and a buyer''s option set are local in a way that regional commentary flattens out.
+
 
     For the agents and analysts here: at what geographic level do you find this comparison actually becomes decision-useful?
 
-    #RealEstate #HousingMarket #MarketData
-  tiktok: "gardena, october 2026: 32 homes came on, 36 went under contract. long beach ran the other way. #realestate #housingmarket #longbeach #southbay #marketupdate"
+
+    #RealEstate #HousingMarket #MarketData'
+  tiktok: 'gardena, october 2026: 32 homes came on, 36 went under contract. long beach ran the other way. #realestate #housingmarket #longbeach #southbay #marketupdate'
 sources:
 - https://www.realtor.com/research/data/
+status: {}
+media:
+  instagram: queue/2026-11-20/media/r2-instagram.mp4
+  facebook: queue/2026-11-20/media/r2-facebook.mp4
+  linkedin: queue/2026-11-20/media/r2-linkedin.mp4
+  tiktok: queue/2026-11-20/media/r2-tiktok.mp4
+schedule:
+  facebook: 2026-11-20T11:05-08:00
+  instagram: 2026-11-20T11:02-08:00
+  linkedin: 2026-11-20T11:11-08:00
+  tiktok: 2026-11-20T11:04-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: frame
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: goldrush
+    deco: frame
+    side: left
+    center: false
+    template: stat
+  linkedin:
+    theme: carbon
+    deco: monogram
+    side: left
+    center: false
+    template: stat
+  tiktok:
+    theme: silver
+    deco: glow
+    side: left
+    center: true
+    template: stat

@@ -18,39 +18,88 @@ design:
   score: Blank on two or more? That's your *next conversation*.
   cta: Comment 'SELLER' for my offer checklist
 captions:
-  default: |-
-    Two offers can show the same price and close completely differently.
+  default: 'Two offers can show the same price and close completely differently.
+
 
     The price is the headline. The loan behind it is the story.
 
+
     Five things worth knowing before you sign:
+
 
     1. The loan type. Cash, conventional, FHA or VA. Each one has its own appraisal rules, its own timeline and its own repair expectations.
 
+
     2. Pre-approval or pre-qualification. A pre-qualification is a conversation. A pre-approval means a lender actually looked at documents.
+
 
     3. The down payment, and where it is coming from. Money that has been in the account for months behaves differently than money that arrived last week.
 
+
     4. The loan contingency window. That is how long the buyer can walk and keep their deposit while the loan is still being underwritten.
+
 
     5. The appraisal contingency. Still in, or waived? That one line decides what happens if the appraisal comes in under your price.
 
+
     None of this means you should pick one loan type over another. It means you should know which one you are agreeing to before you agree to it.
 
-    Comment 'SELLER' and I'll send you the checklist I run on every offer that comes in.
 
-    #LongBeachRealEstate #SouthBayHomes #LakewoodCA #TorranceCA #CerritosCA #SoCalRealEstate #HomeSelling
-  linkedin: |-
-    A pattern worth naming for anyone advising sellers: the offer comparison almost always starts with price, and price is the part of an offer least likely to change what actually happens next.
+    Comment ''SELLER'' and I''ll send you the checklist I run on every offer that comes in.
+
+
+    #LongBeachRealEstate #SouthBayHomes #LakewoodCA #TorranceCA #CerritosCA #SoCalRealEstate #HomeSelling'
+  linkedin: 'A pattern worth naming for anyone advising sellers: the offer comparison almost always starts with price, and price is the part of an offer least likely to change what actually happens next.
+
 
     The financing terms are where the risk sits. Five lines that deserve a read before acceptance:
 
+
     The loan type, because appraisal rules, timelines and repair expectations differ across cash, conventional, FHA and VA. Whether the buyer holds a pre-approval or a pre-qualification, which are not the same document. The source and seasoning of the down payment funds. The length of the loan contingency, which defines the window in which the buyer can withdraw with their deposit intact. And whether the appraisal contingency has been waived, which determines what happens if the valuation lands under the contract price.
+
 
     The point is not that one loan type is preferable. It is that the strongest-looking offer and the most likely offer to close are not automatically the same offer, and the difference is usually visible before acceptance rather than after.
 
+
     For the agents and lenders here: which of these five do you find sellers are most often surprised by?
 
-    #RealEstate #HomeSelling #Mortgage
-  tiktok: "the price is the headline. the loan behind it is the story. five things to ask before you accept. #realestatetips #homeselling #sellertips #realestate101 #mortgage"
+
+    #RealEstate #HomeSelling #Mortgage'
+  tiktok: 'the price is the headline. the loan behind it is the story. five things to ask before you accept. #realestatetips #homeselling #sellertips #realestate101 #mortgage'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-20/media/r1-instagram.mp4
+  facebook: queue/2026-11-20/media/r1-facebook.mp4
+  linkedin: queue/2026-11-20/media/r1-linkedin.mp4
+  tiktok: queue/2026-11-20/media/r1-tiktok.mp4
+schedule:
+  facebook: 2026-11-20T09:07-08:00
+  instagram: 2026-11-20T09:09-08:00
+  linkedin: 2026-11-20T09:10-08:00
+  tiktok: 2026-11-20T09:11-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: corners
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: silver
+    deco: dots
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: goldrush
+    deco: beam
+    side: left
+    center: false
+    template: checklist
+  tiktok:
+    theme: aurum
+    deco: frame
+    side: left
+    center: false
+    template: checklist
