@@ -1,0 +1,59 @@
+# Canva carousel, auto-made every 2 days (Memo, Nov 18 2026). Takes the day's post slot (see CONTENT_BRIEF).
+id: c1
+kind: post
+carousel: true
+track: investment
+topic: 'House hacking a 2-4 unit home step by step: lender first, verify every unit is legal, run the real numbers'
+time: auto
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Live in one unit. Rent the rest.
+  template_note: Canva carousel, 4 slides
+  canva_link: https://www.canva.com/d/ua2yv0C3S-2-sCj
+captions:
+  default: 'Live in one unit. Rent the rest.
+
+
+    That''s house hacking, and it starts long before you tour a duplex.
+
+    Talk to a lender first. Confirm every unit is legal. Then run the numbers with real rents and real expenses, not the listing''s projections.
+
+
+    DM me ''INVEST'' and I''ll send you my house-hack worksheet.
+
+
+    #LongBeachRealEstate #LakewoodCA #SouthBayHomes #HouseHacking #DuplexLiving #LongBeachHomes #RealEstateInvesting'
+  linkedin: 'House hacking gets pitched as the easy way into real estate investing. The order of operations is what makes it work.
+
+
+    Start with the lender, so you know which owner-occupied loans fit and how rental income from the other units is counted. Verify every unit against permits and city records before writing an offer. Then underwrite with market rents, taxes, insurance, repairs and vacancy, not the listing''s projections.
+
+
+    The takeaway: a 2-4 unit purchase is underwritten like a small investment, even when you live in it.
+
+
+    Which of these steps do buyers most often skip?
+
+
+    #RealEstate #RealEstateInvesting #HousingMarket'
+media_src:
+- https://export-download.canva.com/QRDy0/DAHbYVQRDy0/-1/0/0001-2456110383889029593.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261119T054218Z&X-Amz-Expires=50253&X-Amz-Signature=e0039331b42e571f18b599c1bc0040edbab177ee65e39d695e08e26f412489b8&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2019%20Nov%202026%2019%3A39%3A51%20GMT
+- https://export-download.canva.com/QRDy0/DAHbYVQRDy0/-1/0/0002-2456110383889029593.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261119T161751Z&X-Amz-Expires=9603&X-Amz-Signature=144e68964de8705ad8d794b29014457b5c0de42fdd231ec4553f50f4ec5d956e&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2019%20Nov%202026%2018%3A57%3A54%20GMT
+- https://export-download.canva.com/QRDy0/DAHbYVQRDy0/-1/0/0003-2456110383889029593.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261119T120008Z&X-Amz-Expires=24437&X-Amz-Signature=a6a78e43d5c608b9cc58654a25344daa7758bcb8348c830ffeee5ccae6f9bcd7&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2019%20Nov%202026%2018%3A47%3A25%20GMT
+- https://export-download.canva.com/QRDy0/DAHbYVQRDy0/-1/0/0004-2456110383889029593.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261119T173902Z&X-Amz-Expires=5336&X-Amz-Signature=1f13512c3dbd3e4711de18e1a7b1bbd178ef9e0ebf07cef8f1b7640f5963a680&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2019%20Nov%202026%2019%3A07%3A58%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva
