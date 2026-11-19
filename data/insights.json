@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-18T18:35-08:00",
+  "updated": "2026-11-19T06:36-08:00",
   "scores": {
     "track:untagged": {
-      "posts": 158,
-      "avg_rate": 0.0229,
+      "posts": 163,
+      "avg_rate": 0.0236,
       "avg_eng": 2.6,
       "avg_save_rate": 0.0004,
-      "avg_share_rate": 0.0001
+      "avg_share_rate": 0.0004
     },
     "kind:reel": {
       "posts": 94,
@@ -16,32 +16,32 @@
       "avg_share_rate": 0.0001
     },
     "platform:instagram": {
-      "posts": 295,
-      "avg_rate": 0.0141,
+      "posts": 301,
+      "avg_rate": 0.0146,
       "avg_eng": 1.5,
       "avg_save_rate": 0.0003,
-      "avg_share_rate": 0.0
+      "avg_share_rate": 0.0002
     },
     "kind:post": {
-      "posts": 210,
-      "avg_rate": 0.0119,
-      "avg_eng": 0.9,
+      "posts": 214,
+      "avg_rate": 0.012,
+      "avg_eng": 1.0,
       "avg_save_rate": 0.0002,
-      "avg_share_rate": 0.0048
+      "avg_share_rate": 0.0047
     },
     "platform:facebook": {
-      "posts": 131,
-      "avg_rate": 0.0083,
+      "posts": 132,
+      "avg_rate": 0.0082,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0076
     },
     "kind:story": {
-      "posts": 122,
-      "avg_rate": 0.0093,
+      "posts": 125,
+      "avg_rate": 0.0104,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0
+      "avg_share_rate": 0.0004
     },
     "track:seller_education": {
       "posts": 64,
@@ -52,14 +52,14 @@
     },
     "track:market_update": {
       "posts": 45,
-      "avg_rate": 0.0253,
-      "avg_eng": 0.1,
+      "avg_rate": 0.0257,
+      "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0222
     },
     "template:tip": {
-      "posts": 46,
-      "avg_rate": 0.0039,
+      "posts": 48,
+      "avg_rate": 0.0037,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -93,15 +93,15 @@
       "avg_share_rate": 0.0
     },
     "theme:goldrush": {
-      "posts": 31,
-      "avg_rate": 0.003,
-      "avg_eng": 0.1,
+      "posts": 32,
+      "avg_rate": 0.0035,
+      "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:stat": {
       "posts": 34,
-      "avg_rate": 0.0302,
+      "avg_rate": 0.0308,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0294
@@ -121,7 +121,7 @@
       "avg_share_rate": 0.0
     },
     "track:community": {
-      "posts": 3,
+      "posts": 5,
       "avg_rate": 0.0,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -191,7 +191,7 @@
       "avg_share_rate": 0.0
     },
     "theme:porcelain": {
-      "posts": 32,
+      "posts": 33,
       "avg_rate": 0.0014,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -255,15 +255,14 @@
     }
   },
   "directives": [
-    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 2.5% vs 0.0% over the last 60 days (45 vs 5 posts).",
+    "Write an extra Market Update piece and one fewer Local Spotlight piece. Market Update earns 2.6% vs 0.0% over the last 60 days (45 vs 5 posts).",
     "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.7% against 1.2% for static posts.",
     "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
-    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.0%."
+    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.1%."
   ],
   "tips": [
-    "Best-performing look: graphite (3.4%). Weakest: aurum (0.0%).",
-    "Not enough data yet to judge: track:community (fewer than 4 posts each). Keep writing them so they can be measured."
+    "Best-performing look: graphite (3.4%). Weakest: aurum (0.0%)."
   ],
   "followers": {
     "instagram": {
@@ -291,6 +290,19 @@
       "shares": 1,
       "rate": 1.0,
       "permalink": "https://www.facebook.com/1152148721145893/posts/1160733303620768"
+    },
+    {
+      "platform": "instagram",
+      "posted_at": "2026-11-18T18:56-08:00",
+      "kind": "story",
+      "track": "",
+      "template": "",
+      "theme": "",
+      "caption": "",
+      "saves": 0,
+      "shares": 1,
+      "rate": 0.1053,
+      "permalink": "https://www.instagram.com/stories/memotherealtor/4033552779368966225"
     },
     {
       "platform": "instagram",
@@ -330,19 +342,6 @@
       "shares": "0",
       "rate": "0.0633",
       "permalink": "https://www.instagram.com/p/DdpGrqfkiEq/"
-    },
-    {
-      "platform": "instagram",
-      "posted_at": "2026-10-29T09:02-07:00",
-      "kind": "reel",
-      "track": "",
-      "template": "",
-      "theme": "",
-      "caption": "Daily routine",
-      "saves": "1",
-      "shares": "0",
-      "rate": "0.0583",
-      "permalink": "https://www.instagram.com/reel/DfFYiDmzWjj/"
     }
   ],
   "errors": []
