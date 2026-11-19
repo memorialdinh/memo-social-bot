@@ -1,0 +1,26 @@
+id: s2
+kind: story
+track: seller_education
+topic: Why an inherited house needs a date-of-death value and the order to get one
+time: auto
+approved: true
+design:
+  template: process
+  kicker: SELLER TIP
+  headline: Inherited a house? Start with *one date*.
+  subhead: General information, not legal or tax advice. Ask your own attorney and CPA.
+  steps:
+  - when: Step 1
+    title: Fix the date
+    detail: Everything is measured as of the date of death.
+  - when: Step 2
+    title: Call your people
+    detail: Attorney and CPA first, before you list or clear out.
+  - when: Step 3
+    title: Order the appraisal
+    detail: A retrospective appraisal values it as of that date.
+  - when: Step 4
+    title: Keep the file
+    detail: Appraisal, photos and receipts, together in one place.
+  cta: DM 'SELLER' for my inherited-home steps
+sources: []

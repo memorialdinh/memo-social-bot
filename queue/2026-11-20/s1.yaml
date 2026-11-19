@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: buyer_education
+topic: Teaser for today's carousel quiz on the first move before you tour homes
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: First move before you *tour*?
+  subhead: Today's post walks through all three. Swipe it. General information, not lending advice.
+  options:
+  - Get pre-approved
+  - Pick the neighborhood
+  - Book a showing
+  answer: A
+  explain: Pre-approval first. It sets the number everything else gets measured against. General information, not lending advice.
+  reveal: false
+  cta: Reply BUYER with A, B or C
+sources: []
