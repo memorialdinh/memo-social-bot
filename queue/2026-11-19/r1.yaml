@@ -63,7 +63,19 @@ captions:
     #RealEstateInvesting #MultifamilyInvesting #RealEstate'
   tiktok: 'the rent roll is the plan. the t-12 is the year. underwrite from the one that already happened. #realestateinvesting #rentalproperty #multifamily #investing101 #realestatetips'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18118773587025211'
+    at: '2026-11-19T10:06:57-08:00'
+  facebook:
+    state: posted
+    id: '1725987435581430'
+    at: '2026-11-19T10:07:04-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7529243896204222464
+    at: '2026-11-19T10:07:12-08:00'
 media:
   instagram: queue/2026-11-19/media/r1-instagram.mp4
   facebook: queue/2026-11-19/media/r1-facebook.mp4
