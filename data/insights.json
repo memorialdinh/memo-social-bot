@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-19T18:33-08:00",
+  "updated": "2026-11-20T06:33-08:00",
   "scores": {
     "track:untagged": {
       "posts": 165,
-      "avg_rate": 0.0233,
-      "avg_eng": 2.6,
+      "avg_rate": 0.0235,
+      "avg_eng": 2.7,
       "avg_save_rate": 0.0004,
       "avg_share_rate": 0.0002
     },
@@ -17,7 +17,7 @@
     },
     "platform:instagram": {
       "posts": 305,
-      "avg_rate": 0.0145,
+      "avg_rate": 0.0147,
       "avg_eng": 1.5,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0001
@@ -38,7 +38,7 @@
     },
     "kind:story": {
       "posts": 128,
-      "avg_rate": 0.0108,
+      "avg_rate": 0.0111,
       "avg_eng": 0.3,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0001
@@ -66,7 +66,7 @@
     },
     "theme:ivory": {
       "posts": 30,
-      "avg_rate": 0.0027,
+      "avg_rate": 0.0025,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -94,7 +94,7 @@
     },
     "theme:goldrush": {
       "posts": 32,
-      "avg_rate": 0.0034,
+      "avg_rate": 0.0033,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -129,7 +129,7 @@
     },
     "track:investment": {
       "posts": 17,
-      "avg_rate": 0.0033,
+      "avg_rate": 0.003,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -213,7 +213,7 @@
     },
     "template:quiz": {
       "posts": 44,
-      "avg_rate": 0.0028,
+      "avg_rate": 0.0027,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -267,13 +267,13 @@
   "followers": {
     "instagram": {
       "first": 817,
-      "latest": 818,
-      "change": 1
+      "latest": 820,
+      "change": 3
     },
     "facebook": {
       "first": 217,
-      "latest": 293,
-      "change": 76
+      "latest": 294,
+      "change": 77
     }
   },
   "note": "directives are mandatory for the content writer; tips are advisory",
@@ -299,9 +299,9 @@
       "template": "",
       "theme": "",
       "caption": "",
-      "saves": 0,
-      "shares": 1,
-      "rate": 0.0893,
+      "saves": "0",
+      "shares": "1",
+      "rate": "0.0893",
       "permalink": "https://www.instagram.com/stories/memotherealtor/4033552779368966225"
     },
     {

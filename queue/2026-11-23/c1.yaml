@@ -47,4 +47,7 @@ rendered:
   linkedin:
     template: carousel
     theme: canva
-schedule: {}
+schedule:
+  facebook: 2026-11-23T19:10-08:00
+  instagram: 2026-11-23T19:05-08:00
+  linkedin: 2026-11-23T19:07-08:00
