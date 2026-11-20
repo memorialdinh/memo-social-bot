@@ -1,0 +1,62 @@
+id: r1
+kind: reel
+track: market_update
+topic: Freddie Mac 30-year fixed average 7.28 percent as of November 19 2026 up from 7.11 percent and what the move does to one example payment
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: "The 30-year is at *7.28%*."
+  subhead: "Freddie Mac PMMS, as of Nov 19, 2026. Not a forecast."
+  stat_value: "7.28%"
+  stat_label: "30-yr fixed avg, Freddie Mac PMMS, Nov 19, 2026"
+  points:
+  - "7.28% this week, up from 7.11% the week before"
+  - "A year ago: 6.26% (Freddie Mac, Nov 19, 2026)"
+  - "Example $600,000 loan: P&I $4,036 to $4,105 a month"
+  - "About $69 more. Example only, not a loan offer."
+  - "PMMS: conforming purchase loans, 20% down, excellent credit"
+  cta: "DM 'RATES' for your payment math"
+captions:
+  default: |-
+    The 30-year fixed averaged 7.28% this week.
+
+    Up from 7.11% the week before. A year ago it was 6.26%.
+
+    Source: Freddie Mac Primary Mortgage Market Survey, as of Nov 19, 2026.
+
+    Seventeen basis points sounds like nothing. Here's what it looks like on a payment.
+
+    Example only, a $600,000 loan, 30-year fixed, principal and interest:
+
+    At 7.11% — about $4,036 a month
+    At 7.28% — about $4,105 a month
+
+    About $69 more a month. Roughly $828 over a year.
+
+    That is an illustration with a round loan amount, not a quote and not a loan offer. No taxes, no insurance, no HOA, no mortgage insurance in it. Your actual number depends on your credit, your down payment, your loan type and the property.
+
+    One thing worth knowing about the survey itself: Freddie Mac's PMMS tracks conventional, conforming, fully amortizing purchase loans for borrowers putting 20% down with excellent credit. If that isn't your file, your rate won't be 7.28%.
+
+    I'm telling you what this week printed. I'm not telling you where it goes next, because nobody knows that.
+
+    DM me 'RATES' and I'll run the payment math on your actual price range.
+
+    #LongBeachRealEstate #LakewoodCA #SouthBayHomes #TorranceCA #CerritosCA #SoCalRealEstate #MortgageRates
+  linkedin: |-
+    Freddie Mac's Primary Mortgage Market Survey put the 30-year fixed at 7.28% as of Nov 19, 2026, up from 7.11% the prior week. The 15-year averaged 6.66%, up from 6.45%. A year ago the 30-year was 6.26%.
+
+    Seventeen basis points is easy to wave off in a headline and harder to wave off in underwriting. On an illustrative $600,000 loan, 30-year fixed, principal and interest only, it is roughly $4,036 against $4,105 a month — about $69, or near $828 annually. That is an example with assumptions stated, not a rate quote.
+
+    The caveat that gets dropped most often: the PMMS is scoped to conventional, conforming, fully amortizing purchase loans for borrowers putting 20% down with excellent credit. It is a benchmark for direction, not a quote for a specific borrower, and the gap between the two is where most client confusion lives.
+
+    The takeaway for anyone advising buyers right now: quote the payment, not the rate. The rate is an abstraction until it has a loan amount attached to it.
+
+    How are you framing week-to-week rate moves with clients without implying a direction?
+
+    #RealEstate #HousingMarket #MortgageRates
+  tiktok: "30-year fixed hit 7.28% this week, up from 7.11%. on a $600k example loan that's about $69 more a month. #mortgagerates #realestatetips #firsttimehomebuyer #housingmarket #longbeach"
+sources:
+- https://www.globenewswire.com/news-release/2026/11/19/3406994/0/en/mortgage-rates-average-7-28.html
+- https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-average-728-0

@@ -1,0 +1,55 @@
+id: r2
+kind: reel
+track: buyer_education
+topic: What to compare your Closing Disclosure against before you sign it
+time: auto
+approved: true
+design:
+  template: checklist
+  kicker: QUICK CHECK
+  headline: "Your Closing Disclosure deserves *two minutes*."
+  subhead: "General information, not lending advice. Every file differs."
+  questions:
+  - "My name, the property address and the loan term are right."
+  - "The loan amount and rate match my lender's last figures."
+  - "The monthly payment includes what I expected it to."
+  - "Cash to close matches the estimate I was given."
+  score: "Something doesn't match? Ask *first*."
+  cta: "DM 'BUYER' for my signing checklist"
+captions:
+  default: |-
+    Two minutes with your Closing Disclosure can save you a very bad week.
+
+    It is the document that shows your real numbers before anything records. And it is the one most buyers skim, because by then everyone is tired and the pen is already out.
+
+    What to check, and what to check it against:
+
+    1. Your name, the property address, the loan term. Compare them to the purchase contract. Basic enough to feel pre-verified, which is exactly why it gets missed, and painful to unwind after recording.
+
+    2. The loan amount and the rate. Compare them to the last figures your lender sent you. Not to what you remember agreeing to.
+
+    3. The monthly payment. Look at what is inside it. Principal and interest only, or taxes and insurance too? If you expected an escrow account and the payment looks light, that is usually the reason.
+
+    4. Cash to close. Compare it to your most recent estimate. If it moved, ask which line moved and why.
+
+    You are allowed to slow down and ask. Nobody at that table benefits from you signing something wrong.
+
+    General information, not lending advice, and every file is different. Your lender and your escrow officer are the ones who can answer for your numbers.
+
+    DM me 'BUYER' and I'll send you the checklist I walk my buyers through before they sign.
+
+    #LongBeachRealEstate #LakewoodCA #SouthBayHomes #TorranceCA #CerritosCA #FirstTimeHomeBuyer #SoCalRealEstate
+  linkedin: |-
+    The Closing Disclosure arrives at the worst possible moment in a transaction: everyone is tired, the date is set, and momentum is doing the talking.
+
+    It is worth two deliberate minutes, and the useful discipline is not reading it — it is comparing it. Identifying details against the purchase contract. Loan amount and rate against the lender's most recent figures. The payment line against what the buyer expected to be inside it. Cash to close against the prior estimate.
+
+    The pattern is rarely someone missing a complicated term. It is someone skimming a simple one, because simple reads as already verified. An address typo or a payment that quietly excludes escrow is a far worse surprise after recording than an awkward question an hour before signing.
+
+    The takeaway for anyone advising buyers: make the comparison a ritual, and say out loud that questions are expected at that table. General information, not lending advice — the lender and escrow officer answer for the figures.
+
+    What do you insist a buyer compares before they sign?
+
+    #RealEstate #HomeBuying #RealEstateAdvice
+  tiktok: "give your closing disclosure two minutes and compare it to what your lender last sent you. #firsttimehomebuyer #realestatetips #homebuying #closingday #escrow"
+sources: []

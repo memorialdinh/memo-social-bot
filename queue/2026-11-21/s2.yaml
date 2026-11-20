@@ -1,0 +1,17 @@
+id: s2
+kind: story
+track: buyer_education
+topic: Three things to check on your first mortgage statement after closing
+time: auto
+approved: true
+design:
+  template: tip
+  kicker: BUYER TIP
+  headline: "Your *first* mortgage statement."
+  subhead: "Three things to check. Not lending advice."
+  points:
+  - "The servicer's name. It can change right after closing."
+  - "Your first due date. Often not the month after closing."
+  - "The escrow line, and whether taxes and insurance sit inside it."
+  cta: "DM 'BUYER' if a line looks off"
+sources: []

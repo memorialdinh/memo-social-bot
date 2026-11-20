@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: investment
+topic: Teaser for today's carousel on house hacking a 2-4 unit home and what comes first in the order
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: "House hacking: what comes *first*?"
+  subhead: "Today's post walks the whole order. Swipe it."
+  options:
+  - "Tour a duplex"
+  - "Talk to a lender"
+  - "Run the rent numbers"
+  answer: B
+  explain: "Lender first. It decides which loans and which units even work. General information, not lending advice."
+  reveal: false
+  cta: "Reply INVEST with A, B or C"
+sources: []
