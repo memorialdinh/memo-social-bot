@@ -18,7 +18,15 @@ design:
   reveal: false
   cta: Reply BUYER with A, B or C
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17999707494103718'
+    at: '2026-11-20T10:29:56-08:00'
+  facebook:
+    state: posted
+    id: '4680303545630892'
+    at: '2026-11-20T10:30:00-08:00'
 media:
   instagram: queue/2026-11-20/media/s1-instagram.jpg
   facebook: queue/2026-11-20/media/s1-facebook.jpg

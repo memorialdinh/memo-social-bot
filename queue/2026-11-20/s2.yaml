@@ -24,7 +24,15 @@ design:
     detail: Appraisal, photos and receipts, together in one place.
   cta: DM 'SELLER' for my inherited-home steps
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18011450897991468'
+    at: '2026-11-20T10:30:09-08:00'
+  facebook:
+    state: posted
+    id: '1701030178357721'
+    at: '2026-11-20T10:30:14-08:00'
 media:
   instagram: queue/2026-11-20/media/s2-instagram.jpg
   facebook: queue/2026-11-20/media/s2-facebook.jpg
