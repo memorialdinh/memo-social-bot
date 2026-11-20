@@ -7,14 +7,34 @@ approved: true
 design:
   template: quiz
   kicker: POP QUIZ
-  headline: "House hacking: what comes *first*?"
-  subhead: "Today's post walks the whole order. Swipe it."
+  headline: 'House hacking: what comes *first*?'
+  subhead: Today's post walks the whole order. Swipe it.
   options:
-  - "Tour a duplex"
-  - "Talk to a lender"
-  - "Run the rent numbers"
+  - Tour a duplex
+  - Talk to a lender
+  - Run the rent numbers
   answer: B
-  explain: "Lender first. It decides which loans and which units even work. General information, not lending advice."
+  explain: Lender first. It decides which loans and which units even work. General information, not lending advice.
   reveal: false
-  cta: "Reply INVEST with A, B or C"
+  cta: Reply INVEST with A, B or C
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-21/media/s1-instagram.jpg
+  facebook: queue/2026-11-21/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-21T07:10-08:00
+  instagram: 2026-11-21T07:06-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: grid
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: aurum
+    deco: arcs
+    side: right
+    center: false
+    template: quiz
