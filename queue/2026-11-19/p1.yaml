@@ -64,7 +64,23 @@ captions:
 sources:
 - https://www.prnewswire.com/news-releases/california-home-sales-fall-to-nearly-three-year-low-car-reports-302942636.html
 - https://finance.yahoo.com/real-estate/articles/california-home-sales-fall-nearly-181500570.html
-status: {}
+status:
+  instagram:
+    state: missed
+    detail: more than 6:00:00 late
+    at: '2026-11-20T01:55:37-08:00'
+  facebook:
+    state: missed
+    detail: more than 6:00:00 late
+    at: '2026-11-20T01:55:37-08:00'
+  linkedin:
+    state: missed
+    detail: more than 6:00:00 late
+    at: '2026-11-20T01:55:37-08:00'
+  tiktok:
+    state: missed
+    detail: more than 6:00:00 late
+    at: '2026-11-20T01:55:37-08:00'
 media:
   instagram: queue/2026-11-19/media/p1-instagram.jpg
   facebook: queue/2026-11-19/media/p1-facebook.jpg
