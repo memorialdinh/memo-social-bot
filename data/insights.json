@@ -1,47 +1,47 @@
 {
-  "updated": "2026-11-19T06:36-08:00",
+  "updated": "2026-11-19T18:33-08:00",
   "scores": {
     "track:untagged": {
-      "posts": 163,
-      "avg_rate": 0.0236,
+      "posts": 165,
+      "avg_rate": 0.0233,
       "avg_eng": 2.6,
       "avg_save_rate": 0.0004,
-      "avg_share_rate": 0.0004
-    },
-    "kind:reel": {
-      "posts": 94,
-      "avg_rate": 0.0173,
-      "avg_eng": 2.3,
-      "avg_save_rate": 0.0003,
-      "avg_share_rate": 0.0001
-    },
-    "platform:instagram": {
-      "posts": 301,
-      "avg_rate": 0.0146,
-      "avg_eng": 1.5,
-      "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0002
     },
     "kind:post": {
-      "posts": 214,
-      "avg_rate": 0.012,
+      "posts": 216,
+      "avg_rate": 0.0118,
       "avg_eng": 1.0,
       "avg_save_rate": 0.0002,
-      "avg_share_rate": 0.0047
+      "avg_share_rate": 0.0046
+    },
+    "platform:instagram": {
+      "posts": 305,
+      "avg_rate": 0.0145,
+      "avg_eng": 1.5,
+      "avg_save_rate": 0.0003,
+      "avg_share_rate": 0.0001
+    },
+    "kind:reel": {
+      "posts": 95,
+      "avg_rate": 0.0166,
+      "avg_eng": 2.2,
+      "avg_save_rate": 0.0003,
+      "avg_share_rate": 0.0001
     },
     "platform:facebook": {
-      "posts": 132,
-      "avg_rate": 0.0082,
+      "posts": 134,
+      "avg_rate": 0.0081,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0076
+      "avg_share_rate": 0.0075
     },
     "kind:story": {
-      "posts": 125,
-      "avg_rate": 0.0104,
-      "avg_eng": 0.2,
+      "posts": 128,
+      "avg_rate": 0.0108,
+      "avg_eng": 0.3,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0004
+      "avg_share_rate": 0.0001
     },
     "track:seller_education": {
       "posts": 64,
@@ -52,7 +52,7 @@
     },
     "track:market_update": {
       "posts": 45,
-      "avg_rate": 0.0257,
+      "avg_rate": 0.0256,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0222
@@ -65,8 +65,8 @@
       "avg_share_rate": 0.0
     },
     "theme:ivory": {
-      "posts": 29,
-      "avg_rate": 0.0016,
+      "posts": 30,
+      "avg_rate": 0.0027,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -79,11 +79,11 @@
       "avg_share_rate": 0.0
     },
     "theme:graphite": {
-      "posts": 34,
-      "avg_rate": 0.0337,
+      "posts": 35,
+      "avg_rate": 0.0327,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0294
+      "avg_share_rate": 0.0286
     },
     "track:buyer_education": {
       "posts": 66,
@@ -94,14 +94,14 @@
     },
     "theme:goldrush": {
       "posts": 32,
-      "avg_rate": 0.0035,
+      "avg_rate": 0.0034,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:stat": {
       "posts": 34,
-      "avg_rate": 0.0308,
+      "avg_rate": 0.0306,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0294
@@ -128,8 +128,8 @@
       "avg_share_rate": 0.0
     },
     "track:investment": {
-      "posts": 13,
-      "avg_rate": 0.0018,
+      "posts": 17,
+      "avg_rate": 0.0033,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -177,8 +177,8 @@
       "avg_share_rate": 0.0
     },
     "theme:carbon": {
-      "posts": 26,
-      "avg_rate": 0.0026,
+      "posts": 28,
+      "avg_rate": 0.0024,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -205,15 +205,15 @@
       "avg_share_rate": 0.0
     },
     "template:process": {
-      "posts": 26,
+      "posts": 27,
       "avg_rate": 0.0018,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:quiz": {
-      "posts": 42,
-      "avg_rate": 0.0021,
+      "posts": 44,
+      "avg_rate": 0.0028,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -247,8 +247,8 @@
       "avg_share_rate": 0.0
     },
     "template:explainer": {
-      "posts": 14,
-      "avg_rate": 0.0024,
+      "posts": 15,
+      "avg_rate": 0.0022,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -262,7 +262,7 @@
     "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 3.1%."
   ],
   "tips": [
-    "Best-performing look: graphite (3.4%). Weakest: aurum (0.0%)."
+    "Best-performing look: graphite (3.3%). Weakest: aurum (0.0%)."
   ],
   "followers": {
     "instagram": {
@@ -301,7 +301,7 @@
       "caption": "",
       "saves": 0,
       "shares": 1,
-      "rate": 0.1053,
+      "rate": 0.0893,
       "permalink": "https://www.instagram.com/stories/memotherealtor/4033552779368966225"
     },
     {
