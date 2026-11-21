@@ -33,7 +33,7 @@ platforms:
   # (the Instagram text). Nov 2-8: 36 rows, 5 total reach, 0 engagements.
   facebook:  { enabled: true }
   linkedin:  { enabled: true }
-  tiktok:    { enabled: true, mode: inbox }   # inbox = lands in your TikTok drafts, you tap Post
+  tiktok:    { enabled: false, mode: inbox }  # OFF (Memo, Nov 20 2026: skip TikTok). inbox = lands in your TikTok drafts, you tap Post
 
 # What gets posted where
 routing:
