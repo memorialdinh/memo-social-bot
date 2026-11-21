@@ -17,39 +17,80 @@ design:
   score: Any blanks? Get them filled *before* the offer.
   cta: DM 'INVEST' for my questions list
 captions:
-  default: |-
-    A Mello-Roos special tax is not a line you want to meet after closing. It is a line you want to meet before you decide what the house costs you every month.
+  default: 'A Mello-Roos special tax is not a line you want to meet after closing. It is a line you want to meet before you decide what the house costs you every month.
+
 
     Short version: a community facilities district is a financing district. It issues bonds to pay for infrastructure, and the properties inside it carry a special tax on the property tax bill until those bonds are retired. Newer tracts are where buyers run into it most.
 
+
     Four things worth having in hand before you write an offer:
+
 
     1. Whether the home is inside a district at all. Ask, and then verify it against the tax bill rather than the listing.
 
+
     2. The actual special tax amount, taken off the current bill. Not an estimate, not what the neighbor says.
+
 
     3. What year the bond is scheduled to be paid off. A district with two years left and one with twenty-five are different purchases.
 
+
     4. Whether the amount can change from year to year, and by how much it is allowed to.
+
 
     None of that makes a district bad. A pool of buyers who skipped the questions and then felt surprised is what makes it bad.
 
+
     General information, not tax advice. The county and the district itself are who can confirm your numbers.
 
-    DM me 'INVEST' and I'll send you the four questions in a form you can take with you.
 
-    #LongBeachRealEstate #CerritosCA #CypressCA #SouthBayHomes #SoCalRealEstate #RealEstateInvesting #CaliforniaRealEstate
-  linkedin: |-
-    Mello-Roos is one of the few California carrying costs that a buyer can fully quantify before writing an offer, and one of the most commonly waved through.
+    DM me ''INVEST'' and I''ll send you the four questions in a form you can take with you.
+
+
+    #LongBeachRealEstate #CerritosCA #CypressCA #SouthBayHomes #SoCalRealEstate #RealEstateInvesting #CaliforniaRealEstate'
+  linkedin: 'Mello-Roos is one of the few California carrying costs that a buyer can fully quantify before writing an offer, and one of the most commonly waved through.
+
 
     A community facilities district issues bonds for infrastructure, and the parcels inside it carry a special tax on the property tax bill until those bonds are retired. The diligence is four questions: whether the property sits in a district at all, the special tax amount taken from the current tax bill rather than an estimate, the year the bond is scheduled to be retired, and whether the amount can escalate annually.
 
-    The takeaway isn't that districts are a negative. It's that the cost is knowable, and a cost that is knowable before the offer should never be a surprise after closing. Two homes with similar list prices and twenty years of difference in remaining bond term are not comparable purchases.
+
+    The takeaway isn''t that districts are a negative. It''s that the cost is knowable, and a cost that is knowable before the offer should never be a surprise after closing. Two homes with similar list prices and twenty years of difference in remaining bond term are not comparable purchases.
+
 
     General information, not tax advice — the county and the district confirm the figures.
 
-    What's the diligence item you see skipped most often?
 
-    #RealEstate #RealEstateInvesting #CaliforniaRealEstate
-  tiktok: before you buy in a mello-roos district, get these four answers off the actual tax bill. #realestateinvesting #californiarealestate #melloroos #homebuying #realestatetips
+    What''s the diligence item you see skipped most often?
+
+
+    #RealEstate #RealEstateInvesting #CaliforniaRealEstate'
+  tiktok: before you buy in a mello-roos district, get these four answers off the actual tax bill.
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-22/media/r2-instagram.mp4
+  facebook: queue/2026-11-22/media/r2-facebook.mp4
+  linkedin: queue/2026-11-22/media/r2-linkedin.mp4
+schedule:
+  facebook: 2026-11-22T11:02-08:00
+  instagram: 2026-11-22T11:10-08:00
+  linkedin: 2026-11-22T11:05-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: halo
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: slate
+    deco: beam
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: silver
+    deco: beam
+    side: left
+    center: false
+    template: checklist
