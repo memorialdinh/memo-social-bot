@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: market_update
+topic: Share of California households who could afford the median condo versus the median single-family home 3Q 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: The entry point and the *headline* are different numbers.
+  subhead: Against 19% for the $894,630 median single-family home, 3Q 2026.
+  stat_value: 31%
+  stat_label: could afford California's $640,000 median condo or townhome, 3Q 2026
+  points:
+  - C.A.R. Housing Affordability Index, released Oct 30, 2026.
+  cta: DM 'VALUE' for your own numbers
+sources:
+- https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/3qtr2026HAI

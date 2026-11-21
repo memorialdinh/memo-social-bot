@@ -1,0 +1,54 @@
+id: p1
+kind: post
+track: buyer_education
+topic: Private mortgage insurance how it gets on a conventional loan and the two rules that end it
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: PMI is *not* forever.
+  subhead: Conventional loans. CFPB guidance, last reviewed Aug 28, 2026. Not lending advice.
+  term: Private mortgage insurance (PMI)
+  pos: noun · conventional loans
+  definition: Insurance your lender arranges when you put down less than 20 percent of the price. You pay it, and it protects the lender.
+  why: It ends. Two separate rules retire it, and the earlier one you have to ask for in writing.
+  example: At 80 percent of original value you can request cancellation. At 78 percent, scheduled, the servicer must terminate it.
+  cta: DM 'BUYER' for the PMI timeline
+captions:
+  default: |-
+    Putting less than 20 percent down does not mean paying mortgage insurance for the life of the loan. Most buyers I talk to think it does.
+
+    On a conventional loan, PMI shows up because the down payment is under 20 percent. It is your cost and it covers the lender. And there are two different ways it comes off.
+
+    1. You can ask. Once your principal balance is scheduled to reach 80 percent of the home's original value, you have the right to request cancellation in writing. Extra payments can get you there sooner.
+
+    2. It comes off on its own. The servicer must automatically terminate PMI on the date the balance is scheduled to reach 78 percent of original value.
+
+    Two details that trip people up. "Original value" generally means the contract sales price or the appraised value at purchase, whichever is lower. And to request cancellation you need to be current with a good payment history, certify there are no junior liens, and show the value has not dropped below that original value.
+
+    There is also a backstop: the month after you pass the midpoint of your amortization schedule, it has to end. On a 30-year loan that is after 15 years.
+
+    One thing to know before you plan around any of this: these rules apply to single-family principal residences with loans that closed on or after July 29, 1999. FHA and VA loans work differently, and if the lender is paying the mortgage insurance, different rules apply again.
+
+    General information, not lending advice. Your servicer answers for your loan.
+
+    DM me 'BUYER' and I'll walk you through where your loan would sit.
+
+    #LongBeachRealEstate #LakewoodCA #SouthBayHomes #TorranceCA #CerritosCA #FirstTimeHomeBuyer #SoCalRealEstate
+  linkedin: |-
+    "I'll be paying PMI forever" is one of the most common and most expensive misreadings a buyer brings to a consultation.
+
+    On a conventional loan, private mortgage insurance attaches when the down payment is under 20 percent, and the CFPB sets out two separate exits. The borrower may request cancellation when the principal balance is scheduled to reach 80 percent of the home's original value. The servicer must automatically terminate it when the balance is scheduled to reach 78 percent. There is also a midpoint-of-amortization backstop, which on a 30-year loan arrives after year 15.
+
+    The practical gap is between those first two numbers. The 80 percent exit is a right the borrower has to exercise, in writing, while current on payments, with no junior liens and evidence the value has not fallen below original value. The 78 percent one happens without anybody asking. A borrower who does not know the difference simply pays longer.
+
+    Worth saying out loud: these rules cover single-family principal residences on loans closed on or after July 29, 1999, and FHA and VA are their own conversation. General information, not lending advice.
+
+    Who on your side of a transaction is telling the buyer about the 80 percent request?
+
+    #RealEstate #HomeBuying #Mortgages
+  tiktok: pmi is not forever. you can ask for it to come off at 80 percent and it must come off at 78. #firsttimehomebuyer #realestatetips #pmi #mortgagetips #homebuying
+sources:
+- https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/
+- https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-insurance-and-how-does-it-work-en-1953/

@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: investment
+topic: Teaser for r2 quiz on which charge shows up on the property tax bill
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Which one lands on your *tax bill*?
+  subhead: General information, not tax advice. Answer in my DMs.
+  options:
+  - HOA dues
+  - A Mello-Roos special tax
+  - Both of them
+  answer: B
+  explain: A Mello-Roos special tax is collected on the property tax bill. HOA dues are billed by the association. Not tax advice.
+  reveal: false
+  cta: DM 'INVEST' with your answer
+sources: []
