@@ -75,7 +75,19 @@ captions:
 sources:
 - https://www.globenewswire.com/news-release/2026/11/19/3406994/0/en/mortgage-rates-average-7-28.html
 - https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-average-728-0
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18133737863495543'
+    at: '2026-11-21T09:16:22-08:00'
+  facebook:
+    state: posted
+    id: '2661274290984760'
+    at: '2026-11-21T09:16:35-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7529955967971627009
+    at: '2026-11-21T09:16:43-08:00'
 media:
   instagram: queue/2026-11-21/media/r1-instagram.mp4
   facebook: queue/2026-11-21/media/r1-facebook.mp4
