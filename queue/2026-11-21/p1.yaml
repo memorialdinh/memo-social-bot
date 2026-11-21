@@ -1,0 +1,91 @@
+id: p1
+kind: post
+track: investment
+topic: 'House hacking a 2-4 unit home, evening repost of the c1 carousel in a new design (Memo asked Nov 21: post now and again at 7 PM, different design)'
+time: auto
+approved: true
+approved_override: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  template: process
+  kicker: HOUSE HACKING
+  headline: Live in one unit. *Rent the rest.*
+  subhead: The order matters more than the property.
+  steps:
+  - when: First
+    title: Talk to a lender
+    detail: Know which loans fit and how the rents count.
+  - when: Before offers
+    title: Verify every unit is legal
+    detail: Check permits and city records, not just the listing.
+  - when: Then
+    title: Run the real numbers
+    detail: Market rents, taxes, insurance, repairs and vacancy.
+  - when: Last
+    title: Write the offer
+    detail: Only once the first three check out.
+  cta: DM me 'INVEST' for the worksheet
+captions:
+  default: 'Missed this morning''s carousel? Here''s house hacking on one page.
+
+
+    Buy a 2-4 unit home, live in one unit, and let the rent from the others help cover the mortgage. It works when you do it in order:
+
+
+    1. Lender first, so you know what loan fits and how the rents count.
+
+    2. Make sure every unit is legal before you fall in love with it.
+
+    3. Run the numbers with real rents and real expenses.
+
+    4. Then write the offer.
+
+
+    DM me ''INVEST'' and I''ll send you my house-hack worksheet.
+
+
+    #LongBeachRealEstate #LakewoodCA #SouthBayHomes #HouseHacking #DuplexLiving #FirstTimeHomeBuyer #RealEstateInvesting'
+  linkedin: 'One more look at house hacking, because the sequence is where most buyers go wrong.
+
+
+    Lender before property: owner-occupied financing and the way rental income is counted decide what you can buy. Legality before an offer: every unit should be confirmed against permits and city records. Underwriting before emotion: market rents, taxes, insurance, repairs and vacancy, not the listing''s pro forma.
+
+
+    A small multifamily purchase is still an investment, even when you live in it.
+
+
+    If you''re weighing a duplex or fourplex in Long Beach or the South Bay, message me and I''ll share the worksheet I use with buyers.
+
+
+    #RealEstate #HouseHacking #RealEstateInvesting'
+status: {}
+schedule:
+  facebook: 2026-11-21T19:05-08:00
+  instagram: 2026-11-21T19:09-08:00
+  linkedin: 2026-11-21T19:06-08:00
+media:
+  instagram: queue/2026-11-21/media/p1-instagram.jpg
+  facebook: queue/2026-11-21/media/p1-facebook.jpg
+  linkedin: queue/2026-11-21/media/p1-linkedin.jpg
+rendered:
+  instagram:
+    theme: goldrush
+    deco: dots
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: silver
+    deco: monogram
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: graphite
+    deco: corners
+    side: right
+    center: false
+    template: process
