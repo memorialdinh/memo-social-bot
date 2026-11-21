@@ -66,7 +66,19 @@ captions:
     #RealEstate #HomeBuying #RealEstateAdvice'
   tiktok: 'give your closing disclosure two minutes and compare it to what your lender last sent you. #firsttimehomebuyer #realestatetips #homebuying #closingday #escrow'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17908228101350907'
+    at: '2026-11-21T11:15:39-08:00'
+  facebook:
+    state: posted
+    id: '1815596856314147'
+    at: '2026-11-21T11:15:46-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7529985960713801728
+    at: '2026-11-21T11:15:54-08:00'
 media:
   instagram: queue/2026-11-21/media/r2-instagram.mp4
   facebook: queue/2026-11-21/media/r2-facebook.mp4
