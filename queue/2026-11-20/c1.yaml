@@ -28,7 +28,19 @@ captions:
 
 
     #RealEstate #HomeBuying #SouthBay'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17897073294616389'
+    at: '2026-11-20T19:15:51-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1181405218220243'
+    at: '2026-11-20T19:15:59-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7529744409630789632
+    at: '2026-11-20T19:16:03-08:00'
 media:
   instagram: &id001
   - queue/2026-11-20/media/c1-1.jpg
