@@ -18,7 +18,15 @@ design:
   reveal: false
   cta: Reply INVEST with A, B or C
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17977058619187234'
+    at: '2026-11-21T07:15:19-08:00'
+  facebook:
+    state: posted
+    id: '1278485334495813'
+    at: '2026-11-21T07:15:25-08:00'
 media:
   instagram: queue/2026-11-21/media/s1-instagram.jpg
   facebook: queue/2026-11-21/media/s1-facebook.jpg
