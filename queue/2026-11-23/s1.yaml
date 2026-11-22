@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: seller_education
+topic: Teaser quiz for the carousel on what buyers judge first when they pull up to a listing
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: What do buyers judge *first*?
+  subhead: Swipe through today's post for the full list.
+  options:
+  - The kitchen
+  - The front of the house
+  - The square footage
+  answer: B
+  explain: Most buyers have formed a view before the front door opens.
+  reveal: false
+  cta: Reply SELLER with A, B or C
+sources: []

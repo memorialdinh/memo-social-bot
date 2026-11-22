@@ -1,0 +1,62 @@
+id: r2
+kind: reel
+track: buyer_education
+topic: How to line up homeowners insurance before closing in order quotes inspection bind confirm
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: Insurance is a *closing* item, not an errand.
+  subhead: General information, not insurance advice. Your carrier confirms coverage.
+  steps:
+  - when: Week 1
+    title: Start quotes
+    detail: Call for quotes the week your offer is accepted.
+  - when: Inspection
+    title: Share what you found
+    detail: Roof age, panel and water heater all change the quote.
+  - when: Before loan docs
+    title: Choose and bind
+    detail: Your lender needs the policy and premium to finalize figures.
+  - when: Closing
+    title: Confirm year one
+    detail: Know who pays the first premium, and when it is due.
+  cta: DM 'BUYER' for my closing timeline
+captions:
+  default: |-
+    The fastest way to add a week to your escrow is to treat insurance as the last errand instead of the first call.
+
+    Your lender cannot fund without a bound policy. That is not a formality, and in California it is not always a same-day phone call either.
+
+    The order that keeps it off your critical path:
+
+    Week 1. Start quotes the week your offer is accepted. Not after the inspection, not after the appraisal.
+
+    After the inspection. Hand your agent what you learned. Roof age, the electrical panel, the water heater and the plumbing all move a quote, and a carrier would rather see it now.
+
+    Before loan docs. Choose a policy and bind it. Your lender needs the policy and the premium to finalize the numbers you will sign.
+
+    At closing. Know who pays the first year's premium and when it comes due, so the first bill is not a surprise.
+
+    Nothing here is exotic. It is just four calls in the right order, and the order is what saves the week.
+
+    General information, not insurance advice. Your insurance agent and carrier confirm what is actually covered.
+
+    DM me 'BUYER' and I'll send you the closing timeline I give my clients.
+
+    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #SouthBayHomes #CerritosCA #SoCalRealEstate #FirstTimeHomeBuyer
+  linkedin: |-
+    Insurance has quietly become one of the more common reasons a California escrow runs long, and it is almost entirely a sequencing problem.
+
+    A lender cannot fund without a bound policy, so the policy sits on the critical path whether or not anyone has scheduled it there. The sequence that keeps it off: start quotes the week the offer is accepted, share the inspection findings with the insurance agent rather than waiting to be asked, choose and bind before loan documents are drawn, and confirm at closing who pays the first premium and when.
+
+    The takeaway for anyone advising buyers: the item most likely to delay a closing is rarely the complicated one. It is the one nobody put on the calendar.
+
+    General information, not insurance advice.
+
+    Where do you see escrow timelines slip most often?
+
+    #RealEstate #HomeBuying #CaliforniaRealEstate
+  tiktok: "your lender can't fund without a bound policy. here's the order that keeps insurance off your critical path. #firsttimehomebuyer #realestatetips #escrow #homebuying #socalrealestate"
+sources: []

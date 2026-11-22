@@ -1,0 +1,19 @@
+id: s2
+kind: story
+track: market_update
+topic: Typical asking rent and year over year change across service cities October 2026 Zillow rent index
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: MARKET UPDATE
+  headline: Rent moved *differently* in each city.
+  subhead: Long Beach +2.9%, Torrance +1.8%, El Segundo +7.2%, Oct 2026.
+  stat_value: +6.8%
+  stat_label: Lakewood typical asking rent, year over year, Oct 2026
+  points:
+  - Zillow Observed Rent Index, smoothed typical asking rents, Oct 31, 2026.
+  - An index of typical rents, not an appraisal of any one unit.
+  cta: DM 'INVEST' for your city's numbers
+sources:
+- https://www.zillow.com/research/data/
