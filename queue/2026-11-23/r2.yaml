@@ -24,39 +24,80 @@ design:
     detail: Know who pays the first premium, and when it is due.
   cta: DM 'BUYER' for my closing timeline
 captions:
-  default: |-
-    The fastest way to add a week to your escrow is to treat insurance as the last errand instead of the first call.
+  default: 'The fastest way to add a week to your escrow is to treat insurance as the last errand instead of the first call.
+
 
     Your lender cannot fund without a bound policy. That is not a formality, and in California it is not always a same-day phone call either.
 
+
     The order that keeps it off your critical path:
+
 
     Week 1. Start quotes the week your offer is accepted. Not after the inspection, not after the appraisal.
 
+
     After the inspection. Hand your agent what you learned. Roof age, the electrical panel, the water heater and the plumbing all move a quote, and a carrier would rather see it now.
+
 
     Before loan docs. Choose a policy and bind it. Your lender needs the policy and the premium to finalize the numbers you will sign.
 
-    At closing. Know who pays the first year's premium and when it comes due, so the first bill is not a surprise.
+
+    At closing. Know who pays the first year''s premium and when it comes due, so the first bill is not a surprise.
+
 
     Nothing here is exotic. It is just four calls in the right order, and the order is what saves the week.
 
+
     General information, not insurance advice. Your insurance agent and carrier confirm what is actually covered.
 
-    DM me 'BUYER' and I'll send you the closing timeline I give my clients.
 
-    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #SouthBayHomes #CerritosCA #SoCalRealEstate #FirstTimeHomeBuyer
-  linkedin: |-
-    Insurance has quietly become one of the more common reasons a California escrow runs long, and it is almost entirely a sequencing problem.
+    DM me ''BUYER'' and I''ll send you the closing timeline I give my clients.
+
+
+    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #SouthBayHomes #CerritosCA #SoCalRealEstate #FirstTimeHomeBuyer'
+  linkedin: 'Insurance has quietly become one of the more common reasons a California escrow runs long, and it is almost entirely a sequencing problem.
+
 
     A lender cannot fund without a bound policy, so the policy sits on the critical path whether or not anyone has scheduled it there. The sequence that keeps it off: start quotes the week the offer is accepted, share the inspection findings with the insurance agent rather than waiting to be asked, choose and bind before loan documents are drawn, and confirm at closing who pays the first premium and when.
 
+
     The takeaway for anyone advising buyers: the item most likely to delay a closing is rarely the complicated one. It is the one nobody put on the calendar.
+
 
     General information, not insurance advice.
 
+
     Where do you see escrow timelines slip most often?
 
-    #RealEstate #HomeBuying #CaliforniaRealEstate
-  tiktok: "your lender can't fund without a bound policy. here's the order that keeps insurance off your critical path. #firsttimehomebuyer #realestatetips #escrow #homebuying #socalrealestate"
+
+    #RealEstate #HomeBuying #CaliforniaRealEstate'
+  tiktok: 'your lender can''t fund without a bound policy. here''s the order that keeps insurance off your critical path. #firsttimehomebuyer #realestatetips #escrow #homebuying #socalrealestate'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-23/media/r2-instagram.mp4
+  facebook: queue/2026-11-23/media/r2-facebook.mp4
+  linkedin: queue/2026-11-23/media/r2-linkedin.mp4
+schedule:
+  facebook: 2026-11-23T11:06-08:00
+  instagram: 2026-11-23T11:10-08:00
+  linkedin: 2026-11-23T11:05-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: rules
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: slate
+    deco: corners
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: noir
+    deco: halo
+    side: left
+    center: false
+    template: process

@@ -17,39 +17,80 @@ design:
   score: Any blanks? Fill them *before* contingencies come off.
   cta: DM 'BUYER' for my solar questions
 captions:
-  default: |-
-    "The house has solar" is not one fact. It's three or four, and they live in a document nobody hands you at the showing.
+  default: '"The house has solar" is not one fact. It''s three or four, and they live in a document nobody hands you at the showing.
+
 
     Panels can be owned outright, leased, financed with a loan secured against the house, or sold through a power purchase agreement. Those are four different things to inherit, and they are not interchangeable.
 
+
     Four things worth having in hand before your contingencies come off:
+
 
     1. Which one it is. Owned, leased, financed or a PPA. Ask, then confirm it against the paperwork rather than the listing remarks.
 
-    2. The agreement itself. Not the brochure, not what the seller remembers, not the installer's sales sheet. The signed document, all pages.
 
-    3. What actually transfers at closing. A transfer may need the provider's approval, and some agreements run on their own timeline regardless of who owns the house.
+    2. The agreement itself. Not the brochure, not what the seller remembers, not the installer''s sales sheet. The signed document, all pages.
+
+
+    3. What actually transfers at closing. A transfer may need the provider''s approval, and some agreements run on their own timeline regardless of who owns the house.
+
 
     4. What your lender says about it. A lien or a UCC filing tied to the system can affect how the loan comes together, and your lender would rather hear about it in week one than in week four.
 
+
     None of this makes solar a problem. Finding out in the last week of escrow is the problem.
+
 
     General information, not legal or lending advice. Your lender and the provider confirm your specifics.
 
-    DM me 'BUYER' and I'll send you the four questions in a form you can take with you.
 
-    #LongBeachRealEstate #LakewoodHomes #SouthBayHomes #CerritosCA #CypressCA #SoCalRealEstate #FirstTimeHomeBuyer
-  linkedin: |-
-    Solar is one of the most common items on a Southern California purchase that gets waved through on a one-line listing remark.
+    DM me ''BUYER'' and I''ll send you the four questions in a form you can take with you.
+
+
+    #LongBeachRealEstate #LakewoodHomes #SouthBayHomes #CerritosCA #CypressCA #SoCalRealEstate #FirstTimeHomeBuyer'
+  linkedin: 'Solar is one of the most common items on a Southern California purchase that gets waved through on a one-line listing remark.
+
 
     "Has solar" can mean the system is owned outright, leased, financed with a loan secured against the property, or operating under a power purchase agreement. Those are four different sets of obligations for a buyer to take on, and the diligence is the same in each case: establish which one it is, read the signed agreement rather than the marketing, confirm what transfers at closing and whether the provider has to approve that transfer, and put the document in front of the lender early.
 
-    The takeaway isn't that one structure is better. It's that this is knowable in week one of escrow and routinely surfaces in week four, when there is far less room to negotiate anything.
+
+    The takeaway isn''t that one structure is better. It''s that this is knowable in week one of escrow and routinely surfaces in week four, when there is far less room to negotiate anything.
+
 
     General information, not legal or lending advice.
 
-    What's the diligence item you see skipped most often on a purchase?
 
-    #RealEstate #HomeBuying #CaliforniaRealEstate
-  tiktok: "\"has solar\" is not one fact. get these four answers before your contingencies come off. #firsttimehomebuyer #realestatetips #homebuying #solar #socalrealestate"
+    What''s the diligence item you see skipped most often on a purchase?
+
+
+    #RealEstate #HomeBuying #CaliforniaRealEstate'
+  tiktok: '"has solar" is not one fact. get these four answers before your contingencies come off. #firsttimehomebuyer #realestatetips #homebuying #solar #socalrealestate'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-23/media/r1-instagram.mp4
+  facebook: queue/2026-11-23/media/r1-facebook.mp4
+  linkedin: queue/2026-11-23/media/r1-linkedin.mp4
+schedule:
+  facebook: 2026-11-23T09:11-08:00
+  instagram: 2026-11-23T09:04-08:00
+  linkedin: 2026-11-23T09:09-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: beam
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: carbon
+    deco: arcs
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: graphite
+    deco: grid
+    side: left
+    center: false
+    template: checklist
