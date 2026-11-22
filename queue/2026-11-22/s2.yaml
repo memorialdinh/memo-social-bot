@@ -16,7 +16,11 @@ design:
   cta: DM 'VALUE' for your own numbers
 sources:
 - https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/3qtr2026HAI
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18112323629211193'
+    at: '2026-11-22T08:15:09-08:00'
 media:
   instagram: queue/2026-11-22/media/s2-instagram.jpg
   facebook: queue/2026-11-22/media/s2-facebook.jpg
