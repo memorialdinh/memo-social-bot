@@ -66,7 +66,19 @@ captions:
     #RealEstate #RealEstateInvesting #CaliforniaRealEstate'
   tiktok: before you buy in a mello-roos district, get these four answers off the actual tax bill.
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17893135812465555'
+    at: '2026-11-22T11:15:34-08:00'
+  facebook:
+    state: posted
+    id: '1014211431050835'
+    at: '2026-11-22T11:15:41-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7530348327671095296
+    at: '2026-11-22T11:15:49-08:00'
 media:
   instagram: queue/2026-11-22/media/r2-instagram.mp4
   facebook: queue/2026-11-22/media/r2-facebook.mp4
