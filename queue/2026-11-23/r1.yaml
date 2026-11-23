@@ -66,7 +66,19 @@ captions:
     #RealEstate #HomeBuying #CaliforniaRealEstate'
   tiktok: '"has solar" is not one fact. get these four answers before your contingencies come off. #firsttimehomebuyer #realestatetips #homebuying #solar #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18397855336160061'
+    at: '2026-11-23T09:15:43-08:00'
+  facebook:
+    state: posted
+    id: '40937455912506139'
+    at: '2026-11-23T09:15:50-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7530680552274690049
+    at: '2026-11-23T09:15:58-08:00'
 media:
   instagram: queue/2026-11-23/media/r1-instagram.mp4
   facebook: queue/2026-11-23/media/r1-facebook.mp4
