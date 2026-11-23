@@ -64,7 +64,19 @@ captions:
 sources:
 - https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/
 - https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-insurance-and-how-does-it-work-en-1953/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18509232517101670'
+    at: '2026-11-22T19:15:04-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1183578748002890'
+    at: '2026-11-22T19:15:08-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7530468958114787328
+    at: '2026-11-22T19:15:09-08:00'
 media:
   instagram: queue/2026-11-22/media/p1-instagram.jpg
   facebook: queue/2026-11-22/media/p1-facebook.jpg
