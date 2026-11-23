@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: buyer_education
+topic: Home warranty what it is what it covers and its limits plain English explainer
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: Say it in *plain English*.
+  subhead: General information, not insurance or legal advice.
+  term: Home warranty
+  pos: noun · annual service contract
+  definition: A service contract that may cover repair or replacement of some home systems and appliances.
+  why: It is not homeowners insurance, and it does not cover the whole house.
+  example: A covered system fails, you pay a service fee, and the plan decides repair or replace.
+  cta: DM 'BUYER' for my first-year checklist
+sources: []

@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: seller_education
+topic: Teaser quiz for r2 on which part of getting a house market ready takes the longest lead time
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Which takes the *longest* lead time?
+  subhead: Getting a house ready to list. Today's reel has all five.
+  options:
+  - Painting a room
+  - Getting a contractor booked
+  - Decluttering a garage
+  answer: B
+  explain: Trade calendars set the timeline, not the work itself.
+  reveal: false
+  cta: Reply SELLER with A, B or C
+sources: []

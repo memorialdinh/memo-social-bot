@@ -1,0 +1,63 @@
+id: r1
+kind: reel
+track: buyer_education
+topic: How California down payment assistance actually works and the order you use it CalHFA MyHome subordinate loan
+time: auto
+approved: true
+design:
+  template: process
+  kicker: BUYER TIP
+  headline: Down payment help has an *order*.
+  subhead: California's MyHome program. General information, not lending advice.
+  steps:
+  - when: First
+    title: Start with the lender
+    detail: CalHFA does not lend to buyers directly. An approved lender does.
+  - when: Then
+    title: Qualify for the first loan
+    detail: MyHome may only be used with a CalHFA first mortgage.
+  - when: Before docs
+    title: Finish homebuyer education
+    detail: Required, with a certificate from an eligible counseling organization.
+  - when: Within 60 days
+    title: Move in
+    detail: Primary residence, then payments defer (CalHFA, rev. Oct 19 2026).
+  cta: DM 'BUYER' for the sequence
+captions:
+  default: |-
+    Down payment assistance in California is not a coupon. It is a loan, and it has an order of operations.
+
+    MyHome, CalHFA's down payment assistance, is a deferred-payment subordinate loan that may only be used with a CalHFA first mortgage. That single rule sets the whole sequence.
+
+    First, the lender. CalHFA does not lend money directly to consumers. It works through approved lenders, and MyHome is only available through one of them. So the first call is a CalHFA-approved lender, not CalHFA.
+
+    Then the first mortgage. The assistance rides on a CalHFA first loan and sits in second lien position behind it.
+
+    Then homebuyer education. It is required, and one occupying first-time borrower on the transaction needs the certificate of completion from an eligible counseling organization.
+
+    Then you move in. All borrowers have to occupy the home as their primary residence within 60 days of closing, and no non-occupant co-borrowers are allowed. After that the junior loan simply waits, deferred for the life of the first loan.
+
+    Two things the page sets and your lender confirms: the assistance is capped at a percentage of the lesser of the sales price or the appraised value, and the income limits are set by the county the home is in.
+
+    CalHFA MyHome program bulletin, last revised Oct 19, 2026. General information, not lending advice. Your lender runs your actual numbers.
+
+    DM me 'BUYER' and I'll walk you through the order.
+
+    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #SouthBayHomes #CerritosCA #FirstTimeHomeBuyer #SoCalRealEstate
+  linkedin: |-
+    Most of the confusion around California down payment assistance is not about eligibility. It is about sequence.
+
+    CalHFA's MyHome is a deferred-payment subordinate loan that may only be used with a CalHFA first mortgage, and CalHFA does not lend to consumers directly, so the program is reachable only through a CalHFA-approved lender. That turns the order into the whole story: approved lender, then the CalHFA first mortgage, then the required homebuyer education and certificate, then occupancy as a primary residence within 60 days of closing. The junior loan is then deferred for the life of the first loan.
+
+    The takeaway for anyone advising first-time buyers: a buyer who shops a first mortgage before asking whether the lender is CalHFA-approved can end up having to start over. The assistance cannot be bolted on afterward.
+
+    Source: CalHFA MyHome program bulletin, last revised Oct 19, 2026. General information, not lending advice.
+
+    Where do you see buyers lose the most time in that sequence?
+
+    #RealEstate #HomeBuying #CaliforniaRealEstate
+  tiktok: 'down payment help in california has an order, and most people start in the wrong place. #firsttimehomebuyer #realestatetips #downpayment #calhfa #socalrealestate'
+sources:
+- https://www.calhfa.ca.gov/homeownership/programs/myhome.pdf
+- https://cloud.calhfa.ca.gov/homebuyer/programs/myhome.htm
+- https://www.calhfa.ca.gov/homebuyer/programs/
