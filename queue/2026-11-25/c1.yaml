@@ -1,0 +1,61 @@
+# Canva carousel, auto-made every 2 days (Memo, Nov 18 2026). Takes the day's post slot (see CONTENT_BRIEF).
+id: c1
+kind: post
+carousel: true
+track: investment
+topic: 'Estimating market rent before you buy your first rental: pull real comps, adjust for features, stress-test the numbers'
+time: auto
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Know the Rent Before You Buy
+  template_note: Canva carousel, 4 slides
+  canva_link: https://canva.link/ru8w4gbv16igacm
+captions:
+  default: 'The rent you hope for isn''t the rent you''ll get.
+
+
+    Before you buy a rental, pull real comps. Same beds, baths and size, close by.
+
+    Then adjust for parking, laundry, A/C and condition.
+
+    Then run your numbers at a lower rent. If it still works, you''ve got something.
+
+
+    DM me ''INVEST'' and I''ll walk you through the numbers on a property you''re watching.
+
+
+    #LongBeachRealEstate #SouthBayHomes #TorranceRealEstate #LakewoodCA #ElSegundo #RealEstateInvesting #RentalProperty'
+  linkedin: 'Most rental deals that go sideways didn''t fail at closing. They failed at the rent estimate.
+
+
+    Asking rents online are a starting point, not proof. Comps should match on beds, baths, size and location, then get adjusted for the features tenants actually pay for: parking, in-unit laundry, A/C, condition. Then stress-test the deal at a lower rent before you commit.
+
+
+    Takeaway: underwrite the rent you can defend, not the rent you want.
+
+
+    How do you sanity-check a rent number before you make an offer?
+
+
+    #RealEstateInvesting #RentalProperty #RealEstate'
+media_src:
+- https://export-download.canva.com/8he_k/DAHbwU8he_k/-1/0/0001-4770961002749223841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261123T161434Z&X-Amz-Expires=11567&X-Amz-Signature=baa4cf5e2cb5aa93f5d98ca57f04f1a1f3c92704c1d0ff9140a5d3d2d82874aa&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2023%20Nov%202026%2019%3A27%3A21%20GMT
+- https://export-download.canva.com/8he_k/DAHbwU8he_k/-1/0/0002-4770961002749223841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261123T031721Z&X-Amz-Expires=56185&X-Amz-Signature=c4d67c6588898c78d963dd27eb2417f30c957861873e4c6a5080ffca59e69eb0&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2023%20Nov%202026%2018%3A53%3A46%20GMT
+- https://export-download.canva.com/8he_k/DAHbwU8he_k/-1/0/0003-4770961002749223841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261123T043640Z&X-Amz-Expires=52550&X-Amz-Signature=25a26a1a5a158ed1ecb2b6e764f4ccb6efeb111d5ca6bdada249b5c91afd2e5e&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2023%20Nov%202026%2019%3A12%3A30%20GMT
+- https://export-download.canva.com/8he_k/DAHbwU8he_k/-1/0/0004-4770961002749223841.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261123T113455Z&X-Amz-Expires=27968&X-Amz-Signature=b6a887c360c79e8f92d23f2d555425e03f145b2837732231c617732e4a2a4dd2&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2023%20Nov%202026%2019%3A21%3A03%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva
