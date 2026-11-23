@@ -18,37 +18,77 @@ design:
   score: Three or more? You are *ahead* of the January wave.
   cta: Comment 'SELLER' for my prep list
 captions:
-  default: |-
-    The January listings that look effortless were decided in November.
+  default: 'The January listings that look effortless were decided in November.
+
 
     Nothing on this list costs much. It just takes lead time, and lead time is the one thing you cannot buy back in week one.
 
+
     Five things to line up now:
+
 
     Book the trades you need. Contractor calendars, not the work itself, are what set your timeline.
 
+
     Decide what you are fixing and what you are leaving. Both are valid answers. An undecided list is what stalls.
+
 
     Clear out what you are not taking with you. You are going to pack it anyway. Packing it early makes rooms read larger in photos.
 
+
     Give the yard time. Anything planted or trimmed now has weeks to fill back in before a camera shows up.
+
 
     Pick a target week to go live, and work backwards from it. A date turns a wish into a plan.
 
+
     That is it. No staging budget, no renovation, no guessing at the market. Just the five decisions that are easier in November than in January.
 
-    Comment 'SELLER' and I'll send you the prep list I walk my sellers through.
 
-    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #SouthBayHomes #CerritosCA #GardenaHomes #SoCalRealEstate
-  linkedin: |-
-    Sellers who go live in January tend to fall into two groups: the ones who decided in November, and the ones who are still waiting on a contractor in February.
+    Comment ''SELLER'' and I''ll send you the prep list I walk my sellers through.
+
+
+    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #SouthBayHomes #CerritosCA #GardenaHomes #SoCalRealEstate'
+  linkedin: 'Sellers who go live in January tend to fall into two groups: the ones who decided in November, and the ones who are still waiting on a contractor in February.
+
 
     Almost none of the gap is money. It is lead time. Trades get booked out, a yard needs weeks to recover from being tidied, and the single most useful thing a seller can do is pick a target week and work backwards from it. The decision that stalls a listing is rarely "should I fix this" — it is leaving the question open.
 
+
     The takeaway: pre-listing prep is a scheduling exercise before it is a budget exercise, and November is when the schedule is still yours to set.
+
 
     What do you see sellers underestimate most about getting ready?
 
-    #RealEstate #HomeSelling #CaliforniaRealEstate
+
+    #RealEstate #HomeSelling #CaliforniaRealEstate'
   tiktok: 'the january listings that look effortless were decided in november. five things to line up now. #realestatetips #homeselling #listingprep #sellerstips #socalrealestate'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-24/media/r2-instagram.mp4
+  facebook: queue/2026-11-24/media/r2-facebook.mp4
+  linkedin: queue/2026-11-24/media/r2-linkedin.mp4
+schedule:
+  facebook: 2026-11-24T11:04-08:00
+  instagram: 2026-11-24T11:11-08:00
+  linkedin: 2026-11-24T11:05-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: beam
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: porcelain
+    deco: arcs
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: graphite
+    deco: halo
+    side: left
+    center: false
+    template: checklist

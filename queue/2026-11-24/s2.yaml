@@ -16,3 +16,23 @@ design:
   example: A covered system fails, you pay a service fee, and the plan decides repair or replace.
   cta: DM 'BUYER' for my first-year checklist
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-24/media/s2-instagram.jpg
+  facebook: queue/2026-11-24/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-24T10:07-08:00
+  instagram: 2026-11-24T08:11-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: dots
+    side: right
+    center: false
+    template: explainer
+  facebook:
+    theme: aurum
+    deco: glow
+    side: right
+    center: false
+    template: explainer
