@@ -73,7 +73,19 @@ captions:
     #RealEstate #HomeBuying #CaliforniaRealEstate'
   tiktok: 'your lender can''t fund without a bound policy. here''s the order that keeps insurance off your critical path. #firsttimehomebuyer #realestatetips #escrow #homebuying #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18130979467898357'
+    at: '2026-11-23T11:16:06-08:00'
+  facebook:
+    state: posted
+    id: '29403722842597406'
+    at: '2026-11-23T11:16:13-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7530710845996154880
+    at: '2026-11-23T11:16:20-08:00'
 media:
   instagram: queue/2026-11-23/media/r2-instagram.mp4
   facebook: queue/2026-11-23/media/r2-facebook.mp4
