@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-23T17:14-08:00",
+  "updated": "2026-11-24T03:37-08:00",
   "scores": {
     "track:untagged": {
-      "posts": 176,
-      "avg_rate": 0.0254,
+      "posts": 174,
+      "avg_rate": 0.0252,
       "avg_eng": 2.8,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0001
     },
     "kind:post": {
       "posts": 232,
-      "avg_rate": 0.0123,
+      "avg_rate": 0.012,
       "avg_eng": 1.2,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0043
     },
     "platform:instagram": {
-      "posts": 328,
-      "avg_rate": 0.0162,
+      "posts": 327,
+      "avg_rate": 0.0161,
       "avg_eng": 1.6,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0001
     },
     "kind:reel": {
       "posts": 101,
-      "avg_rate": 0.015,
+      "avg_rate": 0.0153,
       "avg_eng": 1.9,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0001
     },
     "platform:facebook": {
-      "posts": 146,
+      "posts": 147,
       "avg_rate": 0.0074,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
@@ -44,15 +44,15 @@
       "avg_share_rate": 0.0001
     },
     "track:seller_education": {
-      "posts": 67,
-      "avg_rate": 0.0018,
+      "posts": 69,
+      "avg_rate": 0.0023,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "track:market_update": {
       "posts": 49,
-      "avg_rate": 0.024,
+      "avg_rate": 0.0246,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0204
@@ -101,7 +101,7 @@
     },
     "template:stat": {
       "posts": 38,
-      "avg_rate": 0.028,
+      "avg_rate": 0.0287,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0263
@@ -115,7 +115,7 @@
     },
     "theme:silver": {
       "posts": 36,
-      "avg_rate": 0.0041,
+      "avg_rate": 0.0049,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -129,7 +129,7 @@
     },
     "track:investment": {
       "posts": 24,
-      "avg_rate": 0.0044,
+      "avg_rate": 0.0043,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -254,28 +254,28 @@
       "avg_share_rate": 0.0
     },
     "template:carousel": {
-      "posts": 4,
-      "avg_rate": 0.0322,
-      "avg_eng": 1.5,
+      "posts": 6,
+      "avg_rate": 0.027,
+      "avg_eng": 1.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:canva": {
-      "posts": 4,
-      "avg_rate": 0.0322,
-      "avg_eng": 1.5,
+      "posts": 6,
+      "avg_rate": 0.027,
+      "avg_eng": 1.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     }
   },
   "directives": [
-    "Write an extra Untagged piece and one fewer Local Spotlight piece. Untagged earns 2.5% vs 0.0% over the last 60 days (176 vs 5 posts).",
+    "Write an extra Untagged piece and one fewer Local Spotlight piece. Untagged earns 2.5% vs 0.0% over the last 60 days (174 vs 5 posts).",
     "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
-    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'carousel' at 3.2%."
+    "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 2.9%."
   ],
   "tips": [
-    "Best-performing look: canva (3.2%). Weakest: aurum (0.0%)."
+    "Best-performing look: graphite (3.1%). Weakest: aurum (0.0%)."
   ],
   "followers": {
     "instagram": {
