@@ -64,7 +64,19 @@ captions:
     #RealEstate #HomeSelling #CaliforniaRealEstate'
   tiktok: 'the january listings that look effortless were decided in november. five things to line up now. #realestatetips #homeselling #listingprep #sellerstips #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18079733849568147'
+    at: '2026-11-24T11:16:10-08:00'
+  facebook:
+    state: posted
+    id: '1687144199818397'
+    at: '2026-11-24T11:16:21-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7531073267600769024
+    at: '2026-11-24T11:16:28-08:00'
 media:
   instagram: queue/2026-11-24/media/r2-instagram.mp4
   facebook: queue/2026-11-24/media/r2-facebook.mp4
