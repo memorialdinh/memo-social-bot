@@ -1,0 +1,24 @@
+id: s2
+kind: story
+track: seller_education
+topic: An appraisal and a comparative market analysis answer two different questions plain English compare
+time: auto
+approved: true
+design:
+  template: compare
+  kicker: REAL ESTATE 101
+  headline: An appraisal and a *CMA* are not the same.
+  subhead: Values are estimates, not an appraisal.
+  left:
+    label: Appraisal
+    points:
+    - Ordered by the lender, done by a licensed appraiser
+    - Answers whether the loan amount is supported
+  right:
+    label: CMA
+    points:
+    - Prepared by your agent from recent comparable sales
+    - Answers where to set the asking price
+  verdict: Two different questions. Neither one is the "right" number.
+  cta: DM 'VALUE' for your home's range
+sources: []

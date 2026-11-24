@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: investment
+topic: Teaser quiz for the carousel on which rent number to underwrite a rental purchase with
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: POP QUIZ
+  headline: Buying a rental? Which rent do you *use*?
+  subhead: Swipe today's post for the full method.
+  options:
+  - What the listing sites suggest
+  - What similar nearby units actually rent for
+  - What you need to break even
+  answer: B
+  explain: Real comps first, then adjust, then test a lower number.
+  reveal: false
+  cta: Reply INVEST with A, B or C
+sources: []
