@@ -28,7 +28,19 @@ captions:
 
 
     #RealEstate #HomeSelling #HousingMarket'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18020260769747840'
+    at: '2026-11-23T19:15:30-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1184695774557854'
+    at: '2026-11-23T19:15:38-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7530831482731446272
+    at: '2026-11-23T19:15:42-08:00'
 media:
   instagram: &id001
   - queue/2026-11-23/media/c1-1.jpg
