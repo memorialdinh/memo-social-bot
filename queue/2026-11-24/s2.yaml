@@ -16,7 +16,11 @@ design:
   example: A covered system fails, you pay a service fee, and the plan decides repair or replace.
   cta: DM 'BUYER' for my first-year checklist
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18073255808716639'
+    at: '2026-11-24T08:15:29-08:00'
 media:
   instagram: queue/2026-11-24/media/s2-instagram.jpg
   facebook: queue/2026-11-24/media/s2-facebook.jpg
