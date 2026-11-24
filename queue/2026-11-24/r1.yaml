@@ -73,7 +73,19 @@ sources:
 - https://www.calhfa.ca.gov/homeownership/programs/myhome.pdf
 - https://cloud.calhfa.ca.gov/homebuyer/programs/myhome.htm
 - https://www.calhfa.ca.gov/homebuyer/programs/
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18080438675724187'
+    at: '2026-11-24T09:16:02-08:00'
+  facebook:
+    state: posted
+    id: '1665756265562245'
+    at: '2026-11-24T09:16:08-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7531043015684046848
+    at: '2026-11-24T09:16:15-08:00'
 media:
   instagram: queue/2026-11-24/media/r1-instagram.mp4
   facebook: queue/2026-11-24/media/r1-facebook.mp4
