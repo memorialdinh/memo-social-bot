@@ -22,3 +22,23 @@ design:
   verdict: Two different questions. Neither one is the "right" number.
   cta: DM 'VALUE' for your home's range
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-25/media/s2-instagram.jpg
+  facebook: queue/2026-11-25/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-25T10:09-08:00
+  instagram: 2026-11-25T08:11-08:00
+rendered:
+  instagram:
+    theme: slate
+    deco: frame
+    side: right
+    center: false
+    template: compare
+  facebook:
+    theme: noir
+    deco: dots
+    side: left
+    center: false
+    template: compare

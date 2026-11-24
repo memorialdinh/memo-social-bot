@@ -18,31 +18,68 @@ design:
   reveal: false
   cta: Comment 'SELLER' for my payoff list
 captions:
-  default: |-
-    You made the last mortgage payment. The lien does not come off by itself.
+  default: 'You made the last mortgage payment. The lien does not come off by itself.
+
 
     What clears it is a reconveyance. The lender tells the trustee the debt is paid, and the trustee records a document with the county that releases the deed of trust from your title.
 
+
     Until that records, title still shows the loan. It usually goes through quietly. Sometimes it does not, and the owner finds out years later, in the middle of a sale or a refinance.
+
 
     So after a payoff, two things are worth doing. Keep the payoff statement. Then confirm the reconveyance actually recorded.
 
+
     General information, not legal advice. Your title company or your own attorney can pull the title and tell you what is on it.
 
-    Comment 'SELLER' and I'll send you my payoff list.
 
-    #LongBeachRealEstate #LakewoodCA #TorranceHomes #SouthBayHomes #CerritosCA #SoCalRealEstate #Homeowners
-  linkedin: |-
-    A paid-off mortgage is not the same thing as clear title, and that gap is where a surprising number of closings stall.
+    Comment ''SELLER'' and I''ll send you my payoff list.
+
+
+    #LongBeachRealEstate #LakewoodCA #TorranceHomes #SouthBayHomes #CerritosCA #SoCalRealEstate #Homeowners'
+  linkedin: 'A paid-off mortgage is not the same thing as clear title, and that gap is where a surprising number of closings stall.
+
 
     The payoff satisfies the debt. Releasing the lien is a separate, recorded act: the beneficiary instructs the trustee, and the trustee records a reconveyance with the county. Until it records, the deed of trust is still on title. Most of the time it happens without anyone thinking about it. When it does not, it surfaces years later in escrow, usually on a deadline.
 
+
     The takeaway for anyone advising homeowners: treat a payoff as two steps, not one, and verify the second.
+
 
     General information, not legal advice.
 
+
     How often are you seeing stale liens turn up in title on otherwise clean files?
 
-    #RealEstate #Homeownership #Title
+
+    #RealEstate #Homeownership #Title'
   tiktok: 'paying off your mortgage does not take the lien off your title. one more thing has to record. #homeowner #realestatetips #mortgagepayoff #realestate101 #socalrealestate'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-25/media/r2-instagram.mp4
+  facebook: queue/2026-11-25/media/r2-facebook.mp4
+  linkedin: queue/2026-11-25/media/r2-linkedin.mp4
+schedule:
+  facebook: 2026-11-25T11:09-08:00
+  instagram: 2026-11-25T11:05-08:00
+  linkedin: 2026-11-25T11:07-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: split
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: silver
+    deco: corners
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: noir
+    deco: monogram
+    side: left
+    center: false
+    template: quiz
