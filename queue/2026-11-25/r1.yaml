@@ -51,7 +51,19 @@ captions:
   tiktok: 'a tree planted for every home sold. 13,347 of them so far. #realestateagent #realtorlife #realestatecareer #agentlife #brokerage'
 sources:
 - https://joinepique.com
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18108814391631510'
+    at: '2026-11-25T09:16:12-08:00'
+  facebook:
+    state: posted
+    id: '1157707619934786'
+    at: '2026-11-25T09:16:20-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7531405455684866048
+    at: '2026-11-25T09:16:28-08:00'
 media:
   instagram: queue/2026-11-25/media/r1-instagram.mp4
   facebook: queue/2026-11-25/media/r1-facebook.mp4
