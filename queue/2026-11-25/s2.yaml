@@ -22,7 +22,11 @@ design:
   verdict: Two different questions. Neither one is the "right" number.
   cta: DM 'VALUE' for your home's range
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17907177123392003'
+    at: '2026-11-25T08:24:37-08:00'
 media:
   instagram: queue/2026-11-25/media/s2-instagram.jpg
   facebook: queue/2026-11-25/media/s2-facebook.jpg
