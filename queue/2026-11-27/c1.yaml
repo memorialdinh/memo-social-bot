@@ -1,0 +1,63 @@
+# Canva carousel, auto-made every 2 days (Memo, Nov 18 2026). Takes the day's post slot (see CONTENT_BRIEF).
+id: c1
+kind: post
+carousel: true
+track: buyer_education
+topic: 'Comparing Loan Estimates from two lenders step by step: request them the same day, compare the fees lenders control, check In 5 Years then negotiate'
+time: auto
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Two lenders. Which offer wins?
+  template_note: Canva carousel, 4 slides
+  canva_link: https://canva.link/8xd0ierlaglbbh9
+captions:
+  default: 'Two lenders, two quotes. Which one''s actually cheaper?
+
+
+    Step 1: Get your Loan Estimates the same day, for the same loan amount and loan type. Rates move day to day.
+
+    Step 2: Compare the fees lenders control. Page 2, Sections A, B and J.
+
+    Step 3: Check "In 5 Years" on page 3, then ask the lender you like to match.
+
+
+    DM me ''RATES'' and I''ll send you my Loan Estimate checklist.
+
+
+    #TorranceRealEstate #SouthBayHomes #LongBeachRealEstate #RedondoBeach #ElSegundo #FirstTimeHomeBuyer #MortgageTips'
+  linkedin: 'Buyers often pick a lender on the interest rate alone. The Loan Estimate tells a fuller story.
+
+
+    Request estimates the same day, on the same loan amount and type, so the rates are comparable. Then compare the costs lenders actually control (origination, services you can shop for, lender credits) and use the "In 5 Years" line to see total cost over time. A competing estimate in hand is usually the best negotiating tool a buyer has.
+
+
+    Takeaway: compare the whole offer, not the headline rate.
+
+
+    How do you help clients compare lender quotes side by side?
+
+
+    #RealEstate #Mortgage #HomeBuying'
+media_src:
+- https://export-download.canva.com/OsEJA/DAHb8WOsEJA/-1/0/0001-332663777909464110.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261125T111809Z&X-Amz-Expires=29711&X-Amz-Signature=8658ab46e30bd6f2ae0a864563a8e97dc82f145a5af4daa21603c7615d2fcf4c&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2025%20Nov%202026%2019%3A33%3A20%20GMT
+- https://export-download.canva.com/OsEJA/DAHb8WOsEJA/-1/0/0002-332663777909464110.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261124T194600Z&X-Amz-Expires=84876&X-Amz-Signature=feec8fd9e85ba7655267c1e655348739c460be18cc65bf19152d97cdb9e86f5d&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2025%20Nov%202026%2019%3A20%3A36%20GMT
+- https://export-download.canva.com/OsEJA/DAHb8WOsEJA/-1/0/0003-332663777909464110.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261125T095758Z&X-Amz-Expires=32982&X-Amz-Signature=c59b6514bb4c0b31bc40b9dc0690066651f98074902d19a941aadfe0b4e73f89&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2025%20Nov%202026%2019%3A07%3A40%20GMT
+- https://export-download.canva.com/OsEJA/DAHb8WOsEJA/-1/0/0004-332663777909464110.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261125T032323Z&X-Amz-Expires=55652&X-Amz-Signature=4b002fe4ef71120fad69230da070afd9858a37c19285fa5c57360119623e9baf&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2025%20Nov%202026%2018%3A50%3A55%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva
+sources:
+- https://www.consumerfinance.gov/owning-a-home/compare/compare-loan-estimates/
