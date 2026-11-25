@@ -1,8 +1,7 @@
 id: r2
 kind: reel
 track: community
-topic: Do you know where the grant deed the title policy the insurance declaration page and the current
-  mortgage statement are for the house you already own
+topic: Do you know where the grant deed the title policy the insurance declaration page and the current mortgage statement are for the house you already own
 time: auto
 approved: true
 design:
@@ -21,21 +20,16 @@ captions:
   default: 'Not selling. Not refinancing. Not planning anything. Just: do you know where these four are?
 
 
-    The grant deed. The title insurance policy from when you bought. The declaration page of your homeowners
-    policy. Your current mortgage statement.
+    The grant deed. The title insurance policy from when you bought. The declaration page of your homeowners policy. Your current mortgage statement.
 
 
     Four documents, one folder. That is the entire job.
 
 
-    Here is why it is worth an hour this weekend. Every one of those gets asked for at the moment you
-    are least able to go looking - a claim, a refinance, an insurer wanting to know what your coverage
-    actually says, a death in the family.
+    Here is why it is worth an hour this weekend. Every one of those gets asked for at the moment you are least able to go looking - a claim, a refinance, an insurer wanting to know what your coverage actually says, a death in the family.
 
 
-    None of them are hard to replace. All of them are annoying to replace. The deed is recorded with the
-    county, so a copy exists. The title policy came from the title company at closing. The declaration
-    page arrives at every renewal. The statement shows up monthly.
+    None of them are hard to replace. All of them are annoying to replace. The deed is recorded with the county, so a copy exists. The title policy came from the title company at closing. The declaration page arrives at every renewal. The statement shows up monthly.
 
 
     Pull them into one place while nothing is happening. That is the whole point of doing it today.
@@ -45,27 +39,49 @@ captions:
 
 
     #LongBeachRealEstate #LakewoodHomes #CerritosCA #SouthBayHomes #TorranceHomes #SoCalRealEstate'
-  linkedin: 'A question for homeowners who are not selling anything: can you put your hands on these four
-    documents today?
+  linkedin: 'A question for homeowners who are not selling anything: can you put your hands on these four documents today?
 
 
-    The grant deed. The title insurance policy from your purchase. The declaration page of your homeowners
-    policy. Your current mortgage statement.
+    The grant deed. The title insurance policy from your purchase. The declaration page of your homeowners policy. Your current mortgage statement.
 
 
-    Each one tends to be requested at the worst possible moment - a claim, a refinance, an insurer asking
-    what the policy covers, a death in the family. None are difficult to replace. All are tedious to replace,
-    and the tedium reliably lands on whoever has the least capacity for it.
+    Each one tends to be requested at the worst possible moment - a claim, a refinance, an insurer asking what the policy covers, a death in the family. None are difficult to replace. All are tedious to replace, and the tedium reliably lands on whoever has the least capacity for it.
 
 
-    The takeaway: this is a one-hour filing exercise that buys back a week of calm later. It is also the
-    cheapest thing an agent can hand a past client who has no transaction in sight.
+    The takeaway: this is a one-hour filing exercise that buys back a week of calm later. It is also the cheapest thing an agent can hand a past client who has no transaction in sight.
 
 
     Which of the four do you see people scrambling for most?
 
 
     #RealEstate #Homeownership #CaliforniaRealEstate'
-  tiktok: 'four documents every homeowner should be able to find today. can you find all four? #realestatetips
-    #homeowner #homeownership #socalrealestate #realestate'
+  tiktok: 'four documents every homeowner should be able to find today. can you find all four? #realestatetips #homeowner #homeownership #socalrealestate #realestate'
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-26/media/r2-instagram.mp4
+  facebook: queue/2026-11-26/media/r2-facebook.mp4
+  linkedin: queue/2026-11-26/media/r2-linkedin.mp4
+schedule:
+  facebook: 2026-11-26T11:02-08:00
+  instagram: 2026-11-26T11:11-08:00
+  linkedin: 2026-11-26T11:03-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: monogram
+    side: left
+    center: false
+    template: checklist
+  facebook:
+    theme: aurum
+    deco: glow
+    side: left
+    center: false
+    template: checklist
+  linkedin:
+    theme: ivory
+    deco: rules
+    side: left
+    center: false
+    template: checklist

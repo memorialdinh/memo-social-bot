@@ -1,8 +1,7 @@
 id: s2
 kind: story
 track: motivation
-topic: Thanksgiving gratitude for the people who sent referrals and that knowing your number is what makes
-  a decision possible
+topic: Thanksgiving gratitude for the people who sent referrals and that knowing your number is what makes a decision possible
 time: auto
 approved: true
 design:
@@ -12,3 +11,23 @@ design:
   subhead: Knowing the number is what makes a decision possible. Happy Thanksgiving.
   cta: DM 'BUYER' to map your numbers
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-26/media/s2-instagram.jpg
+  facebook: queue/2026-11-26/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-26T10:07-08:00
+  instagram: 2026-11-26T08:05-08:00
+rendered:
+  instagram:
+    theme: goldrush
+    deco: rules
+    side: right
+    center: true
+    template: quote
+  facebook:
+    theme: carbon
+    deco: glow
+    side: left
+    center: false
+    template: quote
