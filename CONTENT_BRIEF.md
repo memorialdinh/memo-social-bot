@@ -25,9 +25,19 @@ Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
 
 | Item | Count | Platforms |
 |---|---|---|
-| Feed post `p1` | 1 | Instagram, Facebook, LinkedIn, TikTok (animated) |
-| Reels `r1`–`r2` | 2 | Instagram, Facebook, LinkedIn, TikTok |
+| Feed posts `p1`–`p2` | 2 | Instagram, Facebook, LinkedIn, TikTok (animated) |
+| Reels `r1`–`r3` | 3 | Instagram, Facebook, LinkedIn, TikTok |
 | Stories `s1`–`s2` | 2 | Instagram, Facebook |
+
+**Memo raised the volume on Nov 25, 2026: "from now on post at 7am and 12pm too"** (he chose
+"add 2 posts, 5 a day"). So the day is now **5 feed items + 2 stories**: the earlier 3 feed items
+(`p1`, `r1`, `r2`, timed automatically) **plus two fixed-time slots**:
+- **`p2` with `time: "07:05"`** (7am; static posts do well 5-8am on this account)
+- **`r3` with `time: "12:05"`** (noon; reels peak 9am-12pm)
+Always write both, with exactly those `time` values, so they go out at 7am and 12pm. Wherever this
+brief or the playbook/week plan says "3 feed items", read **5**: the cap below is now 5 feed
+items + 2 stories, and the precedence list for "3 slots" now has 5 slots (fill the extra two from
+the next items on that list). This paragraph overrides the Nov 12 text below where they conflict.
 
 **Memo cut the volume on Nov 12, 2026:** "Slow down on posting on my social media, I
 think 3 a day is good." So the day is **3 feed items + 2 stories**, down from 10 pieces.
@@ -91,7 +101,7 @@ report rather than going over.
 - **Canva carousels (Memo, Nov 18 2026: "add this into my social media daily post").** If
   `queue/<date>/c1.yaml` exists, it is a 4-slide carousel Memo designed in Canva and approved. It
   **is that day's post slot**: leave it alone, write **no p1**, and fill the rest of the day with
-  r1–r2 and s1–s2 as usual, so the day stays at 3 feed items. Don't repeat its topic in the reels,
+  r1–r3, p2 and s1–s2 as usual, so the day stays at 5 feed items (p2 at 07:05, r3 at 12:05). Don't repeat its topic in the reels,
   and let `s1` tease it ("Swipe through today's post 👉"). Carousels post to Instagram, Facebook and
   LinkedIn only; TikTok gets nothing from a carousel day beyond the reels.
 

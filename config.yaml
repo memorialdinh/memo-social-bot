@@ -46,9 +46,11 @@ routing:
 # "Slow down on posting on my social media, I think 3 a day is good."
 # 3 feed items a day, reel-weighted because reels out-earn static posts by a
 # wide margin on this account (playbook section 6), plus 2 stories.
+# Nov 25 2026 (Memo: "from now on post at 7am and 12pm too"): 5 feed items a
+# day. The two extra are fixed-time: p2 at 07:05 and r3 at 12:05 (see CONTENT_BRIEF).
 daily_mix:
-  post: 1
-  reel: 2
+  post: 2
+  reel: 3
   story: 2
 
 # Content tracks and how often each should appear (relative weights)

@@ -46,7 +46,7 @@ checked with `python -m bot.seen` before it went in the file, and `--plan` was r
 writes **Tue Nov 24** and Friday's writes Sun Nov 29. `queue/2026-11-23/` is already written and
 complete at 5 items — **do not touch it.**
 
-**The day is 3 feed items + 2 stories: `p1`, `r1`, `r2`, `s1`, `s2`.** Nothing else. If a `c1`
+**Updated Nov 25 2026 (Memo): the day is 5 feed items + 2 stories: `p1`, `p2` (time "07:05"), `r1`, `r2`, `r3` (time "12:05"), `s1`, `s2`.** Nothing else. (Was 3 feed items before Nov 25; read any "3 feed" below as 5.) If a `c1`
 Canva carousel exists for a day, **it is that day's post slot: write no `p1`** and the day stays at
 3 feed items. Memo added a `c1` on Nov 20, Nov 21 and Nov 23, so expect more this week.
 

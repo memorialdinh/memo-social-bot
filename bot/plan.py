@@ -58,6 +58,16 @@ def plan_day(items: list[Item]) -> int:
     changed = 0
     platforms = sorted({p for it in items for p in it.platforms()})
     for plat in platforms:
+        # Seat fixed-time items first (e.g. Memo's 7am p2 and 12pm r3, Nov 25
+        # 2026) so the auto-timed items plan around them instead of the other
+        # way round.
+        for it in items:
+            fixed = it.d.get("time")
+            if plat in it.platforms() and not it.scheduled_at(plat) and fixed and fixed != "auto":
+                hh, mm = map(int, str(fixed).split(":"))
+                it.d["schedule"][plat] = datetime.combine(day, time(hh, mm), TZ).isoformat(timespec="minutes")
+                it.save()
+                changed += 1
         taken = [it.scheduled_at(plat) for it in items if it.scheduled_at(plat)]
         for kind in ("post", "reel", "story"):
             todo = [it for it in items if it.kind == kind and plat in it.platforms() and not it.scheduled_at(plat)]
