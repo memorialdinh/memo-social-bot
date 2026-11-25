@@ -55,7 +55,19 @@ captions:
     #RealEstate #Homeownership #Title'
   tiktok: 'paying off your mortgage does not take the lien off your title. one more thing has to record. #homeowner #realestatetips #mortgagepayoff #realestate101 #socalrealestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18107996114457404'
+    at: '2026-11-25T11:15:57-08:00'
+  facebook:
+    state: posted
+    id: '1138916865717717'
+    at: '2026-11-25T11:16:04-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7531435586696478721
+    at: '2026-11-25T11:16:11-08:00'
 media:
   instagram: queue/2026-11-25/media/r2-instagram.mp4
   facebook: queue/2026-11-25/media/r2-facebook.mp4
