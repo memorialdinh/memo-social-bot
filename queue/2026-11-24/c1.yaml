@@ -28,7 +28,19 @@ captions:
 
 
     #RealEstate #LongBeach #HousingMarket'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18153196957562424'
+    at: '2026-11-24T19:15:46-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1185847777775987'
+    at: '2026-11-24T19:16:00-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7531193965438738432
+    at: '2026-11-24T19:16:04-08:00'
 media:
   instagram: &id001
   - queue/2026-11-24/media/c1-1.jpg
