@@ -1,4 +1,4 @@
-id: c1
+id: c2
 kind: post
 carousel: true
 track: buyer_education
@@ -44,10 +44,10 @@ captions:
 status: {}
 media:
   instagram: &id001
-  - queue/2026-11-27/media/c1-1.jpg
-  - queue/2026-11-27/media/c1-2.jpg
-  - queue/2026-11-27/media/c1-3.jpg
-  - queue/2026-11-27/media/c1-4.jpg
+  - queue/2026-11-25/media/c2-1.jpg
+  - queue/2026-11-25/media/c2-2.jpg
+  - queue/2026-11-25/media/c2-3.jpg
+  - queue/2026-11-25/media/c2-4.jpg
   facebook: *id001
   linkedin: *id001
 rendered:
@@ -63,6 +63,6 @@ rendered:
 sources:
 - https://www.consumerfinance.gov/owning-a-home/compare/compare-loan-estimates/
 schedule:
-  facebook: 2026-11-27T19:08-08:00
-  instagram: 2026-11-27T19:08-08:00
-  linkedin: 2026-11-27T19:03-08:00
+  instagram: '2026-11-25T09:46-08:00'
+  facebook: '2026-11-25T09:46-08:00'
+  linkedin: '2026-11-25T09:46-08:00'
