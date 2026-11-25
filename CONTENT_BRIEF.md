@@ -39,6 +39,21 @@ brief or the playbook/week plan says "3 feed items", read **5**: the cap below i
 items + 2 stories, and the precedence list for "3 slots" now has 5 slots (fill the extra two from
 the next items on that list). This paragraph overrides the Nov 12 text below where they conflict.
 
+**Memo, Nov 25, 2026 (later the same day): "start posting these style 3 time a day starting at 7am"** — the
+Canva carousels, three a day, **replacing** other feed items (he chose "replace", not "add"). From
+**Thu Nov 26, 2026** every day has three Canva carousels, made by the "Canva carousel" scheduled task:
+- **`c1` at `time: "07:05"`, `c2` at `time: "12:05"`, `c3` at `time: "17:05"`** — Instagram, Facebook, LinkedIn.
+- When `queue/<date>/c1.yaml` (or c2/c3) exists, the daily writer writes **no `p1`, no `p2` and no `r3`**.
+  It writes only **`r1`, `r2` (auto-timed reels, TikTok too) and `s1`, `s2`**. The day is then
+  **5 feed items (3 carousels + 2 reels) + 2 stories**. Don't repeat any carousel's topic in the reels;
+  `s1` can tease a carousel ("Swipe through today's post 👉").
+- The daily requirements (process, questionnaire, education, weekly 15-minute offer) ride the reels and
+  stories on carousel days; the carousels themselves are step-by-step education with a keyword CTA and
+  the "Book 15 minutes" button. The Wed/Sun Spotlight takes `r1` or `r2`.
+- If a carousel is missing for a day (the task failed), fall back to the Nov 25 cadence above for the
+  missing slots: `p2` at 07:05 for a missing `c1`, `r3` at 12:05 for a missing `c2`, `p1` for a missing `c3`.
+This paragraph overrides the Nov 25 paragraph above and the "Canva carousels (Nov 18)" bullet below where they conflict.
+
 **Memo cut the volume on Nov 12, 2026:** "Slow down on posting on my social media, I
 think 3 a day is good." So the day is **3 feed items + 2 stories**, down from 10 pieces.
 The feed is reel-weighted on purpose — reels out-earn static posts by a wide margin on
