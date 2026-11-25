@@ -1,0 +1,14 @@
+id: s2
+kind: story
+track: motivation
+topic: Thanksgiving gratitude for the people who sent referrals and that knowing your number is what makes
+  a decision possible
+time: auto
+approved: true
+design:
+  template: quote
+  kicker: GRATITUDE
+  quote: Thank you for trusting me with your numbers this year.
+  subhead: Knowing the number is what makes a decision possible. Happy Thanksgiving.
+  cta: DM 'BUYER' to map your numbers
+sources: []

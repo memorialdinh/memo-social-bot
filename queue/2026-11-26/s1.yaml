@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: community
+topic: Teaser quiz for r2 on which of the four homeowner documents is the one recorded with the county
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: QUICK CHECK
+  headline: Which one is *recorded* with the county?
+  subhead: Reply A, B or C. General information, not legal advice.
+  options:
+  - The grant deed
+  - The title insurance policy
+  - The insurance declaration page
+  answer: A
+  explain: The grant deed is recorded, which is why the county recorder can issue you a copy.
+  reveal: false
+  cta: Reply SELLER with A, B or C
+sources: []
