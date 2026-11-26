@@ -2,7 +2,7 @@ id: r1
 kind: reel
 track: seller_education
 topic: Who pays the property taxes for the months before you owned the house proration at closing and where it shows on the closing statement
-time: auto
+time: "08:55"
 approved: true
 design:
   template: process
@@ -70,9 +70,9 @@ media:
   facebook: queue/2026-11-27/media/r1-facebook.mp4
   linkedin: queue/2026-11-27/media/r1-linkedin.mp4
 schedule:
-  facebook: 2026-11-27T09:04-08:00
-  instagram: 2026-11-27T09:03-08:00
-  linkedin: 2026-11-27T09:08-08:00
+  facebook: 2026-11-27T08:55-08:00
+  instagram: 2026-11-27T08:55-08:00
+  linkedin: 2026-11-27T08:55-08:00
 rendered:
   instagram:
     theme: noir

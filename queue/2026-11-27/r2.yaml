@@ -2,7 +2,7 @@ id: r2
 kind: reel
 track: buyer_education
 topic: Why one large unsourced deposit on a bank statement can stall a loan and the paper trail that clears it
-time: auto
+time: "10:30"
 approved: true
 design:
   template: quiz
@@ -65,9 +65,9 @@ media:
   facebook: queue/2026-11-27/media/r2-facebook.mp4
   linkedin: queue/2026-11-27/media/r2-linkedin.mp4
 schedule:
-  facebook: 2026-11-27T21:09-08:00
-  instagram: 2026-11-27T21:11-08:00
-  linkedin: 2026-11-27T21:06-08:00
+  facebook: 2026-11-27T10:30-08:00
+  instagram: 2026-11-27T10:30-08:00
+  linkedin: 2026-11-27T10:30-08:00
 rendered:
   instagram:
     theme: ivory
