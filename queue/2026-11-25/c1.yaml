@@ -41,7 +41,19 @@ captions:
 
 
     #RealEstateInvesting #RentalProperty #RealEstate'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18081765716467391'
+    at: '2026-11-25T19:16:19-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1187003087660456'
+    at: '2026-11-25T19:16:31-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7531556480253149185
+    at: '2026-11-25T19:16:35-08:00'
 media:
   instagram: &id001
   - queue/2026-11-25/media/c1-1.jpg
