@@ -57,7 +57,19 @@ captions:
     #RealEstate #Homeownership #CaliforniaRealEstate'
   tiktok: 'four documents every homeowner should be able to find today. can you find all four? #realestatetips #homeowner #homeownership #socalrealestate #realestate'
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18136189658499687'
+    at: '2026-11-26T11:16:04-08:00'
+  facebook:
+    state: posted
+    id: '1203173485988740'
+    at: '2026-11-26T11:16:11-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7531798007906926592
+    at: '2026-11-26T11:16:20-08:00'
 media:
   instagram: queue/2026-11-26/media/r2-instagram.mp4
   facebook: queue/2026-11-26/media/r2-facebook.mp4
