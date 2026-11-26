@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-25T14:45-08:00",
+  "updated": "2026-11-26T02:02-08:00",
   "scores": {
     "track:untagged": {
       "posts": 182,
-      "avg_rate": 0.0236,
+      "avg_rate": 0.0234,
       "avg_eng": 2.5,
       "avg_save_rate": 0.0002,
-      "avg_share_rate": 0.0001
+      "avg_share_rate": 0.0002
     },
     "kind:post": {
-      "posts": 239,
-      "avg_rate": 0.011,
+      "posts": 241,
+      "avg_rate": 0.0109,
       "avg_eng": 1.0,
       "avg_save_rate": 0.0001,
       "avg_share_rate": 0.0042
     },
     "platform:instagram": {
-      "posts": 341,
-      "avg_rate": 0.0155,
+      "posts": 342,
+      "avg_rate": 0.0153,
       "avg_eng": 1.4,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0001
     },
     "kind:reel": {
       "posts": 106,
-      "avg_rate": 0.0155,
+      "avg_rate": 0.0153,
       "avg_eng": 1.9,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0001
     },
     "platform:facebook": {
-      "posts": 153,
-      "avg_rate": 0.0071,
+      "posts": 154,
+      "avg_rate": 0.007,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0065
@@ -87,7 +87,7 @@
     },
     "track:buyer_education": {
       "posts": 79,
-      "avg_rate": 0.0032,
+      "avg_rate": 0.0031,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -128,8 +128,8 @@
       "avg_share_rate": 0.0
     },
     "track:investment": {
-      "posts": 25,
-      "avg_rate": 0.0045,
+      "posts": 27,
+      "avg_rate": 0.0041,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -171,7 +171,7 @@
     },
     "track:local_spotlight": {
       "posts": 7,
-      "avg_rate": 0.0046,
+      "avg_rate": 0.004,
       "avg_eng": 0.4,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -254,23 +254,23 @@
       "avg_share_rate": 0.0
     },
     "template:carousel": {
-      "posts": 10,
-      "avg_rate": 0.0181,
-      "avg_eng": 1.1,
+      "posts": 12,
+      "avg_rate": 0.0145,
+      "avg_eng": 0.9,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:canva": {
-      "posts": 10,
-      "avg_rate": 0.0181,
-      "avg_eng": 1.1,
+      "posts": 12,
+      "avg_rate": 0.0145,
+      "avg_eng": 0.9,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     }
   },
   "directives": [
     "Write an extra Market Update piece and one fewer Birthday Club piece. Market Update earns 2.4% vs 0.0% over the last 60 days (49 vs 5 posts).",
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.6% against 1.1% for static posts.",
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.5% against 1.1% for static posts.",
     "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
     "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 2.9%."
@@ -300,9 +300,9 @@
       "template": "stat",
       "theme": "graphite",
       "caption": "The 30-year fixed averaged 7.24% for the week ending Oct 29, down from 7.32% the week before (Freddie Mac). The 15-year averaged 6.60%.  Fre",
-      "saves": 0,
-      "shares": 1,
-      "rate": 1.0,
+      "saves": "0",
+      "shares": "1",
+      "rate": "1.0",
       "permalink": "https://www.facebook.com/1152148721145893/posts/1160733303620768"
     },
     {
