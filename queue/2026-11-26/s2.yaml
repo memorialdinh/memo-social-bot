@@ -11,7 +11,11 @@ design:
   subhead: Knowing the number is what makes a decision possible. Happy Thanksgiving.
   cta: DM 'BUYER' to map your numbers
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18088901501687738'
+    at: '2026-11-26T08:15:19-08:00'
 media:
   instagram: queue/2026-11-26/media/s2-instagram.jpg
   facebook: queue/2026-11-26/media/s2-facebook.jpg
