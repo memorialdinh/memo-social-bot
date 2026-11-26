@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: buyer_education
+topic: Teaser quiz for r2 on which deposit on a bank statement stalls a loan answered by DM
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: QUICK QUIZ
+  headline: Which deposit stalls a *loan*?
+  subhead: General information, not lending advice.
+  options:
+  - Your direct-deposit paycheck
+  - A large deposit with no source
+  - A transfer you can trace
+  answer: B
+  explain: Unsourced money has to be documented before it can be counted.
+  reveal: false
+  cta: Reply 'BUYER' with your answer
+sources: []

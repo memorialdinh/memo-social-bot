@@ -1,0 +1,54 @@
+id: r3
+kind: reel
+track: seller_education
+topic: Why an appraiser and a tax assessor arrive at different values for the same house and what each number answers
+time: "12:05"
+approved: true
+design:
+  template: compare
+  kicker: TWO VALUES
+  headline: Appraiser or assessor. *Two* different jobs.
+  subhead: General information, not tax advice. Values are estimates, not appraisals.
+  left:
+    label: Appraiser
+    points:
+    - Hired for one loan, on one date
+    - Weighs recent comparable sales
+    - Walks the house and its condition
+  right:
+    label: Assessor
+    points:
+    - Sets a value for property tax
+    - Usually anchored to a change of ownership
+    - Does not walk most houses
+  verdict: Two numbers, two questions. Neither one is your listing price.
+  cta: Comment 'VALUE' for your home's range
+captions:
+  default: |-
+    Two official-looking numbers for the same house, and they don't match. Both can be right.
+
+    The appraiser works for one transaction. One date, one loan, recent comparable sales, and an actual walk through the house. Condition matters. Your kitchen matters.
+
+    The assessor works for the tax roll. That value is usually anchored to a change of ownership rather than to what the house would bring this weekend, and nobody from that office is walking your hallway.
+
+    So when someone tells me "the county says my house is worth X", I ask which question they were answering. Tax value and market value are built for different purposes.
+
+    And neither of them is your listing price. That one comes from today's buyers, today's competition, and the condition the house is actually in.
+
+    Comment 'VALUE' and I'll put together the range for your address.
+
+    #LongBeachRealEstate #LakewoodHomes #CerritosCA #TorranceHomes #SouthBayHomes #SoCalRealEstate
+  linkedin: |-
+    Homeowners regularly show me two values for the same property and ask which one is wrong. Usually neither.
+
+    An appraisal is built for a single transaction: one date, one loan, recent comparable sales, and an inspection of the property's actual condition. An assessed value is built for the tax roll, is generally anchored to a change of ownership rather than current market conditions, and involves no walk-through.
+
+    They answer different questions, which is why they diverge, sometimes widely. The listing price answers a third question entirely, set by today's buyers and the condition of the house.
+
+    Values here are estimates, not appraisals. General information, not tax advice.
+
+    Where does this confusion cost your clients the most?
+
+    #RealEstate #HomeValuation #PropertyTax
+  tiktok: the county says one number, the appraiser says another, and both can be right. here is why. #realestatetips #homevalues #propertytax #realestate #sellingyourhome
+sources: []

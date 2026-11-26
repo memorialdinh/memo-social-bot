@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: investment
+topic: Vacancy rate and economic vacancy two different numbers and which one a lender reads on a rental
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: INVESTOR 101
+  headline: Two vacancy numbers, *one* lender.
+  subhead: General information, not lending or investment advice. Example only.
+  term: Economic vacancy
+  pos: noun - rental underwriting
+  definition: Every dollar of rent you did not collect, not just the empty units.
+  why: Late rent, concessions and unpaid months all come out of the income.
+  example: A unit rented all year at a discount still carries economic vacancy.
+  cta: DM 'INVEST' for the worksheet
+sources: []

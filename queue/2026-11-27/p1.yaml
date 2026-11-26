@@ -1,0 +1,52 @@
+id: p1
+kind: post
+track: market_update
+topic: Five year change in typical home values Cypress 31.7 Cerritos 29.2 Torrance 20.0 El Segundo 14.3 percent Zillow ZHVI October 2026
+time: auto
+approved: true
+design:
+  template: stat
+  kicker: FIVE YEARS
+  headline: Four cities. *Four* different five years.
+  subhead: Cerritos +29.2%, Torrance +20.0%, El Segundo +14.3%, as of Oct 31, 2026.
+  stat_value: +31.7%
+  stat_label: Cypress typical home value, five-year change, Zillow ZHVI, Oct 31, 2026
+  points:
+  - Zillow ZHVI, a smoothed index of typical values, Oct 31, 2026.
+  - Estimates, not an appraisal of any one house.
+  cta: DM 'VALUE' for your home's number
+captions:
+  default: |-
+    Four cities, twenty minutes apart, and five very different five years.
+
+    Typical home values, five-year change through Oct 31, 2026 (Zillow ZHVI):
+
+    Cypress +31.7%
+    Cerritos +29.2%
+    Torrance +20.0%
+    El Segundo +14.3%
+
+    Same county lines, same rates, same five years. The spread is more than double from one end of that list to the other.
+
+    That is the part people miss when they ask "how's the market". There isn't one market. There's your city, your street, and your house.
+
+    ZHVI is a smoothed index of typical values, not an appraisal of anything specific. Mine is the number that matters to you.
+
+    DM me 'VALUE' and I'll pull the five-year picture for your address.
+
+    #CypressCA #CerritosCA #TorranceHomes #ElSegundo #SouthBayHomes #LongBeachRealEstate #SoCalRealEstate
+  linkedin: |-
+    Four cities in the same metro, five years apart in outcome.
+
+    Typical home values, five-year change through Oct 31, 2026 (Zillow ZHVI): Cypress +31.7%, Cerritos +29.2%, Torrance +20.0%, El Segundo +14.3%.
+
+    Cypress ran more than twice El Segundo's pace over the same stretch, under the same rate environment. Anyone pricing, lending against, or advising on a home in this metro is working with a city-level number, not a regional one.
+
+    ZHVI is a smoothed index of typical values and not an appraisal. It is useful for direction, not for a single address.
+
+    Which city in your market has quietly moved the most?
+
+    #RealEstate #HousingMarket #CaliforniaRealEstate
+  tiktok: four cities twenty minutes apart and a five year spread of more than double. #realestate #socalrealestate #homevalues #housingmarket #realestatetips
+sources:
+- https://www.zillow.com/research/data/
