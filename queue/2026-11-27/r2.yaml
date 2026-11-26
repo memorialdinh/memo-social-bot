@@ -19,33 +19,71 @@ design:
   cta: DM 'BUYER' for my paper-trail list
   cta_sub: tidycal.com/memorialdinh/15-minute-call
 captions:
-  default: |-
-    A loan rarely dies on the big stuff. It stalls on one line of a bank statement.
+  default: 'A loan rarely dies on the big stuff. It stalls on one line of a bank statement.
 
-    Underwriting reads your last couple of statements and asks one question about every deposit that isn't your paycheck: where did this come from?
 
-    If you can answer it on paper, it's a non-event. If you can't, that money usually can't be counted toward your down payment or your reserves.
+    Underwriting reads your last couple of statements and asks one question about every deposit that isn''t your paycheck: where did this come from?
 
-    What answers it: a transfer from your own account with both statements. A gift with a signed letter and the donor's record of sending it. A bonus or commission with the pay stub. A sale with the receipt.
 
-    What doesn't: cash. Cash deposited with no origin is the one that stops the file.
+    If you can answer it on paper, it''s a non-event. If you can''t, that money usually can''t be counted toward your down payment or your reserves.
+
+
+    What answers it: a transfer from your own account with both statements. A gift with a signed letter and the donor''s record of sending it. A bonus or commission with the pay stub. A sale with the receipt.
+
+
+    What doesn''t: cash. Cash deposited with no origin is the one that stops the file.
+
 
     Easiest fix is the boring one. Leave your down payment where it is for a couple of months before you shop, and keep the paperwork for anything that moves.
 
-    DM me 'BUYER' and I'll send the paper-trail list, or grab 15 minutes and we'll go through your situation.
 
-    #LongBeachRealEstate #LakewoodHomes #CerritosCA #TorranceHomes #SouthBayHomes #SoCalRealEstate #firsttimehomebuyer
-  linkedin: |-
-    Most loan delays I see are not credit or income. They are one deposit nobody can source.
+    DM me ''BUYER'' and I''ll send the paper-trail list, or grab 15 minutes and we''ll go through your situation.
+
+
+    #LongBeachRealEstate #LakewoodHomes #CerritosCA #TorranceHomes #SouthBayHomes #SoCalRealEstate #firsttimehomebuyer'
+  linkedin: 'Most loan delays I see are not credit or income. They are one deposit nobody can source.
+
 
     Underwriting reviews recent bank statements and asks the same question of every deposit that is not a regular paycheck: what is the origin? Answerable on paper, it is routine. Unanswerable, and those funds generally cannot be counted toward down payment or reserves.
 
-    What answers it: an internal transfer with both statements, a documented gift with a letter and the donor's record, a bonus with the pay stub, an asset sale with the receipt. Cash with no origin is the one that holds a file.
+
+    What answers it: an internal transfer with both statements, a documented gift with a letter and the donor''s record, a bonus with the pay stub, an asset sale with the receipt. Cash with no origin is the one that holds a file.
+
 
     The takeaway worth passing to any buyer: let the down payment sit, and document anything that moves. General information, not lending advice.
 
+
     What is the most avoidable delay you see in underwriting?
 
-    #RealEstate #Mortgage #HomeBuying
-  tiktok: the one line on your bank statement that stalls a loan. it is never the one you expect. #firsttimehomebuyer #mortgage #realestatetips #homebuying #realestate
+
+    #RealEstate #Mortgage #HomeBuying'
+  tiktok: the one line on your bank statement that stalls a loan. it is never the one you expect.
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-27/media/r2-instagram.mp4
+  facebook: queue/2026-11-27/media/r2-facebook.mp4
+  linkedin: queue/2026-11-27/media/r2-linkedin.mp4
+schedule:
+  facebook: 2026-11-27T21:09-08:00
+  instagram: 2026-11-27T21:11-08:00
+  linkedin: 2026-11-27T21:06-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: halo
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: aurum
+    deco: rules
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: graphite
+    deco: dots
+    side: left
+    center: false
+    template: quiz

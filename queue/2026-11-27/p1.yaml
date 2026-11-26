@@ -16,37 +16,78 @@ design:
   - Estimates, not an appraisal of any one house.
   cta: DM 'VALUE' for your home's number
 captions:
-  default: |-
-    Four cities, twenty minutes apart, and five very different five years.
+  default: 'Four cities, twenty minutes apart, and five very different five years.
+
 
     Typical home values, five-year change through Oct 31, 2026 (Zillow ZHVI):
 
+
     Cypress +31.7%
+
     Cerritos +29.2%
+
     Torrance +20.0%
+
     El Segundo +14.3%
+
 
     Same county lines, same rates, same five years. The spread is more than double from one end of that list to the other.
 
-    That is the part people miss when they ask "how's the market". There isn't one market. There's your city, your street, and your house.
+
+    That is the part people miss when they ask "how''s the market". There isn''t one market. There''s your city, your street, and your house.
+
 
     ZHVI is a smoothed index of typical values, not an appraisal of anything specific. Mine is the number that matters to you.
 
-    DM me 'VALUE' and I'll pull the five-year picture for your address.
 
-    #CypressCA #CerritosCA #TorranceHomes #ElSegundo #SouthBayHomes #LongBeachRealEstate #SoCalRealEstate
-  linkedin: |-
-    Four cities in the same metro, five years apart in outcome.
+    DM me ''VALUE'' and I''ll pull the five-year picture for your address.
+
+
+    #CypressCA #CerritosCA #TorranceHomes #ElSegundo #SouthBayHomes #LongBeachRealEstate #SoCalRealEstate'
+  linkedin: 'Four cities in the same metro, five years apart in outcome.
+
 
     Typical home values, five-year change through Oct 31, 2026 (Zillow ZHVI): Cypress +31.7%, Cerritos +29.2%, Torrance +20.0%, El Segundo +14.3%.
 
-    Cypress ran more than twice El Segundo's pace over the same stretch, under the same rate environment. Anyone pricing, lending against, or advising on a home in this metro is working with a city-level number, not a regional one.
+
+    Cypress ran more than twice El Segundo''s pace over the same stretch, under the same rate environment. Anyone pricing, lending against, or advising on a home in this metro is working with a city-level number, not a regional one.
+
 
     ZHVI is a smoothed index of typical values and not an appraisal. It is useful for direction, not for a single address.
 
+
     Which city in your market has quietly moved the most?
 
-    #RealEstate #HousingMarket #CaliforniaRealEstate
-  tiktok: four cities twenty minutes apart and a five year spread of more than double. #realestate #socalrealestate #homevalues #housingmarket #realestatetips
+
+    #RealEstate #HousingMarket #CaliforniaRealEstate'
+  tiktok: four cities twenty minutes apart and a five year spread of more than double.
 sources:
 - https://www.zillow.com/research/data/
+status: {}
+media:
+  instagram: queue/2026-11-27/media/p1-instagram.jpg
+  facebook: queue/2026-11-27/media/p1-facebook.jpg
+  linkedin: queue/2026-11-27/media/p1-linkedin.jpg
+schedule:
+  facebook: 2026-11-27T19:03-08:00
+  instagram: 2026-11-27T19:04-08:00
+  linkedin: 2026-11-27T19:05-08:00
+rendered:
+  instagram:
+    theme: aurum
+    deco: glow
+    side: right
+    center: false
+    template: stat
+  facebook:
+    theme: carbon
+    deco: corners
+    side: right
+    center: true
+    template: stat
+  linkedin:
+    theme: graphite
+    deco: dots
+    side: right
+    center: true
+    template: stat

@@ -20,35 +20,75 @@ design:
     detail: It sits on your closing statement. Keep it.
   cta: Comment 'SELLER' for my closing checklist
 captions:
-  default: |-
-    Nobody explains this one until it is already on the page.
+  default: 'Nobody explains this one until it is already on the page.
+
 
     A property tax bill covers a stretch of time, not a moment. So when a house changes hands in the middle of that stretch, somebody has to split it.
 
+
     That split is called proration, and escrow does the math:
 
+
     The days before closing belong to the seller.
+
     The days from closing forward belong to the buyer.
-    Whoever already paid gets credited. Whoever hasn't gets debited.
+
+    Whoever already paid gets credited. Whoever hasn''t gets debited.
+
 
     It shows up as a line on your closing statement. Most people sign past it. Find it, read it, and keep the statement, because it tells you exactly which months you already covered.
 
+
     And it is separate from any supplemental bill the county may send later. Different animal, different envelope.
 
-    Comment 'SELLER' and I'll send the closing-statement checklist I walk sellers through.
 
-    #LongBeachRealEstate #LakewoodHomes #CerritosCA #TorranceHomes #SouthBayHomes #SoCalRealEstate
-  linkedin: |-
-    A property tax bill covers a period, not a date. That one fact is why proration exists.
+    Comment ''SELLER'' and I''ll send the closing-statement checklist I walk sellers through.
+
+
+    #LongBeachRealEstate #LakewoodHomes #CerritosCA #TorranceHomes #SouthBayHomes #SoCalRealEstate'
+  linkedin: 'A property tax bill covers a period, not a date. That one fact is why proration exists.
+
 
     When ownership changes mid-period, escrow splits the bill by days owned: the days before closing to the seller, the days from closing forward to the buyer, with credits and debits settling whoever already paid. It lands as a single line on the closing statement, which is also the only place most people ever see it.
 
+
     The practical takeaway for anyone closing this quarter: find that line, and keep the statement. It is the record of which months you have already covered, and it is separate from any supplemental bill the county issues afterward.
+
 
     General information, not tax advice.
 
+
     What is the line on a closing statement you wish more clients read?
 
-    #RealEstate #HomeBuying #Escrow
-  tiktok: the property taxes for the months before you owned the house. somebody pays them. here is who. #realestatetips #escrow #homebuying #realestate #propertytax
+
+    #RealEstate #HomeBuying #Escrow'
+  tiktok: the property taxes for the months before you owned the house. somebody pays them. here is who.
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-27/media/r1-instagram.mp4
+  facebook: queue/2026-11-27/media/r1-facebook.mp4
+  linkedin: queue/2026-11-27/media/r1-linkedin.mp4
+schedule:
+  facebook: 2026-11-27T09:04-08:00
+  instagram: 2026-11-27T09:03-08:00
+  linkedin: 2026-11-27T09:08-08:00
+rendered:
+  instagram:
+    theme: noir
+    deco: glow
+    side: left
+    center: false
+    template: process
+  facebook:
+    theme: silver
+    deco: split
+    side: left
+    center: false
+    template: process
+  linkedin:
+    theme: goldrush
+    deco: corners
+    side: left
+    center: false
+    template: process
