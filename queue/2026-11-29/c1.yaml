@@ -1,0 +1,61 @@
+# Canva carousel, auto-made every 2 days (Memo, Nov 18 2026). Takes the day's post slot (see CONTENT_BRIEF).
+id: c1
+kind: post
+carousel: true
+track: buyer_education
+topic: 'Writing a winning offer without overpaying step by step: price it off sold homes, make your terms easy to say yes to, set your walk-away number first'
+time: 07:05
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Win the Offer. Don't Overpay.
+  template_note: Canva carousel, 4 slides
+  canva_link: https://canva.link/erf67wra5f4xgyw
+captions:
+  default: 'Winning the house and overpaying for it are two different things.
+
+
+    Price your offer off recent sold homes nearby, not the list price.
+
+    Make your terms easy to say yes to: strong pre-approval, solid deposit, a close date that works for the seller.
+
+    Pick your walk-away number before you write. Then stick to it.
+
+
+    DM me ''BUYER'' and I''ll walk you through my offer game plan.
+
+
+    #TorranceRealEstate #RedondoBeachHomes #SouthBayHomes #LongBeachRealEstate #LakewoodCA #FirstTimeHomeBuyer #HomeBuyingTips'
+  linkedin: 'Most buyers who overpay don''t do it on purpose. They do it because they set their number after the bidding started.
+
+
+    A strong offer has three parts: a price grounded in recent closed sales, not the list price; terms that lower the seller''s risk, like a solid pre-approval, a meaningful deposit and a realistic close date; and a walk-away number decided before the offer is written.
+
+
+    Takeaway: price and terms win offers. Discipline keeps you from regretting them.
+
+
+    What''s the one term you''ve seen sellers care about more than price?
+
+
+    #RealEstate #HomeBuying #HousingMarket'
+media_src:
+- https://export-download.canva.com/K1tuk/DAHcIVK1tuk/-1/0/0001-7858178960299954925.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T001933Z&X-Amz-Expires=67372&X-Amz-Signature=ce49b78182e585df487691df4679b453990225de9e597dd33b2a5b901ac552a6&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2019%3A02%3A25%20GMT
+- https://export-download.canva.com/K1tuk/DAHcIVK1tuk/-1/0/0002-7858178960299954925.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T203356Z&X-Amz-Expires=80537&X-Amz-Signature=952efd50d3d0384aa1d94863327574fcdf878ced50e925e57324201ee0ab38c0&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2018%3A56%3A13%20GMT
+- https://export-download.canva.com/K1tuk/DAHcIVK1tuk/-1/0/0003-7858178960299954925.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T070035Z&X-Amz-Expires=43631&X-Amz-Signature=304fd1290efcbab396eda77ed69847a6ed50c0ecf23868e598b8f328b202ad73&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2019%3A07%3A46%20GMT
+- https://export-download.canva.com/K1tuk/DAHcIVK1tuk/-1/0/0004-7858178960299954925.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T222709Z&X-Amz-Expires=75374&X-Amz-Signature=9793991ea2f411eb11f87b6e5e4c873948d1ccb4c1824c459641a705b2d63d94&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2019%3A23%3A23%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva
