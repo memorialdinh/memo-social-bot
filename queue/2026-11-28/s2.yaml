@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: buyer_education
+topic: What an HOA resale package is and the window a buyer actually gets to read it
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: The HOA packet you *have* to read.
+  subhead: General information, not legal advice. Ask your own attorney.
+  term: HOA resale package
+  pos: noun - condo purchase
+  definition: The association's own documents, ordered for you by the seller - budget, reserves, rules, insurance and minutes.
+  why: Your review window starts when it lands, not when you get around to it.
+  example: Thin reserves next to flat dues is a gap that gets funded somehow.
+  cta: DM 'BUYER' for my condo list
+sources: []

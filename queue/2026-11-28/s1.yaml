@@ -1,0 +1,21 @@
+id: s1
+kind: story
+track: market_update
+topic: Teaser quiz for r1 on which way the Freddie Mac weekly average moved answered by DM
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: QUICK QUIZ
+  headline: Which way did the weekly average *move*?
+  subhead: Freddie Mac 30-year fixed, week of Nov 25, 2026.
+  options:
+  - Up from last week
+  - Down from last week
+  - Flat
+  answer: B
+  explain: 7.21% as of Nov 25, 2026, down from 7.28% the week before.
+  reveal: false
+  cta: Reply 'RATES' with your answer
+sources:
+- https://www.freddiemac.com/pmms

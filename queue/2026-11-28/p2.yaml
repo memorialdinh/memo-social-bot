@@ -1,0 +1,57 @@
+id: p2
+kind: post
+track: seller_education
+topic: What the title company actually does between the accepted offer and closing day the order the search the preliminary report and recording
+time: "07:05"
+approved: true
+design:
+  template: process
+  kicker: ESCROW 101
+  headline: What the *title company* is doing.
+  subhead: General information, not legal advice.
+  steps:
+  - when: Day 1
+    title: The order opens
+    detail: Escrow instructions go out and the title search starts.
+  - title: The record gets pulled
+    detail: Liens, loans, easements, anything recorded against the property.
+  - title: The prelim arrives
+    detail: A report of what has to clear before closing.
+  - title: Clear, then record
+    detail: Payoffs go out, the deed records, the policy issues.
+  cta: Comment 'SELLER' for my closing steps
+captions:
+  default: |-
+    Most people meet the title company once, at signing, and assume that is the whole job.
+
+    Here is what is actually happening while you wait:
+
+    The order opens. Escrow instructions go out, and a search of the public record begins on your property.
+
+    The record gets pulled. Liens, old loans, easements, judgments, anything ever recorded against that parcel.
+
+    The prelim arrives. That is the report listing what has to be cleared before the sale can close. Read it. It is the cheapest hour you will spend.
+
+    Then they clear it and record. Payoffs go out, the deed records with the county, and the policy issues.
+
+    When a closing slips a few days, this is usually where it slipped. Something surfaced on the record and somebody had to go get a release for it.
+
+    General information, not legal advice.
+
+    Comment 'SELLER' and I'll walk you through the steps on your own file.
+
+    #LongBeachRealEstate #LakewoodHomes #CerritosCA #TorranceHomes #SouthBayHomes #SoCalRealEstate
+  linkedin: |-
+    The title company is the least visible party in a transaction and often the reason a closing date holds or moves.
+
+    The sequence: the order opens and escrow instructions go out alongside a search of the public record. The search pulls liens, prior loans, easements and judgments recorded against the parcel. The preliminary report sets out what must be cleared before closing. Then payoffs go out, the deed records with the county, and the policy issues.
+
+    When a closing slips, it is frequently because something surfaced in that search and a release had to be obtained. The preliminary report is the document most worth a careful read, and it arrives early enough to act on.
+
+    General information, not legal advice.
+
+    How early do you get the prelim in front of your clients?
+
+    #RealEstate #Escrow #HomeSelling
+  tiktok: the title company is the quietest party in your closing and usually the reason the date holds.
+sources: []
