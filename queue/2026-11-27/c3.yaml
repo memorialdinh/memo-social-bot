@@ -1,0 +1,61 @@
+# Canva carousel, 3 a day (Memo, Nov 25/27 2026). Replaces p1/p2/r3 (see CONTENT_BRIEF).
+id: c3
+kind: post
+carousel: true
+track: investment
+topic: 'Keeping your current home as a rental when you move step by step: run the real numbers, call your lender and insurer, plan your exit with a CPA'
+time: '17:05'
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Moving Out? Keep It as a Rental.
+  template_note: Canva carousel, 4 slides
+  canva_link: https://www.canva.com/d/A1-gYhq5bZKgx5U
+captions:
+  default: 'Moving out doesn''t have to mean selling.
+
+
+    Run the real numbers first: rent minus mortgage, taxes, insurance, repairs and a few empty months.
+
+    Call your lender and your insurer before a tenant moves in.
+
+    Ask your CPA how renting it now changes your taxes when you sell later.
+
+
+    DM me ''INVEST'' and I''ll help you run the numbers.
+
+
+    #LongBeachRealEstate #LakewoodCA #TorranceRealEstate #SouthBayHomes #RealEstateInvesting #RentalProperty #CerritosHomes'
+  linkedin: 'A lot of homeowners who move end up with an accidental rental. The ones who do well treat it like an investment decision from day one.
+
+
+    Three checks before the keys change hands: an honest cash flow that includes repairs and vacancy, a conversation with the lender and a switch to a landlord policy, and a CPA''s view of what renting now means for taxes at the eventual sale.
+
+
+    Takeaway: keeping the house can be a smart move, but only when the numbers and the paperwork are done first.
+
+
+    Have you kept a former home as a rental, and would you do it again?
+
+
+    #RealEstate #RealEstateInvesting #HousingMarket'
+media_src:
+- https://export-download.canva.com/S7oO8/DAHcJGS7oO8/-1/0/0001-4904943522842149513.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T104710Z&X-Amz-Expires=44184&X-Amz-Signature=a1334491e6238d53d58745508c4111a24d02c6f7d1a5461d311029c1f848f251&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A03%3A34%20GMT
+- https://export-download.canva.com/S7oO8/DAHcJGS7oO8/-1/0/0002-4904943522842149513.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T175216Z&X-Amz-Expires=15424&X-Amz-Signature=170f29bddaee65f48927854bda10a57ad6d00753520c347ce8a7757cba4544e9&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2022%3A09%3A20%20GMT
+- https://export-download.canva.com/S7oO8/DAHcJGS7oO8/-1/0/0003-4904943522842149513.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T101603Z&X-Amz-Expires=45986&X-Amz-Signature=5676cd96da9d0804382ea17ad8b3f6b77be707cf47a06b9e35e42447aaeb7352&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A02%3A29%20GMT
+- https://export-download.canva.com/S7oO8/DAHcJGS7oO8/-1/0/0004-4904943522842149513.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T215754Z&X-Amz-Expires=89044&X-Amz-Signature=6bdfa1c427964ebb7bad99ff5cc3a1663cb023d89abf2c9c46a2401a124526dd&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2022%3A41%3A58%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva
