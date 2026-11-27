@@ -2,7 +2,7 @@ id: r2
 kind: reel
 track: buyer_education
 topic: Why one large unsourced deposit on a bank statement can stall a loan and the paper trail that clears it
-time: "10:30"
+time: '10:30'
 approved: true
 design:
   template: quiz
@@ -59,7 +59,19 @@ captions:
     #RealEstate #Mortgage #HomeBuying'
   tiktok: the one line on your bank statement that stalls a loan. it is never the one you expect.
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '17892711918475583'
+    at: '2026-11-27T11:16:11-08:00'
+  facebook:
+    state: posted
+    id: '1664212992155968'
+    at: '2026-11-27T11:16:21-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7532160435182112768
+    at: '2026-11-27T11:16:29-08:00'
 media:
   instagram: queue/2026-11-27/media/r2-instagram.mp4
   facebook: queue/2026-11-27/media/r2-facebook.mp4
