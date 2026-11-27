@@ -1,0 +1,61 @@
+# Canva carousel, 3 a day (Memo, Nov 25/27 2026). Replaces p1/p2/r3 (see CONTENT_BRIEF).
+id: c1
+kind: post
+carousel: true
+track: investment
+topic: 'Buying a rental with tenants already in place step by step: read every lease, get tenant estoppels, check local rent rules'
+time: 07:05
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Buying a rental with tenants in it?
+  template_note: Canva carousel, 4 slides
+  canva_link: https://canva.link/91koerwlojgi9rq
+captions:
+  default: 'Buying a rental that already has tenants? You''re buying their leases too.
+
+
+    Read every lease and match it to the rent roll. Rent, term, deposit, utilities.
+
+    Get a signed estoppel from each tenant so there are no surprise side deals.
+
+    Check state and city rent rules before you remove contingencies.
+
+
+    DM me ''INVEST'' and I''ll send you my rental checklist.
+
+
+    #LongBeachRealEstate #LakewoodCA #RealEstateInvesting #RentalProperty #SouthBayHomes #DuplexInvesting #LongBeachInvestor'
+  linkedin: 'When you buy a tenant-occupied property, the leases come with it. The numbers in the listing are only as good as the paper behind them.
+
+
+    Three checks before contingencies come off: read every lease against the rent roll, get a signed estoppel certificate from each tenant confirming rent, deposit and any side agreements, and confirm which state and local rent rules apply to the property.
+
+
+    Takeaway: verify the income before you own it, not after.
+
+
+    What''s the one document you never skip on a rental purchase?
+
+
+    #RealEstateInvesting #CommercialRealEstate #RealEstate'
+media_src:
+- https://export-download.canva.com/C3LIc/DAHcJhC3LIc/-1/0/0001-1983233270562353318.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T140226Z&X-Amz-Expires=35830&X-Amz-Signature=a57b2c092e3b45684d3dc85e4630131c7a397a80959d2f32b524d1fae73fee56&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A59%3A36%20GMT
+- https://export-download.canva.com/C3LIc/DAHcJhC3LIc/-1/0/0002-1983233270562353318.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T052440Z&X-Amz-Expires=66533&X-Amz-Signature=f980bc502d4b30cf6e508f7d0ed2629b9ef92d3dc3ca7290cacfb5353a8dcb1c&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A53%3A33%20GMT
+- https://export-download.canva.com/C3LIc/DAHcJhC3LIc/-1/0/0003-1983233270562353318.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T223042Z&X-Amz-Expires=5094&X-Amz-Signature=7aa0ddfca71af7cace6e871c15006f487d299869670e2809654804ab7c6ac7fb&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A55%3A36%20GMT
+- https://export-download.canva.com/C3LIc/DAHcJhC3LIc/-1/0/0004-1983233270562353318.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T162336Z&X-Amz-Expires=27357&X-Amz-Signature=b31d0e7d3158586b175af2741eac5eb375479c0afe894fa8f6041febf269daf0&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A59%3A33%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva
