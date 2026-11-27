@@ -56,7 +56,19 @@ captions:
     #RealEstate #Mortgage #HomeBuying'
   tiktok: your credit probably is not the thing stopping you. it is the thing pricing you.
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18045256331655434'
+    at: '2026-11-27T07:15:48-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1188767104150721'
+    at: '2026-11-27T07:15:51-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:share:7532099887685976075
+    at: '2026-11-27T07:15:53-08:00'
 media:
   instagram: queue/2026-11-27/media/p2-instagram.jpg
   facebook: queue/2026-11-27/media/p2-facebook.jpg
