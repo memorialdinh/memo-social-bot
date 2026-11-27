@@ -2,7 +2,7 @@ id: r1
 kind: reel
 track: seller_education
 topic: Who pays the property taxes for the months before you owned the house proration at closing and where it shows on the closing statement
-time: "08:55"
+time: 08:55
 approved: true
 design:
   template: process
@@ -64,7 +64,19 @@ captions:
     #RealEstate #HomeBuying #Escrow'
   tiktok: the property taxes for the months before you owned the house. somebody pays them. here is who.
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18192845617411652'
+    at: '2026-11-27T09:15:38-08:00'
+  facebook:
+    state: posted
+    id: '1469610921961698'
+    at: '2026-11-27T09:15:46-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7532130088411103232
+    at: '2026-11-27T09:15:53-08:00'
 media:
   instagram: queue/2026-11-27/media/r1-instagram.mp4
   facebook: queue/2026-11-27/media/r1-facebook.mp4
