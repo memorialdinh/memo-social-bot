@@ -16,7 +16,11 @@ design:
   example: A unit rented all year at a discount still carries economic vacancy.
   cta: DM 'INVEST' for the worksheet
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18100204172393931'
+    at: '2026-11-27T08:15:47-08:00'
 media:
   instagram: queue/2026-11-27/media/s2-instagram.jpg
   facebook: queue/2026-11-27/media/s2-facebook.jpg
