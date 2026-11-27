@@ -1,0 +1,61 @@
+# Canva carousel, 3 a day (Memo, Nov 25/27 2026). Replaces p1/p2/r3 (see CONTENT_BRIEF).
+id: c3
+kind: post
+carousel: true
+track: seller_education
+topic: 'Living in your home while it is listed step by step: a 10-minute daily reset, lock up valuables and paperwork, step out for showings'
+time: '17:05'
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Living in it while it's listed?
+  template_note: Canva carousel, 4 slides
+  canva_link: https://canva.link/aa9680xlzwvt0hy
+captions:
+  default: 'Selling while you still live there? It''s doable without losing your mind.
+
+
+    Do a 10-minute reset every morning. Beds made, counters clear, blinds open, lights on.
+
+    Lock up valuables, medications and paperwork before any showing.
+
+    Step out when buyers come through. Take the pets too. People relax when you''re gone.
+
+
+    DM me ''SELLER'' and I''ll send you my showing checklist.
+
+
+    #CerritosRealEstate #CypressCA #LongBeachRealEstate #HomeSellingTips #SouthBayHomes #LakewoodCA #SellingYourHome'
+  linkedin: 'Most sellers live in the home while it''s on the market, and how they handle showings shapes how buyers see the property.
+
+
+    What works: a short daily reset so the home is always close to ready, securing valuables, medications and personal paperwork, and leaving during showings so buyers can picture themselves there.
+
+
+    Takeaway: consistency beats a perfect one-time staging day.
+
+
+    Sellers and agents, what''s the hardest part of staying showing-ready?
+
+
+    #RealEstate #HomeSelling #RealEstateTips'
+media_src:
+- https://export-download.canva.com/qx7pE/DAHcJkqx7pE/-1/0/0001-6571275388798735605.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T010341Z&X-Amz-Expires=82757&X-Amz-Signature=b81d99bcd6bdb4b56953f23380c4b6428021dedd1ecdd5e9b9d3aecab2c06544&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sat%2C%2028%20Nov%202026%2000%3A02%3A58%20GMT
+- https://export-download.canva.com/qx7pE/DAHcJkqx7pE/-1/0/0002-6571275388798735605.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T002756Z&X-Amz-Expires=83364&X-Amz-Signature=a854e6284c0e0f42bb2b2fef6079d0f9d0ac7e365c2c202bff3ff76121c57d28&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A37%3A20%20GMT
+- https://export-download.canva.com/qx7pE/DAHcJkqx7pE/-1/0/0003-6571275388798735605.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T065648Z&X-Amz-Expires=62330&X-Amz-Signature=1730576ab61a19ca3112fbec9f16b17964a1f1b438dd5dfe8117d4d89c14ee21&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sat%2C%2028%20Nov%202026%2000%3A15%3A38%20GMT
+- https://export-download.canva.com/qx7pE/DAHcJkqx7pE/-1/0/0004-6571275388798735605.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T111312Z&X-Amz-Expires=45631&X-Amz-Signature=6abdcf210ed1360a856be1801a605a6fbbf4e9fa7bf8bc29d5367c5a5d5fea99&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A53%3A43%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva

@@ -1,0 +1,61 @@
+# Canva carousel, 3 a day (Memo, Nov 25/27 2026). Replaces p1/p2/r3 (see CONTENT_BRIEF).
+id: c2
+kind: post
+carousel: true
+track: buyer_education
+topic: 'Your first 72 hours after the offer is accepted step by step: verify wire instructions by phone, book inspections, talk to your lender about locking'
+time: '12:05'
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Offer accepted. Now what?
+  template_note: Canva carousel, 4 slides
+  canva_link: https://canva.link/haqpkknrj6jztom
+captions:
+  default: 'Offer accepted. The next 72 hours matter more than you think.
+
+
+    Before you wire a dollar, call escrow at a number you already know. Never trust wiring instructions from an email alone.
+
+    Book your inspections on day one. The clock is already running.
+
+    Get your lender every document fast and ask about locking your rate.
+
+
+    Comment BUYER and I''ll send you my escrow checklist.
+
+
+    #FirstTimeHomeBuyer #TorranceRealEstate #LongBeachRealEstate #SouthBayHomes #HomeBuyingTips #EscrowTips #LakewoodCA'
+  linkedin: 'The most expensive mistakes in a home purchase often happen in the first three days after acceptance, not at the negotiating table.
+
+
+    Three moves that protect a buyer early: verify wiring instructions by calling escrow at a known number, schedule inspections immediately because contingency timelines start at acceptance, and get documents to the lender quickly while discussing a rate lock.
+
+
+    Takeaway: speed and verification in week one prevent problems in week four.
+
+
+    What''s the first thing you tell clients the day their offer is accepted?
+
+
+    #RealEstate #HomeBuying #WireFraud'
+media_src:
+- https://export-download.canva.com/89ynY/DAHcJo89ynY/-1/0/0001-3355705257187299427.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T162125Z&X-Amz-Expires=26233&X-Amz-Signature=b0351caef02cded4dcfb2eb6410afbb714831d7f6c4aeea168d493b39aa51235&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2023%3A38%3A38%20GMT
+- https://export-download.canva.com/89ynY/DAHcJo89ynY/-1/0/0002-3355705257187299427.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T124856Z&X-Amz-Expires=41489&X-Amz-Signature=6704d05420cb65425203ef502681dfdc3d437ba3c72e92f185f7e3667947d8fa&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sat%2C%2028%20Nov%202026%2000%3A20%3A25%20GMT
+- https://export-download.canva.com/89ynY/DAHcJo89ynY/-1/0/0003-3355705257187299427.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T053120Z&X-Amz-Expires=67713&X-Amz-Signature=283d23c0d5e8b27eed894483cfcd009a6cea37e4e8915563b2308cf1fedde47b&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sat%2C%2028%20Nov%202026%2000%3A19%3A53%20GMT
+- https://export-download.canva.com/89ynY/DAHcJo89ynY/-1/0/0004-3355705257187299427.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T173509Z&X-Amz-Expires=24961&X-Amz-Signature=7512e6f19cd37a7192b840177f399f4fe91c86c7c4bd7d55e8e9e1ffe4120830&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sat%2C%2028%20Nov%202026%2000%3A31%3A10%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva
