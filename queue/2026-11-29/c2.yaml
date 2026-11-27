@@ -1,0 +1,61 @@
+# Canva carousel, 3 a day (Memo, Nov 25/27 2026). Replaces p1/p2/r3 (see CONTENT_BRIEF).
+id: c2
+kind: post
+carousel: true
+track: seller_education
+topic: 'Comparing multiple offers on your home step by step: compare your net, check the financing, weigh terms and timing then counter the strongest'
+time: '12:05'
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: More Than One Offer? Read Past the Price.
+  template_note: Canva carousel, 4 slides
+  canva_link: https://www.canva.com/d/gPHKxM--afufIMh
+captions:
+  default: 'The highest offer isn''t always the best offer.
+
+
+    Start with your net: take out the credits, repairs and costs each buyer is asking for.
+
+    Then check the financing. Loan type, down payment, and how solid that pre-approval really is.
+
+    Last, weigh the terms and timing. Contingencies, close date, rent-back. Then counter the strongest one.
+
+
+    DM me ''SELLER'' and I''ll help you compare yours side by side.
+
+
+    #LongBeachRealEstate #TorranceHomes #LakewoodCA #SouthBayRealEstate #CerritosHomes #HomeSellingTips #SellingYourHome'
+  linkedin: 'Sellers with multiple offers usually look at one number first: price. It''s rarely the number that decides how the sale goes.
+
+
+    A cleaner way to compare: line up each offer''s net after credits and repair requests, check how strong the financing is (loan type, down payment, a call to the buyer''s lender), then weigh contingency periods, close date and any rent-back needs.
+
+
+    Takeaway: the best offer is the one most likely to close on terms you can live with. Counter that one.
+
+
+    What term do you see sellers overlook most when comparing offers?
+
+
+    #RealEstate #HomeSelling #HousingMarket'
+media_src:
+- https://export-download.canva.com/zFxK4/DAHcIxzFxK4/-1/0/0001-7850297674702062621.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T060302Z&X-Amz-Expires=57176&X-Amz-Signature=3bc3f472594287dfb7136f54abf72dcca3bf22d4e936d471072268e0f1bacd33&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2021%3A55%3A58%20GMT
+- https://export-download.canva.com/zFxK4/DAHcIxzFxK4/-1/0/0002-7850297674702062621.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T141946Z&X-Amz-Expires=25444&X-Amz-Signature=acb90a58edb05979cad707453fb99ae82a064fea91b8bf9473488a5aa34ee2be&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2021%3A23%3A50%20GMT
+- https://export-download.canva.com/zFxK4/DAHcIxzFxK4/-1/0/0003-7850297674702062621.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T033239Z&X-Amz-Expires=66485&X-Amz-Signature=80acc39e4360e503d41ca4f1248dc2bb69df63c734671a0ee350ab94b2fadf4b&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2022%3A00%3A44%20GMT
+- https://export-download.canva.com/zFxK4/DAHcIxzFxK4/-1/0/0004-7850297674702062621.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T005046Z&X-Amz-Expires=75836&X-Amz-Signature=f5e6d4ff8591f7fab800945abbcd99997cc8abe16a09884ce8ea2a5b03c53e80&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2021%3A54%3A42%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva

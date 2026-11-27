@@ -1,0 +1,61 @@
+# Canva carousel, 3 a day (Memo, Nov 25/27 2026). Replaces p1/p2/r3 (see CONTENT_BRIEF).
+id: c3
+kind: post
+carousel: true
+track: local_spotlight
+topic: 'Redondo Beach local spotlight: Riviera Village, the Pier and King Harbor, the Esplanade and the Strand'
+time: '17:05'
+approved: true
+platforms:
+- instagram
+- facebook
+- linkedin
+design:
+  headline: Why People Move to Redondo Beach.
+  template_note: Canva carousel, 4 slides
+  canva_link: https://www.canva.com/d/UTCiqOpkLbK_g9V
+captions:
+  default: 'Redondo Beach sells itself one walk at a time.
+
+
+    Coffee and dinner in Riviera Village.
+
+    Sunset on the Pier and boats in King Harbor.
+
+    Ocean views from the Esplanade and a beach path you can bike.
+
+
+    DM me ''VALUE'' and I''ll show you what homes in Redondo go for.
+
+
+    #RedondoBeach #RedondoBeachRealEstate #SouthBay #SouthBayHomes #RivieraVillage #KingHarbor #SoCalLiving'
+  linkedin: 'When buyers look at Redondo Beach, the house is only part of the decision. The daily routine is the rest of it.
+
+
+    Riviera Village gives walkable blocks of local shops and restaurants. The Pier and King Harbor anchor the waterfront. The Esplanade and the Strand put the ocean on the daily walk or ride.
+
+
+    Takeaway: knowing what draws people to a city helps sellers market a home and helps buyers decide where they''d actually use their weekends.
+
+
+    What local spot do you think shapes a buyer''s decision most in your market?
+
+
+    #RealEstate #RedondoBeach #HousingMarket'
+media_src:
+- https://export-download.canva.com/3N3_w/DAHcI03N3_w/-1/0/0001-5186418496358973684.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T095550Z&X-Amz-Expires=43467&X-Amz-Signature=32e7d94a8dfe6923b53210d73f974dd43490b48f7760047535298525636f3657&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2022%3A00%3A17%20GMT
+- https://export-download.canva.com/3N3_w/DAHcI03N3_w/-1/0/0002-5186418496358973684.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T020156Z&X-Amz-Expires=68734&X-Amz-Signature=ff6df8e51502b624a6eb92fa5ebfa3909d583beada52e6870170c5dae8bf8816&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2021%3A07%3A30%20GMT
+- https://export-download.canva.com/3N3_w/DAHcI03N3_w/-1/0/0003-5186418496358973684.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T003213Z&X-Amz-Expires=75901&X-Amz-Signature=2ca45a02e2c7e8c6de75e6ac7b99df71e53043f4ede09b2de79f01c986b86594&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2021%3A37%3A14%20GMT
+- https://export-download.canva.com/3N3_w/DAHcI03N3_w/-1/0/0004-5186418496358973684.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T123352Z&X-Amz-Expires=33589&X-Amz-Signature=cba4ec45a01959bdd363a5eca5648b39f8cde8ff1864a0d28d7b137974c20562&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2021%3A53%3A41%20GMT
+status: {}
+media: {}
+rendered:
+  instagram:
+    template: carousel
+    theme: canva
+  facebook:
+    template: carousel
+    theme: canva
+  linkedin:
+    template: carousel
+    theme: canva
