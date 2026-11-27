@@ -20,6 +20,24 @@ Direct, relatable, strategic, slightly punchy, educational. Professional but app
 energetic. Short sentences. Sounds like a person, not a brand. No hype, no fluff, no corporate
 filler, no "In today's market…" openers, no em-dash pileups. One idea per post.
 
+## STOP LIST — performance cut (Memo, Nov 27, 2026: "the ones that don't [get views and engagement], stop it")
+This overrides everything below where it conflicts, including the mix and template rotation sections.
+Based on Instagram results Oct 20 – Nov 26, 2026, these kind + template combinations got **zero**
+likes, comments, saves or shares across all their posts. Do not write them until Memo says otherwise:
+- **Stories:** no `checklist`, `stat`, `process`, `spotlight`, `myth` stories. Stories use only `quiz`,
+  `tip`, `quote`, `explainer` (explainer only with a DM keyword CTA) or a carousel/reel teaser.
+- **Reels:** no `checklist`, `explainer`, `compare` reels. Prefer `meme`, `myth`, `spotlight`,
+  `stat`, `process`, `tip`.
+- **Feed posts (p1/p2 fallback slots):** no `spotlight`, `quote`, `cta`, `explainer`, `checklist`,
+  `quiz` posts. Prefer `meme`, `myth`, `stat`, `compare`, `process`, `tip`.
+- **Agent-attraction spotlights** move to reels only (`kind: reel`, `template: spotlight`), never a
+  feed post or story. Keep the Wed/Sun Spotlight on `r1` or `r2`.
+- The weekly 15-minute offer still runs; put it in a reel or a `tip`/`process` caption CTA, not a `cta` template.
+- Canva carousels are the best-performing bot format (about 6x the engagement of other bot posts);
+  the "Canva carousel" task now makes three a day (c1/c2/c3), so on those days write only r1, r2, s1, s2.
+In your report, say "Stop list applied". Re-check monthly: if a format on the stop list is asked
+for by an `insights.json` directive, skip it anyway and note it.
+
 ## Daily output (write it for TOMORROW's date)
 Folder: `queue/YYYY-MM-DD/` — one YAML file per item.
 
