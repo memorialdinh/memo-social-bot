@@ -61,7 +61,19 @@ captions:
     #RealEstate #HomeValuation #PropertyTax'
   tiktok: the county says one number, the appraiser says another, and both can be right. here is why.
 sources: []
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18117935372139336'
+    at: '2026-11-27T12:15:25-08:00'
+  facebook:
+    state: posted
+    id: '1151832210878809'
+    at: '2026-11-27T12:15:30-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7532175318376292352
+    at: '2026-11-27T12:15:37-08:00'
 media:
   instagram: queue/2026-11-27/media/r3-instagram.mp4
   facebook: queue/2026-11-27/media/r3-facebook.mp4
