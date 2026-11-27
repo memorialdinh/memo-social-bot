@@ -2,7 +2,7 @@ id: r3
 kind: reel
 track: market_update
 topic: FHFA 2027 conforming loan limit baseline 855400 dollars up 22650 from 2026 and the 1283100 dollar high cost area ceiling for one unit properties
-time: "12:05"
+time: '12:05'
 approved: true
 design:
   template: stat
@@ -17,34 +17,72 @@ design:
   - FHFA says it rises in all but 24 U.S. counties.
   cta: DM 'BUYER' for the 2027 limits
 captions:
-  default: |-
-    FHFA set the 2027 conforming loan limits on Nov 24, 2026, and the number matters more here than almost anywhere.
+  default: 'FHFA set the 2027 conforming loan limits on Nov 24, 2026, and the number matters more here than almost anywhere.
+
 
     The baseline for a one-unit property goes to $855,400, up $22,650 from 2026. High-cost areas, which is most of what I work in, carry a ceiling of $1,283,100 for one unit, or 150% of that baseline.
 
+
     Why the change: FHFA reported house prices up 2.72% on average between the third quarters of 2025 and 2026, and the baseline moves by that same percentage. FHFA also says the limit rises in all but 24 counties or county equivalents nationally.
+
 
     What it actually means in practice: the conforming limit is the line between a conventional conforming loan and a jumbo. Different underwriting, different pricing, different documentation. Moving that line moves which side of it a purchase price lands on.
 
-    Every county has its own figure on FHFA's published list, so the number that matters is yours, not the national one.
+
+    Every county has its own figure on FHFA''s published list, so the number that matters is yours, not the national one.
+
 
     Source: FHFA news release, Nov 24, 2026. General information, not lending advice.
 
-    DM me 'BUYER' and I'll pull the 2027 limit for the county you're shopping in.
 
-    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #CerritosCA #SouthBayHomes #SoCalRealEstate #homeloans
-  linkedin: |-
-    FHFA announced the 2027 conforming loan limits on Nov 24, 2026. The baseline for one-unit properties rises to $855,400, an increase of $22,650 from 2026, and the high-cost-area ceiling for one unit is $1,283,100, which is 150% of the baseline.
+    DM me ''BUYER'' and I''ll pull the 2027 limit for the county you''re shopping in.
+
+
+    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #CerritosCA #SouthBayHomes #SoCalRealEstate #homeloans'
+  linkedin: 'FHFA announced the 2027 conforming loan limits on Nov 24, 2026. The baseline for one-unit properties rises to $855,400, an increase of $22,650 from 2026, and the high-cost-area ceiling for one unit is $1,283,100, which is 150% of the baseline.
+
 
     The mechanism: FHFA reported average house price growth of 2.72% between the third quarters of 2025 and 2026, and the baseline moves by that same percentage. FHFA states the limit increases in all but 24 counties or county equivalents.
 
-    The practical consequence is the conforming/jumbo boundary. It governs underwriting, pricing and documentation, so a shift in the line changes which category a given purchase price falls into. County-level figures are published on FHFA's own list and are what matter for an individual file.
+
+    The practical consequence is the conforming/jumbo boundary. It governs underwriting, pricing and documentation, so a shift in the line changes which category a given purchase price falls into. County-level figures are published on FHFA''s own list and are what matter for an individual file.
+
 
     Source: FHFA news release, Nov 24, 2026. General information, not lending advice.
 
+
     Where does this change the conversation most in your market?
 
-    #RealEstate #Mortgage #HousingPolicy
+
+    #RealEstate #Mortgage #HousingPolicy'
   tiktok: the 2027 conforming baseline is 855,400 and high cost areas top out at 1,283,100.
 sources:
 - https://www.fhfa.gov/news/news-release/fhfa-announces-conforming-loan-limit-for-2027
+status: {}
+media:
+  instagram: queue/2026-11-28/media/r3-instagram.mp4
+  facebook: queue/2026-11-28/media/r3-facebook.mp4
+  linkedin: queue/2026-11-28/media/r3-linkedin.mp4
+schedule:
+  facebook: 2026-11-28T12:05-08:00
+  instagram: 2026-11-28T12:05-08:00
+  linkedin: 2026-11-28T12:05-08:00
+rendered:
+  instagram:
+    theme: graphite
+    deco: halo
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: goldrush
+    deco: glow
+    side: left
+    center: true
+    template: stat
+  linkedin:
+    theme: ivory
+    deco: corners
+    side: left
+    center: true
+    template: stat

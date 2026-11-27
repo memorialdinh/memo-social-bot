@@ -16,3 +16,23 @@ design:
   example: Thin reserves next to flat dues is a gap that gets funded somehow.
   cta: DM 'BUYER' for my condo list
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-28/media/s2-instagram.jpg
+  facebook: queue/2026-11-28/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-28T10:08-08:00
+  instagram: 2026-11-28T08:04-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: frame
+    side: right
+    center: false
+    template: explainer
+  facebook:
+    theme: silver
+    deco: glow
+    side: left
+    center: false
+    template: explainer

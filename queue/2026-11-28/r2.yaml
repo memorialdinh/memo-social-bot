@@ -2,41 +2,78 @@ id: r2
 kind: reel
 track: humor
 topic: Meme every seller is certain that nobody is looking for a house over the holidays
-time: "10:30"
+time: '10:30'
 approved: true
 design:
   template: meme
   kicker: REAL TALK
   headline: Every December, the same *conversation*.
-  setup: "Seller: nobody is looking for a house in December."
-  punch: "Me: *unlocking a door on December 26th.*"
+  setup: 'Seller: nobody is looking for a house in December.'
+  punch: 'Me: *unlocking a door on December 26th.*'
   cta: Comment 'SELLER' for my holiday plan
 captions:
-  default: |-
-    Every year. Same conversation. Usually the second week of December. 😅
+  default: 'Every year. Same conversation. Usually the second week of December. 😅
 
-    "Let's just wait. Nobody is looking right now."
+
+    "Let''s just wait. Nobody is looking right now."
+
 
     And then I spend the week between the holidays unlocking doors.
 
+
     I get why it feels that way. The neighborhood is quiet, everyone is traveling, the mailbox is full of cards instead of flyers. It looks like nothing is happening.
+
 
     What I will say is this: the people out looking in late December chose to be out looking in late December. Nobody is killing time.
 
+
     So the real question is not whether to list. It is whether your house is ready to be seen if someone knocks.
 
-    Comment 'SELLER' and I'll send you the short version of how I handle a holiday listing.
 
-    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #CerritosCA #SouthBayHomes #SoCalRealEstate
-  linkedin: |-
-    There is a conversation that happens every year around the second week of December: "let's wait, nobody is looking right now."
+    Comment ''SELLER'' and I''ll send you the short version of how I handle a holiday listing.
+
+
+    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #CerritosCA #SouthBayHomes #SoCalRealEstate'
+  linkedin: 'There is a conversation that happens every year around the second week of December: "let''s wait, nobody is looking right now."
+
 
     It is an understandable read. The street is quiet, people are traveling, and the usual signals of activity go away for a few weeks. But the buyers who are out between the holidays chose to spend that week looking at houses, which tells you something about where they are in the process.
 
+
     The useful question is not list or wait. It is whether the property is ready to be seen on short notice if someone does knock.
+
 
     What is your read on December activity in your market?
 
-    #RealEstate #HomeSelling #RealEstateHumor
+
+    #RealEstate #HomeSelling #RealEstateHumor'
   tiktok: nobody is looking in december, they say, as i unlock a door on december 26th.
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-28/media/r2-instagram.mp4
+  facebook: queue/2026-11-28/media/r2-facebook.mp4
+  linkedin: queue/2026-11-28/media/r2-linkedin.mp4
+schedule:
+  facebook: 2026-11-28T10:30-08:00
+  instagram: 2026-11-28T10:30-08:00
+  linkedin: 2026-11-28T10:30-08:00
+rendered:
+  instagram:
+    theme: porcelain
+    deco: rules
+    side: left
+    center: true
+    template: meme
+  facebook:
+    theme: silver
+    deco: corners
+    side: left
+    center: true
+    template: meme
+  linkedin:
+    theme: aurum
+    deco: dots
+    side: left
+    center: false
+    template: meme

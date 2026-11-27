@@ -19,3 +19,23 @@ design:
   cta: Reply 'RATES' with your answer
 sources:
 - https://www.freddiemac.com/pmms
+status: {}
+media:
+  instagram: queue/2026-11-28/media/s1-instagram.jpg
+  facebook: queue/2026-11-28/media/s1-facebook.jpg
+schedule:
+  facebook: 2026-11-28T07:08-08:00
+  instagram: 2026-11-28T07:03-08:00
+rendered:
+  instagram:
+    theme: noir
+    deco: dots
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: porcelain
+    deco: split
+    side: left
+    center: false
+    template: quiz

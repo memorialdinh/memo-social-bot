@@ -2,7 +2,7 @@ id: r1
 kind: reel
 track: market_update
 topic: Freddie Mac 30-year fixed weekly average 7.21 percent as of November 25 2026 down from 7.28 percent and what the move does to one example payment
-time: "08:55"
+time: 08:55
 approved: true
 design:
   template: stat
@@ -18,31 +18,67 @@ design:
   - PMMS reads conforming purchase loans, 20% down, excellent credit.
   cta: DM 'RATES' for this week's numbers
 captions:
-  default: |-
-    7.21%.
+  default: '7.21%.
+
 
     That is the 30-year fixed average as of Nov 25, 2026, down from 7.28% the week before (Freddie Mac PMMS). A year earlier the same survey read 6.23%.
 
+
     What seven basis points actually do: on a $700,000 loan at 30 years, principal and interest runs about $33 a month lower than it did last week. An example with stated assumptions, not a loan offer, and not a quote for you.
+
 
     Worth knowing what the survey is before you read too much into it. PMMS tracks conventional, conforming, fully amortizing purchase loans for borrowers putting 20% down with excellent credit. Your file is its own file.
 
-    I am telling you what happened this week. Where it goes next is nobody's to promise.
 
-    DM me 'RATES' and I'll send this week's numbers with the payment math on your price range.
+    I am telling you what happened this week. Where it goes next is nobody''s to promise.
 
-    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #CerritosCA #SouthBayHomes #SoCalRealEstate #mortgagerates
-  linkedin: |-
-    The 30-year fixed average came in at 7.21% as of Nov 25, 2026, down from 7.28% a week earlier. A year ago the same survey read 6.23% (Freddie Mac PMMS).
+
+    DM me ''RATES'' and I''ll send this week''s numbers with the payment math on your price range.
+
+
+    #LongBeachRealEstate #LakewoodHomes #TorranceHomes #CerritosCA #SouthBayHomes #SoCalRealEstate #mortgagerates'
+  linkedin: 'The 30-year fixed average came in at 7.21% as of Nov 25, 2026, down from 7.28% a week earlier. A year ago the same survey read 6.23% (Freddie Mac PMMS).
+
 
     Scale matters more than direction here. On a $700,000 loan over 30 years, that move is roughly $33 a month in principal and interest. An example with stated assumptions, not a loan offer. Useful for setting expectations, not for making a decision on its own.
 
+
     The survey covers conventional, conforming, fully amortizing purchase loans with 20% down and excellent credit, so it is a benchmark rather than a quote. This is what happened this week; forecasting the next one is not part of the job.
+
 
     How are you framing weekly moves this size for clients?
 
-    #RealEstate #MortgageRates #HousingMarket
+
+    #RealEstate #MortgageRates #HousingMarket'
   tiktok: 7.21% as of nov 25. that is about 33 dollars a month on a 700k example loan.
 sources:
 - https://www.freddiemac.com/pmms
 - https://au.finance.yahoo.com/news/mortgage-rates-dip-7-21-170000047.html
+status: {}
+media:
+  instagram: queue/2026-11-28/media/r1-instagram.mp4
+  facebook: queue/2026-11-28/media/r1-facebook.mp4
+  linkedin: queue/2026-11-28/media/r1-linkedin.mp4
+schedule:
+  facebook: 2026-11-28T08:55-08:00
+  instagram: 2026-11-28T08:55-08:00
+  linkedin: 2026-11-28T08:55-08:00
+rendered:
+  instagram:
+    theme: carbon
+    deco: beam
+    side: left
+    center: true
+    template: stat
+  facebook:
+    theme: ivory
+    deco: monogram
+    side: left
+    center: true
+    template: stat
+  linkedin:
+    theme: slate
+    deco: beam
+    side: left
+    center: false
+    template: stat
