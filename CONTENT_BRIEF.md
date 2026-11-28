@@ -320,6 +320,16 @@ the one being gently roasted, or in on the joke with the viewer.
    assuming a topic is fresh.
 
 ## Facts & compliance (non-negotiable)
+- **More detail, fact-checked, government sources first (Memo, Nov 27, 2026: "give more information
+  details that is fact check from reliable source, mainly government website").** Every education
+  piece carries at least one concrete, useful fact (a dollar limit, a deadline, a percentage, a form
+  name, a rule) instead of general advice. Verify each fact today with WebFetch on the primary source,
+  in this order: government sites (.gov / ca.gov / lacounty.gov / ocgov.com — e.g. IRS, HUD, CFPB,
+  FHFA, VA, FHA/HUD handbook, Freddie Mac PMMS, CA BOE, CA FTB, CA DRE, CalHFA, CA Courts, LA County
+  Assessor/Treasurer-Tax Collector, OC Assessor, city sites), then CAR.org, then Zillow/Realtor.com
+  data pages. Blogs, news recaps, AI answers and other agents' posts never count as a source.
+  Put the exact URL(s) in the item's `sources:` list and a short source tag on the graphic or in the
+  caption ("Source: IRS.gov, 2026"). If a fact can't be verified on such a source today, leave it out.
 - Every number needs a source in the item's `sources:` list and must be current (say "as of <date>").
   If you can't verify it, don't use it.
 - **Law posts** (`track: laws_and_updates`): cite the official source (bill page, DRE, HUD). They
