@@ -1,0 +1,20 @@
+id: s1
+kind: story
+track: buyer_education
+topic: Teaser quiz for the c1 carousel on pricing your offer off recent sold homes nearby instead of off the list price answered by DM
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: QUICK QUIZ
+  headline: Price your offer off *what*?
+  subhead: Swipe through today's carousel for the full game plan.
+  options:
+  - The list price
+  - Recent sold homes nearby
+  - Your approval amount
+  answer: B
+  explain: Sold comps show value. A list price is only an asking price.
+  reveal: false
+  cta: Reply 'BUYER' with your answer
+sources: []

@@ -1,0 +1,54 @@
+id: r2
+kind: reel
+track: seller_education
+topic: Inheriting a house together with your siblings who has authority who pays the carrying costs and what everyone wants to do with it
+time: auto
+approved: true
+design:
+  template: quiz
+  kicker: QUICK QUIZ
+  headline: Three of you inherit the house. What *first*?
+  subhead: General information, not legal or tax advice. Ask your own attorney.
+  options:
+  - Agree on a listing price
+  - Confirm who has authority to act
+  - Divide up what is inside
+  answer: B
+  explain: Until that is settled, nobody can list it, rent it or refinance it.
+  reveal: true
+  cta: Comment 'SELLER' for the first steps
+captions:
+  default: |-
+    Three siblings, one house, and everyone starts with the price.
+
+    Price is the third conversation. Here is the order that actually works:
+
+    First, authority. Who is legally able to sign for the property — the executor, the successor trustee, whoever the documents name. Until that is settled, nobody can list it, rent it or refinance it, no matter how much everyone agrees.
+
+    Second, the carrying costs. The mortgage, taxes, insurance and utilities keep coming while you figure it out. Decide who pays them and how that gets squared up later. In writing, between siblings who love each other.
+
+    Third, what each of you actually wants. One wants out, one wants to keep it, one has not decided. That is normal, and it is a lot easier to solve once the first two are answered.
+
+    I am not your attorney and this is not legal or tax advice. Get one, and get a CPA. But the order above is free.
+
+    Comment 'SELLER' and I'll send you the first steps I walk families through.
+
+    #LongBeachRealEstate #LakewoodCA #CerritosHomes #TorranceHomes #SouthBayHomes #EstateSale #InheritedProperty
+  linkedin: |-
+    When siblings inherit a house together, the first conversation is almost always about price. It is the one that can wait.
+
+    A more workable order:
+
+    Authority first. Who can legally sign for the property — the executor, the successor trustee, whoever the estate documents name. Nothing can be listed, rented or refinanced until that is established.
+
+    Carrying costs second. Mortgage, taxes, insurance and utilities continue during the decision. Who funds them, and how it is reconciled at the end, belongs in writing.
+
+    Intentions third. One sibling wanting out and another wanting to keep it is a normal starting point, and far easier to solve once the first two are settled.
+
+    General information only, not legal or tax advice — these situations need an attorney and a CPA.
+
+    What order do you see work best in practice?
+
+    #RealEstate #EstatePlanning #HomeSelling
+  tiktok: three siblings inherit a house. everyone starts with the price. price is the third conversation.
+sources: []

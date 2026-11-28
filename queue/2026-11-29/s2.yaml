@@ -1,0 +1,18 @@
+id: s2
+kind: story
+track: buyer_education
+topic: What a permit history search at the city tells you about a house before you buy it
+time: auto
+approved: true
+design:
+  template: explainer
+  kicker: REAL ESTATE 101
+  headline: Was that bedroom ever *permitted*?
+  subhead: General information, not legal advice. Confirm with the city.
+  term: Permit history
+  pos: noun - city building records
+  definition: The city's own record of the permits pulled on a house, and whether each one was signed off as finished.
+  why: Unpermitted work can follow you into insurance, appraisal and resale.
+  example: A converted garage with no final sign-off is a question, not a bedroom.
+  cta: DM 'BUYER' for my buyer roadmap
+sources: []
