@@ -332,6 +332,19 @@ the one being gently roasted, or in on the joke with the viewer.
   caption ("Source: IRS.gov, 2026"). If a fact can't be verified on such a source today, leave it out.
 - Every number needs a source in the item's `sources:` list and must be current (say "as of <date>").
   If you can't verify it, don't use it.
+- **What's changing in 2027 (Memo, Nov 27, 2026: "details of what's changing, new law that's coming
+  into effect in 2027, bill that has been passed but not approved yet").** Cover, with specifics:
+  (1) laws taking effect in 2027 (California chaptered bills, mostly Jan 1, 2027; federal rules; LA/OC
+  County and city ordinances) — what changes, who it affects, the effective date, what to do now;
+  (2) bills that passed a vote but are NOT law yet (passed one house, waiting on the other house, the
+  Governor/President, or a council's final vote). Always state the exact status in plain words
+  ("Passed the Senate on <date>. Not law yet: still needs <next step>."), never call a pending bill a
+  law, and never predict whether it will pass. Verify status and text on the official page the same
+  day: leginfo.legislature.ca.gov (bill status/history and chaptered text), congress.gov, federalregister.gov,
+  dre.ca.gov, hcd.ca.gov, ftb.ca.gov, boe.ca.gov, county/city clerk or council pages. CAR.org legal
+  updates may point you to bills, but the bill page is the source. Put bill numbers (e.g. "AB 1234")
+  and links in `sources:`. Reels and stories may tease a law item; the Canva carousel task carries the
+  detailed version.
 - **Law posts** (`track: laws_and_updates`): cite the official source (bill page, DRE, HUD). They
   always wait for Memo's approval. Explain what changed; never give legal advice.
 - No guarantees, no predictions stated as fact ("prices will…", "rates will…"), no "best agent / #1".
