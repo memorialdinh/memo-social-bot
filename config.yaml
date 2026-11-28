@@ -62,6 +62,7 @@ tracks:
   laws_and_updates:   { weight: 1, label: "NEW LAW ALERT" }
   investment:         { weight: 2, label: "INVESTOR MATH" }
   local_spotlight:    { weight: 1, label: "LOCAL SPOTLIGHT" }
+  coming_soon:        { weight: 1, label: "COMING SOON" }     # developments in his cities (Memo, Nov 27 2026)
   humor:              { weight: 2, label: "REAL TALK" }       # memes — see CONTENT_BRIEF
   motivation:         { weight: 2, label: "MONDAY" }          # inspiring / empowering, quote template
   community:          { weight: 0, label: "BIRTHDAY CLUB" }   # written by the engagement brain, not the daily writer
@@ -76,6 +77,7 @@ default_cta:
   laws_and_updates: "DM me your question on this"
   investment:       "DM 'INVEST' for the worksheet"
   local_spotlight:  "DM 'BUYER' to see homes here"
+  coming_soon:      "DM 'VALUE' to see what it means for your home"
   humor:            "Follow for real talk + real numbers"
   motivation:       "DM 'BUYER' and we'll map your numbers"
   community:        "DM 'BDAY' to join the Birthday Club"

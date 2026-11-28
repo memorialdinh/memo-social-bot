@@ -353,6 +353,18 @@ the one being gently roasted, or in on the joke with the viewer.
   cities + unincorporated OC), starting with his service areas (Lakewood, Long Beach, Gardena,
   Torrance, Redondo Beach, El Segundo, Cypress, Cerritos). Source: the city's own site, municipal
   code, council agendas/minutes, or the county site. Log covered cities in knowledge/city-log.csv.
+- **Coming soon in his cities (Memo, Nov 27, 2026: "post anything that are developing soon in the
+  cities"). Track `coming_soon`.** New housing developments, mixed-use projects, retail and
+  restaurants, parks, schools under construction, transit and road projects (e.g. LA Metro lines,
+  station openings), civic projects, approved specific plans, in LA County and OC cities, service
+  areas first. Source only official pages: the city's planning/community development "current
+  projects" or "major development" list, planning commission and council agendas/staff reports,
+  LA Metro / OCTA / Caltrans project pages, county pages, or the developer's own project site for
+  details the city has already approved. State the exact status in plain words ("Approved by the
+  Planning Commission <date>", "Under construction, city lists completion as <date>", "Proposed,
+  public hearing <date>") and never present a proposal as certain. Never say a project will raise
+  (or lower) home values, and never describe who the project is "for". Log projects in
+  knowledge/development-log.csv (date, city, project, status, url) and update status when it changes.
 - **Law posts** (`track: laws_and_updates`): cite the official source (bill page, DRE, HUD). Since
   Nov 27, 2026 they post automatically (Memo chose auto-post), so the facts check must be airtight. Explain what changed; never give legal advice.
 - No guarantees, no predictions stated as fact ("prices will…", "rates will…"), no "best agent / #1".
