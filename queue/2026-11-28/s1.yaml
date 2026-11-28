@@ -19,7 +19,15 @@ design:
   cta: Reply 'RATES' with your answer
 sources:
 - https://www.freddiemac.com/pmms
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18029953403872180'
+    at: '2026-11-28T07:16:02-08:00'
+  facebook:
+    state: posted
+    id: '1746225987514006'
+    at: '2026-11-28T07:16:08-08:00'
 media:
   instagram: queue/2026-11-28/media/s1-instagram.jpg
   facebook: queue/2026-11-28/media/s1-facebook.jpg
