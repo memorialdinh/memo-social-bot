@@ -18,37 +18,77 @@ design:
   reveal: true
   cta: Comment 'SELLER' for the first steps
 captions:
-  default: |-
-    Three siblings, one house, and everyone starts with the price.
+  default: 'Three siblings, one house, and everyone starts with the price.
+
 
     Price is the third conversation. Here is the order that actually works:
 
+
     First, authority. Who is legally able to sign for the property — the executor, the successor trustee, whoever the documents name. Until that is settled, nobody can list it, rent it or refinance it, no matter how much everyone agrees.
+
 
     Second, the carrying costs. The mortgage, taxes, insurance and utilities keep coming while you figure it out. Decide who pays them and how that gets squared up later. In writing, between siblings who love each other.
 
+
     Third, what each of you actually wants. One wants out, one wants to keep it, one has not decided. That is normal, and it is a lot easier to solve once the first two are answered.
+
 
     I am not your attorney and this is not legal or tax advice. Get one, and get a CPA. But the order above is free.
 
-    Comment 'SELLER' and I'll send you the first steps I walk families through.
 
-    #LongBeachRealEstate #LakewoodCA #CerritosHomes #TorranceHomes #SouthBayHomes #EstateSale #InheritedProperty
-  linkedin: |-
-    When siblings inherit a house together, the first conversation is almost always about price. It is the one that can wait.
+    Comment ''SELLER'' and I''ll send you the first steps I walk families through.
+
+
+    #LongBeachRealEstate #LakewoodCA #CerritosHomes #TorranceHomes #SouthBayHomes #EstateSale #InheritedProperty'
+  linkedin: 'When siblings inherit a house together, the first conversation is almost always about price. It is the one that can wait.
+
 
     A more workable order:
 
+
     Authority first. Who can legally sign for the property — the executor, the successor trustee, whoever the estate documents name. Nothing can be listed, rented or refinanced until that is established.
+
 
     Carrying costs second. Mortgage, taxes, insurance and utilities continue during the decision. Who funds them, and how it is reconciled at the end, belongs in writing.
 
+
     Intentions third. One sibling wanting out and another wanting to keep it is a normal starting point, and far easier to solve once the first two are settled.
+
 
     General information only, not legal or tax advice — these situations need an attorney and a CPA.
 
+
     What order do you see work best in practice?
 
-    #RealEstate #EstatePlanning #HomeSelling
+
+    #RealEstate #EstatePlanning #HomeSelling'
   tiktok: three siblings inherit a house. everyone starts with the price. price is the third conversation.
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-29/media/r2-instagram.mp4
+  facebook: queue/2026-11-29/media/r2-facebook.mp4
+  linkedin: queue/2026-11-29/media/r2-linkedin.mp4
+schedule:
+  facebook: 2026-11-29T21:03-08:00
+  instagram: 2026-11-29T21:06-08:00
+  linkedin: 2026-11-29T21:10-08:00
+rendered:
+  instagram:
+    theme: noir
+    deco: split
+    side: left
+    center: false
+    template: quiz
+  facebook:
+    theme: porcelain
+    deco: glow
+    side: left
+    center: false
+    template: quiz
+  linkedin:
+    theme: carbon
+    deco: corners
+    side: left
+    center: false
+    template: quiz

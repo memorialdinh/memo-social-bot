@@ -16,3 +16,23 @@ design:
   example: A converted garage with no final sign-off is a question, not a bedroom.
   cta: DM 'BUYER' for my buyer roadmap
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-29/media/s2-instagram.jpg
+  facebook: queue/2026-11-29/media/s2-facebook.jpg
+schedule:
+  facebook: 2026-11-29T10:02-08:00
+  instagram: 2026-11-29T08:09-08:00
+rendered:
+  instagram:
+    theme: ivory
+    deco: grid
+    side: right
+    center: false
+    template: explainer
+  facebook:
+    theme: graphite
+    deco: dots
+    side: right
+    center: false
+    template: explainer

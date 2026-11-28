@@ -11,44 +11,86 @@ design:
   headline: Ask these before you *sign* anywhere.
   subhead: My own list. Any brokerage, any state.
   points:
-  - 'What does one closed deal actually cost me, start to finish?'
-  - 'Who picks up the phone when a contract goes sideways?'
-  - 'What does support look like in month six, not week one?'
-  - 'If I ever leave, what happens to what I built?'
+  - What does one closed deal actually cost me, start to finish?
+  - Who picks up the phone when a contract goes sideways?
+  - What does support look like in month six, not week one?
+  - If I ever leave, what happens to what I built?
   cta: DM 'MATH' for my full list
 captions:
-  default: |-
-    If you are licensed and thinking about a move, bring a list. Not a pitch.
+  default: 'If you are licensed and thinking about a move, bring a list. Not a pitch.
+
 
     These are the four I would want you to ask me, and I would want you asking every brokerage you talk to the same way:
 
+
     What does one closed deal actually cost me, start to finish? Not the split. The whole number, with every fee in it.
+
 
     Who picks up the phone when a contract goes sideways on a Friday night?
 
+
     What does support look like in month six, when the welcome calls have stopped?
+
 
     And if I ever leave, what happens to what I built?
 
+
     Any brokerage worth signing with can answer all four in plain numbers and plain English. If an answer gets vague, that is the answer.
 
-    DM me 'MATH' and I'll send you the full list I use, plus how I'd answer it myself.
 
-    #RealEstateAgents #AgentLife #RealEstateCareer #RealtorLife #BrokerageLife #AgentGrowth #RealEstateBusiness
-  linkedin: |-
-    Agents change brokerages on vibe more often than on arithmetic. The agents who do it well bring a list.
+    DM me ''MATH'' and I''ll send you the full list I use, plus how I''d answer it myself.
+
+
+    #RealEstateAgents #AgentLife #RealEstateCareer #RealtorLife #BrokerageLife #AgentGrowth #RealEstateBusiness'
+  linkedin: 'Agents change brokerages on vibe more often than on arithmetic. The agents who do it well bring a list.
+
 
     Four questions I think belong on it, and that I want asked of me:
 
+
     1. What does one closed deal cost me, start to finish, with every fee included — not just the split.
+
     2. Who is reachable when a contract goes sideways outside business hours.
+
     3. What support looks like in month six, after onboarding ends.
+
     4. What happens to what I have built if I leave.
+
 
     Takeaway: the answers matter less than whether they come in plain numbers. Vagueness on any of the four is itself information.
 
+
     What would you add as a fifth?
 
-    #RealEstate #RealEstateAgents #Leadership
+
+    #RealEstate #RealEstateAgents #Leadership'
   tiktok: four questions to ask any brokerage before you sign. the fourth one is the one nobody wants to answer.
 sources: []
+status: {}
+media:
+  instagram: queue/2026-11-29/media/r1-instagram.mp4
+  facebook: queue/2026-11-29/media/r1-facebook.mp4
+  linkedin: queue/2026-11-29/media/r1-linkedin.mp4
+schedule:
+  facebook: 2026-11-29T09:04-08:00
+  instagram: 2026-11-29T09:02-08:00
+  linkedin: 2026-11-29T09:08-08:00
+rendered:
+  instagram:
+    theme: silver
+    deco: glow
+    side: left
+    center: false
+    template: spotlight
+  facebook:
+    theme: carbon
+    deco: grid
+    side: left
+    center: false
+    template: spotlight
+  linkedin:
+    theme: slate
+    deco: split
+    side: left
+    center: false
+    template: spotlight
