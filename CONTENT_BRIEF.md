@@ -353,8 +353,8 @@ the one being gently roasted, or in on the joke with the viewer.
   cities + unincorporated OC), starting with his service areas (Lakewood, Long Beach, Gardena,
   Torrance, Redondo Beach, El Segundo, Cypress, Cerritos). Source: the city's own site, municipal
   code, council agendas/minutes, or the county site. Log covered cities in knowledge/city-log.csv.
-- **Law posts** (`track: laws_and_updates`): cite the official source (bill page, DRE, HUD). They
-  always wait for Memo's approval. Explain what changed; never give legal advice.
+- **Law posts** (`track: laws_and_updates`): cite the official source (bill page, DRE, HUD). Since
+  Nov 27, 2026 they post automatically (Memo chose auto-post), so the facts check must be airtight. Explain what changed; never give legal advice.
 - No guarantees, no predictions stated as fact ("prices will…", "rates will…"), no "best agent / #1".
 - Fair Housing: describe properties and areas, never the people who should live there. No
   "perfect for families", "safe neighborhood", "exclusive community", or anything about race,

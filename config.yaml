@@ -82,7 +82,8 @@ default_cta:
 
 # Safety: these tracks always wait for your approval before posting.
 # Everything else posts automatically once the writer marks it approved.
-require_approval_tracks: [laws_and_updates]
+# Memo, Nov 27, 2026: law posts auto-post too (they're fact-checked on official sources first).
+require_approval_tracks: []
 # Set to true if you want to approve EVERYTHING by hand.
 require_approval_all: false
 
