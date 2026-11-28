@@ -41,7 +41,19 @@ captions:
 
 
     #RealEstate #RealEstateInvesting #HousingMarket'
-status: {}
+status:
+  instagram:
+    state: posted
+    id: '18078889850473134'
+    at: '2026-11-27T18:16:15-08:00'
+  facebook:
+    state: posted
+    id: '883745438682123_1189268090767289'
+    at: '2026-11-27T18:16:24-08:00'
+  linkedin:
+    state: posted
+    id: urn:li:ugcPost:7532266123153539072
+    at: '2026-11-27T18:16:27-08:00'
 media:
   instagram: &id001
   - queue/2026-11-27/media/c3-1.jpg
