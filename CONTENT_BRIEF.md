@@ -345,6 +345,14 @@ the one being gently roasted, or in on the joke with the viewer.
   updates may point you to bills, but the bill page is the source. Put bill numbers (e.g. "AB 1234")
   and links in `sources:`. Reels and stories may tease a law item; the Canva carousel task carries the
   detailed version.
+- **City by city, all of LA County and Orange County (Memo, Nov 27, 2026: "for each cities, in los
+  angeles and orange county").** Local rules matter as much as state law: rent control / just-cause
+  rules, rental registration, ADU and SB 9 rules, short-term rental bans, permit and inspection
+  requirements, transfer taxes (e.g. City of LA Measure ULA), point-of-sale requirements, local
+  homebuyer programs. Cover each city in turn (88 LA County cities + unincorporated LA County, 34 OC
+  cities + unincorporated OC), starting with his service areas (Lakewood, Long Beach, Gardena,
+  Torrance, Redondo Beach, El Segundo, Cypress, Cerritos). Source: the city's own site, municipal
+  code, council agendas/minutes, or the county site. Log covered cities in knowledge/city-log.csv.
 - **Law posts** (`track: laws_and_updates`): cite the official source (bill page, DRE, HUD). They
   always wait for Memo's approval. Explain what changed; never give legal advice.
 - No guarantees, no predictions stated as fact ("prices will…", "rates will…"), no "best agent / #1".
