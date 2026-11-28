@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T14:21-08:00",
+  "updated": "2026-11-28T01:26-08:00",
   "scores": {
     "track:untagged": {
       "posts": 189,
@@ -10,31 +10,31 @@
     },
     "kind:reel": {
       "posts": 109,
-      "avg_rate": 0.0144,
+      "avg_rate": 0.0146,
       "avg_eng": 1.6,
       "avg_save_rate": 0.0003,
       "avg_share_rate": 0.0001
     },
     "platform:instagram": {
-      "posts": 354,
-      "avg_rate": 0.0153,
+      "posts": 355,
+      "avg_rate": 0.0154,
       "avg_eng": 1.4,
       "avg_save_rate": 0.0002,
       "avg_share_rate": 0.0001
     },
     "kind:post": {
-      "posts": 249,
-      "avg_rate": 0.0108,
+      "posts": 251,
+      "avg_rate": 0.0109,
       "avg_eng": 1.0,
       "avg_save_rate": 0.0001,
       "avg_share_rate": 0.004
     },
     "platform:facebook": {
-      "posts": 160,
-      "avg_rate": 0.0068,
+      "posts": 161,
+      "avg_rate": 0.0067,
       "avg_eng": 0.0,
       "avg_save_rate": 0.0,
-      "avg_share_rate": 0.0063
+      "avg_share_rate": 0.0062
     },
     "kind:story": {
       "posts": 156,
@@ -45,7 +45,7 @@
     },
     "track:seller_education": {
       "posts": 75,
-      "avg_rate": 0.0021,
+      "avg_rate": 0.0028,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -66,7 +66,7 @@
     },
     "theme:ivory": {
       "posts": 34,
-      "avg_rate": 0.0046,
+      "avg_rate": 0.0033,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -87,7 +87,7 @@
     },
     "track:buyer_education": {
       "posts": 83,
-      "avg_rate": 0.004,
+      "avg_rate": 0.0034,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -128,8 +128,8 @@
       "avg_share_rate": 0.0
     },
     "track:investment": {
-      "posts": 28,
-      "avg_rate": 0.004,
+      "posts": 30,
+      "avg_rate": 0.0056,
       "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -171,8 +171,8 @@
     },
     "track:local_spotlight": {
       "posts": 7,
-      "avg_rate": 0.0049,
-      "avg_eng": 0.6,
+      "avg_rate": 0.0057,
+      "avg_eng": 0.7,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
@@ -192,8 +192,8 @@
     },
     "theme:porcelain": {
       "posts": 41,
-      "avg_rate": 0.0016,
-      "avg_eng": 0.0,
+      "avg_rate": 0.0028,
+      "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
@@ -213,15 +213,15 @@
     },
     "template:quiz": {
       "posts": 54,
-      "avg_rate": 0.0037,
+      "avg_rate": 0.0029,
       "avg_eng": 0.1,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "template:compare": {
       "posts": 13,
-      "avg_rate": 0.0014,
-      "avg_eng": 0.1,
+      "avg_rate": 0.0052,
+      "avg_eng": 0.2,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
@@ -254,15 +254,15 @@
       "avg_share_rate": 0.0
     },
     "template:carousel": {
-      "posts": 12,
-      "avg_rate": 0.0148,
+      "posts": 14,
+      "avg_rate": 0.0172,
       "avg_eng": 1.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
     },
     "theme:canva": {
-      "posts": 12,
-      "avg_rate": 0.0148,
+      "posts": 14,
+      "avg_rate": 0.0172,
       "avg_eng": 1.0,
       "avg_save_rate": 0.0,
       "avg_share_rate": 0.0
@@ -270,7 +270,7 @@
   },
   "directives": [
     "Write an extra Market Update piece and one fewer Birthday Club piece. Market Update earns 2.4% vs 0.0% over the last 60 days (49 vs 8 posts).",
-    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.4% against 1.1% for static posts.",
+    "Write 3 reels and 2 posts today instead of 2 and 3. Reels are at 1.5% against 1.1% for static posts.",
     "Real Talk gets saved the most (0.05% of reach). Saves and shares are what push a post to new people \u2014 write at least one piece built to be saved: a checklist, a number worth keeping, or a comparison.",
     "The 'stat' template gets shared most. Use it at least once today.",
     "Stop using the 'cta' template for now \u2014 it runs at 0.0% against 'stat' at 2.8%."
