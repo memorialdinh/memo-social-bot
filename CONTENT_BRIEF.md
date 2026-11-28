@@ -361,6 +361,13 @@ the one being gently roasted, or in on the joke with the viewer.
   religion, national origin, sex, disability, familial status, etc.
 - Agent-attraction posts: no income promises. Revenue share/equity mentions must say "subject to plan terms".
 - The bot adds the DRE/Epique/Equal Housing footer to captions and graphics automatically.
+- **Always a disclaimer (Memo, Nov 27, 2026: "always add disclaimer to protect me").** Every caption
+  gets the full footer from config.yaml automatically (general information only, not legal/tax/
+  financial/lending advice, believed accurate as of posting, verify with the official source and a
+  licensed professional). Every graphic, story, reel end card and carousel's last slide also shows a
+  short on-image line: "General info only, not legal, tax or lending advice. Info as of <Mon YYYY>."
+  Never remove or shorten it, never imply a guarantee, and never write anything that reads as
+  advice to a specific person.
 - `python -m bot.validate` must pass before pushing.
 
 ## YAML format

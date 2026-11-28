@@ -119,7 +119,9 @@ class Item:
             text = self._with_site(text, platform)
         footer_key = "agent_compliance_footer" if self.track == "agent_attraction" else "compliance_footer"
         footer = CFG["brand"][footer_key]
-        if text and "DRE" not in text:
+        # Memo, Nov 27 2026: "always add disclaimer to protect me" - every caption gets the
+        # full footer, even if the writer already mentioned the DRE number.
+        if text and footer not in text:
             text = f"{text}\n\n{footer}"
         return text
 

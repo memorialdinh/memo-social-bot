@@ -22,8 +22,8 @@ brand:
     carbon: "#d9d6d1"
     gold: "#bca480"
   # Added to the END of every caption automatically (unless already there).
-  compliance_footer: "Memo Dinh | DRE #02066757 | Epique Realty | Equal Housing Opportunity. Not legal, tax or lending advice."
-  agent_compliance_footer: "Memo Dinh | DRE #02066757 | Epique Realty. Revenue share & equity programs are subject to Epique's current plan terms and eligibility; no income is guaranteed."
+  compliance_footer: "Memo Dinh | DRE #02066757 | Epique Realty | Equal Housing Opportunity. General information only, not legal, tax, financial or lending advice. Believed accurate as of posting but not guaranteed; laws, rates and programs change. Verify with the official source and talk to a licensed professional before acting."
+  agent_compliance_footer: "Memo Dinh | DRE #02066757 | Epique Realty. General information only. Revenue share & equity programs are subject to Epique's current plan terms and eligibility; no income is guaranteed."
 
 # Turn a platform off by setting enabled: false
 platforms:
